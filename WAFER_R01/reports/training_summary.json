@@ -1,0 +1,29 @@
+{
+  "status": "TRAINING_COMPLETE",
+  "finished_utc": "2026-09-28T16:45:51.818034+00:00",
+  "epochs_completed": 10,
+  "direct_optimizer_calls": 1932,
+  "batches": 3680,
+  "image_exposures": 14720,
+  "unique_training_images_seen": 1472,
+  "transformed_class_exposures": {
+    "4": 3830,
+    "3": 6280,
+    "5": 9070,
+    "2": 1720,
+    "1": 1020,
+    "0": 2260
+  },
+  "initial_parameter_sha256": "0f8ebe3303471586bc85f8f2b95f1744e94b5cc04d28f8314c22ebb675cd1918",
+  "final_parameter_sha256": "b7da429ebcf3ec431a2a1cdfd480f620efe2dcd21712090cd46b0a02e2ca7e51",
+  "parameter_step_min": 1932,
+  "parameter_step_max": 1932,
+  "ema_updates": 1932,
+  "peak_allocated_bytes": 2540515328,
+  "peak_reserved_bytes": 3099590656,
+  "best_checkpoint": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\wafer_r01\\runs\\yolo11n_10ep\\weights\\best.pt",
+  "best_checkpoint_sha256": "c92e701e065a35d8777689bb3c025a57940c70749afb18198132b865a5e4ee29",
+  "class_weight_note": "No extra class weighting; source label counts and actual transformed exposures are distinct",
+  "d455_verified": false,
+  "instance_masks_trained": false
+}

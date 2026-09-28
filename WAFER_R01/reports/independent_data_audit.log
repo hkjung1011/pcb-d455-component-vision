@@ -1,0 +1,5 @@
+AUDIT_SOURCE 500/2132
+AUDIT_SOURCE 1000/2132
+AUDIT_SOURCE 1500/2132
+AUDIT_SOURCE 2000/2132
+{"status": "PASS_INDEPENDENT_DATA_AUDIT", "source_images": 2132, "retained_images": 2034, "retained_boxes": 3394, "reconstructed_groups": 1481, "maximum_yolo_roundtrip_error_pixels": 4.800006081495667e-08, "failures": []}

@@ -1,0 +1,11 @@
+{
+  "status": "FROZEN_CODE_BEFORE_TEST",
+  "frozen_utc": "2026-09-28T16:39:07.953154+00:00",
+  "plan_sha256": "55f7bc289457151e9287c0d600428eea0ef6e0a7144e401f78d4db69d6ae3ae4",
+  "script_sha256": "6effa846c90942bcb35c28f6724a61acd1648e79f6b71490e8caea5a1c48096d",
+  "matching_self_tests": "7 passed",
+  "test_log_sha256": "b01065659271b52501e2d35a99c3dbab93507260a12f9569e2ed33f689bf158d",
+  "test_results_present": false,
+  "command": "python -B work/wafer_r01/scripts/audit_final_results.py",
+  "no_primary_changes": true
+}

@@ -1,0 +1,9 @@
+{
+  "frozen_utc": "2026-09-28T16:45:52.397362+00:00",
+  "checkpoint": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\wafer_r01\\runs\\yolo11n_10ep\\weights\\best.pt",
+  "sha256": "c92e701e065a35d8777689bb3c025a57940c70749afb18198132b865a5e4ee29",
+  "selected_on": "validation only",
+  "test_results_seen": false,
+  "protocol_sha256": "703c4a5cf945989549704fc3b118191baa92910d17903bae9891e8fb815c9294",
+  "data_audit_sha256": "536aa7cbb89e32169776280c058e9193344c09fb08ff3d2e10324a5d8c94dc31"
+}

@@ -1,0 +1,12 @@
+test_duplicates_and_class_confusion (__main__.self_test.<locals>.Tests.test_duplicates_and_class_confusion) ... ok
+test_empty_class_and_image (__main__.self_test.<locals>.Tests.test_empty_class_and_image) ... ok
+test_exact_iou_boundary (__main__.self_test.<locals>.Tests.test_exact_iou_boundary) ... ok
+test_exact_iou_tie_uses_lower_source_index (__main__.self_test.<locals>.Tests.test_exact_iou_tie_uses_lower_source_index) ... ok
+test_exact_threshold_and_low_score (__main__.self_test.<locals>.Tests.test_exact_threshold_and_low_score) ... ok
+test_training_step_schedule (__main__.self_test.<locals>.Tests.test_training_step_schedule) ... ok
+test_wrong_class_false_negative (__main__.self_test.<locals>.Tests.test_wrong_class_false_negative) ... ok
+
+----------------------------------------------------------------------
+Ran 7 tests in 0.002s
+
+OK

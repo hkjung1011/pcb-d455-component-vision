@@ -1,0 +1,22 @@
+{
+  "started_utc": "2026-09-28T16:31:50.586632+00:00",
+  "initial_parameter_sha256": "0f8ebe3303471586bc85f8f2b95f1744e94b5cc04d28f8314c22ebb675cd1918",
+  "torch": "2.12.1+cu130",
+  "ultralytics": "8.4.120",
+  "cuda": "13.0",
+  "gpu": "NVIDIA GeForce RTX 5060 Laptop GPU",
+  "parameters": 2591010,
+  "actual_batch": 4,
+  "train_batches_per_epoch": 368,
+  "names": {
+    "0": "edge_bite",
+    "1": "gray_line",
+    "2": "open",
+    "3": "scratch",
+    "4": "short_circuit",
+    "5": "stains_enbedded"
+  },
+  "script_sha256": "3d3290303b764834026cc477339a41e378d74bca5ae880d471c555082d00ae7e",
+  "class_weight_tensor": null,
+  "class_loss_policy": "No added per-class multiplier; stock classification loss"
+}

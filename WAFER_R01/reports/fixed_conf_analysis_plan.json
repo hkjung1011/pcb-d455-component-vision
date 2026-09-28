@@ -1,0 +1,43 @@
+{
+  "schema": "wafer-r01-supplementary-fixed-confidence-v1",
+  "frozen_utc": "2026-09-28T16:35:20.818764+00:00",
+  "status": "FIXED_BEFORE_TEST",
+  "analysis_kind": "Descriptive fixed operating point on saved serialized test predictions; no validation optimization",
+  "confidence": 0.25,
+  "iou": 0.5,
+  "matching": "Per image predictions sorted descending stored score, original JSON index breaks score ties; same class unmatched GT with maximum IoU>=0.5; smaller source object index breaks exact IoU ties; one-to-one greedy",
+  "class_ids": "Ultralytics custom dataset JSON category_id1..6 -> manifest class_id0..5",
+  "names": [
+    "edge_bite",
+    "gray_line",
+    "open",
+    "scratch",
+    "short_circuit",
+    "stains_enbedded"
+  ],
+  "prediction_contract": {
+    "source": "evaluation/test/predictions.json",
+    "global_max_det_per_image": 300,
+    "inference_floor": 0.001,
+    "nms_iou": 0.7,
+    "bbox_xywh_decimals": 3,
+    "score_decimals": 5
+  },
+  "output": "micro and classwise TP/FP/FN, precision, recall, F1, GT denominator, per-image counts; no new model selection or threshold search",
+  "optional_independent_AP": "COCO bbox AP50-95, maxDets100/300 after global300 cap, scored from rounded saved predictions and frozen manifest. Separate reference implementation; not required to equal Ultralytics AP (matching/interpolation and JSON precision differ). Primary Ultralytics AP unchanged.",
+  "unseen_test_at_plan_freeze": true,
+  "prior_information_seen": "Training has started; source labels/splits and possibly early validation progress may have been seen. This is not a pre-training registration. No test results exist.",
+  "bindings": {
+    "protocol_sha256": "703c4a5cf945989549704fc3b118191baa92910d17903bae9891e8fb815c9294",
+    "manifest_sha256": "e4822bd4333eb075e5c75aec7108d4b9d9f8eb4433389aaa20c536f0deb9a315",
+    "data_audit_sha256": "536aa7cbb89e32169776280c058e9193344c09fb08ff3d2e10324a5d8c94dc31",
+    "train_pilot_sha256": "3d3290303b764834026cc477339a41e378d74bca5ae880d471c555082d00ae7e"
+  },
+  "limitations": [
+    "D455 not validated",
+    "No target4 or wafer masks trained",
+    "Physical wafer/lot independent split not established",
+    "Scores rounded5 decimals may move predictions at the fixed0.25 boundary; calculations intentionally use saved values",
+    "No FP removed for hypothetical annotation errors"
+  ]
+}

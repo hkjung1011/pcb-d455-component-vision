@@ -1,0 +1,136 @@
+{
+  "schema": "wafer-r01-independent-data-audit-v1",
+  "status": "PASS_INDEPENDENT_DATA_AUDIT",
+  "created_utc": "2026-09-28T16:31:52.042141+00:00",
+  "checks": [
+    "Six canonical classes and ordered IDs match",
+    "Only two short-circuit spellings normalized",
+    "2132 original candidates;2034 admitted images",
+    "Preparation binds exact source audit",
+    "Prepared script hash matches execution record",
+    "All3693 source objects and raw seven-name counts preserved",
+    "No VOC difficult labels require ignored-GT policy",
+    "49 exact-pixel groups have conflicting annotations;98 images",
+    "All and only conflicting duplicate images quarantined",
+    "No source-byte/decoded-hash crossing between splits",
+    "No source-byte/decoded-hash crossing between splits",
+    "All-pairs pHash<=4 candidate list independently reproduced",
+    "Exact/family/pHash/dHash connected components exactly match manifest group IDs",
+    "No reconstructed group crossing",
+    "train: all6 classes have at least5 boxes",
+    "train: exact label file inventory",
+    "train: exact prepared image inventory",
+    "val: all6 classes have at least5 boxes",
+    "val: exact label file inventory",
+    "val: exact prepared image inventory",
+    "test: all6 classes have at least5 boxes",
+    "test: exact label file inventory",
+    "test: exact prepared image inventory",
+    "Frozen split image/group/bbox/class counts reproduced",
+    "3394 retained source boxes",
+    "YAML class IDs/data root match manifest",
+    "Unknown physical independence explicitly retained",
+    "Actual optimizer post-step hook increments direct calls",
+    "Extra final-best validation callback excluded from epoch records",
+    "Optimizer/train pipeline precedes hook registration",
+    "Installed Ultralytics has extra final_eval callback; wrapper guard necessary",
+    "FP32 ten-epoch pilot with measured steps",
+    "Best weight SHA frozen before test evaluation",
+    "Explicit test inference protocol and no test operating-threshold report"
+  ],
+  "failures": [],
+  "limitations": [
+    "VOC1-based inclusive convention is inferred from source ranges, not author-confirmed",
+    "Filename/appearance groups do not prove physical wafer or lot independence",
+    "No images have been obtained from D455; no masks are present",
+    "Training callback behavior is source-reviewed; completed runtime must be separately checked"
+  ],
+  "input_sha256": {
+    "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\wafer_r01\\data\\manifest.json": "e4822bd4333eb075e5c75aec7108d4b9d9f8eb4433389aaa20c536f0deb9a315",
+    "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\wafer_r01\\data\\data.yaml": "dcb0d00ecf4c52d68ffd98a885c011b72e6f0271767382051dafaf65e1268fc2",
+    "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\wafer_r01\\reports\\data_audit.json": "536aa7cbb89e32169776280c058e9193344c09fb08ff3d2e10324a5d8c94dc31",
+    "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\wafer_research\\wafer_datas_source_audit.json": "b945f5ee825d36f80a672f25ce499dedff761e5f0d672dbd851abdb0df0adbf5",
+    "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\wafer_r01\\scripts\\prepare_data.py": "d37a2336cc7ea254814e26c2769518a1e6a58fee7af5ca9d1dbdaa580ade7259",
+    "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\wafer_r01\\scripts\\train_pilot.py": "3d3290303b764834026cc477339a41e378d74bca5ae880d471c555082d00ae7e",
+    "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\wafer_r01\\scripts\\audit_data_independent.py": "a1f703d5bce3dde87e4f384886a198f53f703772047a2a64cd768d674d560945"
+  },
+  "source_files_sha_and_git_blob_verified": 4264,
+  "prepared_audit_files_sha_verified": 6104,
+  "source_images": 2132,
+  "retained_images": 2034,
+  "source_boxes": 3693,
+  "retained_boxes": 3394,
+  "quarantined_images": 98,
+  "conflicting_exact_pixel_groups": 49,
+  "split": {
+    "train": {
+      "images": 1472,
+      "groups": 1036,
+      "bbox": 2418,
+      "classes": {
+        "gray_line": 102,
+        "scratch": 628,
+        "open": 172,
+        "edge_bite": 226,
+        "stains_enbedded": 907,
+        "short_circuit": 383
+      }
+    },
+    "val": {
+      "images": 275,
+      "groups": 222,
+      "bbox": 480,
+      "classes": {
+        "edge_bite": 40,
+        "stains_enbedded": 170,
+        "open": 27,
+        "gray_line": 27,
+        "scratch": 132,
+        "short_circuit": 84
+      }
+    },
+    "test": {
+      "images": 287,
+      "groups": 223,
+      "bbox": 496,
+      "classes": {
+        "scratch": 144,
+        "edge_bite": 40,
+        "stains_enbedded": 177,
+        "gray_line": 25,
+        "open": 38,
+        "short_circuit": 72
+      }
+    }
+  },
+  "phash_all_pairs_reproduced": 1586,
+  "retained_phash_edges": 1533,
+  "reconstructed_groups": 1481,
+  "near_dhash_low_mae_pairs": 53,
+  "maximum_yolo_roundtrip_error_pixels": 4.800006081495667e-08,
+  "canonical_names": [
+    "edge_bite",
+    "gray_line",
+    "open",
+    "scratch",
+    "short_circuit",
+    "stains_enbedded"
+  ],
+  "training_review": {
+    "status": "PASS_SOURCE_REVIEW_NOT_RUNTIME_EXECUTION",
+    "installed_trainer_sha256": "21591c434e65a0bb6a10504f9184c3af012dde58b4b15d714f0f7b93ed0d128c",
+    "pilot_script_sha256": "3d3290303b764834026cc477339a41e378d74bca5ae880d471c555082d00ae7e",
+    "optimizer_hook": "direct post-step",
+    "extra_final_epoch_callback_guard": true,
+    "epochs_configured": 10,
+    "amp": false
+  },
+  "finished_utc": "2026-09-28T16:32:38.664671+00:00",
+  "training_start_binding": {
+    "script_sha256": "3d3290303b764834026cc477339a41e378d74bca5ae880d471c555082d00ae7e",
+    "training_started_utc": "2026-09-28T16:31:50.586632+00:00",
+    "training_start_sha256": "05a33763d610d470c439c218fe3f430c9cd2dc0a921c21ef61391130ef49b721",
+    "matches_reviewed_script": true,
+    "audit_timing": "Independent read-only source/split audit completed while first pilot training was active; root preparation audit preceded training"
+  }
+}

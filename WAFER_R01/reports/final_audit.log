@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+{"status": "FAIL_INDEPENDENT_FINAL_AUDIT", "checks": 90, "failures": ["ValueError: Prediction coordinates/score invalid"]}
+  File "C:\Users\hkjun\Documents\Codex\2026-09-27\new-chat\work\wafer_r01\scripts\audit_final_results.py", line 137, in run
+    if not all(math.isfinite(float(v)) for v in [x,y,w,h,score]) or w<=0 or h<=0 or min(x,y)<-.002 or x+w>r['width']+.002 or y+h>r['height']+.002 or not .00099<=score<=1:raise ValueError('Prediction coordinates/score invalid')
+                                                                                                                                                                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: Prediction coordinates/score invalid

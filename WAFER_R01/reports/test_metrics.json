@@ -1,0 +1,56 @@
+{
+  "status": "PUBLIC_IMAGE_PILOT_EVALUATED_NOT_D455_VALIDATED",
+  "finished_utc": "2026-09-28T16:45:58.545838+00:00",
+  "checkpoint_sha256": "c92e701e065a35d8777689bb3c025a57940c70749afb18198132b865a5e4ee29",
+  "selection_sha256": "8472f7fab52a9490489eb7b0f31e638630e001a23e519f3e53b623e2620705ba",
+  "bbox_map50": 0.7373469699131436,
+  "bbox_map50_95": 0.36423598562281945,
+  "per_class": [
+    {
+      "class_id": 0,
+      "name": "edge_bite",
+      "ap50": 0.6295399733529776,
+      "ap50_95": 0.3092806427638089
+    },
+    {
+      "class_id": 1,
+      "name": "gray_line",
+      "ap50": 0.7696788664798174,
+      "ap50_95": 0.3234862491140116
+    },
+    {
+      "class_id": 2,
+      "name": "open",
+      "ap50": 0.8979853138847902,
+      "ap50_95": 0.48361607189611683
+    },
+    {
+      "class_id": 3,
+      "name": "scratch",
+      "ap50": 0.2556034526240395,
+      "ap50_95": 0.10780095289408101
+    },
+    {
+      "class_id": 4,
+      "name": "short_circuit",
+      "ap50": 0.9907962924606463,
+      "ap50_95": 0.5661235487915964
+    },
+    {
+      "class_id": 5,
+      "name": "stains_enbedded",
+      "ap50": 0.8804779206765909,
+      "ap50_95": 0.39510844827730174
+    }
+  ],
+  "speed": {
+    "preprocess": 0.4257508709731444,
+    "inference": 3.6727818823703453,
+    "loss": 0.0015766552944735783,
+    "postprocess": 0.8964630659955201
+  },
+  "metric_definition": "Ultralytics 8.4.120 bbox AP, conf floor0.001, NMS IoU0.7, global max_det300; no test threshold tuning",
+  "operating_precision_recall": "Not reported: default library P/R optimize the split F1 and are not a frozen operating point",
+  "d455_verified": false,
+  "instance_masks_trained": false
+}

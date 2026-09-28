@@ -1,0 +1,54 @@
+[
+  {
+    "name": "01_pipeline",
+    "files": [
+      {
+        "file": "01_pipeline.png",
+        "sha256": "f571f73eecb4b1fcf5208c30f1be833dfe85a37fab028e8398953cf9488e3cd3"
+      },
+      {
+        "file": "01_pipeline.svg",
+        "sha256": "7edbde87173bd1e704f0b103efb29f3e8c41ffc75045affa7f92489dc9d0e91b"
+      }
+    ]
+  },
+  {
+    "name": "02_label_counts",
+    "files": [
+      {
+        "file": "02_label_counts.png",
+        "sha256": "43babefedbcb04afe4fb6c3a99c983ca65c495ee945976f52f1737abbc35c177"
+      },
+      {
+        "file": "02_label_counts.svg",
+        "sha256": "fdcf89ff544bd2ae1123d32114136e0e6da4668d535d7e342de1d68d92fbf870"
+      }
+    ]
+  },
+  {
+    "name": "03_training_curves",
+    "files": [
+      {
+        "file": "03_training_curves.png",
+        "sha256": "34250cc3e5f5296660fa2b387341b0d50c4d1b4c291308eeff2653998a2f65aa"
+      },
+      {
+        "file": "03_training_curves.svg",
+        "sha256": "ed65d38cc56ac8c60bb2a949661f54c31bda42b31f480289f24618e6fd78a9b8"
+      }
+    ]
+  },
+  {
+    "name": "04_test_class_ap",
+    "files": [
+      {
+        "file": "04_test_class_ap.png",
+        "sha256": "856cb72744bc1908ca1ae25105efc91d7c9fa4e6c79a08616d30250c5f84a6d8"
+      },
+      {
+        "file": "04_test_class_ap.svg",
+        "sha256": "5b466043a21ecfaa4cf2f7296b2492cc128f9c028f33877d501a1652b8d1db2d"
+      }
+    ]
+  }
+]

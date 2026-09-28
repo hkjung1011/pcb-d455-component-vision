@@ -1,30 +1,3 @@
-# PCB · 웨이퍼 비전 연구 기록
-
-[현재 결과부터 보기](CURRENT_SUMMARY.md)
-
-## 2026-09-29 · 웨이퍼 표면 결함 R01 추가
-
-현미경 공개자료의 **YOLO11n 10에폭** bbox 파일럿을 별도로 학습했다. 실제 optimizer 호출 **1,932회**, 학습 미사용 이미지 287장·bbox 496개에서 **mAP50 73.73% / mAP50–95 36.42%**다.
-
-| 분할 | 원본 이미지 | bbox |
-|---|---:|---:|
-| train | 1472 | 2418 |
-| val | 275 | 480 |
-| test | 287 | 496 |
-
-원본 후보 2,132장·bbox 3,693개 중 픽셀이 같고 라벨이 충돌하는 98장을 격리해 2,034장·bbox 3,394개를 사용했다. 여섯 결함 종류의 기존 공개 라벨을 사용했고 신규 수작업 라벨·mask는 0개다. **D455 실측 성능, 물리 웨이퍼/lot 독립성, instance segmentation은 검증하지 않았다.** PCB 점수와 직접 우열 비교하지 않는다.
-
-- [웨이퍼 결과·설정·알고리즘·그래프](WAFER_R01/README.md) · [실제 최신 상태](CURRENT_STATUS.json)
-- [시험 지표](WAFER_R01/reports/test_metrics.json) · [독립 결과 감사와 고정 confidence0.25 보조 분석](WAFER_R01/reports/independent_final_results_audit.md)
-- [데이터 독립 감사](WAFER_R01/reports/independent_data_audit.json) · [모델이 포함된 비공개 Release](https://github.com/hkjung1011/pcb-d455-component-vision/releases/tag/wafer-r01-2026-09-29)
-- [보존된 PCB R04](R04/README.md) · [PCB R04 상태](R04/CURRENT_STATUS.json) · [PCB R03](R03/README.md)
-
-Git의 `WAFER_R01/`에는 가중치가 생략돼 있다. 가중치는 Release의 `WAFER_Surface_R01.zip`에서 복원한다. 원본 사진·VOC XML·변환 라벨·예측 사진은 업로드하지 않는다. 데이터의 명시적 라이선스가 없어 원본 재배포는 하지 않았다.
-
----
-
-## 보존된 PCB R04 완료 당시 기록
-
 # Raspberry Pi PCB · D455 인식 개발 기록
 
 **2026-09-29 · 최신 R04 · 비공개 연구 기록**

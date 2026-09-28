@@ -1,0 +1,162 @@
+[
+  {
+    "epoch": 1,
+    "utc": "2026-09-28T16:33:23.236119+00:00",
+    "optimizer_calls": 276,
+    "batches_cumulative": 368,
+    "ema_updates": 276,
+    "validation": {
+      "metrics/precision(B)": 0.21267,
+      "metrics/recall(B)": 0.2305,
+      "metrics/mAP50(B)": 0.19617,
+      "metrics/mAP50-95(B)": 0.07309,
+      "val/box_loss": 2.54732,
+      "val/cls_loss": 3.80943,
+      "val/dfl_loss": 2.06904
+    }
+  },
+  {
+    "epoch": 2,
+    "utc": "2026-09-28T16:34:46.501500+00:00",
+    "optimizer_calls": 460,
+    "batches_cumulative": 736,
+    "ema_updates": 460,
+    "validation": {
+      "metrics/precision(B)": 0.36098,
+      "metrics/recall(B)": 0.32793,
+      "metrics/mAP50(B)": 0.34572,
+      "metrics/mAP50-95(B)": 0.15071,
+      "val/box_loss": 2.3168,
+      "val/cls_loss": 2.34948,
+      "val/dfl_loss": 1.89813
+    }
+  },
+  {
+    "epoch": 3,
+    "utc": "2026-09-28T16:36:08.915624+00:00",
+    "optimizer_calls": 644,
+    "batches_cumulative": 1104,
+    "ema_updates": 644,
+    "validation": {
+      "metrics/precision(B)": 0.352,
+      "metrics/recall(B)": 0.32629,
+      "metrics/mAP50(B)": 0.34964,
+      "metrics/mAP50-95(B)": 0.14644,
+      "val/box_loss": 2.24945,
+      "val/cls_loss": 2.42559,
+      "val/dfl_loss": 1.79716
+    }
+  },
+  {
+    "epoch": 4,
+    "utc": "2026-09-28T16:37:31.166416+00:00",
+    "optimizer_calls": 828,
+    "batches_cumulative": 1472,
+    "ema_updates": 828,
+    "validation": {
+      "metrics/precision(B)": 0.61468,
+      "metrics/recall(B)": 0.46848,
+      "metrics/mAP50(B)": 0.53465,
+      "metrics/mAP50-95(B)": 0.22482,
+      "val/box_loss": 2.06349,
+      "val/cls_loss": 1.7334,
+      "val/dfl_loss": 1.68447
+    }
+  },
+  {
+    "epoch": 5,
+    "utc": "2026-09-28T16:38:53.165861+00:00",
+    "optimizer_calls": 1012,
+    "batches_cumulative": 1840,
+    "ema_updates": 1012,
+    "validation": {
+      "metrics/precision(B)": 0.58397,
+      "metrics/recall(B)": 0.53335,
+      "metrics/mAP50(B)": 0.59119,
+      "metrics/mAP50-95(B)": 0.25376,
+      "val/box_loss": 2.06159,
+      "val/cls_loss": 1.77711,
+      "val/dfl_loss": 1.68708
+    }
+  },
+  {
+    "epoch": 6,
+    "utc": "2026-09-28T16:40:15.051406+00:00",
+    "optimizer_calls": 1196,
+    "batches_cumulative": 2208,
+    "ema_updates": 1196,
+    "validation": {
+      "metrics/precision(B)": 0.72955,
+      "metrics/recall(B)": 0.59778,
+      "metrics/mAP50(B)": 0.65642,
+      "metrics/mAP50-95(B)": 0.30585,
+      "val/box_loss": 1.89314,
+      "val/cls_loss": 1.57019,
+      "val/dfl_loss": 1.57198
+    }
+  },
+  {
+    "epoch": 7,
+    "utc": "2026-09-28T16:41:37.789429+00:00",
+    "optimizer_calls": 1380,
+    "batches_cumulative": 2576,
+    "ema_updates": 1380,
+    "validation": {
+      "metrics/precision(B)": 0.62512,
+      "metrics/recall(B)": 0.62081,
+      "metrics/mAP50(B)": 0.65681,
+      "metrics/mAP50-95(B)": 0.28362,
+      "val/box_loss": 1.97635,
+      "val/cls_loss": 1.62069,
+      "val/dfl_loss": 1.60949
+    }
+  },
+  {
+    "epoch": 8,
+    "utc": "2026-09-28T16:42:59.918172+00:00",
+    "optimizer_calls": 1564,
+    "batches_cumulative": 2944,
+    "ema_updates": 1564,
+    "validation": {
+      "metrics/precision(B)": 0.72999,
+      "metrics/recall(B)": 0.61748,
+      "metrics/mAP50(B)": 0.70871,
+      "metrics/mAP50-95(B)": 0.34536,
+      "val/box_loss": 1.82093,
+      "val/cls_loss": 1.46901,
+      "val/dfl_loss": 1.52425
+    }
+  },
+  {
+    "epoch": 9,
+    "utc": "2026-09-28T16:44:22.087400+00:00",
+    "optimizer_calls": 1748,
+    "batches_cumulative": 3312,
+    "ema_updates": 1748,
+    "validation": {
+      "metrics/precision(B)": 0.73838,
+      "metrics/recall(B)": 0.69624,
+      "metrics/mAP50(B)": 0.71934,
+      "metrics/mAP50-95(B)": 0.35404,
+      "val/box_loss": 1.82134,
+      "val/cls_loss": 1.47241,
+      "val/dfl_loss": 1.51496
+    }
+  },
+  {
+    "epoch": 10,
+    "utc": "2026-09-28T16:45:45.243248+00:00",
+    "optimizer_calls": 1932,
+    "batches_cumulative": 3680,
+    "ema_updates": 1932,
+    "validation": {
+      "metrics/precision(B)": 0.76877,
+      "metrics/recall(B)": 0.64127,
+      "metrics/mAP50(B)": 0.7075,
+      "metrics/mAP50-95(B)": 0.34408,
+      "val/box_loss": 1.79879,
+      "val/cls_loss": 1.45326,
+      "val/dfl_loss": 1.49955
+    }
+  }
+]

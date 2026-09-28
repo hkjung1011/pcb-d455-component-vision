@@ -1,0 +1,110 @@
+{
+  "review_date_kst": "2026-09-29",
+  "user_target": "camera image wafer surface defect localization",
+  "selected_local_research_source": "ztao3243/Wafer-Datas",
+  "selected_source_commit": "17dbc7e19f4e354f9b2b436af66e5abdaf2ea4b1",
+  "selected_download_status": "DOWNLOADED_HASH_VERIFIED",
+  "selected_images": 2132,
+  "selected_annotation_xml_files": 2132,
+  "selected_bbox_count": 3693,
+  "selected_bytes": 279385715,
+  "selected_dataset_license": "UNSPECIFIED",
+  "raw_redistribution": "NOT INCLUDED IN GITHUB ARCHIVE",
+  "source_modality": "paper states electron microscopy and attached camera; not verified as ordinary RGB optical camera",
+  "d455_transfer_status": "NOT VERIFIED",
+  "physical_wafer_disjoint_test_status": "NOT VERIFIED: no physical wafer IDs supplied",
+  "candidates": [
+    {
+      "id": "Wafer-Datas",
+      "url": "https://github.com/ztao3243/Wafer-Datas",
+      "primary_paper": "https://fcds.cs.put.poznan.pl/FCDS/ArticleDetails.aspx?articleId=521",
+      "paper_pdf": "https://reference-global.com/pdf/10.2478/fcds-2024-0014",
+      "task": "bbox detection",
+      "images_in_source_tree": 6228,
+      "selected_original_candidates": 2132,
+      "classes_canonical": 6,
+      "license": "UNSPECIFIED",
+      "access": "downloaded public author repository at pinned commit",
+      "status": "LOCAL_RESEARCH_PILOT_SOURCE"
+    },
+    {
+      "id": "Roboflow Wafer Defect v2",
+      "url": "https://universe.roboflow.com/wafer-irhuv/wafer-defect-rv1vx/dataset/2",
+      "task": "instance segmentation",
+      "images": 4532,
+      "split": {
+        "train": 3173,
+        "val": 907,
+        "test": 452
+      },
+      "classes": 7,
+      "license": "CC BY 4.0 shown on dataset page",
+      "access": "bulk export browser requires login; unauthenticated official API HTTP401",
+      "status": "CANDIDATE_NOT_DOWNLOADED",
+      "sample_verified": "742x576 color patterned surface photo, 2 scratch polygons, source COCO; out-of-bounds vertices and converted multipart joining observed"
+    },
+    {
+      "id": "INU Semiconductor Scratch Segmentation",
+      "url": "https://bridge.inu.ac.kr/dataset/semiconductor_scratch_segmentation_dataset",
+      "task": "pixel scratch segmentation",
+      "images": null,
+      "license": "NOT PROVIDED on dataset page",
+      "access": "zip link exists; not downloaded",
+      "status": "SECONDARY_CANDIDATE"
+    },
+    {
+      "id": "Carinthia v2",
+      "url": "https://zenodo.org/records/10715190",
+      "task": "SEM image classification",
+      "images": 4591,
+      "classes": 6,
+      "data_zip_mb": 133.8,
+      "license": "NOT VERIFIED IN THIS INVESTIGATION",
+      "status": "EXCLUDED_FROM_CAMERA_DETECTION_PILOT"
+    },
+    {
+      "id": "WDD DAS-YOLOv13",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12987287/",
+      "task": "industrial camera bbox detection",
+      "images": 5605,
+      "classes": 6,
+      "split": {
+        "train": 4484,
+        "val": 561,
+        "test": 560
+      },
+      "license": "NOT SPECIFIED FOR DATASET",
+      "access": "corresponding author on request",
+      "status": "NOT_IMMEDIATELY_DOWNLOADABLE"
+    }
+  ],
+  "excluded_modalities": [
+    "WM-811K wafer bin maps",
+    "MixedWM38 wafer bin maps"
+  ],
+  "training_executed_by_research_agent": false,
+  "canonical_label_mapping_suggested": {
+    "Short_circuit": "short_circuit",
+    "short_cricuit": "short_circuit"
+  },
+  "raw_label_counts": {
+    "scratch": 1054,
+    "edge_bite": 306,
+    "stains_enbedded": 1403,
+    "gray_line": 154,
+    "open": 237,
+    "Short_circuit": 535,
+    "short_cricuit": 4
+  },
+  "source_audit": {
+    "dimensions": "all 1280x720",
+    "invalid_bbox_or_dimension_count": 0,
+    "missing_image_count": 0,
+    "exact_byte_duplicate_groups": 49,
+    "exact_decoded_pixel_duplicate_groups": 49,
+    "phash_le4_candidate_pairs": 1586
+  },
+  "conflict_quarantine_images": 98,
+  "eligible_images_after_quarantine": 2034,
+  "expert_semantic_label_audit": "NOT VERIFIED for remaining images; 49 exact-pixel duplicate groups had conflicting labels and were quarantined before training"
+}
