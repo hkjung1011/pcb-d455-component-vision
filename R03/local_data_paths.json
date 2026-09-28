@@ -1,0 +1,14 @@
+{
+  "original_workspace": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03",
+  "raw_source_photos_and_archives_included": false,
+  "annotations_and_provenance_manifests_included": true,
+  "inference_weights_and_code_included": true,
+  "training_and_evaluation_require_original_local_cache": true,
+  "source_datasets": {
+    "micro": "C:/Users/hkjun/Documents/mcu-vision/data/raw/curated/micro_pcb_images",
+    "iotkits": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\assets\\iotkits_v1\\native",
+    "wacv": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\component_assets\\wacv_original",
+    "commons": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\assets\\commons_holdout"
+  },
+  "note": "Manifests and historical evidence retain absolute paths and hashes. Moving this folder alone does not move the source datasets."
+}

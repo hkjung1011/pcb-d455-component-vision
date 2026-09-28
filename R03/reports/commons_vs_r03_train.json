@@ -1,0 +1,223 @@
+{
+  "scope": "Exact bytes and 8-transform pHash64 comparison against R03 board training and original component training sources. Does not prove physical specimen independence or absence of heavily transformed copies.",
+  "references": 4206,
+  "images": 24,
+  "results": [
+    {
+      "id": "commons_88249711",
+      "exact_training_sha_overlap": false,
+      "nearest_dihedral_phash_training": [
+        12,
+        "iotkits_train_00471",
+        "iotkits_v1"
+      ]
+    },
+    {
+      "id": "commons_88249714",
+      "exact_training_sha_overlap": false,
+      "nearest_dihedral_phash_training": [
+        12,
+        "iotkits_train_00415",
+        "iotkits_v1"
+      ]
+    },
+    {
+      "id": "commons_80430835",
+      "exact_training_sha_overlap": false,
+      "nearest_dihedral_phash_training": [
+        10,
+        "iotkits_train_00711",
+        "iotkits_v1"
+      ]
+    },
+    {
+      "id": "commons_122664660",
+      "exact_training_sha_overlap": false,
+      "nearest_dihedral_phash_training": [
+        10,
+        "iotkits_train_00197",
+        "iotkits_v1"
+      ]
+    },
+    {
+      "id": "commons_114604365",
+      "exact_training_sha_overlap": false,
+      "nearest_dihedral_phash_training": [
+        12,
+        "micro_v2_ECBE1",
+        "micro_pcb"
+      ]
+    },
+    {
+      "id": "commons_97431420",
+      "exact_training_sha_overlap": false,
+      "nearest_dihedral_phash_training": [
+        18,
+        "iotkits_train_00028",
+        "iotkits_v1"
+      ]
+    },
+    {
+      "id": "commons_145630798",
+      "exact_training_sha_overlap": false,
+      "nearest_dihedral_phash_training": [
+        12,
+        "iotkits_train_01713",
+        "iotkits_v1"
+      ]
+    },
+    {
+      "id": "commons_144264832",
+      "exact_training_sha_overlap": false,
+      "nearest_dihedral_phash_training": [
+        18,
+        "iotkits_train_00132",
+        "iotkits_v1"
+      ]
+    },
+    {
+      "id": "commons_144264831",
+      "exact_training_sha_overlap": false,
+      "nearest_dihedral_phash_training": [
+        16,
+        "ACM-109_Top",
+        "wacv2019"
+      ]
+    },
+    {
+      "id": "commons_145417518",
+      "exact_training_sha_overlap": false,
+      "nearest_dihedral_phash_training": [
+        12,
+        "iotkits_train_01976",
+        "iotkits_v1"
+      ]
+    },
+    {
+      "id": "commons_149565043",
+      "exact_training_sha_overlap": false,
+      "nearest_dihedral_phash_training": [
+        12,
+        "iotkits_train_01204",
+        "iotkits_v1"
+      ]
+    },
+    {
+      "id": "commons_144264833",
+      "exact_training_sha_overlap": false,
+      "nearest_dihedral_phash_training": [
+        14,
+        "iotkits_train_00545",
+        "iotkits_v1"
+      ]
+    },
+    {
+      "id": "commons_145417507",
+      "exact_training_sha_overlap": false,
+      "nearest_dihedral_phash_training": [
+        16,
+        "DigitalDiscovery",
+        "wacv2019"
+      ]
+    },
+    {
+      "id": "commons_178528806",
+      "exact_training_sha_overlap": false,
+      "nearest_dihedral_phash_training": [
+        12,
+        "iotkits_train_00193",
+        "iotkits_v1"
+      ]
+    },
+    {
+      "id": "commons_67172993",
+      "exact_training_sha_overlap": false,
+      "nearest_dihedral_phash_training": [
+        12,
+        "iotkits_train_00025",
+        "iotkits_v1"
+      ]
+    },
+    {
+      "id": "commons_153836405",
+      "exact_training_sha_overlap": false,
+      "nearest_dihedral_phash_training": [
+        18,
+        "iotkits_train_00454",
+        "iotkits_v1"
+      ]
+    },
+    {
+      "id": "commons_112083087",
+      "exact_training_sha_overlap": false,
+      "nearest_dihedral_phash_training": [
+        16,
+        "iotkits_train_00077",
+        "iotkits_v1"
+      ]
+    },
+    {
+      "id": "commons_86471022",
+      "exact_training_sha_overlap": false,
+      "nearest_dihedral_phash_training": [
+        16,
+        "iotkits_train_00406",
+        "iotkits_v1"
+      ]
+    },
+    {
+      "id": "commons_112083120",
+      "exact_training_sha_overlap": false,
+      "nearest_dihedral_phash_training": [
+        14,
+        "micro_v2_GCEE4",
+        "micro_pcb"
+      ]
+    },
+    {
+      "id": "commons_67173800",
+      "exact_training_sha_overlap": false,
+      "nearest_dihedral_phash_training": [
+        10,
+        "iotkits_train_00335",
+        "iotkits_v1"
+      ]
+    },
+    {
+      "id": "commons_75417829",
+      "exact_training_sha_overlap": false,
+      "nearest_dihedral_phash_training": [
+        16,
+        "iotkits_train_00715",
+        "iotkits_v1"
+      ]
+    },
+    {
+      "id": "commons_67384198",
+      "exact_training_sha_overlap": false,
+      "nearest_dihedral_phash_training": [
+        10,
+        "iotkits_train_01556",
+        "iotkits_v1"
+      ]
+    },
+    {
+      "id": "commons_69775241",
+      "exact_training_sha_overlap": false,
+      "nearest_dihedral_phash_training": [
+        14,
+        "ArduinoMega_Bottom",
+        "wacv2019"
+      ]
+    },
+    {
+      "id": "commons_48775492",
+      "exact_training_sha_overlap": false,
+      "nearest_dihedral_phash_training": [
+        12,
+        "iotkits_valid_00475",
+        "iotkits_v1"
+      ]
+    }
+  ]
+}

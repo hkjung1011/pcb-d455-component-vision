@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="1234.08pt" height="626.688pt" viewBox="0 0 1234.08 626.688" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-09-28T02:13:29.969530</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.11.1, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 626.688 
+L 1234.08 626.688 
+L 1234.08 0 
+L 0 0 
+z
+" style="fill: #f5f7fb"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 40.294688 367.6032 
+L 187.423594 367.6032 
+Q 202.725 367.6032 202.725 360.864 
+L 202.725 252 
+Q 202.725 245.2608 187.423594 245.2608 
+L 40.294688 245.2608 
+Q 24.993281 245.2608 24.993281 252 
+L 24.993281 360.864 
+Q 24.993281 367.6032 40.294688 367.6032 
+z
+" clip-path="url(#pec8d7a9f0c)" style="fill: #ffffff; stroke: #2468ba; stroke-width: 1.7; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 258.045469 284.6592 
+L 458.140781 284.6592 
+Q 473.442188 284.6592 473.442188 277.92 
+L 473.442188 179.424 
+Q 473.442188 172.6848 458.140781 172.6848 
+L 258.045469 172.6848 
+Q 242.744062 172.6848 242.744062 179.424 
+L 242.744062 277.92 
+Q 242.744062 284.6592 258.045469 284.6592 
+z
+" clip-path="url(#pec8d7a9f0c)" style="fill: #ffffff; stroke: #2468ba; stroke-width: 1.7; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 534.647812 284.6592 
+L 687.661875 284.6592 
+Q 702.963281 284.6592 702.963281 277.92 
+L 702.963281 179.424 
+Q 702.963281 172.6848 687.661875 172.6848 
+L 534.647812 172.6848 
+Q 519.346406 172.6848 519.346406 179.424 
+L 519.346406 277.92 
+Q 519.346406 284.6592 534.647812 284.6592 
+z
+" clip-path="url(#pec8d7a9f0c)" style="fill: #ffffff; stroke: #2468ba; stroke-width: 1.7; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 764.168906 284.6592 
+L 923.068125 284.6592 
+Q 938.369531 284.6592 938.369531 277.92 
+L 938.369531 179.424 
+Q 938.369531 172.6848 923.068125 172.6848 
+L 764.168906 172.6848 
+Q 748.8675 172.6848 748.8675 179.424 
+L 748.8675 277.92 
+Q 748.8675 284.6592 764.168906 284.6592 
+z
+" clip-path="url(#pec8d7a9f0c)" style="fill: #ffffff; stroke: #2468ba; stroke-width: 1.7; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 993.69 300.2112 
+L 1182.015 300.2112 
+Q 1197.316406 300.2112 1197.316406 293.472 
+L 1197.316406 163.872 
+Q 1197.316406 157.1328 1182.015 157.1328 
+L 993.69 157.1328 
+Q 978.388594 157.1328 978.388594 163.872 
+L 978.388594 293.472 
+Q 978.388594 300.2112 993.69 300.2112 
+z
+" clip-path="url(#pec8d7a9f0c)" style="fill: #ffffff; stroke: #008875; stroke-width: 1.7; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_7">
+    <path d="M 194.80662 279.192586 
+Q 222.732589 254.593711 249.484007 231.029451 
+" clip-path="url(#pec8d7a9f0c)" style="fill: none; stroke: #516478; stroke-width: 1.4; stroke-linecap: round"/>
+    <path d="M 243.863384 232.515584 
+L 249.484007 231.029451 
+L 247.30054 236.41763 
+z
+" clip-path="url(#pec8d7a9f0c)" style="fill: #516478; stroke: #516478; stroke-width: 1.4; stroke-linecap: round"/>
+   </g>
+   <g id="patch_8">
+    <path d="M 466.029204 228.672 
+Q 496.394661 228.672 525.19487 228.672 
+" clip-path="url(#pec8d7a9f0c)" style="fill: none; stroke: #516478; stroke-width: 1.4; stroke-linecap: round"/>
+    <path d="M 519.99487 226.072 
+L 525.19487 228.672 
+L 519.99487 231.272 
+z
+" clip-path="url(#pec8d7a9f0c)" style="fill: #516478; stroke: #516478; stroke-width: 1.4; stroke-linecap: round"/>
+   </g>
+   <g id="patch_9">
+    <path d="M 695.550298 228.672 
+Q 725.915754 228.672 754.715964 228.672 
+" clip-path="url(#pec8d7a9f0c)" style="fill: none; stroke: #516478; stroke-width: 1.4; stroke-linecap: round"/>
+    <path d="M 749.515964 226.072 
+L 754.715964 228.672 
+L 749.515964 231.272 
+z
+" clip-path="url(#pec8d7a9f0c)" style="fill: #516478; stroke: #516478; stroke-width: 1.4; stroke-linecap: round"/>
+   </g>
+   <g id="patch_10">
+    <path d="M 930.954033 228.672 
+Q 958.378373 228.672 984.237465 228.672 
+" clip-path="url(#pec8d7a9f0c)" style="fill: none; stroke: #516478; stroke-width: 1.4; stroke-linecap: round"/>
+    <path d="M 979.037465 226.072 
+L 984.237465 228.672 
+L 979.037465 231.272 
+z
+" clip-path="url(#pec8d7a9f0c)" style="fill: #516478; stroke: #516478; stroke-width: 1.4; stroke-linecap: round"/>
+   </g>
+   <g id="patch_11">
+    <path d="M 258.045469 486.8352 
+L 458.140781 486.8352 
+Q 473.442188 486.8352 473.442188 480.096 
+L 473.442188 381.6 
+Q 473.442188 374.8608 458.140781 374.8608 
+L 258.045469 374.8608 
+Q 242.744062 374.8608 242.744062 381.6 
+L 242.744062 480.096 
+Q 242.744062 486.8352 258.045469 486.8352 
+z
+" clip-path="url(#pec8d7a9f0c)" style="fill: #ffffff; stroke: #db8b22; stroke-width: 1.7; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_12">
+    <path d="M 552.303281 486.8352 
+L 864.216563 486.8352 
+Q 879.517969 486.8352 879.517969 480.096 
+L 879.517969 381.6 
+Q 879.517969 374.8608 864.216563 374.8608 
+L 552.303281 374.8608 
+Q 537.001875 374.8608 537.001875 381.6 
+L 537.001875 480.096 
+Q 537.001875 486.8352 552.303281 486.8352 
+z
+" clip-path="url(#pec8d7a9f0c)" style="fill: #ffffff; stroke: #db8b22; stroke-width: 1.7; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_13">
+    <path d="M 194.33427 334.068346 
+Q 222.734643 381.600187 250.332172 427.788361 
+" clip-path="url(#pec8d7a9f0c)" style="fill: none; stroke: #db8b22; stroke-width: 1.4; stroke-linecap: round"/>
+    <path d="M 249.896935 421.990898 
+L 250.332172 427.788361 
+L 245.43306 424.658073 
+z
+" clip-path="url(#pec8d7a9f0c)" style="fill: #db8b22; stroke: #db8b22; stroke-width: 1.4; stroke-linecap: round"/>
+   </g>
+   <g id="patch_14">
+    <path d="M 466.024893 430.848 
+Q 505.222973 430.848 542.855804 430.848 
+" clip-path="url(#pec8d7a9f0c)" style="fill: none; stroke: #db8b22; stroke-width: 1.4; stroke-linecap: round"/>
+    <path d="M 537.655804 428.248 
+L 542.855804 430.848 
+L 537.655804 433.448 
+z
+" clip-path="url(#pec8d7a9f0c)" style="fill: #db8b22; stroke: #db8b22; stroke-width: 1.4; stroke-linecap: round"/>
+   </g>
+   <g id="text_1">
+    <text style="font-weight: 700; font-size: 14px; font-family: 'Malgun Gothic'; text-anchor: middle; fill: #2468ba" x="113.859141" y="285.91851" transform="rotate(-0 113.859141 285.91851)">RGB 사진</text>
+   </g>
+   <g id="text_2">
+    <text style="font-size: 12px; font-family: 'Malgun Gothic'; fill: #1d2d44" transform="translate(73.640391 321.716722)">공개 보드 사진</text>
+    <text style="font-size: 12px; font-family: 'Malgun Gothic'; fill: #1d2d44" transform="translate(71.422266 339.145785)">향후 D455 입력</text>
+   </g>
+   <g id="text_3">
+    <text style="font-weight: 700; font-size: 12px; font-family: 'Malgun Gothic'; text-anchor: middle; fill: #2468ba" x="358.093125" y="209.869978" transform="rotate(-0 358.093125 209.869978)">① YOLO11n 검출</text>
+   </g>
+   <g id="text_4">
+    <text style="font-size: 11px; font-family: 'Malgun Gothic'; fill: #1d2d44" transform="translate(322.310469 242.4476)">보드 1종 bbox</text>
+    <text style="font-size: 11px; font-family: 'Malgun Gothic'; fill: #1d2d44" transform="translate(306.16625 258.486116)">수정 micro + IoTKITs</text>
+   </g>
+   <g id="text_5">
+    <text style="font-weight: 700; font-size: 12px; font-family: 'Malgun Gothic'; text-anchor: middle; fill: #2468ba" x="611.154844" y="209.460056" transform="rotate(-0 611.154844 209.460056)">보드 ROI</text>
+   </g>
+   <g id="text_6">
+    <text style="font-size: 11px; font-family: 'Malgun Gothic'; fill: #1d2d44" transform="translate(574.287656 242.5851)">관심 보드 영역</text>
+    <text style="font-size: 11px; font-family: 'Malgun Gothic'; fill: #1d2d44" transform="translate(587.22125 258.486116)">좌표 보존</text>
+   </g>
+   <g id="text_7">
+    <text style="font-weight: 700; font-size: 12px; font-family: 'Malgun Gothic'; text-anchor: middle; fill: #2468ba" x="843.618516" y="209.893416" transform="rotate(-0 843.618516 209.893416)">타일 분할</text>
+   </g>
+   <g id="text_8">
+    <text style="font-size: 11px; font-family: 'Malgun Gothic'; fill: #1d2d44" transform="translate(794.142578 241.767834)">1024 px / 20% 겹침</text>
+    <text style="font-size: 11px; font-family: 'Malgun Gothic'; fill: #1d2d44" transform="translate(801.251328 258.486116)">원본 좌표로 복원</text>
+   </g>
+   <g id="text_9">
+    <text style="font-weight: 700; font-size: 12px; font-family: 'Malgun Gothic'; text-anchor: middle; fill: #008875" x="1087.8525" y="203.027098" transform="rotate(-0 1087.8525 203.027098)">③·④ 부품 검출</text>
+   </g>
+   <g id="text_10">
+    <text style="font-size: 11px; font-family: 'Malgun Gothic'; fill: #1d2d44" transform="translate(1036.305469 239.018639)">YOLO11n / YOLO11s</text>
+    <text style="font-size: 11px; font-family: 'Malgun Gothic'; fill: #1d2d44" transform="translate(1035.266484 255.825436)">저항·콘덴서·IC·커넥터</text>
+    <text style="font-size: 11px; font-family: 'Malgun Gothic'; fill: #1d2d44" transform="translate(1042.896016 271.820983)">출력: 부품별 bbox</text>
+   </g>
+   <g id="text_11">
+    <text style="font-weight: 700; font-size: 12px; font-family: 'Malgun Gothic'; text-anchor: middle; fill: #db8b22" x="358.093125" y="411.389728" transform="rotate(-0 358.093125 411.389728)">② YOLO11n-seg</text>
+   </g>
+   <g id="text_12">
+    <text style="font-size: 11px; font-family: 'Malgun Gothic'; fill: #1d2d44" transform="translate(301.611563 443.34485)">IoTKITs native polygon</text>
+    <text style="font-size: 11px; font-family: 'Malgun Gothic'; fill: #1d2d44" transform="translate(308.292344 460.688756)">보드 전체 외곽 학습</text>
+   </g>
+   <g id="text_13">
+    <text style="font-weight: 700; font-size: 12px; font-family: 'Malgun Gothic'; text-anchor: middle; fill: #db8b22" x="708.259922" y="412.045978" transform="rotate(-0 708.259922 412.045978)">출력: 보드 영역 mask</text>
+   </g>
+   <g id="text_14">
+    <text style="font-size: 11px; font-family: 'Malgun Gothic'; fill: #1d2d44" transform="translate(634.525547 444.712116)">보드 경계를 픽셀 단위로 표시</text>
+    <text style="font-size: 11px; font-family: 'Malgun Gothic'; fill: #1d2d44" transform="translate(614.227969 460.734303)">부품별 mask는 이 모델의 출력이 아님</text>
+   </g>
+   <g id="text_15">
+    <text style="font-size: 12px; font-family: 'Malgun Gothic'; fill: #516478" transform="translate(949.810313 406.410609)">공통 후처리</text>
+    <text style="font-size: 12px; font-family: 'Malgun Gothic'; fill: #516478" transform="translate(941.700938 419.219203)">원본 좌표 결합</text>
+    <text style="font-size: 12px; font-family: 'Malgun Gothic'; fill: #516478" transform="translate(919.482188 432.027797)">타일 간 중복 검출 정리</text>
+   </g>
+   <g id="text_16">
+    <text style="font-weight: 700; font-size: 13px; font-family: 'Malgun Gothic'; text-anchor: middle; fill: #b34453" x="617.04" y="552.672" transform="rotate(-0 617.04 552.672)">보드 mask 학습과 부품 mask 학습은 다릅니다. 이번 신규 4종 부품 모델은 bbox 검출입니다.</text>
+   </g>
+   <g id="text_17">
+    <text style="font-size: 10.5px; font-family: 'Malgun Gothic'; text-anchor: middle; fill: #516478" x="617.04" y="583.776" transform="rotate(-0 617.04 583.776)">R02의 IC·전해콘덴서·커넥터 semantic-CC 모델은 별도 보조 실험이며, 신규 4종 부품 mask 모델로 취급하지 않습니다.</text>
+   </g>
+  </g>
+  <g id="text_18">
+   <text style="font-weight: 700; font-size: 23px; font-family: 'Malgun Gothic'; text-anchor: start; fill: #1d2d44" x="27.36" y="34.345312" transform="rotate(-0 27.36 34.345312)">보드와 부품을 나누어 학습하는 구조</text>
+  </g>
+  <g id="text_19">
+   <text style="font-size: 12px; font-family: 'Malgun Gothic'; text-anchor: start; fill: #516478" x="27.36" y="58.699425" transform="rotate(-0 27.36 58.699425)">현재 모델의 역할과 추론 연결 설계 · D455 실제 촬영 성능과 통합 실측은 별도 검증 대상</text>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="pec8d7a9f0c">
+   <rect x="14.4" y="93.888" width="1205.28" height="518.4"/>
+  </clipPath>
+ </defs>
+</svg>

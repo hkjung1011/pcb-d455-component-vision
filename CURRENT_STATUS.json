@@ -1,0 +1,44 @@
+{
+  "snapshot_date": "2026-09-28",
+  "revision": "R03",
+  "purpose": "Private research and engineering record",
+  "raspberry_pi_role": "photographed target, not deployment device",
+  "hardware": "RTX 5060 Laptop 8GB",
+  "public_source_training": "COMPLETED_FOUR_MODELS",
+  "public_source_evaluation": "COMPLETED_OFFLINE_NOT_D455_VALIDATED",
+  "production_readiness": "NOT_READY_FOR_FINE_COMPONENT_RECOGNITION",
+  "d455_real_capture": "NOT_VERIFIED_DEVICE_COUNT_ZERO",
+  "d455_new_images": 0,
+  "target4_component_instance_masks": "NOT_TRAINED_NO_REVIEWED_NATIVE_MASK_GT",
+  "target4_new_d455_masks": 0,
+  "default_parts_model": "parts_yolo11s",
+  "pi_scope": "One held-out board-design group, two sides, 189 source target4 boxes; 67 unknown objects excluded",
+  "legacy_micro_mapping": "Historical A/H/I RPi interpretation invalid; R03 uses visually reviewed G/H/M",
+  "data_counts": {
+    "board_detection_images": 5970,
+    "board_mask_images": 3094,
+    "component_original_images": 47,
+    "component_target4_bbox_total": 5896,
+    "component_train_original_bbox": 3484,
+    "component_train_tiles": 425,
+    "component_train_tile_label_exposures": 6733
+  },
+  "class_additional_loss_weights": {
+    "resistor": 1.0,
+    "capacitor": 1.0,
+    "ic": 1.0,
+    "connector": 1.0
+  },
+  "loss_gains": {
+    "box": 7.5,
+    "cls": 0.5,
+    "dfl": 1.5,
+    "mask_uses_box_gain": 7.5
+  },
+  "next_steps": [
+    "Acquire 30 real D455 pilot frames with intrinsics, focus, distance and lighting metadata",
+    "Confirm resolvable target packages and independently reviewed mask boundaries",
+    "Collect grouped train/val/test under a conditional 200-frame budget",
+    "Fine-tune and evaluate on independent actual D455 labels before field claims"
+  ]
+}

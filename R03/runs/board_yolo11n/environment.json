@@ -1,0 +1,140 @@
+{
+  "model_id": "board_yolo11n",
+  "created_utc": "2026-09-27T16:57:35.179817+00:00",
+  "python": "3.11.9 (tags/v3.11.9:de54cf5, Apr  2 2024, 10:12:12) [MSC v.1938 64 bit (AMD64)]",
+  "platform": "Windows-10-10.0.26200-SP0",
+  "torch": "2.12.1+cu130",
+  "cuda": "13.0",
+  "ultralytics": "8.4.120",
+  "gpu": "NVIDIA GeForce RTX 5060 Laptop GPU",
+  "configuration": {
+    "model_id": "board_yolo11n",
+    "task": "detect",
+    "scope": "Raspberry Pi board detection on corrected public source groups; not D455 validated",
+    "weights": "models/yolo11n.pt",
+    "data": "data/board_detect_v2/data.yaml",
+    "manifest": "data/board_detect_v2/manifest.json",
+    "run_dir": "runs/board_yolo11n",
+    "train": {
+      "epochs": 5,
+      "patience": 0,
+      "imgsz": 640,
+      "batch": 8,
+      "amp": false,
+      "nbs": 8,
+      "optimizer": "AdamW",
+      "lr0": 0.001,
+      "lrf": 0.01,
+      "weight_decay": 0.0005,
+      "warmup_epochs": 1.0,
+      "warmup_bias_lr": 0.0,
+      "box": 7.5,
+      "cls": 0.5,
+      "dfl": 1.5,
+      "max_det": 300,
+      "seed": 42,
+      "deterministic": true,
+      "mosaic": 0.0,
+      "mixup": 0.0,
+      "copy_paste": 0.0,
+      "scale": 0.2,
+      "translate": 0.05,
+      "degrees": 15.0,
+      "fliplr": 0.0,
+      "flipud": 0.0,
+      "hsv_h": 0.005,
+      "hsv_s": 0.15,
+      "hsv_v": 0.2,
+      "data": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\data\\board_detect_v2\\data.yaml",
+      "project": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\runs\\board_yolo11n",
+      "name": "fit",
+      "exist_ok": false,
+      "device": 0,
+      "workers": 0,
+      "cache": false,
+      "plots": true,
+      "save": true,
+      "save_period": -1
+    }
+  },
+  "manifest_sha256": "e9788b91a7fdb5d2c1d859c654bab50721df48ab86d0d5d66fe171d3c743652a",
+  "initial_weights_sha256": "0ebbc80d4a7680d14987a577cd21342b65ecfd94632bd9a8da63ae6417644ee1",
+  "scope": "Raspberry Pi board detection on corrected public source groups; not D455 validated",
+  "class_loss_weights": "Uniform 1.0 for each class; no custom per-class multiplier",
+  "source_weighting": "uniform image sampling; source loss factor1.0, no oversampling",
+  "label_counts": {
+    "train": {
+      "images": 4179,
+      "groups": 1108,
+      "positive_images": 2181,
+      "negative_images": 1998,
+      "instances": 2186,
+      "native_polygon_instances": 865,
+      "by_source": {
+        "iotkits_v1": {
+          "images": 2149,
+          "positive_images": 861,
+          "negative_images": 1288,
+          "instances": 866,
+          "native_polygon_instances": 865
+        },
+        "micro_pcb": {
+          "images": 2030,
+          "positive_images": 1320,
+          "negative_images": 710,
+          "instances": 1320,
+          "native_polygon_instances": 0
+        }
+      }
+    },
+    "val": {
+      "images": 896,
+      "groups": 235,
+      "positive_images": 468,
+      "negative_images": 428,
+      "instances": 469,
+      "native_polygon_instances": 174,
+      "by_source": {
+        "iotkits_v1": {
+          "images": 456,
+          "positive_images": 173,
+          "negative_images": 283,
+          "instances": 174,
+          "native_polygon_instances": 174
+        },
+        "micro_pcb": {
+          "images": 440,
+          "positive_images": 295,
+          "negative_images": 145,
+          "instances": 295,
+          "native_polygon_instances": 0
+        }
+      }
+    },
+    "test": {
+      "images": 895,
+      "groups": 235,
+      "positive_images": 426,
+      "negative_images": 469,
+      "instances": 426,
+      "native_polygon_instances": 166,
+      "by_source": {
+        "iotkits_v1": {
+          "images": 490,
+          "positive_images": 166,
+          "negative_images": 324,
+          "instances": 166,
+          "native_polygon_instances": 166
+        },
+        "micro_pcb": {
+          "images": 405,
+          "positive_images": 260,
+          "negative_images": 145,
+          "instances": 260,
+          "native_polygon_instances": 0
+        }
+      }
+    }
+  },
+  "test_used_for_training_or_selection": false
+}

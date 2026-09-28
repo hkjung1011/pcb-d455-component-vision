@@ -1,0 +1,220 @@
+{
+  "frozen_utc": "2026-09-27T17:31:23.531488+00:00",
+  "protocol_sha256": "e1126d8b7ff2f3386af8d8f2f2b2521569b83252362ecf0dba1029a90334308e",
+  "selections": {
+    "parts_yolo11n": {
+      "candidate": {
+        "candidate_id": "last_tile1024",
+        "checkpoint": "last",
+        "weights": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\runs\\parts_yolo11n\\fit\\weights\\last.pt",
+        "tile_size": 1024
+      },
+      "checkpoint_sha256": "6e4983a8a8fc0bc749cfe113c125124ce329473d798a26ca1983292d3c4e7663",
+      "manifest_sha256": "4e34fd9dfe7c92952f1f7da4db700a797af249b10c19ad922171812ae954a9ca",
+      "imgsz": 1024,
+      "operating_confidence": 0.6000000000000001,
+      "validation_metrics_path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\reports\\evaluation_suite\\evaluations\\parts_yolo11n__val__last_tile1024\\metrics.json",
+      "validation_metrics_sha256": "aad1de6676cd4fb2e5743c5b48f365b37137a77d262b8d5940513be864b42743",
+      "validation_bbox": {
+        "iou_type": "bbox",
+        "ap50_95_max100": 0.21077415778090014,
+        "ap50_max100": 0.4566110894730216,
+        "ap75_max100": 0.1687401595657849,
+        "ap50_95_max300": 0.2187620084904634,
+        "per_class": {
+          "resistor": {
+            "ap50_95_max100": 0.32464536281918366,
+            "ap50_max100": 0.8348710984993742,
+            "ap50_95_max300": 0.32758696799383596
+          },
+          "capacitor": {
+            "ap50_95_max100": 0.3409440045559965,
+            "ap50_max100": 0.6378338528293381,
+            "ap50_95_max300": 0.36329938848409554
+          },
+          "ic": {
+            "ap50_95_max100": 0.15958003763949422,
+            "ap50_max100": 0.3071631800273436,
+            "ap50_95_max300": 0.1587542790464998
+          },
+          "connector": {
+            "ap50_95_max100": 0.017927226108926286,
+            "ap50_max100": 0.046576226536030454,
+            "ap50_95_max300": 0.025407398437422127
+          }
+        },
+        "area_ap50_95_max100": {
+          "all": 0.21077415778090014,
+          "small": 0.2845057289358485,
+          "medium": 0.21917665456461863,
+          "large": 0.2094109982211493
+        }
+      },
+      "validation_mask": null,
+      "rule": [
+        "validation bbox AP50-95 max100 descending",
+        "validation bbox AP50-95 max300 descending",
+        "validation offline latency p50 ascending",
+        "candidate ID ascending"
+      ]
+    },
+    "parts_yolo11s": {
+      "candidate": {
+        "candidate_id": "best_tile1024",
+        "checkpoint": "best",
+        "weights": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\runs\\parts_yolo11s\\fit\\weights\\best.pt",
+        "tile_size": 1024
+      },
+      "checkpoint_sha256": "5f5914c256863d87129de1e6cf93ad7fdea700fc43c85339d599256f3d232d74",
+      "manifest_sha256": "4e34fd9dfe7c92952f1f7da4db700a797af249b10c19ad922171812ae954a9ca",
+      "imgsz": 1024,
+      "operating_confidence": 0.35000000000000003,
+      "validation_metrics_path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\reports\\evaluation_suite\\evaluations\\parts_yolo11s__val__best_tile1024\\metrics.json",
+      "validation_metrics_sha256": "6d6161bad167a60a09449a6cec863a4e852c7fba5d909e5a053d37400acd9587",
+      "validation_bbox": {
+        "iou_type": "bbox",
+        "ap50_95_max100": 0.24092052755224994,
+        "ap50_max100": 0.4568383712565854,
+        "ap75_max100": 0.2291517783516943,
+        "ap50_95_max300": 0.24615086800269445,
+        "per_class": {
+          "resistor": {
+            "ap50_95_max100": 0.41945859291876236,
+            "ap50_max100": 0.8332899355484985,
+            "ap50_95_max300": 0.4210041105836876
+          },
+          "capacitor": {
+            "ap50_95_max100": 0.39021407930826196,
+            "ap50_max100": 0.6735495185722674,
+            "ap50_95_max300": 0.40777891276626677
+          },
+          "ic": {
+            "ap50_95_max100": 0.09711178884778748,
+            "ap50_max100": 0.2000440669877564,
+            "ap50_95_max300": 0.09798837309483055
+          },
+          "connector": {
+            "ap50_95_max100": 0.05689764913418794,
+            "ap50_max100": 0.12046996391781925,
+            "ap50_95_max300": 0.057832075565992846
+          }
+        },
+        "area_ap50_95_max100": {
+          "all": 0.24092052755224994,
+          "small": 0.33291208029677655,
+          "medium": 0.27180925389165356,
+          "large": 0.17412994267310383
+        }
+      },
+      "validation_mask": null,
+      "rule": [
+        "validation bbox AP50-95 max100 descending",
+        "validation bbox AP50-95 max300 descending",
+        "validation offline latency p50 ascending",
+        "candidate ID ascending"
+      ]
+    },
+    "board_yolo11n": {
+      "candidate": {
+        "candidate_id": "best_whole",
+        "checkpoint": "best",
+        "weights": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\runs\\board_yolo11n\\fit\\weights\\best.pt",
+        "tile_size": 0
+      },
+      "checkpoint_sha256": "0bc7a0ef6aa5108728a2357e5c4b20189330f58366bf52b4251f3754b14707db",
+      "manifest_sha256": "e9788b91a7fdb5d2c1d859c654bab50721df48ab86d0d5d66fe171d3c743652a",
+      "imgsz": 640,
+      "operating_confidence": 0.4,
+      "validation_metrics_path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\reports\\evaluation_suite\\evaluations\\board_yolo11n__val__best_whole\\metrics.json",
+      "validation_metrics_sha256": "6820357d5dd6febf32a437d7c01d50e3274836cd208bd43a24303485b8fcc400",
+      "validation_bbox": {
+        "iou_type": "bbox",
+        "ap50_95_max100": 0.7467974284620287,
+        "ap50_max100": 0.9891551648502978,
+        "ap75_max100": 0.8853950797598233,
+        "ap50_95_max300": 0.7467974284620287,
+        "per_class": {
+          "raspberry_pi_sbc": {
+            "ap50_95_max100": 0.7467974284620287,
+            "ap50_max100": 0.9891551648502978,
+            "ap50_95_max300": 0.7467974284620287
+          }
+        },
+        "area_ap50_95_max100": {
+          "all": 0.7467974284620287,
+          "small": null,
+          "medium": null,
+          "large": 0.7467974284620287
+        }
+      },
+      "validation_mask": null,
+      "rule": [
+        "validation bbox AP50-95 max100 descending",
+        "validation bbox AP50-95 max300 descending",
+        "validation offline latency p50 ascending",
+        "candidate ID ascending"
+      ]
+    },
+    "board_yolo11n_seg": {
+      "candidate": {
+        "candidate_id": "best_whole",
+        "checkpoint": "best",
+        "weights": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\runs\\board_yolo11n_seg\\fit\\weights\\best.pt",
+        "tile_size": 0
+      },
+      "checkpoint_sha256": "e6dcdd38b43df1238b0781a5a9ad30b69c14a3bd2a2c84b2303e2f4ebff267a2",
+      "manifest_sha256": "bdf4fbe18056c81f47f50754048e6610fcb19a2e7c37ba1be4f0d443d672c59f",
+      "imgsz": 640,
+      "operating_confidence": 0.5,
+      "validation_metrics_path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\reports\\evaluation_suite\\evaluations\\board_yolo11n_seg__val__best_whole\\metrics.json",
+      "validation_metrics_sha256": "7687b2bbff823e9abc38ecb739e7e06279c8ddc0a9731758a008c5dd25e6b9a4",
+      "validation_bbox": {
+        "iou_type": "bbox",
+        "ap50_95_max100": 0.9075444730457419,
+        "ap50_max100": 0.9894102167691854,
+        "ap75_max100": 0.9894102167691854,
+        "ap50_95_max300": 0.9075444730457419,
+        "per_class": {
+          "raspberry_pi_sbc": {
+            "ap50_95_max100": 0.9075444730457419,
+            "ap50_max100": 0.9894102167691854,
+            "ap50_95_max300": 0.9075444730457419
+          }
+        },
+        "area_ap50_95_max100": {
+          "all": 0.9075444730457419,
+          "small": null,
+          "medium": null,
+          "large": 0.9075444730457419
+        }
+      },
+      "validation_mask": {
+        "iou_type": "segm",
+        "ap50_95_max100": 0.9617707691058263,
+        "ap50_max100": 0.9894102167691854,
+        "ap75_max100": 0.9735503352630271,
+        "ap50_95_max300": 0.9617707691058263,
+        "per_class": {
+          "raspberry_pi_sbc": {
+            "ap50_95_max100": 0.9617707691058263,
+            "ap50_max100": 0.9894102167691854,
+            "ap50_95_max300": 0.9617707691058263
+          }
+        },
+        "area_ap50_95_max100": {
+          "all": 0.9617707691058263,
+          "small": null,
+          "medium": null,
+          "large": 0.9617707691058263
+        }
+      },
+      "rule": [
+        "validation bbox AP50-95 max100 descending",
+        "validation bbox AP50-95 max300 descending",
+        "validation offline latency p50 ascending",
+        "candidate ID ascending"
+      ]
+    }
+  },
+  "test_results_used_for_selection": false
+}

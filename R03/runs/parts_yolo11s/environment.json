@@ -1,0 +1,101 @@
+{
+  "model_id": "parts_yolo11s",
+  "created_utc": "2026-09-27T16:44:55.373870+00:00",
+  "python": "3.11.9 (tags/v3.11.9:de54cf5, Apr  2 2024, 10:12:12) [MSC v.1938 64 bit (AMD64)]",
+  "platform": "Windows-10-10.0.26200-SP0",
+  "torch": "2.12.1+cu130",
+  "cuda": "13.0",
+  "ultralytics": "8.4.120",
+  "gpu": "NVIDIA GeForce RTX 5060 Laptop GPU",
+  "configuration": {
+    "model_id": "parts_yolo11s",
+    "task": "detect",
+    "scope": "WACV native four-component boxes; all Raspberry Pi 3B images held out; not D455 validated",
+    "weights": "models/yolo11s.pt",
+    "data": "component_assets/componentdetectdata.yaml",
+    "manifest": "component_assets/training_manifest.json",
+    "run_dir": "runs/parts_yolo11s",
+    "train": {
+      "epochs": 20,
+      "patience": 0,
+      "imgsz": 1024,
+      "batch": 2,
+      "amp": false,
+      "nbs": 8,
+      "optimizer": "AdamW",
+      "lr0": 0.001,
+      "lrf": 0.01,
+      "weight_decay": 0.0005,
+      "warmup_epochs": 2.0,
+      "warmup_bias_lr": 0.0,
+      "box": 7.5,
+      "cls": 0.5,
+      "dfl": 1.5,
+      "max_det": 1000,
+      "seed": 42,
+      "deterministic": true,
+      "mosaic": 0.0,
+      "mixup": 0.0,
+      "copy_paste": 0.0,
+      "scale": 0.2,
+      "translate": 0.05,
+      "degrees": 15.0,
+      "fliplr": 0.0,
+      "flipud": 0.0,
+      "hsv_h": 0.005,
+      "hsv_s": 0.15,
+      "hsv_v": 0.2,
+      "data": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\component_assets\\componentdetectdata.yaml",
+      "project": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\runs\\parts_yolo11s",
+      "name": "fit",
+      "exist_ok": false,
+      "device": 0,
+      "workers": 0,
+      "cache": false,
+      "plots": true,
+      "save": true,
+      "save_period": -1
+    }
+  },
+  "manifest_sha256": "0706ec7ef4361fbc4b84f9d19fad9af51a1e8f858bf4f76e98c827e59dfe847d",
+  "initial_weights_sha256": "85a76fe86dd8afe384648546b56a7a78580c7cb7b404fc595f97969322d502d5",
+  "scope": "WACV native four-component boxes; all Raspberry Pi 3B images held out; not D455 validated",
+  "class_loss_weights": "Uniform 1.0 for each class; no custom per-class multiplier",
+  "source_weighting": "Uniform sampling per native training tile; source factor 1.0, no class oversampling; original instances repeat across overlapping tiles",
+  "label_counts": {
+    "train": {
+      "images": 425,
+      "groups": 18,
+      "label_instances": 6733,
+      "per_class": {
+        "connector": 797,
+        "resistor": 2515,
+        "capacitor": 2898,
+        "ic": 523
+      }
+    },
+    "val": {
+      "images": 7,
+      "groups": 5,
+      "label_instances": 875,
+      "per_class": {
+        "resistor": 221,
+        "capacitor": 468,
+        "connector": 122,
+        "ic": 64
+      }
+    },
+    "test": {
+      "images": 13,
+      "groups": 6,
+      "label_instances": 1537,
+      "per_class": {
+        "connector": 188,
+        "resistor": 500,
+        "capacitor": 740,
+        "ic": 109
+      }
+    }
+  },
+  "test_used_for_training_or_selection": false
+}

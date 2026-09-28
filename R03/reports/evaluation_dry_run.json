@@ -1,0 +1,205 @@
+{
+  "status": "DRY_RUN_NO_GPU",
+  "plan": {
+    "policy": {
+      "version": "r03-native-evaluation-suite-v1",
+      "selection": [
+        "validation bbox AP50-95 max100 descending",
+        "validation bbox AP50-95 max300 descending",
+        "validation offline latency p50 ascending",
+        "candidate ID ascending"
+      ],
+      "parts_candidates": [
+        "best whole",
+        "best tile1024",
+        "last whole",
+        "last tile1024"
+      ],
+      "board_candidates": [
+        "best whole640 only"
+      ],
+      "confidence": "Each validation candidate: box IoU>=0.5 micro-F1, confidence .05:.95 by .05; highest confidence wins F1 ties. Selected candidate's threshold is frozen for test.",
+      "test_policy": "All selected-model validation and all selection locks precede every test call. General test and Pi test never select checkpoints, thresholds, or pipelines.",
+      "bootstrap": "1000 source-group bootstrap resamples of fixed-threshold recall for general test; no Pi one-group CI. This is not an AP CI.",
+      "independence": "Pi3B is held out from this fine-tuning train/validation set. Its possible inclusion in any pretrained source is unknown. Public-source physical specimen independence is not established.",
+      "d455_verified": false,
+      "optional_pi_robustness": "Only with --pi-robustness: half-resolution downsample then original-size upsample, and Gaussian sigma1 separately. Same native GT and frozen selection; camera proxy simulation, not D455 evidence."
+    },
+    "evaluator": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\scripts\\native_evaluate.py",
+    "models": [
+      {
+        "model_id": "parts_yolo11n",
+        "task": "detect",
+        "manifest": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\component_assets\\native_manifest.json",
+        "run_dir": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\runs\\parts_yolo11n",
+        "imgsz": 1024,
+        "candidates": [
+          {
+            "candidate_id": "best_whole",
+            "checkpoint": "best",
+            "weights": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\runs\\parts_yolo11n\\fit\\weights\\best.pt",
+            "tile_size": 0
+          },
+          {
+            "candidate_id": "best_tile1024",
+            "checkpoint": "best",
+            "weights": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\runs\\parts_yolo11n\\fit\\weights\\best.pt",
+            "tile_size": 1024
+          },
+          {
+            "candidate_id": "last_whole",
+            "checkpoint": "last",
+            "weights": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\runs\\parts_yolo11n\\fit\\weights\\last.pt",
+            "tile_size": 0
+          },
+          {
+            "candidate_id": "last_tile1024",
+            "checkpoint": "last",
+            "weights": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\runs\\parts_yolo11n\\fit\\weights\\last.pt",
+            "tile_size": 1024
+          }
+        ],
+        "tests": [
+          {
+            "name": "general_test",
+            "split": "test",
+            "cohort": "test",
+            "bootstrap": 1000
+          },
+          {
+            "name": "pi_test",
+            "split": "test",
+            "cohort": "pi_test",
+            "bootstrap": 0
+          },
+          {
+            "name": "pi_test_half_resolution",
+            "split": "test",
+            "cohort": "pi_test",
+            "bootstrap": 0,
+            "simulation": "half_resolution",
+            "manifest": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\component_assets\\pi_simulations_v1\\half_resolution\\native_manifest.json"
+          },
+          {
+            "name": "pi_test_gaussian_sigma1",
+            "split": "test",
+            "cohort": "pi_test",
+            "bootstrap": 0,
+            "simulation": "gaussian_sigma1",
+            "manifest": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\component_assets\\pi_simulations_v1\\gaussian_sigma1\\native_manifest.json"
+          }
+        ]
+      },
+      {
+        "model_id": "parts_yolo11s",
+        "task": "detect",
+        "manifest": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\component_assets\\native_manifest.json",
+        "run_dir": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\runs\\parts_yolo11s",
+        "imgsz": 1024,
+        "candidates": [
+          {
+            "candidate_id": "best_whole",
+            "checkpoint": "best",
+            "weights": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\runs\\parts_yolo11s\\fit\\weights\\best.pt",
+            "tile_size": 0
+          },
+          {
+            "candidate_id": "best_tile1024",
+            "checkpoint": "best",
+            "weights": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\runs\\parts_yolo11s\\fit\\weights\\best.pt",
+            "tile_size": 1024
+          },
+          {
+            "candidate_id": "last_whole",
+            "checkpoint": "last",
+            "weights": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\runs\\parts_yolo11s\\fit\\weights\\last.pt",
+            "tile_size": 0
+          },
+          {
+            "candidate_id": "last_tile1024",
+            "checkpoint": "last",
+            "weights": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\runs\\parts_yolo11s\\fit\\weights\\last.pt",
+            "tile_size": 1024
+          }
+        ],
+        "tests": [
+          {
+            "name": "general_test",
+            "split": "test",
+            "cohort": "test",
+            "bootstrap": 1000
+          },
+          {
+            "name": "pi_test",
+            "split": "test",
+            "cohort": "pi_test",
+            "bootstrap": 0
+          },
+          {
+            "name": "pi_test_half_resolution",
+            "split": "test",
+            "cohort": "pi_test",
+            "bootstrap": 0,
+            "simulation": "half_resolution",
+            "manifest": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\component_assets\\pi_simulations_v1\\half_resolution\\native_manifest.json"
+          },
+          {
+            "name": "pi_test_gaussian_sigma1",
+            "split": "test",
+            "cohort": "pi_test",
+            "bootstrap": 0,
+            "simulation": "gaussian_sigma1",
+            "manifest": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\component_assets\\pi_simulations_v1\\gaussian_sigma1\\native_manifest.json"
+          }
+        ]
+      },
+      {
+        "model_id": "board_yolo11n",
+        "task": "detect",
+        "manifest": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\data\\board_detect_v2\\manifest.json",
+        "run_dir": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\runs\\board_yolo11n",
+        "imgsz": 640,
+        "candidates": [
+          {
+            "candidate_id": "best_whole",
+            "checkpoint": "best",
+            "weights": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\runs\\board_yolo11n\\fit\\weights\\best.pt",
+            "tile_size": 0
+          }
+        ],
+        "tests": [
+          {
+            "name": "general_test",
+            "split": "test",
+            "cohort": null,
+            "bootstrap": 1000
+          }
+        ]
+      },
+      {
+        "model_id": "board_yolo11n_seg",
+        "task": "segment",
+        "manifest": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\data\\board_segment_v2\\manifest.json",
+        "run_dir": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\runs\\board_yolo11n_seg",
+        "imgsz": 640,
+        "candidates": [
+          {
+            "candidate_id": "best_whole",
+            "checkpoint": "best",
+            "weights": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\runs\\board_yolo11n_seg\\fit\\weights\\best.pt",
+            "tile_size": 0
+          }
+        ],
+        "tests": [
+          {
+            "name": "general_test",
+            "split": "test",
+            "cohort": null,
+            "bootstrap": 1000
+          }
+        ]
+      }
+    ]
+  },
+  "next_action": "Run with --execute only after all selected training runs finish; do not overlap this suite with training."
+}

@@ -1,0 +1,17 @@
+{
+  "status": "INVALID_RPI_CLASS_MAPPING_DISCOVERED_BY_VISUAL_AUDIT",
+  "legacy_claimed_rpi_codes": [
+    "A",
+    "H",
+    "I"
+  ],
+  "visually_identified_rpi_codes": [
+    "G",
+    "H",
+    "M"
+  ],
+  "evidence": "reports/contact_sheets/micro_ALL_CODES_{1,2,3}.png and micro_ALL_CODES_index.json",
+  "coverage": "Three different source conditions per each of 13 codes; 39 photos inspected; not exhaustive per-image review",
+  "source_metadata_conflict": "Native README maps A/H/I to Raspberry Pi but visible A is ELEGOO Mega and I is ESP8266/UNO-type board; G/H/M carry Raspberry Pi identity",
+  "reuse_rule": "Do not train/evaluate Raspberry Pi claims from legacy A/H/I mapping; recategorize R03 from reviewed actual photographs"
+}

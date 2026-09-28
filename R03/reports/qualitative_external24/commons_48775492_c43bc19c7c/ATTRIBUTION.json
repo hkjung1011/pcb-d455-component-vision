@@ -1,0 +1,11 @@
+{
+  "source_title": "File:Raspberry Pi 3 Model B.JPG",
+  "source_url": "https://commons.wikimedia.org/wiki/File:Raspberry_Pi_3_Model_B.JPG",
+  "artist": "Jose.gil",
+  "credit": "Own work",
+  "original_license": "CC BY-SA 4.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+  "modification": "Added R03 model-predicted boxes and whole-board mask overlays. Predictions are not ground truth.",
+  "derivative_license": "Same as the original photo license; source attribution retained",
+  "quantitative_accuracy_measured": false
+}

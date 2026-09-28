@@ -1,0 +1,908 @@
+{
+  "schema": "r03-independent-final-audit-v1",
+  "audited_utc": "2026-09-27T17:46:04.388423+00:00",
+  "status": "METHODOLOGY_CHECKS_PASS",
+  "status_scope": "Evidence consistency and evaluation methodology only; not approval of field accuracy or full annotation correctness",
+  "gpu_used": false,
+  "d455_status": "NOT_D455_VERIFIED",
+  "target4_component_masks": "NOT_TRAINED_NO_HUMAN_TARGET4_MASK_GT",
+  "protocol_sha256": "e1126d8b7ff2f3386af8d8f2f2b2521569b83252362ecf0dba1029a90334308e",
+  "selection_sha256": "65bd40ec349a211ff1af222dae0ab7389fed7c9fc92d9fca10e4c83928917785",
+  "aggregate_sha256": "e3a38f1200ba957d648631bcc1baeaf31fded5cd2ffef4f3e33d01ae9f98b603",
+  "readme_sha256": "c6695de3625418e5e4d08b6dc77146ca4545a6290b62fda03ab6ed2e2d70304a",
+  "check_count": 27538,
+  "failed_checks": [],
+  "checks_summary": {
+    "job_count": 20,
+    "validation_jobs": 10,
+    "test_jobs": 10,
+    "native_gt_coordinate_triplets_compared": 12065,
+    "all_20_operating_counts_independently_recomputed": true,
+    "all_20_native_shortside_bins_independently_recomputed": true,
+    "group_and_exact_sha_split_leakage_not_found": true,
+    "source_physical_independence_verified": false,
+    "pretraining_overlap_verified": false,
+    "model_weights_and_all_metrics_hashes_verified": true
+  },
+  "chronology": {
+    "last_validation_finished_utc": "2026-09-27T17:31:23.528489+00:00",
+    "selection_frozen_utc": "2026-09-27T17:31:23.531488+00:00",
+    "first_test_started_utc": "2026-09-27T17:31:23.570275+00:00",
+    "last_test_finished_utc": "2026-09-27T17:33:19.244264+00:00"
+  },
+  "native_manifest_counts": {
+    "component_assets\\native_manifest.json": {
+      "train": {
+        "images": 27,
+        "groups": 18,
+        "gt_instances": 3484,
+        "class_counts": {
+          "connector": 311,
+          "resistor": 1390,
+          "capacitor": 1570,
+          "ic": 213
+        }
+      },
+      "val": {
+        "images": 7,
+        "groups": 5,
+        "gt_instances": 875,
+        "class_counts": {
+          "resistor": 221,
+          "capacitor": 468,
+          "connector": 122,
+          "ic": 64
+        }
+      },
+      "test": {
+        "images": 13,
+        "groups": 6,
+        "gt_instances": 1537,
+        "class_counts": {
+          "connector": 188,
+          "resistor": 500,
+          "capacitor": 740,
+          "ic": 109
+        }
+      }
+    },
+    "data\\board_detect_v2\\manifest.json": {
+      "train": {
+        "images": 4179,
+        "groups": 1108,
+        "gt_instances": 2186,
+        "class_counts": {
+          "raspberry_pi_sbc": 2186
+        }
+      },
+      "val": {
+        "images": 896,
+        "groups": 235,
+        "gt_instances": 469,
+        "class_counts": {
+          "raspberry_pi_sbc": 469
+        }
+      },
+      "test": {
+        "images": 895,
+        "groups": 235,
+        "gt_instances": 426,
+        "class_counts": {
+          "raspberry_pi_sbc": 426
+        }
+      }
+    },
+    "data\\board_segment_v2\\manifest.json": {
+      "train": {
+        "images": 2148,
+        "groups": 932,
+        "gt_instances": 865,
+        "class_counts": {
+          "raspberry_pi_sbc": 865
+        }
+      },
+      "val": {
+        "images": 456,
+        "groups": 200,
+        "gt_instances": 174,
+        "class_counts": {
+          "raspberry_pi_sbc": 174
+        }
+      },
+      "test": {
+        "images": 490,
+        "groups": 197,
+        "gt_instances": 166,
+        "class_counts": {
+          "raspberry_pi_sbc": 166
+        }
+      }
+    }
+  },
+  "training": {
+    "parts_yolo11n": {
+      "requested_epochs": 20,
+      "last_epoch": 20,
+      "actual_optimizer_steps": 1164.0,
+      "weights_changed": true
+    },
+    "parts_yolo11s": {
+      "requested_epochs": 20,
+      "last_epoch": 20,
+      "actual_optimizer_steps": 1164.0,
+      "weights_changed": true
+    },
+    "board_yolo11n": {
+      "requested_epochs": 5,
+      "last_epoch": 5,
+      "actual_optimizer_steps": 2605.0,
+      "weights_changed": true
+    },
+    "board_yolo11n_seg": {
+      "requested_epochs": 5,
+      "last_epoch": 5,
+      "actual_optimizer_steps": 1432.0,
+      "weights_changed": true
+    }
+  },
+  "jobs": {
+    "parts_yolo11n__val__best_whole": {
+      "images": 7,
+      "groups": 5,
+      "gt": 875,
+      "class_gt": {
+        "resistor": 221,
+        "capacitor": 468,
+        "connector": 122,
+        "ic": 64
+      },
+      "confidence": 0.1,
+      "bbox_ap50_95_max100": 0.05746542485623719,
+      "mask_ap50_95_max100": null,
+      "per_class_counts_tp_fp_fn": [
+        [
+          13,
+          119,
+          208
+        ],
+        [
+          80,
+          63,
+          388
+        ],
+        [
+          11,
+          23,
+          53
+        ],
+        [
+          12,
+          21,
+          110
+        ]
+      ],
+      "negative_images": 0,
+      "negative_images_with_fp": 0
+    },
+    "parts_yolo11n__val__best_tile1024": {
+      "images": 7,
+      "groups": 5,
+      "gt": 875,
+      "class_gt": {
+        "resistor": 221,
+        "capacitor": 468,
+        "connector": 122,
+        "ic": 64
+      },
+      "confidence": 0.45,
+      "bbox_ap50_95_max100": 0.20921871958945418,
+      "mask_ap50_95_max100": null,
+      "per_class_counts_tp_fp_fn": [
+        [
+          195,
+          101,
+          26
+        ],
+        [
+          288,
+          57,
+          180
+        ],
+        [
+          15,
+          21,
+          49
+        ],
+        [
+          10,
+          60,
+          112
+        ]
+      ],
+      "negative_images": 0,
+      "negative_images_with_fp": 0
+    },
+    "parts_yolo11n__val__last_whole": {
+      "images": 7,
+      "groups": 5,
+      "gt": 875,
+      "class_gt": {
+        "resistor": 221,
+        "capacitor": 468,
+        "connector": 122,
+        "ic": 64
+      },
+      "confidence": 0.1,
+      "bbox_ap50_95_max100": 0.051747814701589415,
+      "mask_ap50_95_max100": null,
+      "per_class_counts_tp_fp_fn": [
+        [
+          13,
+          109,
+          208
+        ],
+        [
+          75,
+          82,
+          393
+        ],
+        [
+          11,
+          28,
+          53
+        ],
+        [
+          7,
+          18,
+          115
+        ]
+      ],
+      "negative_images": 0,
+      "negative_images_with_fp": 0
+    },
+    "parts_yolo11n__val__last_tile1024": {
+      "images": 7,
+      "groups": 5,
+      "gt": 875,
+      "class_gt": {
+        "resistor": 221,
+        "capacitor": 468,
+        "connector": 122,
+        "ic": 64
+      },
+      "confidence": 0.6000000000000001,
+      "bbox_ap50_95_max100": 0.21077415778090014,
+      "mask_ap50_95_max100": null,
+      "per_class_counts_tp_fp_fn": [
+        [
+          199,
+          65,
+          22
+        ],
+        [
+          271,
+          46,
+          197
+        ],
+        [
+          15,
+          19,
+          49
+        ],
+        [
+          3,
+          17,
+          119
+        ]
+      ],
+      "negative_images": 0,
+      "negative_images_with_fp": 0
+    },
+    "parts_yolo11n__general_test": {
+      "images": 11,
+      "groups": 5,
+      "gt": 1348,
+      "class_gt": {
+        "connector": 176,
+        "resistor": 443,
+        "capacitor": 636,
+        "ic": 93
+      },
+      "confidence": 0.6000000000000001,
+      "bbox_ap50_95_max100": 0.19589078702606938,
+      "mask_ap50_95_max100": null,
+      "per_class_counts_tp_fp_fn": [
+        [
+          225,
+          87,
+          218
+        ],
+        [
+          349,
+          59,
+          287
+        ],
+        [
+          15,
+          21,
+          78
+        ],
+        [
+          8,
+          8,
+          168
+        ]
+      ],
+      "negative_images": 0,
+      "negative_images_with_fp": 0
+    },
+    "parts_yolo11n__pi_test": {
+      "images": 2,
+      "groups": 1,
+      "gt": 189,
+      "class_gt": {
+        "capacitor": 104,
+        "ic": 16,
+        "resistor": 57,
+        "connector": 12
+      },
+      "confidence": 0.6000000000000001,
+      "bbox_ap50_95_max100": 0.22001238135470885,
+      "mask_ap50_95_max100": null,
+      "per_class_counts_tp_fp_fn": [
+        [
+          30,
+          9,
+          27
+        ],
+        [
+          49,
+          8,
+          55
+        ],
+        [
+          3,
+          1,
+          13
+        ],
+        [
+          0,
+          1,
+          12
+        ]
+      ],
+      "negative_images": 0,
+      "negative_images_with_fp": 0
+    },
+    "parts_yolo11n__pi_test_half_resolution": {
+      "images": 2,
+      "groups": 1,
+      "gt": 189,
+      "class_gt": {
+        "capacitor": 104,
+        "ic": 16,
+        "resistor": 57,
+        "connector": 12
+      },
+      "confidence": 0.6000000000000001,
+      "bbox_ap50_95_max100": 0.21601346628059695,
+      "mask_ap50_95_max100": null,
+      "per_class_counts_tp_fp_fn": [
+        [
+          23,
+          3,
+          34
+        ],
+        [
+          48,
+          6,
+          56
+        ],
+        [
+          2,
+          0,
+          14
+        ],
+        [
+          0,
+          3,
+          12
+        ]
+      ],
+      "negative_images": 0,
+      "negative_images_with_fp": 0
+    },
+    "parts_yolo11n__pi_test_gaussian_sigma1": {
+      "images": 2,
+      "groups": 1,
+      "gt": 189,
+      "class_gt": {
+        "capacitor": 104,
+        "ic": 16,
+        "resistor": 57,
+        "connector": 12
+      },
+      "confidence": 0.6000000000000001,
+      "bbox_ap50_95_max100": 0.21510252259654797,
+      "mask_ap50_95_max100": null,
+      "per_class_counts_tp_fp_fn": [
+        [
+          23,
+          3,
+          34
+        ],
+        [
+          49,
+          5,
+          55
+        ],
+        [
+          2,
+          0,
+          14
+        ],
+        [
+          0,
+          3,
+          12
+        ]
+      ],
+      "negative_images": 0,
+      "negative_images_with_fp": 0
+    },
+    "parts_yolo11s__val__best_whole": {
+      "images": 7,
+      "groups": 5,
+      "gt": 875,
+      "class_gt": {
+        "resistor": 221,
+        "capacitor": 468,
+        "connector": 122,
+        "ic": 64
+      },
+      "confidence": 0.15000000000000002,
+      "bbox_ap50_95_max100": 0.05843150134507016,
+      "mask_ap50_95_max100": null,
+      "per_class_counts_tp_fp_fn": [
+        [
+          13,
+          46,
+          208
+        ],
+        [
+          65,
+          36,
+          403
+        ],
+        [
+          8,
+          24,
+          56
+        ],
+        [
+          16,
+          26,
+          106
+        ]
+      ],
+      "negative_images": 0,
+      "negative_images_with_fp": 0
+    },
+    "parts_yolo11s__val__best_tile1024": {
+      "images": 7,
+      "groups": 5,
+      "gt": 875,
+      "class_gt": {
+        "resistor": 221,
+        "capacitor": 468,
+        "connector": 122,
+        "ic": 64
+      },
+      "confidence": 0.35000000000000003,
+      "bbox_ap50_95_max100": 0.24092052755224994,
+      "mask_ap50_95_max100": null,
+      "per_class_counts_tp_fp_fn": [
+        [
+          204,
+          71,
+          17
+        ],
+        [
+          320,
+          64,
+          148
+        ],
+        [
+          16,
+          26,
+          48
+        ],
+        [
+          15,
+          33,
+          107
+        ]
+      ],
+      "negative_images": 0,
+      "negative_images_with_fp": 0
+    },
+    "parts_yolo11s__val__last_whole": {
+      "images": 7,
+      "groups": 5,
+      "gt": 875,
+      "class_gt": {
+        "resistor": 221,
+        "capacitor": 468,
+        "connector": 122,
+        "ic": 64
+      },
+      "confidence": 0.1,
+      "bbox_ap50_95_max100": 0.045708409228093154,
+      "mask_ap50_95_max100": null,
+      "per_class_counts_tp_fp_fn": [
+        [
+          13,
+          93,
+          208
+        ],
+        [
+          64,
+          59,
+          404
+        ],
+        [
+          9,
+          22,
+          55
+        ],
+        [
+          9,
+          41,
+          113
+        ]
+      ],
+      "negative_images": 0,
+      "negative_images_with_fp": 0
+    },
+    "parts_yolo11s__val__last_tile1024": {
+      "images": 7,
+      "groups": 5,
+      "gt": 875,
+      "class_gt": {
+        "resistor": 221,
+        "capacitor": 468,
+        "connector": 122,
+        "ic": 64
+      },
+      "confidence": 0.4,
+      "bbox_ap50_95_max100": 0.2031431031014666,
+      "mask_ap50_95_max100": null,
+      "per_class_counts_tp_fp_fn": [
+        [
+          205,
+          72,
+          16
+        ],
+        [
+          315,
+          60,
+          153
+        ],
+        [
+          9,
+          10,
+          55
+        ],
+        [
+          2,
+          8,
+          120
+        ]
+      ],
+      "negative_images": 0,
+      "negative_images_with_fp": 0
+    },
+    "parts_yolo11s__general_test": {
+      "images": 11,
+      "groups": 5,
+      "gt": 1348,
+      "class_gt": {
+        "connector": 176,
+        "resistor": 443,
+        "capacitor": 636,
+        "ic": 93
+      },
+      "confidence": 0.35000000000000003,
+      "bbox_ap50_95_max100": 0.20695252229350547,
+      "mask_ap50_95_max100": null,
+      "per_class_counts_tp_fp_fn": [
+        [
+          295,
+          114,
+          148
+        ],
+        [
+          419,
+          85,
+          217
+        ],
+        [
+          20,
+          22,
+          73
+        ],
+        [
+          22,
+          31,
+          154
+        ]
+      ],
+      "negative_images": 0,
+      "negative_images_with_fp": 0
+    },
+    "parts_yolo11s__pi_test": {
+      "images": 2,
+      "groups": 1,
+      "gt": 189,
+      "class_gt": {
+        "capacitor": 104,
+        "ic": 16,
+        "resistor": 57,
+        "connector": 12
+      },
+      "confidence": 0.35000000000000003,
+      "bbox_ap50_95_max100": 0.231528018955079,
+      "mask_ap50_95_max100": null,
+      "per_class_counts_tp_fp_fn": [
+        [
+          39,
+          15,
+          18
+        ],
+        [
+          51,
+          13,
+          53
+        ],
+        [
+          3,
+          3,
+          13
+        ],
+        [
+          0,
+          5,
+          12
+        ]
+      ],
+      "negative_images": 0,
+      "negative_images_with_fp": 0
+    },
+    "parts_yolo11s__pi_test_half_resolution": {
+      "images": 2,
+      "groups": 1,
+      "gt": 189,
+      "class_gt": {
+        "capacitor": 104,
+        "ic": 16,
+        "resistor": 57,
+        "connector": 12
+      },
+      "confidence": 0.35000000000000003,
+      "bbox_ap50_95_max100": 0.19469779053518765,
+      "mask_ap50_95_max100": null,
+      "per_class_counts_tp_fp_fn": [
+        [
+          28,
+          7,
+          29
+        ],
+        [
+          53,
+          8,
+          51
+        ],
+        [
+          2,
+          3,
+          14
+        ],
+        [
+          0,
+          4,
+          12
+        ]
+      ],
+      "negative_images": 0,
+      "negative_images_with_fp": 0
+    },
+    "parts_yolo11s__pi_test_gaussian_sigma1": {
+      "images": 2,
+      "groups": 1,
+      "gt": 189,
+      "class_gt": {
+        "capacitor": 104,
+        "ic": 16,
+        "resistor": 57,
+        "connector": 12
+      },
+      "confidence": 0.35000000000000003,
+      "bbox_ap50_95_max100": 0.1963123492438239,
+      "mask_ap50_95_max100": null,
+      "per_class_counts_tp_fp_fn": [
+        [
+          29,
+          7,
+          28
+        ],
+        [
+          52,
+          8,
+          52
+        ],
+        [
+          2,
+          3,
+          14
+        ],
+        [
+          0,
+          4,
+          12
+        ]
+      ],
+      "negative_images": 0,
+      "negative_images_with_fp": 0
+    },
+    "board_yolo11n__val__best_whole": {
+      "images": 896,
+      "groups": 235,
+      "gt": 469,
+      "class_gt": {
+        "raspberry_pi_sbc": 469
+      },
+      "confidence": 0.4,
+      "bbox_ap50_95_max100": 0.7467974284620287,
+      "mask_ap50_95_max100": null,
+      "per_class_counts_tp_fp_fn": [
+        [
+          461,
+          5,
+          8
+        ]
+      ],
+      "negative_images": 428,
+      "negative_images_with_fp": 4
+    },
+    "board_yolo11n__general_test": {
+      "images": 895,
+      "groups": 235,
+      "gt": 426,
+      "class_gt": {
+        "raspberry_pi_sbc": 426
+      },
+      "confidence": 0.4,
+      "bbox_ap50_95_max100": 0.7445338405000201,
+      "mask_ap50_95_max100": null,
+      "per_class_counts_tp_fp_fn": [
+        [
+          416,
+          4,
+          10
+        ]
+      ],
+      "negative_images": 469,
+      "negative_images_with_fp": 2
+    },
+    "board_yolo11n_seg__val__best_whole": {
+      "images": 456,
+      "groups": 200,
+      "gt": 174,
+      "class_gt": {
+        "raspberry_pi_sbc": 174
+      },
+      "confidence": 0.5,
+      "bbox_ap50_95_max100": 0.9075444730457419,
+      "mask_ap50_95_max100": 0.9617707691058263,
+      "per_class_counts_tp_fp_fn": [
+        [
+          173,
+          2,
+          1
+        ]
+      ],
+      "negative_images": 283,
+      "negative_images_with_fp": 2
+    },
+    "board_yolo11n_seg__general_test": {
+      "images": 490,
+      "groups": 197,
+      "gt": 166,
+      "class_gt": {
+        "raspberry_pi_sbc": 166
+      },
+      "confidence": 0.5,
+      "bbox_ap50_95_max100": 0.910701602966259,
+      "mask_ap50_95_max100": 0.9627882880768281,
+      "per_class_counts_tp_fp_fn": [
+        [
+          161,
+          4,
+          5
+        ]
+      ],
+      "negative_images": 324,
+      "negative_images_with_fp": 3
+    }
+  },
+  "official_coco_cpu_rechecks": {
+    "parts_yolo11n__pi_test": {
+      "kind": "bbox",
+      "COCOeval_maxDets": [
+        1,
+        10,
+        100
+      ],
+      "recomputed_AP50_95": 0.22001238135470885
+    },
+    "parts_yolo11s__pi_test": {
+      "kind": "bbox",
+      "COCOeval_maxDets": [
+        1,
+        10,
+        100
+      ],
+      "recomputed_AP50_95": 0.231528018955079
+    },
+    "board_yolo11n_seg__general_test": {
+      "kind": "segm",
+      "COCOeval_maxDets": [
+        1,
+        10,
+        100
+      ],
+      "recomputed_AP50_95": 0.9627882880768281
+    }
+  },
+  "critical_interpretation": {
+    "default_parts_model": "parts_yolo11s selected only by validation AP50-95 max100",
+    "pi_scope": "2 source images, 1 filename board group; 189 image-level target4 boxes, not unique physical BOM inventory",
+    "pi_target4_gt_by_class": {
+      "capacitor": 104,
+      "ic": 16,
+      "resistor": 57,
+      "connector": 12
+    },
+    "pi_unknown_excluded_count": 67,
+    "pi_s": {
+      "bbox_AP50_95_max100": 0.231528018955079,
+      "precision_at_val_conf035": 0.7209302325581395,
+      "recall_at_val_conf035": 0.49206349206349204,
+      "ic_detected_over_gt": [
+        3,
+        16
+      ],
+      "connector_detected_over_gt": [
+        0,
+        12
+      ],
+      "resistor_detected_over_gt": [
+        39,
+        57
+      ],
+      "capacitor_detected_over_gt": [
+        51,
+        104
+      ]
+    },
+    "connector_note": "Both n and s detect 0/12 connectors at their respective frozen thresholds. Nonzero AP integrates predictions across lower scores and is not contradictory.",
+    "board_mask_note": "96.28% mask AP evaluates whole-board polygons, not target4 masks. Detect and segment tests differ; their AP is not a controlled architecture comparison.",
+    "size_note": "Pi s detects 19/77 at native short side [8,16), 60/72 at[16,32), and14/38 at>=32px. Class mix matters; no monotonic hard pixel threshold is established.",
+    "stress_note": "Same189 GT on deterministic rescale-upsample or sigma1 blur is synthetic sensitivity, never D455 evidence.",
+    "bootstrap_note": "General group-bootstrap intervals estimate fixed-confidence recall only, not AP. Pi one-group intervals omitted.",
+    "negative_fp_note": "Board detect2/469 and board seg3/324 negative images contain >=1prediction at frozen confidence; image rates differ from total FP detection counts.",
+    "annotation_note": "Source labels not newly expert-adjudicated. Unknowns may cause apparent FP or omissions; no inference-based replacement GT was used.",
+    "license_note": "WACV explicit redistribution license unconfirmed; native photos not repackaged as redistributable dataset.",
+    "readme_review": "Core numbers and limitations match frozen evidence. Lead should distinguish whole-board success on source holdouts from weak IC/connector recall and unverified D455/target4 masks."
+  }
+}

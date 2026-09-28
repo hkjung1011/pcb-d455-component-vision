@@ -1,0 +1,188 @@
+{
+  "schema": "r03-offline-inference-v1",
+  "input": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\assets\\commons_holdout\\images\\commons_97431420.png",
+  "input_sha256": "c1da01c1da0eb0dae1ced20e86ba52d82693f36eefe3e4907cbc6bd7d7a59453",
+  "width": 1920,
+  "height": 1439,
+  "coordinate_space": "Original decoded image pixel edges; xyxy right/bottom exclusive",
+  "selection": {
+    "registry": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\selected_models.json",
+    "registry_sha256": "9cb48b3a6a8569e9a50f15c9100db8fb882371e6efcb12afa5d1289e95ba4bd0",
+    "explicit_overrides": [],
+    "selection_status": "REGISTRY_CONFIGURATION",
+    "cascade_status": "FULL_FRAME_PARTS",
+    "d455_verified": false
+  },
+  "effective_models": {
+    "board_detector": {
+      "model_id": "board_yolo11n",
+      "checkpoint": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\runs\\board_yolo11n\\fit\\weights\\best.pt",
+      "sha256": "0bc7a0ef6aa5108728a2357e5c4b20189330f58366bf52b4251f3754b14707db",
+      "confidence": 0.4,
+      "imgsz": 640
+    },
+    "board_segmenter": {
+      "model_id": "board_yolo11n_seg",
+      "checkpoint": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\runs\\board_yolo11n_seg\\fit\\weights\\best.pt",
+      "sha256": "e6dcdd38b43df1238b0781a5a9ad30b69c14a3bd2a2c84b2303e2f4ebff267a2",
+      "confidence": 0.5,
+      "imgsz": 640
+    },
+    "parts": {
+      "model_id": "parts_yolo11s",
+      "checkpoint": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\runs\\parts_yolo11s\\fit\\weights\\best.pt",
+      "sha256": "5f5914c256863d87129de1e6cf93ad7fdea700fc43c85339d599256f3d232d74",
+      "confidence": 0.35000000000000003,
+      "imgsz": 1024,
+      "pipeline": "native-tiles",
+      "tile_size": 1024,
+      "overlap": 0.2
+    }
+  },
+  "scope": "RPi whole-board detection and optional whole-board masks; four-component BOX detection only",
+  "component_masks": {
+    "status": "NOT_AVAILABLE_IN_R03_COMPONENT_DETECTORS"
+  },
+  "no_detection_interpretation": "No retained prediction at configured threshold; this does not establish absence of the object.",
+  "board_status": "NO_DETECTIONS_AT_SELECTED_CONFIDENCE",
+  "component_status": "NO_DETECTIONS_AT_SELECTED_CONFIDENCE",
+  "board_detections": [],
+  "board_masks": [],
+  "component_detections": [],
+  "board_processing": {
+    "crops": [
+      {
+        "index": 0,
+        "region_index": 0,
+        "bounds_xyxy": [
+          0,
+          0,
+          1920,
+          1439
+        ],
+        "source_width": 1920,
+        "source_height": 1439,
+        "model_imgsz": 640
+      }
+    ],
+    "predictions_before_cross_crop_nms": 0,
+    "predictions_after_cross_crop_nms": 0,
+    "predictions_after_operating_threshold": 0,
+    "raw_prediction_confidence_floor": 0.001,
+    "operating_threshold": 0.4,
+    "operating_comparison": ">= after NMS",
+    "cross_crop_class_aware_box_nms_iou": null,
+    "pre_tiling_full_image_resized": false,
+    "model_preprocessing": "Each native crop is independently letterboxed/resized by Ultralytics to imgsz; coordinates restored to crop pixels before translation."
+  },
+  "mask_processing": {
+    "status": "NO_DETECTIONS_AT_SELECTED_CONFIDENCE",
+    "empty_masks_skipped": 0,
+    "retina_masks": true
+  },
+  "parts_processing": {
+    "crops": [
+      {
+        "index": 0,
+        "region_index": 0,
+        "bounds_xyxy": [
+          0,
+          0,
+          1024,
+          1024
+        ],
+        "source_width": 1024,
+        "source_height": 1024,
+        "model_imgsz": 1024
+      },
+      {
+        "index": 1,
+        "region_index": 0,
+        "bounds_xyxy": [
+          819,
+          0,
+          1843,
+          1024
+        ],
+        "source_width": 1024,
+        "source_height": 1024,
+        "model_imgsz": 1024
+      },
+      {
+        "index": 2,
+        "region_index": 0,
+        "bounds_xyxy": [
+          896,
+          0,
+          1920,
+          1024
+        ],
+        "source_width": 1024,
+        "source_height": 1024,
+        "model_imgsz": 1024
+      },
+      {
+        "index": 3,
+        "region_index": 0,
+        "bounds_xyxy": [
+          0,
+          415,
+          1024,
+          1439
+        ],
+        "source_width": 1024,
+        "source_height": 1024,
+        "model_imgsz": 1024
+      },
+      {
+        "index": 4,
+        "region_index": 0,
+        "bounds_xyxy": [
+          819,
+          415,
+          1843,
+          1439
+        ],
+        "source_width": 1024,
+        "source_height": 1024,
+        "model_imgsz": 1024
+      },
+      {
+        "index": 5,
+        "region_index": 0,
+        "bounds_xyxy": [
+          896,
+          415,
+          1920,
+          1439
+        ],
+        "source_width": 1024,
+        "source_height": 1024,
+        "model_imgsz": 1024
+      }
+    ],
+    "predictions_before_cross_crop_nms": 878,
+    "predictions_after_cross_crop_nms": 278,
+    "predictions_after_operating_threshold": 0,
+    "raw_prediction_confidence_floor": 0.001,
+    "operating_threshold": 0.35000000000000003,
+    "operating_comparison": ">= after NMS",
+    "cross_crop_class_aware_box_nms_iou": 0.5,
+    "pre_tiling_full_image_resized": false,
+    "model_preprocessing": "Each native crop is independently letterboxed/resized by Ultralytics to imgsz; coordinates restored to crop pixels before translation."
+  },
+  "parts_regions_xyxy": [
+    [
+      0,
+      0,
+      1920,
+      1439
+    ]
+  ],
+  "timing": {
+    "seconds": 0.1482774000032805,
+    "includes_first_predict_warmup": true,
+    "scope": "Board + optional mask + component inference/postprocessing; includes mask PNG writes; excludes image decode/overlay/report writes. Not benchmark latency."
+  },
+  "d455_verified": false
+}

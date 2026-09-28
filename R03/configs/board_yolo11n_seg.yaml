@@ -1,0 +1,39 @@
+model_id: board_yolo11n_seg
+task: segment
+scope: Raspberry Pi board native outline masks; not component masks; not D455 validated
+weights: models/yolo11n-seg.pt
+data: data/board_segment_v2/data.yaml
+manifest: data/board_segment_v2/manifest.json
+run_dir: runs/board_yolo11n_seg
+train:
+  epochs: 5
+  patience: 0
+  imgsz: 640
+  batch: 4
+  amp: false
+  nbs: 8
+  optimizer: AdamW
+  lr0: 0.001
+  lrf: 0.01
+  weight_decay: 0.0005
+  warmup_epochs: 1.0
+  warmup_bias_lr: 0.0
+  box: 7.5
+  cls: 0.5
+  dfl: 1.5
+  max_det: 300
+  seed: 42
+  deterministic: true
+  mosaic: 0.0
+  mixup: 0.0
+  copy_paste: 0.0
+  scale: 0.2
+  translate: 0.05
+  degrees: 15.0
+  fliplr: 0.0
+  flipud: 0.0
+  hsv_h: 0.005
+  hsv_s: 0.15
+  hsv_v: 0.2
+  mask_ratio: 1
+  overlap_mask: true

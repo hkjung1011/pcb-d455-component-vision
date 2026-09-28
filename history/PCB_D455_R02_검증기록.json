@@ -1,0 +1,13 @@
+{
+  "checked_utc": "2026-09-27T16:13:30.132898+00:00",
+  "package_files": 370,
+  "all_release_file_sha256_verified": true,
+  "markdown_local_links_verified": true,
+  "zip_crc_verified": true,
+  "zip_bytes": 75792642,
+  "zip_sha256": "aaaa4b76e640dcd7f0d1780dace512ed15b612839643c13fdc0044d87cb890f2",
+  "packaged_model_offline_inference_completed": true,
+  "demo_scope": "AUXILIARY_SOURCE3_SEMANTIC_REGIONS",
+  "d455_real_use_verified": false,
+  "note": "Packaging/inference checks do not establish target4 mAP or D455 camera operation"
+}

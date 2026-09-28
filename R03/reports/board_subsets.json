@@ -1,0 +1,1995 @@
+{
+  "scope": "Descriptive post-hoc test subsets from fixed predictions, not model selection. Variant groups contain positive images only; see source subsets for negatives. Source model names are source metadata, micro exact variant not independently established.",
+  "models": {
+    "board_yolo11n": {
+      "fixed_confidence_from_val": 0.4,
+      "subsets": {
+        "source:iotkits_v1": {
+          "images": 490,
+          "instances": 166,
+          "bbox": {
+            "iou_type": "bbox",
+            "ap50_95_max100": 0.6414897971910866,
+            "ap50_max100": 0.9900021678552281,
+            "ap75_max100": 0.8055825110430357,
+            "ap50_95_max300": 0.6414897971910866,
+            "per_class": {
+              "raspberry_pi_sbc": {
+                "ap50_95_max100": 0.6414897971910866,
+                "ap50_max100": 0.9900021678552281,
+                "ap50_95_max300": 0.6414897971910866
+              }
+            },
+            "area_ap50_95_max100": {
+              "all": 0.6414897971910866,
+              "small": null,
+              "medium": null,
+              "large": 0.6414897971910866
+            }
+          },
+          "operating": {
+            "confidence": 0.4,
+            "match_box_iou": 0.5,
+            "tp": 160,
+            "fp": 4,
+            "fn": 6,
+            "precision": 0.975609756097561,
+            "recall": 0.963855421686747,
+            "f1": 0.9696969696969697,
+            "per_class_counts_tp_fp_fn": [
+              [
+                160,
+                4,
+                6
+              ]
+            ],
+            "size_recall": {
+              "lt8": {
+                "detected": 0,
+                "total": 0,
+                "recall": null
+              },
+              "8to16": {
+                "detected": 0,
+                "total": 0,
+                "recall": null
+              },
+              "16to32": {
+                "detected": 0,
+                "total": 0,
+                "recall": null
+              },
+              "ge32": {
+                "detected": 160,
+                "total": 166,
+                "recall": 0.963855421686747
+              }
+            },
+            "negative_images": 324,
+            "negative_images_with_false_positive": 2,
+            "negative_false_positive_image_rate": 0.006172839506172839
+          }
+        },
+        "positive_variant:iotkits_v1:Raspberry-Pi-Zero": {
+          "images": 25,
+          "instances": 25,
+          "bbox": {
+            "iou_type": "bbox",
+            "ap50_95_max100": 0.6088444202066987,
+            "ap50_max100": 0.9584092900605194,
+            "ap75_max100": 0.6262820852220968,
+            "ap50_95_max300": 0.6088444202066987,
+            "per_class": {
+              "raspberry_pi_sbc": {
+                "ap50_95_max100": 0.6088444202066987,
+                "ap50_max100": 0.9584092900605194,
+                "ap50_95_max300": 0.6088444202066987
+              }
+            },
+            "area_ap50_95_max100": {
+              "all": 0.6088444202066987,
+              "small": null,
+              "medium": null,
+              "large": 0.6088444202066987
+            }
+          },
+          "operating": {
+            "confidence": 0.4,
+            "match_box_iou": 0.5,
+            "tp": 21,
+            "fp": 2,
+            "fn": 4,
+            "precision": 0.9130434782608695,
+            "recall": 0.84,
+            "f1": 0.8749999999999999,
+            "per_class_counts_tp_fp_fn": [
+              [
+                21,
+                2,
+                4
+              ]
+            ],
+            "size_recall": {
+              "lt8": {
+                "detected": 0,
+                "total": 0,
+                "recall": null
+              },
+              "8to16": {
+                "detected": 0,
+                "total": 0,
+                "recall": null
+              },
+              "16to32": {
+                "detected": 0,
+                "total": 0,
+                "recall": null
+              },
+              "ge32": {
+                "detected": 21,
+                "total": 25,
+                "recall": 0.84
+              }
+            },
+            "negative_images": 0,
+            "negative_images_with_false_positive": 0,
+            "negative_false_positive_image_rate": null
+          }
+        },
+        "positive_variant:iotkits_v1:Raspberry-Pi-Zero-W": {
+          "images": 25,
+          "instances": 25,
+          "bbox": {
+            "iou_type": "bbox",
+            "ap50_95_max100": 0.6699802249132477,
+            "ap50_max100": 1.0,
+            "ap75_max100": 0.8941537010843942,
+            "ap50_95_max300": 0.6699802249132477,
+            "per_class": {
+              "raspberry_pi_sbc": {
+                "ap50_95_max100": 0.6699802249132477,
+                "ap50_max100": 1.0,
+                "ap50_95_max300": 0.6699802249132477
+              }
+            },
+            "area_ap50_95_max100": {
+              "all": 0.6699802249132477,
+              "small": null,
+              "medium": null,
+              "large": 0.6699802249132477
+            }
+          },
+          "operating": {
+            "confidence": 0.4,
+            "match_box_iou": 0.5,
+            "tp": 25,
+            "fp": 0,
+            "fn": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "per_class_counts_tp_fp_fn": [
+              [
+                25,
+                0,
+                0
+              ]
+            ],
+            "size_recall": {
+              "lt8": {
+                "detected": 0,
+                "total": 0,
+                "recall": null
+              },
+              "8to16": {
+                "detected": 0,
+                "total": 0,
+                "recall": null
+              },
+              "16to32": {
+                "detected": 0,
+                "total": 0,
+                "recall": null
+              },
+              "ge32": {
+                "detected": 25,
+                "total": 25,
+                "recall": 1.0
+              }
+            },
+            "negative_images": 0,
+            "negative_images_with_false_positive": 0,
+            "negative_false_positive_image_rate": null
+          }
+        },
+        "positive_variant:iotkits_v1:Raspberry-Pi-3-A-": {
+          "images": 5,
+          "instances": 5,
+          "bbox": {
+            "iou_type": "bbox",
+            "ap50_95_max100": 0.7666666666666666,
+            "ap50_max100": 1.0,
+            "ap75_max100": 1.0,
+            "ap50_95_max300": 0.7666666666666666,
+            "per_class": {
+              "raspberry_pi_sbc": {
+                "ap50_95_max100": 0.7666666666666666,
+                "ap50_max100": 1.0,
+                "ap50_95_max300": 0.7666666666666666
+              }
+            },
+            "area_ap50_95_max100": {
+              "all": 0.7666666666666666,
+              "small": null,
+              "medium": null,
+              "large": 0.7666666666666666
+            }
+          },
+          "operating": {
+            "confidence": 0.4,
+            "match_box_iou": 0.5,
+            "tp": 5,
+            "fp": 0,
+            "fn": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "per_class_counts_tp_fp_fn": [
+              [
+                5,
+                0,
+                0
+              ]
+            ],
+            "size_recall": {
+              "lt8": {
+                "detected": 0,
+                "total": 0,
+                "recall": null
+              },
+              "8to16": {
+                "detected": 0,
+                "total": 0,
+                "recall": null
+              },
+              "16to32": {
+                "detected": 0,
+                "total": 0,
+                "recall": null
+              },
+              "ge32": {
+                "detected": 5,
+                "total": 5,
+                "recall": 1.0
+              }
+            },
+            "negative_images": 0,
+            "negative_images_with_false_positive": 0,
+            "negative_false_positive_image_rate": null
+          }
+        },
+        "positive_variant:iotkits_v1:Raspberry Pi 3 B-": {
+          "images": 19,
+          "instances": 19,
+          "bbox": {
+            "iou_type": "bbox",
+            "ap50_95_max100": 0.6196857427796122,
+            "ap50_max100": 0.9896685320705981,
+            "ap75_max100": 0.7390002061952632,
+            "ap50_95_max300": 0.6196857427796122,
+            "per_class": {
+              "raspberry_pi_sbc": {
+                "ap50_95_max100": 0.6196857427796122,
+                "ap50_max100": 0.9896685320705981,
+                "ap50_95_max300": 0.6196857427796122
+              }
+            },
+            "area_ap50_95_max100": {
+              "all": 0.6196857427796122,
+              "small": null,
+              "medium": null,
+              "large": 0.6196857427796122
+            }
+          },
+          "operating": {
+            "confidence": 0.4,
+            "match_box_iou": 0.5,
+            "tp": 18,
+            "fp": 0,
+            "fn": 1,
+            "precision": 1.0,
+            "recall": 0.9473684210526315,
+            "f1": 0.972972972972973,
+            "per_class_counts_tp_fp_fn": [
+              [
+                18,
+                0,
+                1
+              ]
+            ],
+            "size_recall": {
+              "lt8": {
+                "detected": 0,
+                "total": 0,
+                "recall": null
+              },
+              "8to16": {
+                "detected": 0,
+                "total": 0,
+                "recall": null
+              },
+              "16to32": {
+                "detected": 0,
+                "total": 0,
+                "recall": null
+              },
+              "ge32": {
+                "detected": 18,
+                "total": 19,
+                "recall": 0.9473684210526315
+              }
+            },
+            "negative_images": 0,
+            "negative_images_with_false_positive": 0,
+            "negative_false_positive_image_rate": null
+          }
+        },
+        "positive_variant:iotkits_v1:Raspberry-Pi-4-B": {
+          "images": 19,
+          "instances": 19,
+          "bbox": {
+            "iou_type": "bbox",
+            "ap50_95_max100": 0.7385588558855886,
+            "ap50_max100": 1.0,
+            "ap75_max100": 0.9405940594059405,
+            "ap50_95_max300": 0.7385588558855886,
+            "per_class": {
+              "raspberry_pi_sbc": {
+                "ap50_95_max100": 0.7385588558855886,
+                "ap50_max100": 1.0,
+                "ap50_95_max300": 0.7385588558855886
+              }
+            },
+            "area_ap50_95_max100": {
+              "all": 0.7385588558855886,
+              "small": null,
+              "medium": null,
+              "large": 0.7385588558855886
+            }
+          },
+          "operating": {
+            "confidence": 0.4,
+            "match_box_iou": 0.5,
+            "tp": 18,
+            "fp": 0,
+            "fn": 1,
+            "precision": 1.0,
+            "recall": 0.9473684210526315,
+            "f1": 0.972972972972973,
+            "per_class_counts_tp_fp_fn": [
+              [
+                18,
+                0,
+                1
+              ]
+            ],
+            "size_recall": {
+              "lt8": {
+                "detected": 0,
+                "total": 0,
+                "recall": null
+              },
+              "8to16": {
+                "detected": 0,
+                "total": 0,
+                "recall": null
+              },
+              "16to32": {
+                "detected": 0,
+                "total": 0,
+                "recall": null
+              },
+              "ge32": {
+                "detected": 18,
+                "total": 19,
+                "recall": 0.9473684210526315
+              }
+            },
+            "negative_images": 0,
+            "negative_images_with_false_positive": 0,
+            "negative_false_positive_image_rate": null
+          }
+        },
+        "positive_variant:iotkits_v1:Raspberry-Pi-Zero-WH": {
+          "images": 6,
+          "instances": 6,
+          "bbox": {
+            "iou_type": "bbox",
+            "ap50_95_max100": 0.7294554455445544,
+            "ap50_max100": 1.0,
+            "ap75_max100": 0.8316831683168316,
+            "ap50_95_max300": 0.7294554455445544,
+            "per_class": {
+              "raspberry_pi_sbc": {
+                "ap50_95_max100": 0.7294554455445544,
+                "ap50_max100": 1.0,
+                "ap50_95_max300": 0.7294554455445544
+              }
+            },
+            "area_ap50_95_max100": {
+              "all": 0.7294554455445544,
+              "small": null,
+              "medium": null,
+              "large": 0.7294554455445544
+            }
+          },
+          "operating": {
+            "confidence": 0.4,
+            "match_box_iou": 0.5,
+            "tp": 6,
+            "fp": 0,
+            "fn": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "per_class_counts_tp_fp_fn": [
+              [
+                6,
+                0,
+                0
+              ]
+            ],
+            "size_recall": {
+              "lt8": {
+                "detected": 0,
+                "total": 0,
+                "recall": null
+              },
+              "8to16": {
+                "detected": 0,
+                "total": 0,
+                "recall": null
+              },
+              "16to32": {
+                "detected": 0,
+                "total": 0,
+                "recall": null
+              },
+              "ge32": {
+                "detected": 6,
+                "total": 6,
+                "recall": 1.0
+              }
+            },
+            "negative_images": 0,
+            "negative_images_with_false_positive": 0,
+            "negative_false_positive_image_rate": null
+          }
+        },
+        "positive_variant:iotkits_v1:Raspberry-Pi-2-B": {
+          "images": 15,
+          "instances": 15,
+          "bbox": {
+            "iou_type": "bbox",
+            "ap50_95_max100": 0.6082979726544083,
+            "ap50_max100": 1.0,
+            "ap75_max100": 0.6874115983026873,
+            "ap50_95_max300": 0.6082979726544083,
+            "per_class": {
+              "raspberry_pi_sbc": {
+                "ap50_95_max100": 0.6082979726544083,
+                "ap50_max100": 1.0,
+                "ap50_95_max300": 0.6082979726544083
+              }
+            },
+            "area_ap50_95_max100": {
+              "all": 0.6082979726544083,
+              "small": null,
+              "medium": null,
+              "large": 0.6082979726544083
+            }
+          },
+          "operating": {
+            "confidence": 0.4,
+            "match_box_iou": 0.5,
+            "tp": 15,
+            "fp": 0,
+            "fn": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "per_class_counts_tp_fp_fn": [
+              [
+                15,
+                0,
+                0
+              ]
+            ],
+            "size_recall": {
+              "lt8": {
+                "detected": 0,
+                "total": 0,
+                "recall": null
+              },
+              "8to16": {
+                "detected": 0,
+                "total": 0,
+                "recall": null
+              },
+              "16to32": {
+                "detected": 0,
+                "total": 0,
+                "recall": null
+              },
+              "ge32": {
+                "detected": 15,
+                "total": 15,
+                "recall": 1.0
+              }
+            },
+            "negative_images": 0,
+            "negative_images_with_false_positive": 0,
+            "negative_false_positive_image_rate": null
+          }
+        },
+        "positive_variant:iotkits_v1:Raspberry-Pi-5": {
+          "images": 10,
+          "instances": 10,
+          "bbox": {
+            "iou_type": "bbox",
+            "ap50_95_max100": 0.7173349834983498,
+            "ap50_max100": 1.0,
+            "ap75_max100": 1.0,
+            "ap50_95_max300": 0.7173349834983498,
+            "per_class": {
+              "raspberry_pi_sbc": {
+                "ap50_95_max100": 0.7173349834983498,
+                "ap50_max100": 1.0,
+                "ap50_95_max300": 0.7173349834983498
+              }
+            },
+            "area_ap50_95_max100": {
+              "all": 0.7173349834983498,
+              "small": null,
+              "medium": null,
+              "large": 0.7173349834983498
+            }
+          },
+          "operating": {
+            "confidence": 0.4,
+            "match_box_iou": 0.5,
+            "tp": 10,
+            "fp": 0,
+            "fn": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "per_class_counts_tp_fp_fn": [
+              [
+                10,
+                0,
+                0
+              ]
+            ],
+            "size_recall": {
+              "lt8": {
+                "detected": 0,
+                "total": 0,
+                "recall": null
+              },
+              "8to16": {
+                "detected": 0,
+                "total": 0,
+                "recall": null
+              },
+              "16to32": {
+                "detected": 0,
+                "total": 0,
+                "recall": null
+              },
+              "ge32": {
+                "detected": 10,
+                "total": 10,
+                "recall": 1.0
+              }
+            },
+            "negative_images": 0,
+            "negative_images_with_false_positive": 0,
+            "negative_false_positive_image_rate": null
+          }
+        },
+        "positive_variant:iotkits_v1:Raspberry-Pi-1-A-": {
+          "images": 10,
+          "instances": 10,
+          "bbox": {
+            "iou_type": "bbox",
+            "ap50_95_max100": 0.6306930693069307,
+            "ap50_max100": 1.0,
+            "ap75_max100": 0.801980198019802,
+            "ap50_95_max300": 0.6306930693069307,
+            "per_class": {
+              "raspberry_pi_sbc": {
+                "ap50_95_max100": 0.6306930693069307,
+                "ap50_max100": 1.0,
+                "ap50_95_max300": 0.6306930693069307
+              }
+            },
+            "area_ap50_95_max100": {
+              "all": 0.6306930693069307,
+              "small": null,
+              "medium": null,
+              "large": 0.6306930693069307
+            }
+          },
+          "operating": {
+            "confidence": 0.4,
+            "match_box_iou": 0.5,
+            "tp": 10,
+            "fp": 0,
+            "fn": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "per_class_counts_tp_fp_fn": [
+              [
+                10,
+                0,
+                0
+              ]
+            ],
+            "size_recall": {
+              "lt8": {
+                "detected": 0,
+                "total": 0,
+                "recall": null
+              },
+              "8to16": {
+                "detected": 0,
+                "total": 0,
+                "recall": null
+              },
+              "16to32": {
+                "detected": 0,
+                "total": 0,
+                "recall": null
+              },
+              "ge32": {
+                "detected": 10,
+                "total": 10,
+                "recall": 1.0
+              }
+            },
+            "negative_images": 0,
+            "negative_images_with_false_positive": 0,
+            "negative_false_positive_image_rate": null
+          }
+        },
+        "positive_variant:iotkits_v1:Raspberry-Pi-3-B": {
+          "images": 12,
+          "instances": 12,
+          "bbox": {
+            "iou_type": "bbox",
+            "ap50_95_max100": 0.7298129812981298,
+            "ap50_max100": 1.0,
+            "ap75_max100": 0.8770627062706269,
+            "ap50_95_max300": 0.7298129812981298,
+            "per_class": {
+              "raspberry_pi_sbc": {
+                "ap50_95_max100": 0.7298129812981298,
+                "ap50_max100": 1.0,
+                "ap50_95_max300": 0.7298129812981298
+              }
+            },
+            "area_ap50_95_max100": {
+              "all": 0.7298129812981298,
+              "small": null,
+              "medium": null,
+              "large": 0.7298129812981298
+            }
+          },
+          "operating": {
+            "confidence": 0.4,
+            "match_box_iou": 0.5,
+            "tp": 12,
+            "fp": 0,
+            "fn": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "per_class_counts_tp_fp_fn": [
+              [
+                12,
+                0,
+                0
+              ]
+            ],
+            "size_recall": {
+              "lt8": {
+                "detected": 0,
+                "total": 0,
+                "recall": null
+              },
+              "8to16": {
+                "detected": 0,
+                "total": 0,
+                "recall": null
+              },
+              "16to32": {
+                "detected": 0,
+                "total": 0,
+                "recall": null
+              },
+              "ge32": {
+                "detected": 12,
+                "total": 12,
+                "recall": 1.0
+              }
+            },
+            "negative_images": 0,
+            "negative_images_with_false_positive": 0,
+            "negative_false_positive_image_rate": null
+          }
+        },
+        "positive_variant:iotkits_v1:Raspberry Pi 1 B-": {
+          "images": 11,
+          "instances": 11,
+          "bbox": {
+            "iou_type": "bbox",
+            "ap50_95_max100": 0.6013366336633663,
+            "ap50_max100": 1.0,
+            "ap75_max100": 0.7584158415841585,
+            "ap50_95_max300": 0.6013366336633663,
+            "per_class": {
+              "raspberry_pi_sbc": {
+                "ap50_95_max100": 0.6013366336633663,
+                "ap50_max100": 1.0,
+                "ap50_95_max300": 0.6013366336633663
+              }
+            },
+            "area_ap50_95_max100": {
+              "all": 0.6013366336633663,
+              "small": null,
+              "medium": null,
+              "large": 0.6013366336633663
+            }
+          },
+          "operating": {
+            "confidence": 0.4,
+            "match_box_iou": 0.5,
+            "tp": 11,
+            "fp": 0,
+            "fn": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "per_class_counts_tp_fp_fn": [
+              [
+                11,
+                0,
+                0
+              ]
+            ],
+            "size_recall": {
+              "lt8": {
+                "detected": 0,
+                "total": 0,
+                "recall": null
+              },
+              "8to16": {
+                "detected": 0,
+                "total": 0,
+                "recall": null
+              },
+              "16to32": {
+                "detected": 0,
+                "total": 0,
+                "recall": null
+              },
+              "ge32": {
+                "detected": 11,
+                "total": 11,
+                "recall": 1.0
+              }
+            },
+            "negative_images": 0,
+            "negative_images_with_false_positive": 0,
+            "negative_false_positive_image_rate": null
+          }
+        },
+        "positive_variant:iotkits_v1:Raspberry-Pi-Zero-2-W": {
+          "images": 9,
+          "instances": 9,
+          "bbox": {
+            "iou_type": "bbox",
+            "ap50_95_max100": 0.7004620462046205,
+            "ap50_max100": 1.0,
+            "ap75_max100": 1.0,
+            "ap50_95_max300": 0.7004620462046205,
+            "per_class": {
+              "raspberry_pi_sbc": {
+                "ap50_95_max100": 0.7004620462046205,
+                "ap50_max100": 1.0,
+                "ap50_95_max300": 0.7004620462046205
+              }
+            },
+            "area_ap50_95_max100": {
+              "all": 0.7004620462046205,
+              "small": null,
+              "medium": null,
+              "large": 0.7004620462046205
+            }
+          },
+          "operating": {
+            "confidence": 0.4,
+            "match_box_iou": 0.5,
+            "tp": 9,
+            "fp": 0,
+            "fn": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "per_class_counts_tp_fp_fn": [
+              [
+                9,
+                0,
+                0
+              ]
+            ],
+            "size_recall": {
+              "lt8": {
+                "detected": 0,
+                "total": 0,
+                "recall": null
+              },
+              "8to16": {
+                "detected": 0,
+                "total": 0,
+                "recall": null
+              },
+              "16to32": {
+                "detected": 0,
+                "total": 0,
+                "recall": null
+              },
+              "ge32": {
+                "detected": 9,
+                "total": 9,
+                "recall": 1.0
+              }
+            },
+            "negative_images": 0,
+            "negative_images_with_false_positive": 0,
+            "negative_false_positive_image_rate": null
+          }
+        },
+        "source:micro_pcb": {
+          "images": 405,
+          "instances": 260,
+          "bbox": {
+            "iou_type": "bbox",
+            "ap50_95_max100": 0.8069370800750998,
+            "ap50_max100": 1.0,
+            "ap75_max100": 0.9885757806549884,
+            "ap50_95_max300": 0.8069370800750998,
+            "per_class": {
+              "raspberry_pi_sbc": {
+                "ap50_95_max100": 0.8069370800750998,
+                "ap50_max100": 1.0,
+                "ap50_95_max300": 0.8069370800750998
+              }
+            },
+            "area_ap50_95_max100": {
+              "all": 0.8069370800750998,
+              "small": null,
+              "medium": null,
+              "large": 0.8069370800750998
+            }
+          },
+          "operating": {
+            "confidence": 0.4,
+            "match_box_iou": 0.5,
+            "tp": 256,
+            "fp": 0,
+            "fn": 4,
+            "precision": 1.0,
+            "recall": 0.9846153846153847,
+            "f1": 0.9922480620155039,
+            "per_class_counts_tp_fp_fn": [
+              [
+                256,
+                0,
+                4
+              ]
+            ],
+            "size_recall": {
+              "lt8": {
+                "detected": 0,
+                "total": 0,
+                "recall": null
+              },
+              "8to16": {
+                "detected": 0,
+                "total": 0,
+                "recall": null
+              },
+              "16to32": {
+                "detected": 0,
+                "total": 0,
+                "recall": null
+              },
+              "ge32": {
+                "detected": 256,
+                "total": 260,
+                "recall": 0.9846153846153847
+              }
+            },
+            "negative_images": 145,
+            "negative_images_with_false_positive": 0,
+            "negative_false_positive_image_rate": 0.0
+          }
+        },
+        "positive_variant:micro_pcb:micro_code_G_raspberry_pi_sbc": {
+          "images": 100,
+          "instances": 100,
+          "bbox": {
+            "iou_type": "bbox",
+            "ap50_95_max100": 0.8446433649502219,
+            "ap50_max100": 1.0,
+            "ap75_max100": 1.0,
+            "ap50_95_max300": 0.8446433649502219,
+            "per_class": {
+              "raspberry_pi_sbc": {
+                "ap50_95_max100": 0.8446433649502219,
+                "ap50_max100": 1.0,
+                "ap50_95_max300": 0.8446433649502219
+              }
+            },
+            "area_ap50_95_max100": {
+              "all": 0.8446433649502219,
+              "small": null,
+              "medium": null,
+              "large": 0.8446433649502219
+            }
+          },
+          "operating": {
+            "confidence": 0.4,
+            "match_box_iou": 0.5,
+            "tp": 100,
+            "fp": 0,
+            "fn": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "per_class_counts_tp_fp_fn": [
+              [
+                100,
+                0,
+                0
+              ]
+            ],
+            "size_recall": {
+              "lt8": {
+                "detected": 0,
+                "total": 0,
+                "recall": null
+              },
+              "8to16": {
+                "detected": 0,
+                "total": 0,
+                "recall": null
+              },
+              "16to32": {
+                "detected": 0,
+                "total": 0,
+                "recall": null
+              },
+              "ge32": {
+                "detected": 100,
+                "total": 100,
+                "recall": 1.0
+              }
+            },
+            "negative_images": 0,
+            "negative_images_with_false_positive": 0,
+            "negative_false_positive_image_rate": null
+          }
+        },
+        "positive_variant:micro_pcb:micro_code_H_raspberry_pi_sbc": {
+          "images": 80,
+          "instances": 80,
+          "bbox": {
+            "iou_type": "bbox",
+            "ap50_95_max100": 0.8156581336975126,
+            "ap50_max100": 1.0,
+            "ap75_max100": 1.0,
+            "ap50_95_max300": 0.8156581336975126,
+            "per_class": {
+              "raspberry_pi_sbc": {
+                "ap50_95_max100": 0.8156581336975126,
+                "ap50_max100": 1.0,
+                "ap50_95_max300": 0.8156581336975126
+              }
+            },
+            "area_ap50_95_max100": {
+              "all": 0.8156581336975126,
+              "small": null,
+              "medium": null,
+              "large": 0.8156581336975126
+            }
+          },
+          "operating": {
+            "confidence": 0.4,
+            "match_box_iou": 0.5,
+            "tp": 76,
+            "fp": 0,
+            "fn": 4,
+            "precision": 1.0,
+            "recall": 0.95,
+            "f1": 0.9743589743589743,
+            "per_class_counts_tp_fp_fn": [
+              [
+                76,
+                0,
+                4
+              ]
+            ],
+            "size_recall": {
+              "lt8": {
+                "detected": 0,
+                "total": 0,
+                "recall": null
+              },
+              "8to16": {
+                "detected": 0,
+                "total": 0,
+                "recall": null
+              },
+              "16to32": {
+                "detected": 0,
+                "total": 0,
+                "recall": null
+              },
+              "ge32": {
+                "detected": 76,
+                "total": 80,
+                "recall": 0.95
+              }
+            },
+            "negative_images": 0,
+            "negative_images_with_false_positive": 0,
+            "negative_false_positive_image_rate": null
+          }
+        },
+        "positive_variant:micro_pcb:micro_code_M_raspberry_pi_sbc": {
+          "images": 80,
+          "instances": 80,
+          "bbox": {
+            "iou_type": "bbox",
+            "ap50_95_max100": 0.7814209608529101,
+            "ap50_max100": 1.0,
+            "ap75_max100": 0.9771039603960398,
+            "ap50_95_max300": 0.7814209608529101,
+            "per_class": {
+              "raspberry_pi_sbc": {
+                "ap50_95_max100": 0.7814209608529101,
+                "ap50_max100": 1.0,
+                "ap50_95_max300": 0.7814209608529101
+              }
+            },
+            "area_ap50_95_max100": {
+              "all": 0.7814209608529101,
+              "small": null,
+              "medium": null,
+              "large": 0.7814209608529101
+            }
+          },
+          "operating": {
+            "confidence": 0.4,
+            "match_box_iou": 0.5,
+            "tp": 80,
+            "fp": 0,
+            "fn": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "per_class_counts_tp_fp_fn": [
+              [
+                80,
+                0,
+                0
+              ]
+            ],
+            "size_recall": {
+              "lt8": {
+                "detected": 0,
+                "total": 0,
+                "recall": null
+              },
+              "8to16": {
+                "detected": 0,
+                "total": 0,
+                "recall": null
+              },
+              "16to32": {
+                "detected": 0,
+                "total": 0,
+                "recall": null
+              },
+              "ge32": {
+                "detected": 80,
+                "total": 80,
+                "recall": 1.0
+              }
+            },
+            "negative_images": 0,
+            "negative_images_with_false_positive": 0,
+            "negative_false_positive_image_rate": null
+          }
+        }
+      }
+    },
+    "board_yolo11n_seg": {
+      "fixed_confidence_from_val": 0.5,
+      "subsets": {
+        "source:iotkits_v1": {
+          "images": 490,
+          "instances": 166,
+          "bbox": {
+            "iou_type": "bbox",
+            "ap50_95_max100": 0.910701602966259,
+            "ap50_max100": 0.9983937121756119,
+            "ap75_max100": 0.9774584933873323,
+            "ap50_95_max300": 0.910701602966259,
+            "per_class": {
+              "raspberry_pi_sbc": {
+                "ap50_95_max100": 0.910701602966259,
+                "ap50_max100": 0.9983937121756119,
+                "ap50_95_max300": 0.910701602966259
+              }
+            },
+            "area_ap50_95_max100": {
+              "all": 0.910701602966259,
+              "small": null,
+              "medium": null,
+              "large": 0.910701602966259
+            }
+          },
+          "operating": {
+            "confidence": 0.5,
+            "match_box_iou": 0.5,
+            "tp": 161,
+            "fp": 4,
+            "fn": 5,
+            "precision": 0.9757575757575757,
+            "recall": 0.9698795180722891,
+            "f1": 0.9728096676737159,
+            "per_class_counts_tp_fp_fn": [
+              [
+                161,
+                4,
+                5
+              ]
+            ],
+            "size_recall": {
+              "lt8": {
+                "detected": 0,
+                "total": 0,
+                "recall": null
+              },
+              "8to16": {
+                "detected": 0,
+                "total": 0,
+                "recall": null
+              },
+              "16to32": {
+                "detected": 0,
+                "total": 0,
+                "recall": null
+              },
+              "ge32": {
+                "detected": 161,
+                "total": 166,
+                "recall": 0.9698795180722891
+              }
+            },
+            "negative_images": 324,
+            "negative_images_with_false_positive": 3,
+            "negative_false_positive_image_rate": 0.009259259259259259
+          }
+        },
+        "positive_variant:iotkits_v1:Raspberry-Pi-Zero": {
+          "images": 25,
+          "instances": 25,
+          "bbox": {
+            "iou_type": "bbox",
+            "ap50_95_max100": 0.8943468011397413,
+            "ap50_max100": 0.9923138980564722,
+            "ap75_max100": 0.9408329404369008,
+            "ap50_95_max300": 0.8943468011397413,
+            "per_class": {
+              "raspberry_pi_sbc": {
+                "ap50_95_max100": 0.8943468011397413,
+                "ap50_max100": 0.9923138980564722,
+                "ap50_95_max300": 0.8943468011397413
+              }
+            },
+            "area_ap50_95_max100": {
+              "all": 0.8943468011397413,
+              "small": null,
+              "medium": null,
+              "large": 0.8943468011397413
+            }
+          },
+          "operating": {
+            "confidence": 0.5,
+            "match_box_iou": 0.5,
+            "tp": 21,
+            "fp": 1,
+            "fn": 4,
+            "precision": 0.9545454545454546,
+            "recall": 0.84,
+            "f1": 0.8936170212765958,
+            "per_class_counts_tp_fp_fn": [
+              [
+                21,
+                1,
+                4
+              ]
+            ],
+            "size_recall": {
+              "lt8": {
+                "detected": 0,
+                "total": 0,
+                "recall": null
+              },
+              "8to16": {
+                "detected": 0,
+                "total": 0,
+                "recall": null
+              },
+              "16to32": {
+                "detected": 0,
+                "total": 0,
+                "recall": null
+              },
+              "ge32": {
+                "detected": 21,
+                "total": 25,
+                "recall": 0.84
+              }
+            },
+            "negative_images": 0,
+            "negative_images_with_false_positive": 0,
+            "negative_false_positive_image_rate": null
+          }
+        },
+        "positive_variant:iotkits_v1:Raspberry-Pi-Zero-W": {
+          "images": 25,
+          "instances": 25,
+          "bbox": {
+            "iou_type": "bbox",
+            "ap50_95_max100": 0.9308172817281728,
+            "ap50_max100": 1.0,
+            "ap75_max100": 1.0,
+            "ap50_95_max300": 0.9308172817281728,
+            "per_class": {
+              "raspberry_pi_sbc": {
+                "ap50_95_max100": 0.9308172817281728,
+                "ap50_max100": 1.0,
+                "ap50_95_max300": 0.9308172817281728
+              }
+            },
+            "area_ap50_95_max100": {
+              "all": 0.9308172817281728,
+              "small": null,
+              "medium": null,
+              "large": 0.9308172817281728
+            }
+          },
+          "operating": {
+            "confidence": 0.5,
+            "match_box_iou": 0.5,
+            "tp": 25,
+            "fp": 0,
+            "fn": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "per_class_counts_tp_fp_fn": [
+              [
+                25,
+                0,
+                0
+              ]
+            ],
+            "size_recall": {
+              "lt8": {
+                "detected": 0,
+                "total": 0,
+                "recall": null
+              },
+              "8to16": {
+                "detected": 0,
+                "total": 0,
+                "recall": null
+              },
+              "16to32": {
+                "detected": 0,
+                "total": 0,
+                "recall": null
+              },
+              "ge32": {
+                "detected": 25,
+                "total": 25,
+                "recall": 1.0
+              }
+            },
+            "negative_images": 0,
+            "negative_images_with_false_positive": 0,
+            "negative_false_positive_image_rate": null
+          }
+        },
+        "positive_variant:iotkits_v1:Raspberry-Pi-3-A-": {
+          "images": 5,
+          "instances": 5,
+          "bbox": {
+            "iou_type": "bbox",
+            "ap50_95_max100": 0.9452970297029702,
+            "ap50_max100": 1.0,
+            "ap75_max100": 1.0,
+            "ap50_95_max300": 0.9452970297029702,
+            "per_class": {
+              "raspberry_pi_sbc": {
+                "ap50_95_max100": 0.9452970297029702,
+                "ap50_max100": 1.0,
+                "ap50_95_max300": 0.9452970297029702
+              }
+            },
+            "area_ap50_95_max100": {
+              "all": 0.9452970297029702,
+              "small": null,
+              "medium": null,
+              "large": 0.9452970297029702
+            }
+          },
+          "operating": {
+            "confidence": 0.5,
+            "match_box_iou": 0.5,
+            "tp": 5,
+            "fp": 0,
+            "fn": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "per_class_counts_tp_fp_fn": [
+              [
+                5,
+                0,
+                0
+              ]
+            ],
+            "size_recall": {
+              "lt8": {
+                "detected": 0,
+                "total": 0,
+                "recall": null
+              },
+              "8to16": {
+                "detected": 0,
+                "total": 0,
+                "recall": null
+              },
+              "16to32": {
+                "detected": 0,
+                "total": 0,
+                "recall": null
+              },
+              "ge32": {
+                "detected": 5,
+                "total": 5,
+                "recall": 1.0
+              }
+            },
+            "negative_images": 0,
+            "negative_images_with_false_positive": 0,
+            "negative_false_positive_image_rate": null
+          }
+        },
+        "positive_variant:iotkits_v1:Raspberry Pi 3 B-": {
+          "images": 19,
+          "instances": 19,
+          "bbox": {
+            "iou_type": "bbox",
+            "ap50_95_max100": 0.9268542643738058,
+            "ap50_max100": 1.0,
+            "ap75_max100": 1.0,
+            "ap50_95_max300": 0.9268542643738058,
+            "per_class": {
+              "raspberry_pi_sbc": {
+                "ap50_95_max100": 0.9268542643738058,
+                "ap50_max100": 1.0,
+                "ap50_95_max300": 0.9268542643738058
+              }
+            },
+            "area_ap50_95_max100": {
+              "all": 0.9268542643738058,
+              "small": null,
+              "medium": null,
+              "large": 0.9268542643738058
+            }
+          },
+          "operating": {
+            "confidence": 0.5,
+            "match_box_iou": 0.5,
+            "tp": 18,
+            "fp": 0,
+            "fn": 1,
+            "precision": 1.0,
+            "recall": 0.9473684210526315,
+            "f1": 0.972972972972973,
+            "per_class_counts_tp_fp_fn": [
+              [
+                18,
+                0,
+                1
+              ]
+            ],
+            "size_recall": {
+              "lt8": {
+                "detected": 0,
+                "total": 0,
+                "recall": null
+              },
+              "8to16": {
+                "detected": 0,
+                "total": 0,
+                "recall": null
+              },
+              "16to32": {
+                "detected": 0,
+                "total": 0,
+                "recall": null
+              },
+              "ge32": {
+                "detected": 18,
+                "total": 19,
+                "recall": 0.9473684210526315
+              }
+            },
+            "negative_images": 0,
+            "negative_images_with_false_positive": 0,
+            "negative_false_positive_image_rate": null
+          }
+        },
+        "positive_variant:iotkits_v1:Raspberry-Pi-4-B": {
+          "images": 19,
+          "instances": 19,
+          "bbox": {
+            "iou_type": "bbox",
+            "ap50_95_max100": 0.9182608895564479,
+            "ap50_max100": 1.0,
+            "ap75_max100": 1.0,
+            "ap50_95_max300": 0.9182608895564479,
+            "per_class": {
+              "raspberry_pi_sbc": {
+                "ap50_95_max100": 0.9182608895564479,
+                "ap50_max100": 1.0,
+                "ap50_95_max300": 0.9182608895564479
+              }
+            },
+            "area_ap50_95_max100": {
+              "all": 0.9182608895564479,
+              "small": null,
+              "medium": null,
+              "large": 0.9182608895564479
+            }
+          },
+          "operating": {
+            "confidence": 0.5,
+            "match_box_iou": 0.5,
+            "tp": 19,
+            "fp": 0,
+            "fn": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "per_class_counts_tp_fp_fn": [
+              [
+                19,
+                0,
+                0
+              ]
+            ],
+            "size_recall": {
+              "lt8": {
+                "detected": 0,
+                "total": 0,
+                "recall": null
+              },
+              "8to16": {
+                "detected": 0,
+                "total": 0,
+                "recall": null
+              },
+              "16to32": {
+                "detected": 0,
+                "total": 0,
+                "recall": null
+              },
+              "ge32": {
+                "detected": 19,
+                "total": 19,
+                "recall": 1.0
+              }
+            },
+            "negative_images": 0,
+            "negative_images_with_false_positive": 0,
+            "negative_false_positive_image_rate": null
+          }
+        },
+        "positive_variant:iotkits_v1:Raspberry-Pi-Zero-WH": {
+          "images": 6,
+          "instances": 6,
+          "bbox": {
+            "iou_type": "bbox",
+            "ap50_95_max100": 0.9033663366336634,
+            "ap50_max100": 1.0,
+            "ap75_max100": 1.0,
+            "ap50_95_max300": 0.9033663366336634,
+            "per_class": {
+              "raspberry_pi_sbc": {
+                "ap50_95_max100": 0.9033663366336634,
+                "ap50_max100": 1.0,
+                "ap50_95_max300": 0.9033663366336634
+              }
+            },
+            "area_ap50_95_max100": {
+              "all": 0.9033663366336634,
+              "small": null,
+              "medium": null,
+              "large": 0.9033663366336634
+            }
+          },
+          "operating": {
+            "confidence": 0.5,
+            "match_box_iou": 0.5,
+            "tp": 6,
+            "fp": 0,
+            "fn": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "per_class_counts_tp_fp_fn": [
+              [
+                6,
+                0,
+                0
+              ]
+            ],
+            "size_recall": {
+              "lt8": {
+                "detected": 0,
+                "total": 0,
+                "recall": null
+              },
+              "8to16": {
+                "detected": 0,
+                "total": 0,
+                "recall": null
+              },
+              "16to32": {
+                "detected": 0,
+                "total": 0,
+                "recall": null
+              },
+              "ge32": {
+                "detected": 6,
+                "total": 6,
+                "recall": 1.0
+              }
+            },
+            "negative_images": 0,
+            "negative_images_with_false_positive": 0,
+            "negative_false_positive_image_rate": null
+          }
+        },
+        "positive_variant:iotkits_v1:Raspberry-Pi-2-B": {
+          "images": 15,
+          "instances": 15,
+          "bbox": {
+            "iou_type": "bbox",
+            "ap50_95_max100": 0.8737690197591188,
+            "ap50_max100": 1.0,
+            "ap75_max100": 0.9221122112211221,
+            "ap50_95_max300": 0.8737690197591188,
+            "per_class": {
+              "raspberry_pi_sbc": {
+                "ap50_95_max100": 0.8737690197591188,
+                "ap50_max100": 1.0,
+                "ap50_95_max300": 0.8737690197591188
+              }
+            },
+            "area_ap50_95_max100": {
+              "all": 0.8737690197591188,
+              "small": null,
+              "medium": null,
+              "large": 0.8737690197591188
+            }
+          },
+          "operating": {
+            "confidence": 0.5,
+            "match_box_iou": 0.5,
+            "tp": 15,
+            "fp": 0,
+            "fn": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "per_class_counts_tp_fp_fn": [
+              [
+                15,
+                0,
+                0
+              ]
+            ],
+            "size_recall": {
+              "lt8": {
+                "detected": 0,
+                "total": 0,
+                "recall": null
+              },
+              "8to16": {
+                "detected": 0,
+                "total": 0,
+                "recall": null
+              },
+              "16to32": {
+                "detected": 0,
+                "total": 0,
+                "recall": null
+              },
+              "ge32": {
+                "detected": 15,
+                "total": 15,
+                "recall": 1.0
+              }
+            },
+            "negative_images": 0,
+            "negative_images_with_false_positive": 0,
+            "negative_false_positive_image_rate": null
+          }
+        },
+        "positive_variant:iotkits_v1:Raspberry-Pi-5": {
+          "images": 10,
+          "instances": 10,
+          "bbox": {
+            "iou_type": "bbox",
+            "ap50_95_max100": 0.8912729844413013,
+            "ap50_max100": 1.0,
+            "ap75_max100": 1.0,
+            "ap50_95_max300": 0.8912729844413013,
+            "per_class": {
+              "raspberry_pi_sbc": {
+                "ap50_95_max100": 0.8912729844413013,
+                "ap50_max100": 1.0,
+                "ap50_95_max300": 0.8912729844413013
+              }
+            },
+            "area_ap50_95_max100": {
+              "all": 0.8912729844413013,
+              "small": null,
+              "medium": null,
+              "large": 0.8912729844413013
+            }
+          },
+          "operating": {
+            "confidence": 0.5,
+            "match_box_iou": 0.5,
+            "tp": 10,
+            "fp": 0,
+            "fn": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "per_class_counts_tp_fp_fn": [
+              [
+                10,
+                0,
+                0
+              ]
+            ],
+            "size_recall": {
+              "lt8": {
+                "detected": 0,
+                "total": 0,
+                "recall": null
+              },
+              "8to16": {
+                "detected": 0,
+                "total": 0,
+                "recall": null
+              },
+              "16to32": {
+                "detected": 0,
+                "total": 0,
+                "recall": null
+              },
+              "ge32": {
+                "detected": 10,
+                "total": 10,
+                "recall": 1.0
+              }
+            },
+            "negative_images": 0,
+            "negative_images_with_false_positive": 0,
+            "negative_false_positive_image_rate": null
+          }
+        },
+        "positive_variant:iotkits_v1:Raspberry-Pi-1-A-": {
+          "images": 10,
+          "instances": 10,
+          "bbox": {
+            "iou_type": "bbox",
+            "ap50_95_max100": 1.0,
+            "ap50_max100": 1.0,
+            "ap75_max100": 1.0,
+            "ap50_95_max300": 1.0,
+            "per_class": {
+              "raspberry_pi_sbc": {
+                "ap50_95_max100": 1.0,
+                "ap50_max100": 1.0,
+                "ap50_95_max300": 1.0
+              }
+            },
+            "area_ap50_95_max100": {
+              "all": 1.0,
+              "small": null,
+              "medium": null,
+              "large": 1.0
+            }
+          },
+          "operating": {
+            "confidence": 0.5,
+            "match_box_iou": 0.5,
+            "tp": 10,
+            "fp": 0,
+            "fn": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "per_class_counts_tp_fp_fn": [
+              [
+                10,
+                0,
+                0
+              ]
+            ],
+            "size_recall": {
+              "lt8": {
+                "detected": 0,
+                "total": 0,
+                "recall": null
+              },
+              "8to16": {
+                "detected": 0,
+                "total": 0,
+                "recall": null
+              },
+              "16to32": {
+                "detected": 0,
+                "total": 0,
+                "recall": null
+              },
+              "ge32": {
+                "detected": 10,
+                "total": 10,
+                "recall": 1.0
+              }
+            },
+            "negative_images": 0,
+            "negative_images_with_false_positive": 0,
+            "negative_false_positive_image_rate": null
+          }
+        },
+        "positive_variant:iotkits_v1:Raspberry-Pi-3-B": {
+          "images": 12,
+          "instances": 12,
+          "bbox": {
+            "iou_type": "bbox",
+            "ap50_95_max100": 0.9498349834983498,
+            "ap50_max100": 1.0,
+            "ap75_max100": 1.0,
+            "ap50_95_max300": 0.9498349834983498,
+            "per_class": {
+              "raspberry_pi_sbc": {
+                "ap50_95_max100": 0.9498349834983498,
+                "ap50_max100": 1.0,
+                "ap50_95_max300": 0.9498349834983498
+              }
+            },
+            "area_ap50_95_max100": {
+              "all": 0.9498349834983498,
+              "small": null,
+              "medium": null,
+              "large": 0.9498349834983498
+            }
+          },
+          "operating": {
+            "confidence": 0.5,
+            "match_box_iou": 0.5,
+            "tp": 12,
+            "fp": 0,
+            "fn": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "per_class_counts_tp_fp_fn": [
+              [
+                12,
+                0,
+                0
+              ]
+            ],
+            "size_recall": {
+              "lt8": {
+                "detected": 0,
+                "total": 0,
+                "recall": null
+              },
+              "8to16": {
+                "detected": 0,
+                "total": 0,
+                "recall": null
+              },
+              "16to32": {
+                "detected": 0,
+                "total": 0,
+                "recall": null
+              },
+              "ge32": {
+                "detected": 12,
+                "total": 12,
+                "recall": 1.0
+              }
+            },
+            "negative_images": 0,
+            "negative_images_with_false_positive": 0,
+            "negative_false_positive_image_rate": null
+          }
+        },
+        "positive_variant:iotkits_v1:Raspberry Pi 1 B-": {
+          "images": 11,
+          "instances": 11,
+          "bbox": {
+            "iou_type": "bbox",
+            "ap50_95_max100": 0.9443564356435643,
+            "ap50_max100": 1.0,
+            "ap75_max100": 1.0,
+            "ap50_95_max300": 0.9443564356435643,
+            "per_class": {
+              "raspberry_pi_sbc": {
+                "ap50_95_max100": 0.9443564356435643,
+                "ap50_max100": 1.0,
+                "ap50_95_max300": 0.9443564356435643
+              }
+            },
+            "area_ap50_95_max100": {
+              "all": 0.9443564356435643,
+              "small": null,
+              "medium": null,
+              "large": 0.9443564356435643
+            }
+          },
+          "operating": {
+            "confidence": 0.5,
+            "match_box_iou": 0.5,
+            "tp": 11,
+            "fp": 0,
+            "fn": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "per_class_counts_tp_fp_fn": [
+              [
+                11,
+                0,
+                0
+              ]
+            ],
+            "size_recall": {
+              "lt8": {
+                "detected": 0,
+                "total": 0,
+                "recall": null
+              },
+              "8to16": {
+                "detected": 0,
+                "total": 0,
+                "recall": null
+              },
+              "16to32": {
+                "detected": 0,
+                "total": 0,
+                "recall": null
+              },
+              "ge32": {
+                "detected": 11,
+                "total": 11,
+                "recall": 1.0
+              }
+            },
+            "negative_images": 0,
+            "negative_images_with_false_positive": 0,
+            "negative_false_positive_image_rate": null
+          }
+        },
+        "positive_variant:iotkits_v1:Raspberry-Pi-Zero-2-W": {
+          "images": 9,
+          "instances": 9,
+          "bbox": {
+            "iou_type": "bbox",
+            "ap50_95_max100": 0.9126237623762377,
+            "ap50_max100": 1.0,
+            "ap75_max100": 1.0,
+            "ap50_95_max300": 0.9126237623762377,
+            "per_class": {
+              "raspberry_pi_sbc": {
+                "ap50_95_max100": 0.9126237623762377,
+                "ap50_max100": 1.0,
+                "ap50_95_max300": 0.9126237623762377
+              }
+            },
+            "area_ap50_95_max100": {
+              "all": 0.9126237623762377,
+              "small": null,
+              "medium": null,
+              "large": 0.9126237623762377
+            }
+          },
+          "operating": {
+            "confidence": 0.5,
+            "match_box_iou": 0.5,
+            "tp": 9,
+            "fp": 0,
+            "fn": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "per_class_counts_tp_fp_fn": [
+              [
+                9,
+                0,
+                0
+              ]
+            ],
+            "size_recall": {
+              "lt8": {
+                "detected": 0,
+                "total": 0,
+                "recall": null
+              },
+              "8to16": {
+                "detected": 0,
+                "total": 0,
+                "recall": null
+              },
+              "16to32": {
+                "detected": 0,
+                "total": 0,
+                "recall": null
+              },
+              "ge32": {
+                "detected": 9,
+                "total": 9,
+                "recall": 1.0
+              }
+            },
+            "negative_images": 0,
+            "negative_images_with_false_positive": 0,
+            "negative_false_positive_image_rate": null
+          }
+        }
+      }
+    }
+  }
+}

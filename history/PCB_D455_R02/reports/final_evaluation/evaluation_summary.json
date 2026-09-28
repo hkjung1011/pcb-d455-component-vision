@@ -1,0 +1,113 @@
+{
+  "frozen_pipeline": {
+    "frozen_utc": "2026-09-27T16:03:20.135422+00:00",
+    "scope": "PCBVision source3 semantic only; not target4 instance AP or D455",
+    "checkpoint_sha256": "85eb1ac6dbac87ffb04424f37730617d6a0e47be51124e7d9b95cc06882c8fc1",
+    "manifest_sha256": "733f17038222a89245d513f0fd4b9b474cfd07a29dbd438bef93cd32a0c64023",
+    "selected_pipeline": "whole",
+    "tile_size": null,
+    "confidence": 0.1,
+    "imgsz": 1024,
+    "retina_masks": false,
+    "selection_metric": "validation foreground mIoU",
+    "validation_scores": {
+      "whole": 0.46535120153965875,
+      "tile768": 0.22214180881152204
+    },
+    "predeclared_test_conditions": [
+      "native",
+      "half_resolution",
+      "blur"
+    ],
+    "semantic_merge_policy": "highest-confidence polygon owns pixel; no instance dedup in this semantic metric",
+    "test_used_for_selection": false
+  },
+  "test_results": {
+    "native": {
+      "foreground_miou": 0.6059095865637781,
+      "class_iou": {
+        "other": 0.9643095785431223,
+        "IC": 0.6566039830889123,
+        "electrolytic_capacitor": 0.511321366081265,
+        "connector_region": 0.6498034105211571
+      },
+      "image_count": 8,
+      "timing_stats": {
+        "prediction_calls": {
+          "count": 8,
+          "mean_ms": 48.201162502664374,
+          "p50_ms": 46.931300006690435,
+          "p95_ms": 74.7822799909045,
+          "total_ms": 385.609300021315
+        },
+        "images": {
+          "count": 8,
+          "mean_ms": 164.80565000529168,
+          "p50_ms": 115.69155000324827,
+          "p95_ms": 382.16782501112897,
+          "total_ms": 1318.4452000423335
+        },
+        "total_seconds": 2.895167999988189,
+        "warmup_excluded": false
+      }
+    },
+    "half_resolution": {
+      "foreground_miou": 0.6131453208452863,
+      "class_iou": {
+        "other": 0.9670910744354388,
+        "IC": 0.6755783121768353,
+        "electrolytic_capacitor": 0.5008822694685406,
+        "connector_region": 0.6629753808904831
+      },
+      "image_count": 8,
+      "timing_stats": {
+        "prediction_calls": {
+          "count": 8,
+          "mean_ms": 28.908662494359305,
+          "p50_ms": 26.616549992468208,
+          "p95_ms": 47.082860002410584,
+          "total_ms": 231.26929995487444
+        },
+        "images": {
+          "count": 8,
+          "mean_ms": 151.3383499950578,
+          "p50_ms": 97.32854999310803,
+          "p95_ms": 347.0120649930322,
+          "total_ms": 1210.7067999604624
+        },
+        "total_seconds": 2.730357299995376,
+        "warmup_excluded": false
+      }
+    },
+    "blur": {
+      "foreground_miou": 0.5981547785677342,
+      "class_iou": {
+        "other": 0.9667411931613524,
+        "IC": 0.6762202660876409,
+        "electrolytic_capacitor": 0.46006170532082863,
+        "connector_region": 0.6581823642947331
+      },
+      "image_count": 8,
+      "timing_stats": {
+        "prediction_calls": {
+          "count": 8,
+          "mean_ms": 25.53058749617776,
+          "p50_ms": 21.693949995096773,
+          "p95_ms": 44.96782499190884,
+          "total_ms": 204.24469996942207
+        },
+        "images": {
+          "count": 8,
+          "mean_ms": 142.11902499664575,
+          "p50_ms": 99.00304999609943,
+          "p95_ms": 335.90397999505507,
+          "total_ms": 1136.952199973166
+        },
+        "total_seconds": 2.6079562000231817,
+        "warmup_excluded": false
+      }
+    }
+  },
+  "target4_mask_map": null,
+  "d455_real_use_verified": false
+}

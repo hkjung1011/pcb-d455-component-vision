@@ -1,0 +1,27 @@
+usage: capture_d455.py [-h] --output OUTPUT [--capture] [--count COUNT]
+                       [--interval INTERVAL] [--width WIDTH] [--height HEIGHT]
+                       [--fps FPS] [--board-id BOARD_ID]
+                       [--session-id SESSION_ID] [--design-id DESIGN_ID]
+                       [--side {top,bottom,other,unknown}]
+                       [--distance-mm DISTANCE_MM] [--lighting-id LIGHTING_ID]
+
+Local D455 inventory or user-triggered bounded raw capture; no reset/firmware
+changes.
+
+options:
+  -h, --help            show this help message and exit
+  --output OUTPUT
+  --capture             Only when the target PCB is in view
+  --count COUNT
+  --interval INTERVAL
+  --width WIDTH
+  --height HEIGHT
+  --fps FPS
+  --board-id BOARD_ID
+  --session-id SESSION_ID
+  --design-id DESIGN_ID
+  --side {top,bottom,other,unknown}
+  --distance-mm DISTANCE_MM
+                        Manually measured lens-to-board distance; not
+                        estimated depth
+  --lighting-id LIGHTING_ID

@@ -1,0 +1,41 @@
+{
+  "status": "completed",
+  "started_utc": "2026-09-27T17:30:12.896444+00:00",
+  "binding": {
+    "model_id": "parts_yolo11s",
+    "candidate_id": "last_tile1024",
+    "split": "val",
+    "cohort": null,
+    "task": "detect",
+    "simulation": null,
+    "checkpoint_sha256": "e05a0d3352ba622fb204ff24e898aa8d8f554d7fb3a061ecfee4e2bab2dbe1f3",
+    "manifest_sha256": "4e34fd9dfe7c92952f1f7da4db700a797af249b10c19ad922171812ae954a9ca",
+    "evaluator_sha256": "a5d9ce1733128d7e89bdcf5ab76f4d3fa49f6d8a4418817d3d7b2e58037dc704",
+    "tile_size": 1024,
+    "imgsz": 1024,
+    "confidence": null,
+    "bootstrap": 0
+  },
+  "binding_sha256": "1912a5c6948b666dd827c8ae1a28df245c408f9bf1baa36080534b5a4c2eaede",
+  "command": [
+    "C:\\Users\\hkjun\\Documents\\mcu-vision\\.venv-yolo11\\Scripts\\python.exe",
+    "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\scripts\\native_evaluate.py",
+    "--manifest",
+    "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\component_assets\\native_manifest.json",
+    "--weights",
+    "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\runs\\parts_yolo11s\\fit\\weights\\last.pt",
+    "--output",
+    "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\reports\\evaluation_suite\\evaluations\\parts_yolo11s__val__last_tile1024",
+    "--split",
+    "val",
+    "--imgsz",
+    "1024",
+    "--tile-size",
+    "1024",
+    "--bootstrap",
+    "0"
+  ],
+  "finished_utc": "2026-09-27T17:30:28.893977+00:00",
+  "return_code": 0,
+  "metrics_sha256": "0f95b639476f8e3c02d56b3615867434afb3abead77a10157ce4e7bf4481db0a"
+}

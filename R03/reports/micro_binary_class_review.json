@@ -1,0 +1,95 @@
+{
+  "status": "REVIEWED_R03_BINARY_OVERRIDE",
+  "raspberry_pi_codes": [
+    "G",
+    "H",
+    "M"
+  ],
+  "reviewers": "Parent agent and independent local audit agent; both visually inspected 39 cropped source photographs",
+  "coverage": "3 different conditions for each of 13 source codes; not all images individually adjudicated",
+  "source_readme": "C:\\Users\\hkjun\\Documents\\mcu-vision\\data\\raw\\curated\\micro_pcb_images\\README.txt",
+  "source_readme_sha256": "cc5d10e4f6c75781c77a7893b1dde8c83e261130c36de6975ff293226c50b683",
+  "code_map": [
+    {
+      "code": "A",
+      "source_model_label": "Raspberry Pi A+",
+      "is_raspberry_pi": false,
+      "observed_evidence": "ELEGOO MEGA2560 text; blue Mega-shaped board; no Raspberry Pi identity"
+    },
+    {
+      "code": "B",
+      "source_model_label": "Arduino Mega 2560 (Blue)",
+      "is_raspberry_pi": false,
+      "observed_evidence": "MEGA text on black long microcontroller board"
+    },
+    {
+      "code": "C",
+      "source_model_label": "Arduino Mega 2560 (Black)",
+      "is_raspberry_pi": false,
+      "observed_evidence": "MEGA text; yellow headers on black long microcontroller board"
+    },
+    {
+      "code": "D",
+      "source_model_label": "Arduino Mega 2560 (Black and Yellow)",
+      "is_raspberry_pi": false,
+      "observed_evidence": "Arduino DUE text and logo on blue board"
+    },
+    {
+      "code": "E",
+      "source_model_label": "Arduino Due",
+      "is_raspberry_pi": false,
+      "observed_evidence": "BeagleBone text and dual long expansion headers"
+    },
+    {
+      "code": "F",
+      "source_model_label": "Beaglebone Black",
+      "is_raspberry_pi": false,
+      "observed_evidence": "ARDUINO UNO text and Arduino infinity logo"
+    },
+    {
+      "code": "G",
+      "source_model_label": "Arduino Uno (Green)",
+      "is_raspberry_pi": true,
+      "observed_evidence": "Raspberry Pi logo on green SBC with Ethernet and four USB ports"
+    },
+    {
+      "code": "H",
+      "source_model_label": "Raspberry Pi 3 B+",
+      "is_raspberry_pi": true,
+      "observed_evidence": "Raspberry Pi logo on green SBC with Ethernet and four USB ports"
+    },
+    {
+      "code": "I",
+      "source_model_label": "Raspberry Pi 1 B+",
+      "is_raspberry_pi": false,
+      "observed_evidence": "ESP8266 Wireless Module UNO text on Arduino-shaped board"
+    },
+    {
+      "code": "J",
+      "source_model_label": "Arduino Uno Camera Shield",
+      "is_raspberry_pi": false,
+      "observed_evidence": "ELEGOO UNO R3 text on black board"
+    },
+    {
+      "code": "K",
+      "source_model_label": "Arduino Uno (Black)",
+      "is_raspberry_pi": false,
+      "observed_evidence": "WiFi/ESP8266 module on blue UNO-shaped board; no Raspberry Pi identity"
+    },
+    {
+      "code": "L",
+      "source_model_label": "Arduino Uno WiFi Shield",
+      "is_raspberry_pi": false,
+      "observed_evidence": "ARDUINO LEONARDO text and Arduino infinity logo"
+    },
+    {
+      "code": "M",
+      "source_model_label": "Arduino Leonardo",
+      "is_raspberry_pi": true,
+      "observed_evidence": "Raspberry Pi logo on compact green SBC with single USB and no Ethernet"
+    }
+  ],
+  "split_reset_reason": "Earlier A/H/I binary ontology was visually invalid; no old split is considered a valid Raspberry Pi reference. New global source-family + SHA + pHash grouping uses seed42 70/15/15.",
+  "legacy_model_status": "QUARANTINED_CLASS_MAPPING_CONFLICT; must not report historical RPi AP as a valid accuracy baseline",
+  "source_images_original_repository_changed": false
+}

@@ -1,0 +1,14 @@
+__pycache__/
+*.py[cod]
+.venv/
+.venv-*/
+venv/
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.pt
+*.zip
+data/raw/
+credentials/

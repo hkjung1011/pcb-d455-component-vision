@@ -1,0 +1,3908 @@
+{
+  "schema": "r03-model-registry-v1",
+  "default_parts_model": "parts_yolo11s",
+  "legacy_micro_A_H_I_status": "QUARANTINED_CLASS_MAPPING_CONFLICT",
+  "models": [
+    {
+      "model_id": "parts_yolo11n",
+      "architecture": {
+        "model_id": "parts_yolo11n",
+        "task": "detect",
+        "classes": [
+          "resistor",
+          "capacitor",
+          "ic",
+          "connector"
+        ],
+        "parameters": 2590620,
+        "trainable_parameters": 2590604,
+        "layers": [
+          {
+            "index": 0,
+            "module": "ultralytics.nn.modules.conv.Conv",
+            "from": -1,
+            "parameters": 464
+          },
+          {
+            "index": 1,
+            "module": "ultralytics.nn.modules.conv.Conv",
+            "from": -1,
+            "parameters": 4672
+          },
+          {
+            "index": 2,
+            "module": "ultralytics.nn.modules.block.C3k2",
+            "from": -1,
+            "parameters": 6640
+          },
+          {
+            "index": 3,
+            "module": "ultralytics.nn.modules.conv.Conv",
+            "from": -1,
+            "parameters": 36992
+          },
+          {
+            "index": 4,
+            "module": "ultralytics.nn.modules.block.C3k2",
+            "from": -1,
+            "parameters": 26080
+          },
+          {
+            "index": 5,
+            "module": "ultralytics.nn.modules.conv.Conv",
+            "from": -1,
+            "parameters": 147712
+          },
+          {
+            "index": 6,
+            "module": "ultralytics.nn.modules.block.C3k2",
+            "from": -1,
+            "parameters": 87040
+          },
+          {
+            "index": 7,
+            "module": "ultralytics.nn.modules.conv.Conv",
+            "from": -1,
+            "parameters": 295424
+          },
+          {
+            "index": 8,
+            "module": "ultralytics.nn.modules.block.C3k2",
+            "from": -1,
+            "parameters": 346112
+          },
+          {
+            "index": 9,
+            "module": "ultralytics.nn.modules.block.SPPF",
+            "from": -1,
+            "parameters": 164608
+          },
+          {
+            "index": 10,
+            "module": "ultralytics.nn.modules.block.C2PSA",
+            "from": -1,
+            "parameters": 249728
+          },
+          {
+            "index": 11,
+            "module": "torch.nn.modules.upsampling.Upsample",
+            "from": -1,
+            "parameters": 0
+          },
+          {
+            "index": 12,
+            "module": "ultralytics.nn.modules.conv.Concat",
+            "from": [
+              -1,
+              6
+            ],
+            "parameters": 0
+          },
+          {
+            "index": 13,
+            "module": "ultralytics.nn.modules.block.C3k2",
+            "from": -1,
+            "parameters": 111296
+          },
+          {
+            "index": 14,
+            "module": "torch.nn.modules.upsampling.Upsample",
+            "from": -1,
+            "parameters": 0
+          },
+          {
+            "index": 15,
+            "module": "ultralytics.nn.modules.conv.Concat",
+            "from": [
+              -1,
+              4
+            ],
+            "parameters": 0
+          },
+          {
+            "index": 16,
+            "module": "ultralytics.nn.modules.block.C3k2",
+            "from": -1,
+            "parameters": 32096
+          },
+          {
+            "index": 17,
+            "module": "ultralytics.nn.modules.conv.Conv",
+            "from": -1,
+            "parameters": 36992
+          },
+          {
+            "index": 18,
+            "module": "ultralytics.nn.modules.conv.Concat",
+            "from": [
+              -1,
+              13
+            ],
+            "parameters": 0
+          },
+          {
+            "index": 19,
+            "module": "ultralytics.nn.modules.block.C3k2",
+            "from": -1,
+            "parameters": 86720
+          },
+          {
+            "index": 20,
+            "module": "ultralytics.nn.modules.conv.Conv",
+            "from": -1,
+            "parameters": 147712
+          },
+          {
+            "index": 21,
+            "module": "ultralytics.nn.modules.conv.Concat",
+            "from": [
+              -1,
+              10
+            ],
+            "parameters": 0
+          },
+          {
+            "index": 22,
+            "module": "ultralytics.nn.modules.block.C3k2",
+            "from": -1,
+            "parameters": 378880
+          },
+          {
+            "index": 23,
+            "module": "ultralytics.nn.modules.head.Detect",
+            "from": [
+              16,
+              19,
+              22
+            ],
+            "parameters": 431452
+          }
+        ],
+        "yaml": {
+          "nc": 4,
+          "scales": {
+            "n": [
+              0.5,
+              0.25,
+              1024
+            ],
+            "s": [
+              0.5,
+              0.5,
+              1024
+            ],
+            "m": [
+              0.5,
+              1.0,
+              512
+            ],
+            "l": [
+              1.0,
+              1.0,
+              512
+            ],
+            "x": [
+              1.0,
+              1.5,
+              512
+            ]
+          },
+          "backbone": [
+            [
+              -1,
+              1,
+              "Conv",
+              [
+                64,
+                3,
+                2
+              ]
+            ],
+            [
+              -1,
+              1,
+              "Conv",
+              [
+                128,
+                3,
+                2
+              ]
+            ],
+            [
+              -1,
+              2,
+              "C3k2",
+              [
+                256,
+                false,
+                0.25
+              ]
+            ],
+            [
+              -1,
+              1,
+              "Conv",
+              [
+                256,
+                3,
+                2
+              ]
+            ],
+            [
+              -1,
+              2,
+              "C3k2",
+              [
+                512,
+                false,
+                0.25
+              ]
+            ],
+            [
+              -1,
+              1,
+              "Conv",
+              [
+                512,
+                3,
+                2
+              ]
+            ],
+            [
+              -1,
+              2,
+              "C3k2",
+              [
+                512,
+                true
+              ]
+            ],
+            [
+              -1,
+              1,
+              "Conv",
+              [
+                1024,
+                3,
+                2
+              ]
+            ],
+            [
+              -1,
+              2,
+              "C3k2",
+              [
+                1024,
+                true
+              ]
+            ],
+            [
+              -1,
+              1,
+              "SPPF",
+              [
+                1024,
+                5
+              ]
+            ],
+            [
+              -1,
+              2,
+              "C2PSA",
+              [
+                1024
+              ]
+            ]
+          ],
+          "head": [
+            [
+              -1,
+              1,
+              "nn.Upsample",
+              [
+                "None",
+                2,
+                "nearest"
+              ]
+            ],
+            [
+              [
+                -1,
+                6
+              ],
+              1,
+              "Concat",
+              [
+                1
+              ]
+            ],
+            [
+              -1,
+              2,
+              "C3k2",
+              [
+                512,
+                false
+              ]
+            ],
+            [
+              -1,
+              1,
+              "nn.Upsample",
+              [
+                "None",
+                2,
+                "nearest"
+              ]
+            ],
+            [
+              [
+                -1,
+                4
+              ],
+              1,
+              "Concat",
+              [
+                1
+              ]
+            ],
+            [
+              -1,
+              2,
+              "C3k2",
+              [
+                256,
+                false
+              ]
+            ],
+            [
+              -1,
+              1,
+              "Conv",
+              [
+                256,
+                3,
+                2
+              ]
+            ],
+            [
+              [
+                -1,
+                13
+              ],
+              1,
+              "Concat",
+              [
+                1
+              ]
+            ],
+            [
+              -1,
+              2,
+              "C3k2",
+              [
+                512,
+                false
+              ]
+            ],
+            [
+              -1,
+              1,
+              "Conv",
+              [
+                512,
+                3,
+                2
+              ]
+            ],
+            [
+              [
+                -1,
+                10
+              ],
+              1,
+              "Concat",
+              [
+                1
+              ]
+            ],
+            [
+              -1,
+              2,
+              "C3k2",
+              [
+                1024,
+                true
+              ]
+            ],
+            [
+              [
+                16,
+                19,
+                22
+              ],
+              1,
+              "Detect",
+              [
+                "nc"
+              ]
+            ]
+          ],
+          "scale": "n",
+          "yaml_file": "yolo11n.yaml",
+          "ch": 3,
+          "channels": 3
+        }
+      },
+      "training": {
+        "model_id": "parts_yolo11n",
+        "created_utc": "2026-09-27T16:33:52.619780+00:00",
+        "python": "3.11.9 (tags/v3.11.9:de54cf5, Apr  2 2024, 10:12:12) [MSC v.1938 64 bit (AMD64)]",
+        "platform": "Windows-10-10.0.26200-SP0",
+        "torch": "2.12.1+cu130",
+        "cuda": "13.0",
+        "ultralytics": "8.4.120",
+        "gpu": "NVIDIA GeForce RTX 5060 Laptop GPU",
+        "configuration": {
+          "model_id": "parts_yolo11n",
+          "task": "detect",
+          "scope": "WACV native four-component boxes; all Raspberry Pi 3B images held out; not D455 validated",
+          "weights": "models/yolo11n.pt",
+          "data": "component_assets/componentdetectdata.yaml",
+          "manifest": "component_assets/training_manifest.json",
+          "run_dir": "runs/parts_yolo11n",
+          "train": {
+            "epochs": 20,
+            "patience": 0,
+            "imgsz": 1024,
+            "batch": 2,
+            "amp": false,
+            "nbs": 8,
+            "optimizer": "AdamW",
+            "lr0": 0.001,
+            "lrf": 0.01,
+            "weight_decay": 0.0005,
+            "warmup_epochs": 2.0,
+            "warmup_bias_lr": 0.0,
+            "box": 7.5,
+            "cls": 0.5,
+            "dfl": 1.5,
+            "max_det": 1000,
+            "seed": 42,
+            "deterministic": true,
+            "mosaic": 0.0,
+            "mixup": 0.0,
+            "copy_paste": 0.0,
+            "scale": 0.2,
+            "translate": 0.05,
+            "degrees": 15.0,
+            "fliplr": 0.0,
+            "flipud": 0.0,
+            "hsv_h": 0.005,
+            "hsv_s": 0.15,
+            "hsv_v": 0.2,
+            "data": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\component_assets\\componentdetectdata.yaml",
+            "project": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\runs\\parts_yolo11n",
+            "name": "fit",
+            "exist_ok": false,
+            "device": 0,
+            "workers": 0,
+            "cache": false,
+            "plots": true,
+            "save": true,
+            "save_period": -1
+          }
+        },
+        "manifest_sha256": "0706ec7ef4361fbc4b84f9d19fad9af51a1e8f858bf4f76e98c827e59dfe847d",
+        "initial_weights_sha256": "0ebbc80d4a7680d14987a577cd21342b65ecfd94632bd9a8da63ae6417644ee1",
+        "scope": "WACV native four-component boxes; all Raspberry Pi 3B images held out; not D455 validated",
+        "class_loss_weights": "Uniform 1.0 for each class; no custom per-class multiplier",
+        "source_weighting": "Uniform sampling per native training tile; source factor 1.0, no class oversampling; original instances repeat across overlapping tiles",
+        "label_counts": {
+          "train": {
+            "images": 425,
+            "groups": 18,
+            "label_instances": 6733,
+            "per_class": {
+              "connector": 797,
+              "resistor": 2515,
+              "capacitor": 2898,
+              "ic": 523
+            }
+          },
+          "val": {
+            "images": 7,
+            "groups": 5,
+            "label_instances": 875,
+            "per_class": {
+              "resistor": 221,
+              "capacitor": 468,
+              "connector": 122,
+              "ic": 64
+            }
+          },
+          "test": {
+            "images": 13,
+            "groups": 6,
+            "label_instances": 1537,
+            "per_class": {
+              "connector": 188,
+              "resistor": 500,
+              "capacitor": 740,
+              "ic": 109
+            }
+          }
+        },
+        "test_used_for_training_or_selection": false
+      },
+      "run_summary": {
+        "model_id": "parts_yolo11n",
+        "status": "TRAINED_OFFLINE_NOT_D455_VALIDATED",
+        "requested_epochs": 20,
+        "last_epoch": 20,
+        "actual_optimizer_steps": 1164.0,
+        "weights_changed": true,
+        "best_path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\runs\\parts_yolo11n\\fit\\weights\\best.pt",
+        "best_sha256": "37a4d6abca501c37f451b9ea41c223a6ed4c58d9d2021a3e0a0b8d6d642b82c8",
+        "peak_cuda_allocated_bytes": 1518690816,
+        "test_evaluated": false,
+        "scope": "WACV native four-component boxes; all Raspberry Pi 3B images held out; not D455 validated",
+        "camera_verified": false
+      },
+      "selection": {
+        "candidate": {
+          "candidate_id": "last_tile1024",
+          "checkpoint": "last",
+          "weights": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\runs\\parts_yolo11n\\fit\\weights\\last.pt",
+          "tile_size": 1024
+        },
+        "checkpoint_sha256": "6e4983a8a8fc0bc749cfe113c125124ce329473d798a26ca1983292d3c4e7663",
+        "manifest_sha256": "4e34fd9dfe7c92952f1f7da4db700a797af249b10c19ad922171812ae954a9ca",
+        "imgsz": 1024,
+        "operating_confidence": 0.6000000000000001,
+        "validation_metrics_path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\reports\\evaluation_suite\\evaluations\\parts_yolo11n__val__last_tile1024\\metrics.json",
+        "validation_metrics_sha256": "aad1de6676cd4fb2e5743c5b48f365b37137a77d262b8d5940513be864b42743",
+        "validation_bbox": {
+          "iou_type": "bbox",
+          "ap50_95_max100": 0.21077415778090014,
+          "ap50_max100": 0.4566110894730216,
+          "ap75_max100": 0.1687401595657849,
+          "ap50_95_max300": 0.2187620084904634,
+          "per_class": {
+            "resistor": {
+              "ap50_95_max100": 0.32464536281918366,
+              "ap50_max100": 0.8348710984993742,
+              "ap50_95_max300": 0.32758696799383596
+            },
+            "capacitor": {
+              "ap50_95_max100": 0.3409440045559965,
+              "ap50_max100": 0.6378338528293381,
+              "ap50_95_max300": 0.36329938848409554
+            },
+            "ic": {
+              "ap50_95_max100": 0.15958003763949422,
+              "ap50_max100": 0.3071631800273436,
+              "ap50_95_max300": 0.1587542790464998
+            },
+            "connector": {
+              "ap50_95_max100": 0.017927226108926286,
+              "ap50_max100": 0.046576226536030454,
+              "ap50_95_max300": 0.025407398437422127
+            }
+          },
+          "area_ap50_95_max100": {
+            "all": 0.21077415778090014,
+            "small": 0.2845057289358485,
+            "medium": 0.21917665456461863,
+            "large": 0.2094109982211493
+          }
+        },
+        "validation_mask": null,
+        "rule": [
+          "validation bbox AP50-95 max100 descending",
+          "validation bbox AP50-95 max300 descending",
+          "validation offline latency p50 ascending",
+          "candidate ID ascending"
+        ]
+      },
+      "tests": {
+        "general_test": {
+          "candidate_id": "last_tile1024",
+          "metrics_path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\reports\\evaluation_suite\\evaluations\\parts_yolo11n__general_test\\metrics.json",
+          "metrics_sha256": "7d7f35714461860b221049da13332691f70d859e6b5245cd2d542cd420b4f86b",
+          "simulation": null,
+          "split": "test",
+          "cohort": "test",
+          "task": "detect",
+          "class_names": [
+            "resistor",
+            "capacitor",
+            "ic",
+            "connector"
+          ],
+          "images": 11,
+          "groups": 5,
+          "native_gt_instances": 1348,
+          "checkpoint_sha256": "6e4983a8a8fc0bc749cfe113c125124ce329473d798a26ca1983292d3c4e7663",
+          "manifest_sha256": "4e34fd9dfe7c92952f1f7da4db700a797af249b10c19ad922171812ae954a9ca",
+          "bbox": {
+            "iou_type": "bbox",
+            "ap50_95_max100": 0.19589078702606938,
+            "ap50_max100": 0.3793095612013992,
+            "ap75_max100": 0.17271266067147514,
+            "ap50_95_max300": 0.21748092216660786,
+            "per_class": {
+              "resistor": {
+                "ap50_95_max100": 0.2612153089997551,
+                "ap50_max100": 0.5500872623250715,
+                "ap50_95_max300": 0.2915261581986072
+              },
+              "capacitor": {
+                "ap50_95_max100": 0.3181342775088816,
+                "ap50_max100": 0.5787416607541394,
+                "ap50_95_max300": 0.37194995963618
+              },
+              "ic": {
+                "ap50_95_max100": 0.13510257786496715,
+                "ap50_max100": 0.22163393213640709,
+                "ap50_95_max300": 0.13469655876085865
+              },
+              "connector": {
+                "ap50_95_max100": 0.06911098373067369,
+                "ap50_max100": 0.166775389589979,
+                "ap50_95_max300": 0.07175101207078552
+              }
+            },
+            "area_ap50_95_max100": {
+              "all": 0.19589078702606938,
+              "small": 0.06589462732154318,
+              "medium": 0.34405188481308396,
+              "large": 0.28309307071652484
+            }
+          },
+          "mask": null,
+          "latency": {
+            "offline_predict_and_postprocess_ms_p50": 268.33270001225173,
+            "offline_predict_and_postprocess_ms_p95": 498.5552500002086,
+            "samples": 11,
+            "warmup_excluded": true,
+            "excludes": [
+              "camera acquisition",
+              "file decoding",
+              "visualization",
+              "disk write"
+            ]
+          },
+          "group_bootstrap_recall95": {
+            "resamples": 1000,
+            "groups": 5,
+            "lower": 0.11946902654867257,
+            "upper": 0.5548780487804879,
+            "scope": "Fixed-threshold recall CI, NOT an AP confidence interval; source-family groups, physical identity may be unknown"
+          },
+          "annotation_limitations": {
+            "ground_truth": "WACV source-provided human target4 bounding boxes, not masks or full BOM truth",
+            "pi3b_unknown_source_objects": 67,
+            "unknown_policy": "Unknowns remain unknown; never inferred as resistor/capacitor/IC/connector",
+            "holdout_scope": "All RPI3B faces excluded from this fine-tuning train/validation only",
+            "pretrained_source_contamination": "UNKNOWN: cannot establish that public images were absent from every pretraining source",
+            "physical_specimen_independence": "NOT_VERIFIED; source filename board groups",
+            "d455_verified": false,
+            "redistribution_license": "No explicit license confirmed; local research assets only"
+          },
+          "operating": {
+            "confidence": 0.6000000000000001,
+            "match_box_iou": 0.5,
+            "tp": 597,
+            "fp": 175,
+            "fn": 751,
+            "precision": 0.7733160621761658,
+            "recall": 0.44287833827893175,
+            "f1": 0.5632075471698114,
+            "per_class_counts_tp_fp_fn": [
+              [
+                225,
+                87,
+                218
+              ],
+              [
+                349,
+                59,
+                287
+              ],
+              [
+                15,
+                21,
+                78
+              ],
+              [
+                8,
+                8,
+                168
+              ]
+            ],
+            "size_recall": {
+              "lt8": {
+                "detected": 0,
+                "total": 0,
+                "recall": null
+              },
+              "8to16": {
+                "detected": 75,
+                "total": 446,
+                "recall": 0.1681614349775785
+              },
+              "16to32": {
+                "detected": 299,
+                "total": 405,
+                "recall": 0.7382716049382716
+              },
+              "ge32": {
+                "detected": 223,
+                "total": 497,
+                "recall": 0.448692152917505
+              }
+            },
+            "negative_images": 0,
+            "negative_images_with_false_positive": 0,
+            "negative_false_positive_image_rate": null
+          }
+        },
+        "pi_test": {
+          "candidate_id": "last_tile1024",
+          "metrics_path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\reports\\evaluation_suite\\evaluations\\parts_yolo11n__pi_test\\metrics.json",
+          "metrics_sha256": "431fa64edf317a159ccde01b63c51b33e8e4026b7856c2f75970a600416f67ce",
+          "simulation": null,
+          "split": "test",
+          "cohort": "pi_test",
+          "task": "detect",
+          "class_names": [
+            "resistor",
+            "capacitor",
+            "ic",
+            "connector"
+          ],
+          "images": 2,
+          "groups": 1,
+          "native_gt_instances": 189,
+          "checkpoint_sha256": "6e4983a8a8fc0bc749cfe113c125124ce329473d798a26ca1983292d3c4e7663",
+          "manifest_sha256": "4e34fd9dfe7c92952f1f7da4db700a797af249b10c19ad922171812ae954a9ca",
+          "bbox": {
+            "iou_type": "bbox",
+            "ap50_95_max100": 0.22001238135470885,
+            "ap50_max100": 0.47624454213894396,
+            "ap75_max100": 0.12144301242521949,
+            "ap50_95_max300": 0.2200667625051462,
+            "per_class": {
+              "resistor": {
+                "ap50_95_max100": 0.28412615401253755,
+                "ap50_max100": 0.6352759138630173,
+                "ap50_95_max300": 0.28370000005565316
+              },
+              "capacitor": {
+                "ap50_95_max100": 0.31237997504093373,
+                "ap50_max100": 0.6458893394484576,
+                "ap50_95_max300": 0.3130236535995675
+              },
+              "ic": {
+                "ap50_95_max100": 0.17205502946805062,
+                "ap50_max100": 0.3570257947475971,
+                "ap50_95_max300": 0.17205502946805062
+              },
+              "connector": {
+                "ap50_95_max100": 0.11148836689731347,
+                "ap50_max100": 0.266787120496704,
+                "ap50_95_max300": 0.11148836689731347
+              }
+            },
+            "area_ap50_95_max100": {
+              "all": 0.22001238135470885,
+              "small": 0.1886132854019527,
+              "medium": 0.3991178576013861,
+              "large": 0.23152223854076295
+            }
+          },
+          "mask": null,
+          "latency": {
+            "offline_predict_and_postprocess_ms_p50": 151.74990001833066,
+            "offline_predict_and_postprocess_ms_p95": 160.88625001721084,
+            "samples": 2,
+            "warmup_excluded": true,
+            "excludes": [
+              "camera acquisition",
+              "file decoding",
+              "visualization",
+              "disk write"
+            ]
+          },
+          "group_bootstrap_recall95": null,
+          "annotation_limitations": {
+            "ground_truth": "WACV source-provided human target4 bounding boxes, not masks or full BOM truth",
+            "pi3b_unknown_source_objects": 67,
+            "unknown_policy": "Unknowns remain unknown; never inferred as resistor/capacitor/IC/connector",
+            "holdout_scope": "All RPI3B faces excluded from this fine-tuning train/validation only",
+            "pretrained_source_contamination": "UNKNOWN: cannot establish that public images were absent from every pretraining source",
+            "physical_specimen_independence": "NOT_VERIFIED; source filename board groups",
+            "d455_verified": false,
+            "redistribution_license": "No explicit license confirmed; local research assets only"
+          },
+          "operating": {
+            "confidence": 0.6000000000000001,
+            "match_box_iou": 0.5,
+            "tp": 82,
+            "fp": 19,
+            "fn": 107,
+            "precision": 0.8118811881188119,
+            "recall": 0.43386243386243384,
+            "f1": 0.5655172413793104,
+            "per_class_counts_tp_fp_fn": [
+              [
+                30,
+                9,
+                27
+              ],
+              [
+                49,
+                8,
+                55
+              ],
+              [
+                3,
+                1,
+                13
+              ],
+              [
+                0,
+                1,
+                12
+              ]
+            ],
+            "size_recall": {
+              "lt8": {
+                "detected": 0,
+                "total": 2,
+                "recall": 0.0
+              },
+              "8to16": {
+                "detected": 13,
+                "total": 77,
+                "recall": 0.16883116883116883
+              },
+              "16to32": {
+                "detected": 55,
+                "total": 72,
+                "recall": 0.7638888888888888
+              },
+              "ge32": {
+                "detected": 14,
+                "total": 38,
+                "recall": 0.3684210526315789
+              }
+            },
+            "negative_images": 0,
+            "negative_images_with_false_positive": 0,
+            "negative_false_positive_image_rate": null
+          }
+        },
+        "pi_test_half_resolution": {
+          "candidate_id": "last_tile1024",
+          "metrics_path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\reports\\evaluation_suite\\evaluations\\parts_yolo11n__pi_test_half_resolution\\metrics.json",
+          "metrics_sha256": "22455b1b460fbfa2fbe0b0470d28a08941bf84e05a648e4e8150a44fae49315f",
+          "simulation": {
+            "kind": "half_resolution",
+            "camera_proxy_not_D455": true,
+            "canvas_size_preserved": true,
+            "native_gt_unchanged": true,
+            "source_manifest_sha256": "4e34fd9dfe7c92952f1f7da4db700a797af249b10c19ad922171812ae954a9ca",
+            "opencv_version": "5.0.0",
+            "description": "INTER_AREA to floor(W/2),floor(H/2), then INTER_LINEAR back to original W,H",
+            "selection_usage": "None: predeclared stress test only; frozen validation confidence/checkpoint/pipeline"
+          },
+          "split": "test",
+          "cohort": "pi_test",
+          "task": "detect",
+          "class_names": [
+            "resistor",
+            "capacitor",
+            "ic",
+            "connector"
+          ],
+          "images": 2,
+          "groups": 1,
+          "native_gt_instances": 189,
+          "checkpoint_sha256": "6e4983a8a8fc0bc749cfe113c125124ce329473d798a26ca1983292d3c4e7663",
+          "manifest_sha256": "1e41f827ea14f9ae2e2f7d2ecbda79d9da0a62aa6ffb50769cfde5ce5e6653e0",
+          "bbox": {
+            "iou_type": "bbox",
+            "ap50_95_max100": 0.21601346628059695,
+            "ap50_max100": 0.46678760423851756,
+            "ap75_max100": 0.1279170965865901,
+            "ap50_95_max300": 0.21549731550159631,
+            "per_class": {
+              "resistor": {
+                "ap50_95_max100": 0.2831321679401485,
+                "ap50_max100": 0.7129286479596245,
+                "ap50_95_max300": 0.28282786792011017
+              },
+              "capacitor": {
+                "ap50_95_max100": 0.2950168535357917,
+                "ap50_max100": 0.6135307630258166,
+                "ap50_95_max300": 0.29325655043982746
+              },
+              "ic": {
+                "ap50_95_max100": 0.18908945233288013,
+                "ap50_max100": 0.34243255606348816,
+                "ap50_95_max300": 0.18908945233288013
+              },
+              "connector": {
+                "ap50_95_max100": 0.09681539131356745,
+                "ap50_max100": 0.1982584499051409,
+                "ap50_95_max300": 0.09681539131356745
+              }
+            },
+            "area_ap50_95_max100": {
+              "all": 0.21601346628059695,
+              "small": 0.18213671479678153,
+              "medium": 0.3980044533398251,
+              "large": 0.21984845213493312
+            }
+          },
+          "mask": null,
+          "latency": {
+            "offline_predict_and_postprocess_ms_p50": 128.28989999252371,
+            "offline_predict_and_postprocess_ms_p95": 141.80969999870285,
+            "samples": 2,
+            "warmup_excluded": true,
+            "excludes": [
+              "camera acquisition",
+              "file decoding",
+              "visualization",
+              "disk write"
+            ]
+          },
+          "group_bootstrap_recall95": null,
+          "annotation_limitations": {
+            "ground_truth": "WACV source-provided human target4 bounding boxes, not masks or full BOM truth",
+            "pi3b_unknown_source_objects": 67,
+            "unknown_policy": "Unknowns remain unknown; never inferred as resistor/capacitor/IC/connector",
+            "holdout_scope": "All RPI3B faces excluded from this fine-tuning train/validation only",
+            "pretrained_source_contamination": "UNKNOWN: cannot establish that public images were absent from every pretraining source",
+            "physical_specimen_independence": "NOT_VERIFIED; source filename board groups",
+            "d455_verified": false,
+            "redistribution_license": "No explicit license confirmed; local research assets only"
+          },
+          "operating": {
+            "confidence": 0.6000000000000001,
+            "match_box_iou": 0.5,
+            "tp": 73,
+            "fp": 12,
+            "fn": 116,
+            "precision": 0.8588235294117647,
+            "recall": 0.3862433862433862,
+            "f1": 0.5328467153284672,
+            "per_class_counts_tp_fp_fn": [
+              [
+                23,
+                3,
+                34
+              ],
+              [
+                48,
+                6,
+                56
+              ],
+              [
+                2,
+                0,
+                14
+              ],
+              [
+                0,
+                3,
+                12
+              ]
+            ],
+            "size_recall": {
+              "lt8": {
+                "detected": 0,
+                "total": 2,
+                "recall": 0.0
+              },
+              "8to16": {
+                "detected": 12,
+                "total": 77,
+                "recall": 0.15584415584415584
+              },
+              "16to32": {
+                "detected": 48,
+                "total": 72,
+                "recall": 0.6666666666666666
+              },
+              "ge32": {
+                "detected": 13,
+                "total": 38,
+                "recall": 0.34210526315789475
+              }
+            },
+            "negative_images": 0,
+            "negative_images_with_false_positive": 0,
+            "negative_false_positive_image_rate": null
+          }
+        },
+        "pi_test_gaussian_sigma1": {
+          "candidate_id": "last_tile1024",
+          "metrics_path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\reports\\evaluation_suite\\evaluations\\parts_yolo11n__pi_test_gaussian_sigma1\\metrics.json",
+          "metrics_sha256": "9d54d65c4d9ab1bb6ff6364bd2d7110ffb17bbfed89fc3da0f7589e1e8016047",
+          "simulation": {
+            "kind": "gaussian_sigma1",
+            "camera_proxy_not_D455": true,
+            "canvas_size_preserved": true,
+            "native_gt_unchanged": true,
+            "source_manifest_sha256": "4e34fd9dfe7c92952f1f7da4db700a797af249b10c19ad922171812ae954a9ca",
+            "opencv_version": "5.0.0",
+            "description": "GaussianBlur ksize auto, sigmaX=sigmaY=1.0 native pixels, BORDER_REFLECT_101",
+            "selection_usage": "None: predeclared stress test only; frozen validation confidence/checkpoint/pipeline"
+          },
+          "split": "test",
+          "cohort": "pi_test",
+          "task": "detect",
+          "class_names": [
+            "resistor",
+            "capacitor",
+            "ic",
+            "connector"
+          ],
+          "images": 2,
+          "groups": 1,
+          "native_gt_instances": 189,
+          "checkpoint_sha256": "6e4983a8a8fc0bc749cfe113c125124ce329473d798a26ca1983292d3c4e7663",
+          "manifest_sha256": "2c7b1aa1464b9dc803d13d80d45e2c29a2621ffc8f099dd12c7f4325642752ec",
+          "bbox": {
+            "iou_type": "bbox",
+            "ap50_95_max100": 0.21510252259654797,
+            "ap50_max100": 0.46739666771983074,
+            "ap75_max100": 0.12167766678319632,
+            "ap50_95_max300": 0.21479550729298355,
+            "per_class": {
+              "resistor": {
+                "ap50_95_max100": 0.2728973832710185,
+                "ap50_max100": 0.6852970887262276,
+                "ap50_95_max300": 0.2728038800797139
+              },
+              "capacitor": {
+                "ap50_95_max100": 0.29993488256952705,
+                "ap50_max100": 0.6222680695127708,
+                "ap50_95_max300": 0.29880032454657385
+              },
+              "ic": {
+                "ap50_95_max100": 0.18947070897565949,
+                "ap50_max100": 0.35520492525443015,
+                "ap50_95_max300": 0.18947070897565949
+              },
+              "connector": {
+                "ap50_95_max100": 0.09810711556998687,
+                "ap50_max100": 0.20681658738589434,
+                "ap50_95_max300": 0.09810711556998687
+              }
+            },
+            "area_ap50_95_max100": {
+              "all": 0.21510252259654797,
+              "small": 0.18141860798608894,
+              "medium": 0.38615261526152617,
+              "large": 0.22218988243253718
+            }
+          },
+          "mask": null,
+          "latency": {
+            "offline_predict_and_postprocess_ms_p50": 123.0700500018429,
+            "offline_predict_and_postprocess_ms_p95": 132.83635500411037,
+            "samples": 2,
+            "warmup_excluded": true,
+            "excludes": [
+              "camera acquisition",
+              "file decoding",
+              "visualization",
+              "disk write"
+            ]
+          },
+          "group_bootstrap_recall95": null,
+          "annotation_limitations": {
+            "ground_truth": "WACV source-provided human target4 bounding boxes, not masks or full BOM truth",
+            "pi3b_unknown_source_objects": 67,
+            "unknown_policy": "Unknowns remain unknown; never inferred as resistor/capacitor/IC/connector",
+            "holdout_scope": "All RPI3B faces excluded from this fine-tuning train/validation only",
+            "pretrained_source_contamination": "UNKNOWN: cannot establish that public images were absent from every pretraining source",
+            "physical_specimen_independence": "NOT_VERIFIED; source filename board groups",
+            "d455_verified": false,
+            "redistribution_license": "No explicit license confirmed; local research assets only"
+          },
+          "operating": {
+            "confidence": 0.6000000000000001,
+            "match_box_iou": 0.5,
+            "tp": 74,
+            "fp": 11,
+            "fn": 115,
+            "precision": 0.8705882352941177,
+            "recall": 0.3915343915343915,
+            "f1": 0.5401459854014597,
+            "per_class_counts_tp_fp_fn": [
+              [
+                23,
+                3,
+                34
+              ],
+              [
+                49,
+                5,
+                55
+              ],
+              [
+                2,
+                0,
+                14
+              ],
+              [
+                0,
+                3,
+                12
+              ]
+            ],
+            "size_recall": {
+              "lt8": {
+                "detected": 0,
+                "total": 2,
+                "recall": 0.0
+              },
+              "8to16": {
+                "detected": 12,
+                "total": 77,
+                "recall": 0.15584415584415584
+              },
+              "16to32": {
+                "detected": 48,
+                "total": 72,
+                "recall": 0.6666666666666666
+              },
+              "ge32": {
+                "detected": 14,
+                "total": 38,
+                "recall": 0.3684210526315789
+              }
+            },
+            "negative_images": 0,
+            "negative_images_with_false_positive": 0,
+            "negative_false_positive_image_rate": null
+          }
+        }
+      }
+    },
+    {
+      "model_id": "parts_yolo11s",
+      "architecture": {
+        "model_id": "parts_yolo11s",
+        "task": "detect",
+        "classes": [
+          "resistor",
+          "capacitor",
+          "ic",
+          "connector"
+        ],
+        "parameters": 9429340,
+        "trainable_parameters": 9429324,
+        "layers": [
+          {
+            "index": 0,
+            "module": "ultralytics.nn.modules.conv.Conv",
+            "from": -1,
+            "parameters": 928
+          },
+          {
+            "index": 1,
+            "module": "ultralytics.nn.modules.conv.Conv",
+            "from": -1,
+            "parameters": 18560
+          },
+          {
+            "index": 2,
+            "module": "ultralytics.nn.modules.block.C3k2",
+            "from": -1,
+            "parameters": 26080
+          },
+          {
+            "index": 3,
+            "module": "ultralytics.nn.modules.conv.Conv",
+            "from": -1,
+            "parameters": 147712
+          },
+          {
+            "index": 4,
+            "module": "ultralytics.nn.modules.block.C3k2",
+            "from": -1,
+            "parameters": 103360
+          },
+          {
+            "index": 5,
+            "module": "ultralytics.nn.modules.conv.Conv",
+            "from": -1,
+            "parameters": 590336
+          },
+          {
+            "index": 6,
+            "module": "ultralytics.nn.modules.block.C3k2",
+            "from": -1,
+            "parameters": 346112
+          },
+          {
+            "index": 7,
+            "module": "ultralytics.nn.modules.conv.Conv",
+            "from": -1,
+            "parameters": 1180672
+          },
+          {
+            "index": 8,
+            "module": "ultralytics.nn.modules.block.C3k2",
+            "from": -1,
+            "parameters": 1380352
+          },
+          {
+            "index": 9,
+            "module": "ultralytics.nn.modules.block.SPPF",
+            "from": -1,
+            "parameters": 656896
+          },
+          {
+            "index": 10,
+            "module": "ultralytics.nn.modules.block.C2PSA",
+            "from": -1,
+            "parameters": 990976
+          },
+          {
+            "index": 11,
+            "module": "torch.nn.modules.upsampling.Upsample",
+            "from": -1,
+            "parameters": 0
+          },
+          {
+            "index": 12,
+            "module": "ultralytics.nn.modules.conv.Concat",
+            "from": [
+              -1,
+              6
+            ],
+            "parameters": 0
+          },
+          {
+            "index": 13,
+            "module": "ultralytics.nn.modules.block.C3k2",
+            "from": -1,
+            "parameters": 443776
+          },
+          {
+            "index": 14,
+            "module": "torch.nn.modules.upsampling.Upsample",
+            "from": -1,
+            "parameters": 0
+          },
+          {
+            "index": 15,
+            "module": "ultralytics.nn.modules.conv.Concat",
+            "from": [
+              -1,
+              4
+            ],
+            "parameters": 0
+          },
+          {
+            "index": 16,
+            "module": "ultralytics.nn.modules.block.C3k2",
+            "from": -1,
+            "parameters": 127680
+          },
+          {
+            "index": 17,
+            "module": "ultralytics.nn.modules.conv.Conv",
+            "from": -1,
+            "parameters": 147712
+          },
+          {
+            "index": 18,
+            "module": "ultralytics.nn.modules.conv.Concat",
+            "from": [
+              -1,
+              13
+            ],
+            "parameters": 0
+          },
+          {
+            "index": 19,
+            "module": "ultralytics.nn.modules.block.C3k2",
+            "from": -1,
+            "parameters": 345472
+          },
+          {
+            "index": 20,
+            "module": "ultralytics.nn.modules.conv.Conv",
+            "from": -1,
+            "parameters": 590336
+          },
+          {
+            "index": 21,
+            "module": "ultralytics.nn.modules.conv.Concat",
+            "from": [
+              -1,
+              10
+            ],
+            "parameters": 0
+          },
+          {
+            "index": 22,
+            "module": "ultralytics.nn.modules.block.C3k2",
+            "from": -1,
+            "parameters": 1511424
+          },
+          {
+            "index": 23,
+            "module": "ultralytics.nn.modules.head.Detect",
+            "from": [
+              16,
+              19,
+              22
+            ],
+            "parameters": 820956
+          }
+        ],
+        "yaml": {
+          "nc": 4,
+          "scales": {
+            "n": [
+              0.5,
+              0.25,
+              1024
+            ],
+            "s": [
+              0.5,
+              0.5,
+              1024
+            ],
+            "m": [
+              0.5,
+              1.0,
+              512
+            ],
+            "l": [
+              1.0,
+              1.0,
+              512
+            ],
+            "x": [
+              1.0,
+              1.5,
+              512
+            ]
+          },
+          "backbone": [
+            [
+              -1,
+              1,
+              "Conv",
+              [
+                64,
+                3,
+                2
+              ]
+            ],
+            [
+              -1,
+              1,
+              "Conv",
+              [
+                128,
+                3,
+                2
+              ]
+            ],
+            [
+              -1,
+              2,
+              "C3k2",
+              [
+                256,
+                false,
+                0.25
+              ]
+            ],
+            [
+              -1,
+              1,
+              "Conv",
+              [
+                256,
+                3,
+                2
+              ]
+            ],
+            [
+              -1,
+              2,
+              "C3k2",
+              [
+                512,
+                false,
+                0.25
+              ]
+            ],
+            [
+              -1,
+              1,
+              "Conv",
+              [
+                512,
+                3,
+                2
+              ]
+            ],
+            [
+              -1,
+              2,
+              "C3k2",
+              [
+                512,
+                true
+              ]
+            ],
+            [
+              -1,
+              1,
+              "Conv",
+              [
+                1024,
+                3,
+                2
+              ]
+            ],
+            [
+              -1,
+              2,
+              "C3k2",
+              [
+                1024,
+                true
+              ]
+            ],
+            [
+              -1,
+              1,
+              "SPPF",
+              [
+                1024,
+                5
+              ]
+            ],
+            [
+              -1,
+              2,
+              "C2PSA",
+              [
+                1024
+              ]
+            ]
+          ],
+          "head": [
+            [
+              -1,
+              1,
+              "nn.Upsample",
+              [
+                "None",
+                2,
+                "nearest"
+              ]
+            ],
+            [
+              [
+                -1,
+                6
+              ],
+              1,
+              "Concat",
+              [
+                1
+              ]
+            ],
+            [
+              -1,
+              2,
+              "C3k2",
+              [
+                512,
+                false
+              ]
+            ],
+            [
+              -1,
+              1,
+              "nn.Upsample",
+              [
+                "None",
+                2,
+                "nearest"
+              ]
+            ],
+            [
+              [
+                -1,
+                4
+              ],
+              1,
+              "Concat",
+              [
+                1
+              ]
+            ],
+            [
+              -1,
+              2,
+              "C3k2",
+              [
+                256,
+                false
+              ]
+            ],
+            [
+              -1,
+              1,
+              "Conv",
+              [
+                256,
+                3,
+                2
+              ]
+            ],
+            [
+              [
+                -1,
+                13
+              ],
+              1,
+              "Concat",
+              [
+                1
+              ]
+            ],
+            [
+              -1,
+              2,
+              "C3k2",
+              [
+                512,
+                false
+              ]
+            ],
+            [
+              -1,
+              1,
+              "Conv",
+              [
+                512,
+                3,
+                2
+              ]
+            ],
+            [
+              [
+                -1,
+                10
+              ],
+              1,
+              "Concat",
+              [
+                1
+              ]
+            ],
+            [
+              -1,
+              2,
+              "C3k2",
+              [
+                1024,
+                true
+              ]
+            ],
+            [
+              [
+                16,
+                19,
+                22
+              ],
+              1,
+              "Detect",
+              [
+                "nc"
+              ]
+            ]
+          ],
+          "scale": "s",
+          "yaml_file": "yolo11s.yaml",
+          "ch": 3,
+          "channels": 3
+        }
+      },
+      "training": {
+        "model_id": "parts_yolo11s",
+        "created_utc": "2026-09-27T16:44:55.373870+00:00",
+        "python": "3.11.9 (tags/v3.11.9:de54cf5, Apr  2 2024, 10:12:12) [MSC v.1938 64 bit (AMD64)]",
+        "platform": "Windows-10-10.0.26200-SP0",
+        "torch": "2.12.1+cu130",
+        "cuda": "13.0",
+        "ultralytics": "8.4.120",
+        "gpu": "NVIDIA GeForce RTX 5060 Laptop GPU",
+        "configuration": {
+          "model_id": "parts_yolo11s",
+          "task": "detect",
+          "scope": "WACV native four-component boxes; all Raspberry Pi 3B images held out; not D455 validated",
+          "weights": "models/yolo11s.pt",
+          "data": "component_assets/componentdetectdata.yaml",
+          "manifest": "component_assets/training_manifest.json",
+          "run_dir": "runs/parts_yolo11s",
+          "train": {
+            "epochs": 20,
+            "patience": 0,
+            "imgsz": 1024,
+            "batch": 2,
+            "amp": false,
+            "nbs": 8,
+            "optimizer": "AdamW",
+            "lr0": 0.001,
+            "lrf": 0.01,
+            "weight_decay": 0.0005,
+            "warmup_epochs": 2.0,
+            "warmup_bias_lr": 0.0,
+            "box": 7.5,
+            "cls": 0.5,
+            "dfl": 1.5,
+            "max_det": 1000,
+            "seed": 42,
+            "deterministic": true,
+            "mosaic": 0.0,
+            "mixup": 0.0,
+            "copy_paste": 0.0,
+            "scale": 0.2,
+            "translate": 0.05,
+            "degrees": 15.0,
+            "fliplr": 0.0,
+            "flipud": 0.0,
+            "hsv_h": 0.005,
+            "hsv_s": 0.15,
+            "hsv_v": 0.2,
+            "data": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\component_assets\\componentdetectdata.yaml",
+            "project": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\runs\\parts_yolo11s",
+            "name": "fit",
+            "exist_ok": false,
+            "device": 0,
+            "workers": 0,
+            "cache": false,
+            "plots": true,
+            "save": true,
+            "save_period": -1
+          }
+        },
+        "manifest_sha256": "0706ec7ef4361fbc4b84f9d19fad9af51a1e8f858bf4f76e98c827e59dfe847d",
+        "initial_weights_sha256": "85a76fe86dd8afe384648546b56a7a78580c7cb7b404fc595f97969322d502d5",
+        "scope": "WACV native four-component boxes; all Raspberry Pi 3B images held out; not D455 validated",
+        "class_loss_weights": "Uniform 1.0 for each class; no custom per-class multiplier",
+        "source_weighting": "Uniform sampling per native training tile; source factor 1.0, no class oversampling; original instances repeat across overlapping tiles",
+        "label_counts": {
+          "train": {
+            "images": 425,
+            "groups": 18,
+            "label_instances": 6733,
+            "per_class": {
+              "connector": 797,
+              "resistor": 2515,
+              "capacitor": 2898,
+              "ic": 523
+            }
+          },
+          "val": {
+            "images": 7,
+            "groups": 5,
+            "label_instances": 875,
+            "per_class": {
+              "resistor": 221,
+              "capacitor": 468,
+              "connector": 122,
+              "ic": 64
+            }
+          },
+          "test": {
+            "images": 13,
+            "groups": 6,
+            "label_instances": 1537,
+            "per_class": {
+              "connector": 188,
+              "resistor": 500,
+              "capacitor": 740,
+              "ic": 109
+            }
+          }
+        },
+        "test_used_for_training_or_selection": false
+      },
+      "run_summary": {
+        "model_id": "parts_yolo11s",
+        "status": "TRAINED_OFFLINE_NOT_D455_VALIDATED",
+        "requested_epochs": 20,
+        "last_epoch": 20,
+        "actual_optimizer_steps": 1164.0,
+        "weights_changed": true,
+        "best_path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\runs\\parts_yolo11s\\fit\\weights\\best.pt",
+        "best_sha256": "5f5914c256863d87129de1e6cf93ad7fdea700fc43c85339d599256f3d232d74",
+        "peak_cuda_allocated_bytes": 2695403520,
+        "test_evaluated": false,
+        "scope": "WACV native four-component boxes; all Raspberry Pi 3B images held out; not D455 validated",
+        "camera_verified": false
+      },
+      "selection": {
+        "candidate": {
+          "candidate_id": "best_tile1024",
+          "checkpoint": "best",
+          "weights": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\runs\\parts_yolo11s\\fit\\weights\\best.pt",
+          "tile_size": 1024
+        },
+        "checkpoint_sha256": "5f5914c256863d87129de1e6cf93ad7fdea700fc43c85339d599256f3d232d74",
+        "manifest_sha256": "4e34fd9dfe7c92952f1f7da4db700a797af249b10c19ad922171812ae954a9ca",
+        "imgsz": 1024,
+        "operating_confidence": 0.35000000000000003,
+        "validation_metrics_path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\reports\\evaluation_suite\\evaluations\\parts_yolo11s__val__best_tile1024\\metrics.json",
+        "validation_metrics_sha256": "6d6161bad167a60a09449a6cec863a4e852c7fba5d909e5a053d37400acd9587",
+        "validation_bbox": {
+          "iou_type": "bbox",
+          "ap50_95_max100": 0.24092052755224994,
+          "ap50_max100": 0.4568383712565854,
+          "ap75_max100": 0.2291517783516943,
+          "ap50_95_max300": 0.24615086800269445,
+          "per_class": {
+            "resistor": {
+              "ap50_95_max100": 0.41945859291876236,
+              "ap50_max100": 0.8332899355484985,
+              "ap50_95_max300": 0.4210041105836876
+            },
+            "capacitor": {
+              "ap50_95_max100": 0.39021407930826196,
+              "ap50_max100": 0.6735495185722674,
+              "ap50_95_max300": 0.40777891276626677
+            },
+            "ic": {
+              "ap50_95_max100": 0.09711178884778748,
+              "ap50_max100": 0.2000440669877564,
+              "ap50_95_max300": 0.09798837309483055
+            },
+            "connector": {
+              "ap50_95_max100": 0.05689764913418794,
+              "ap50_max100": 0.12046996391781925,
+              "ap50_95_max300": 0.057832075565992846
+            }
+          },
+          "area_ap50_95_max100": {
+            "all": 0.24092052755224994,
+            "small": 0.33291208029677655,
+            "medium": 0.27180925389165356,
+            "large": 0.17412994267310383
+          }
+        },
+        "validation_mask": null,
+        "rule": [
+          "validation bbox AP50-95 max100 descending",
+          "validation bbox AP50-95 max300 descending",
+          "validation offline latency p50 ascending",
+          "candidate ID ascending"
+        ]
+      },
+      "tests": {
+        "general_test": {
+          "candidate_id": "best_tile1024",
+          "metrics_path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\reports\\evaluation_suite\\evaluations\\parts_yolo11s__general_test\\metrics.json",
+          "metrics_sha256": "104867926e868e382537618eba2c6fa353f3ce6f25e74d3e3ae876f2927b3ddb",
+          "simulation": null,
+          "split": "test",
+          "cohort": "test",
+          "task": "detect",
+          "class_names": [
+            "resistor",
+            "capacitor",
+            "ic",
+            "connector"
+          ],
+          "images": 11,
+          "groups": 5,
+          "native_gt_instances": 1348,
+          "checkpoint_sha256": "5f5914c256863d87129de1e6cf93ad7fdea700fc43c85339d599256f3d232d74",
+          "manifest_sha256": "4e34fd9dfe7c92952f1f7da4db700a797af249b10c19ad922171812ae954a9ca",
+          "bbox": {
+            "iou_type": "bbox",
+            "ap50_95_max100": 0.20695252229350547,
+            "ap50_max100": 0.3900232398527512,
+            "ap75_max100": 0.19672476247117285,
+            "ap50_95_max300": 0.23311062458117998,
+            "per_class": {
+              "resistor": {
+                "ap50_95_max100": 0.3139818156113211,
+                "ap50_max100": 0.6162110652873963,
+                "ap50_95_max300": 0.3585905774580391
+              },
+              "capacitor": {
+                "ap50_95_max100": 0.3493768658370473,
+                "ap50_max100": 0.5869268916390694,
+                "ap50_95_max300": 0.40765447287411766
+              },
+              "ic": {
+                "ap50_95_max100": 0.10266509480602626,
+                "ap50_max100": 0.21759469890143276,
+                "ap50_95_max300": 0.10326748101201161
+              },
+              "connector": {
+                "ap50_95_max100": 0.061786312919627044,
+                "ap50_max100": 0.13936030358310655,
+                "ap50_95_max300": 0.06292996698055145
+              }
+            },
+            "area_ap50_95_max100": {
+              "all": 0.20695252229350547,
+              "small": 0.1037382279383886,
+              "medium": 0.372693974834455,
+              "large": 0.17734457154955943
+            }
+          },
+          "mask": null,
+          "latency": {
+            "offline_predict_and_postprocess_ms_p50": 311.7988999874797,
+            "offline_predict_and_postprocess_ms_p95": 491.2219000107143,
+            "samples": 11,
+            "warmup_excluded": true,
+            "excludes": [
+              "camera acquisition",
+              "file decoding",
+              "visualization",
+              "disk write"
+            ]
+          },
+          "group_bootstrap_recall95": {
+            "resamples": 1000,
+            "groups": 5,
+            "lower": 0.12831858407079647,
+            "upper": 0.6550362080315998,
+            "scope": "Fixed-threshold recall CI, NOT an AP confidence interval; source-family groups, physical identity may be unknown"
+          },
+          "annotation_limitations": {
+            "ground_truth": "WACV source-provided human target4 bounding boxes, not masks or full BOM truth",
+            "pi3b_unknown_source_objects": 67,
+            "unknown_policy": "Unknowns remain unknown; never inferred as resistor/capacitor/IC/connector",
+            "holdout_scope": "All RPI3B faces excluded from this fine-tuning train/validation only",
+            "pretrained_source_contamination": "UNKNOWN: cannot establish that public images were absent from every pretraining source",
+            "physical_specimen_independence": "NOT_VERIFIED; source filename board groups",
+            "d455_verified": false,
+            "redistribution_license": "No explicit license confirmed; local research assets only"
+          },
+          "operating": {
+            "confidence": 0.35000000000000003,
+            "match_box_iou": 0.5,
+            "tp": 756,
+            "fp": 252,
+            "fn": 592,
+            "precision": 0.75,
+            "recall": 0.5608308605341247,
+            "f1": 0.6417657045840409,
+            "per_class_counts_tp_fp_fn": [
+              [
+                295,
+                114,
+                148
+              ],
+              [
+                419,
+                85,
+                217
+              ],
+              [
+                20,
+                22,
+                73
+              ],
+              [
+                22,
+                31,
+                154
+              ]
+            ],
+            "size_recall": {
+              "lt8": {
+                "detected": 0,
+                "total": 0,
+                "recall": null
+              },
+              "8to16": {
+                "detected": 181,
+                "total": 446,
+                "recall": 0.40582959641255606
+              },
+              "16to32": {
+                "detected": 336,
+                "total": 405,
+                "recall": 0.8296296296296296
+              },
+              "ge32": {
+                "detected": 239,
+                "total": 497,
+                "recall": 0.48088531187122735
+              }
+            },
+            "negative_images": 0,
+            "negative_images_with_false_positive": 0,
+            "negative_false_positive_image_rate": null
+          }
+        },
+        "pi_test": {
+          "candidate_id": "best_tile1024",
+          "metrics_path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\reports\\evaluation_suite\\evaluations\\parts_yolo11s__pi_test\\metrics.json",
+          "metrics_sha256": "d923052b47c16467064476cb71034654fd5b319c4733cd8de5138ee70c26668b",
+          "simulation": null,
+          "split": "test",
+          "cohort": "pi_test",
+          "task": "detect",
+          "class_names": [
+            "resistor",
+            "capacitor",
+            "ic",
+            "connector"
+          ],
+          "images": 2,
+          "groups": 1,
+          "native_gt_instances": 189,
+          "checkpoint_sha256": "5f5914c256863d87129de1e6cf93ad7fdea700fc43c85339d599256f3d232d74",
+          "manifest_sha256": "4e34fd9dfe7c92952f1f7da4db700a797af249b10c19ad922171812ae954a9ca",
+          "bbox": {
+            "iou_type": "bbox",
+            "ap50_95_max100": 0.231528018955079,
+            "ap50_max100": 0.4612598485617031,
+            "ap75_max100": 0.1973714071709249,
+            "ap50_95_max300": 0.23160404043703783,
+            "per_class": {
+              "resistor": {
+                "ap50_95_max100": 0.3707724148732557,
+                "ap50_max100": 0.7233807020780962,
+                "ap50_95_max300": 0.3707724148732557
+              },
+              "capacitor": {
+                "ap50_95_max100": 0.37254527881510885,
+                "ap50_max100": 0.6826198432553718,
+                "ap50_95_max300": 0.37284936474294417
+              },
+              "ic": {
+                "ap50_95_max100": 0.13168282390352912,
+                "ap50_max100": 0.30859723332321365,
+                "ap50_95_max300": 0.13168282390352912
+              },
+              "connector": {
+                "ap50_95_max100": 0.05111155822842237,
+                "ap50_max100": 0.13044161559013043,
+                "ap50_95_max300": 0.05111155822842237
+              }
+            },
+            "area_ap50_95_max100": {
+              "all": 0.231528018955079,
+              "small": 0.23960340448113168,
+              "medium": 0.40732250010715354,
+              "large": 0.0769124706125269
+            }
+          },
+          "mask": null,
+          "latency": {
+            "offline_predict_and_postprocess_ms_p50": 137.02619999821763,
+            "offline_predict_and_postprocess_ms_p95": 143.4143099861103,
+            "samples": 2,
+            "warmup_excluded": true,
+            "excludes": [
+              "camera acquisition",
+              "file decoding",
+              "visualization",
+              "disk write"
+            ]
+          },
+          "group_bootstrap_recall95": null,
+          "annotation_limitations": {
+            "ground_truth": "WACV source-provided human target4 bounding boxes, not masks or full BOM truth",
+            "pi3b_unknown_source_objects": 67,
+            "unknown_policy": "Unknowns remain unknown; never inferred as resistor/capacitor/IC/connector",
+            "holdout_scope": "All RPI3B faces excluded from this fine-tuning train/validation only",
+            "pretrained_source_contamination": "UNKNOWN: cannot establish that public images were absent from every pretraining source",
+            "physical_specimen_independence": "NOT_VERIFIED; source filename board groups",
+            "d455_verified": false,
+            "redistribution_license": "No explicit license confirmed; local research assets only"
+          },
+          "operating": {
+            "confidence": 0.35000000000000003,
+            "match_box_iou": 0.5,
+            "tp": 93,
+            "fp": 36,
+            "fn": 96,
+            "precision": 0.7209302325581395,
+            "recall": 0.49206349206349204,
+            "f1": 0.5849056603773584,
+            "per_class_counts_tp_fp_fn": [
+              [
+                39,
+                15,
+                18
+              ],
+              [
+                51,
+                13,
+                53
+              ],
+              [
+                3,
+                3,
+                13
+              ],
+              [
+                0,
+                5,
+                12
+              ]
+            ],
+            "size_recall": {
+              "lt8": {
+                "detected": 0,
+                "total": 2,
+                "recall": 0.0
+              },
+              "8to16": {
+                "detected": 19,
+                "total": 77,
+                "recall": 0.24675324675324675
+              },
+              "16to32": {
+                "detected": 60,
+                "total": 72,
+                "recall": 0.8333333333333334
+              },
+              "ge32": {
+                "detected": 14,
+                "total": 38,
+                "recall": 0.3684210526315789
+              }
+            },
+            "negative_images": 0,
+            "negative_images_with_false_positive": 0,
+            "negative_false_positive_image_rate": null
+          }
+        },
+        "pi_test_half_resolution": {
+          "candidate_id": "best_tile1024",
+          "metrics_path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\reports\\evaluation_suite\\evaluations\\parts_yolo11s__pi_test_half_resolution\\metrics.json",
+          "metrics_sha256": "8a341e6197686cbaede2c5903a786cea12a4b2bac80b678aa08debe11cffa5c3",
+          "simulation": {
+            "kind": "half_resolution",
+            "camera_proxy_not_D455": true,
+            "canvas_size_preserved": true,
+            "native_gt_unchanged": true,
+            "source_manifest_sha256": "4e34fd9dfe7c92952f1f7da4db700a797af249b10c19ad922171812ae954a9ca",
+            "opencv_version": "5.0.0",
+            "description": "INTER_AREA to floor(W/2),floor(H/2), then INTER_LINEAR back to original W,H",
+            "selection_usage": "None: predeclared stress test only; frozen validation confidence/checkpoint/pipeline"
+          },
+          "split": "test",
+          "cohort": "pi_test",
+          "task": "detect",
+          "class_names": [
+            "resistor",
+            "capacitor",
+            "ic",
+            "connector"
+          ],
+          "images": 2,
+          "groups": 1,
+          "native_gt_instances": 189,
+          "checkpoint_sha256": "5f5914c256863d87129de1e6cf93ad7fdea700fc43c85339d599256f3d232d74",
+          "manifest_sha256": "1e41f827ea14f9ae2e2f7d2ecbda79d9da0a62aa6ffb50769cfde5ce5e6653e0",
+          "bbox": {
+            "iou_type": "bbox",
+            "ap50_95_max100": 0.19469779053518765,
+            "ap50_max100": 0.4024156798927246,
+            "ap75_max100": 0.1674261983565143,
+            "ap50_95_max300": 0.19463317286587953,
+            "per_class": {
+              "resistor": {
+                "ap50_95_max100": 0.3068574540862355,
+                "ap50_max100": 0.644174366790426,
+                "ap50_95_max300": 0.3068574540862355
+              },
+              "capacitor": {
+                "ap50_95_max100": 0.33807165718531856,
+                "ap50_max100": 0.6137732425078237,
+                "ap50_95_max300": 0.33745315050448565
+              },
+              "ic": {
+                "ap50_95_max100": 0.1130919337553237,
+                "ap50_max100": 0.28546373552530013,
+                "ap50_95_max300": 0.1130919337553237
+              },
+              "connector": {
+                "ap50_95_max100": 0.020770117113872815,
+                "ap50_max100": 0.06625137474734848,
+                "ap50_95_max300": 0.021130153117473172
+              }
+            },
+            "area_ap50_95_max100": {
+              "all": 0.19469779053518765,
+              "small": 0.20217327631013296,
+              "medium": 0.35723180967079976,
+              "large": 0.06196481694939663
+            }
+          },
+          "mask": null,
+          "latency": {
+            "offline_predict_and_postprocess_ms_p50": 126.63405000057537,
+            "offline_predict_and_postprocess_ms_p95": 137.7508950055926,
+            "samples": 2,
+            "warmup_excluded": true,
+            "excludes": [
+              "camera acquisition",
+              "file decoding",
+              "visualization",
+              "disk write"
+            ]
+          },
+          "group_bootstrap_recall95": null,
+          "annotation_limitations": {
+            "ground_truth": "WACV source-provided human target4 bounding boxes, not masks or full BOM truth",
+            "pi3b_unknown_source_objects": 67,
+            "unknown_policy": "Unknowns remain unknown; never inferred as resistor/capacitor/IC/connector",
+            "holdout_scope": "All RPI3B faces excluded from this fine-tuning train/validation only",
+            "pretrained_source_contamination": "UNKNOWN: cannot establish that public images were absent from every pretraining source",
+            "physical_specimen_independence": "NOT_VERIFIED; source filename board groups",
+            "d455_verified": false,
+            "redistribution_license": "No explicit license confirmed; local research assets only"
+          },
+          "operating": {
+            "confidence": 0.35000000000000003,
+            "match_box_iou": 0.5,
+            "tp": 83,
+            "fp": 22,
+            "fn": 106,
+            "precision": 0.7904761904761904,
+            "recall": 0.43915343915343913,
+            "f1": 0.564625850340136,
+            "per_class_counts_tp_fp_fn": [
+              [
+                28,
+                7,
+                29
+              ],
+              [
+                53,
+                8,
+                51
+              ],
+              [
+                2,
+                3,
+                14
+              ],
+              [
+                0,
+                4,
+                12
+              ]
+            ],
+            "size_recall": {
+              "lt8": {
+                "detected": 0,
+                "total": 2,
+                "recall": 0.0
+              },
+              "8to16": {
+                "detected": 13,
+                "total": 77,
+                "recall": 0.16883116883116883
+              },
+              "16to32": {
+                "detected": 56,
+                "total": 72,
+                "recall": 0.7777777777777778
+              },
+              "ge32": {
+                "detected": 14,
+                "total": 38,
+                "recall": 0.3684210526315789
+              }
+            },
+            "negative_images": 0,
+            "negative_images_with_false_positive": 0,
+            "negative_false_positive_image_rate": null
+          }
+        },
+        "pi_test_gaussian_sigma1": {
+          "candidate_id": "best_tile1024",
+          "metrics_path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\reports\\evaluation_suite\\evaluations\\parts_yolo11s__pi_test_gaussian_sigma1\\metrics.json",
+          "metrics_sha256": "a7f6f9ac8fbf7550d3a5210f361f64120278da9aa88735dd7f2da2d54b0df2fa",
+          "simulation": {
+            "kind": "gaussian_sigma1",
+            "camera_proxy_not_D455": true,
+            "canvas_size_preserved": true,
+            "native_gt_unchanged": true,
+            "source_manifest_sha256": "4e34fd9dfe7c92952f1f7da4db700a797af249b10c19ad922171812ae954a9ca",
+            "opencv_version": "5.0.0",
+            "description": "GaussianBlur ksize auto, sigmaX=sigmaY=1.0 native pixels, BORDER_REFLECT_101",
+            "selection_usage": "None: predeclared stress test only; frozen validation confidence/checkpoint/pipeline"
+          },
+          "split": "test",
+          "cohort": "pi_test",
+          "task": "detect",
+          "class_names": [
+            "resistor",
+            "capacitor",
+            "ic",
+            "connector"
+          ],
+          "images": 2,
+          "groups": 1,
+          "native_gt_instances": 189,
+          "checkpoint_sha256": "5f5914c256863d87129de1e6cf93ad7fdea700fc43c85339d599256f3d232d74",
+          "manifest_sha256": "2c7b1aa1464b9dc803d13d80d45e2c29a2621ffc8f099dd12c7f4325642752ec",
+          "bbox": {
+            "iou_type": "bbox",
+            "ap50_95_max100": 0.1963123492438239,
+            "ap50_max100": 0.4032342398539428,
+            "ap75_max100": 0.1703729445277611,
+            "ap50_95_max300": 0.196307272621512,
+            "per_class": {
+              "resistor": {
+                "ap50_95_max100": 0.3098075384858054,
+                "ap50_max100": 0.6529173914982541,
+                "ap50_95_max300": 0.3098075384858054
+              },
+              "capacitor": {
+                "ap50_95_max100": 0.33057265010602527,
+                "ap50_max100": 0.5982392426521497,
+                "ap50_95_max300": 0.33055234361677754
+              },
+              "ic": {
+                "ap50_95_max100": 0.118420819944107,
+                "ap50_max100": 0.2754420404541584,
+                "ap50_95_max300": 0.118420819944107
+              },
+              "connector": {
+                "ap50_95_max100": 0.026448388439358022,
+                "ap50_max100": 0.08633828481120893,
+                "ap50_95_max300": 0.026448388439358022
+              }
+            },
+            "area_ap50_95_max100": {
+              "all": 0.1963123492438239,
+              "small": 0.1986558388082766,
+              "medium": 0.35504065204384666,
+              "large": 0.06685719447757439
+            }
+          },
+          "mask": null,
+          "latency": {
+            "offline_predict_and_postprocess_ms_p50": 113.57104999478906,
+            "offline_predict_and_postprocess_ms_p95": 119.52558499469887,
+            "samples": 2,
+            "warmup_excluded": true,
+            "excludes": [
+              "camera acquisition",
+              "file decoding",
+              "visualization",
+              "disk write"
+            ]
+          },
+          "group_bootstrap_recall95": null,
+          "annotation_limitations": {
+            "ground_truth": "WACV source-provided human target4 bounding boxes, not masks or full BOM truth",
+            "pi3b_unknown_source_objects": 67,
+            "unknown_policy": "Unknowns remain unknown; never inferred as resistor/capacitor/IC/connector",
+            "holdout_scope": "All RPI3B faces excluded from this fine-tuning train/validation only",
+            "pretrained_source_contamination": "UNKNOWN: cannot establish that public images were absent from every pretraining source",
+            "physical_specimen_independence": "NOT_VERIFIED; source filename board groups",
+            "d455_verified": false,
+            "redistribution_license": "No explicit license confirmed; local research assets only"
+          },
+          "operating": {
+            "confidence": 0.35000000000000003,
+            "match_box_iou": 0.5,
+            "tp": 83,
+            "fp": 22,
+            "fn": 106,
+            "precision": 0.7904761904761904,
+            "recall": 0.43915343915343913,
+            "f1": 0.564625850340136,
+            "per_class_counts_tp_fp_fn": [
+              [
+                29,
+                7,
+                28
+              ],
+              [
+                52,
+                8,
+                52
+              ],
+              [
+                2,
+                3,
+                14
+              ],
+              [
+                0,
+                4,
+                12
+              ]
+            ],
+            "size_recall": {
+              "lt8": {
+                "detected": 0,
+                "total": 2,
+                "recall": 0.0
+              },
+              "8to16": {
+                "detected": 15,
+                "total": 77,
+                "recall": 0.19480519480519481
+              },
+              "16to32": {
+                "detected": 55,
+                "total": 72,
+                "recall": 0.7638888888888888
+              },
+              "ge32": {
+                "detected": 13,
+                "total": 38,
+                "recall": 0.34210526315789475
+              }
+            },
+            "negative_images": 0,
+            "negative_images_with_false_positive": 0,
+            "negative_false_positive_image_rate": null
+          }
+        }
+      }
+    },
+    {
+      "model_id": "board_yolo11n",
+      "architecture": {
+        "model_id": "board_yolo11n",
+        "task": "detect",
+        "classes": [
+          "raspberry_pi_sbc"
+        ],
+        "parameters": 2590035,
+        "trainable_parameters": 2590019,
+        "layers": [
+          {
+            "index": 0,
+            "module": "ultralytics.nn.modules.conv.Conv",
+            "from": -1,
+            "parameters": 464
+          },
+          {
+            "index": 1,
+            "module": "ultralytics.nn.modules.conv.Conv",
+            "from": -1,
+            "parameters": 4672
+          },
+          {
+            "index": 2,
+            "module": "ultralytics.nn.modules.block.C3k2",
+            "from": -1,
+            "parameters": 6640
+          },
+          {
+            "index": 3,
+            "module": "ultralytics.nn.modules.conv.Conv",
+            "from": -1,
+            "parameters": 36992
+          },
+          {
+            "index": 4,
+            "module": "ultralytics.nn.modules.block.C3k2",
+            "from": -1,
+            "parameters": 26080
+          },
+          {
+            "index": 5,
+            "module": "ultralytics.nn.modules.conv.Conv",
+            "from": -1,
+            "parameters": 147712
+          },
+          {
+            "index": 6,
+            "module": "ultralytics.nn.modules.block.C3k2",
+            "from": -1,
+            "parameters": 87040
+          },
+          {
+            "index": 7,
+            "module": "ultralytics.nn.modules.conv.Conv",
+            "from": -1,
+            "parameters": 295424
+          },
+          {
+            "index": 8,
+            "module": "ultralytics.nn.modules.block.C3k2",
+            "from": -1,
+            "parameters": 346112
+          },
+          {
+            "index": 9,
+            "module": "ultralytics.nn.modules.block.SPPF",
+            "from": -1,
+            "parameters": 164608
+          },
+          {
+            "index": 10,
+            "module": "ultralytics.nn.modules.block.C2PSA",
+            "from": -1,
+            "parameters": 249728
+          },
+          {
+            "index": 11,
+            "module": "torch.nn.modules.upsampling.Upsample",
+            "from": -1,
+            "parameters": 0
+          },
+          {
+            "index": 12,
+            "module": "ultralytics.nn.modules.conv.Concat",
+            "from": [
+              -1,
+              6
+            ],
+            "parameters": 0
+          },
+          {
+            "index": 13,
+            "module": "ultralytics.nn.modules.block.C3k2",
+            "from": -1,
+            "parameters": 111296
+          },
+          {
+            "index": 14,
+            "module": "torch.nn.modules.upsampling.Upsample",
+            "from": -1,
+            "parameters": 0
+          },
+          {
+            "index": 15,
+            "module": "ultralytics.nn.modules.conv.Concat",
+            "from": [
+              -1,
+              4
+            ],
+            "parameters": 0
+          },
+          {
+            "index": 16,
+            "module": "ultralytics.nn.modules.block.C3k2",
+            "from": -1,
+            "parameters": 32096
+          },
+          {
+            "index": 17,
+            "module": "ultralytics.nn.modules.conv.Conv",
+            "from": -1,
+            "parameters": 36992
+          },
+          {
+            "index": 18,
+            "module": "ultralytics.nn.modules.conv.Concat",
+            "from": [
+              -1,
+              13
+            ],
+            "parameters": 0
+          },
+          {
+            "index": 19,
+            "module": "ultralytics.nn.modules.block.C3k2",
+            "from": -1,
+            "parameters": 86720
+          },
+          {
+            "index": 20,
+            "module": "ultralytics.nn.modules.conv.Conv",
+            "from": -1,
+            "parameters": 147712
+          },
+          {
+            "index": 21,
+            "module": "ultralytics.nn.modules.conv.Concat",
+            "from": [
+              -1,
+              10
+            ],
+            "parameters": 0
+          },
+          {
+            "index": 22,
+            "module": "ultralytics.nn.modules.block.C3k2",
+            "from": -1,
+            "parameters": 378880
+          },
+          {
+            "index": 23,
+            "module": "ultralytics.nn.modules.head.Detect",
+            "from": [
+              16,
+              19,
+              22
+            ],
+            "parameters": 430867
+          }
+        ],
+        "yaml": {
+          "nc": 1,
+          "scales": {
+            "n": [
+              0.5,
+              0.25,
+              1024
+            ],
+            "s": [
+              0.5,
+              0.5,
+              1024
+            ],
+            "m": [
+              0.5,
+              1.0,
+              512
+            ],
+            "l": [
+              1.0,
+              1.0,
+              512
+            ],
+            "x": [
+              1.0,
+              1.5,
+              512
+            ]
+          },
+          "backbone": [
+            [
+              -1,
+              1,
+              "Conv",
+              [
+                64,
+                3,
+                2
+              ]
+            ],
+            [
+              -1,
+              1,
+              "Conv",
+              [
+                128,
+                3,
+                2
+              ]
+            ],
+            [
+              -1,
+              2,
+              "C3k2",
+              [
+                256,
+                false,
+                0.25
+              ]
+            ],
+            [
+              -1,
+              1,
+              "Conv",
+              [
+                256,
+                3,
+                2
+              ]
+            ],
+            [
+              -1,
+              2,
+              "C3k2",
+              [
+                512,
+                false,
+                0.25
+              ]
+            ],
+            [
+              -1,
+              1,
+              "Conv",
+              [
+                512,
+                3,
+                2
+              ]
+            ],
+            [
+              -1,
+              2,
+              "C3k2",
+              [
+                512,
+                true
+              ]
+            ],
+            [
+              -1,
+              1,
+              "Conv",
+              [
+                1024,
+                3,
+                2
+              ]
+            ],
+            [
+              -1,
+              2,
+              "C3k2",
+              [
+                1024,
+                true
+              ]
+            ],
+            [
+              -1,
+              1,
+              "SPPF",
+              [
+                1024,
+                5
+              ]
+            ],
+            [
+              -1,
+              2,
+              "C2PSA",
+              [
+                1024
+              ]
+            ]
+          ],
+          "head": [
+            [
+              -1,
+              1,
+              "nn.Upsample",
+              [
+                "None",
+                2,
+                "nearest"
+              ]
+            ],
+            [
+              [
+                -1,
+                6
+              ],
+              1,
+              "Concat",
+              [
+                1
+              ]
+            ],
+            [
+              -1,
+              2,
+              "C3k2",
+              [
+                512,
+                false
+              ]
+            ],
+            [
+              -1,
+              1,
+              "nn.Upsample",
+              [
+                "None",
+                2,
+                "nearest"
+              ]
+            ],
+            [
+              [
+                -1,
+                4
+              ],
+              1,
+              "Concat",
+              [
+                1
+              ]
+            ],
+            [
+              -1,
+              2,
+              "C3k2",
+              [
+                256,
+                false
+              ]
+            ],
+            [
+              -1,
+              1,
+              "Conv",
+              [
+                256,
+                3,
+                2
+              ]
+            ],
+            [
+              [
+                -1,
+                13
+              ],
+              1,
+              "Concat",
+              [
+                1
+              ]
+            ],
+            [
+              -1,
+              2,
+              "C3k2",
+              [
+                512,
+                false
+              ]
+            ],
+            [
+              -1,
+              1,
+              "Conv",
+              [
+                512,
+                3,
+                2
+              ]
+            ],
+            [
+              [
+                -1,
+                10
+              ],
+              1,
+              "Concat",
+              [
+                1
+              ]
+            ],
+            [
+              -1,
+              2,
+              "C3k2",
+              [
+                1024,
+                true
+              ]
+            ],
+            [
+              [
+                16,
+                19,
+                22
+              ],
+              1,
+              "Detect",
+              [
+                "nc"
+              ]
+            ]
+          ],
+          "scale": "n",
+          "yaml_file": "yolo11n.yaml",
+          "ch": 3,
+          "channels": 3
+        }
+      },
+      "training": {
+        "model_id": "board_yolo11n",
+        "created_utc": "2026-09-27T16:57:35.179817+00:00",
+        "python": "3.11.9 (tags/v3.11.9:de54cf5, Apr  2 2024, 10:12:12) [MSC v.1938 64 bit (AMD64)]",
+        "platform": "Windows-10-10.0.26200-SP0",
+        "torch": "2.12.1+cu130",
+        "cuda": "13.0",
+        "ultralytics": "8.4.120",
+        "gpu": "NVIDIA GeForce RTX 5060 Laptop GPU",
+        "configuration": {
+          "model_id": "board_yolo11n",
+          "task": "detect",
+          "scope": "Raspberry Pi board detection on corrected public source groups; not D455 validated",
+          "weights": "models/yolo11n.pt",
+          "data": "data/board_detect_v2/data.yaml",
+          "manifest": "data/board_detect_v2/manifest.json",
+          "run_dir": "runs/board_yolo11n",
+          "train": {
+            "epochs": 5,
+            "patience": 0,
+            "imgsz": 640,
+            "batch": 8,
+            "amp": false,
+            "nbs": 8,
+            "optimizer": "AdamW",
+            "lr0": 0.001,
+            "lrf": 0.01,
+            "weight_decay": 0.0005,
+            "warmup_epochs": 1.0,
+            "warmup_bias_lr": 0.0,
+            "box": 7.5,
+            "cls": 0.5,
+            "dfl": 1.5,
+            "max_det": 300,
+            "seed": 42,
+            "deterministic": true,
+            "mosaic": 0.0,
+            "mixup": 0.0,
+            "copy_paste": 0.0,
+            "scale": 0.2,
+            "translate": 0.05,
+            "degrees": 15.0,
+            "fliplr": 0.0,
+            "flipud": 0.0,
+            "hsv_h": 0.005,
+            "hsv_s": 0.15,
+            "hsv_v": 0.2,
+            "data": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\data\\board_detect_v2\\data.yaml",
+            "project": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\runs\\board_yolo11n",
+            "name": "fit",
+            "exist_ok": false,
+            "device": 0,
+            "workers": 0,
+            "cache": false,
+            "plots": true,
+            "save": true,
+            "save_period": -1
+          }
+        },
+        "manifest_sha256": "e9788b91a7fdb5d2c1d859c654bab50721df48ab86d0d5d66fe171d3c743652a",
+        "initial_weights_sha256": "0ebbc80d4a7680d14987a577cd21342b65ecfd94632bd9a8da63ae6417644ee1",
+        "scope": "Raspberry Pi board detection on corrected public source groups; not D455 validated",
+        "class_loss_weights": "Uniform 1.0 for each class; no custom per-class multiplier",
+        "source_weighting": "uniform image sampling; source loss factor1.0, no oversampling",
+        "label_counts": {
+          "train": {
+            "images": 4179,
+            "groups": 1108,
+            "positive_images": 2181,
+            "negative_images": 1998,
+            "instances": 2186,
+            "native_polygon_instances": 865,
+            "by_source": {
+              "iotkits_v1": {
+                "images": 2149,
+                "positive_images": 861,
+                "negative_images": 1288,
+                "instances": 866,
+                "native_polygon_instances": 865
+              },
+              "micro_pcb": {
+                "images": 2030,
+                "positive_images": 1320,
+                "negative_images": 710,
+                "instances": 1320,
+                "native_polygon_instances": 0
+              }
+            }
+          },
+          "val": {
+            "images": 896,
+            "groups": 235,
+            "positive_images": 468,
+            "negative_images": 428,
+            "instances": 469,
+            "native_polygon_instances": 174,
+            "by_source": {
+              "iotkits_v1": {
+                "images": 456,
+                "positive_images": 173,
+                "negative_images": 283,
+                "instances": 174,
+                "native_polygon_instances": 174
+              },
+              "micro_pcb": {
+                "images": 440,
+                "positive_images": 295,
+                "negative_images": 145,
+                "instances": 295,
+                "native_polygon_instances": 0
+              }
+            }
+          },
+          "test": {
+            "images": 895,
+            "groups": 235,
+            "positive_images": 426,
+            "negative_images": 469,
+            "instances": 426,
+            "native_polygon_instances": 166,
+            "by_source": {
+              "iotkits_v1": {
+                "images": 490,
+                "positive_images": 166,
+                "negative_images": 324,
+                "instances": 166,
+                "native_polygon_instances": 166
+              },
+              "micro_pcb": {
+                "images": 405,
+                "positive_images": 260,
+                "negative_images": 145,
+                "instances": 260,
+                "native_polygon_instances": 0
+              }
+            }
+          }
+        },
+        "test_used_for_training_or_selection": false
+      },
+      "run_summary": {
+        "model_id": "board_yolo11n",
+        "status": "TRAINED_OFFLINE_NOT_D455_VALIDATED",
+        "requested_epochs": 5,
+        "last_epoch": 5,
+        "actual_optimizer_steps": 2605.0,
+        "weights_changed": true,
+        "best_path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\runs\\board_yolo11n\\fit\\weights\\best.pt",
+        "best_sha256": "0bc7a0ef6aa5108728a2357e5c4b20189330f58366bf52b4251f3754b14707db",
+        "peak_cuda_allocated_bytes": 1998029312,
+        "test_evaluated": false,
+        "scope": "Raspberry Pi board detection on corrected public source groups; not D455 validated",
+        "camera_verified": false
+      },
+      "selection": {
+        "candidate": {
+          "candidate_id": "best_whole",
+          "checkpoint": "best",
+          "weights": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\runs\\board_yolo11n\\fit\\weights\\best.pt",
+          "tile_size": 0
+        },
+        "checkpoint_sha256": "0bc7a0ef6aa5108728a2357e5c4b20189330f58366bf52b4251f3754b14707db",
+        "manifest_sha256": "e9788b91a7fdb5d2c1d859c654bab50721df48ab86d0d5d66fe171d3c743652a",
+        "imgsz": 640,
+        "operating_confidence": 0.4,
+        "validation_metrics_path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\reports\\evaluation_suite\\evaluations\\board_yolo11n__val__best_whole\\metrics.json",
+        "validation_metrics_sha256": "6820357d5dd6febf32a437d7c01d50e3274836cd208bd43a24303485b8fcc400",
+        "validation_bbox": {
+          "iou_type": "bbox",
+          "ap50_95_max100": 0.7467974284620287,
+          "ap50_max100": 0.9891551648502978,
+          "ap75_max100": 0.8853950797598233,
+          "ap50_95_max300": 0.7467974284620287,
+          "per_class": {
+            "raspberry_pi_sbc": {
+              "ap50_95_max100": 0.7467974284620287,
+              "ap50_max100": 0.9891551648502978,
+              "ap50_95_max300": 0.7467974284620287
+            }
+          },
+          "area_ap50_95_max100": {
+            "all": 0.7467974284620287,
+            "small": null,
+            "medium": null,
+            "large": 0.7467974284620287
+          }
+        },
+        "validation_mask": null,
+        "rule": [
+          "validation bbox AP50-95 max100 descending",
+          "validation bbox AP50-95 max300 descending",
+          "validation offline latency p50 ascending",
+          "candidate ID ascending"
+        ]
+      },
+      "tests": {
+        "general_test": {
+          "candidate_id": "best_whole",
+          "metrics_path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\reports\\evaluation_suite\\evaluations\\board_yolo11n__general_test\\metrics.json",
+          "metrics_sha256": "e54798f868f27d27be5cee782ecbf9255b1d26f140126f70c5ed38689a90e4ae",
+          "simulation": null,
+          "split": "test",
+          "cohort": null,
+          "task": "detect",
+          "class_names": [
+            "raspberry_pi_sbc"
+          ],
+          "images": 895,
+          "groups": 235,
+          "native_gt_instances": 426,
+          "checkpoint_sha256": "0bc7a0ef6aa5108728a2357e5c4b20189330f58366bf52b4251f3754b14707db",
+          "manifest_sha256": "e9788b91a7fdb5d2c1d859c654bab50721df48ab86d0d5d66fe171d3c743652a",
+          "bbox": {
+            "iou_type": "bbox",
+            "ap50_95_max100": 0.7445338405000201,
+            "ap50_max100": 0.9971050640556903,
+            "ap75_max100": 0.9246222378394326,
+            "ap50_95_max300": 0.7445338405000201,
+            "per_class": {
+              "raspberry_pi_sbc": {
+                "ap50_95_max100": 0.7445338405000201,
+                "ap50_max100": 0.9971050640556903,
+                "ap50_95_max300": 0.7445338405000201
+              }
+            },
+            "area_ap50_95_max100": {
+              "all": 0.7445338405000201,
+              "small": null,
+              "medium": null,
+              "large": 0.7445338405000201
+            }
+          },
+          "mask": null,
+          "latency": {
+            "offline_predict_and_postprocess_ms_p50": 14.539299998432398,
+            "offline_predict_and_postprocess_ms_p95": 20.448100005160082,
+            "samples": 895,
+            "warmup_excluded": true,
+            "excludes": [
+              "camera acquisition",
+              "file decoding",
+              "visualization",
+              "disk write"
+            ]
+          },
+          "group_bootstrap_recall95": {
+            "resamples": 1000,
+            "groups": 235,
+            "lower": 0.9470715130483497,
+            "upper": 0.9972504363552247,
+            "scope": "Fixed-threshold recall CI, NOT an AP confidence interval; source-family groups, physical identity may be unknown"
+          },
+          "annotation_limitations": null,
+          "operating": {
+            "confidence": 0.4,
+            "match_box_iou": 0.5,
+            "tp": 416,
+            "fp": 4,
+            "fn": 10,
+            "precision": 0.9904761904761905,
+            "recall": 0.9765258215962441,
+            "f1": 0.9834515366430261,
+            "per_class_counts_tp_fp_fn": [
+              [
+                416,
+                4,
+                10
+              ]
+            ],
+            "size_recall": {
+              "lt8": {
+                "detected": 0,
+                "total": 0,
+                "recall": null
+              },
+              "8to16": {
+                "detected": 0,
+                "total": 0,
+                "recall": null
+              },
+              "16to32": {
+                "detected": 0,
+                "total": 0,
+                "recall": null
+              },
+              "ge32": {
+                "detected": 416,
+                "total": 426,
+                "recall": 0.9765258215962441
+              }
+            },
+            "negative_images": 469,
+            "negative_images_with_false_positive": 2,
+            "negative_false_positive_image_rate": 0.0042643923240938165
+          }
+        }
+      }
+    },
+    {
+      "model_id": "board_yolo11n_seg",
+      "architecture": {
+        "model_id": "board_yolo11n_seg",
+        "task": "segment",
+        "classes": [
+          "raspberry_pi_sbc"
+        ],
+        "parameters": 2842803,
+        "trainable_parameters": 2842787,
+        "layers": [
+          {
+            "index": 0,
+            "module": "ultralytics.nn.modules.conv.Conv",
+            "from": -1,
+            "parameters": 464
+          },
+          {
+            "index": 1,
+            "module": "ultralytics.nn.modules.conv.Conv",
+            "from": -1,
+            "parameters": 4672
+          },
+          {
+            "index": 2,
+            "module": "ultralytics.nn.modules.block.C3k2",
+            "from": -1,
+            "parameters": 6640
+          },
+          {
+            "index": 3,
+            "module": "ultralytics.nn.modules.conv.Conv",
+            "from": -1,
+            "parameters": 36992
+          },
+          {
+            "index": 4,
+            "module": "ultralytics.nn.modules.block.C3k2",
+            "from": -1,
+            "parameters": 26080
+          },
+          {
+            "index": 5,
+            "module": "ultralytics.nn.modules.conv.Conv",
+            "from": -1,
+            "parameters": 147712
+          },
+          {
+            "index": 6,
+            "module": "ultralytics.nn.modules.block.C3k2",
+            "from": -1,
+            "parameters": 87040
+          },
+          {
+            "index": 7,
+            "module": "ultralytics.nn.modules.conv.Conv",
+            "from": -1,
+            "parameters": 295424
+          },
+          {
+            "index": 8,
+            "module": "ultralytics.nn.modules.block.C3k2",
+            "from": -1,
+            "parameters": 346112
+          },
+          {
+            "index": 9,
+            "module": "ultralytics.nn.modules.block.SPPF",
+            "from": -1,
+            "parameters": 164608
+          },
+          {
+            "index": 10,
+            "module": "ultralytics.nn.modules.block.C2PSA",
+            "from": -1,
+            "parameters": 249728
+          },
+          {
+            "index": 11,
+            "module": "torch.nn.modules.upsampling.Upsample",
+            "from": -1,
+            "parameters": 0
+          },
+          {
+            "index": 12,
+            "module": "ultralytics.nn.modules.conv.Concat",
+            "from": [
+              -1,
+              6
+            ],
+            "parameters": 0
+          },
+          {
+            "index": 13,
+            "module": "ultralytics.nn.modules.block.C3k2",
+            "from": -1,
+            "parameters": 111296
+          },
+          {
+            "index": 14,
+            "module": "torch.nn.modules.upsampling.Upsample",
+            "from": -1,
+            "parameters": 0
+          },
+          {
+            "index": 15,
+            "module": "ultralytics.nn.modules.conv.Concat",
+            "from": [
+              -1,
+              4
+            ],
+            "parameters": 0
+          },
+          {
+            "index": 16,
+            "module": "ultralytics.nn.modules.block.C3k2",
+            "from": -1,
+            "parameters": 32096
+          },
+          {
+            "index": 17,
+            "module": "ultralytics.nn.modules.conv.Conv",
+            "from": -1,
+            "parameters": 36992
+          },
+          {
+            "index": 18,
+            "module": "ultralytics.nn.modules.conv.Concat",
+            "from": [
+              -1,
+              13
+            ],
+            "parameters": 0
+          },
+          {
+            "index": 19,
+            "module": "ultralytics.nn.modules.block.C3k2",
+            "from": -1,
+            "parameters": 86720
+          },
+          {
+            "index": 20,
+            "module": "ultralytics.nn.modules.conv.Conv",
+            "from": -1,
+            "parameters": 147712
+          },
+          {
+            "index": 21,
+            "module": "ultralytics.nn.modules.conv.Concat",
+            "from": [
+              -1,
+              10
+            ],
+            "parameters": 0
+          },
+          {
+            "index": 22,
+            "module": "ultralytics.nn.modules.block.C3k2",
+            "from": -1,
+            "parameters": 378880
+          },
+          {
+            "index": 23,
+            "module": "ultralytics.nn.modules.head.Segment",
+            "from": [
+              16,
+              19,
+              22
+            ],
+            "parameters": 683635
+          }
+        ],
+        "yaml": {
+          "nc": 1,
+          "scales": {
+            "n": [
+              0.5,
+              0.25,
+              1024
+            ],
+            "s": [
+              0.5,
+              0.5,
+              1024
+            ],
+            "m": [
+              0.5,
+              1.0,
+              512
+            ],
+            "l": [
+              1.0,
+              1.0,
+              512
+            ],
+            "x": [
+              1.0,
+              1.5,
+              512
+            ]
+          },
+          "backbone": [
+            [
+              -1,
+              1,
+              "Conv",
+              [
+                64,
+                3,
+                2
+              ]
+            ],
+            [
+              -1,
+              1,
+              "Conv",
+              [
+                128,
+                3,
+                2
+              ]
+            ],
+            [
+              -1,
+              2,
+              "C3k2",
+              [
+                256,
+                false,
+                0.25
+              ]
+            ],
+            [
+              -1,
+              1,
+              "Conv",
+              [
+                256,
+                3,
+                2
+              ]
+            ],
+            [
+              -1,
+              2,
+              "C3k2",
+              [
+                512,
+                false,
+                0.25
+              ]
+            ],
+            [
+              -1,
+              1,
+              "Conv",
+              [
+                512,
+                3,
+                2
+              ]
+            ],
+            [
+              -1,
+              2,
+              "C3k2",
+              [
+                512,
+                true
+              ]
+            ],
+            [
+              -1,
+              1,
+              "Conv",
+              [
+                1024,
+                3,
+                2
+              ]
+            ],
+            [
+              -1,
+              2,
+              "C3k2",
+              [
+                1024,
+                true
+              ]
+            ],
+            [
+              -1,
+              1,
+              "SPPF",
+              [
+                1024,
+                5
+              ]
+            ],
+            [
+              -1,
+              2,
+              "C2PSA",
+              [
+                1024
+              ]
+            ]
+          ],
+          "head": [
+            [
+              -1,
+              1,
+              "nn.Upsample",
+              [
+                "None",
+                2,
+                "nearest"
+              ]
+            ],
+            [
+              [
+                -1,
+                6
+              ],
+              1,
+              "Concat",
+              [
+                1
+              ]
+            ],
+            [
+              -1,
+              2,
+              "C3k2",
+              [
+                512,
+                false
+              ]
+            ],
+            [
+              -1,
+              1,
+              "nn.Upsample",
+              [
+                "None",
+                2,
+                "nearest"
+              ]
+            ],
+            [
+              [
+                -1,
+                4
+              ],
+              1,
+              "Concat",
+              [
+                1
+              ]
+            ],
+            [
+              -1,
+              2,
+              "C3k2",
+              [
+                256,
+                false
+              ]
+            ],
+            [
+              -1,
+              1,
+              "Conv",
+              [
+                256,
+                3,
+                2
+              ]
+            ],
+            [
+              [
+                -1,
+                13
+              ],
+              1,
+              "Concat",
+              [
+                1
+              ]
+            ],
+            [
+              -1,
+              2,
+              "C3k2",
+              [
+                512,
+                false
+              ]
+            ],
+            [
+              -1,
+              1,
+              "Conv",
+              [
+                512,
+                3,
+                2
+              ]
+            ],
+            [
+              [
+                -1,
+                10
+              ],
+              1,
+              "Concat",
+              [
+                1
+              ]
+            ],
+            [
+              -1,
+              2,
+              "C3k2",
+              [
+                1024,
+                true
+              ]
+            ],
+            [
+              [
+                16,
+                19,
+                22
+              ],
+              1,
+              "Segment",
+              [
+                "nc",
+                32,
+                256
+              ]
+            ]
+          ],
+          "scale": "n",
+          "yaml_file": "yolo11n-seg.yaml",
+          "ch": 3,
+          "channels": 3
+        }
+      },
+      "training": {
+        "model_id": "board_yolo11n_seg",
+        "created_utc": "2026-09-27T17:11:36.914158+00:00",
+        "python": "3.11.9 (tags/v3.11.9:de54cf5, Apr  2 2024, 10:12:12) [MSC v.1938 64 bit (AMD64)]",
+        "platform": "Windows-10-10.0.26200-SP0",
+        "torch": "2.12.1+cu130",
+        "cuda": "13.0",
+        "ultralytics": "8.4.120",
+        "gpu": "NVIDIA GeForce RTX 5060 Laptop GPU",
+        "configuration": {
+          "model_id": "board_yolo11n_seg",
+          "task": "segment",
+          "scope": "Raspberry Pi board native outline masks; not component masks; not D455 validated",
+          "weights": "models/yolo11n-seg.pt",
+          "data": "data/board_segment_v2/data.yaml",
+          "manifest": "data/board_segment_v2/manifest.json",
+          "run_dir": "runs/board_yolo11n_seg",
+          "train": {
+            "epochs": 5,
+            "patience": 0,
+            "imgsz": 640,
+            "batch": 4,
+            "amp": false,
+            "nbs": 8,
+            "optimizer": "AdamW",
+            "lr0": 0.001,
+            "lrf": 0.01,
+            "weight_decay": 0.0005,
+            "warmup_epochs": 1.0,
+            "warmup_bias_lr": 0.0,
+            "box": 7.5,
+            "cls": 0.5,
+            "dfl": 1.5,
+            "max_det": 300,
+            "seed": 42,
+            "deterministic": true,
+            "mosaic": 0.0,
+            "mixup": 0.0,
+            "copy_paste": 0.0,
+            "scale": 0.2,
+            "translate": 0.05,
+            "degrees": 15.0,
+            "fliplr": 0.0,
+            "flipud": 0.0,
+            "hsv_h": 0.005,
+            "hsv_s": 0.15,
+            "hsv_v": 0.2,
+            "mask_ratio": 1,
+            "overlap_mask": true,
+            "data": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\data\\board_segment_v2\\data.yaml",
+            "project": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\runs\\board_yolo11n_seg",
+            "name": "fit",
+            "exist_ok": false,
+            "device": 0,
+            "workers": 0,
+            "cache": false,
+            "plots": true,
+            "save": true,
+            "save_period": -1
+          }
+        },
+        "manifest_sha256": "bdf4fbe18056c81f47f50754048e6610fcb19a2e7c37ba1be4f0d443d672c59f",
+        "initial_weights_sha256": "55ed65c56c91713d23e8402371c6c49a6fd84f257f7dce452e8d70e41dcbe152",
+        "scope": "Raspberry Pi board native outline masks; not component masks; not D455 validated",
+        "class_loss_weights": "Uniform 1.0 for each class; no custom per-class multiplier",
+        "source_weighting": "uniform image sampling; source loss factor1.0, no oversampling",
+        "label_counts": {
+          "train": {
+            "images": 2148,
+            "groups": 932,
+            "positive_images": 860,
+            "negative_images": 1288,
+            "instances": 865,
+            "native_polygon_instances": 865,
+            "by_source": {
+              "iotkits_v1": {
+                "images": 2148,
+                "positive_images": 860,
+                "negative_images": 1288,
+                "instances": 865,
+                "native_polygon_instances": 865
+              }
+            }
+          },
+          "val": {
+            "images": 456,
+            "groups": 200,
+            "positive_images": 173,
+            "negative_images": 283,
+            "instances": 174,
+            "native_polygon_instances": 174,
+            "by_source": {
+              "iotkits_v1": {
+                "images": 456,
+                "positive_images": 173,
+                "negative_images": 283,
+                "instances": 174,
+                "native_polygon_instances": 174
+              }
+            }
+          },
+          "test": {
+            "images": 490,
+            "groups": 197,
+            "positive_images": 166,
+            "negative_images": 324,
+            "instances": 166,
+            "native_polygon_instances": 166,
+            "by_source": {
+              "iotkits_v1": {
+                "images": 490,
+                "positive_images": 166,
+                "negative_images": 324,
+                "instances": 166,
+                "native_polygon_instances": 166
+              }
+            }
+          }
+        },
+        "test_used_for_training_or_selection": false
+      },
+      "run_summary": {
+        "model_id": "board_yolo11n_seg",
+        "status": "TRAINED_OFFLINE_NOT_D455_VALIDATED",
+        "requested_epochs": 5,
+        "last_epoch": 5,
+        "actual_optimizer_steps": 1432.0,
+        "weights_changed": true,
+        "best_path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\runs\\board_yolo11n_seg\\fit\\weights\\best.pt",
+        "best_sha256": "e6dcdd38b43df1238b0781a5a9ad30b69c14a3bd2a2c84b2303e2f4ebff267a2",
+        "peak_cuda_allocated_bytes": 3580120064,
+        "test_evaluated": false,
+        "scope": "Raspberry Pi board native outline masks; not component masks; not D455 validated",
+        "camera_verified": false
+      },
+      "selection": {
+        "candidate": {
+          "candidate_id": "best_whole",
+          "checkpoint": "best",
+          "weights": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\runs\\board_yolo11n_seg\\fit\\weights\\best.pt",
+          "tile_size": 0
+        },
+        "checkpoint_sha256": "e6dcdd38b43df1238b0781a5a9ad30b69c14a3bd2a2c84b2303e2f4ebff267a2",
+        "manifest_sha256": "bdf4fbe18056c81f47f50754048e6610fcb19a2e7c37ba1be4f0d443d672c59f",
+        "imgsz": 640,
+        "operating_confidence": 0.5,
+        "validation_metrics_path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\reports\\evaluation_suite\\evaluations\\board_yolo11n_seg__val__best_whole\\metrics.json",
+        "validation_metrics_sha256": "7687b2bbff823e9abc38ecb739e7e06279c8ddc0a9731758a008c5dd25e6b9a4",
+        "validation_bbox": {
+          "iou_type": "bbox",
+          "ap50_95_max100": 0.9075444730457419,
+          "ap50_max100": 0.9894102167691854,
+          "ap75_max100": 0.9894102167691854,
+          "ap50_95_max300": 0.9075444730457419,
+          "per_class": {
+            "raspberry_pi_sbc": {
+              "ap50_95_max100": 0.9075444730457419,
+              "ap50_max100": 0.9894102167691854,
+              "ap50_95_max300": 0.9075444730457419
+            }
+          },
+          "area_ap50_95_max100": {
+            "all": 0.9075444730457419,
+            "small": null,
+            "medium": null,
+            "large": 0.9075444730457419
+          }
+        },
+        "validation_mask": {
+          "iou_type": "segm",
+          "ap50_95_max100": 0.9617707691058263,
+          "ap50_max100": 0.9894102167691854,
+          "ap75_max100": 0.9735503352630271,
+          "ap50_95_max300": 0.9617707691058263,
+          "per_class": {
+            "raspberry_pi_sbc": {
+              "ap50_95_max100": 0.9617707691058263,
+              "ap50_max100": 0.9894102167691854,
+              "ap50_95_max300": 0.9617707691058263
+            }
+          },
+          "area_ap50_95_max100": {
+            "all": 0.9617707691058263,
+            "small": null,
+            "medium": null,
+            "large": 0.9617707691058263
+          }
+        },
+        "rule": [
+          "validation bbox AP50-95 max100 descending",
+          "validation bbox AP50-95 max300 descending",
+          "validation offline latency p50 ascending",
+          "candidate ID ascending"
+        ]
+      },
+      "tests": {
+        "general_test": {
+          "candidate_id": "best_whole",
+          "metrics_path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\reports\\evaluation_suite\\evaluations\\board_yolo11n_seg__general_test\\metrics.json",
+          "metrics_sha256": "097cf6dd99ef850e54ce1553796ccd17259619ce527301eeb7e990481c5be824",
+          "simulation": null,
+          "split": "test",
+          "cohort": null,
+          "task": "segment",
+          "class_names": [
+            "raspberry_pi_sbc"
+          ],
+          "images": 490,
+          "groups": 197,
+          "native_gt_instances": 166,
+          "checkpoint_sha256": "e6dcdd38b43df1238b0781a5a9ad30b69c14a3bd2a2c84b2303e2f4ebff267a2",
+          "manifest_sha256": "bdf4fbe18056c81f47f50754048e6610fcb19a2e7c37ba1be4f0d443d672c59f",
+          "bbox": {
+            "iou_type": "bbox",
+            "ap50_95_max100": 0.910701602966259,
+            "ap50_max100": 0.9983937121756119,
+            "ap75_max100": 0.9774584933873323,
+            "ap50_95_max300": 0.910701602966259,
+            "per_class": {
+              "raspberry_pi_sbc": {
+                "ap50_95_max100": 0.910701602966259,
+                "ap50_max100": 0.9983937121756119,
+                "ap50_95_max300": 0.910701602966259
+              }
+            },
+            "area_ap50_95_max100": {
+              "all": 0.910701602966259,
+              "small": null,
+              "medium": null,
+              "large": 0.910701602966259
+            }
+          },
+          "mask": {
+            "iou_type": "segm",
+            "ap50_95_max100": 0.9627882880768281,
+            "ap50_max100": 0.9776804061065544,
+            "ap75_max100": 0.9769151201935828,
+            "ap50_95_max300": 0.9627882880768281,
+            "per_class": {
+              "raspberry_pi_sbc": {
+                "ap50_95_max100": 0.9627882880768281,
+                "ap50_max100": 0.9776804061065544,
+                "ap50_95_max300": 0.9627882880768281
+              }
+            },
+            "area_ap50_95_max100": {
+              "all": 0.9627882880768281,
+              "small": null,
+              "medium": null,
+              "large": 0.9627882880768281
+            }
+          },
+          "latency": {
+            "offline_predict_and_postprocess_ms_p50": 14.127400005236268,
+            "offline_predict_and_postprocess_ms_p95": 23.463200015248717,
+            "samples": 490,
+            "warmup_excluded": true,
+            "excludes": [
+              "camera acquisition",
+              "file decoding",
+              "visualization",
+              "disk write"
+            ]
+          },
+          "group_bootstrap_recall95": {
+            "resamples": 1000,
+            "groups": 197,
+            "lower": 0.9295620718848611,
+            "upper": 1.0,
+            "scope": "Fixed-threshold recall CI, NOT an AP confidence interval; source-family groups, physical identity may be unknown"
+          },
+          "annotation_limitations": null,
+          "operating": {
+            "confidence": 0.5,
+            "match_box_iou": 0.5,
+            "tp": 161,
+            "fp": 4,
+            "fn": 5,
+            "precision": 0.9757575757575757,
+            "recall": 0.9698795180722891,
+            "f1": 0.9728096676737159,
+            "per_class_counts_tp_fp_fn": [
+              [
+                161,
+                4,
+                5
+              ]
+            ],
+            "size_recall": {
+              "lt8": {
+                "detected": 0,
+                "total": 0,
+                "recall": null
+              },
+              "8to16": {
+                "detected": 0,
+                "total": 0,
+                "recall": null
+              },
+              "16to32": {
+                "detected": 0,
+                "total": 0,
+                "recall": null
+              },
+              "ge32": {
+                "detected": 161,
+                "total": 166,
+                "recall": 0.9698795180722891
+              }
+            },
+            "negative_images": 324,
+            "negative_images_with_false_positive": 3,
+            "negative_false_positive_image_rate": 0.009259259259259259
+          }
+        }
+      }
+    }
+  ],
+  "target4_component_mask_status": "NOT_TRAINED_NO_REVIEWED_NATIVE_MASK_GT",
+  "d455_status": "DEVICE_COUNT_ZERO_NO_FRAMES"
+}

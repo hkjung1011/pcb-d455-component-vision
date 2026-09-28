@@ -1,0 +1,11 @@
+{
+  "source_title": "File:Raspberry-Pi 5.jpg",
+  "source_url": "https://commons.wikimedia.org/wiki/File:Raspberry-Pi_5.jpg",
+  "artist": "LeGeekLinux",
+  "credit": "Own work",
+  "original_license": "CC0",
+  "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+  "modification": "Added R03 model-predicted boxes and whole-board mask overlays. Predictions are not ground truth.",
+  "derivative_license": "Same as the original photo license; source attribution retained",
+  "quantitative_accuracy_measured": false
+}

@@ -1,0 +1,12 @@
+# Recorded working training/evaluation environment, not an automatic install script.
+# torch and torchvision were CUDA 13.0 builds; use the matching PyTorch wheel source.
+torch==2.12.1+cu130
+torchvision==0.27.1+cu130
+ultralytics==8.4.120
+numpy==2.4.6
+opencv-python==5.0.0.93
+matplotlib==3.11.1
+Pillow==12.3.0
+pycocotools==2.0.11
+# Also used: PyYAML, ImageHash, scipy. Exact full environment in reports/pip_freeze.txt.
+# Camera capture is separate: existing RealSense preview environment, pyrealsense2 2.55.1.

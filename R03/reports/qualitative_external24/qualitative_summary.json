@@ -1,0 +1,524 @@
+{
+  "images": 24,
+  "quantitative_accuracy_measured": false,
+  "source_photos_not_used_in_r03_finetuning": true,
+  "physical_identity_independence_not_verified": true,
+  "draft_annotations_used_as_ground_truth": false,
+  "records": [
+    {
+      "id": "commons_88249711",
+      "output": "commons_88249711_4c85535042",
+      "source": {
+        "source_title": "File:Raspberry Pi 4, 2 GB RAM version.jpg",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Raspberry_Pi_4,_2_GB_RAM_version.jpg",
+        "artist": "Suyash.dwivedi",
+        "credit": "Own work",
+        "original_license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "modification": "Added R03 model-predicted boxes and whole-board mask overlays. Predictions are not ground truth.",
+        "derivative_license": "Same as the original photo license; source attribution retained",
+        "quantitative_accuracy_measured": false
+      },
+      "boards": 1,
+      "board_masks": 1,
+      "parts_by_predicted_class": {
+        "ic": 6,
+        "resistor": 2,
+        "capacitor": 7,
+        "connector": 2
+      }
+    },
+    {
+      "id": "commons_88249714",
+      "output": "commons_88249714_b2ba0e477d",
+      "source": {
+        "source_title": "File:Raspberry Pi 4, 2 GB RAM version 3.jpg",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Raspberry_Pi_4,_2_GB_RAM_version_3.jpg",
+        "artist": "Suyash.dwivedi",
+        "credit": "Own work",
+        "original_license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "modification": "Added R03 model-predicted boxes and whole-board mask overlays. Predictions are not ground truth.",
+        "derivative_license": "Same as the original photo license; source attribution retained",
+        "quantitative_accuracy_measured": false
+      },
+      "boards": 1,
+      "board_masks": 1,
+      "parts_by_predicted_class": {
+        "resistor": 5,
+        "capacitor": 3
+      }
+    },
+    {
+      "id": "commons_80430835",
+      "output": "commons_80430835_57ddf7e614",
+      "source": {
+        "source_title": "File:Raspberry Pi 4.jpg",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Raspberry_Pi_4.jpg",
+        "artist": "https://www.raspberrypi.org/",
+        "credit": "https://www.raspberrypi.org/",
+        "original_license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "modification": "Added R03 model-predicted boxes and whole-board mask overlays. Predictions are not ground truth.",
+        "derivative_license": "Same as the original photo license; source attribution retained",
+        "quantitative_accuracy_measured": false
+      },
+      "boards": 1,
+      "board_masks": 1,
+      "parts_by_predicted_class": {}
+    },
+    {
+      "id": "commons_122664660",
+      "output": "commons_122664660_e43e459a13",
+      "source": {
+        "source_title": "File:Raspberry Pi 4 B.png",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Raspberry_Pi_4_B.png",
+        "artist": "Batocera Team",
+        "credit": "https://batocera.org/download",
+        "original_license": "CC0",
+        "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "modification": "Added R03 model-predicted boxes and whole-board mask overlays. Predictions are not ground truth.",
+        "derivative_license": "Same as the original photo license; source attribution retained",
+        "quantitative_accuracy_measured": false
+      },
+      "boards": 1,
+      "board_masks": 1,
+      "parts_by_predicted_class": {}
+    },
+    {
+      "id": "commons_114604365",
+      "output": "commons_114604365_262c7b3798",
+      "source": {
+        "source_title": "File:Raspberry Pi 4 Computer.jpg",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Raspberry_Pi_4_Computer.jpg",
+        "artist": "Libreravi",
+        "credit": "Own work",
+        "original_license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "modification": "Added R03 model-predicted boxes and whole-board mask overlays. Predictions are not ground truth.",
+        "derivative_license": "Same as the original photo license; source attribution retained",
+        "quantitative_accuracy_measured": false
+      },
+      "boards": 1,
+      "board_masks": 1,
+      "parts_by_predicted_class": {
+        "ic": 8,
+        "capacitor": 20,
+        "resistor": 3,
+        "connector": 6
+      }
+    },
+    {
+      "id": "commons_97431420",
+      "output": "commons_97431420_545631e3f2",
+      "source": {
+        "source_title": "File:Raspberry Pi 4 Model B With Fancy Lights ^ ^ (50642601981).png",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Raspberry_Pi_4_Model_B_With_Fancy_Lights_%5E_%5E_(50642601981).png",
+        "artist": "ReadyPlayerEmma",
+        "credit": "Raspberry Pi 4 Model B With Fancy Lights ^_^",
+        "original_license": "CC BY-SA 2.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+        "modification": "Added R03 model-predicted boxes and whole-board mask overlays. Predictions are not ground truth.",
+        "derivative_license": "Same as the original photo license; source attribution retained",
+        "quantitative_accuracy_measured": false
+      },
+      "boards": 0,
+      "board_masks": 0,
+      "parts_by_predicted_class": {}
+    },
+    {
+      "id": "commons_145630798",
+      "output": "commons_145630798_aaeae3825e",
+      "source": {
+        "source_title": "File:Raspberry-Pi 5.jpg",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Raspberry-Pi_5.jpg",
+        "artist": "LeGeekLinux",
+        "credit": "Own work",
+        "original_license": "CC0",
+        "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "modification": "Added R03 model-predicted boxes and whole-board mask overlays. Predictions are not ground truth.",
+        "derivative_license": "Same as the original photo license; source attribution retained",
+        "quantitative_accuracy_measured": false
+      },
+      "boards": 0,
+      "board_masks": 1,
+      "parts_by_predicted_class": {
+        "connector": 1
+      }
+    },
+    {
+      "id": "commons_144264832",
+      "output": "commons_144264832_db66710aa1",
+      "source": {
+        "source_title": "File:Raspberry Pi 5 (vertical).jpg",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Raspberry_Pi_5_(vertical).jpg",
+        "artist": "SimonWaldherr",
+        "credit": "Own work",
+        "original_license": "CC BY 4.0",
+        "license_url": "https://creativecommons.org/licenses/by/4.0",
+        "modification": "Added R03 model-predicted boxes and whole-board mask overlays. Predictions are not ground truth.",
+        "derivative_license": "Same as the original photo license; source attribution retained",
+        "quantitative_accuracy_measured": false
+      },
+      "boards": 1,
+      "board_masks": 1,
+      "parts_by_predicted_class": {
+        "ic": 10,
+        "capacitor": 20,
+        "connector": 5,
+        "resistor": 2
+      }
+    },
+    {
+      "id": "commons_144264831",
+      "output": "commons_144264831_851729a741",
+      "source": {
+        "source_title": "File:Raspberry Pi 5 Backside.jpg",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Raspberry_Pi_5_Backside.jpg",
+        "artist": "SimonWaldherr",
+        "credit": "Own work",
+        "original_license": "CC BY 4.0",
+        "license_url": "https://creativecommons.org/licenses/by/4.0",
+        "modification": "Added R03 model-predicted boxes and whole-board mask overlays. Predictions are not ground truth.",
+        "derivative_license": "Same as the original photo license; source attribution retained",
+        "quantitative_accuracy_measured": false
+      },
+      "boards": 0,
+      "board_masks": 0,
+      "parts_by_predicted_class": {
+        "capacitor": 4,
+        "resistor": 1
+      }
+    },
+    {
+      "id": "commons_145417518",
+      "output": "commons_145417518_6346c26b44",
+      "source": {
+        "source_title": "File:Raspberry Pi 5 Board.jpg",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Raspberry_Pi_5_Board.jpg",
+        "artist": "SimonWaldherr",
+        "credit": "Own work",
+        "original_license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "modification": "Added R03 model-predicted boxes and whole-board mask overlays. Predictions are not ground truth.",
+        "derivative_license": "Same as the original photo license; source attribution retained",
+        "quantitative_accuracy_measured": false
+      },
+      "boards": 1,
+      "board_masks": 1,
+      "parts_by_predicted_class": {
+        "capacitor": 14,
+        "ic": 4,
+        "resistor": 1,
+        "connector": 3
+      }
+    },
+    {
+      "id": "commons_149565043",
+      "output": "commons_149565043_fc85fe6124",
+      "source": {
+        "source_title": "File:Raspberry Pi 5 Computer.jpg",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Raspberry_Pi_5_Computer.jpg",
+        "artist": "RetroEditor",
+        "credit": "Own work",
+        "original_license": "CC BY 4.0",
+        "license_url": "https://creativecommons.org/licenses/by/4.0",
+        "modification": "Added R03 model-predicted boxes and whole-board mask overlays. Predictions are not ground truth.",
+        "derivative_license": "Same as the original photo license; source attribution retained",
+        "quantitative_accuracy_measured": false
+      },
+      "boards": 1,
+      "board_masks": 1,
+      "parts_by_predicted_class": {}
+    },
+    {
+      "id": "commons_144264833",
+      "output": "commons_144264833_5244c788fa",
+      "source": {
+        "source_title": "File:Raspberry Pi 5 with active cooler.jpg",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Raspberry_Pi_5_with_active_cooler.jpg",
+        "artist": "SimonWaldherr",
+        "credit": "Own work",
+        "original_license": "CC BY 4.0",
+        "license_url": "https://creativecommons.org/licenses/by/4.0",
+        "modification": "Added R03 model-predicted boxes and whole-board mask overlays. Predictions are not ground truth.",
+        "derivative_license": "Same as the original photo license; source attribution retained",
+        "quantitative_accuracy_measured": false
+      },
+      "boards": 0,
+      "board_masks": 0,
+      "parts_by_predicted_class": {
+        "ic": 2,
+        "connector": 1
+      }
+    },
+    {
+      "id": "commons_145417507",
+      "output": "commons_145417507_699eee79ba",
+      "source": {
+        "source_title": "File:4 Raspberry Pi Zero Boards.jpg",
+        "source_url": "https://commons.wikimedia.org/wiki/File:4_Raspberry_Pi_Zero_Boards.jpg",
+        "artist": "SimonWaldherr",
+        "credit": "Own work",
+        "original_license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "modification": "Added R03 model-predicted boxes and whole-board mask overlays. Predictions are not ground truth.",
+        "derivative_license": "Same as the original photo license; source attribution retained",
+        "quantitative_accuracy_measured": false
+      },
+      "boards": 0,
+      "board_masks": 0,
+      "parts_by_predicted_class": {
+        "connector": 1,
+        "resistor": 2,
+        "capacitor": 4
+      }
+    },
+    {
+      "id": "commons_178528806",
+      "output": "commons_178528806_ebcadda52e",
+      "source": {
+        "source_title": "File:Raspberry PI Zero 2W TOP 02.jpg",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Raspberry_PI_Zero_2W_TOP_02.jpg",
+        "artist": "Suyash Dwivedi",
+        "credit": "Own work",
+        "original_license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "modification": "Added R03 model-predicted boxes and whole-board mask overlays. Predictions are not ground truth.",
+        "derivative_license": "Same as the original photo license; source attribution retained",
+        "quantitative_accuracy_measured": false
+      },
+      "boards": 1,
+      "board_masks": 1,
+      "parts_by_predicted_class": {
+        "capacitor": 35,
+        "resistor": 26,
+        "connector": 2,
+        "ic": 1
+      }
+    },
+    {
+      "id": "commons_67172993",
+      "output": "commons_67172993_ca7806a131",
+      "source": {
+        "source_title": "File:Raspberry Pi Zero (23021815320).png",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Raspberry_Pi_Zero_(23021815320).png",
+        "artist": "Gareth Halfacree from Bradford, UK",
+        "credit": "Raspberry Pi Zero",
+        "original_license": "CC BY-SA 2.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+        "modification": "Added R03 model-predicted boxes and whole-board mask overlays. Predictions are not ground truth.",
+        "derivative_license": "Same as the original photo license; source attribution retained",
+        "quantitative_accuracy_measured": false
+      },
+      "boards": 1,
+      "board_masks": 1,
+      "parts_by_predicted_class": {
+        "resistor": 5,
+        "capacitor": 44,
+        "ic": 1
+      }
+    },
+    {
+      "id": "commons_153836405",
+      "output": "commons_153836405_54b368c543",
+      "source": {
+        "source_title": "File:Raspberry Pi Zero 2 W -- 2024 -- 0012.jpg",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Raspberry_Pi_Zero_2_W_--_2024_--_0012.jpg",
+        "artist": "Anil Öztas",
+        "credit": "Own work, anil-oeztas.de",
+        "original_license": "CC BY 4.0",
+        "license_url": "https://creativecommons.org/licenses/by/4.0",
+        "modification": "Added R03 model-predicted boxes and whole-board mask overlays. Predictions are not ground truth.",
+        "derivative_license": "Same as the original photo license; source attribution retained",
+        "quantitative_accuracy_measured": false
+      },
+      "boards": 1,
+      "board_masks": 1,
+      "parts_by_predicted_class": {
+        "capacitor": 2
+      }
+    },
+    {
+      "id": "commons_112083087",
+      "output": "commons_112083087_8d2a11ed20",
+      "source": {
+        "source_title": "File:Raspberry Pi Zero W (20170828 194225).jpg",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Raspberry_Pi_Zero_W_(20170828_194225).jpg",
+        "artist": "trekkyandy",
+        "credit": "https://www.flickr.com/photos/87054972@N00/36541049760/",
+        "original_license": "CC BY-SA 2.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+        "modification": "Added R03 model-predicted boxes and whole-board mask overlays. Predictions are not ground truth.",
+        "derivative_license": "Same as the original photo license; source attribution retained",
+        "quantitative_accuracy_measured": false
+      },
+      "boards": 0,
+      "board_masks": 0,
+      "parts_by_predicted_class": {
+        "resistor": 1,
+        "ic": 1,
+        "capacitor": 1
+      }
+    },
+    {
+      "id": "commons_86471022",
+      "output": "commons_86471022_6d50385f80",
+      "source": {
+        "source_title": "File:Raspberry Pi Zero W vs Zero.jpeg",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Raspberry_Pi_Zero_W_vs_Zero.jpeg",
+        "artist": "UNKNOWN",
+        "credit": "Own work",
+        "original_license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "modification": "Added R03 model-predicted boxes and whole-board mask overlays. Predictions are not ground truth.",
+        "derivative_license": "Same as the original photo license; source attribution retained",
+        "quantitative_accuracy_measured": false,
+        "uploader": "Ubahnverleih",
+        "author_status": "Source page lacks author information",
+        "author_note_source": "https://commons.wikimedia.org/wiki/File:Raspberry_Pi_Zero_W_vs_Zero.jpeg",
+        "author_note_checked_date": "2026-09-28"
+      },
+      "boards": 1,
+      "board_masks": 2,
+      "parts_by_predicted_class": {
+        "capacitor": 7,
+        "ic": 1
+      }
+    },
+    {
+      "id": "commons_112083120",
+      "output": "commons_112083120_b8da096aa1",
+      "source": {
+        "source_title": "File:Raspberry Pi 3 (20170828 203048).jpg",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Raspberry_Pi_3_(20170828_203048).jpg",
+        "artist": "trekkyandy",
+        "credit": "https://www.flickr.com/photos/87054972@N00/36766313492/",
+        "original_license": "CC BY-SA 2.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+        "modification": "Added R03 model-predicted boxes and whole-board mask overlays. Predictions are not ground truth.",
+        "derivative_license": "Same as the original photo license; source attribution retained",
+        "quantitative_accuracy_measured": false
+      },
+      "boards": 1,
+      "board_masks": 1,
+      "parts_by_predicted_class": {
+        "ic": 2,
+        "capacitor": 3,
+        "connector": 1
+      }
+    },
+    {
+      "id": "commons_67173800",
+      "output": "commons_67173800_110887e39e",
+      "source": {
+        "source_title": "File:Raspberry Pi 3 (24651527564).png",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Raspberry_Pi_3_(24651527564).png",
+        "artist": "Gareth Halfacree from Bradford, UK",
+        "credit": "Raspberry Pi 3",
+        "original_license": "CC BY 2.0",
+        "license_url": "https://creativecommons.org/licenses/by/2.0",
+        "modification": "Added R03 model-predicted boxes and whole-board mask overlays. Predictions are not ground truth.",
+        "derivative_license": "Same as the original photo license; source attribution retained",
+        "quantitative_accuracy_measured": false
+      },
+      "boards": 1,
+      "board_masks": 1,
+      "parts_by_predicted_class": {
+        "ic": 2,
+        "capacitor": 12,
+        "resistor": 1,
+        "connector": 1
+      }
+    },
+    {
+      "id": "commons_75417829",
+      "output": "commons_75417829_c8f5237d11",
+      "source": {
+        "source_title": "File:Raspberry Pi 3 B+.jpg",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Raspberry_Pi_3_B%2B.jpg",
+        "artist": "Apefred",
+        "credit": "Own work",
+        "original_license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "modification": "Added R03 model-predicted boxes and whole-board mask overlays. Predictions are not ground truth.",
+        "derivative_license": "Same as the original photo license; source attribution retained",
+        "quantitative_accuracy_measured": false
+      },
+      "boards": 1,
+      "board_masks": 1,
+      "parts_by_predicted_class": {
+        "ic": 10,
+        "capacitor": 48,
+        "resistor": 40,
+        "connector": 2
+      }
+    },
+    {
+      "id": "commons_67384198",
+      "output": "commons_67384198_e810089219",
+      "source": {
+        "source_title": "File:Raspberry Pi 3 B+ (25929660397).png",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Raspberry_Pi_3_B%2B_(25929660397).png",
+        "artist": "Gareth Halfacree from Bradford, UK",
+        "credit": "Raspberry Pi 3 B+",
+        "original_license": "CC BY-SA 2.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+        "modification": "Added R03 model-predicted boxes and whole-board mask overlays. Predictions are not ground truth.",
+        "derivative_license": "Same as the original photo license; source attribution retained",
+        "quantitative_accuracy_measured": false
+      },
+      "boards": 0,
+      "board_masks": 0,
+      "parts_by_predicted_class": {
+        "capacitor": 1
+      }
+    },
+    {
+      "id": "commons_69775241",
+      "output": "commons_69775241_2d6e0c3904",
+      "source": {
+        "source_title": "File:Raspberry Pi 3 Model B+.jpg",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Raspberry_Pi_3_Model_B%2B.jpg",
+        "artist": "the Raspberry Pi Foundation",
+        "credit": "Own work",
+        "original_license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "modification": "Added R03 model-predicted boxes and whole-board mask overlays. Predictions are not ground truth.",
+        "derivative_license": "Same as the original photo license; source attribution retained",
+        "quantitative_accuracy_measured": false
+      },
+      "boards": 0,
+      "board_masks": 1,
+      "parts_by_predicted_class": {
+        "capacitor": 40,
+        "resistor": 16,
+        "connector": 2,
+        "ic": 1
+      }
+    },
+    {
+      "id": "commons_48775492",
+      "output": "commons_48775492_c43bc19c7c",
+      "source": {
+        "source_title": "File:Raspberry Pi 3 Model B.JPG",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Raspberry_Pi_3_Model_B.JPG",
+        "artist": "Jose.gil",
+        "credit": "Own work",
+        "original_license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "modification": "Added R03 model-predicted boxes and whole-board mask overlays. Predictions are not ground truth.",
+        "derivative_license": "Same as the original photo license; source attribution retained",
+        "quantitative_accuracy_measured": false
+      },
+      "boards": 1,
+      "board_masks": 1,
+      "parts_by_predicted_class": {
+        "ic": 4,
+        "resistor": 34,
+        "capacitor": 37,
+        "connector": 2
+      }
+    }
+  ]
+}

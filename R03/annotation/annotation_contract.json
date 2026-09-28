@@ -1,0 +1,19 @@
+{
+  "schema": "pcb_component_instance_v1",
+  "status": "PROPOSED_FOR_D455_PILOT_NOT_COMPLETED_LABELS",
+  "new_d455_images": 0,
+  "new_human_reviewed_d455_masks": 0,
+  "class_names": ["resistor", "capacitor", "ic", "connector"],
+  "class_ids": {"resistor": 0, "capacitor": 1, "ic": 2, "connector": 3},
+  "coordinates": "native decoded image pixels; xyxy boxes are half-open",
+  "mask_geometry": "visible instance raster/RLE or multipart polygon; retain holes and disconnected parts",
+  "boundary_profiles": ["visible_package_and_terminals_v1", "tht_resistor_body_v1"],
+  "required_image_fields": ["image_id", "image_sha256", "physical_board_id", "board_design_id", "board_side", "capture_session_id", "split", "native_width", "native_height"],
+  "required_instance_fields": ["instance_id", "physical_component_id", "class_id", "class_evidence", "boundary_profile", "polygon_or_rle", "occluded", "truncated", "class_status", "bbox_status", "mask_status", "annotation_method", "annotator_id", "reviewer_id", "annotation_version"],
+  "camera_fields": ["fx", "fy", "distance_mm", "exposure", "gain", "white_balance", "lighting_id"],
+  "optional_part_attributes": ["refdes", "mount_type", "package", "subtype"],
+  "training_gate": "Source and independent validation/test groups fixed; class identity and mask boundaries reviewed; every target in evaluated view covered; export/import geometry verified",
+  "unknown_policy": "unresolved is not a confirmed non-target; never silently turn unknown targets into empty negative labels",
+  "test_label_policy": "no predictions from the evaluated model used as ground truth",
+  "counting_policy": "Report original image annotations, repeated tile exposures and unique physical component identities separately"
+}

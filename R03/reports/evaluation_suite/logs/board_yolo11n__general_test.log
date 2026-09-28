@@ -1,0 +1,35 @@
+EVALUATED 100/895
+EVALUATED 200/895
+EVALUATED 300/895
+EVALUATED 400/895
+EVALUATED 500/895
+EVALUATED 600/895
+EVALUATED 700/895
+EVALUATED 800/895
+{
+  "split": "test",
+  "task": "detect",
+  "images": 895,
+  "native_gt_instances": 426,
+  "bbox": {
+    "iou_type": "bbox",
+    "ap50_95_max100": 0.7445338405000201,
+    "ap50_max100": 0.9971050640556903,
+    "ap75_max100": 0.9246222378394326,
+    "ap50_95_max300": 0.7445338405000201,
+    "per_class": {
+      "raspberry_pi_sbc": {
+        "ap50_95_max100": 0.7445338405000201,
+        "ap50_max100": 0.9971050640556903,
+        "ap50_95_max300": 0.7445338405000201
+      }
+    },
+    "area_ap50_95_max100": {
+      "all": 0.7445338405000201,
+      "small": null,
+      "medium": null,
+      "large": 0.7445338405000201
+    }
+  },
+  "mask": null
+}

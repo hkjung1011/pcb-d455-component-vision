@@ -1,0 +1,206 @@
+{
+  "images": [
+    {
+      "image": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\assets\\commons_holdout\\images\\commons_88249711.jpg",
+      "output": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\reports\\qualitative_external24\\commons_88249711_4c85535042",
+      "boards": 1,
+      "board_masks": 1,
+      "components": 17,
+      "component_status": "DETECTIONS_PRESENT"
+    },
+    {
+      "image": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\assets\\commons_holdout\\images\\commons_88249714.jpg",
+      "output": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\reports\\qualitative_external24\\commons_88249714_b2ba0e477d",
+      "boards": 1,
+      "board_masks": 1,
+      "components": 8,
+      "component_status": "DETECTIONS_PRESENT"
+    },
+    {
+      "image": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\assets\\commons_holdout\\images\\commons_80430835.jpg",
+      "output": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\reports\\qualitative_external24\\commons_80430835_57ddf7e614",
+      "boards": 1,
+      "board_masks": 1,
+      "components": 0,
+      "component_status": "NO_DETECTIONS_AT_SELECTED_CONFIDENCE"
+    },
+    {
+      "image": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\assets\\commons_holdout\\images\\commons_122664660.png",
+      "output": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\reports\\qualitative_external24\\commons_122664660_e43e459a13",
+      "boards": 1,
+      "board_masks": 1,
+      "components": 0,
+      "component_status": "NO_DETECTIONS_AT_SELECTED_CONFIDENCE"
+    },
+    {
+      "image": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\assets\\commons_holdout\\images\\commons_114604365.jpg",
+      "output": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\reports\\qualitative_external24\\commons_114604365_262c7b3798",
+      "boards": 1,
+      "board_masks": 1,
+      "components": 37,
+      "component_status": "DETECTIONS_PRESENT"
+    },
+    {
+      "image": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\assets\\commons_holdout\\images\\commons_97431420.png",
+      "output": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\reports\\qualitative_external24\\commons_97431420_545631e3f2",
+      "boards": 0,
+      "board_masks": 0,
+      "components": 0,
+      "component_status": "NO_DETECTIONS_AT_SELECTED_CONFIDENCE"
+    },
+    {
+      "image": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\assets\\commons_holdout\\images\\commons_145630798.jpg",
+      "output": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\reports\\qualitative_external24\\commons_145630798_aaeae3825e",
+      "boards": 0,
+      "board_masks": 1,
+      "components": 1,
+      "component_status": "DETECTIONS_PRESENT"
+    },
+    {
+      "image": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\assets\\commons_holdout\\images\\commons_144264832.jpg",
+      "output": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\reports\\qualitative_external24\\commons_144264832_db66710aa1",
+      "boards": 1,
+      "board_masks": 1,
+      "components": 37,
+      "component_status": "DETECTIONS_PRESENT"
+    },
+    {
+      "image": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\assets\\commons_holdout\\images\\commons_144264831.jpg",
+      "output": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\reports\\qualitative_external24\\commons_144264831_851729a741",
+      "boards": 0,
+      "board_masks": 0,
+      "components": 5,
+      "component_status": "DETECTIONS_PRESENT"
+    },
+    {
+      "image": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\assets\\commons_holdout\\images\\commons_145417518.jpg",
+      "output": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\reports\\qualitative_external24\\commons_145417518_6346c26b44",
+      "boards": 1,
+      "board_masks": 1,
+      "components": 22,
+      "component_status": "DETECTIONS_PRESENT"
+    },
+    {
+      "image": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\assets\\commons_holdout\\images\\commons_149565043.jpg",
+      "output": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\reports\\qualitative_external24\\commons_149565043_fc85fe6124",
+      "boards": 1,
+      "board_masks": 1,
+      "components": 0,
+      "component_status": "NO_DETECTIONS_AT_SELECTED_CONFIDENCE"
+    },
+    {
+      "image": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\assets\\commons_holdout\\images\\commons_144264833.jpg",
+      "output": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\reports\\qualitative_external24\\commons_144264833_5244c788fa",
+      "boards": 0,
+      "board_masks": 0,
+      "components": 3,
+      "component_status": "DETECTIONS_PRESENT"
+    },
+    {
+      "image": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\assets\\commons_holdout\\images\\commons_145417507.jpg",
+      "output": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\reports\\qualitative_external24\\commons_145417507_699eee79ba",
+      "boards": 0,
+      "board_masks": 0,
+      "components": 7,
+      "component_status": "DETECTIONS_PRESENT"
+    },
+    {
+      "image": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\assets\\commons_holdout\\images\\commons_178528806.jpg",
+      "output": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\reports\\qualitative_external24\\commons_178528806_ebcadda52e",
+      "boards": 1,
+      "board_masks": 1,
+      "components": 64,
+      "component_status": "DETECTIONS_PRESENT"
+    },
+    {
+      "image": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\assets\\commons_holdout\\images\\commons_67172993.png",
+      "output": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\reports\\qualitative_external24\\commons_67172993_ca7806a131",
+      "boards": 1,
+      "board_masks": 1,
+      "components": 50,
+      "component_status": "DETECTIONS_PRESENT"
+    },
+    {
+      "image": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\assets\\commons_holdout\\images\\commons_153836405.jpg",
+      "output": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\reports\\qualitative_external24\\commons_153836405_54b368c543",
+      "boards": 1,
+      "board_masks": 1,
+      "components": 2,
+      "component_status": "DETECTIONS_PRESENT"
+    },
+    {
+      "image": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\assets\\commons_holdout\\images\\commons_112083087.jpg",
+      "output": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\reports\\qualitative_external24\\commons_112083087_8d2a11ed20",
+      "boards": 0,
+      "board_masks": 0,
+      "components": 3,
+      "component_status": "DETECTIONS_PRESENT"
+    },
+    {
+      "image": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\assets\\commons_holdout\\images\\commons_86471022.jpg",
+      "output": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\reports\\qualitative_external24\\commons_86471022_6d50385f80",
+      "boards": 1,
+      "board_masks": 2,
+      "components": 8,
+      "component_status": "DETECTIONS_PRESENT"
+    },
+    {
+      "image": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\assets\\commons_holdout\\images\\commons_112083120.jpg",
+      "output": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\reports\\qualitative_external24\\commons_112083120_b8da096aa1",
+      "boards": 1,
+      "board_masks": 1,
+      "components": 6,
+      "component_status": "DETECTIONS_PRESENT"
+    },
+    {
+      "image": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\assets\\commons_holdout\\images\\commons_67173800.png",
+      "output": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\reports\\qualitative_external24\\commons_67173800_110887e39e",
+      "boards": 1,
+      "board_masks": 1,
+      "components": 16,
+      "component_status": "DETECTIONS_PRESENT"
+    },
+    {
+      "image": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\assets\\commons_holdout\\images\\commons_75417829.jpg",
+      "output": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\reports\\qualitative_external24\\commons_75417829_c8f5237d11",
+      "boards": 1,
+      "board_masks": 1,
+      "components": 100,
+      "component_status": "DETECTIONS_PRESENT"
+    },
+    {
+      "image": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\assets\\commons_holdout\\images\\commons_67384198.png",
+      "output": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\reports\\qualitative_external24\\commons_67384198_e810089219",
+      "boards": 0,
+      "board_masks": 0,
+      "components": 1,
+      "component_status": "DETECTIONS_PRESENT"
+    },
+    {
+      "image": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\assets\\commons_holdout\\images\\commons_69775241.jpg",
+      "output": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\reports\\qualitative_external24\\commons_69775241_2d6e0c3904",
+      "boards": 0,
+      "board_masks": 1,
+      "components": 59,
+      "component_status": "DETECTIONS_PRESENT"
+    },
+    {
+      "image": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\assets\\commons_holdout\\images\\commons_48775492.jpg",
+      "output": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\reports\\qualitative_external24\\commons_48775492_c43bc19c7c",
+      "boards": 1,
+      "board_masks": 1,
+      "components": 77,
+      "component_status": "DETECTIONS_PRESENT"
+    }
+  ],
+  "selection": {
+    "registry": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\selected_models.json",
+    "registry_sha256": "9cb48b3a6a8569e9a50f15c9100db8fb882371e6efcb12afa5d1289e95ba4bd0",
+    "explicit_overrides": [],
+    "selection_status": "REGISTRY_CONFIGURATION",
+    "cascade_status": "FULL_FRAME_PARTS",
+    "d455_verified": false
+  },
+  "selection_manifest_sha256": "b06719d461f8271c546b6149bcb204f810e3e626366ef3ca2c03fbc4356067c2",
+  "selection_policy": "The same 24 images selected before training/prediction. Extra raw candidates were processed inadvertently and are excluded from this gallery by the pre-existing manifest, never by scores. No accuracy metric calculated."
+}

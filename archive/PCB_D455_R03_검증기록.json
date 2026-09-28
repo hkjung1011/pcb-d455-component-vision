@@ -1,0 +1,12 @@
+{
+  "archive": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\outputs\\PCB_D455_R03.zip",
+  "archive_bytes": 196367442,
+  "archive_sha256": "eaeec97c92058c1bbba4a94dece82087ec84c9a41b25a1a3cf8675107a15e2b1",
+  "files": 384,
+  "zip_crc_verified": true,
+  "native_evaluation_status": "COMPLETED_OFFLINE_NOT_D455_VALIDATED",
+  "not_d455_or_target4_mask_verified": true,
+  "packaged_file_sha_verified": 383,
+  "packaged_registry_and_native_metrics_verified": true,
+  "final_readme_matches_audited_hash": true
+}

@@ -1,0 +1,14 @@
+{
+  "model_id": "board_yolo11n",
+  "status": "TRAINED_OFFLINE_NOT_D455_VALIDATED",
+  "requested_epochs": 5,
+  "last_epoch": 5,
+  "actual_optimizer_steps": 2605.0,
+  "weights_changed": true,
+  "best_path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\runs\\board_yolo11n\\fit\\weights\\best.pt",
+  "best_sha256": "0bc7a0ef6aa5108728a2357e5c4b20189330f58366bf52b4251f3754b14707db",
+  "peak_cuda_allocated_bytes": 1998029312,
+  "test_evaluated": false,
+  "scope": "Raspberry Pi board detection on corrected public source groups; not D455 validated",
+  "camera_verified": false
+}

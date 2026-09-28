@@ -1,0 +1,6 @@
+path: "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\data\\board_segment_v2"
+train: images/train
+val: images/val
+test: images/test
+names:
+  0: raspberry_pi_sbc

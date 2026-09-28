@@ -1,0 +1,121 @@
+{
+  "model_id": "board_yolo11n_seg",
+  "created_utc": "2026-09-27T17:11:36.914158+00:00",
+  "python": "3.11.9 (tags/v3.11.9:de54cf5, Apr  2 2024, 10:12:12) [MSC v.1938 64 bit (AMD64)]",
+  "platform": "Windows-10-10.0.26200-SP0",
+  "torch": "2.12.1+cu130",
+  "cuda": "13.0",
+  "ultralytics": "8.4.120",
+  "gpu": "NVIDIA GeForce RTX 5060 Laptop GPU",
+  "configuration": {
+    "model_id": "board_yolo11n_seg",
+    "task": "segment",
+    "scope": "Raspberry Pi board native outline masks; not component masks; not D455 validated",
+    "weights": "models/yolo11n-seg.pt",
+    "data": "data/board_segment_v2/data.yaml",
+    "manifest": "data/board_segment_v2/manifest.json",
+    "run_dir": "runs/board_yolo11n_seg",
+    "train": {
+      "epochs": 5,
+      "patience": 0,
+      "imgsz": 640,
+      "batch": 4,
+      "amp": false,
+      "nbs": 8,
+      "optimizer": "AdamW",
+      "lr0": 0.001,
+      "lrf": 0.01,
+      "weight_decay": 0.0005,
+      "warmup_epochs": 1.0,
+      "warmup_bias_lr": 0.0,
+      "box": 7.5,
+      "cls": 0.5,
+      "dfl": 1.5,
+      "max_det": 300,
+      "seed": 42,
+      "deterministic": true,
+      "mosaic": 0.0,
+      "mixup": 0.0,
+      "copy_paste": 0.0,
+      "scale": 0.2,
+      "translate": 0.05,
+      "degrees": 15.0,
+      "fliplr": 0.0,
+      "flipud": 0.0,
+      "hsv_h": 0.005,
+      "hsv_s": 0.15,
+      "hsv_v": 0.2,
+      "mask_ratio": 1,
+      "overlap_mask": true,
+      "data": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\data\\board_segment_v2\\data.yaml",
+      "project": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\runs\\board_yolo11n_seg",
+      "name": "fit",
+      "exist_ok": false,
+      "device": 0,
+      "workers": 0,
+      "cache": false,
+      "plots": true,
+      "save": true,
+      "save_period": -1
+    }
+  },
+  "manifest_sha256": "bdf4fbe18056c81f47f50754048e6610fcb19a2e7c37ba1be4f0d443d672c59f",
+  "initial_weights_sha256": "55ed65c56c91713d23e8402371c6c49a6fd84f257f7dce452e8d70e41dcbe152",
+  "scope": "Raspberry Pi board native outline masks; not component masks; not D455 validated",
+  "class_loss_weights": "Uniform 1.0 for each class; no custom per-class multiplier",
+  "source_weighting": "uniform image sampling; source loss factor1.0, no oversampling",
+  "label_counts": {
+    "train": {
+      "images": 2148,
+      "groups": 932,
+      "positive_images": 860,
+      "negative_images": 1288,
+      "instances": 865,
+      "native_polygon_instances": 865,
+      "by_source": {
+        "iotkits_v1": {
+          "images": 2148,
+          "positive_images": 860,
+          "negative_images": 1288,
+          "instances": 865,
+          "native_polygon_instances": 865
+        }
+      }
+    },
+    "val": {
+      "images": 456,
+      "groups": 200,
+      "positive_images": 173,
+      "negative_images": 283,
+      "instances": 174,
+      "native_polygon_instances": 174,
+      "by_source": {
+        "iotkits_v1": {
+          "images": 456,
+          "positive_images": 173,
+          "negative_images": 283,
+          "instances": 174,
+          "native_polygon_instances": 174
+        }
+      }
+    },
+    "test": {
+      "images": 490,
+      "groups": 197,
+      "positive_images": 166,
+      "negative_images": 324,
+      "instances": 166,
+      "native_polygon_instances": 166,
+      "by_source": {
+        "iotkits_v1": {
+          "images": 490,
+          "positive_images": 166,
+          "negative_images": 324,
+          "instances": 166,
+          "native_polygon_instances": 166
+        }
+      }
+    }
+  },
+  "test_used_for_training_or_selection": false
+}

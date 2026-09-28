@@ -1,0 +1,225 @@
+{
+  "schema_version": 1,
+  "source": "WACV 2019 PCB component detection",
+  "source_url": "https://sites.google.com/view/chiawen-kuo/home/pcb-component-detection",
+  "license_status": "No explicit license in source page/archive; author provides unrestricted public download and requests citation. Local research copy; redistribution rights not verified.",
+  "annotation_kind": "human-source axis-aligned bounding boxes, NOT masks",
+  "class_names": [
+    "resistor",
+    "capacitor",
+    "ic",
+    "connector"
+  ],
+  "source_type_to_class_id": {
+    "resistor": 0,
+    "capacitor": 1,
+    "electrolytic capacitor": 1,
+    "ic": 2,
+    "connector": 3
+  },
+  "coordinate_convention": "zero-based half-open xyxy; VOC xmin/ymin minus one, xmax/ymax retained; raw source coordinates preserved",
+  "group_policy": "board name with final _Top/_Bottom and index removed; inferred board identity, not verified serial number; crop/face variants stay together",
+  "split_seed": 42,
+  "split_groups": {
+    "val": [
+      "UTL-016",
+      "SystemAce",
+      "MicroZed",
+      "Virtex6",
+      "Zybo"
+    ],
+    "test": [
+      "EDA-008",
+      "DuetWIFI",
+      "OlimexRed",
+      "Spartan6",
+      "ML450"
+    ],
+    "train": [
+      "ZTurn",
+      "STK644",
+      "UTL-103",
+      "Spartan6Redux",
+      "Zedboard",
+      "ATTIOT",
+      "Spartan3",
+      "ArduinoMega",
+      "ThingMagicM6e",
+      "Ztex",
+      "DigitalDiscovery",
+      "XCM-307A",
+      "HackRF",
+      "ML365",
+      "XLVDSproSupply",
+      "ACM-109",
+      "Arty",
+      "Virtex5"
+    ],
+    "pi_test": [
+      "RPI3B"
+    ]
+  },
+  "native_split_counts": {
+    "val": {
+      "board_groups": 5,
+      "images": 7,
+      "unique_instances": {
+        "resistor": 221,
+        "capacitor": 468,
+        "connector": 122,
+        "ic": 64
+      }
+    },
+    "test": {
+      "board_groups": 5,
+      "images": 11,
+      "unique_instances": {
+        "connector": 176,
+        "resistor": 443,
+        "capacitor": 636,
+        "ic": 93
+      }
+    },
+    "train": {
+      "board_groups": 18,
+      "images": 27,
+      "unique_instances": {
+        "connector": 311,
+        "resistor": 1390,
+        "capacitor": 1570,
+        "ic": 213
+      }
+    },
+    "pi_test": {
+      "board_groups": 1,
+      "images": 2,
+      "unique_instances": {
+        "capacitor": 104,
+        "ic": 16,
+        "resistor": 57,
+        "connector": 12
+      }
+    }
+  },
+  "source_object_counts": {
+    "connector": 621,
+    "resistor": 2111,
+    "pads": 332,
+    "emi filter": 51,
+    "capacitor": 2532,
+    "resistor network": 74,
+    "text": 9190,
+    "pins": 317,
+    "component text": 995,
+    "test point": 292,
+    "led": 214,
+    "clock": 37,
+    "ic": 386,
+    "switch": 58,
+    "electrolytic capacitor": 246,
+    "button": 85,
+    "diode": 69,
+    "fuse": 7,
+    "transistor": 84,
+    "ferrite bead": 30,
+    "jumper": 85,
+    "inductor": 69,
+    "unknown": 281,
+    "zener diode": 5,
+    "diode zener array": 3,
+    "resistor jumper": 6,
+    "potentiometer": 7,
+    "display": 5,
+    "transformer": 1,
+    "capacitor jumper": 2,
+    "battery": 1,
+    "heatsink": 4,
+    "buzzer": 1
+  },
+  "excluded_source_type_counts": {
+    "pads": 332,
+    "emi filter": 51,
+    "resistor network": 74,
+    "text": 9190,
+    "pins": 317,
+    "component text": 995,
+    "test point": 292,
+    "led": 214,
+    "clock": 37,
+    "switch": 58,
+    "button": 85,
+    "diode": 69,
+    "fuse": 7,
+    "transistor": 84,
+    "ferrite bead": 30,
+    "jumper": 85,
+    "inductor": 69,
+    "unknown": 281,
+    "zener diode": 5,
+    "diode zener array": 3,
+    "resistor jumper": 6,
+    "potentiometer": 7,
+    "display": 5,
+    "transformer": 1,
+    "capacitor jumper": 2,
+    "battery": 1,
+    "heatsink": 4,
+    "buzzer": 1
+  },
+  "source_zero_minimum_coordinate_objects": 0,
+  "negative_scope": "Other source classes are background for this target4 task. Unknown items remain unknown; no guessed R/C labels. Annotation completeness/unknown ambiguity requires expert review.",
+  "weighting": {
+    "class_loss_weights": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "applied_special_class_weights": false,
+    "sampler": "uniform generated tile sampling; original board/object exposure is not uniform",
+    "oversampling": false
+  },
+  "train_tiling": {
+    "tile_size": 1024,
+    "overlap": 0.2,
+    "stride": 819,
+    "edge_alignment": true,
+    "native_pixels": true,
+    "resize_before_crop": false,
+    "positive_clip_min_width_height_px": 1,
+    "drop_tiny_positives": false,
+    "all_background_tiles_retained": true,
+    "tile_count": 425,
+    "negative_tiles": 72,
+    "class_exposure_counts": {
+      "connector": 797,
+      "resistor": 2515,
+      "capacitor": 2898,
+      "ic": 523
+    },
+    "clipped_exposures": 1434
+  },
+  "image_sha256_duplicates": 0,
+  "invalid_source_boxes": 0,
+  "source_image_xml_dimension_mismatches": 0,
+  "board_tile_counts": {
+    "ACM-109": 2,
+    "ArduinoMega": 40,
+    "Arty": 47,
+    "ATTIOT": 21,
+    "DigitalDiscovery": 4,
+    "HackRF": 15,
+    "ML365": 40,
+    "Spartan3": 40,
+    "Spartan6Redux": 2,
+    "STK644": 35,
+    "ThingMagicM6e": 15,
+    "UTL-103": 1,
+    "Virtex5": 16,
+    "XCM-307A": 10,
+    "XLVDSproSupply": 60,
+    "Zedboard": 40,
+    "Ztex": 2,
+    "ZTurn": 35
+  }
+}

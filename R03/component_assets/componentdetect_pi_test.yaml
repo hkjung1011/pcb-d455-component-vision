@@ -1,0 +1,10 @@
+# WACV target4 HUMAN BBOX; no instance masks. Pi3B entirely held out.
+path: C:/Users/hkjun/Documents/Codex/2026-09-27/new-chat/work/r03/component_assets/component_dataset
+train: images/train
+val: images/val
+test: images/pi_test
+names:
+  0: resistor
+  1: capacitor
+  2: ic
+  3: connector

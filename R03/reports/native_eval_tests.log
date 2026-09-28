@@ -1,0 +1,17 @@
+test_dense_150_instances_distinguish_max100_and_max300 (test_native_evaluate.CocoEvaluationTests.test_dense_150_instances_distinguish_max100_and_max300) ... ok
+test_empty_predictions_are_zero_for_present_class (test_native_evaluate.CocoEvaluationTests.test_empty_predictions_are_zero_for_present_class) ... ok
+test_empty_truth_has_undefined_ap_and_json_safe_values (test_native_evaluate.CocoEvaluationTests.test_empty_truth_has_undefined_ap_and_json_safe_values) ... ok
+test_native_mask_shape_dtype_and_binary_value_checks (test_native_evaluate.CocoEvaluationTests.test_native_mask_shape_dtype_and_binary_value_checks) ... C:\Users\hkjun\Documents\mcu-vision\.venv-yolo11\Lib\site-packages\pycocotools\mask.py:91: DeprecationWarning: __array__ implementation doesn't accept a copy keyword, so passing copy=False failed. __array__ must implement 'dtype' and 'copy' keyword arguments. To learn more, see the migration guide https://numpy.org/devdocs/numpy_2_0_migration_guide.html#adapting-to-changes-in-the-copy-keyword
+  return _mask.decode([rleObjs])[:,:,0]
+ok
+test_perfect_native_box_and_mask_are_one (test_native_evaluate.CocoEvaluationTests.test_perfect_native_box_and_mask_are_one) ... ok
+test_unsorted_category_ids_and_missing_class_are_not_mislabelled (test_native_evaluate.CocoEvaluationTests.test_unsorted_category_ids_and_missing_class_are_not_mislabelled) ... ok
+test_class_aware_one_to_one_matching_and_confidence (test_native_evaluate.OperatingPointTests.test_class_aware_one_to_one_matching_and_confidence) ... ok
+test_half_open_box_iou (test_native_evaluate.OperatingPointTests.test_half_open_box_iou) ... ok
+test_native_short_side_bin_boundaries (test_native_evaluate.OperatingPointTests.test_native_short_side_bin_boundaries) ... ok
+test_negative_image_fp_rate_is_image_level (test_native_evaluate.OperatingPointTests.test_negative_image_fp_rate_is_image_level) ... ok
+
+----------------------------------------------------------------------
+Ran 10 tests in 0.485s
+
+OK

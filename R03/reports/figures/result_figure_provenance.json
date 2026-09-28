@@ -1,0 +1,488 @@
+{
+  "schema": "r03-result-figures-v1",
+  "created_utc": "2026-09-27T17:35:11.571953+00:00",
+  "generator": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\scripts\\make_r03_result_figures.py",
+  "generator_sha256": "29538da9b3406a42df93e78f4b3f53f76d5de2d59fe723a9cbca01a5569eb026",
+  "inputs": [
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\reports\\evaluation_suite\\selection.json",
+      "sha256": "65bd40ec349a211ff1af222dae0ab7389fed7c9fc92d9fca10e4c83928917785",
+      "role": "Frozen validation selection/protocol"
+    },
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\reports\\evaluation_suite\\protocol.json",
+      "sha256": "b2429bb1357f808434afbfd9d4fed320c3525fa629f2af1937eac76831777b3d",
+      "role": "Frozen validation selection/protocol"
+    },
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\reports\\evaluation_suite\\aggregate.json",
+      "sha256": "e3a38f1200ba957d648631bcc1baeaf31fded5cd2ffef4f3e33d01ae9f98b603",
+      "role": "Evaluation suite aggregate"
+    },
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\reports\\evaluation_suite\\evaluations\\parts_yolo11n__val__best_whole\\metrics.json",
+      "sha256": "96905b800994f77b169ffe78833f8dcaaff23394c84fd13cfea9c73f2f5c3d59",
+      "role": "validation native metric evidence"
+    },
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\reports\\evaluation_suite\\evaluations\\parts_yolo11n__val__best_tile1024\\metrics.json",
+      "sha256": "5baa3e70a9ad12879f57d3c324643959e50aa5158beced480b56024fb31013d5",
+      "role": "validation native metric evidence"
+    },
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\reports\\evaluation_suite\\evaluations\\parts_yolo11n__val__last_whole\\metrics.json",
+      "sha256": "739f81e73cded238ca1ad4716126b6720b812cb59e5d9b914182f5dd019d0df8",
+      "role": "validation native metric evidence"
+    },
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\reports\\evaluation_suite\\evaluations\\parts_yolo11n__val__last_tile1024\\metrics.json",
+      "sha256": "aad1de6676cd4fb2e5743c5b48f365b37137a77d262b8d5940513be864b42743",
+      "role": "validation native metric evidence"
+    },
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\reports\\evaluation_suite\\evaluations\\parts_yolo11n__general_test\\metrics.json",
+      "sha256": "7d7f35714461860b221049da13332691f70d859e6b5245cd2d542cd420b4f86b",
+      "role": "test native metric evidence"
+    },
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\reports\\evaluation_suite\\evaluations\\parts_yolo11n__pi_test\\metrics.json",
+      "sha256": "431fa64edf317a159ccde01b63c51b33e8e4026b7856c2f75970a600416f67ce",
+      "role": "test native metric evidence"
+    },
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\reports\\evaluation_suite\\evaluations\\parts_yolo11n__pi_test_half_resolution\\metrics.json",
+      "sha256": "22455b1b460fbfa2fbe0b0470d28a08941bf84e05a648e4e8150a44fae49315f",
+      "role": "test native metric evidence"
+    },
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\reports\\evaluation_suite\\evaluations\\parts_yolo11n__pi_test_gaussian_sigma1\\metrics.json",
+      "sha256": "9d54d65c4d9ab1bb6ff6364bd2d7110ffb17bbfed89fc3da0f7589e1e8016047",
+      "role": "test native metric evidence"
+    },
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\reports\\evaluation_suite\\evaluations\\parts_yolo11s__val__best_whole\\metrics.json",
+      "sha256": "e4446297c3ed80c8efe9d51fc1c03f6d121381b492b1ed8f1c0907281a6e8dc2",
+      "role": "validation native metric evidence"
+    },
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\reports\\evaluation_suite\\evaluations\\parts_yolo11s__val__best_tile1024\\metrics.json",
+      "sha256": "6d6161bad167a60a09449a6cec863a4e852c7fba5d909e5a053d37400acd9587",
+      "role": "validation native metric evidence"
+    },
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\reports\\evaluation_suite\\evaluations\\parts_yolo11s__val__last_whole\\metrics.json",
+      "sha256": "7bb2c084e53cf4847dd6c04ad4b2b8d7007e5567371b3f932529e32f681a8256",
+      "role": "validation native metric evidence"
+    },
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\reports\\evaluation_suite\\evaluations\\parts_yolo11s__val__last_tile1024\\metrics.json",
+      "sha256": "0f95b639476f8e3c02d56b3615867434afb3abead77a10157ce4e7bf4481db0a",
+      "role": "validation native metric evidence"
+    },
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\reports\\evaluation_suite\\evaluations\\parts_yolo11s__general_test\\metrics.json",
+      "sha256": "104867926e868e382537618eba2c6fa353f3ce6f25e74d3e3ae876f2927b3ddb",
+      "role": "test native metric evidence"
+    },
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\reports\\evaluation_suite\\evaluations\\parts_yolo11s__pi_test\\metrics.json",
+      "sha256": "d923052b47c16467064476cb71034654fd5b319c4733cd8de5138ee70c26668b",
+      "role": "test native metric evidence"
+    },
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\reports\\evaluation_suite\\evaluations\\parts_yolo11s__pi_test_half_resolution\\metrics.json",
+      "sha256": "8a341e6197686cbaede2c5903a786cea12a4b2bac80b678aa08debe11cffa5c3",
+      "role": "test native metric evidence"
+    },
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\reports\\evaluation_suite\\evaluations\\parts_yolo11s__pi_test_gaussian_sigma1\\metrics.json",
+      "sha256": "a7f6f9ac8fbf7550d3a5210f361f64120278da9aa88735dd7f2da2d54b0df2fa",
+      "role": "test native metric evidence"
+    },
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\reports\\evaluation_suite\\evaluations\\board_yolo11n__val__best_whole\\metrics.json",
+      "sha256": "6820357d5dd6febf32a437d7c01d50e3274836cd208bd43a24303485b8fcc400",
+      "role": "validation native metric evidence"
+    },
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\reports\\evaluation_suite\\evaluations\\board_yolo11n__general_test\\metrics.json",
+      "sha256": "e54798f868f27d27be5cee782ecbf9255b1d26f140126f70c5ed38689a90e4ae",
+      "role": "test native metric evidence"
+    },
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\reports\\evaluation_suite\\evaluations\\board_yolo11n_seg__val__best_whole\\metrics.json",
+      "sha256": "7687b2bbff823e9abc38ecb739e7e06279c8ddc0a9731758a008c5dd25e6b9a4",
+      "role": "validation native metric evidence"
+    },
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\reports\\evaluation_suite\\evaluations\\board_yolo11n_seg__general_test\\metrics.json",
+      "sha256": "097cf6dd99ef850e54ce1553796ccd17259619ce527301eeb7e990481c5be824",
+      "role": "test native metric evidence"
+    },
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\runs\\parts_yolo11n\\fit\\results.csv",
+      "sha256": "3836f3003b5396309826f70799cbff7747b21f4237b324bb44a470e8ea90ba98",
+      "role": "training monitor CSV, not native test AP"
+    },
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\runs\\parts_yolo11n\\epoch_updates.json",
+      "sha256": "44f63fda6e1e5cfef64f4a750dd57e2888c0784bc9dc473a32448f6d36ef5802",
+      "role": "Actual cumulative optimizer step counters"
+    },
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\runs\\parts_yolo11n\\run_summary.json",
+      "sha256": "c4bbf128f15a269004e4e312a45d9ac19492f87bfd16a48ea5496cf0e4ba8d89",
+      "role": "Training completion status"
+    },
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\runs\\parts_yolo11s\\fit\\results.csv",
+      "sha256": "477c19c2ca792439694230e09c56cbb52bb4bd771c5e13623cf2f8ec8cafc552",
+      "role": "training monitor CSV, not native test AP"
+    },
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\runs\\parts_yolo11s\\epoch_updates.json",
+      "sha256": "785d68d8b0ea3218ae9baa83560109578f344efb443664f7e3e1a502ab3a7ff9",
+      "role": "Actual cumulative optimizer step counters"
+    },
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\runs\\parts_yolo11s\\run_summary.json",
+      "sha256": "e9d38d484741a592bf94ad2dcea88b7f6601df6f73255f038a860ad08073893b",
+      "role": "Training completion status"
+    },
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\runs\\board_yolo11n\\fit\\results.csv",
+      "sha256": "2cf2c105944988826796d4c5750e4793e2af8ef6fb8df1a3b35c89fa037a9deb",
+      "role": "training monitor CSV, not native test AP"
+    },
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\runs\\board_yolo11n\\epoch_updates.json",
+      "sha256": "f3da4a19156953f7d19212d6a1407809955f7224f4b9a5622cb4503f6d20ce88",
+      "role": "Actual cumulative optimizer step counters"
+    },
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\runs\\board_yolo11n\\run_summary.json",
+      "sha256": "204ca342e95ab9a2fb4c614560d5aae03f66a1544b4784d3e2bf697061290ffb",
+      "role": "Training completion status"
+    },
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\runs\\board_yolo11n_seg\\fit\\results.csv",
+      "sha256": "a162caa87ae7b2b5d675c0119cad7a29cb4409523895a12195a726d9532ff15c",
+      "role": "training monitor CSV, not native test AP"
+    },
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\runs\\board_yolo11n_seg\\epoch_updates.json",
+      "sha256": "5037a7e7f5bd0152568145b6e25e8421da0499c9b10353dd366032694c373375",
+      "role": "Actual cumulative optimizer step counters"
+    },
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\runs\\board_yolo11n_seg\\run_summary.json",
+      "sha256": "755129ac0ce00df9ec56eb9596c1a62ae4f29fe36d695b6dd7532e5c2039fb27",
+      "role": "Training completion status"
+    }
+  ],
+  "figures": [
+    {
+      "name": "05_learning_parts_yolo11n",
+      "files": [
+        {
+          "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\reports\\figures\\05_learning_parts_yolo11n.png",
+          "sha256": "a02310a986a17ae1a34f9cfa3f748c50b8f83ed6d51dfd373b4de3a84f01b6e9"
+        },
+        {
+          "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\reports\\figures\\05_learning_parts_yolo11n.svg",
+          "sha256": "fbb0eea3050dab6d33f5a4af6341b76fd5209906b3da9f21481ea8c9666dc38d"
+        }
+      ],
+      "citation_handles": [
+        "WACV2019",
+        "UltralyticsYOLO11"
+      ],
+      "input_paths": [
+        "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\runs\\parts_yolo11n\\fit\\results.csv",
+        "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\runs\\parts_yolo11n\\epoch_updates.json"
+      ]
+    },
+    {
+      "name": "05_learning_parts_yolo11s",
+      "files": [
+        {
+          "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\reports\\figures\\05_learning_parts_yolo11s.png",
+          "sha256": "25c1911f9ce2f68b2228939d3245e95ca8425100461626c6048a063d56123df2"
+        },
+        {
+          "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\reports\\figures\\05_learning_parts_yolo11s.svg",
+          "sha256": "21179f570fb3eca2b9255a7bbc314226ca937647d1c8577ac57d70c18c451de7"
+        }
+      ],
+      "citation_handles": [
+        "WACV2019",
+        "UltralyticsYOLO11"
+      ],
+      "input_paths": [
+        "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\runs\\parts_yolo11s\\fit\\results.csv",
+        "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\runs\\parts_yolo11s\\epoch_updates.json"
+      ]
+    },
+    {
+      "name": "05_learning_board_yolo11n",
+      "files": [
+        {
+          "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\reports\\figures\\05_learning_board_yolo11n.png",
+          "sha256": "f4a7ca99063bf73ab095cbda0d8e7eb72e06263d6c1a39fafd258f455458b185"
+        },
+        {
+          "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\reports\\figures\\05_learning_board_yolo11n.svg",
+          "sha256": "b25a9271cf8654421f87f1cbb68f3257da71d904ad9676660d4de4c47c378538"
+        }
+      ],
+      "citation_handles": [
+        "MicroPCB",
+        "IoTKITs2025",
+        "UltralyticsYOLO11"
+      ],
+      "input_paths": [
+        "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\runs\\board_yolo11n\\fit\\results.csv",
+        "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\runs\\board_yolo11n\\epoch_updates.json"
+      ]
+    },
+    {
+      "name": "05_learning_board_yolo11n_seg",
+      "files": [
+        {
+          "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\reports\\figures\\05_learning_board_yolo11n_seg.png",
+          "sha256": "75dc651f9be3996d3b5771763f1379341133da095a0b3e260f0fa17871f389cf"
+        },
+        {
+          "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\reports\\figures\\05_learning_board_yolo11n_seg.svg",
+          "sha256": "87327458e8abcc6d8dad289f34d738ae9fc4798995668df6f82995970551f31f"
+        }
+      ],
+      "citation_handles": [
+        "IoTKITs2025",
+        "UltralyticsYOLO11"
+      ],
+      "input_paths": [
+        "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\runs\\board_yolo11n_seg\\fit\\results.csv",
+        "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\runs\\board_yolo11n_seg\\epoch_updates.json"
+      ]
+    },
+    {
+      "name": "06_parts_val_selection",
+      "files": [
+        {
+          "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\reports\\figures\\06_parts_val_selection.png",
+          "sha256": "fb3cde11472a6ca8df6e5eea9fbe45d464629f0280de283b0b58c04527001dec"
+        },
+        {
+          "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\reports\\figures\\06_parts_val_selection.svg",
+          "sha256": "3007d26e6370f88b7576550cd12c6eba4e43ccb7f390f5dd240f4647bba5d72c"
+        }
+      ],
+      "citation_handles": [
+        "WACV2019",
+        "UltralyticsYOLO11",
+        "COCOeval"
+      ],
+      "input_paths": [
+        "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\reports\\evaluation_suite\\evaluations\\parts_yolo11n__val__best_whole\\metrics.json",
+        "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\reports\\evaluation_suite\\evaluations\\parts_yolo11n__val__best_tile1024\\metrics.json",
+        "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\reports\\evaluation_suite\\evaluations\\parts_yolo11n__val__last_whole\\metrics.json",
+        "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\reports\\evaluation_suite\\evaluations\\parts_yolo11n__val__last_tile1024\\metrics.json",
+        "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\reports\\evaluation_suite\\evaluations\\parts_yolo11s__val__best_whole\\metrics.json",
+        "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\reports\\evaluation_suite\\evaluations\\parts_yolo11s__val__best_tile1024\\metrics.json",
+        "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\reports\\evaluation_suite\\evaluations\\parts_yolo11s__val__last_whole\\metrics.json",
+        "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\reports\\evaluation_suite\\evaluations\\parts_yolo11s__val__last_tile1024\\metrics.json"
+      ]
+    },
+    {
+      "name": "07_board_native_test",
+      "files": [
+        {
+          "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\reports\\figures\\07_board_native_test.png",
+          "sha256": "a0f537b63accaffff329aa4eb2dc48d23243cdd48be2135864a59342175edb00"
+        },
+        {
+          "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\reports\\figures\\07_board_native_test.svg",
+          "sha256": "b0dc909651dc147f2477075b5eb666c63442330232912c5542067f92360e2301"
+        }
+      ],
+      "citation_handles": [
+        "MicroPCB",
+        "IoTKITs2025",
+        "UltralyticsYOLO11"
+      ],
+      "input_paths": [
+        "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\reports\\evaluation_suite\\evaluations\\board_yolo11n__general_test\\metrics.json",
+        "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\reports\\evaluation_suite\\evaluations\\board_yolo11n_seg__general_test\\metrics.json"
+      ]
+    },
+    {
+      "name": "08_parts_general_test",
+      "files": [
+        {
+          "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\reports\\figures\\08_parts_general_test.png",
+          "sha256": "a534aea077f1be667914cdca758531d59a5d80a1983238aaf6cc80d2fd0bc648"
+        },
+        {
+          "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\reports\\figures\\08_parts_general_test.svg",
+          "sha256": "7a34a90153eb83ef0b158a1e75590dd541f2b6a6d704cc26aa1ef913fc4057e5"
+        }
+      ],
+      "citation_handles": [
+        "WACV2019",
+        "UltralyticsYOLO11",
+        "COCOeval"
+      ],
+      "input_paths": [
+        "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\reports\\evaluation_suite\\evaluations\\parts_yolo11n__general_test\\metrics.json",
+        "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\reports\\evaluation_suite\\evaluations\\parts_yolo11s__general_test\\metrics.json"
+      ]
+    },
+    {
+      "name": "09_parts_pi_test",
+      "files": [
+        {
+          "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\reports\\figures\\09_parts_pi_test.png",
+          "sha256": "f8262e0dab8e21880a56c96a5b84947f26208cbd8ef9f52b6763f5bc3558b364"
+        },
+        {
+          "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\reports\\figures\\09_parts_pi_test.svg",
+          "sha256": "f58e374f1d101335039853175e3772c78a8d8ae3a184d3c30ed588c5367936be"
+        }
+      ],
+      "citation_handles": [
+        "WACV2019",
+        "UltralyticsYOLO11",
+        "COCOeval"
+      ],
+      "input_paths": [
+        "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\reports\\evaluation_suite\\evaluations\\parts_yolo11n__pi_test\\metrics.json",
+        "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\reports\\evaluation_suite\\evaluations\\parts_yolo11s__pi_test\\metrics.json"
+      ]
+    },
+    {
+      "name": "10_pi_class_and_size",
+      "files": [
+        {
+          "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\reports\\figures\\10_pi_class_and_size.png",
+          "sha256": "29144ff59799fb8d991df92bf2d1d3c9cc27b7e3a01a3a438def6cb18e4ad3ba"
+        },
+        {
+          "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\reports\\figures\\10_pi_class_and_size.svg",
+          "sha256": "ffa9410469c169be26062e8dfa714ff573327cba76ecdf8728f219dafdb19da5"
+        }
+      ],
+      "citation_handles": [
+        "WACV2019",
+        "UltralyticsYOLO11",
+        "COCOeval"
+      ],
+      "input_paths": [
+        "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\reports\\evaluation_suite\\evaluations\\parts_yolo11n__pi_test\\metrics.json",
+        "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\reports\\evaluation_suite\\evaluations\\parts_yolo11s__pi_test\\metrics.json"
+      ]
+    },
+    {
+      "name": "11_pi_simulated_degradation",
+      "files": [
+        {
+          "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\reports\\figures\\11_pi_simulated_degradation.png",
+          "sha256": "56f85ad219c720387129ef9879b4e2b7fe7362fdbfe058e03a9f2fcc98b872e1"
+        },
+        {
+          "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\reports\\figures\\11_pi_simulated_degradation.svg",
+          "sha256": "ff4efedcccd8e7eee653ead4f30235dfffb3f6d2ecf9218d1e275b4ec3d6d157"
+        }
+      ],
+      "citation_handles": [
+        "WACV2019",
+        "UltralyticsYOLO11"
+      ],
+      "input_paths": [
+        "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\reports\\evaluation_suite\\evaluations\\parts_yolo11n__pi_test\\metrics.json",
+        "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\reports\\evaluation_suite\\evaluations\\parts_yolo11n__pi_test_half_resolution\\metrics.json",
+        "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\reports\\evaluation_suite\\evaluations\\parts_yolo11n__pi_test_gaussian_sigma1\\metrics.json",
+        "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\reports\\evaluation_suite\\evaluations\\parts_yolo11s__pi_test\\metrics.json",
+        "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\reports\\evaluation_suite\\evaluations\\parts_yolo11s__pi_test_half_resolution\\metrics.json",
+        "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\reports\\evaluation_suite\\evaluations\\parts_yolo11s__pi_test_gaussian_sigma1\\metrics.json"
+      ]
+    }
+  ],
+  "pending": [],
+  "citations": {
+    "WACV2019": {
+      "title": "Kuo et al., PCB component detection, WACV 2019 (author page)",
+      "url": "https://sites.google.com/view/chiawen-kuo/home/pcb-component-detection",
+      "license": "Explicit reuse/redistribution license not confirmed; local research copy",
+      "annotation": "Source component bbox; no component instance masks"
+    },
+    "IoTKITs2025": {
+      "title": "IoTKITs v1, Mendeley Data, DOI 10.17632/x5thzmkxhy.1",
+      "url": "https://data.mendeley.com/datasets/x5thzmkxhy/1",
+      "license": "CC BY 4.0 (dataset level)",
+      "annotation": "Source board polygons; per-image upstream internet provenance may be unknown"
+    },
+    "MicroPCB": {
+      "title": "frettapper / micropcb-images",
+      "url": "https://www.kaggle.com/datasets/frettapper/micropcb-images",
+      "license": "CC BY 4.0",
+      "annotation": "Corrected binary board mapping G/H/M; old A/H/I baseline excluded"
+    },
+    "UltralyticsYOLO11": {
+      "title": "Ultralytics YOLO11 official model documentation",
+      "url": "https://docs.ultralytics.com/models/yolo11/",
+      "code_url": "https://github.com/ultralytics/ultralytics",
+      "license": "AGPL-3.0",
+      "license_url": "https://github.com/ultralytics/ultralytics/blob/main/LICENSE"
+    },
+    "COCOeval": {
+      "title": "COCO API / official evaluation implementation",
+      "url": "https://github.com/cocodataset/cocoapi/blob/master/PythonAPI/pycocotools/cocoeval.py",
+      "annotation": "AP uses native source-image GT and maxDets 100/300; no Commons drafts"
+    }
+  },
+  "rules": [
+    "No estimated/filled metric values",
+    "No inference or model selection in this script",
+    "Missing metrics skipped; undefined class/size-bin metrics are N/A, not zero",
+    "Board and component AP are not combined into one ranking",
+    "Training monitor AP is distinct from native-source evaluation AP",
+    "Commons assistant draft annotations are excluded from quantitative evaluation",
+    "Pi holdout is one fine-tuning-excluded source board group, not a multi-model Pi benchmark",
+    "D455 physical camera performance remains unverified"
+  ],
+  "presentation_notes": [
+    {
+      "model_id": "parts_yolo11n",
+      "item": "Optimizer callbacks outside CSV training epochs are excluded from the epoch curve",
+      "excluded_callback_epochs": [
+        21
+      ],
+      "reason": "A final evaluation callback is not another training epoch; source JSON preserved"
+    },
+    {
+      "model_id": "parts_yolo11s",
+      "item": "Optimizer callbacks outside CSV training epochs are excluded from the epoch curve",
+      "excluded_callback_epochs": [
+        21
+      ],
+      "reason": "A final evaluation callback is not another training epoch; source JSON preserved"
+    },
+    {
+      "model_id": "board_yolo11n",
+      "item": "Optimizer callbacks outside CSV training epochs are excluded from the epoch curve",
+      "excluded_callback_epochs": [
+        6
+      ],
+      "reason": "A final evaluation callback is not another training epoch; source JSON preserved"
+    },
+    {
+      "model_id": "board_yolo11n_seg",
+      "item": "Optimizer callbacks outside CSV training epochs are excluded from the epoch curve",
+      "excluded_callback_epochs": [
+        6
+      ],
+      "reason": "A final evaluation callback is not another training epoch; source JSON preserved"
+    }
+  ]
+}

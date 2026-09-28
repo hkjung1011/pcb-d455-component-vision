@@ -1,0 +1,470 @@
+{
+  "scope": "WACV source-provided target4 bounding boxes; RPI3B held out entirely; unknown labels not reclassified; not D455",
+  "split": "test",
+  "cohort": "test",
+  "task": "detect",
+  "class_names": [
+    "resistor",
+    "capacitor",
+    "ic",
+    "connector"
+  ],
+  "annotation_limitations": {
+    "ground_truth": "WACV source-provided human target4 bounding boxes, not masks or full BOM truth",
+    "pi3b_unknown_source_objects": 67,
+    "unknown_policy": "Unknowns remain unknown; never inferred as resistor/capacitor/IC/connector",
+    "holdout_scope": "All RPI3B faces excluded from this fine-tuning train/validation only",
+    "pretrained_source_contamination": "UNKNOWN: cannot establish that public images were absent from every pretraining source",
+    "physical_specimen_independence": "NOT_VERIFIED; source filename board groups",
+    "d455_verified": false,
+    "redistribution_license": "No explicit license confirmed; local research assets only"
+  },
+  "operating_metric_scope": "Confidence selected by box-IoU>=0.5 micro-F1 on validation only; mask AP is reported separately. Size bins use native GT bbox short side.",
+  "checkpoint_sha256": "6e4983a8a8fc0bc749cfe113c125124ce329473d798a26ca1983292d3c4e7663",
+  "manifest_sha256": "4e34fd9dfe7c92952f1f7da4db700a797af249b10c19ad922171812ae954a9ca",
+  "images": 11,
+  "groups": 5,
+  "native_gt_instances": 1348,
+  "imgsz": 1024,
+  "tile_size": 1024,
+  "tile_overlap": 0.2,
+  "tile_nms_iou": 0.5,
+  "retina_masks": false,
+  "raw_confidence_floor": 0.001,
+  "prediction_nms_iou": 0.6,
+  "bbox": {
+    "iou_type": "bbox",
+    "ap50_95_max100": 0.19589078702606938,
+    "ap50_max100": 0.3793095612013992,
+    "ap75_max100": 0.17271266067147514,
+    "ap50_95_max300": 0.21748092216660786,
+    "per_class": {
+      "resistor": {
+        "ap50_95_max100": 0.2612153089997551,
+        "ap50_max100": 0.5500872623250715,
+        "ap50_95_max300": 0.2915261581986072
+      },
+      "capacitor": {
+        "ap50_95_max100": 0.3181342775088816,
+        "ap50_max100": 0.5787416607541394,
+        "ap50_95_max300": 0.37194995963618
+      },
+      "ic": {
+        "ap50_95_max100": 0.13510257786496715,
+        "ap50_max100": 0.22163393213640709,
+        "ap50_95_max300": 0.13469655876085865
+      },
+      "connector": {
+        "ap50_95_max100": 0.06911098373067369,
+        "ap50_max100": 0.166775389589979,
+        "ap50_95_max300": 0.07175101207078552
+      }
+    },
+    "area_ap50_95_max100": {
+      "all": 0.19589078702606938,
+      "small": 0.06589462732154318,
+      "medium": 0.34405188481308396,
+      "large": 0.28309307071652484
+    }
+  },
+  "mask": null,
+  "operating": {
+    "confidence": 0.6000000000000001,
+    "match_box_iou": 0.5,
+    "tp": 597,
+    "fp": 175,
+    "fn": 751,
+    "precision": 0.7733160621761658,
+    "recall": 0.44287833827893175,
+    "f1": 0.5632075471698114,
+    "per_class_counts_tp_fp_fn": [
+      [
+        225,
+        87,
+        218
+      ],
+      [
+        349,
+        59,
+        287
+      ],
+      [
+        15,
+        21,
+        78
+      ],
+      [
+        8,
+        8,
+        168
+      ]
+    ],
+    "size_recall": {
+      "lt8": {
+        "detected": 0,
+        "total": 0,
+        "recall": null
+      },
+      "8to16": {
+        "detected": 75,
+        "total": 446,
+        "recall": 0.1681614349775785
+      },
+      "16to32": {
+        "detected": 299,
+        "total": 405,
+        "recall": 0.7382716049382716
+      },
+      "ge32": {
+        "detected": 223,
+        "total": 497,
+        "recall": 0.448692152917505
+      }
+    },
+    "negative_images": 0,
+    "negative_images_with_false_positive": 0,
+    "negative_false_positive_image_rate": null,
+    "per_image": [
+      {
+        "id": "DuetWIFI_Bottom",
+        "group_id": "wacv:DuetWIFI",
+        "source": "wacv2019",
+        "counts_tp_fp_fn": [
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            2,
+            23
+          ]
+        ],
+        "ground_truth_count": 23,
+        "prediction_count": 2
+      },
+      {
+        "id": "DuetWIFI_Top",
+        "group_id": "wacv:DuetWIFI",
+        "source": "wacv2019",
+        "counts_tp_fp_fn": [
+          [
+            88,
+            7,
+            8
+          ],
+          [
+            74,
+            5,
+            9
+          ],
+          [
+            2,
+            10,
+            12
+          ],
+          [
+            2,
+            3,
+            62
+          ]
+        ],
+        "ground_truth_count": 257,
+        "prediction_count": 191
+      },
+      {
+        "id": "EDA-008_Bottom",
+        "group_id": "wacv:EDA-008",
+        "source": "wacv2019",
+        "counts_tp_fp_fn": [
+          [
+            1,
+            19,
+            27
+          ],
+          [
+            4,
+            0,
+            72
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            3
+          ]
+        ],
+        "ground_truth_count": 108,
+        "prediction_count": 24
+      },
+      {
+        "id": "EDA-008_Top",
+        "group_id": "wacv:EDA-008",
+        "source": "wacv2019",
+        "counts_tp_fp_fn": [
+          [
+            1,
+            19,
+            13
+          ],
+          [
+            11,
+            10,
+            3
+          ],
+          [
+            2,
+            0,
+            34
+          ],
+          [
+            0,
+            0,
+            6
+          ]
+        ],
+        "ground_truth_count": 70,
+        "prediction_count": 43
+      },
+      {
+        "id": "ML450_Bottom1",
+        "group_id": "wacv:ML450",
+        "source": "wacv2019",
+        "counts_tp_fp_fn": [
+          [
+            8,
+            16,
+            16
+          ],
+          [
+            83,
+            4,
+            76
+          ],
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            2
+          ]
+        ],
+        "ground_truth_count": 185,
+        "prediction_count": 111
+      },
+      {
+        "id": "ML450_Bottom2",
+        "group_id": "wacv:ML450",
+        "source": "wacv2019",
+        "counts_tp_fp_fn": [
+          [
+            11,
+            2,
+            26
+          ],
+          [
+            17,
+            2,
+            16
+          ],
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            1
+          ]
+        ],
+        "ground_truth_count": 71,
+        "prediction_count": 32
+      },
+      {
+        "id": "ML450_Top1",
+        "group_id": "wacv:ML450",
+        "source": "wacv2019",
+        "counts_tp_fp_fn": [
+          [
+            70,
+            17,
+            70
+          ],
+          [
+            77,
+            2,
+            64
+          ],
+          [
+            6,
+            7,
+            18
+          ],
+          [
+            4,
+            2,
+            29
+          ]
+        ],
+        "ground_truth_count": 338,
+        "prediction_count": 185
+      },
+      {
+        "id": "ML450_Top2",
+        "group_id": "wacv:ML450",
+        "source": "wacv2019",
+        "counts_tp_fp_fn": [
+          [
+            34,
+            7,
+            38
+          ],
+          [
+            79,
+            7,
+            40
+          ],
+          [
+            5,
+            4,
+            4
+          ],
+          [
+            2,
+            0,
+            30
+          ]
+        ],
+        "ground_truth_count": 232,
+        "prediction_count": 138
+      },
+      {
+        "id": "OlimexRed",
+        "group_id": "wacv:OlimexRed",
+        "source": "wacv2019",
+        "counts_tp_fp_fn": [
+          [
+            0,
+            0,
+            19
+          ],
+          [
+            0,
+            0,
+            7
+          ],
+          [
+            0,
+            0,
+            2
+          ],
+          [
+            0,
+            1,
+            4
+          ]
+        ],
+        "ground_truth_count": 32,
+        "prediction_count": 1
+      },
+      {
+        "id": "Spartan6_Bottom",
+        "group_id": "wacv:Spartan6",
+        "source": "wacv2019",
+        "counts_tp_fp_fn": [
+          [
+            10,
+            0,
+            0
+          ],
+          [
+            2,
+            29,
+            0
+          ],
+          [
+            0,
+            0,
+            3
+          ],
+          [
+            0,
+            0,
+            4
+          ]
+        ],
+        "ground_truth_count": 19,
+        "prediction_count": 41
+      },
+      {
+        "id": "Spartan6_Top",
+        "group_id": "wacv:Spartan6",
+        "source": "wacv2019",
+        "counts_tp_fp_fn": [
+          [
+            2,
+            0,
+            1
+          ],
+          [
+            2,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            4
+          ],
+          [
+            0,
+            0,
+            4
+          ]
+        ],
+        "ground_truth_count": 13,
+        "prediction_count": 4
+      }
+    ]
+  },
+  "latency": {
+    "offline_predict_and_postprocess_ms_p50": 268.33270001225173,
+    "offline_predict_and_postprocess_ms_p95": 498.5552500002086,
+    "samples": 11,
+    "warmup_excluded": true,
+    "excludes": [
+      "camera acquisition",
+      "file decoding",
+      "visualization",
+      "disk write"
+    ]
+  },
+  "d455_verified": false,
+  "physical_specimen_independence_verified": false,
+  "group_bootstrap_recall95": {
+    "resamples": 1000,
+    "groups": 5,
+    "lower": 0.11946902654867257,
+    "upper": 0.5548780487804879,
+    "scope": "Fixed-threshold recall CI, NOT an AP confidence interval; source-family groups, physical identity may be unknown"
+  }
+}

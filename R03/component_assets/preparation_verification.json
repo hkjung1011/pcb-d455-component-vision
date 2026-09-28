@@ -1,0 +1,28 @@
+{
+  "native_images": 47,
+  "target4_native_instances": {
+    "connector": 621,
+    "resistor": 2111,
+    "capacitor": 2778,
+    "ic": 386
+  },
+  "all_yolo_files_checked": 445,
+  "yolo_boxes_checked": 9145,
+  "max_coordinate_roundtrip_error_px": 4.1044995668926276e-07,
+  "missing_train_instances": 0,
+  "split_board_group_overlap": 0,
+  "inferred_board_identity": true,
+  "pi_unknown_source_objects": 67,
+  "tile_small_fragment_exposures": {
+    "short_side_lt_8_px": 206
+  },
+  "tile_clipped_exposures": {
+    "False": 5299,
+    "True": 1434
+  },
+  "per_instance_train_exposure_min_max": [
+    1,
+    12
+  ],
+  "coordinate_contact_sheet_render_review": "PASS: Korean text visible, source boxes align visually in Pi top/bottom and sampled source boards. This checks coordinate transformation, not expert annotation correctness."
+}

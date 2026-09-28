@@ -1,0 +1,27 @@
+{
+  "created_utc": "2026-09-27T17:13:26.186276+00:00",
+  "purpose": "Static Korean explanatory figures; no training, inference or evaluation performed",
+  "inputs": {
+    "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\configs\\board_yolo11n.yaml": "9c524d9a82f33a75eccbc0135a5dcd582af984fe497cd9b6f717ca823bc80915",
+    "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\runs\\board_yolo11n\\architecture.json": "09e7c42dabe7a18bc8ec2638d7dba53a92a5e0af1db3b9fe7b2674d6891ffc80",
+    "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\configs\\board_yolo11n_seg.yaml": "ebcacde7f1a235c61cb312a9bf231c87d36a63dee127eece4ebc7d70615a3032",
+    "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\runs\\board_yolo11n_seg\\architecture.json": "0143275cb5ab07c6db088cc1bb1d5ee90d59c619426776a371cf396fbef9c47c",
+    "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\configs\\parts_yolo11n.yaml": "41bc76fb23c553b228c5fd1b93428210f010e945270f5ed42ff7a479f98f3d57",
+    "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\runs\\parts_yolo11n\\architecture.json": "a547c406fd75d070efbd09169f99b1a8f94efea5b2ea281680df4548ada56a22",
+    "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\configs\\parts_yolo11s.yaml": "21fe6032abcee45f10842b5c3690638be4aa7e21ad2e6dd9e2e2c27a139b8220",
+    "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\runs\\parts_yolo11s\\architecture.json": "fb8cda975c88ef8c0a97b865fc15f649125224897441b2302a3eab43c4da90f2",
+    "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\component_assets\\component_data_manifest.json": "f66c2ed21b2c0fbae591f63f5e0e2e3d399e9e7b423c8073bb6ab564a7b73605",
+    "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\data\\board_detect_v2\\manifest.json": "e9788b91a7fdb5d2c1d859c654bab50721df48ab86d0d5d66fe171d3c743652a",
+    "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\data\\board_segment_v2\\manifest.json": "bdf4fbe18056c81f47f50754048e6610fcb19a2e7c37ba1be4f0d443d672c59f"
+  },
+  "figures": [
+    "01_task_pipeline",
+    "02_model_architectures",
+    "03_component_label_counts",
+    "04_board_dataset_counts"
+  ],
+  "skipped": [],
+  "legacy_wrong_mapping_ap_used": false,
+  "part_mask_training_claimed": false,
+  "commons_draft_used_as_gt": false
+}

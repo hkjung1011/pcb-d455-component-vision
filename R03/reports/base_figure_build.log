@@ -1,0 +1,16 @@
+{
+  "output": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\reports\\figures",
+  "figures": [
+    "01_task_pipeline",
+    "02_model_architectures",
+    "03_component_label_counts",
+    "04_board_dataset_counts"
+  ],
+  "skipped": [],
+  "architecture_records": [
+    "board_detect",
+    "board_segment",
+    "parts_n",
+    "parts_s"
+  ]
+}

@@ -1,0 +1,479 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="1234.08pt" height="843.162148pt" viewBox="0 0 1234.08 843.162148" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-09-28T02:13:30.680138</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.11.1, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 843.162148 
+L 1234.08 843.162148 
+L 1234.08 0 
+L 0 0 
+z
+" style="fill: #f5f7fb"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 31.618286 297.985315 
+L 186.582857 297.985315 
+Q 194.044114 297.985315 194.044114 294.036164 
+L 194.044114 208.977534 
+Q 194.044114 205.028384 186.582857 205.028384 
+L 31.618286 205.028384 
+Q 24.157029 205.028384 24.157029 208.977534 
+L 24.157029 294.036164 
+Q 24.157029 297.985315 31.618286 297.985315 
+z
+" clip-path="url(#p92ae87b33c)" style="fill: #ffffff; stroke: #2468ba; stroke-width: 1.7; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 223.889143 297.985315 
+L 378.853714 297.985315 
+Q 386.314971 297.985315 386.314971 294.036164 
+L 386.314971 208.977534 
+Q 386.314971 205.028384 378.853714 205.028384 
+L 223.889143 205.028384 
+Q 216.427886 205.028384 216.427886 208.977534 
+L 216.427886 294.036164 
+Q 216.427886 297.985315 223.889143 297.985315 
+z
+" clip-path="url(#p92ae87b33c)" style="fill: #ffffff; stroke: #2468ba; stroke-width: 1.7; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 416.16 297.985315 
+L 571.124571 297.985315 
+Q 578.585829 297.985315 578.585829 294.036164 
+L 578.585829 208.977534 
+Q 578.585829 205.028384 571.124571 205.028384 
+L 416.16 205.028384 
+Q 408.698743 205.028384 408.698743 208.977534 
+L 408.698743 294.036164 
+Q 408.698743 297.985315 416.16 297.985315 
+z
+" clip-path="url(#p92ae87b33c)" style="fill: #ffffff; stroke: #2468ba; stroke-width: 1.7; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 191.452474 251.506849 
+Q 205.234385 251.506849 217.451049 251.506849 
+" clip-path="url(#p92ae87b33c)" style="fill: none; stroke: #516478; stroke-width: 1.4; stroke-linecap: round"/>
+    <path d="M 212.251049 248.906849 
+L 217.451049 251.506849 
+L 212.251049 254.106849 
+z
+" clip-path="url(#p92ae87b33c)" style="fill: #516478; stroke: #516478; stroke-width: 1.4; stroke-linecap: round"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 383.723331 251.506849 
+Q 397.505242 251.506849 409.721906 251.506849 
+" clip-path="url(#p92ae87b33c)" style="fill: none; stroke: #516478; stroke-width: 1.4; stroke-linecap: round"/>
+    <path d="M 404.521906 248.906849 
+L 409.721906 251.506849 
+L 404.521906 254.106849 
+z
+" clip-path="url(#p92ae87b33c)" style="fill: #516478; stroke: #516478; stroke-width: 1.4; stroke-linecap: round"/>
+   </g>
+   <g id="text_1">
+    <text style="font-weight: 700; font-size: 17px; font-family: 'Malgun Gothic'; text-anchor: start; fill: #2468ba" x="23.009143" y="147.551391" transform="rotate(-0 23.009143 147.551391)">① 보드 위치 · YOLO11n</text>
+   </g>
+   <g id="text_2">
+    <text style="font-size: 11px; font-family: 'Malgun Gothic'; text-anchor: start; fill: #516478" x="23.009143" y="161.891507" transform="rotate(-0 23.009143 161.891507)">2,590,035 parameters</text>
+   </g>
+   <g id="text_3">
+    <text style="font-size: 10px; font-family: 'Malgun Gothic'; text-anchor: start; fill: #516478" x="23.009143" y="181.63726" transform="rotate(-0 23.009143 181.63726)">깊이 배율 0.5 / 채널 폭 배율 0.25</text>
+   </g>
+   <g id="text_4">
+    <text style="font-size: 10px; font-family: 'Malgun Gothic'; text-anchor: start; fill: #516478" x="23.009143" y="198.345205" transform="rotate(-0 23.009143 198.345205)">설정 예산 5 epoch · 입력 640 px · batch 8</text>
+   </g>
+   <g id="text_5">
+    <text style="font-weight: 700; font-size: 12px; font-family: 'Malgun Gothic'; text-anchor: middle; fill: #2468ba" x="109.100571" y="235.723289" transform="rotate(-0 109.100571 235.723289)">Backbone</text>
+   </g>
+   <g id="text_6">
+    <text style="font-size: 10.5px; font-family: 'Malgun Gothic'; fill: #1d2d44" transform="translate(76.576821 255.180158)">Conv → C3k2</text>
+    <text style="font-size: 10.5px; font-family: 'Malgun Gothic'; fill: #1d2d44" transform="translate(73.431743 270.25422)">SPPF → C2PSA</text>
+    <text style="font-size: 10.5px; font-family: 'Malgun Gothic'; fill: #1d2d44" transform="translate(56.313462 285.809806)">다중 해상도 특징 추출</text>
+   </g>
+   <g id="text_7">
+    <text style="font-weight: 700; font-size: 12px; font-family: 'Malgun Gothic'; text-anchor: middle; fill: #2468ba" x="301.371429" y="235.723289" transform="rotate(-0 301.371429 235.723289)">Feature fusion</text>
+   </g>
+   <g id="text_8">
+    <text style="font-size: 10.5px; font-family: 'Malgun Gothic'; fill: #1d2d44" transform="translate(253.747366 254.003009)">Upsample + Concat</text>
+    <text style="font-size: 10.5px; font-family: 'Malgun Gothic'; fill: #1d2d44" transform="translate(252.144475 269.228009)">C3k2 + downsample</text>
+    <text style="font-size: 10.5px; font-family: 'Malgun Gothic'; fill: #1d2d44" transform="translate(272.166663 284.917306)">P3 / P4 / P5</text>
+   </g>
+   <g id="text_9">
+    <text style="font-weight: 700; font-size: 12px; font-family: 'Malgun Gothic'; text-anchor: middle; fill: #2468ba" x="493.642286" y="235.723289" transform="rotate(-0 493.642286 235.723289)">Detect head</text>
+   </g>
+   <g id="text_10">
+    <text style="font-size: 10.5px; font-family: 'Malgun Gothic'; fill: #1d2d44" transform="translate(467.904981 255.280236)">1개 클래스</text>
+    <text style="font-size: 10.5px; font-family: 'Malgun Gothic'; fill: #1d2d44" transform="translate(449.507012 270.505236)">클래스 점수 + box</text>
+    <text style="font-size: 10.5px; font-family: 'Malgun Gothic'; fill: #1d2d44" transform="translate(450.835098 285.771252)">P3·P4·P5에서 예측</text>
+   </g>
+   <g id="text_11">
+    <text style="font-size: 10.5px; font-family: 'Malgun Gothic'; text-anchor: start; fill: #1d2d44" x="28.748571" y="332.008767" transform="rotate(-0 28.748571 332.008767)">저장된 최상위 블록 24개 · 실제 head: Detect</text>
+   </g>
+   <g id="text_12">
+    <text style="font-size: 9.5px; font-family: 'Malgun Gothic'; text-anchor: start; fill: #516478" x="28.748571" y="356.311233" transform="rotate(-0 28.748571 356.311233)">Conv 7 / C3k2 8 / SPPF 1 / C2PSA 1 / Upsample 2 / Concat 4</text>
+   </g>
+   <g id="text_13">
+    <text style="font-weight: 700; font-size: 11px; font-family: 'Malgun Gothic'; text-anchor: start; fill: #2468ba" x="28.748571" y="395.80274" transform="rotate(-0 28.748571 395.80274)">출력: Raspberry Pi 보드 bbox</text>
+   </g>
+  </g>
+  <g id="axes_2">
+   <g id="patch_7">
+    <path d="M 662.955429 297.985315 
+L 817.92 297.985315 
+Q 825.381257 297.985315 825.381257 294.036164 
+L 825.381257 208.977534 
+Q 825.381257 205.028384 817.92 205.028384 
+L 662.955429 205.028384 
+Q 655.494171 205.028384 655.494171 208.977534 
+L 655.494171 294.036164 
+Q 655.494171 297.985315 662.955429 297.985315 
+z
+" clip-path="url(#p4d84927e2c)" style="fill: #ffffff; stroke: #db8b22; stroke-width: 1.7; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_8">
+    <path d="M 855.226286 297.985315 
+L 1010.190857 297.985315 
+Q 1017.652114 297.985315 1017.652114 294.036164 
+L 1017.652114 208.977534 
+Q 1017.652114 205.028384 1010.190857 205.028384 
+L 855.226286 205.028384 
+Q 847.765029 205.028384 847.765029 208.977534 
+L 847.765029 294.036164 
+Q 847.765029 297.985315 855.226286 297.985315 
+z
+" clip-path="url(#p4d84927e2c)" style="fill: #ffffff; stroke: #db8b22; stroke-width: 1.7; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_9">
+    <path d="M 1047.497143 297.985315 
+L 1202.461714 297.985315 
+Q 1209.922971 297.985315 1209.922971 294.036164 
+L 1209.922971 208.977534 
+Q 1209.922971 205.028384 1202.461714 205.028384 
+L 1047.497143 205.028384 
+Q 1040.035886 205.028384 1040.035886 208.977534 
+L 1040.035886 294.036164 
+Q 1040.035886 297.985315 1047.497143 297.985315 
+z
+" clip-path="url(#p4d84927e2c)" style="fill: #ffffff; stroke: #db8b22; stroke-width: 1.7; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_10">
+    <path d="M 822.789616 251.506849 
+Q 836.571528 251.506849 848.788192 251.506849 
+" clip-path="url(#p4d84927e2c)" style="fill: none; stroke: #516478; stroke-width: 1.4; stroke-linecap: round"/>
+    <path d="M 843.588192 248.906849 
+L 848.788192 251.506849 
+L 843.588192 254.106849 
+z
+" clip-path="url(#p4d84927e2c)" style="fill: #516478; stroke: #516478; stroke-width: 1.4; stroke-linecap: round"/>
+   </g>
+   <g id="patch_11">
+    <path d="M 1015.060474 251.506849 
+Q 1028.842385 251.506849 1041.059049 251.506849 
+" clip-path="url(#p4d84927e2c)" style="fill: none; stroke: #516478; stroke-width: 1.4; stroke-linecap: round"/>
+    <path d="M 1035.859049 248.906849 
+L 1041.059049 251.506849 
+L 1035.859049 254.106849 
+z
+" clip-path="url(#p4d84927e2c)" style="fill: #516478; stroke: #516478; stroke-width: 1.4; stroke-linecap: round"/>
+   </g>
+   <g id="text_14">
+    <text style="font-weight: 700; font-size: 17px; font-family: 'Malgun Gothic'; text-anchor: start; fill: #db8b22" x="654.346286" y="147.551391" transform="rotate(-0 654.346286 147.551391)">② 보드 외곽 · YOLO11n-seg</text>
+   </g>
+   <g id="text_15">
+    <text style="font-size: 11px; font-family: 'Malgun Gothic'; text-anchor: start; fill: #516478" x="654.346286" y="161.891507" transform="rotate(-0 654.346286 161.891507)">2,842,803 parameters</text>
+   </g>
+   <g id="text_16">
+    <text style="font-size: 10px; font-family: 'Malgun Gothic'; text-anchor: start; fill: #516478" x="654.346286" y="181.63726" transform="rotate(-0 654.346286 181.63726)">깊이 배율 0.5 / 채널 폭 배율 0.25</text>
+   </g>
+   <g id="text_17">
+    <text style="font-size: 10px; font-family: 'Malgun Gothic'; text-anchor: start; fill: #516478" x="654.346286" y="198.345205" transform="rotate(-0 654.346286 198.345205)">설정 예산 5 epoch · 입력 640 px · batch 4</text>
+   </g>
+   <g id="text_18">
+    <text style="font-weight: 700; font-size: 12px; font-family: 'Malgun Gothic'; text-anchor: middle; fill: #db8b22" x="740.437714" y="235.723289" transform="rotate(-0 740.437714 235.723289)">Backbone</text>
+   </g>
+   <g id="text_19">
+    <text style="font-size: 10.5px; font-family: 'Malgun Gothic'; fill: #1d2d44" transform="translate(707.913964 255.180158)">Conv → C3k2</text>
+    <text style="font-size: 10.5px; font-family: 'Malgun Gothic'; fill: #1d2d44" transform="translate(704.768886 270.25422)">SPPF → C2PSA</text>
+    <text style="font-size: 10.5px; font-family: 'Malgun Gothic'; fill: #1d2d44" transform="translate(687.650605 285.809806)">다중 해상도 특징 추출</text>
+   </g>
+   <g id="text_20">
+    <text style="font-weight: 700; font-size: 12px; font-family: 'Malgun Gothic'; text-anchor: middle; fill: #db8b22" x="932.708571" y="235.723289" transform="rotate(-0 932.708571 235.723289)">Feature fusion</text>
+   </g>
+   <g id="text_21">
+    <text style="font-size: 10.5px; font-family: 'Malgun Gothic'; fill: #1d2d44" transform="translate(885.084509 254.003009)">Upsample + Concat</text>
+    <text style="font-size: 10.5px; font-family: 'Malgun Gothic'; fill: #1d2d44" transform="translate(883.481618 269.228009)">C3k2 + downsample</text>
+    <text style="font-size: 10.5px; font-family: 'Malgun Gothic'; fill: #1d2d44" transform="translate(903.503806 284.917306)">P3 / P4 / P5</text>
+   </g>
+   <g id="text_22">
+    <text style="font-weight: 700; font-size: 12px; font-family: 'Malgun Gothic'; text-anchor: middle; fill: #db8b22" x="1124.979429" y="235.476961" transform="rotate(-0 1124.979429 235.476961)">Segment head</text>
+   </g>
+   <g id="text_23">
+    <text style="font-size: 10.5px; font-family: 'Malgun Gothic'; fill: #1d2d44" transform="translate(1099.242124 255.280236)">1개 클래스</text>
+    <text style="font-size: 10.5px; font-family: 'Malgun Gothic'; fill: #1d2d44" transform="translate(1084.314897 270.505236)">box + mask 계수</text>
+    <text style="font-size: 10.5px; font-family: 'Malgun Gothic'; fill: #1d2d44" transform="translate(1075.158569 284.991955)">prototype mask 결합</text>
+   </g>
+   <g id="text_24">
+    <text style="font-size: 10.5px; font-family: 'Malgun Gothic'; text-anchor: start; fill: #1d2d44" x="660.085714" y="332.008767" transform="rotate(-0 660.085714 332.008767)">저장된 최상위 블록 24개 · 실제 head: Segment</text>
+   </g>
+   <g id="text_25">
+    <text style="font-size: 9.5px; font-family: 'Malgun Gothic'; text-anchor: start; fill: #516478" x="660.085714" y="356.311233" transform="rotate(-0 660.085714 356.311233)">Conv 7 / C3k2 8 / SPPF 1 / C2PSA 1 / Upsample 2 / Concat 4</text>
+   </g>
+   <g id="text_26">
+    <text style="font-weight: 700; font-size: 11px; font-family: 'Malgun Gothic'; text-anchor: start; fill: #db8b22" x="660.085714" y="395.80274" transform="rotate(-0 660.085714 395.80274)">출력: 보드 bbox + 보드 mask</text>
+   </g>
+  </g>
+  <g id="axes_3">
+   <g id="patch_12">
+    <path d="M 31.618286 659.484493 
+L 186.582857 659.484493 
+Q 194.044114 659.484493 194.044114 655.535342 
+L 194.044114 570.476712 
+Q 194.044114 566.527562 186.582857 566.527562 
+L 31.618286 566.527562 
+Q 24.157029 566.527562 24.157029 570.476712 
+L 24.157029 655.535342 
+Q 24.157029 659.484493 31.618286 659.484493 
+z
+" clip-path="url(#p9e74cd732c)" style="fill: #ffffff; stroke: #008875; stroke-width: 1.7; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_13">
+    <path d="M 223.889143 659.484493 
+L 378.853714 659.484493 
+Q 386.314971 659.484493 386.314971 655.535342 
+L 386.314971 570.476712 
+Q 386.314971 566.527562 378.853714 566.527562 
+L 223.889143 566.527562 
+Q 216.427886 566.527562 216.427886 570.476712 
+L 216.427886 655.535342 
+Q 216.427886 659.484493 223.889143 659.484493 
+z
+" clip-path="url(#p9e74cd732c)" style="fill: #ffffff; stroke: #008875; stroke-width: 1.7; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_14">
+    <path d="M 416.16 659.484493 
+L 571.124571 659.484493 
+Q 578.585829 659.484493 578.585829 655.535342 
+L 578.585829 570.476712 
+Q 578.585829 566.527562 571.124571 566.527562 
+L 416.16 566.527562 
+Q 408.698743 566.527562 408.698743 570.476712 
+L 408.698743 655.535342 
+Q 408.698743 659.484493 416.16 659.484493 
+z
+" clip-path="url(#p9e74cd732c)" style="fill: #ffffff; stroke: #008875; stroke-width: 1.7; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_15">
+    <path d="M 191.452474 613.006027 
+Q 205.234385 613.006027 217.451049 613.006027 
+" clip-path="url(#p9e74cd732c)" style="fill: none; stroke: #516478; stroke-width: 1.4; stroke-linecap: round"/>
+    <path d="M 212.251049 610.406027 
+L 217.451049 613.006027 
+L 212.251049 615.606027 
+z
+" clip-path="url(#p9e74cd732c)" style="fill: #516478; stroke: #516478; stroke-width: 1.4; stroke-linecap: round"/>
+   </g>
+   <g id="patch_16">
+    <path d="M 383.723331 613.006027 
+Q 397.505242 613.006027 409.721906 613.006027 
+" clip-path="url(#p9e74cd732c)" style="fill: none; stroke: #516478; stroke-width: 1.4; stroke-linecap: round"/>
+    <path d="M 404.521906 610.406027 
+L 409.721906 613.006027 
+L 404.521906 615.606027 
+z
+" clip-path="url(#p9e74cd732c)" style="fill: #516478; stroke: #516478; stroke-width: 1.4; stroke-linecap: round"/>
+   </g>
+   <g id="text_27">
+    <text style="font-weight: 700; font-size: 17px; font-family: 'Malgun Gothic'; text-anchor: start; fill: #008875" x="23.009143" y="508.691976" transform="rotate(-0 23.009143 508.691976)">③ 부품 4종 · YOLO11n</text>
+   </g>
+   <g id="text_28">
+    <text style="font-size: 11px; font-family: 'Malgun Gothic'; text-anchor: start; fill: #516478" x="23.009143" y="523.390685" transform="rotate(-0 23.009143 523.390685)">2,590,620 parameters</text>
+   </g>
+   <g id="text_29">
+    <text style="font-size: 10px; font-family: 'Malgun Gothic'; text-anchor: start; fill: #516478" x="23.009143" y="543.136438" transform="rotate(-0 23.009143 543.136438)">깊이 배율 0.5 / 채널 폭 배율 0.25</text>
+   </g>
+   <g id="text_30">
+    <text style="font-size: 10px; font-family: 'Malgun Gothic'; text-anchor: start; fill: #516478" x="23.009143" y="559.844384" transform="rotate(-0 23.009143 559.844384)">설정 예산 20 epoch · 입력 1024 px · batch 2</text>
+   </g>
+   <g id="text_31">
+    <text style="font-weight: 700; font-size: 12px; font-family: 'Malgun Gothic'; text-anchor: middle; fill: #008875" x="109.100571" y="597.222467" transform="rotate(-0 109.100571 597.222467)">Backbone</text>
+   </g>
+   <g id="text_32">
+    <text style="font-size: 10.5px; font-family: 'Malgun Gothic'; fill: #1d2d44" transform="translate(76.576821 616.679336)">Conv → C3k2</text>
+    <text style="font-size: 10.5px; font-family: 'Malgun Gothic'; fill: #1d2d44" transform="translate(73.431743 631.753398)">SPPF → C2PSA</text>
+    <text style="font-size: 10.5px; font-family: 'Malgun Gothic'; fill: #1d2d44" transform="translate(56.313462 647.308984)">다중 해상도 특징 추출</text>
+   </g>
+   <g id="text_33">
+    <text style="font-weight: 700; font-size: 12px; font-family: 'Malgun Gothic'; text-anchor: middle; fill: #008875" x="301.371429" y="597.222467" transform="rotate(-0 301.371429 597.222467)">Feature fusion</text>
+   </g>
+   <g id="text_34">
+    <text style="font-size: 10.5px; font-family: 'Malgun Gothic'; fill: #1d2d44" transform="translate(253.747366 615.502188)">Upsample + Concat</text>
+    <text style="font-size: 10.5px; font-family: 'Malgun Gothic'; fill: #1d2d44" transform="translate(252.144475 630.727188)">C3k2 + downsample</text>
+    <text style="font-size: 10.5px; font-family: 'Malgun Gothic'; fill: #1d2d44" transform="translate(272.166663 646.416484)">P3 / P4 / P5</text>
+   </g>
+   <g id="text_35">
+    <text style="font-weight: 700; font-size: 12px; font-family: 'Malgun Gothic'; text-anchor: middle; fill: #008875" x="493.642286" y="597.222467" transform="rotate(-0 493.642286 597.222467)">Detect head</text>
+   </g>
+   <g id="text_36">
+    <text style="font-size: 10.5px; font-family: 'Malgun Gothic'; fill: #1d2d44" transform="translate(467.904981 616.779414)">4개 클래스</text>
+    <text style="font-size: 10.5px; font-family: 'Malgun Gothic'; fill: #1d2d44" transform="translate(449.507012 632.004414)">클래스 점수 + box</text>
+    <text style="font-size: 10.5px; font-family: 'Malgun Gothic'; fill: #1d2d44" transform="translate(450.835098 647.27043)">P3·P4·P5에서 예측</text>
+   </g>
+   <g id="text_37">
+    <text style="font-size: 10.5px; font-family: 'Malgun Gothic'; text-anchor: start; fill: #1d2d44" x="28.748571" y="693.507945" transform="rotate(-0 28.748571 693.507945)">저장된 최상위 블록 24개 · 실제 head: Detect</text>
+   </g>
+   <g id="text_38">
+    <text style="font-size: 9.5px; font-family: 'Malgun Gothic'; text-anchor: start; fill: #516478" x="28.748571" y="717.810411" transform="rotate(-0 28.748571 717.810411)">Conv 7 / C3k2 8 / SPPF 1 / C2PSA 1 / Upsample 2 / Concat 4</text>
+   </g>
+   <g id="text_39">
+    <text style="font-weight: 700; font-size: 11px; font-family: 'Malgun Gothic'; text-anchor: start; fill: #008875" x="28.748571" y="757.301918" transform="rotate(-0 28.748571 757.301918)">출력: 저항·콘덴서·IC·커넥터 bbox</text>
+   </g>
+  </g>
+  <g id="axes_4">
+   <g id="patch_17">
+    <path d="M 662.955429 659.484493 
+L 817.92 659.484493 
+Q 825.381257 659.484493 825.381257 655.535342 
+L 825.381257 570.476712 
+Q 825.381257 566.527562 817.92 566.527562 
+L 662.955429 566.527562 
+Q 655.494171 566.527562 655.494171 570.476712 
+L 655.494171 655.535342 
+Q 655.494171 659.484493 662.955429 659.484493 
+z
+" clip-path="url(#pd7cbdb4550)" style="fill: #ffffff; stroke: #008875; stroke-width: 1.7; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_18">
+    <path d="M 855.226286 659.484493 
+L 1010.190857 659.484493 
+Q 1017.652114 659.484493 1017.652114 655.535342 
+L 1017.652114 570.476712 
+Q 1017.652114 566.527562 1010.190857 566.527562 
+L 855.226286 566.527562 
+Q 847.765029 566.527562 847.765029 570.476712 
+L 847.765029 655.535342 
+Q 847.765029 659.484493 855.226286 659.484493 
+z
+" clip-path="url(#pd7cbdb4550)" style="fill: #ffffff; stroke: #008875; stroke-width: 1.7; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_19">
+    <path d="M 1047.497143 659.484493 
+L 1202.461714 659.484493 
+Q 1209.922971 659.484493 1209.922971 655.535342 
+L 1209.922971 570.476712 
+Q 1209.922971 566.527562 1202.461714 566.527562 
+L 1047.497143 566.527562 
+Q 1040.035886 566.527562 1040.035886 570.476712 
+L 1040.035886 655.535342 
+Q 1040.035886 659.484493 1047.497143 659.484493 
+z
+" clip-path="url(#pd7cbdb4550)" style="fill: #ffffff; stroke: #008875; stroke-width: 1.7; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_20">
+    <path d="M 822.789616 613.006027 
+Q 836.571528 613.006027 848.788192 613.006027 
+" clip-path="url(#pd7cbdb4550)" style="fill: none; stroke: #516478; stroke-width: 1.4; stroke-linecap: round"/>
+    <path d="M 843.588192 610.406027 
+L 848.788192 613.006027 
+L 843.588192 615.606027 
+z
+" clip-path="url(#pd7cbdb4550)" style="fill: #516478; stroke: #516478; stroke-width: 1.4; stroke-linecap: round"/>
+   </g>
+   <g id="patch_21">
+    <path d="M 1015.060474 613.006027 
+Q 1028.842385 613.006027 1041.059049 613.006027 
+" clip-path="url(#pd7cbdb4550)" style="fill: none; stroke: #516478; stroke-width: 1.4; stroke-linecap: round"/>
+    <path d="M 1035.859049 610.406027 
+L 1041.059049 613.006027 
+L 1035.859049 615.606027 
+z
+" clip-path="url(#pd7cbdb4550)" style="fill: #516478; stroke: #516478; stroke-width: 1.4; stroke-linecap: round"/>
+   </g>
+   <g id="text_40">
+    <text style="font-weight: 700; font-size: 17px; font-family: 'Malgun Gothic'; text-anchor: start; fill: #008875" x="654.346286" y="508.691976" transform="rotate(-0 654.346286 508.691976)">④ 부품 4종 · YOLO11s</text>
+   </g>
+   <g id="text_41">
+    <text style="font-size: 11px; font-family: 'Malgun Gothic'; text-anchor: start; fill: #516478" x="654.346286" y="523.390685" transform="rotate(-0 654.346286 523.390685)">9,429,340 parameters</text>
+   </g>
+   <g id="text_42">
+    <text style="font-size: 10px; font-family: 'Malgun Gothic'; text-anchor: start; fill: #516478" x="654.346286" y="543.136438" transform="rotate(-0 654.346286 543.136438)">깊이 배율 0.5 / 채널 폭 배율 0.5</text>
+   </g>
+   <g id="text_43">
+    <text style="font-size: 10px; font-family: 'Malgun Gothic'; text-anchor: start; fill: #516478" x="654.346286" y="559.844384" transform="rotate(-0 654.346286 559.844384)">설정 예산 20 epoch · 입력 1024 px · batch 2</text>
+   </g>
+   <g id="text_44">
+    <text style="font-weight: 700; font-size: 12px; font-family: 'Malgun Gothic'; text-anchor: middle; fill: #008875" x="740.437714" y="597.222467" transform="rotate(-0 740.437714 597.222467)">Backbone</text>
+   </g>
+   <g id="text_45">
+    <text style="font-size: 10.5px; font-family: 'Malgun Gothic'; fill: #1d2d44" transform="translate(707.913964 616.679336)">Conv → C3k2</text>
+    <text style="font-size: 10.5px; font-family: 'Malgun Gothic'; fill: #1d2d44" transform="translate(704.768886 631.753398)">SPPF → C2PSA</text>
+    <text style="font-size: 10.5px; font-family: 'Malgun Gothic'; fill: #1d2d44" transform="translate(687.650605 647.308984)">다중 해상도 특징 추출</text>
+   </g>
+   <g id="text_46">
+    <text style="font-weight: 700; font-size: 12px; font-family: 'Malgun Gothic'; text-anchor: middle; fill: #008875" x="932.708571" y="597.222467" transform="rotate(-0 932.708571 597.222467)">Feature fusion</text>
+   </g>
+   <g id="text_47">
+    <text style="font-size: 10.5px; font-family: 'Malgun Gothic'; fill: #1d2d44" transform="translate(885.084509 615.502188)">Upsample + Concat</text>
+    <text style="font-size: 10.5px; font-family: 'Malgun Gothic'; fill: #1d2d44" transform="translate(883.481618 630.727188)">C3k2 + downsample</text>
+    <text style="font-size: 10.5px; font-family: 'Malgun Gothic'; fill: #1d2d44" transform="translate(903.503806 646.416484)">P3 / P4 / P5</text>
+   </g>
+   <g id="text_48">
+    <text style="font-weight: 700; font-size: 12px; font-family: 'Malgun Gothic'; text-anchor: middle; fill: #008875" x="1124.979429" y="597.222467" transform="rotate(-0 1124.979429 597.222467)">Detect head</text>
+   </g>
+   <g id="text_49">
+    <text style="font-size: 10.5px; font-family: 'Malgun Gothic'; fill: #1d2d44" transform="translate(1099.242124 616.779414)">4개 클래스</text>
+    <text style="font-size: 10.5px; font-family: 'Malgun Gothic'; fill: #1d2d44" transform="translate(1080.844155 632.004414)">클래스 점수 + box</text>
+    <text style="font-size: 10.5px; font-family: 'Malgun Gothic'; fill: #1d2d44" transform="translate(1082.172241 647.27043)">P3·P4·P5에서 예측</text>
+   </g>
+   <g id="text_50">
+    <text style="font-size: 10.5px; font-family: 'Malgun Gothic'; text-anchor: start; fill: #1d2d44" x="660.085714" y="693.507945" transform="rotate(-0 660.085714 693.507945)">저장된 최상위 블록 24개 · 실제 head: Detect</text>
+   </g>
+   <g id="text_51">
+    <text style="font-size: 9.5px; font-family: 'Malgun Gothic'; text-anchor: start; fill: #516478" x="660.085714" y="717.810411" transform="rotate(-0 660.085714 717.810411)">Conv 7 / C3k2 8 / SPPF 1 / C2PSA 1 / Upsample 2 / Concat 4</text>
+   </g>
+   <g id="text_52">
+    <text style="font-weight: 700; font-size: 11px; font-family: 'Malgun Gothic'; text-anchor: start; fill: #008875" x="660.085714" y="757.301918" transform="rotate(-0 660.085714 757.301918)">출력: 저항·콘덴서·IC·커넥터 bbox</text>
+   </g>
+  </g>
+  <g id="text_53">
+   <text style="font-weight: 700; font-size: 23px; font-family: 'Malgun Gothic'; text-anchor: start; fill: #1d2d44" x="20.88" y="34.366875" transform="rotate(-0 20.88 34.366875)">모델별 구조와 출력</text>
+  </g>
+  <g id="text_54">
+   <text style="font-size: 12px; font-family: 'Malgun Gothic'; text-anchor: start; fill: #516478" x="20.88" y="67.0785" transform="rotate(-0 20.88 67.0785)">공통 YOLO11 backbone·다중 스케일 feature fusion / 파라미터 수는 architecture.json 실측 기록, 미생성 모델은 PENDING 표시</text>
+  </g>
+  <g id="text_55">
+   <text style="font-size: 11px; font-family: 'Malgun Gothic'; text-anchor: start; fill: #516478" x="20.88" y="826.56" transform="rotate(-0 20.88 826.56)">P3/P4/P5는 stride 8/16/32 특징맵입니다. n과 s는 채널 폭이 다르며, 부품 mask branch는 이번 신규 학습에 포함되지 않습니다.</text>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p92ae87b33c">
+   <rect x="14.4" y="122.4" width="573.942857" height="303.780822"/>
+  </clipPath>
+  <clipPath id="p4d84927e2c">
+   <rect x="645.737143" y="122.4" width="573.942857" height="303.780822"/>
+  </clipPath>
+  <clipPath id="p9e74cd732c">
+   <rect x="14.4" y="483.899178" width="573.942857" height="303.780822"/>
+  </clipPath>
+  <clipPath id="pd7cbdb4550">
+   <rect x="645.737143" y="483.899178" width="573.942857" height="303.780822"/>
+  </clipPath>
+ </defs>
+</svg>

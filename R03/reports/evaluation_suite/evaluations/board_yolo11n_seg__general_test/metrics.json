@@ -1,0 +1,6988 @@
+{
+  "scope": null,
+  "split": "test",
+  "cohort": null,
+  "task": "segment",
+  "class_names": [
+    "raspberry_pi_sbc"
+  ],
+  "annotation_limitations": null,
+  "operating_metric_scope": "Confidence selected by box-IoU>=0.5 micro-F1 on validation only; mask AP is reported separately. Size bins use native GT bbox short side.",
+  "checkpoint_sha256": "e6dcdd38b43df1238b0781a5a9ad30b69c14a3bd2a2c84b2303e2f4ebff267a2",
+  "manifest_sha256": "bdf4fbe18056c81f47f50754048e6610fcb19a2e7c37ba1be4f0d443d672c59f",
+  "images": 490,
+  "groups": 197,
+  "native_gt_instances": 166,
+  "imgsz": 640,
+  "tile_size": 0,
+  "tile_overlap": null,
+  "tile_nms_iou": null,
+  "retina_masks": true,
+  "raw_confidence_floor": 0.001,
+  "prediction_nms_iou": 0.6,
+  "bbox": {
+    "iou_type": "bbox",
+    "ap50_95_max100": 0.910701602966259,
+    "ap50_max100": 0.9983937121756119,
+    "ap75_max100": 0.9774584933873323,
+    "ap50_95_max300": 0.910701602966259,
+    "per_class": {
+      "raspberry_pi_sbc": {
+        "ap50_95_max100": 0.910701602966259,
+        "ap50_max100": 0.9983937121756119,
+        "ap50_95_max300": 0.910701602966259
+      }
+    },
+    "area_ap50_95_max100": {
+      "all": 0.910701602966259,
+      "small": null,
+      "medium": null,
+      "large": 0.910701602966259
+    }
+  },
+  "mask": {
+    "iou_type": "segm",
+    "ap50_95_max100": 0.9627882880768281,
+    "ap50_max100": 0.9776804061065544,
+    "ap75_max100": 0.9769151201935828,
+    "ap50_95_max300": 0.9627882880768281,
+    "per_class": {
+      "raspberry_pi_sbc": {
+        "ap50_95_max100": 0.9627882880768281,
+        "ap50_max100": 0.9776804061065544,
+        "ap50_95_max300": 0.9627882880768281
+      }
+    },
+    "area_ap50_95_max100": {
+      "all": 0.9627882880768281,
+      "small": null,
+      "medium": null,
+      "large": 0.9627882880768281
+    }
+  },
+  "operating": {
+    "confidence": 0.5,
+    "match_box_iou": 0.5,
+    "tp": 161,
+    "fp": 4,
+    "fn": 5,
+    "precision": 0.9757575757575757,
+    "recall": 0.9698795180722891,
+    "f1": 0.9728096676737159,
+    "per_class_counts_tp_fp_fn": [
+      [
+        161,
+        4,
+        5
+      ]
+    ],
+    "size_recall": {
+      "lt8": {
+        "detected": 0,
+        "total": 0,
+        "recall": null
+      },
+      "8to16": {
+        "detected": 0,
+        "total": 0,
+        "recall": null
+      },
+      "16to32": {
+        "detected": 0,
+        "total": 0,
+        "recall": null
+      },
+      "ge32": {
+        "detected": 161,
+        "total": 166,
+        "recall": 0.9698795180722891
+      }
+    },
+    "negative_images": 324,
+    "negative_images_with_false_positive": 3,
+    "negative_false_positive_image_rate": 0.009259259259259259,
+    "per_image": [
+      {
+        "id": "iotkits_train_00001",
+        "group_id": "globalcc_6b377b57524ec2284e14",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 0,
+        "prediction_count": 0
+      },
+      {
+        "id": "iotkits_train_00003",
+        "group_id": "globalcc_c2034e6b5442f85c2c71",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            1,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 1,
+        "prediction_count": 1
+      },
+      {
+        "id": "iotkits_train_00005",
+        "group_id": "globalcc_6df8747653d113665e32",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 0,
+        "prediction_count": 0
+      },
+      {
+        "id": "iotkits_train_00015",
+        "group_id": "globalcc_8e0f2e2c921a2f6183c4",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 0,
+        "prediction_count": 0
+      },
+      {
+        "id": "iotkits_train_00020",
+        "group_id": "globalcc_bd52c57092e81322fe21",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 0,
+        "prediction_count": 0
+      },
+      {
+        "id": "iotkits_train_00026",
+        "group_id": "globalcc_8e0f2e2c921a2f6183c4",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 0,
+        "prediction_count": 0
+      },
+      {
+        "id": "iotkits_train_00027",
+        "group_id": "globalcc_3c37e2083d3f88325c9e",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 0,
+        "prediction_count": 0
+      },
+      {
+        "id": "iotkits_train_00029",
+        "group_id": "globalcc_325d34f1a4acc642ea16",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 0,
+        "prediction_count": 0
+      },
+      {
+        "id": "iotkits_train_00033",
+        "group_id": "globalcc_7f1f98d632a91ebd7b55",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 0,
+        "prediction_count": 0
+      },
+      {
+        "id": "iotkits_train_00036",
+        "group_id": "globalcc_7f1f98d632a91ebd7b55",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 0,
+        "prediction_count": 0
+      },
+      {
+        "id": "iotkits_train_00042",
+        "group_id": "globalcc_a750ea02598063ea8210",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            1,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 1,
+        "prediction_count": 1
+      },
+      {
+        "id": "iotkits_train_00048",
+        "group_id": "globalcc_cf32ea4c189401c59242",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            1,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 1,
+        "prediction_count": 1
+      },
+      {
+        "id": "iotkits_train_00050",
+        "group_id": "globalcc_63ca40d097704fe4a6af",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 0,
+        "prediction_count": 0
+      },
+      {
+        "id": "iotkits_train_00051",
+        "group_id": "globalcc_994dca72839c84e20a7d",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            1,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 1,
+        "prediction_count": 1
+      },
+      {
+        "id": "iotkits_train_00052",
+        "group_id": "globalcc_f5ad22cb996afa3c9aac",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            1,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 1,
+        "prediction_count": 1
+      },
+      {
+        "id": "iotkits_train_00055",
+        "group_id": "globalcc_63ca40d097704fe4a6af",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 0,
+        "prediction_count": 0
+      },
+      {
+        "id": "iotkits_train_00056",
+        "group_id": "globalcc_8ab9abb34c1243bf4d70",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 0,
+        "prediction_count": 0
+      },
+      {
+        "id": "iotkits_train_00062",
+        "group_id": "globalcc_592d45fea6f9fe8e2141",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 0,
+        "prediction_count": 0
+      },
+      {
+        "id": "iotkits_train_00065",
+        "group_id": "globalcc_d365db7a8f579f5396f5",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 0,
+        "prediction_count": 0
+      },
+      {
+        "id": "iotkits_train_00078",
+        "group_id": "globalcc_39813692215f044c1394",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 0,
+        "prediction_count": 0
+      },
+      {
+        "id": "iotkits_train_00083",
+        "group_id": "globalcc_90473082d13ff1c3edd6",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 0,
+        "prediction_count": 0
+      },
+      {
+        "id": "iotkits_train_00089",
+        "group_id": "globalcc_39813692215f044c1394",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 0,
+        "prediction_count": 0
+      },
+      {
+        "id": "iotkits_train_00102",
+        "group_id": "globalcc_60ac96440fae2216d4d3",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 0,
+        "prediction_count": 0
+      },
+      {
+        "id": "iotkits_train_00105",
+        "group_id": "globalcc_18fc9c54cef13afb5ed2",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            1,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 1,
+        "prediction_count": 1
+      },
+      {
+        "id": "iotkits_train_00113",
+        "group_id": "globalcc_b499c57814fed2ca27b0",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 0,
+        "prediction_count": 0
+      },
+      {
+        "id": "iotkits_train_00114",
+        "group_id": "globalcc_3c37e2083d3f88325c9e",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            1,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 1,
+        "prediction_count": 1
+      },
+      {
+        "id": "iotkits_train_00116",
+        "group_id": "globalcc_a8b95011f0ebc3da1883",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            1,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 1,
+        "prediction_count": 1
+      },
+      {
+        "id": "iotkits_train_00117",
+        "group_id": "globalcc_1e00023be0f0252da04d",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            1,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 1,
+        "prediction_count": 1
+      },
+      {
+        "id": "iotkits_train_00123",
+        "group_id": "globalcc_f139daf66c46146af75c",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 0,
+        "prediction_count": 0
+      },
+      {
+        "id": "iotkits_train_00128",
+        "group_id": "globalcc_253ec22429f0c6afda1a",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 0,
+        "prediction_count": 0
+      },
+      {
+        "id": "iotkits_train_00146",
+        "group_id": "globalcc_8e0f2e2c921a2f6183c4",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 0,
+        "prediction_count": 0
+      },
+      {
+        "id": "iotkits_train_00152",
+        "group_id": "globalcc_60ac96440fae2216d4d3",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 0,
+        "prediction_count": 0
+      },
+      {
+        "id": "iotkits_train_00158",
+        "group_id": "globalcc_555b7ab0254b913b4b5c",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 0,
+        "prediction_count": 0
+      },
+      {
+        "id": "iotkits_train_00171",
+        "group_id": "globalcc_a152d4c206be80dee131",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 0,
+        "prediction_count": 0
+      },
+      {
+        "id": "iotkits_train_00180",
+        "group_id": "globalcc_39813692215f044c1394",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 0,
+        "prediction_count": 0
+      },
+      {
+        "id": "iotkits_train_00184",
+        "group_id": "globalcc_90473082d13ff1c3edd6",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 0,
+        "prediction_count": 0
+      },
+      {
+        "id": "iotkits_train_00191",
+        "group_id": "globalcc_3ac9fd1031d16eb26a75",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            1,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 1,
+        "prediction_count": 1
+      },
+      {
+        "id": "iotkits_train_00201",
+        "group_id": "globalcc_be96e0d9a1aef4109e1d",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            1,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 1,
+        "prediction_count": 1
+      },
+      {
+        "id": "iotkits_train_00203",
+        "group_id": "globalcc_ffd25bb758e7570c4ee6",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 0,
+        "prediction_count": 0
+      },
+      {
+        "id": "iotkits_train_00211",
+        "group_id": "globalcc_e98e8e7d0c3d24438dbb",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            1,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 1,
+        "prediction_count": 1
+      },
+      {
+        "id": "iotkits_train_00213",
+        "group_id": "globalcc_44e6e85a8c044b622cd2",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            1,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 1,
+        "prediction_count": 1
+      },
+      {
+        "id": "iotkits_train_00225",
+        "group_id": "globalcc_01b44ff7b30595e27b61",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 0,
+        "prediction_count": 0
+      },
+      {
+        "id": "iotkits_train_00231",
+        "group_id": "globalcc_c55fec1a89d060e75e05",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 0,
+        "prediction_count": 0
+      },
+      {
+        "id": "iotkits_train_00233",
+        "group_id": "globalcc_8604b46e04ad03a76c44",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 0,
+        "prediction_count": 0
+      },
+      {
+        "id": "iotkits_train_00256",
+        "group_id": "globalcc_7b4bd00115f9509958d0",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 0,
+        "prediction_count": 0
+      },
+      {
+        "id": "iotkits_train_00271",
+        "group_id": "globalcc_90473082d13ff1c3edd6",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 0,
+        "prediction_count": 0
+      },
+      {
+        "id": "iotkits_train_00277",
+        "group_id": "globalcc_21ab014e2b97819041b5",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            1,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 1,
+        "prediction_count": 1
+      },
+      {
+        "id": "iotkits_train_00293",
+        "group_id": "globalcc_9e3f6e680b101caa6980",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 0,
+        "prediction_count": 0
+      },
+      {
+        "id": "iotkits_train_00303",
+        "group_id": "globalcc_c55fec1a89d060e75e05",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 0,
+        "prediction_count": 0
+      },
+      {
+        "id": "iotkits_train_00304",
+        "group_id": "globalcc_b12a79eb1280f69df5c7",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 0,
+        "prediction_count": 0
+      },
+      {
+        "id": "iotkits_train_00322",
+        "group_id": "globalcc_c5333a6161285c6ddb09",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            1,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 1,
+        "prediction_count": 1
+      },
+      {
+        "id": "iotkits_train_00325",
+        "group_id": "globalcc_253ec22429f0c6afda1a",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 0,
+        "prediction_count": 0
+      },
+      {
+        "id": "iotkits_train_00329",
+        "group_id": "globalcc_bd52c57092e81322fe21",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 0,
+        "prediction_count": 0
+      },
+      {
+        "id": "iotkits_train_00330",
+        "group_id": "globalcc_555b7ab0254b913b4b5c",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 0,
+        "prediction_count": 0
+      },
+      {
+        "id": "iotkits_train_00331",
+        "group_id": "globalcc_0679ebccb234e82f5511",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 0,
+        "prediction_count": 0
+      },
+      {
+        "id": "iotkits_train_00332",
+        "group_id": "globalcc_d6a33cc2d45e2e93f4fd",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            1,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 1,
+        "prediction_count": 1
+      },
+      {
+        "id": "iotkits_train_00337",
+        "group_id": "globalcc_89d51470ace27f685093",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 0,
+        "prediction_count": 0
+      },
+      {
+        "id": "iotkits_train_00342",
+        "group_id": "globalcc_3c37e2083d3f88325c9e",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 0,
+        "prediction_count": 0
+      },
+      {
+        "id": "iotkits_train_00345",
+        "group_id": "globalcc_6958e80a2355550b806e",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 0,
+        "prediction_count": 0
+      },
+      {
+        "id": "iotkits_train_00366",
+        "group_id": "globalcc_0c5365b8c29c2a71faf9",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 0,
+        "prediction_count": 0
+      },
+      {
+        "id": "iotkits_train_00370",
+        "group_id": "globalcc_f988c0858bc8e36522d8",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 0,
+        "prediction_count": 0
+      },
+      {
+        "id": "iotkits_train_00371",
+        "group_id": "globalcc_90473082d13ff1c3edd6",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 0,
+        "prediction_count": 0
+      },
+      {
+        "id": "iotkits_train_00382",
+        "group_id": "globalcc_a89bc24327e8a5955fd9",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            1,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 1,
+        "prediction_count": 1
+      },
+      {
+        "id": "iotkits_train_00383",
+        "group_id": "globalcc_3c37e2083d3f88325c9e",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 0,
+        "prediction_count": 0
+      },
+      {
+        "id": "iotkits_train_00391",
+        "group_id": "globalcc_a6bb63b36f291f6a2d77",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 0,
+        "prediction_count": 0
+      },
+      {
+        "id": "iotkits_train_00393",
+        "group_id": "globalcc_ed94ffe8a9319a0bbcf1",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 0,
+        "prediction_count": 0
+      },
+      {
+        "id": "iotkits_train_00398",
+        "group_id": "globalcc_41414c53d3c64b7fc302",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 0,
+        "prediction_count": 0
+      },
+      {
+        "id": "iotkits_train_00404",
+        "group_id": "globalcc_fea5d3b024cd629d4844",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            1,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 1,
+        "prediction_count": 1
+      },
+      {
+        "id": "iotkits_train_00411",
+        "group_id": "globalcc_8e0f2e2c921a2f6183c4",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 0,
+        "prediction_count": 0
+      },
+      {
+        "id": "iotkits_train_00416",
+        "group_id": "globalcc_7dcda25ded3897f1e046",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            1,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 1,
+        "prediction_count": 1
+      },
+      {
+        "id": "iotkits_train_00419",
+        "group_id": "globalcc_c5333a6161285c6ddb09",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            1,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 1,
+        "prediction_count": 1
+      },
+      {
+        "id": "iotkits_train_00423",
+        "group_id": "globalcc_4d0e53a881baf6dbc795",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            1,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 1,
+        "prediction_count": 1
+      },
+      {
+        "id": "iotkits_train_00439",
+        "group_id": "globalcc_349bda14e03d8cad5873",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 0,
+        "prediction_count": 0
+      },
+      {
+        "id": "iotkits_train_00452",
+        "group_id": "globalcc_befe6ce6b59ae6c33141",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            1,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 1,
+        "prediction_count": 1
+      },
+      {
+        "id": "iotkits_train_00462",
+        "group_id": "globalcc_8ab9abb34c1243bf4d70",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 0,
+        "prediction_count": 0
+      },
+      {
+        "id": "iotkits_train_00467",
+        "group_id": "globalcc_930b79f0ab4ed5c74be3",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 0,
+        "prediction_count": 0
+      },
+      {
+        "id": "iotkits_train_00478",
+        "group_id": "globalcc_ac750513ccb76a29c6ea",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            1,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 1,
+        "prediction_count": 1
+      },
+      {
+        "id": "iotkits_train_00481",
+        "group_id": "globalcc_3c37e2083d3f88325c9e",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 0,
+        "prediction_count": 0
+      },
+      {
+        "id": "iotkits_train_00487",
+        "group_id": "globalcc_7dcda25ded3897f1e046",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            1,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 1,
+        "prediction_count": 1
+      },
+      {
+        "id": "iotkits_train_00488",
+        "group_id": "globalcc_f0fa700c49b6fa4be144",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 0,
+        "prediction_count": 0
+      },
+      {
+        "id": "iotkits_train_00498",
+        "group_id": "globalcc_aca7717530e6fdac1dd5",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            1,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 1,
+        "prediction_count": 1
+      },
+      {
+        "id": "iotkits_train_00510",
+        "group_id": "globalcc_01b44ff7b30595e27b61",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 0,
+        "prediction_count": 0
+      },
+      {
+        "id": "iotkits_train_00514",
+        "group_id": "globalcc_90473082d13ff1c3edd6",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 0,
+        "prediction_count": 0
+      },
+      {
+        "id": "iotkits_train_00519",
+        "group_id": "globalcc_7583090e184766a11e5c",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 0,
+        "prediction_count": 0
+      },
+      {
+        "id": "iotkits_train_00524",
+        "group_id": "globalcc_b5e76a6453bc36f1ad88",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 0,
+        "prediction_count": 0
+      },
+      {
+        "id": "iotkits_train_00529",
+        "group_id": "globalcc_ac6465196609c5fb8050",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            0,
+            1,
+            1
+          ]
+        ],
+        "ground_truth_count": 1,
+        "prediction_count": 1
+      },
+      {
+        "id": "iotkits_train_00533",
+        "group_id": "globalcc_896f174ff689ea7994ac",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 0,
+        "prediction_count": 0
+      },
+      {
+        "id": "iotkits_train_00535",
+        "group_id": "globalcc_555b7ab0254b913b4b5c",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 0,
+        "prediction_count": 0
+      },
+      {
+        "id": "iotkits_train_00540",
+        "group_id": "globalcc_8e0f2e2c921a2f6183c4",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 0,
+        "prediction_count": 0
+      },
+      {
+        "id": "iotkits_train_00542",
+        "group_id": "globalcc_c7d564aa9b0b2042c9dd",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 0,
+        "prediction_count": 0
+      },
+      {
+        "id": "iotkits_train_00560",
+        "group_id": "globalcc_60ac96440fae2216d4d3",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 0,
+        "prediction_count": 0
+      },
+      {
+        "id": "iotkits_train_00564",
+        "group_id": "globalcc_fd0b064eb3b83e2d2081",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 0,
+        "prediction_count": 0
+      },
+      {
+        "id": "iotkits_train_00577",
+        "group_id": "globalcc_81d2fa7a65fed2ab98fc",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 0,
+        "prediction_count": 0
+      },
+      {
+        "id": "iotkits_train_00584",
+        "group_id": "globalcc_57ee6fc578c278d65143",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 0,
+        "prediction_count": 0
+      },
+      {
+        "id": "iotkits_train_00588",
+        "group_id": "globalcc_e6cfb2ee565ad8abbdd6",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 0,
+        "prediction_count": 0
+      },
+      {
+        "id": "iotkits_train_00594",
+        "group_id": "globalcc_59d4240a5a28070dae7d",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            1,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 1,
+        "prediction_count": 1
+      },
+      {
+        "id": "iotkits_train_00601",
+        "group_id": "globalcc_37e1cfb55b3d66407d40",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            1,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 1,
+        "prediction_count": 1
+      },
+      {
+        "id": "iotkits_train_00603",
+        "group_id": "globalcc_fc2f79f3348c477ed95c",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 0,
+        "prediction_count": 0
+      },
+      {
+        "id": "iotkits_train_00606",
+        "group_id": "globalcc_506db5bb9752e433d86d",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            1,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 1,
+        "prediction_count": 1
+      },
+      {
+        "id": "iotkits_train_00613",
+        "group_id": "globalcc_7583090e184766a11e5c",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 0,
+        "prediction_count": 0
+      },
+      {
+        "id": "iotkits_train_00621",
+        "group_id": "globalcc_7583090e184766a11e5c",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 0,
+        "prediction_count": 0
+      },
+      {
+        "id": "iotkits_train_00623",
+        "group_id": "globalcc_7f9739ffa724281539de",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 0,
+        "prediction_count": 0
+      },
+      {
+        "id": "iotkits_train_00632",
+        "group_id": "globalcc_9743e32a9ef538e69425",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            1,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 1,
+        "prediction_count": 1
+      },
+      {
+        "id": "iotkits_train_00634",
+        "group_id": "globalcc_78b68cbd71a2f15f9557",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 0,
+        "prediction_count": 0
+      },
+      {
+        "id": "iotkits_train_00648",
+        "group_id": "globalcc_253ec22429f0c6afda1a",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 0,
+        "prediction_count": 0
+      },
+      {
+        "id": "iotkits_train_00649",
+        "group_id": "globalcc_930b79f0ab4ed5c74be3",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 0,
+        "prediction_count": 0
+      },
+      {
+        "id": "iotkits_train_00653",
+        "group_id": "globalcc_b31a4fc2e6ba77815ac2",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 0,
+        "prediction_count": 0
+      },
+      {
+        "id": "iotkits_train_00655",
+        "group_id": "globalcc_a89bc24327e8a5955fd9",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            1,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 1,
+        "prediction_count": 1
+      },
+      {
+        "id": "iotkits_train_00658",
+        "group_id": "globalcc_b5e76a6453bc36f1ad88",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 0,
+        "prediction_count": 0
+      },
+      {
+        "id": "iotkits_train_00667",
+        "group_id": "globalcc_90473082d13ff1c3edd6",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 0,
+        "prediction_count": 0
+      },
+      {
+        "id": "iotkits_train_00673",
+        "group_id": "globalcc_325d34f1a4acc642ea16",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 0,
+        "prediction_count": 0
+      },
+      {
+        "id": "iotkits_train_00675",
+        "group_id": "globalcc_57ee6fc578c278d65143",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 0,
+        "prediction_count": 0
+      },
+      {
+        "id": "iotkits_train_00684",
+        "group_id": "globalcc_a89bc24327e8a5955fd9",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            1,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 1,
+        "prediction_count": 1
+      },
+      {
+        "id": "iotkits_train_00693",
+        "group_id": "globalcc_253ec22429f0c6afda1a",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 0,
+        "prediction_count": 0
+      },
+      {
+        "id": "iotkits_train_00698",
+        "group_id": "globalcc_896f174ff689ea7994ac",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 0,
+        "prediction_count": 0
+      },
+      {
+        "id": "iotkits_train_00700",
+        "group_id": "globalcc_7583090e184766a11e5c",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 0,
+        "prediction_count": 0
+      },
+      {
+        "id": "iotkits_train_00710",
+        "group_id": "globalcc_253ec22429f0c6afda1a",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 0,
+        "prediction_count": 0
+      },
+      {
+        "id": "iotkits_train_00718",
+        "group_id": "globalcc_bda2252c5be85349ba48",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 0,
+        "prediction_count": 0
+      },
+      {
+        "id": "iotkits_train_00722",
+        "group_id": "globalcc_7583090e184766a11e5c",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 0,
+        "prediction_count": 0
+      },
+      {
+        "id": "iotkits_train_00724",
+        "group_id": "globalcc_caa8e2448d8a2ac91447",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            1,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 1,
+        "prediction_count": 1
+      },
+      {
+        "id": "iotkits_train_00732",
+        "group_id": "globalcc_45c3c7cc4613b12e0f41",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            1,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 1,
+        "prediction_count": 1
+      },
+      {
+        "id": "iotkits_train_00735",
+        "group_id": "globalcc_8e0f2e2c921a2f6183c4",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 0,
+        "prediction_count": 0
+      },
+      {
+        "id": "iotkits_train_00741",
+        "group_id": "globalcc_84847766e47edff87b08",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            1,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 1,
+        "prediction_count": 1
+      },
+      {
+        "id": "iotkits_train_00758",
+        "group_id": "globalcc_60ac96440fae2216d4d3",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 0,
+        "prediction_count": 0
+      },
+      {
+        "id": "iotkits_train_00770",
+        "group_id": "globalcc_c2034e6b5442f85c2c71",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            1,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 1,
+        "prediction_count": 1
+      },
+      {
+        "id": "iotkits_train_00774",
+        "group_id": "globalcc_a750ea02598063ea8210",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            1,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 1,
+        "prediction_count": 1
+      },
+      {
+        "id": "iotkits_train_00780",
+        "group_id": "globalcc_6ba9ebfd223ecebe0415",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 0,
+        "prediction_count": 0
+      },
+      {
+        "id": "iotkits_train_00781",
+        "group_id": "globalcc_cbcd4c5c293b597dd35f",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            1,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 1,
+        "prediction_count": 1
+      },
+      {
+        "id": "iotkits_train_00793",
+        "group_id": "globalcc_8604b46e04ad03a76c44",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 0,
+        "prediction_count": 0
+      },
+      {
+        "id": "iotkits_train_00812",
+        "group_id": "globalcc_325d34f1a4acc642ea16",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 0,
+        "prediction_count": 0
+      },
+      {
+        "id": "iotkits_train_00818",
+        "group_id": "globalcc_fea5d3b024cd629d4844",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            1,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 1,
+        "prediction_count": 1
+      },
+      {
+        "id": "iotkits_train_00823",
+        "group_id": "globalcc_ae384061a438969c3c32",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 0,
+        "prediction_count": 0
+      },
+      {
+        "id": "iotkits_train_00824",
+        "group_id": "globalcc_f72ec5c64e55507ea2ca",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            1,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 1,
+        "prediction_count": 1
+      },
+      {
+        "id": "iotkits_train_00825",
+        "group_id": "globalcc_3c37e2083d3f88325c9e",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 0,
+        "prediction_count": 0
+      },
+      {
+        "id": "iotkits_train_00843",
+        "group_id": "globalcc_37e1cfb55b3d66407d40",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            1,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 1,
+        "prediction_count": 1
+      },
+      {
+        "id": "iotkits_train_00853",
+        "group_id": "globalcc_ed94ffe8a9319a0bbcf1",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 0,
+        "prediction_count": 0
+      },
+      {
+        "id": "iotkits_train_00859",
+        "group_id": "globalcc_ede2e5b6f99d8212a38e",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 0,
+        "prediction_count": 0
+      },
+      {
+        "id": "iotkits_train_00881",
+        "group_id": "globalcc_60ac96440fae2216d4d3",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 0,
+        "prediction_count": 0
+      },
+      {
+        "id": "iotkits_train_00883",
+        "group_id": "globalcc_7583090e184766a11e5c",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 0,
+        "prediction_count": 0
+      },
+      {
+        "id": "iotkits_train_00884",
+        "group_id": "globalcc_e810f9f64dac9080c52a",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 0,
+        "prediction_count": 0
+      },
+      {
+        "id": "iotkits_train_00886",
+        "group_id": "globalcc_8604b46e04ad03a76c44",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 0,
+        "prediction_count": 0
+      },
+      {
+        "id": "iotkits_train_00892",
+        "group_id": "globalcc_6fcce40b6d1a83da03c1",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 0,
+        "prediction_count": 0
+      },
+      {
+        "id": "iotkits_train_00899",
+        "group_id": "globalcc_3c37e2083d3f88325c9e",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 0,
+        "prediction_count": 0
+      },
+      {
+        "id": "iotkits_train_00900",
+        "group_id": "globalcc_07af648c47fdc7dc8423",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 0,
+        "prediction_count": 0
+      },
+      {
+        "id": "iotkits_train_00902",
+        "group_id": "globalcc_65e8772978e8f7306c16",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            1,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 1,
+        "prediction_count": 1
+      },
+      {
+        "id": "iotkits_train_00905",
+        "group_id": "globalcc_ce14d2cb522f2435e27b",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            1,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 1,
+        "prediction_count": 1
+      },
+      {
+        "id": "iotkits_train_00914",
+        "group_id": "globalcc_8e0f2e2c921a2f6183c4",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 0,
+        "prediction_count": 0
+      },
+      {
+        "id": "iotkits_train_00915",
+        "group_id": "globalcc_3c37e2083d3f88325c9e",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 0,
+        "prediction_count": 0
+      },
+      {
+        "id": "iotkits_train_00916",
+        "group_id": "globalcc_40d1011e58ea36c8d620",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            1,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 1,
+        "prediction_count": 1
+      },
+      {
+        "id": "iotkits_train_00927",
+        "group_id": "globalcc_1b76a8b4c5aa5bfe7ea6",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            1,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 1,
+        "prediction_count": 1
+      },
+      {
+        "id": "iotkits_train_00929",
+        "group_id": "globalcc_63ca40d097704fe4a6af",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 0,
+        "prediction_count": 0
+      },
+      {
+        "id": "iotkits_train_00938",
+        "group_id": "globalcc_7583090e184766a11e5c",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 0,
+        "prediction_count": 0
+      },
+      {
+        "id": "iotkits_train_00940",
+        "group_id": "globalcc_78b68cbd71a2f15f9557",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 0,
+        "prediction_count": 0
+      },
+      {
+        "id": "iotkits_train_00942",
+        "group_id": "globalcc_59d4240a5a28070dae7d",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            1,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 1,
+        "prediction_count": 1
+      },
+      {
+        "id": "iotkits_train_00943",
+        "group_id": "globalcc_8ab9abb34c1243bf4d70",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 0,
+        "prediction_count": 0
+      },
+      {
+        "id": "iotkits_train_00948",
+        "group_id": "globalcc_c7d564aa9b0b2042c9dd",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 0,
+        "prediction_count": 0
+      },
+      {
+        "id": "iotkits_train_00955",
+        "group_id": "globalcc_7583090e184766a11e5c",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 0,
+        "prediction_count": 0
+      },
+      {
+        "id": "iotkits_train_00957",
+        "group_id": "globalcc_0679ebccb234e82f5511",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 0,
+        "prediction_count": 0
+      },
+      {
+        "id": "iotkits_train_00966",
+        "group_id": "globalcc_a8b95011f0ebc3da1883",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            1,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 1,
+        "prediction_count": 1
+      },
+      {
+        "id": "iotkits_train_00975",
+        "group_id": "globalcc_e7c724987ff99edd1715",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 0,
+        "prediction_count": 0
+      },
+      {
+        "id": "iotkits_train_00981",
+        "group_id": "globalcc_63ca40d097704fe4a6af",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 0,
+        "prediction_count": 0
+      },
+      {
+        "id": "iotkits_train_00994",
+        "group_id": "globalcc_6a51d738e95e6f7535a1",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 0,
+        "prediction_count": 0
+      },
+      {
+        "id": "iotkits_train_00999",
+        "group_id": "globalcc_3c37e2083d3f88325c9e",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 0,
+        "prediction_count": 0
+      },
+      {
+        "id": "iotkits_train_01004",
+        "group_id": "globalcc_e095c2718281f0674b50",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            1,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 1,
+        "prediction_count": 1
+      },
+      {
+        "id": "iotkits_train_01011",
+        "group_id": "globalcc_06c62ff97f39f5337e87",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 0,
+        "prediction_count": 0
+      },
+      {
+        "id": "iotkits_train_01013",
+        "group_id": "globalcc_3c37e2083d3f88325c9e",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 0,
+        "prediction_count": 0
+      },
+      {
+        "id": "iotkits_train_01023",
+        "group_id": "globalcc_8604b46e04ad03a76c44",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 0,
+        "prediction_count": 0
+      },
+      {
+        "id": "iotkits_train_01028",
+        "group_id": "globalcc_6fcce40b6d1a83da03c1",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 0,
+        "prediction_count": 0
+      },
+      {
+        "id": "iotkits_train_01030",
+        "group_id": "globalcc_de15d33e0a4e96c0e6e5",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            1,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 1,
+        "prediction_count": 1
+      },
+      {
+        "id": "iotkits_train_01034",
+        "group_id": "globalcc_3b1a5b2264b854e7bcf1",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 0,
+        "prediction_count": 0
+      },
+      {
+        "id": "iotkits_train_01060",
+        "group_id": "globalcc_63ca40d097704fe4a6af",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 0,
+        "prediction_count": 0
+      },
+      {
+        "id": "iotkits_train_01062",
+        "group_id": "globalcc_150b04ef1c0e19cf628e",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 0,
+        "prediction_count": 0
+      },
+      {
+        "id": "iotkits_train_01075",
+        "group_id": "globalcc_794dc8a51612fa9c7580",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            1,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 1,
+        "prediction_count": 1
+      },
+      {
+        "id": "iotkits_train_01077",
+        "group_id": "globalcc_e6cfb2ee565ad8abbdd6",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 0,
+        "prediction_count": 0
+      },
+      {
+        "id": "iotkits_train_01080",
+        "group_id": "globalcc_a0d6ba78faea29cc89c8",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 0,
+        "prediction_count": 0
+      },
+      {
+        "id": "iotkits_train_01086",
+        "group_id": "globalcc_7583090e184766a11e5c",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 0,
+        "prediction_count": 0
+      },
+      {
+        "id": "iotkits_train_01096",
+        "group_id": "globalcc_742400347f0c9cd0db6f",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            1,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 1,
+        "prediction_count": 1
+      },
+      {
+        "id": "iotkits_train_01106",
+        "group_id": "globalcc_ee829e4f44b34beb0b84",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            1,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 1,
+        "prediction_count": 1
+      },
+      {
+        "id": "iotkits_train_01108",
+        "group_id": "globalcc_b75486d6de1ea355307d",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 0,
+        "prediction_count": 0
+      },
+      {
+        "id": "iotkits_train_01109",
+        "group_id": "globalcc_5afa6d2712bff6c0f7c9",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            1,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 1,
+        "prediction_count": 1
+      },
+      {
+        "id": "iotkits_train_01112",
+        "group_id": "globalcc_3ac9fd1031d16eb26a75",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            1,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 1,
+        "prediction_count": 1
+      },
+      {
+        "id": "iotkits_train_01117",
+        "group_id": "globalcc_e57cc8bfc24684bc8a9f",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            1,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 1,
+        "prediction_count": 1
+      },
+      {
+        "id": "iotkits_train_01123",
+        "group_id": "globalcc_f5ad22cb996afa3c9aac",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            1,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 1,
+        "prediction_count": 1
+      },
+      {
+        "id": "iotkits_train_01124",
+        "group_id": "globalcc_4386bdb893151e40cf95",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            1,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 1,
+        "prediction_count": 1
+      },
+      {
+        "id": "iotkits_train_01125",
+        "group_id": "globalcc_90473082d13ff1c3edd6",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 0,
+        "prediction_count": 0
+      },
+      {
+        "id": "iotkits_train_01145",
+        "group_id": "globalcc_7583090e184766a11e5c",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 0,
+        "prediction_count": 0
+      },
+      {
+        "id": "iotkits_train_01147",
+        "group_id": "globalcc_29f8920141ef1d9f3ab8",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            1,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 1,
+        "prediction_count": 1
+      },
+      {
+        "id": "iotkits_train_01148",
+        "group_id": "globalcc_f77969c5d247d9d3eb18",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            1,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 1,
+        "prediction_count": 1
+      },
+      {
+        "id": "iotkits_train_01152",
+        "group_id": "globalcc_6510d358d4a76e55a662",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 0,
+        "prediction_count": 0
+      },
+      {
+        "id": "iotkits_train_01158",
+        "group_id": "globalcc_b5e76a6453bc36f1ad88",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 0,
+        "prediction_count": 0
+      },
+      {
+        "id": "iotkits_train_01165",
+        "group_id": "globalcc_ac6465196609c5fb8050",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            0,
+            0,
+            1
+          ]
+        ],
+        "ground_truth_count": 1,
+        "prediction_count": 0
+      },
+      {
+        "id": "iotkits_train_01169",
+        "group_id": "globalcc_243c3599f37289323d9f",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 0,
+        "prediction_count": 0
+      },
+      {
+        "id": "iotkits_train_01173",
+        "group_id": "globalcc_c2034e6b5442f85c2c71",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            1,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 1,
+        "prediction_count": 1
+      },
+      {
+        "id": "iotkits_train_01186",
+        "group_id": "globalcc_7774e63c4a7bc15c7892",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            1,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 1,
+        "prediction_count": 1
+      },
+      {
+        "id": "iotkits_train_01190",
+        "group_id": "globalcc_9743e32a9ef538e69425",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            1,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 1,
+        "prediction_count": 1
+      },
+      {
+        "id": "iotkits_train_01215",
+        "group_id": "globalcc_5f5a8a3f26a33303a1c9",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 0,
+        "prediction_count": 0
+      },
+      {
+        "id": "iotkits_train_01228",
+        "group_id": "globalcc_e2ee5fb9c089971e0fcf",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 0,
+        "prediction_count": 0
+      },
+      {
+        "id": "iotkits_train_01236",
+        "group_id": "globalcc_e98e8e7d0c3d24438dbb",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            1,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 1,
+        "prediction_count": 1
+      },
+      {
+        "id": "iotkits_train_01238",
+        "group_id": "globalcc_60ac96440fae2216d4d3",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 0,
+        "prediction_count": 0
+      },
+      {
+        "id": "iotkits_train_01244",
+        "group_id": "globalcc_a8eac5d4505509fec5a0",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            1,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 1,
+        "prediction_count": 1
+      },
+      {
+        "id": "iotkits_train_01251",
+        "group_id": "globalcc_4d0e53a881baf6dbc795",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            1,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 1,
+        "prediction_count": 1
+      },
+      {
+        "id": "iotkits_train_01262",
+        "group_id": "globalcc_150b04ef1c0e19cf628e",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 0,
+        "prediction_count": 0
+      },
+      {
+        "id": "iotkits_train_01270",
+        "group_id": "globalcc_5d201330658ed3bf2ce5",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            1,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 1,
+        "prediction_count": 1
+      },
+      {
+        "id": "iotkits_train_01280",
+        "group_id": "globalcc_3c37e2083d3f88325c9e",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 0,
+        "prediction_count": 0
+      },
+      {
+        "id": "iotkits_train_01283",
+        "group_id": "globalcc_b12a79eb1280f69df5c7",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 0,
+        "prediction_count": 0
+      },
+      {
+        "id": "iotkits_train_01286",
+        "group_id": "globalcc_f5ad22cb996afa3c9aac",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            1,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 1,
+        "prediction_count": 1
+      },
+      {
+        "id": "iotkits_train_01289",
+        "group_id": "globalcc_b499c57814fed2ca27b0",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 0,
+        "prediction_count": 0
+      },
+      {
+        "id": "iotkits_train_01290",
+        "group_id": "globalcc_e2ee5fb9c089971e0fcf",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 0,
+        "prediction_count": 0
+      },
+      {
+        "id": "iotkits_train_01300",
+        "group_id": "globalcc_59d4240a5a28070dae7d",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            1,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 1,
+        "prediction_count": 1
+      },
+      {
+        "id": "iotkits_train_01304",
+        "group_id": "globalcc_8e0f2e2c921a2f6183c4",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 0,
+        "prediction_count": 0
+      },
+      {
+        "id": "iotkits_train_01307",
+        "group_id": "globalcc_89d51470ace27f685093",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 0,
+        "prediction_count": 0
+      },
+      {
+        "id": "iotkits_train_01314",
+        "group_id": "globalcc_90473082d13ff1c3edd6",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 0,
+        "prediction_count": 0
+      },
+      {
+        "id": "iotkits_train_01316",
+        "group_id": "globalcc_097909b01edabde2313e",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 0,
+        "prediction_count": 0
+      },
+      {
+        "id": "iotkits_train_01325",
+        "group_id": "globalcc_3ac9fd1031d16eb26a75",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            1,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 1,
+        "prediction_count": 1
+      },
+      {
+        "id": "iotkits_train_01330",
+        "group_id": "globalcc_61b7a3ea860fed1c23a8",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 0,
+        "prediction_count": 0
+      },
+      {
+        "id": "iotkits_train_01331",
+        "group_id": "globalcc_90473082d13ff1c3edd6",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 0,
+        "prediction_count": 0
+      },
+      {
+        "id": "iotkits_train_01338",
+        "group_id": "globalcc_e59bb275bc8a044e3cd7",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            1,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 1,
+        "prediction_count": 1
+      },
+      {
+        "id": "iotkits_train_01347",
+        "group_id": "globalcc_f81f34ae86c2488c58bd",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 0,
+        "prediction_count": 0
+      },
+      {
+        "id": "iotkits_train_01362",
+        "group_id": "globalcc_7583090e184766a11e5c",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 0,
+        "prediction_count": 0
+      },
+      {
+        "id": "iotkits_train_01369",
+        "group_id": "globalcc_7583090e184766a11e5c",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 0,
+        "prediction_count": 0
+      },
+      {
+        "id": "iotkits_train_01380",
+        "group_id": "globalcc_794dc8a51612fa9c7580",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            1,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 1,
+        "prediction_count": 1
+      },
+      {
+        "id": "iotkits_train_01387",
+        "group_id": "globalcc_e59bb275bc8a044e3cd7",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            0,
+            0,
+            1
+          ]
+        ],
+        "ground_truth_count": 1,
+        "prediction_count": 0
+      },
+      {
+        "id": "iotkits_train_01397",
+        "group_id": "globalcc_be96e0d9a1aef4109e1d",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            1,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 1,
+        "prediction_count": 1
+      },
+      {
+        "id": "iotkits_train_01400",
+        "group_id": "globalcc_b2b0d7a192d44d684f80",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            1,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 1,
+        "prediction_count": 1
+      },
+      {
+        "id": "iotkits_train_01402",
+        "group_id": "globalcc_57ee6fc578c278d65143",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 0,
+        "prediction_count": 0
+      },
+      {
+        "id": "iotkits_train_01406",
+        "group_id": "globalcc_e12c66c39fab9d972dc6",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 0,
+        "prediction_count": 0
+      },
+      {
+        "id": "iotkits_train_01425",
+        "group_id": "globalcc_07af648c47fdc7dc8423",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 0,
+        "prediction_count": 0
+      },
+      {
+        "id": "iotkits_train_01428",
+        "group_id": "globalcc_538544898bf7394f713d",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            1,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 1,
+        "prediction_count": 1
+      },
+      {
+        "id": "iotkits_train_01429",
+        "group_id": "globalcc_63ca40d097704fe4a6af",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 0,
+        "prediction_count": 0
+      },
+      {
+        "id": "iotkits_train_01434",
+        "group_id": "globalcc_befe6ce6b59ae6c33141",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            1,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 1,
+        "prediction_count": 1
+      },
+      {
+        "id": "iotkits_train_01446",
+        "group_id": "globalcc_6ba9ebfd223ecebe0415",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 0,
+        "prediction_count": 0
+      },
+      {
+        "id": "iotkits_train_01450",
+        "group_id": "globalcc_6584b63c051f0a1fc11b",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 0,
+        "prediction_count": 0
+      },
+      {
+        "id": "iotkits_train_01462",
+        "group_id": "globalcc_89d51470ace27f685093",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 0,
+        "prediction_count": 0
+      },
+      {
+        "id": "iotkits_train_01465",
+        "group_id": "globalcc_ea1cd6e0e7e9f762a21e",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 0,
+        "prediction_count": 0
+      },
+      {
+        "id": "iotkits_train_01484",
+        "group_id": "globalcc_ae384061a438969c3c32",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 0,
+        "prediction_count": 0
+      },
+      {
+        "id": "iotkits_train_01499",
+        "group_id": "globalcc_fea5d3b024cd629d4844",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            1,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 1,
+        "prediction_count": 1
+      },
+      {
+        "id": "iotkits_train_01505",
+        "group_id": "globalcc_7583090e184766a11e5c",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 0,
+        "prediction_count": 0
+      },
+      {
+        "id": "iotkits_train_01510",
+        "group_id": "globalcc_ec69892f6e6af51356f3",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            1,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 1,
+        "prediction_count": 1
+      },
+      {
+        "id": "iotkits_train_01512",
+        "group_id": "globalcc_90473082d13ff1c3edd6",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 0,
+        "prediction_count": 0
+      },
+      {
+        "id": "iotkits_train_01530",
+        "group_id": "globalcc_ac6465196609c5fb8050",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            1,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 1,
+        "prediction_count": 1
+      },
+      {
+        "id": "iotkits_train_01544",
+        "group_id": "globalcc_90473082d13ff1c3edd6",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 0,
+        "prediction_count": 0
+      },
+      {
+        "id": "iotkits_train_01547",
+        "group_id": "globalcc_eff2f50171f39db4f0da",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            1,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 1,
+        "prediction_count": 1
+      },
+      {
+        "id": "iotkits_train_01563",
+        "group_id": "globalcc_fc2f79f3348c477ed95c",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 0,
+        "prediction_count": 0
+      },
+      {
+        "id": "iotkits_train_01569",
+        "group_id": "globalcc_ac750513ccb76a29c6ea",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            1,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 1,
+        "prediction_count": 1
+      },
+      {
+        "id": "iotkits_train_01582",
+        "group_id": "globalcc_3c37e2083d3f88325c9e",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 0,
+        "prediction_count": 0
+      },
+      {
+        "id": "iotkits_train_01588",
+        "group_id": "globalcc_90473082d13ff1c3edd6",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 0,
+        "prediction_count": 0
+      },
+      {
+        "id": "iotkits_train_01590",
+        "group_id": "globalcc_c74878b4313e5e9d4525",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            1,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 1,
+        "prediction_count": 1
+      },
+      {
+        "id": "iotkits_train_01598",
+        "group_id": "globalcc_4d0e53a881baf6dbc795",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            1,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 1,
+        "prediction_count": 1
+      },
+      {
+        "id": "iotkits_train_01605",
+        "group_id": "globalcc_60ac96440fae2216d4d3",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 0,
+        "prediction_count": 0
+      },
+      {
+        "id": "iotkits_train_01608",
+        "group_id": "globalcc_9e0818b576a2fa3c9695",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 0,
+        "prediction_count": 0
+      },
+      {
+        "id": "iotkits_train_01632",
+        "group_id": "globalcc_39b09cf91157e1c43f1c",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 0,
+        "prediction_count": 0
+      },
+      {
+        "id": "iotkits_train_01633",
+        "group_id": "globalcc_06c62ff97f39f5337e87",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 0,
+        "prediction_count": 0
+      },
+      {
+        "id": "iotkits_train_01635",
+        "group_id": "globalcc_851776ed65d3fd99e4f6",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 0,
+        "prediction_count": 0
+      },
+      {
+        "id": "iotkits_train_01636",
+        "group_id": "globalcc_253ec22429f0c6afda1a",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 0,
+        "prediction_count": 0
+      },
+      {
+        "id": "iotkits_train_01639",
+        "group_id": "globalcc_bda2252c5be85349ba48",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 0,
+        "prediction_count": 0
+      },
+      {
+        "id": "iotkits_train_01642",
+        "group_id": "globalcc_a8eac5d4505509fec5a0",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            1,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 1,
+        "prediction_count": 1
+      },
+      {
+        "id": "iotkits_train_01645",
+        "group_id": "globalcc_7dc6713502fc33b7ebda",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            0,
+            0,
+            1
+          ]
+        ],
+        "ground_truth_count": 1,
+        "prediction_count": 0
+      },
+      {
+        "id": "iotkits_train_01661",
+        "group_id": "globalcc_555b7ab0254b913b4b5c",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 0,
+        "prediction_count": 0
+      },
+      {
+        "id": "iotkits_train_01663",
+        "group_id": "globalcc_37e1cfb55b3d66407d40",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            1,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 1,
+        "prediction_count": 1
+      },
+      {
+        "id": "iotkits_train_01664",
+        "group_id": "globalcc_de8a0fff1dfe18bd7549",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            1,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 1,
+        "prediction_count": 1
+      },
+      {
+        "id": "iotkits_train_01670",
+        "group_id": "globalcc_befe6ce6b59ae6c33141",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            1,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 1,
+        "prediction_count": 1
+      },
+      {
+        "id": "iotkits_train_01680",
+        "group_id": "globalcc_61b7a3ea860fed1c23a8",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 0,
+        "prediction_count": 0
+      },
+      {
+        "id": "iotkits_train_01686",
+        "group_id": "globalcc_01b44ff7b30595e27b61",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 0,
+        "prediction_count": 0
+      },
+      {
+        "id": "iotkits_train_01699",
+        "group_id": "globalcc_cf19c6cf03fa2d932ea2",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 0,
+        "prediction_count": 0
+      },
+      {
+        "id": "iotkits_train_01709",
+        "group_id": "globalcc_10320ebfe4ff2a027e9a",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 0,
+        "prediction_count": 0
+      },
+      {
+        "id": "iotkits_train_01712",
+        "group_id": "globalcc_63ca40d097704fe4a6af",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 0,
+        "prediction_count": 0
+      },
+      {
+        "id": "iotkits_train_01729",
+        "group_id": "globalcc_13edeb8eee0ae4ca24f4",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 0,
+        "prediction_count": 0
+      },
+      {
+        "id": "iotkits_train_01730",
+        "group_id": "globalcc_a152d4c206be80dee131",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 0,
+        "prediction_count": 0
+      },
+      {
+        "id": "iotkits_train_01732",
+        "group_id": "globalcc_60ac96440fae2216d4d3",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 0,
+        "prediction_count": 0
+      },
+      {
+        "id": "iotkits_train_01744",
+        "group_id": "globalcc_e278ae659a840186d40d",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            1,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 1,
+        "prediction_count": 1
+      },
+      {
+        "id": "iotkits_train_01750",
+        "group_id": "globalcc_253ec22429f0c6afda1a",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 0,
+        "prediction_count": 0
+      },
+      {
+        "id": "iotkits_train_01751",
+        "group_id": "globalcc_61b7a3ea860fed1c23a8",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 0,
+        "prediction_count": 0
+      },
+      {
+        "id": "iotkits_train_01754",
+        "group_id": "globalcc_7774e63c4a7bc15c7892",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            1,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 1,
+        "prediction_count": 1
+      },
+      {
+        "id": "iotkits_train_01756",
+        "group_id": "globalcc_930b79f0ab4ed5c74be3",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 0,
+        "prediction_count": 0
+      },
+      {
+        "id": "iotkits_train_01762",
+        "group_id": "globalcc_ffd25bb758e7570c4ee6",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 0,
+        "prediction_count": 0
+      },
+      {
+        "id": "iotkits_train_01763",
+        "group_id": "globalcc_a750ea02598063ea8210",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            1,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 1,
+        "prediction_count": 1
+      },
+      {
+        "id": "iotkits_train_01771",
+        "group_id": "globalcc_57ee6fc578c278d65143",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 0,
+        "prediction_count": 0
+      },
+      {
+        "id": "iotkits_train_01777",
+        "group_id": "globalcc_ef2bb253331ae1143ae3",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 0,
+        "prediction_count": 0
+      },
+      {
+        "id": "iotkits_train_01785",
+        "group_id": "globalcc_aca7717530e6fdac1dd5",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            1,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 1,
+        "prediction_count": 1
+      },
+      {
+        "id": "iotkits_train_01793",
+        "group_id": "globalcc_fde7bad2eba0a6a0eede",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            1,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 1,
+        "prediction_count": 1
+      },
+      {
+        "id": "iotkits_train_01804",
+        "group_id": "globalcc_50812cca6d96f21a9d3f",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 0,
+        "prediction_count": 0
+      },
+      {
+        "id": "iotkits_train_01808",
+        "group_id": "globalcc_c74878b4313e5e9d4525",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            1,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 1,
+        "prediction_count": 1
+      },
+      {
+        "id": "iotkits_train_01814",
+        "group_id": "globalcc_794dc8a51612fa9c7580",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            1,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 1,
+        "prediction_count": 1
+      },
+      {
+        "id": "iotkits_train_01820",
+        "group_id": "globalcc_df5b788a011cb374d91d",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            1,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 1,
+        "prediction_count": 1
+      },
+      {
+        "id": "iotkits_train_01824",
+        "group_id": "globalcc_90473082d13ff1c3edd6",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 0,
+        "prediction_count": 0
+      },
+      {
+        "id": "iotkits_train_01835",
+        "group_id": "globalcc_8e0f2e2c921a2f6183c4",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 0,
+        "prediction_count": 0
+      },
+      {
+        "id": "iotkits_train_01842",
+        "group_id": "globalcc_2046c72b23b1a532eee0",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 0,
+        "prediction_count": 0
+      },
+      {
+        "id": "iotkits_train_01851",
+        "group_id": "globalcc_150b04ef1c0e19cf628e",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 0,
+        "prediction_count": 0
+      },
+      {
+        "id": "iotkits_train_01856",
+        "group_id": "globalcc_eff2f50171f39db4f0da",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            1,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 1,
+        "prediction_count": 1
+      },
+      {
+        "id": "iotkits_train_01859",
+        "group_id": "globalcc_3944b35ec84fb08096ed",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 0,
+        "prediction_count": 0
+      },
+      {
+        "id": "iotkits_train_01862",
+        "group_id": "globalcc_a6884e0a270477667d5a",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            1,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 1,
+        "prediction_count": 1
+      },
+      {
+        "id": "iotkits_train_01870",
+        "group_id": "globalcc_3c37e2083d3f88325c9e",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 0,
+        "prediction_count": 0
+      },
+      {
+        "id": "iotkits_train_01872",
+        "group_id": "globalcc_44b290abe074fc0bfe83",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 0,
+        "prediction_count": 0
+      },
+      {
+        "id": "iotkits_train_01881",
+        "group_id": "globalcc_82157eaa126fe4bff88b",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 0,
+        "prediction_count": 0
+      },
+      {
+        "id": "iotkits_train_01891",
+        "group_id": "globalcc_3c37e2083d3f88325c9e",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 0,
+        "prediction_count": 0
+      },
+      {
+        "id": "iotkits_train_01892",
+        "group_id": "globalcc_eff2f50171f39db4f0da",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            1,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 1,
+        "prediction_count": 1
+      },
+      {
+        "id": "iotkits_train_01898",
+        "group_id": "globalcc_f2ea153e2e48c9733d47",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            1,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 1,
+        "prediction_count": 1
+      },
+      {
+        "id": "iotkits_train_01902",
+        "group_id": "globalcc_8e0f2e2c921a2f6183c4",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 0,
+        "prediction_count": 0
+      },
+      {
+        "id": "iotkits_train_01908",
+        "group_id": "globalcc_c55fec1a89d060e75e05",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 0,
+        "prediction_count": 0
+      },
+      {
+        "id": "iotkits_train_01912",
+        "group_id": "globalcc_f139daf66c46146af75c",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 0,
+        "prediction_count": 0
+      },
+      {
+        "id": "iotkits_train_01916",
+        "group_id": "globalcc_6510d358d4a76e55a662",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 0,
+        "prediction_count": 0
+      },
+      {
+        "id": "iotkits_train_01921",
+        "group_id": "globalcc_ee829e4f44b34beb0b84",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            1,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 1,
+        "prediction_count": 1
+      },
+      {
+        "id": "iotkits_train_01931",
+        "group_id": "globalcc_dd264f39986c4a0f2462",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 0,
+        "prediction_count": 0
+      },
+      {
+        "id": "iotkits_train_01933",
+        "group_id": "globalcc_98b2bd50f4ab1b1e2cfb",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 0,
+        "prediction_count": 0
+      },
+      {
+        "id": "iotkits_train_01935",
+        "group_id": "globalcc_1e00023be0f0252da04d",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            1,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 1,
+        "prediction_count": 1
+      },
+      {
+        "id": "iotkits_train_01944",
+        "group_id": "globalcc_3a9787f4fd9ad081bb78",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 0,
+        "prediction_count": 0
+      },
+      {
+        "id": "iotkits_train_01953",
+        "group_id": "globalcc_f81f34ae86c2488c58bd",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 0,
+        "prediction_count": 0
+      },
+      {
+        "id": "iotkits_train_01961",
+        "group_id": "globalcc_ee829e4f44b34beb0b84",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            1,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 1,
+        "prediction_count": 1
+      },
+      {
+        "id": "iotkits_train_01973",
+        "group_id": "globalcc_3c37e2083d3f88325c9e",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 0,
+        "prediction_count": 0
+      },
+      {
+        "id": "iotkits_train_01984",
+        "group_id": "globalcc_78b68cbd71a2f15f9557",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 0,
+        "prediction_count": 0
+      },
+      {
+        "id": "iotkits_train_01987",
+        "group_id": "globalcc_10320ebfe4ff2a027e9a",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 0,
+        "prediction_count": 0
+      },
+      {
+        "id": "iotkits_train_01993",
+        "group_id": "globalcc_60ac96440fae2216d4d3",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 0,
+        "prediction_count": 0
+      },
+      {
+        "id": "iotkits_train_02020",
+        "group_id": "globalcc_61b7a3ea860fed1c23a8",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 0,
+        "prediction_count": 0
+      },
+      {
+        "id": "iotkits_train_02024",
+        "group_id": "globalcc_e278ae659a840186d40d",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            1,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 1,
+        "prediction_count": 1
+      },
+      {
+        "id": "iotkits_train_02029",
+        "group_id": "globalcc_dd264f39986c4a0f2462",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 0,
+        "prediction_count": 0
+      },
+      {
+        "id": "iotkits_train_02030",
+        "group_id": "globalcc_9e3f6e680b101caa6980",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 0,
+        "prediction_count": 0
+      },
+      {
+        "id": "iotkits_train_02033",
+        "group_id": "globalcc_6ba9ebfd223ecebe0415",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 0,
+        "prediction_count": 0
+      },
+      {
+        "id": "iotkits_train_02035",
+        "group_id": "globalcc_253ec22429f0c6afda1a",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 0,
+        "prediction_count": 0
+      },
+      {
+        "id": "iotkits_train_02043",
+        "group_id": "globalcc_b31a4fc2e6ba77815ac2",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 0,
+        "prediction_count": 0
+      },
+      {
+        "id": "iotkits_train_02054",
+        "group_id": "globalcc_7b4bd00115f9509958d0",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 0,
+        "prediction_count": 0
+      },
+      {
+        "id": "iotkits_train_02055",
+        "group_id": "globalcc_96b9ae5f9e7c4b6dea79",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            1,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 1,
+        "prediction_count": 1
+      },
+      {
+        "id": "iotkits_train_02056",
+        "group_id": "globalcc_a152d4c206be80dee131",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 0,
+        "prediction_count": 0
+      },
+      {
+        "id": "iotkits_train_02065",
+        "group_id": "globalcc_8e0f2e2c921a2f6183c4",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 0,
+        "prediction_count": 0
+      },
+      {
+        "id": "iotkits_train_02070",
+        "group_id": "globalcc_6a51d738e95e6f7535a1",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 0,
+        "prediction_count": 0
+      },
+      {
+        "id": "iotkits_train_02079",
+        "group_id": "globalcc_7583090e184766a11e5c",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 0,
+        "prediction_count": 0
+      },
+      {
+        "id": "iotkits_train_02087",
+        "group_id": "globalcc_a6884e0a270477667d5a",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            1,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 1,
+        "prediction_count": 1
+      },
+      {
+        "id": "iotkits_train_02088",
+        "group_id": "globalcc_89420962c833ce640f69",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 0,
+        "prediction_count": 0
+      },
+      {
+        "id": "iotkits_train_02089",
+        "group_id": "globalcc_b82ab118159981a3aaf8",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            1,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 1,
+        "prediction_count": 1
+      },
+      {
+        "id": "iotkits_train_02090",
+        "group_id": "globalcc_57ee6fc578c278d65143",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 0,
+        "prediction_count": 0
+      },
+      {
+        "id": "iotkits_train_02091",
+        "group_id": "globalcc_3a9787f4fd9ad081bb78",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 0,
+        "prediction_count": 0
+      },
+      {
+        "id": "iotkits_train_02093",
+        "group_id": "globalcc_ab5857a6973bd8b64df7",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 0,
+        "prediction_count": 0
+      },
+      {
+        "id": "iotkits_train_02095",
+        "group_id": "globalcc_a8eac5d4505509fec5a0",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            1,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 1,
+        "prediction_count": 1
+      },
+      {
+        "id": "iotkits_train_02103",
+        "group_id": "globalcc_c4edf56c3278ba21c8d5",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            1,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 1,
+        "prediction_count": 1
+      },
+      {
+        "id": "iotkits_train_02112",
+        "group_id": "globalcc_61b7a3ea860fed1c23a8",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 0,
+        "prediction_count": 0
+      },
+      {
+        "id": "iotkits_train_02118",
+        "group_id": "globalcc_c74878b4313e5e9d4525",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            1,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 1,
+        "prediction_count": 1
+      },
+      {
+        "id": "iotkits_train_02119",
+        "group_id": "globalcc_3c37e2083d3f88325c9e",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            1,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 1,
+        "prediction_count": 1
+      },
+      {
+        "id": "iotkits_train_02126",
+        "group_id": "globalcc_3a9787f4fd9ad081bb78",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 0,
+        "prediction_count": 0
+      },
+      {
+        "id": "iotkits_train_02136",
+        "group_id": "globalcc_a8b95011f0ebc3da1883",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            1,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 1,
+        "prediction_count": 1
+      },
+      {
+        "id": "iotkits_train_02140",
+        "group_id": "globalcc_3b1a5b2264b854e7bcf1",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 0,
+        "prediction_count": 0
+      },
+      {
+        "id": "iotkits_train_02149",
+        "group_id": "globalcc_fc2f79f3348c477ed95c",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 0,
+        "prediction_count": 0
+      },
+      {
+        "id": "iotkits_train_02162",
+        "group_id": "globalcc_8e0f2e2c921a2f6183c4",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 0,
+        "prediction_count": 0
+      },
+      {
+        "id": "iotkits_train_02165",
+        "group_id": "globalcc_1f59671736b1764f8f75",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            1,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 1,
+        "prediction_count": 1
+      },
+      {
+        "id": "iotkits_train_02170",
+        "group_id": "globalcc_5e86aeba280cbe67e695",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            1,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 1,
+        "prediction_count": 1
+      },
+      {
+        "id": "iotkits_train_02172",
+        "group_id": "globalcc_3c37e2083d3f88325c9e",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 0,
+        "prediction_count": 0
+      },
+      {
+        "id": "iotkits_train_02178",
+        "group_id": "globalcc_63ca40d097704fe4a6af",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 0,
+        "prediction_count": 0
+      },
+      {
+        "id": "iotkits_train_02181",
+        "group_id": "globalcc_41414c53d3c64b7fc302",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 0,
+        "prediction_count": 0
+      },
+      {
+        "id": "iotkits_train_02183",
+        "group_id": "globalcc_7f9739ffa724281539de",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 0,
+        "prediction_count": 0
+      },
+      {
+        "id": "iotkits_train_02184",
+        "group_id": "globalcc_a152d4c206be80dee131",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 0,
+        "prediction_count": 0
+      },
+      {
+        "id": "iotkits_train_02187",
+        "group_id": "globalcc_e810f9f64dac9080c52a",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 0,
+        "prediction_count": 0
+      },
+      {
+        "id": "iotkits_train_02190",
+        "group_id": "globalcc_46093e9e7cfde7da41b8",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 0,
+        "prediction_count": 0
+      },
+      {
+        "id": "iotkits_train_02191",
+        "group_id": "globalcc_60ac96440fae2216d4d3",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 0,
+        "prediction_count": 0
+      },
+      {
+        "id": "iotkits_train_02192",
+        "group_id": "globalcc_de15d33e0a4e96c0e6e5",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            1,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 1,
+        "prediction_count": 1
+      },
+      {
+        "id": "iotkits_train_02196",
+        "group_id": "globalcc_90473082d13ff1c3edd6",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 0,
+        "prediction_count": 0
+      },
+      {
+        "id": "iotkits_train_02209",
+        "group_id": "globalcc_3a9787f4fd9ad081bb78",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 0,
+        "prediction_count": 0
+      },
+      {
+        "id": "iotkits_train_02210",
+        "group_id": "globalcc_f81f34ae86c2488c58bd",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 0,
+        "prediction_count": 0
+      },
+      {
+        "id": "iotkits_train_02217",
+        "group_id": "globalcc_506db5bb9752e433d86d",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            1,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 1,
+        "prediction_count": 1
+      },
+      {
+        "id": "iotkits_train_02227",
+        "group_id": "globalcc_a38a64fbc808dfb72bdd",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            1,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 1,
+        "prediction_count": 1
+      },
+      {
+        "id": "iotkits_train_02235",
+        "group_id": "globalcc_cb75a31452607d824ef0",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 0,
+        "prediction_count": 0
+      },
+      {
+        "id": "iotkits_train_02240",
+        "group_id": "globalcc_4386bdb893151e40cf95",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            1,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 1,
+        "prediction_count": 1
+      },
+      {
+        "id": "iotkits_train_02248",
+        "group_id": "globalcc_e810f9f64dac9080c52a",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 0,
+        "prediction_count": 0
+      },
+      {
+        "id": "iotkits_train_02250",
+        "group_id": "globalcc_90473082d13ff1c3edd6",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 0,
+        "prediction_count": 0
+      },
+      {
+        "id": "iotkits_train_02251",
+        "group_id": "globalcc_555b7ab0254b913b4b5c",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 0,
+        "prediction_count": 0
+      },
+      {
+        "id": "iotkits_train_02257",
+        "group_id": "globalcc_90473082d13ff1c3edd6",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 0,
+        "prediction_count": 0
+      },
+      {
+        "id": "iotkits_train_02261",
+        "group_id": "globalcc_742400347f0c9cd0db6f",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            1,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 1,
+        "prediction_count": 1
+      },
+      {
+        "id": "iotkits_train_02264",
+        "group_id": "globalcc_c5333a6161285c6ddb09",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            1,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 1,
+        "prediction_count": 1
+      },
+      {
+        "id": "iotkits_train_02267",
+        "group_id": "globalcc_555b7ab0254b913b4b5c",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 0,
+        "prediction_count": 0
+      },
+      {
+        "id": "iotkits_train_02271",
+        "group_id": "globalcc_e8204d2688cc43ff2fc3",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            1,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 1,
+        "prediction_count": 1
+      },
+      {
+        "id": "iotkits_train_02274",
+        "group_id": "globalcc_90473082d13ff1c3edd6",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 0,
+        "prediction_count": 0
+      },
+      {
+        "id": "iotkits_train_02285",
+        "group_id": "globalcc_f77969c5d247d9d3eb18",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            1,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 1,
+        "prediction_count": 1
+      },
+      {
+        "id": "iotkits_train_02286",
+        "group_id": "globalcc_c32efb93f29e8bd23d17",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            1,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 1,
+        "prediction_count": 1
+      },
+      {
+        "id": "iotkits_train_02288",
+        "group_id": "globalcc_e095c2718281f0674b50",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            1,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 1,
+        "prediction_count": 1
+      },
+      {
+        "id": "iotkits_train_02291",
+        "group_id": "globalcc_06423aea90ae355e041b",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            1,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 1,
+        "prediction_count": 1
+      },
+      {
+        "id": "iotkits_train_02321",
+        "group_id": "globalcc_f68d5e0345d6c7fa379a",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 0,
+        "prediction_count": 0
+      },
+      {
+        "id": "iotkits_train_02322",
+        "group_id": "globalcc_253ec22429f0c6afda1a",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 0,
+        "prediction_count": 0
+      },
+      {
+        "id": "iotkits_train_02326",
+        "group_id": "globalcc_5f5a8a3f26a33303a1c9",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 0,
+        "prediction_count": 0
+      },
+      {
+        "id": "iotkits_train_02327",
+        "group_id": "globalcc_8ab9abb34c1243bf4d70",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 0,
+        "prediction_count": 0
+      },
+      {
+        "id": "iotkits_train_02337",
+        "group_id": "globalcc_41414c53d3c64b7fc302",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 0,
+        "prediction_count": 0
+      },
+      {
+        "id": "iotkits_train_02345",
+        "group_id": "globalcc_4079f50bc4d132a93721",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 0,
+        "prediction_count": 0
+      },
+      {
+        "id": "iotkits_train_02346",
+        "group_id": "globalcc_8e0f2e2c921a2f6183c4",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 0,
+        "prediction_count": 0
+      },
+      {
+        "id": "iotkits_train_02351",
+        "group_id": "globalcc_abfdbd315d2ae5cf09e2",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 0,
+        "prediction_count": 0
+      },
+      {
+        "id": "iotkits_train_02364",
+        "group_id": "globalcc_57ee6fc578c278d65143",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 0,
+        "prediction_count": 0
+      },
+      {
+        "id": "iotkits_train_02365",
+        "group_id": "globalcc_e1c243a5a4f63cb606af",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            1,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 1,
+        "prediction_count": 1
+      },
+      {
+        "id": "iotkits_train_02381",
+        "group_id": "globalcc_a152d4c206be80dee131",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 0,
+        "prediction_count": 0
+      },
+      {
+        "id": "iotkits_train_02387",
+        "group_id": "globalcc_3c37e2083d3f88325c9e",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 0,
+        "prediction_count": 0
+      },
+      {
+        "id": "iotkits_train_02395",
+        "group_id": "globalcc_3c37e2083d3f88325c9e",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 0,
+        "prediction_count": 0
+      },
+      {
+        "id": "iotkits_train_02397",
+        "group_id": "globalcc_06423aea90ae355e041b",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            1,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 1,
+        "prediction_count": 1
+      },
+      {
+        "id": "iotkits_train_02404",
+        "group_id": "globalcc_8e0f2e2c921a2f6183c4",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 0,
+        "prediction_count": 0
+      },
+      {
+        "id": "iotkits_train_02408",
+        "group_id": "globalcc_21ab014e2b97819041b5",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            1,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 1,
+        "prediction_count": 1
+      },
+      {
+        "id": "iotkits_train_02416",
+        "group_id": "globalcc_253ec22429f0c6afda1a",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 0,
+        "prediction_count": 0
+      },
+      {
+        "id": "iotkits_train_02421",
+        "group_id": "globalcc_39813692215f044c1394",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 0,
+        "prediction_count": 0
+      },
+      {
+        "id": "iotkits_train_02423",
+        "group_id": "globalcc_930b79f0ab4ed5c74be3",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 0,
+        "prediction_count": 0
+      },
+      {
+        "id": "iotkits_train_02429",
+        "group_id": "globalcc_93e71d6a4c27097e76fb",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 0,
+        "prediction_count": 0
+      },
+      {
+        "id": "iotkits_train_02438",
+        "group_id": "globalcc_7583090e184766a11e5c",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 0,
+        "prediction_count": 0
+      },
+      {
+        "id": "iotkits_train_02444",
+        "group_id": "globalcc_f2ea153e2e48c9733d47",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            1,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 1,
+        "prediction_count": 1
+      },
+      {
+        "id": "iotkits_train_02458",
+        "group_id": "globalcc_e7ce409f76eaed282555",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            1,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 1,
+        "prediction_count": 1
+      },
+      {
+        "id": "iotkits_train_02459",
+        "group_id": "globalcc_06f91c0ea71492552290",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 0,
+        "prediction_count": 0
+      },
+      {
+        "id": "iotkits_train_02461",
+        "group_id": "globalcc_e6cfb2ee565ad8abbdd6",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 0,
+        "prediction_count": 0
+      },
+      {
+        "id": "iotkits_train_02468",
+        "group_id": "globalcc_06423aea90ae355e041b",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            1,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 1,
+        "prediction_count": 1
+      },
+      {
+        "id": "iotkits_train_02469",
+        "group_id": "globalcc_6ba9ebfd223ecebe0415",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 0,
+        "prediction_count": 0
+      },
+      {
+        "id": "iotkits_train_02472",
+        "group_id": "globalcc_8a3bc0f19654d79c5d85",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 0,
+        "prediction_count": 0
+      },
+      {
+        "id": "iotkits_train_02481",
+        "group_id": "globalcc_555b7ab0254b913b4b5c",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 0,
+        "prediction_count": 0
+      },
+      {
+        "id": "iotkits_valid_00000",
+        "group_id": "globalcc_7583090e184766a11e5c",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 0,
+        "prediction_count": 0
+      },
+      {
+        "id": "iotkits_valid_00017",
+        "group_id": "globalcc_0b9045d74cfd4087e9d9",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 0,
+        "prediction_count": 0
+      },
+      {
+        "id": "iotkits_valid_00022",
+        "group_id": "globalcc_706f8552ee4cd8da7f63",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            1,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 1,
+        "prediction_count": 1
+      },
+      {
+        "id": "iotkits_valid_00024",
+        "group_id": "globalcc_3f3444917e4f2a53efb9",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            1,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 1,
+        "prediction_count": 1
+      },
+      {
+        "id": "iotkits_valid_00032",
+        "group_id": "globalcc_4386bdb893151e40cf95",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            1,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 1,
+        "prediction_count": 1
+      },
+      {
+        "id": "iotkits_valid_00033",
+        "group_id": "globalcc_94f6a175f6a61c759160",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 0,
+        "prediction_count": 0
+      },
+      {
+        "id": "iotkits_valid_00054",
+        "group_id": "globalcc_d3230962988a5ae1c898",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            0,
+            1,
+            0
+          ]
+        ],
+        "ground_truth_count": 0,
+        "prediction_count": 1
+      },
+      {
+        "id": "iotkits_valid_00055",
+        "group_id": "globalcc_60ac96440fae2216d4d3",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 0,
+        "prediction_count": 0
+      },
+      {
+        "id": "iotkits_valid_00070",
+        "group_id": "globalcc_90473082d13ff1c3edd6",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 0,
+        "prediction_count": 0
+      },
+      {
+        "id": "iotkits_valid_00074",
+        "group_id": "globalcc_2046c72b23b1a532eee0",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            0,
+            1,
+            0
+          ]
+        ],
+        "ground_truth_count": 0,
+        "prediction_count": 1
+      },
+      {
+        "id": "iotkits_valid_00076",
+        "group_id": "globalcc_742400347f0c9cd0db6f",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            1,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 1,
+        "prediction_count": 1
+      },
+      {
+        "id": "iotkits_valid_00077",
+        "group_id": "globalcc_a6bb63b36f291f6a2d77",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 0,
+        "prediction_count": 0
+      },
+      {
+        "id": "iotkits_valid_00087",
+        "group_id": "globalcc_f2ea153e2e48c9733d47",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            1,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 1,
+        "prediction_count": 1
+      },
+      {
+        "id": "iotkits_valid_00092",
+        "group_id": "globalcc_57ee6fc578c278d65143",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 0,
+        "prediction_count": 0
+      },
+      {
+        "id": "iotkits_valid_00099",
+        "group_id": "globalcc_acf60dcba3fdf817372b",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 0,
+        "prediction_count": 0
+      },
+      {
+        "id": "iotkits_valid_00101",
+        "group_id": "globalcc_b3254b6b39dbaa26b75e",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 0,
+        "prediction_count": 0
+      },
+      {
+        "id": "iotkits_valid_00109",
+        "group_id": "globalcc_ae384061a438969c3c32",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 0,
+        "prediction_count": 0
+      },
+      {
+        "id": "iotkits_valid_00111",
+        "group_id": "globalcc_9743e32a9ef538e69425",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            1,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 1,
+        "prediction_count": 1
+      },
+      {
+        "id": "iotkits_valid_00119",
+        "group_id": "globalcc_b0c051762e8a79769fe7",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            1,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 1,
+        "prediction_count": 1
+      },
+      {
+        "id": "iotkits_valid_00129",
+        "group_id": "globalcc_7583090e184766a11e5c",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 0,
+        "prediction_count": 0
+      },
+      {
+        "id": "iotkits_valid_00130",
+        "group_id": "globalcc_8a3bc0f19654d79c5d85",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 0,
+        "prediction_count": 0
+      },
+      {
+        "id": "iotkits_valid_00144",
+        "group_id": "globalcc_3341f13cb19e4bb3d134",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 0,
+        "prediction_count": 0
+      },
+      {
+        "id": "iotkits_valid_00154",
+        "group_id": "globalcc_90473082d13ff1c3edd6",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 0,
+        "prediction_count": 0
+      },
+      {
+        "id": "iotkits_valid_00157",
+        "group_id": "globalcc_a6884e0a270477667d5a",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            1,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 1,
+        "prediction_count": 1
+      },
+      {
+        "id": "iotkits_valid_00160",
+        "group_id": "globalcc_e1c243a5a4f63cb606af",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            1,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 1,
+        "prediction_count": 1
+      },
+      {
+        "id": "iotkits_valid_00166",
+        "group_id": "globalcc_fde7bad2eba0a6a0eede",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            1,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 1,
+        "prediction_count": 1
+      },
+      {
+        "id": "iotkits_valid_00168",
+        "group_id": "globalcc_ce14d2cb522f2435e27b",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            1,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 1,
+        "prediction_count": 1
+      },
+      {
+        "id": "iotkits_valid_00175",
+        "group_id": "globalcc_c05d015346ddf845cf97",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 0,
+        "prediction_count": 0
+      },
+      {
+        "id": "iotkits_valid_00179",
+        "group_id": "globalcc_a4732f96d45f28a55fec",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            1,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 1,
+        "prediction_count": 1
+      },
+      {
+        "id": "iotkits_valid_00184",
+        "group_id": "globalcc_706f8552ee4cd8da7f63",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            1,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 1,
+        "prediction_count": 1
+      },
+      {
+        "id": "iotkits_valid_00194",
+        "group_id": "globalcc_90473082d13ff1c3edd6",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 0,
+        "prediction_count": 0
+      },
+      {
+        "id": "iotkits_valid_00196",
+        "group_id": "globalcc_61b7a3ea860fed1c23a8",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 0,
+        "prediction_count": 0
+      },
+      {
+        "id": "iotkits_valid_00204",
+        "group_id": "globalcc_e59bb275bc8a044e3cd7",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            0,
+            0,
+            1
+          ]
+        ],
+        "ground_truth_count": 1,
+        "prediction_count": 0
+      },
+      {
+        "id": "iotkits_valid_00205",
+        "group_id": "globalcc_57968369575a3503756b",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 0,
+        "prediction_count": 0
+      },
+      {
+        "id": "iotkits_valid_00209",
+        "group_id": "globalcc_5f5a8a3f26a33303a1c9",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 0,
+        "prediction_count": 0
+      },
+      {
+        "id": "iotkits_valid_00212",
+        "group_id": "globalcc_6584b63c051f0a1fc11b",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 0,
+        "prediction_count": 0
+      },
+      {
+        "id": "iotkits_valid_00214",
+        "group_id": "globalcc_45c3c7cc4613b12e0f41",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            1,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 1,
+        "prediction_count": 1
+      },
+      {
+        "id": "iotkits_valid_00217",
+        "group_id": "globalcc_3f3444917e4f2a53efb9",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            1,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 1,
+        "prediction_count": 1
+      },
+      {
+        "id": "iotkits_valid_00219",
+        "group_id": "globalcc_994dca72839c84e20a7d",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            1,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 1,
+        "prediction_count": 1
+      },
+      {
+        "id": "iotkits_valid_00222",
+        "group_id": "globalcc_8a3bc0f19654d79c5d85",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 0,
+        "prediction_count": 0
+      },
+      {
+        "id": "iotkits_valid_00231",
+        "group_id": "globalcc_63ca40d097704fe4a6af",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 0,
+        "prediction_count": 0
+      },
+      {
+        "id": "iotkits_valid_00235",
+        "group_id": "globalcc_0679ebccb234e82f5511",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 0,
+        "prediction_count": 0
+      },
+      {
+        "id": "iotkits_valid_00248",
+        "group_id": "globalcc_94f6a175f6a61c759160",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 0,
+        "prediction_count": 0
+      },
+      {
+        "id": "iotkits_valid_00262",
+        "group_id": "globalcc_e095c2718281f0674b50",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            1,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 1,
+        "prediction_count": 1
+      },
+      {
+        "id": "iotkits_valid_00270",
+        "group_id": "globalcc_89420962c833ce640f69",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 0,
+        "prediction_count": 0
+      },
+      {
+        "id": "iotkits_valid_00271",
+        "group_id": "globalcc_e7c724987ff99edd1715",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 0,
+        "prediction_count": 0
+      },
+      {
+        "id": "iotkits_valid_00279",
+        "group_id": "globalcc_90473082d13ff1c3edd6",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 0,
+        "prediction_count": 0
+      },
+      {
+        "id": "iotkits_valid_00281",
+        "group_id": "globalcc_90473082d13ff1c3edd6",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 0,
+        "prediction_count": 0
+      },
+      {
+        "id": "iotkits_valid_00290",
+        "group_id": "globalcc_7e4e09279e506762284b",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 0,
+        "prediction_count": 0
+      },
+      {
+        "id": "iotkits_valid_00293",
+        "group_id": "globalcc_de8a0fff1dfe18bd7549",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            1,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 1,
+        "prediction_count": 1
+      },
+      {
+        "id": "iotkits_valid_00301",
+        "group_id": "globalcc_63ca40d097704fe4a6af",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 0,
+        "prediction_count": 0
+      },
+      {
+        "id": "iotkits_valid_00307",
+        "group_id": "globalcc_b499c57814fed2ca27b0",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            0,
+            1,
+            0
+          ]
+        ],
+        "ground_truth_count": 0,
+        "prediction_count": 1
+      },
+      {
+        "id": "iotkits_valid_00308",
+        "group_id": "globalcc_c92583fcfa4d24583225",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            1,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 1,
+        "prediction_count": 1
+      },
+      {
+        "id": "iotkits_valid_00336",
+        "group_id": "globalcc_f64488e0ef46c0b6f21a",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 0,
+        "prediction_count": 0
+      },
+      {
+        "id": "iotkits_valid_00338",
+        "group_id": "globalcc_90473082d13ff1c3edd6",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 0,
+        "prediction_count": 0
+      },
+      {
+        "id": "iotkits_valid_00345",
+        "group_id": "globalcc_dfe913800a3b3a27c1f5",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 0,
+        "prediction_count": 0
+      },
+      {
+        "id": "iotkits_valid_00347",
+        "group_id": "globalcc_bda2252c5be85349ba48",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 0,
+        "prediction_count": 0
+      },
+      {
+        "id": "iotkits_valid_00362",
+        "group_id": "globalcc_c7d564aa9b0b2042c9dd",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 0,
+        "prediction_count": 0
+      },
+      {
+        "id": "iotkits_valid_00365",
+        "group_id": "globalcc_aca7717530e6fdac1dd5",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            1,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 1,
+        "prediction_count": 1
+      },
+      {
+        "id": "iotkits_valid_00374",
+        "group_id": "globalcc_a6bb63b36f291f6a2d77",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 0,
+        "prediction_count": 0
+      },
+      {
+        "id": "iotkits_valid_00386",
+        "group_id": "globalcc_2cbcfd186dda0c386712",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 0,
+        "prediction_count": 0
+      },
+      {
+        "id": "iotkits_valid_00413",
+        "group_id": "globalcc_131af4be75239164d643",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            1,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 1,
+        "prediction_count": 1
+      },
+      {
+        "id": "iotkits_valid_00430",
+        "group_id": "globalcc_ae384061a438969c3c32",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 0,
+        "prediction_count": 0
+      },
+      {
+        "id": "iotkits_valid_00438",
+        "group_id": "globalcc_89420962c833ce640f69",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 0,
+        "prediction_count": 0
+      },
+      {
+        "id": "iotkits_valid_00443",
+        "group_id": "globalcc_1e00023be0f0252da04d",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            1,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 1,
+        "prediction_count": 1
+      },
+      {
+        "id": "iotkits_valid_00448",
+        "group_id": "globalcc_32ef2b4718e4469a6a7d",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            1,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 1,
+        "prediction_count": 1
+      },
+      {
+        "id": "iotkits_valid_00452",
+        "group_id": "globalcc_bda2252c5be85349ba48",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 0,
+        "prediction_count": 0
+      },
+      {
+        "id": "iotkits_valid_00454",
+        "group_id": "globalcc_8e0f2e2c921a2f6183c4",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 0,
+        "prediction_count": 0
+      },
+      {
+        "id": "iotkits_valid_00456",
+        "group_id": "globalcc_3e886910243284134323",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 0,
+        "prediction_count": 0
+      },
+      {
+        "id": "iotkits_valid_00478",
+        "group_id": "globalcc_57ee6fc578c278d65143",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 0,
+        "prediction_count": 0
+      },
+      {
+        "id": "iotkits_valid_00481",
+        "group_id": "globalcc_55bddc99c9951e1c77da",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 0,
+        "prediction_count": 0
+      },
+      {
+        "id": "iotkits_valid_00494",
+        "group_id": "globalcc_63ca40d097704fe4a6af",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 0,
+        "prediction_count": 0
+      },
+      {
+        "id": "iotkits_valid_00497",
+        "group_id": "globalcc_18fc9c54cef13afb5ed2",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            1,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 1,
+        "prediction_count": 1
+      },
+      {
+        "id": "iotkits_valid_00514",
+        "group_id": "globalcc_de15d33e0a4e96c0e6e5",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            1,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 1,
+        "prediction_count": 1
+      },
+      {
+        "id": "iotkits_valid_00516",
+        "group_id": "globalcc_131af4be75239164d643",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            1,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 1,
+        "prediction_count": 1
+      },
+      {
+        "id": "iotkits_valid_00529",
+        "group_id": "globalcc_80ffc2770523b4872b2a",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 0,
+        "prediction_count": 0
+      },
+      {
+        "id": "iotkits_valid_00530",
+        "group_id": "globalcc_de8a0fff1dfe18bd7549",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            1,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 1,
+        "prediction_count": 1
+      },
+      {
+        "id": "iotkits_valid_00537",
+        "group_id": "globalcc_82157eaa126fe4bff88b",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 0,
+        "prediction_count": 0
+      },
+      {
+        "id": "iotkits_valid_00540",
+        "group_id": "globalcc_18fc9c54cef13afb5ed2",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            1,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 1,
+        "prediction_count": 1
+      },
+      {
+        "id": "iotkits_valid_00545",
+        "group_id": "globalcc_93e71d6a4c27097e76fb",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 0,
+        "prediction_count": 0
+      },
+      {
+        "id": "iotkits_valid_00547",
+        "group_id": "globalcc_0a197b617a65f12e5474",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            1,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 1,
+        "prediction_count": 1
+      },
+      {
+        "id": "iotkits_valid_00554",
+        "group_id": "globalcc_506db5bb9752e433d86d",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            1,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 1,
+        "prediction_count": 1
+      },
+      {
+        "id": "iotkits_valid_00556",
+        "group_id": "globalcc_d33833c9e7510cd05326",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            1,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 1,
+        "prediction_count": 1
+      },
+      {
+        "id": "iotkits_valid_00563",
+        "group_id": "globalcc_e1c243a5a4f63cb606af",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            1,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 1,
+        "prediction_count": 1
+      },
+      {
+        "id": "iotkits_valid_00564",
+        "group_id": "globalcc_57ee6fc578c278d65143",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 0,
+        "prediction_count": 0
+      },
+      {
+        "id": "iotkits_valid_00580",
+        "group_id": "globalcc_5406a4c6ef66e0d4e83b",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 0,
+        "prediction_count": 0
+      },
+      {
+        "id": "iotkits_valid_00584",
+        "group_id": "globalcc_63ca40d097704fe4a6af",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 0,
+        "prediction_count": 0
+      },
+      {
+        "id": "iotkits_valid_00605",
+        "group_id": "globalcc_de4914d35c8f0aade8c2",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 0,
+        "prediction_count": 0
+      },
+      {
+        "id": "iotkits_valid_00617",
+        "group_id": "globalcc_ac750513ccb76a29c6ea",
+        "source": "iotkits_v1",
+        "counts_tp_fp_fn": [
+          [
+            1,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 1,
+        "prediction_count": 1
+      }
+    ]
+  },
+  "latency": {
+    "offline_predict_and_postprocess_ms_p50": 14.127400005236268,
+    "offline_predict_and_postprocess_ms_p95": 23.463200015248717,
+    "samples": 490,
+    "warmup_excluded": true,
+    "excludes": [
+      "camera acquisition",
+      "file decoding",
+      "visualization",
+      "disk write"
+    ]
+  },
+  "d455_verified": false,
+  "physical_specimen_independence_verified": false,
+  "group_bootstrap_recall95": {
+    "resamples": 1000,
+    "groups": 197,
+    "lower": 0.9295620718848611,
+    "upper": 1.0,
+    "scope": "Fixed-threshold recall CI, NOT an AP confidence interval; source-family groups, physical identity may be unknown"
+  }
+}

@@ -1,0 +1,449 @@
+{
+  "model_id": "parts_yolo11n",
+  "task": "detect",
+  "classes": [
+    "resistor",
+    "capacitor",
+    "ic",
+    "connector"
+  ],
+  "parameters": 2590620,
+  "trainable_parameters": 2590604,
+  "layers": [
+    {
+      "index": 0,
+      "module": "ultralytics.nn.modules.conv.Conv",
+      "from": -1,
+      "parameters": 464
+    },
+    {
+      "index": 1,
+      "module": "ultralytics.nn.modules.conv.Conv",
+      "from": -1,
+      "parameters": 4672
+    },
+    {
+      "index": 2,
+      "module": "ultralytics.nn.modules.block.C3k2",
+      "from": -1,
+      "parameters": 6640
+    },
+    {
+      "index": 3,
+      "module": "ultralytics.nn.modules.conv.Conv",
+      "from": -1,
+      "parameters": 36992
+    },
+    {
+      "index": 4,
+      "module": "ultralytics.nn.modules.block.C3k2",
+      "from": -1,
+      "parameters": 26080
+    },
+    {
+      "index": 5,
+      "module": "ultralytics.nn.modules.conv.Conv",
+      "from": -1,
+      "parameters": 147712
+    },
+    {
+      "index": 6,
+      "module": "ultralytics.nn.modules.block.C3k2",
+      "from": -1,
+      "parameters": 87040
+    },
+    {
+      "index": 7,
+      "module": "ultralytics.nn.modules.conv.Conv",
+      "from": -1,
+      "parameters": 295424
+    },
+    {
+      "index": 8,
+      "module": "ultralytics.nn.modules.block.C3k2",
+      "from": -1,
+      "parameters": 346112
+    },
+    {
+      "index": 9,
+      "module": "ultralytics.nn.modules.block.SPPF",
+      "from": -1,
+      "parameters": 164608
+    },
+    {
+      "index": 10,
+      "module": "ultralytics.nn.modules.block.C2PSA",
+      "from": -1,
+      "parameters": 249728
+    },
+    {
+      "index": 11,
+      "module": "torch.nn.modules.upsampling.Upsample",
+      "from": -1,
+      "parameters": 0
+    },
+    {
+      "index": 12,
+      "module": "ultralytics.nn.modules.conv.Concat",
+      "from": [
+        -1,
+        6
+      ],
+      "parameters": 0
+    },
+    {
+      "index": 13,
+      "module": "ultralytics.nn.modules.block.C3k2",
+      "from": -1,
+      "parameters": 111296
+    },
+    {
+      "index": 14,
+      "module": "torch.nn.modules.upsampling.Upsample",
+      "from": -1,
+      "parameters": 0
+    },
+    {
+      "index": 15,
+      "module": "ultralytics.nn.modules.conv.Concat",
+      "from": [
+        -1,
+        4
+      ],
+      "parameters": 0
+    },
+    {
+      "index": 16,
+      "module": "ultralytics.nn.modules.block.C3k2",
+      "from": -1,
+      "parameters": 32096
+    },
+    {
+      "index": 17,
+      "module": "ultralytics.nn.modules.conv.Conv",
+      "from": -1,
+      "parameters": 36992
+    },
+    {
+      "index": 18,
+      "module": "ultralytics.nn.modules.conv.Concat",
+      "from": [
+        -1,
+        13
+      ],
+      "parameters": 0
+    },
+    {
+      "index": 19,
+      "module": "ultralytics.nn.modules.block.C3k2",
+      "from": -1,
+      "parameters": 86720
+    },
+    {
+      "index": 20,
+      "module": "ultralytics.nn.modules.conv.Conv",
+      "from": -1,
+      "parameters": 147712
+    },
+    {
+      "index": 21,
+      "module": "ultralytics.nn.modules.conv.Concat",
+      "from": [
+        -1,
+        10
+      ],
+      "parameters": 0
+    },
+    {
+      "index": 22,
+      "module": "ultralytics.nn.modules.block.C3k2",
+      "from": -1,
+      "parameters": 378880
+    },
+    {
+      "index": 23,
+      "module": "ultralytics.nn.modules.head.Detect",
+      "from": [
+        16,
+        19,
+        22
+      ],
+      "parameters": 431452
+    }
+  ],
+  "yaml": {
+    "nc": 4,
+    "scales": {
+      "n": [
+        0.5,
+        0.25,
+        1024
+      ],
+      "s": [
+        0.5,
+        0.5,
+        1024
+      ],
+      "m": [
+        0.5,
+        1.0,
+        512
+      ],
+      "l": [
+        1.0,
+        1.0,
+        512
+      ],
+      "x": [
+        1.0,
+        1.5,
+        512
+      ]
+    },
+    "backbone": [
+      [
+        -1,
+        1,
+        "Conv",
+        [
+          64,
+          3,
+          2
+        ]
+      ],
+      [
+        -1,
+        1,
+        "Conv",
+        [
+          128,
+          3,
+          2
+        ]
+      ],
+      [
+        -1,
+        2,
+        "C3k2",
+        [
+          256,
+          false,
+          0.25
+        ]
+      ],
+      [
+        -1,
+        1,
+        "Conv",
+        [
+          256,
+          3,
+          2
+        ]
+      ],
+      [
+        -1,
+        2,
+        "C3k2",
+        [
+          512,
+          false,
+          0.25
+        ]
+      ],
+      [
+        -1,
+        1,
+        "Conv",
+        [
+          512,
+          3,
+          2
+        ]
+      ],
+      [
+        -1,
+        2,
+        "C3k2",
+        [
+          512,
+          true
+        ]
+      ],
+      [
+        -1,
+        1,
+        "Conv",
+        [
+          1024,
+          3,
+          2
+        ]
+      ],
+      [
+        -1,
+        2,
+        "C3k2",
+        [
+          1024,
+          true
+        ]
+      ],
+      [
+        -1,
+        1,
+        "SPPF",
+        [
+          1024,
+          5
+        ]
+      ],
+      [
+        -1,
+        2,
+        "C2PSA",
+        [
+          1024
+        ]
+      ]
+    ],
+    "head": [
+      [
+        -1,
+        1,
+        "nn.Upsample",
+        [
+          "None",
+          2,
+          "nearest"
+        ]
+      ],
+      [
+        [
+          -1,
+          6
+        ],
+        1,
+        "Concat",
+        [
+          1
+        ]
+      ],
+      [
+        -1,
+        2,
+        "C3k2",
+        [
+          512,
+          false
+        ]
+      ],
+      [
+        -1,
+        1,
+        "nn.Upsample",
+        [
+          "None",
+          2,
+          "nearest"
+        ]
+      ],
+      [
+        [
+          -1,
+          4
+        ],
+        1,
+        "Concat",
+        [
+          1
+        ]
+      ],
+      [
+        -1,
+        2,
+        "C3k2",
+        [
+          256,
+          false
+        ]
+      ],
+      [
+        -1,
+        1,
+        "Conv",
+        [
+          256,
+          3,
+          2
+        ]
+      ],
+      [
+        [
+          -1,
+          13
+        ],
+        1,
+        "Concat",
+        [
+          1
+        ]
+      ],
+      [
+        -1,
+        2,
+        "C3k2",
+        [
+          512,
+          false
+        ]
+      ],
+      [
+        -1,
+        1,
+        "Conv",
+        [
+          512,
+          3,
+          2
+        ]
+      ],
+      [
+        [
+          -1,
+          10
+        ],
+        1,
+        "Concat",
+        [
+          1
+        ]
+      ],
+      [
+        -1,
+        2,
+        "C3k2",
+        [
+          1024,
+          true
+        ]
+      ],
+      [
+        [
+          16,
+          19,
+          22
+        ],
+        1,
+        "Detect",
+        [
+          "nc"
+        ]
+      ]
+    ],
+    "scale": "n",
+    "yaml_file": "yolo11n.yaml",
+    "ch": 3,
+    "channels": 3
+  }
+}

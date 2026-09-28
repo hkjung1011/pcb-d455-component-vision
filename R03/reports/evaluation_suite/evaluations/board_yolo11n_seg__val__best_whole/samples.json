@@ -1,0 +1,9256 @@
+[
+  {
+    "id": "iotkits_train_00004",
+    "image_id": 1,
+    "group_id": "globalcc_baaa1a2f5f403f8c55a5",
+    "source": "iotkits_v1",
+    "truth": [
+      {
+        "class_id": 0,
+        "bbox_xyxy": [
+          12.0,
+          64.0,
+          634.0,
+          569.0
+        ]
+      }
+    ],
+    "predictions": [
+      {
+        "class_id": 0,
+        "score": 0.9429299235343933,
+        "bbox_xyxy": [
+          9.14215087890625,
+          58.440673828125,
+          640.0,
+          578.6124877929688
+        ]
+      }
+    ]
+  },
+  {
+    "id": "iotkits_train_00014",
+    "image_id": 2,
+    "group_id": "globalcc_0633494a8c5dd8998e5a",
+    "source": "iotkits_v1",
+    "truth": [],
+    "predictions": [
+      {
+        "class_id": 0,
+        "score": 0.007613453548401594,
+        "bbox_xyxy": [
+          92.17942810058594,
+          34.98016357421875,
+          590.9263916015625,
+          640.0
+        ]
+      }
+    ]
+  },
+  {
+    "id": "iotkits_train_00021",
+    "image_id": 3,
+    "group_id": "globalcc_c5920e9060ce5a950d23",
+    "source": "iotkits_v1",
+    "truth": [
+      {
+        "class_id": 0,
+        "bbox_xyxy": [
+          100.0,
+          122.0,
+          532.0,
+          538.0
+        ]
+      }
+    ],
+    "predictions": [
+      {
+        "class_id": 0,
+        "score": 0.9159983992576599,
+        "bbox_xyxy": [
+          102.36761474609375,
+          127.23822021484375,
+          537.6712646484375,
+          541.0242919921875
+        ]
+      }
+    ]
+  },
+  {
+    "id": "iotkits_train_00035",
+    "image_id": 4,
+    "group_id": "globalcc_a4f6055fdba9dc8757e6",
+    "source": "iotkits_v1",
+    "truth": [],
+    "predictions": [
+      {
+        "class_id": 0,
+        "score": 0.08010081201791763,
+        "bbox_xyxy": [
+          79.877685546875,
+          47.9239501953125,
+          320.8246154785156,
+          610.2891845703125
+        ]
+      },
+      {
+        "class_id": 0,
+        "score": 0.01775958202779293,
+        "bbox_xyxy": [
+          55.92909240722656,
+          14.17034912109375,
+          492.979736328125,
+          640.0
+        ]
+      },
+      {
+        "class_id": 0,
+        "score": 0.005656509194523096,
+        "bbox_xyxy": [
+          76.52932739257812,
+          55.9212646484375,
+          321.0245361328125,
+          384.1409912109375
+        ]
+      },
+      {
+        "class_id": 0,
+        "score": 0.005066885147243738,
+        "bbox_xyxy": [
+          178.81756591796875,
+          59.849853515625,
+          471.88714599609375,
+          620.8580322265625
+        ]
+      },
+      {
+        "class_id": 0,
+        "score": 0.0034506365191191435,
+        "bbox_xyxy": [
+          334.0787353515625,
+          58.636474609375,
+          491.3553466796875,
+          578.5862426757812
+        ]
+      },
+      {
+        "class_id": 0,
+        "score": 0.0023221338633447886,
+        "bbox_xyxy": [
+          318.5931701660156,
+          62.66961669921875,
+          471.3570251464844,
+          428.350341796875
+        ]
+      }
+    ]
+  },
+  {
+    "id": "iotkits_train_00061",
+    "image_id": 5,
+    "group_id": "globalcc_6a63aec7baeca463434e",
+    "source": "iotkits_v1",
+    "truth": [],
+    "predictions": []
+  },
+  {
+    "id": "iotkits_train_00063",
+    "image_id": 6,
+    "group_id": "globalcc_a216251969c125579805",
+    "source": "iotkits_v1",
+    "truth": [],
+    "predictions": [
+      {
+        "class_id": 0,
+        "score": 0.0013004688080400229,
+        "bbox_xyxy": [
+          194.91212463378906,
+          46.18243408203125,
+          478.401611328125,
+          638.1486206054688
+        ]
+      }
+    ]
+  },
+  {
+    "id": "iotkits_train_00072",
+    "image_id": 7,
+    "group_id": "globalcc_81dfd90874657a0e5ff7",
+    "source": "iotkits_v1",
+    "truth": [
+      {
+        "class_id": 0,
+        "bbox_xyxy": [
+          155.0,
+          0.0,
+          511.0,
+          598.0
+        ]
+      }
+    ],
+    "predictions": [
+      {
+        "class_id": 0,
+        "score": 0.859237790107727,
+        "bbox_xyxy": [
+          170.06304931640625,
+          0.0,
+          504.24432373046875,
+          612.7926025390625
+        ]
+      }
+    ]
+  },
+  {
+    "id": "iotkits_train_00075",
+    "image_id": 8,
+    "group_id": "globalcc_bb12961f290f1f26b616",
+    "source": "iotkits_v1",
+    "truth": [],
+    "predictions": [
+      {
+        "class_id": 0,
+        "score": 0.00471471156924963,
+        "bbox_xyxy": [
+          98.57623291015625,
+          79.88055419921875,
+          568.1744995117188,
+          565.525634765625
+        ]
+      }
+    ]
+  },
+  {
+    "id": "iotkits_train_00094",
+    "image_id": 9,
+    "group_id": "globalcc_75f345f123f891d37179",
+    "source": "iotkits_v1",
+    "truth": [],
+    "predictions": [
+      {
+        "class_id": 0,
+        "score": 0.0042028483003377914,
+        "bbox_xyxy": [
+          1.7032470703125,
+          135.88409423828125,
+          640.0,
+          455.35528564453125
+        ]
+      },
+      {
+        "class_id": 0,
+        "score": 0.003311200998723507,
+        "bbox_xyxy": [
+          189.03936767578125,
+          118.26719665527344,
+          637.4442138671875,
+          413.67919921875
+        ]
+      }
+    ]
+  },
+  {
+    "id": "iotkits_train_00095",
+    "image_id": 10,
+    "group_id": "globalcc_0633494a8c5dd8998e5a",
+    "source": "iotkits_v1",
+    "truth": [],
+    "predictions": [
+      {
+        "class_id": 0,
+        "score": 0.03822628781199455,
+        "bbox_xyxy": [
+          1.6846923828125,
+          48.7286376953125,
+          640.0,
+          594.1718139648438
+        ]
+      }
+    ]
+  },
+  {
+    "id": "iotkits_train_00101",
+    "image_id": 11,
+    "group_id": "globalcc_5ee5cfbf498c11222300",
+    "source": "iotkits_v1",
+    "truth": [],
+    "predictions": [
+      {
+        "class_id": 0,
+        "score": 0.0012126611545681953,
+        "bbox_xyxy": [
+          101.46029663085938,
+          396.44696044921875,
+          505.4911804199219,
+          578.0982666015625
+        ]
+      }
+    ]
+  },
+  {
+    "id": "iotkits_train_00104",
+    "image_id": 12,
+    "group_id": "globalcc_8affcde99ffabe419a16",
+    "source": "iotkits_v1",
+    "truth": [],
+    "predictions": []
+  },
+  {
+    "id": "iotkits_train_00110",
+    "image_id": 13,
+    "group_id": "globalcc_5ee5cfbf498c11222300",
+    "source": "iotkits_v1",
+    "truth": [],
+    "predictions": []
+  },
+  {
+    "id": "iotkits_train_00111",
+    "image_id": 14,
+    "group_id": "globalcc_0388bff2c178cec5a411",
+    "source": "iotkits_v1",
+    "truth": [],
+    "predictions": []
+  },
+  {
+    "id": "iotkits_train_00115",
+    "image_id": 15,
+    "group_id": "globalcc_81d7033dd2d883fd47d4",
+    "source": "iotkits_v1",
+    "truth": [
+      {
+        "class_id": 0,
+        "bbox_xyxy": [
+          11.0,
+          136.0,
+          612.0,
+          454.0
+        ]
+      }
+    ],
+    "predictions": [
+      {
+        "class_id": 0,
+        "score": 0.9564348459243774,
+        "bbox_xyxy": [
+          7.39129638671875,
+          134.82081604003906,
+          609.381591796875,
+          448.4893798828125
+        ]
+      }
+    ]
+  },
+  {
+    "id": "iotkits_train_00122",
+    "image_id": 16,
+    "group_id": "globalcc_cb4da519d203c82ef8a9",
+    "source": "iotkits_v1",
+    "truth": [],
+    "predictions": [
+      {
+        "class_id": 0,
+        "score": 0.001751361065544188,
+        "bbox_xyxy": [
+          53.85125732421875,
+          340.2491455078125,
+          633.2872314453125,
+          569.983154296875
+        ]
+      }
+    ]
+  },
+  {
+    "id": "iotkits_train_00124",
+    "image_id": 17,
+    "group_id": "globalcc_1a7ac921075d2bb82c2f",
+    "source": "iotkits_v1",
+    "truth": [],
+    "predictions": [
+      {
+        "class_id": 0,
+        "score": 0.04292457178235054,
+        "bbox_xyxy": [
+          185.5633544921875,
+          0.0,
+          634.23974609375,
+          614.6558227539062
+        ]
+      },
+      {
+        "class_id": 0,
+        "score": 0.0020093503408133984,
+        "bbox_xyxy": [
+          191.827880859375,
+          7.68621826171875,
+          632.5326538085938,
+          208.79312133789062
+        ]
+      }
+    ]
+  },
+  {
+    "id": "iotkits_train_00136",
+    "image_id": 18,
+    "group_id": "globalcc_0633494a8c5dd8998e5a",
+    "source": "iotkits_v1",
+    "truth": [],
+    "predictions": [
+      {
+        "class_id": 0,
+        "score": 0.02740355208516121,
+        "bbox_xyxy": [
+          0.80224609375,
+          50.4007568359375,
+          638.741455078125,
+          570.3936157226562
+        ]
+      }
+    ]
+  },
+  {
+    "id": "iotkits_train_00145",
+    "image_id": 19,
+    "group_id": "globalcc_126cebe15ab640c81bc1",
+    "source": "iotkits_v1",
+    "truth": [],
+    "predictions": []
+  },
+  {
+    "id": "iotkits_train_00150",
+    "image_id": 20,
+    "group_id": "globalcc_1b90042490074f1a245e",
+    "source": "iotkits_v1",
+    "truth": [],
+    "predictions": []
+  },
+  {
+    "id": "iotkits_train_00160",
+    "image_id": 21,
+    "group_id": "globalcc_6a63aec7baeca463434e",
+    "source": "iotkits_v1",
+    "truth": [],
+    "predictions": []
+  },
+  {
+    "id": "iotkits_train_00161",
+    "image_id": 22,
+    "group_id": "globalcc_c1e089507b77a6e18d35",
+    "source": "iotkits_v1",
+    "truth": [],
+    "predictions": []
+  },
+  {
+    "id": "iotkits_train_00175",
+    "image_id": 23,
+    "group_id": "globalcc_47efe5b29d44313fc309",
+    "source": "iotkits_v1",
+    "truth": [
+      {
+        "class_id": 0,
+        "bbox_xyxy": [
+          0.0,
+          130.0,
+          614.0,
+          479.0
+        ]
+      }
+    ],
+    "predictions": [
+      {
+        "class_id": 0,
+        "score": 0.9274548888206482,
+        "bbox_xyxy": [
+          0.0,
+          148.57437133789062,
+          618.4743041992188,
+          476.0982360839844
+        ]
+      }
+    ]
+  },
+  {
+    "id": "iotkits_train_00179",
+    "image_id": 24,
+    "group_id": "globalcc_ba44fc4a3a9768aa0129",
+    "source": "iotkits_v1",
+    "truth": [],
+    "predictions": [
+      {
+        "class_id": 0,
+        "score": 0.017221540212631226,
+        "bbox_xyxy": [
+          40.8729248046875,
+          215.59075927734375,
+          599.7657470703125,
+          640.0
+        ]
+      },
+      {
+        "class_id": 0,
+        "score": 0.005238528363406658,
+        "bbox_xyxy": [
+          41.1785888671875,
+          227.75753784179688,
+          598.45166015625,
+          424.5760192871094
+        ]
+      }
+    ]
+  },
+  {
+    "id": "iotkits_train_00182",
+    "image_id": 25,
+    "group_id": "globalcc_d4ca346e50b4ee3b30f1",
+    "source": "iotkits_v1",
+    "truth": [],
+    "predictions": []
+  },
+  {
+    "id": "iotkits_train_00192",
+    "image_id": 26,
+    "group_id": "globalcc_1b90042490074f1a245e",
+    "source": "iotkits_v1",
+    "truth": [],
+    "predictions": []
+  },
+  {
+    "id": "iotkits_train_00196",
+    "image_id": 27,
+    "group_id": "globalcc_2e3be6e000119c19ffa2",
+    "source": "iotkits_v1",
+    "truth": [
+      {
+        "class_id": 0,
+        "bbox_xyxy": [
+          98.0,
+          153.0,
+          538.0,
+          473.0
+        ]
+      }
+    ],
+    "predictions": [
+      {
+        "class_id": 0,
+        "score": 0.9041027426719666,
+        "bbox_xyxy": [
+          105.8841552734375,
+          158.76963806152344,
+          545.0809936523438,
+          473.2486572265625
+        ]
+      }
+    ]
+  },
+  {
+    "id": "iotkits_train_00200",
+    "image_id": 28,
+    "group_id": "globalcc_5a482c20f43e1969188b",
+    "source": "iotkits_v1",
+    "truth": [
+      {
+        "class_id": 0,
+        "bbox_xyxy": [
+          36.0,
+          140.0,
+          639.0,
+          479.0
+        ]
+      }
+    ],
+    "predictions": [
+      {
+        "class_id": 0,
+        "score": 0.9257500171661377,
+        "bbox_xyxy": [
+          31.10345458984375,
+          152.97225952148438,
+          633.1826171875,
+          483.3597106933594
+        ]
+      }
+    ]
+  },
+  {
+    "id": "iotkits_train_00217",
+    "image_id": 29,
+    "group_id": "globalcc_88b76e18b8d8b173f980",
+    "source": "iotkits_v1",
+    "truth": [],
+    "predictions": []
+  },
+  {
+    "id": "iotkits_train_00219",
+    "image_id": 30,
+    "group_id": "globalcc_1a7ac921075d2bb82c2f",
+    "source": "iotkits_v1",
+    "truth": [],
+    "predictions": [
+      {
+        "class_id": 0,
+        "score": 0.025120742619037628,
+        "bbox_xyxy": [
+          0.0,
+          174.57386779785156,
+          421.60009765625,
+          636.05224609375
+        ]
+      },
+      {
+        "class_id": 0,
+        "score": 0.009751812554895878,
+        "bbox_xyxy": [
+          135.49603271484375,
+          230.65191650390625,
+          621.0984497070312,
+          632.8502807617188
+        ]
+      },
+      {
+        "class_id": 0,
+        "score": 0.00781938061118126,
+        "bbox_xyxy": [
+          338.524658203125,
+          248.52655029296875,
+          626.46875,
+          623.1585693359375
+        ]
+      },
+      {
+        "class_id": 0,
+        "score": 0.0010888531105592847,
+        "bbox_xyxy": [
+          440.6979064941406,
+          278.63189697265625,
+          640.0,
+          432.73419189453125
+        ]
+      }
+    ]
+  },
+  {
+    "id": "iotkits_train_00221",
+    "image_id": 31,
+    "group_id": "globalcc_cb2294e87f30a2b77644",
+    "source": "iotkits_v1",
+    "truth": [],
+    "predictions": []
+  },
+  {
+    "id": "iotkits_train_00224",
+    "image_id": 32,
+    "group_id": "globalcc_47efe5b29d44313fc309",
+    "source": "iotkits_v1",
+    "truth": [
+      {
+        "class_id": 0,
+        "bbox_xyxy": [
+          21.0,
+          166.0,
+          616.0,
+          447.0
+        ]
+      }
+    ],
+    "predictions": [
+      {
+        "class_id": 0,
+        "score": 0.9107533693313599,
+        "bbox_xyxy": [
+          21.45550537109375,
+          162.47296142578125,
+          614.646728515625,
+          443.45074462890625
+        ]
+      }
+    ]
+  },
+  {
+    "id": "iotkits_train_00232",
+    "image_id": 33,
+    "group_id": "globalcc_39674fa309ee7d6fedee",
+    "source": "iotkits_v1",
+    "truth": [],
+    "predictions": []
+  },
+  {
+    "id": "iotkits_train_00234",
+    "image_id": 34,
+    "group_id": "globalcc_b451b9082435e23b620e",
+    "source": "iotkits_v1",
+    "truth": [
+      {
+        "class_id": 0,
+        "bbox_xyxy": [
+          36.0,
+          118.0,
+          620.0,
+          551.0
+        ]
+      }
+    ],
+    "predictions": [
+      {
+        "class_id": 0,
+        "score": 0.9603046774864197,
+        "bbox_xyxy": [
+          37.10821533203125,
+          128.88043212890625,
+          624.1829833984375,
+          537.3336791992188
+        ]
+      }
+    ]
+  },
+  {
+    "id": "iotkits_train_00235",
+    "image_id": 35,
+    "group_id": "globalcc_0388bff2c178cec5a411",
+    "source": "iotkits_v1",
+    "truth": [],
+    "predictions": []
+  },
+  {
+    "id": "iotkits_train_00243",
+    "image_id": 36,
+    "group_id": "globalcc_1fcbe015dd042bf25c7b",
+    "source": "iotkits_v1",
+    "truth": [],
+    "predictions": []
+  },
+  {
+    "id": "iotkits_train_00245",
+    "image_id": 37,
+    "group_id": "globalcc_ba44fc4a3a9768aa0129",
+    "source": "iotkits_v1",
+    "truth": [],
+    "predictions": [
+      {
+        "class_id": 0,
+        "score": 0.01633019745349884,
+        "bbox_xyxy": [
+          28.29962158203125,
+          140.10025024414062,
+          572.5262451171875,
+          427.7444763183594
+        ]
+      },
+      {
+        "class_id": 0,
+        "score": 0.0029390808194875717,
+        "bbox_xyxy": [
+          31.29351806640625,
+          119.79052734375,
+          582.1813354492188,
+          640.0
+        ]
+      }
+    ]
+  },
+  {
+    "id": "iotkits_train_00250",
+    "image_id": 38,
+    "group_id": "globalcc_cb4da519d203c82ef8a9",
+    "source": "iotkits_v1",
+    "truth": [],
+    "predictions": [
+      {
+        "class_id": 0,
+        "score": 0.001752693671733141,
+        "bbox_xyxy": [
+          53.93505859375,
+          340.2708740234375,
+          633.2861328125,
+          569.9860229492188
+        ]
+      }
+    ]
+  },
+  {
+    "id": "iotkits_train_00251",
+    "image_id": 39,
+    "group_id": "globalcc_f0e32694b6d5460f3418",
+    "source": "iotkits_v1",
+    "truth": [
+      {
+        "class_id": 0,
+        "bbox_xyxy": [
+          98.0,
+          127.0,
+          558.0,
+          461.0
+        ]
+      }
+    ],
+    "predictions": [
+      {
+        "class_id": 0,
+        "score": 0.8909081220626831,
+        "bbox_xyxy": [
+          107.8450927734375,
+          127.16543579101562,
+          556.365966796875,
+          461.4768371582031
+        ]
+      }
+    ]
+  },
+  {
+    "id": "iotkits_train_00253",
+    "image_id": 40,
+    "group_id": "globalcc_f61ddb75a06a018a4f1c",
+    "source": "iotkits_v1",
+    "truth": [
+      {
+        "class_id": 0,
+        "bbox_xyxy": [
+          95.0,
+          157.0,
+          547.0,
+          484.0
+        ]
+      }
+    ],
+    "predictions": [
+      {
+        "class_id": 0,
+        "score": 0.9529231190681458,
+        "bbox_xyxy": [
+          106.2047119140625,
+          156.56332397460938,
+          543.8150634765625,
+          474.6236877441406
+        ]
+      }
+    ]
+  },
+  {
+    "id": "iotkits_train_00255",
+    "image_id": 41,
+    "group_id": "globalcc_5ee5cfbf498c11222300",
+    "source": "iotkits_v1",
+    "truth": [],
+    "predictions": []
+  },
+  {
+    "id": "iotkits_train_00262",
+    "image_id": 42,
+    "group_id": "globalcc_1fc60702f164781748d5",
+    "source": "iotkits_v1",
+    "truth": [
+      {
+        "class_id": 0,
+        "bbox_xyxy": [
+          58.0,
+          159.0,
+          578.0,
+          476.0
+        ]
+      }
+    ],
+    "predictions": [
+      {
+        "class_id": 0,
+        "score": 0.928095817565918,
+        "bbox_xyxy": [
+          74.6046142578125,
+          162.23080444335938,
+          571.199951171875,
+          473.8856506347656
+        ]
+      }
+    ]
+  },
+  {
+    "id": "iotkits_train_00264",
+    "image_id": 43,
+    "group_id": "globalcc_12b0ce5dde8b79623abc",
+    "source": "iotkits_v1",
+    "truth": [
+      {
+        "class_id": 0,
+        "bbox_xyxy": [
+          83.0,
+          177.0,
+          574.0,
+          448.0
+        ]
+      }
+    ],
+    "predictions": [
+      {
+        "class_id": 0,
+        "score": 0.933376669883728,
+        "bbox_xyxy": [
+          88.844970703125,
+          172.371826171875,
+          580.0618896484375,
+          439.6429443359375
+        ]
+      }
+    ]
+  },
+  {
+    "id": "iotkits_train_00272",
+    "image_id": 44,
+    "group_id": "globalcc_77ad1f21dca3f282ec98",
+    "source": "iotkits_v1",
+    "truth": [
+      {
+        "class_id": 0,
+        "bbox_xyxy": [
+          60.0,
+          157.0,
+          575.0,
+          495.0
+        ]
+      }
+    ],
+    "predictions": [
+      {
+        "class_id": 0,
+        "score": 0.9556566476821899,
+        "bbox_xyxy": [
+          66.8048095703125,
+          156.95428466796875,
+          582.6390380859375,
+          494.88128662109375
+        ]
+      }
+    ]
+  },
+  {
+    "id": "iotkits_train_00283",
+    "image_id": 45,
+    "group_id": "globalcc_1a7ac921075d2bb82c2f",
+    "source": "iotkits_v1",
+    "truth": [],
+    "predictions": [
+      {
+        "class_id": 0,
+        "score": 0.003169253934174776,
+        "bbox_xyxy": [
+          272.48089599609375,
+          14.648681640625,
+          640.0,
+          633.3145751953125
+        ]
+      },
+      {
+        "class_id": 0,
+        "score": 0.0029095513746142387,
+        "bbox_xyxy": [
+          3.5157470703125,
+          0.0,
+          450.4156799316406,
+          614.84033203125
+        ]
+      },
+      {
+        "class_id": 0,
+        "score": 0.0012106235371902585,
+        "bbox_xyxy": [
+          6.88201904296875,
+          217.43646240234375,
+          394.28515625,
+          602.641357421875
+        ]
+      }
+    ]
+  },
+  {
+    "id": "iotkits_train_00306",
+    "image_id": 46,
+    "group_id": "globalcc_77860434a486cc55b571",
+    "source": "iotkits_v1",
+    "truth": [
+      {
+        "class_id": 0,
+        "bbox_xyxy": [
+          45.0,
+          180.0,
+          599.0,
+          442.0
+        ]
+      }
+    ],
+    "predictions": [
+      {
+        "class_id": 0,
+        "score": 0.9543352723121643,
+        "bbox_xyxy": [
+          38.98553466796875,
+          176.46722412109375,
+          595.92138671875,
+          444.15740966796875
+        ]
+      }
+    ]
+  },
+  {
+    "id": "iotkits_train_00309",
+    "image_id": 47,
+    "group_id": "globalcc_e4deb8580aa9e029e007",
+    "source": "iotkits_v1",
+    "truth": [
+      {
+        "class_id": 0,
+        "bbox_xyxy": [
+          81.0,
+          45.0,
+          561.0,
+          594.0
+        ]
+      }
+    ],
+    "predictions": [
+      {
+        "class_id": 0,
+        "score": 0.8897053003311157,
+        "bbox_xyxy": [
+          83.81980895996094,
+          45.3231201171875,
+          563.60791015625,
+          600.6806640625
+        ]
+      }
+    ]
+  },
+  {
+    "id": "iotkits_train_00314",
+    "image_id": 48,
+    "group_id": "globalcc_baaa1a2f5f403f8c55a5",
+    "source": "iotkits_v1",
+    "truth": [
+      {
+        "class_id": 0,
+        "bbox_xyxy": [
+          36.0,
+          69.0,
+          639.0,
+          484.0
+        ]
+      }
+    ],
+    "predictions": [
+      {
+        "class_id": 0,
+        "score": 0.9587422013282776,
+        "bbox_xyxy": [
+          43.84521484375,
+          87.5902099609375,
+          635.23974609375,
+          480.594482421875
+        ]
+      }
+    ]
+  },
+  {
+    "id": "iotkits_train_00316",
+    "image_id": 49,
+    "group_id": "globalcc_5947eb12bc37bc71353d",
+    "source": "iotkits_v1",
+    "truth": [
+      {
+        "class_id": 0,
+        "bbox_xyxy": [
+          73.0,
+          26.0,
+          568.0,
+          639.0
+        ]
+      }
+    ],
+    "predictions": [
+      {
+        "class_id": 0,
+        "score": 0.8554006814956665,
+        "bbox_xyxy": [
+          69.82997131347656,
+          42.09088134765625,
+          568.871826171875,
+          637.3656616210938
+        ]
+      }
+    ]
+  },
+  {
+    "id": "iotkits_train_00346",
+    "image_id": 50,
+    "group_id": "globalcc_60e4878b9b3022e1f7e9",
+    "source": "iotkits_v1",
+    "truth": [
+      {
+        "class_id": 0,
+        "bbox_xyxy": [
+          91.0,
+          55.0,
+          557.0,
+          584.0
+        ]
+      }
+    ],
+    "predictions": [
+      {
+        "class_id": 0,
+        "score": 0.8974621295928955,
+        "bbox_xyxy": [
+          84.3719482421875,
+          54.7210693359375,
+          552.0478515625,
+          593.3175048828125
+        ]
+      }
+    ]
+  },
+  {
+    "id": "iotkits_train_00348",
+    "image_id": 51,
+    "group_id": "globalcc_126cebe15ab640c81bc1",
+    "source": "iotkits_v1",
+    "truth": [],
+    "predictions": []
+  },
+  {
+    "id": "iotkits_train_00359",
+    "image_id": 52,
+    "group_id": "globalcc_f424e91a19ff2a002b33",
+    "source": "iotkits_v1",
+    "truth": [
+      {
+        "class_id": 0,
+        "bbox_xyxy": [
+          47.0,
+          118.0,
+          570.0,
+          431.0
+        ]
+      }
+    ],
+    "predictions": [
+      {
+        "class_id": 0,
+        "score": 0.9020922183990479,
+        "bbox_xyxy": [
+          48.47412109375,
+          121.75341796875,
+          591.3344116210938,
+          408.052001953125
+        ]
+      }
+    ]
+  },
+  {
+    "id": "iotkits_train_00365",
+    "image_id": 53,
+    "group_id": "globalcc_a7f5c2e2618d92cc6232",
+    "source": "iotkits_v1",
+    "truth": [
+      {
+        "class_id": 0,
+        "bbox_xyxy": [
+          19.0,
+          133.0,
+          639.0,
+          514.0
+        ]
+      }
+    ],
+    "predictions": [
+      {
+        "class_id": 0,
+        "score": 0.9243011474609375,
+        "bbox_xyxy": [
+          7.405517578125,
+          152.61607360839844,
+          639.1529541015625,
+          501.2249755859375
+        ]
+      }
+    ]
+  },
+  {
+    "id": "iotkits_train_00369",
+    "image_id": 54,
+    "group_id": "globalcc_11ed8cc5f7456411bcb3",
+    "source": "iotkits_v1",
+    "truth": [
+      {
+        "class_id": 0,
+        "bbox_xyxy": [
+          354.0,
+          14.0,
+          535.0,
+          409.0
+        ]
+      }
+    ],
+    "predictions": [
+      {
+        "class_id": 0,
+        "score": 0.5072528719902039,
+        "bbox_xyxy": [
+          364.812744140625,
+          12.20220947265625,
+          530.7327880859375,
+          422.06463623046875
+        ]
+      },
+      {
+        "class_id": 0,
+        "score": 0.038264431059360504,
+        "bbox_xyxy": [
+          164.03643798828125,
+          87.4637451171875,
+          305.3660888671875,
+          309.0101318359375
+        ]
+      },
+      {
+        "class_id": 0,
+        "score": 0.011144259944558144,
+        "bbox_xyxy": [
+          369.075439453125,
+          192.10012817382812,
+          536.4443359375,
+          401.8453063964844
+        ]
+      },
+      {
+        "class_id": 0,
+        "score": 0.0057246689684689045,
+        "bbox_xyxy": [
+          191.81634521484375,
+          16.458526611328125,
+          542.1177368164062,
+          405.9393005371094
+        ]
+      },
+      {
+        "class_id": 0,
+        "score": 0.005547812208533287,
+        "bbox_xyxy": [
+          381.5885009765625,
+          223.41465759277344,
+          531.33837890625,
+          476.94287109375
+        ]
+      },
+      {
+        "class_id": 0,
+        "score": 0.004782844800502062,
+        "bbox_xyxy": [
+          348.23162841796875,
+          18.148582458496094,
+          510.37371826171875,
+          245.03549194335938
+        ]
+      },
+      {
+        "class_id": 0,
+        "score": 0.002950935857370496,
+        "bbox_xyxy": [
+          316.87469482421875,
+          17.84521484375,
+          534.1832885742188,
+          319.28564453125
+        ]
+      },
+      {
+        "class_id": 0,
+        "score": 0.00237093074247241,
+        "bbox_xyxy": [
+          396.14459228515625,
+          237.1993408203125,
+          531.6138305664062,
+          640.0
+        ]
+      },
+      {
+        "class_id": 0,
+        "score": 0.0011555793462321162,
+        "bbox_xyxy": [
+          362.06414794921875,
+          413.6798400878906,
+          529.0442504882812,
+          621.2574462890625
+        ]
+      }
+    ]
+  },
+  {
+    "id": "iotkits_train_00375",
+    "image_id": 55,
+    "group_id": "globalcc_b52e962f35afb9f11aee",
+    "source": "iotkits_v1",
+    "truth": [
+      {
+        "class_id": 0,
+        "bbox_xyxy": [
+          63.0,
+          0.0,
+          528.0,
+          618.0
+        ]
+      }
+    ],
+    "predictions": [
+      {
+        "class_id": 0,
+        "score": 0.8940151929855347,
+        "bbox_xyxy": [
+          62.318603515625,
+          1.88079833984375,
+          501.2896728515625,
+          634.4970092773438
+        ]
+      }
+    ]
+  },
+  {
+    "id": "iotkits_train_00386",
+    "image_id": 56,
+    "group_id": "globalcc_5ee5cfbf498c11222300",
+    "source": "iotkits_v1",
+    "truth": [],
+    "predictions": []
+  },
+  {
+    "id": "iotkits_train_00390",
+    "image_id": 57,
+    "group_id": "globalcc_0388bff2c178cec5a411",
+    "source": "iotkits_v1",
+    "truth": [],
+    "predictions": []
+  },
+  {
+    "id": "iotkits_train_00401",
+    "image_id": 58,
+    "group_id": "globalcc_fbfcbbd50e5db58039ae",
+    "source": "iotkits_v1",
+    "truth": [],
+    "predictions": []
+  },
+  {
+    "id": "iotkits_train_00408",
+    "image_id": 59,
+    "group_id": "globalcc_9aaa1256cbe52f903304",
+    "source": "iotkits_v1",
+    "truth": [
+      {
+        "class_id": 0,
+        "bbox_xyxy": [
+          92.0,
+          0.0,
+          554.0,
+          594.0
+        ]
+      }
+    ],
+    "predictions": [
+      {
+        "class_id": 0,
+        "score": 0.9147121906280518,
+        "bbox_xyxy": [
+          93.94561767578125,
+          0.0,
+          560.2793579101562,
+          605.933349609375
+        ]
+      }
+    ]
+  },
+  {
+    "id": "iotkits_train_00410",
+    "image_id": 60,
+    "group_id": "globalcc_38fee7619f3c43169f59",
+    "source": "iotkits_v1",
+    "truth": [],
+    "predictions": []
+  },
+  {
+    "id": "iotkits_train_00412",
+    "image_id": 61,
+    "group_id": "globalcc_2c02d9db35cf7fb5b630",
+    "source": "iotkits_v1",
+    "truth": [
+      {
+        "class_id": 0,
+        "bbox_xyxy": [
+          66.0,
+          23.0,
+          571.0,
+          592.0
+        ]
+      }
+    ],
+    "predictions": [
+      {
+        "class_id": 0,
+        "score": 0.921962320804596,
+        "bbox_xyxy": [
+          74.79461669921875,
+          32.507080078125,
+          569.3565673828125,
+          598.35888671875
+        ]
+      }
+    ]
+  },
+  {
+    "id": "iotkits_train_00413",
+    "image_id": 62,
+    "group_id": "globalcc_a7f5c2e2618d92cc6232",
+    "source": "iotkits_v1",
+    "truth": [
+      {
+        "class_id": 0,
+        "bbox_xyxy": [
+          164.0,
+          12.0,
+          497.0,
+          639.0
+        ]
+      }
+    ],
+    "predictions": [
+      {
+        "class_id": 0,
+        "score": 0.9293022751808167,
+        "bbox_xyxy": [
+          169.78286743164062,
+          36.2735595703125,
+          481.5408020019531,
+          640.0
+        ]
+      }
+    ]
+  },
+  {
+    "id": "iotkits_train_00418",
+    "image_id": 63,
+    "group_id": "globalcc_47efe5b29d44313fc309",
+    "source": "iotkits_v1",
+    "truth": [
+      {
+        "class_id": 0,
+        "bbox_xyxy": [
+          33.0,
+          149.0,
+          639.0,
+          499.0
+        ]
+      }
+    ],
+    "predictions": [
+      {
+        "class_id": 0,
+        "score": 0.9442514181137085,
+        "bbox_xyxy": [
+          30.3740234375,
+          161.531494140625,
+          634.4989013671875,
+          482.53424072265625
+        ]
+      }
+    ]
+  },
+  {
+    "id": "iotkits_train_00427",
+    "image_id": 64,
+    "group_id": "globalcc_c7a898ff726917407acd",
+    "source": "iotkits_v1",
+    "truth": [],
+    "predictions": []
+  },
+  {
+    "id": "iotkits_train_00436",
+    "image_id": 65,
+    "group_id": "globalcc_a3da610b049fd4c9a492",
+    "source": "iotkits_v1",
+    "truth": [],
+    "predictions": []
+  },
+  {
+    "id": "iotkits_train_00450",
+    "image_id": 66,
+    "group_id": "globalcc_13d3016668b7c74475b0",
+    "source": "iotkits_v1",
+    "truth": [
+      {
+        "class_id": 0,
+        "bbox_xyxy": [
+          96.0,
+          173.0,
+          548.0,
+          462.0
+        ]
+      }
+    ],
+    "predictions": [
+      {
+        "class_id": 0,
+        "score": 0.9024226665496826,
+        "bbox_xyxy": [
+          104.56878662109375,
+          174.97328186035156,
+          549.855224609375,
+          460.4935302734375
+        ]
+      }
+    ]
+  },
+  {
+    "id": "iotkits_train_00457",
+    "image_id": 67,
+    "group_id": "globalcc_fbc00e31eeedd944979e",
+    "source": "iotkits_v1",
+    "truth": [],
+    "predictions": []
+  },
+  {
+    "id": "iotkits_train_00461",
+    "image_id": 68,
+    "group_id": "globalcc_b9c4e1fc48be7672130e",
+    "source": "iotkits_v1",
+    "truth": [
+      {
+        "class_id": 0,
+        "bbox_xyxy": [
+          56.0,
+          34.0,
+          548.0,
+          607.0
+        ]
+      }
+    ],
+    "predictions": [
+      {
+        "class_id": 0,
+        "score": 0.8973363637924194,
+        "bbox_xyxy": [
+          99.9774169921875,
+          31.55126953125,
+          531.4559936523438,
+          618.2138061523438
+        ]
+      }
+    ]
+  },
+  {
+    "id": "iotkits_train_00463",
+    "image_id": 69,
+    "group_id": "globalcc_0633494a8c5dd8998e5a",
+    "source": "iotkits_v1",
+    "truth": [],
+    "predictions": [
+      {
+        "class_id": 0,
+        "score": 0.03830958530306816,
+        "bbox_xyxy": [
+          1.6851806640625,
+          48.72308349609375,
+          640.0,
+          594.1312866210938
+        ]
+      }
+    ]
+  },
+  {
+    "id": "iotkits_train_00465",
+    "image_id": 70,
+    "group_id": "globalcc_09264fd32c49d8bdb4f7",
+    "source": "iotkits_v1",
+    "truth": [],
+    "predictions": []
+  },
+  {
+    "id": "iotkits_train_00468",
+    "image_id": 71,
+    "group_id": "globalcc_544c5f71f07bf8fb179c",
+    "source": "iotkits_v1",
+    "truth": [],
+    "predictions": []
+  },
+  {
+    "id": "iotkits_train_00477",
+    "image_id": 72,
+    "group_id": "globalcc_46b0a6f98b1216eb15a6",
+    "source": "iotkits_v1",
+    "truth": [
+      {
+        "class_id": 0,
+        "bbox_xyxy": [
+          171.0,
+          0.0,
+          517.0,
+          625.0
+        ]
+      }
+    ],
+    "predictions": [
+      {
+        "class_id": 0,
+        "score": 0.9252099990844727,
+        "bbox_xyxy": [
+          172.61888122558594,
+          8.8402099609375,
+          524.342041015625,
+          640.0
+        ]
+      },
+      {
+        "class_id": 0,
+        "score": 0.0011132906656712294,
+        "bbox_xyxy": [
+          160.9832000732422,
+          17.2275390625,
+          518.9639282226562,
+          407.9930419921875
+        ]
+      }
+    ]
+  },
+  {
+    "id": "iotkits_train_00486",
+    "image_id": 73,
+    "group_id": "globalcc_cb4da519d203c82ef8a9",
+    "source": "iotkits_v1",
+    "truth": [],
+    "predictions": [
+      {
+        "class_id": 0,
+        "score": 0.005097140558063984,
+        "bbox_xyxy": [
+          4.9285888671875,
+          315.6768798828125,
+          584.5150146484375,
+          588.1537475585938
+        ]
+      }
+    ]
+  },
+  {
+    "id": "iotkits_train_00494",
+    "image_id": 74,
+    "group_id": "globalcc_d1c28e93070431e0d4c1",
+    "source": "iotkits_v1",
+    "truth": [
+      {
+        "class_id": 0,
+        "bbox_xyxy": [
+          102.0,
+          65.0,
+          538.0,
+          573.0
+        ]
+      }
+    ],
+    "predictions": [
+      {
+        "class_id": 0,
+        "score": 0.9159408807754517,
+        "bbox_xyxy": [
+          111.44929504394531,
+          58.74815368652344,
+          543.1249389648438,
+          570.590576171875
+        ]
+      }
+    ]
+  },
+  {
+    "id": "iotkits_train_00500",
+    "image_id": 75,
+    "group_id": "globalcc_b9c4e1fc48be7672130e",
+    "source": "iotkits_v1",
+    "truth": [
+      {
+        "class_id": 0,
+        "bbox_xyxy": [
+          71.0,
+          113.0,
+          639.0,
+          522.0
+        ]
+      }
+    ],
+    "predictions": [
+      {
+        "class_id": 0,
+        "score": 0.9577136635780334,
+        "bbox_xyxy": [
+          84.6231689453125,
+          140.8736572265625,
+          629.96533203125,
+          524.6536865234375
+        ]
+      }
+    ]
+  },
+  {
+    "id": "iotkits_train_00501",
+    "image_id": 76,
+    "group_id": "globalcc_60e4878b9b3022e1f7e9",
+    "source": "iotkits_v1",
+    "truth": [
+      {
+        "class_id": 0,
+        "bbox_xyxy": [
+          87.0,
+          55.0,
+          556.0,
+          585.0
+        ]
+      }
+    ],
+    "predictions": [
+      {
+        "class_id": 0,
+        "score": 0.9205473065376282,
+        "bbox_xyxy": [
+          83.974365234375,
+          53.27825927734375,
+          554.8067626953125,
+          594.8125
+        ]
+      }
+    ]
+  },
+  {
+    "id": "iotkits_train_00507",
+    "image_id": 77,
+    "group_id": "globalcc_39674fa309ee7d6fedee",
+    "source": "iotkits_v1",
+    "truth": [],
+    "predictions": []
+  },
+  {
+    "id": "iotkits_train_00508",
+    "image_id": 78,
+    "group_id": "globalcc_eb9d0144a6a10adaf76b",
+    "source": "iotkits_v1",
+    "truth": [],
+    "predictions": [
+      {
+        "class_id": 0,
+        "score": 0.025585446506738663,
+        "bbox_xyxy": [
+          157.56802368164062,
+          18.2342529296875,
+          430.1285095214844,
+          628.2060546875
+        ]
+      },
+      {
+        "class_id": 0,
+        "score": 0.002491174964234233,
+        "bbox_xyxy": [
+          3.0457763671875,
+          1.3536376953125,
+          446.4467468261719,
+          637.97802734375
+        ]
+      }
+    ]
+  },
+  {
+    "id": "iotkits_train_00513",
+    "image_id": 79,
+    "group_id": "globalcc_28da5894fb36e93a2a36",
+    "source": "iotkits_v1",
+    "truth": [
+      {
+        "class_id": 0,
+        "bbox_xyxy": [
+          50.0,
+          142.0,
+          589.0,
+          501.0
+        ]
+      }
+    ],
+    "predictions": [
+      {
+        "class_id": 0,
+        "score": 0.9432224035263062,
+        "bbox_xyxy": [
+          53.73101806640625,
+          139.3616943359375,
+          594.484375,
+          506.02764892578125
+        ]
+      }
+    ]
+  },
+  {
+    "id": "iotkits_train_00523",
+    "image_id": 80,
+    "group_id": "globalcc_cb4da519d203c82ef8a9",
+    "source": "iotkits_v1",
+    "truth": [],
+    "predictions": [
+      {
+        "class_id": 0,
+        "score": 0.03282896801829338,
+        "bbox_xyxy": [
+          66.05531311035156,
+          419.9807434082031,
+          482.9710693359375,
+          634.5771484375
+        ]
+      }
+    ]
+  },
+  {
+    "id": "iotkits_train_00530",
+    "image_id": 81,
+    "group_id": "globalcc_a1b0af26fd06f18073b9",
+    "source": "iotkits_v1",
+    "truth": [],
+    "predictions": [
+      {
+        "class_id": 0,
+        "score": 0.0028218692168593407,
+        "bbox_xyxy": [
+          195.16416931152344,
+          259.51910400390625,
+          606.183349609375,
+          382.97967529296875
+        ]
+      },
+      {
+        "class_id": 0,
+        "score": 0.0011466509895399213,
+        "bbox_xyxy": [
+          369.21539306640625,
+          258.46099853515625,
+          604.9967651367188,
+          376.22509765625
+        ]
+      }
+    ]
+  },
+  {
+    "id": "iotkits_train_00532",
+    "image_id": 82,
+    "group_id": "globalcc_eb9d0144a6a10adaf76b",
+    "source": "iotkits_v1",
+    "truth": [],
+    "predictions": [
+      {
+        "class_id": 0,
+        "score": 0.10619639605283737,
+        "bbox_xyxy": [
+          203.3359375,
+          24.958984375,
+          460.93115234375,
+          640.0
+        ]
+      },
+      {
+        "class_id": 0,
+        "score": 0.009482165798544884,
+        "bbox_xyxy": [
+          31.330291748046875,
+          22.36529541015625,
+          479.0078125,
+          640.0
+        ]
+      },
+      {
+        "class_id": 0,
+        "score": 0.0011775128077715635,
+        "bbox_xyxy": [
+          228.4105987548828,
+          34.82701873779297,
+          471.79107666015625,
+          280.6319580078125
+        ]
+      }
+    ]
+  },
+  {
+    "id": "iotkits_train_00546",
+    "image_id": 83,
+    "group_id": "globalcc_da28545ec51a0d6dae77",
+    "source": "iotkits_v1",
+    "truth": [
+      {
+        "class_id": 0,
+        "bbox_xyxy": [
+          69.0,
+          0.0,
+          555.0,
+          619.0
+        ]
+      }
+    ],
+    "predictions": [
+      {
+        "class_id": 0,
+        "score": 0.8643674254417419,
+        "bbox_xyxy": [
+          68.91339111328125,
+          11.43231201171875,
+          559.8944091796875,
+          624.3544311523438
+        ]
+      }
+    ]
+  },
+  {
+    "id": "iotkits_train_00550",
+    "image_id": 84,
+    "group_id": "globalcc_3906e764271ca87eb7a3",
+    "source": "iotkits_v1",
+    "truth": [
+      {
+        "class_id": 0,
+        "bbox_xyxy": [
+          57.0,
+          164.0,
+          575.0,
+          501.0
+        ]
+      }
+    ],
+    "predictions": [
+      {
+        "class_id": 0,
+        "score": 0.8968387246131897,
+        "bbox_xyxy": [
+          63.202880859375,
+          162.32501220703125,
+          586.332763671875,
+          498.83367919921875
+        ]
+      }
+    ]
+  },
+  {
+    "id": "iotkits_train_00572",
+    "image_id": 85,
+    "group_id": "globalcc_1b90042490074f1a245e",
+    "source": "iotkits_v1",
+    "truth": [],
+    "predictions": []
+  },
+  {
+    "id": "iotkits_train_00573",
+    "image_id": 86,
+    "group_id": "globalcc_5ee5cfbf498c11222300",
+    "source": "iotkits_v1",
+    "truth": [],
+    "predictions": []
+  },
+  {
+    "id": "iotkits_train_00574",
+    "image_id": 87,
+    "group_id": "globalcc_dff2b33dbab73574a37d",
+    "source": "iotkits_v1",
+    "truth": [
+      {
+        "class_id": 0,
+        "bbox_xyxy": [
+          68.0,
+          105.0,
+          575.0,
+          537.0
+        ]
+      }
+    ],
+    "predictions": [
+      {
+        "class_id": 0,
+        "score": 0.9206593632698059,
+        "bbox_xyxy": [
+          65.3206787109375,
+          107.9718017578125,
+          568.5687255859375,
+          540.314453125
+        ]
+      }
+    ]
+  },
+  {
+    "id": "iotkits_train_00583",
+    "image_id": 88,
+    "group_id": "globalcc_cefeca76f92442815e1e",
+    "source": "iotkits_v1",
+    "truth": [
+      {
+        "class_id": 0,
+        "bbox_xyxy": [
+          46.0,
+          192.0,
+          531.0,
+          497.0
+        ]
+      }
+    ],
+    "predictions": [
+      {
+        "class_id": 0,
+        "score": 0.9078480005264282,
+        "bbox_xyxy": [
+          56.91107177734375,
+          191.26731872558594,
+          526.451171875,
+          502.3760986328125
+        ]
+      }
+    ]
+  },
+  {
+    "id": "iotkits_train_00585",
+    "image_id": 89,
+    "group_id": "globalcc_4e5670030a4c0a0978fb",
+    "source": "iotkits_v1",
+    "truth": [],
+    "predictions": []
+  },
+  {
+    "id": "iotkits_train_00587",
+    "image_id": 90,
+    "group_id": "globalcc_d22c1d78223b464af3db",
+    "source": "iotkits_v1",
+    "truth": [],
+    "predictions": []
+  },
+  {
+    "id": "iotkits_train_00589",
+    "image_id": 91,
+    "group_id": "globalcc_f6a3c808cbdb1cc6212e",
+    "source": "iotkits_v1",
+    "truth": [
+      {
+        "class_id": 0,
+        "bbox_xyxy": [
+          10.0,
+          79.0,
+          541.0,
+          507.0
+        ]
+      }
+    ],
+    "predictions": [
+      {
+        "class_id": 0,
+        "score": 0.9360256791114807,
+        "bbox_xyxy": [
+          14.473388671875,
+          82.17147827148438,
+          545.0552978515625,
+          508.5929870605469
+        ]
+      }
+    ]
+  },
+  {
+    "id": "iotkits_train_00591",
+    "image_id": 92,
+    "group_id": "globalcc_e2e70f213252aca57675",
+    "source": "iotkits_v1",
+    "truth": [
+      {
+        "class_id": 0,
+        "bbox_xyxy": [
+          7.0,
+          164.0,
+          612.0,
+          461.0
+        ]
+      }
+    ],
+    "predictions": [
+      {
+        "class_id": 0,
+        "score": 0.9235745668411255,
+        "bbox_xyxy": [
+          0.0,
+          159.7061767578125,
+          602.18994140625,
+          459.230712890625
+        ]
+      }
+    ]
+  },
+  {
+    "id": "iotkits_train_00593",
+    "image_id": 93,
+    "group_id": "globalcc_126cebe15ab640c81bc1",
+    "source": "iotkits_v1",
+    "truth": [],
+    "predictions": []
+  },
+  {
+    "id": "iotkits_train_00607",
+    "image_id": 94,
+    "group_id": "globalcc_0999783d5091bfbb1a04",
+    "source": "iotkits_v1",
+    "truth": [],
+    "predictions": []
+  },
+  {
+    "id": "iotkits_train_00609",
+    "image_id": 95,
+    "group_id": "globalcc_b8b0974245b89cc9eea8",
+    "source": "iotkits_v1",
+    "truth": [
+      {
+        "class_id": 0,
+        "bbox_xyxy": [
+          92.0,
+          53.0,
+          554.0,
+          584.0
+        ]
+      }
+    ],
+    "predictions": [
+      {
+        "class_id": 0,
+        "score": 0.9213961362838745,
+        "bbox_xyxy": [
+          102.4464111328125,
+          49.27838134765625,
+          549.355712890625,
+          592.3069458007812
+        ]
+      }
+    ]
+  },
+  {
+    "id": "iotkits_train_00610",
+    "image_id": 96,
+    "group_id": "globalcc_8f45d88347d9ba639512",
+    "source": "iotkits_v1",
+    "truth": [
+      {
+        "class_id": 0,
+        "bbox_xyxy": [
+          57.0,
+          113.0,
+          620.0,
+          526.0
+        ]
+      }
+    ],
+    "predictions": [
+      {
+        "class_id": 0,
+        "score": 0.8992617130279541,
+        "bbox_xyxy": [
+          59.92417907714844,
+          119.45057678222656,
+          566.2164306640625,
+          532.1197509765625
+        ]
+      }
+    ]
+  },
+  {
+    "id": "iotkits_train_00618",
+    "image_id": 97,
+    "group_id": "globalcc_a8006c0726280fb1ba49",
+    "source": "iotkits_v1",
+    "truth": [],
+    "predictions": []
+  },
+  {
+    "id": "iotkits_train_00619",
+    "image_id": 98,
+    "group_id": "globalcc_ba44fc4a3a9768aa0129",
+    "source": "iotkits_v1",
+    "truth": [],
+    "predictions": [
+      {
+        "class_id": 0,
+        "score": 0.1153823733329773,
+        "bbox_xyxy": [
+          46.29742431640625,
+          225.69168090820312,
+          578.62255859375,
+          425.4289855957031
+        ]
+      },
+      {
+        "class_id": 0,
+        "score": 0.0010438538156449795,
+        "bbox_xyxy": [
+          53.54707336425781,
+          228.67510986328125,
+          202.05319213867188,
+          413.8482666015625
+        ]
+      }
+    ]
+  },
+  {
+    "id": "iotkits_train_00624",
+    "image_id": 99,
+    "group_id": "globalcc_36ec8d5e2c338ab8d0d5",
+    "source": "iotkits_v1",
+    "truth": [],
+    "predictions": []
+  },
+  {
+    "id": "iotkits_train_00628",
+    "image_id": 100,
+    "group_id": "globalcc_208bb59ac612e644c15d",
+    "source": "iotkits_v1",
+    "truth": [],
+    "predictions": []
+  },
+  {
+    "id": "iotkits_train_00639",
+    "image_id": 101,
+    "group_id": "globalcc_ced4b9cd3f0feb98ddde",
+    "source": "iotkits_v1",
+    "truth": [
+      {
+        "class_id": 0,
+        "bbox_xyxy": [
+          73.0,
+          5.0,
+          574.0,
+          596.0
+        ]
+      }
+    ],
+    "predictions": [
+      {
+        "class_id": 0,
+        "score": 0.8627207279205322,
+        "bbox_xyxy": [
+          76.58544921875,
+          19.16552734375,
+          577.349853515625,
+          601.5438232421875
+        ]
+      }
+    ]
+  },
+  {
+    "id": "iotkits_train_00656",
+    "image_id": 102,
+    "group_id": "globalcc_cb2294e87f30a2b77644",
+    "source": "iotkits_v1",
+    "truth": [],
+    "predictions": []
+  },
+  {
+    "id": "iotkits_train_00661",
+    "image_id": 103,
+    "group_id": "globalcc_81dfd90874657a0e5ff7",
+    "source": "iotkits_v1",
+    "truth": [
+      {
+        "class_id": 0,
+        "bbox_xyxy": [
+          121.0,
+          0.0,
+          469.0,
+          627.0
+        ]
+      }
+    ],
+    "predictions": [
+      {
+        "class_id": 0,
+        "score": 0.8680686950683594,
+        "bbox_xyxy": [
+          132.7205810546875,
+          0.0,
+          472.21038818359375,
+          635.7900390625
+        ]
+      }
+    ]
+  },
+  {
+    "id": "iotkits_train_00678",
+    "image_id": 104,
+    "group_id": "globalcc_4e5670030a4c0a0978fb",
+    "source": "iotkits_v1",
+    "truth": [],
+    "predictions": []
+  },
+  {
+    "id": "iotkits_train_00682",
+    "image_id": 105,
+    "group_id": "globalcc_23c585a5109ab1244464",
+    "source": "iotkits_v1",
+    "truth": [],
+    "predictions": []
+  },
+  {
+    "id": "iotkits_train_00683",
+    "image_id": 106,
+    "group_id": "globalcc_1b90042490074f1a245e",
+    "source": "iotkits_v1",
+    "truth": [],
+    "predictions": []
+  },
+  {
+    "id": "iotkits_train_00697",
+    "image_id": 107,
+    "group_id": "globalcc_a4f6055fdba9dc8757e6",
+    "source": "iotkits_v1",
+    "truth": [],
+    "predictions": [
+      {
+        "class_id": 0,
+        "score": 0.01061862800270319,
+        "bbox_xyxy": [
+          53.4254150390625,
+          88.6094741821289,
+          632.5602416992188,
+          342.8493957519531
+        ]
+      },
+      {
+        "class_id": 0,
+        "score": 0.0040076845325529575,
+        "bbox_xyxy": [
+          0.0,
+          347.48681640625,
+          406.7825927734375,
+          472.892822265625
+        ]
+      },
+      {
+        "class_id": 0,
+        "score": 0.003557735588401556,
+        "bbox_xyxy": [
+          60.8397216796875,
+          337.2142333984375,
+          632.4218139648438,
+          471.952392578125
+        ]
+      },
+      {
+        "class_id": 0,
+        "score": 0.0035397070460021496,
+        "bbox_xyxy": [
+          61.73590087890625,
+          85.58550262451172,
+          398.676513671875,
+          317.5394287109375
+        ]
+      },
+      {
+        "class_id": 0,
+        "score": 0.002582801505923271,
+        "bbox_xyxy": [
+          207.975830078125,
+          92.35748291015625,
+          629.9344482421875,
+          487.14105224609375
+        ]
+      },
+      {
+        "class_id": 0,
+        "score": 0.0015511586098000407,
+        "bbox_xyxy": [
+          54.887420654296875,
+          75.4830093383789,
+          263.97210693359375,
+          307.6644592285156
+        ]
+      }
+    ]
+  },
+  {
+    "id": "iotkits_train_00699",
+    "image_id": 108,
+    "group_id": "globalcc_8be248bc40b9df41b8a5",
+    "source": "iotkits_v1",
+    "truth": [],
+    "predictions": [
+      {
+        "class_id": 0,
+        "score": 0.006692239083349705,
+        "bbox_xyxy": [
+          65.34552001953125,
+          3.1632080078125,
+          532.0484619140625,
+          634.5941162109375
+        ]
+      }
+    ]
+  },
+  {
+    "id": "iotkits_train_00704",
+    "image_id": 109,
+    "group_id": "globalcc_38fee7619f3c43169f59",
+    "source": "iotkits_v1",
+    "truth": [],
+    "predictions": [
+      {
+        "class_id": 0,
+        "score": 0.0016186530701816082,
+        "bbox_xyxy": [
+          40.70947265625,
+          78.3458251953125,
+          552.931396484375,
+          530.2349853515625
+        ]
+      }
+    ]
+  },
+  {
+    "id": "iotkits_train_00714",
+    "image_id": 110,
+    "group_id": "globalcc_4dd52d31c9211c982b94",
+    "source": "iotkits_v1",
+    "truth": [
+      {
+        "class_id": 0,
+        "bbox_xyxy": [
+          80.0,
+          46.0,
+          639.0,
+          631.0
+        ]
+      }
+    ],
+    "predictions": [
+      {
+        "class_id": 0,
+        "score": 0.9318061470985413,
+        "bbox_xyxy": [
+          81.18829345703125,
+          43.4659423828125,
+          627.4910888671875,
+          636.07470703125
+        ]
+      }
+    ]
+  },
+  {
+    "id": "iotkits_train_00726",
+    "image_id": 111,
+    "group_id": "globalcc_5ed75fb3536c8584290e",
+    "source": "iotkits_v1",
+    "truth": [],
+    "predictions": []
+  },
+  {
+    "id": "iotkits_train_00736",
+    "image_id": 112,
+    "group_id": "globalcc_ed0c960c1f80724270f1",
+    "source": "iotkits_v1",
+    "truth": [],
+    "predictions": []
+  },
+  {
+    "id": "iotkits_train_00738",
+    "image_id": 113,
+    "group_id": "globalcc_c7a898ff726917407acd",
+    "source": "iotkits_v1",
+    "truth": [],
+    "predictions": [
+      {
+        "class_id": 0,
+        "score": 0.021888239309191704,
+        "bbox_xyxy": [
+          74.35986328125,
+          5.58551025390625,
+          599.92138671875,
+          614.4514770507812
+        ]
+      }
+    ]
+  },
+  {
+    "id": "iotkits_train_00755",
+    "image_id": 114,
+    "group_id": "globalcc_36ec8d5e2c338ab8d0d5",
+    "source": "iotkits_v1",
+    "truth": [],
+    "predictions": []
+  },
+  {
+    "id": "iotkits_train_00756",
+    "image_id": 115,
+    "group_id": "globalcc_5b4a79d53753fabab1db",
+    "source": "iotkits_v1",
+    "truth": [],
+    "predictions": []
+  },
+  {
+    "id": "iotkits_train_00761",
+    "image_id": 116,
+    "group_id": "globalcc_55153ef095a627c9a7d4",
+    "source": "iotkits_v1",
+    "truth": [
+      {
+        "class_id": 0,
+        "bbox_xyxy": [
+          46.0,
+          97.0,
+          601.0,
+          513.0
+        ]
+      }
+    ],
+    "predictions": [
+      {
+        "class_id": 0,
+        "score": 0.9543775916099548,
+        "bbox_xyxy": [
+          48.00830078125,
+          95.7535400390625,
+          602.05322265625,
+          512.3282470703125
+        ]
+      }
+    ]
+  },
+  {
+    "id": "iotkits_train_00763",
+    "image_id": 117,
+    "group_id": "globalcc_04731be05dd6987416fa",
+    "source": "iotkits_v1",
+    "truth": [],
+    "predictions": [
+      {
+        "class_id": 0,
+        "score": 0.0016612831968814135,
+        "bbox_xyxy": [
+          65.73626708984375,
+          145.3272705078125,
+          519.69873046875,
+          640.0
+        ]
+      }
+    ]
+  },
+  {
+    "id": "iotkits_train_00767",
+    "image_id": 118,
+    "group_id": "globalcc_cb4da519d203c82ef8a9",
+    "source": "iotkits_v1",
+    "truth": [],
+    "predictions": [
+      {
+        "class_id": 0,
+        "score": 0.024316774681210518,
+        "bbox_xyxy": [
+          57.83441162109375,
+          318.88623046875,
+          626.9928588867188,
+          570.2776489257812
+        ]
+      },
+      {
+        "class_id": 0,
+        "score": 0.001232272363267839,
+        "bbox_xyxy": [
+          181.80316162109375,
+          365.81622314453125,
+          602.714111328125,
+          585.8685913085938
+        ]
+      }
+    ]
+  },
+  {
+    "id": "iotkits_train_00785",
+    "image_id": 119,
+    "group_id": "globalcc_ba0d9b79810daf4989f0",
+    "source": "iotkits_v1",
+    "truth": [],
+    "predictions": [
+      {
+        "class_id": 0,
+        "score": 0.001849450170993805,
+        "bbox_xyxy": [
+          0.0,
+          5.98394775390625,
+          373.90704345703125,
+          639.0316162109375
+        ]
+      }
+    ]
+  },
+  {
+    "id": "iotkits_train_00787",
+    "image_id": 120,
+    "group_id": "globalcc_f6347273afa71e2af6d7",
+    "source": "iotkits_v1",
+    "truth": [],
+    "predictions": []
+  },
+  {
+    "id": "iotkits_train_00798",
+    "image_id": 121,
+    "group_id": "globalcc_36ec8d5e2c338ab8d0d5",
+    "source": "iotkits_v1",
+    "truth": [],
+    "predictions": []
+  },
+  {
+    "id": "iotkits_train_00801",
+    "image_id": 122,
+    "group_id": "globalcc_f7ffb73d6ad2c627d5b6",
+    "source": "iotkits_v1",
+    "truth": [],
+    "predictions": []
+  },
+  {
+    "id": "iotkits_train_00808",
+    "image_id": 123,
+    "group_id": "globalcc_75f345f123f891d37179",
+    "source": "iotkits_v1",
+    "truth": [],
+    "predictions": [
+      {
+        "class_id": 0,
+        "score": 0.020412776619195938,
+        "bbox_xyxy": [
+          164.9978485107422,
+          207.77484130859375,
+          618.8818969726562,
+          429.4788818359375
+        ]
+      },
+      {
+        "class_id": 0,
+        "score": 0.0010880661429837346,
+        "bbox_xyxy": [
+          21.501556396484375,
+          216.26409912109375,
+          457.6498718261719,
+          427.6026611328125
+        ]
+      }
+    ]
+  },
+  {
+    "id": "iotkits_train_00814",
+    "image_id": 124,
+    "group_id": "globalcc_f6347273afa71e2af6d7",
+    "source": "iotkits_v1",
+    "truth": [],
+    "predictions": []
+  },
+  {
+    "id": "iotkits_train_00817",
+    "image_id": 125,
+    "group_id": "globalcc_396221bae28521a4a0c4",
+    "source": "iotkits_v1",
+    "truth": [],
+    "predictions": [
+      {
+        "class_id": 0,
+        "score": 0.012408255599439144,
+        "bbox_xyxy": [
+          125.00164794921875,
+          0.0283203125,
+          639.158935546875,
+          632.8521728515625
+        ]
+      }
+    ]
+  },
+  {
+    "id": "iotkits_train_00819",
+    "image_id": 126,
+    "group_id": "globalcc_5764f70145d170fa135d",
+    "source": "iotkits_v1",
+    "truth": [],
+    "predictions": []
+  },
+  {
+    "id": "iotkits_train_00829",
+    "image_id": 127,
+    "group_id": "globalcc_23c585a5109ab1244464",
+    "source": "iotkits_v1",
+    "truth": [],
+    "predictions": []
+  },
+  {
+    "id": "iotkits_train_00831",
+    "image_id": 128,
+    "group_id": "globalcc_9aaa1256cbe52f903304",
+    "source": "iotkits_v1",
+    "truth": [
+      {
+        "class_id": 0,
+        "bbox_xyxy": [
+          41.0,
+          38.0,
+          639.0,
+          503.0
+        ]
+      },
+      {
+        "class_id": 0,
+        "bbox_xyxy": [
+          42.0,
+          39.0,
+          639.0,
+          503.0
+        ]
+      }
+    ],
+    "predictions": [
+      {
+        "class_id": 0,
+        "score": 0.9339421987533569,
+        "bbox_xyxy": [
+          45.98431396484375,
+          36.197784423828125,
+          630.909423828125,
+          511.6507873535156
+        ]
+      }
+    ]
+  },
+  {
+    "id": "iotkits_train_00842",
+    "image_id": 129,
+    "group_id": "globalcc_e05791f17371adc79377",
+    "source": "iotkits_v1",
+    "truth": [],
+    "predictions": []
+  },
+  {
+    "id": "iotkits_train_00846",
+    "image_id": 130,
+    "group_id": "globalcc_edf9935e6c62effe82f3",
+    "source": "iotkits_v1",
+    "truth": [],
+    "predictions": []
+  },
+  {
+    "id": "iotkits_train_00850",
+    "image_id": 131,
+    "group_id": "globalcc_81d7033dd2d883fd47d4",
+    "source": "iotkits_v1",
+    "truth": [
+      {
+        "class_id": 0,
+        "bbox_xyxy": [
+          128.0,
+          5.0,
+          426.0,
+          627.0
+        ]
+      }
+    ],
+    "predictions": [
+      {
+        "class_id": 0,
+        "score": 0.8989750146865845,
+        "bbox_xyxy": [
+          127.451904296875,
+          19.30023193359375,
+          418.12982177734375,
+          640.0
+        ]
+      },
+      {
+        "class_id": 0,
+        "score": 0.0012502296594902873,
+        "bbox_xyxy": [
+          117.01397705078125,
+          8.15386962890625,
+          640.0,
+          625.8685913085938
+        ]
+      }
+    ]
+  },
+  {
+    "id": "iotkits_train_00852",
+    "image_id": 132,
+    "group_id": "globalcc_36ec8d5e2c338ab8d0d5",
+    "source": "iotkits_v1",
+    "truth": [],
+    "predictions": []
+  },
+  {
+    "id": "iotkits_train_00874",
+    "image_id": 133,
+    "group_id": "globalcc_0ca239bd02ba1f60f383",
+    "source": "iotkits_v1",
+    "truth": [],
+    "predictions": []
+  },
+  {
+    "id": "iotkits_train_00875",
+    "image_id": 134,
+    "group_id": "globalcc_628b7fa929f558d3216d",
+    "source": "iotkits_v1",
+    "truth": [],
+    "predictions": []
+  },
+  {
+    "id": "iotkits_train_00877",
+    "image_id": 135,
+    "group_id": "globalcc_776a780b44c801b27fe0",
+    "source": "iotkits_v1",
+    "truth": [],
+    "predictions": []
+  },
+  {
+    "id": "iotkits_train_00879",
+    "image_id": 136,
+    "group_id": "globalcc_4dd52d31c9211c982b94",
+    "source": "iotkits_v1",
+    "truth": [
+      {
+        "class_id": 0,
+        "bbox_xyxy": [
+          74.0,
+          18.0,
+          608.0,
+          597.0
+        ]
+      }
+    ],
+    "predictions": [
+      {
+        "class_id": 0,
+        "score": 0.8078427314758301,
+        "bbox_xyxy": [
+          82.28204345703125,
+          11.21905517578125,
+          597.75048828125,
+          599.6315307617188
+        ]
+      }
+    ]
+  },
+  {
+    "id": "iotkits_train_00887",
+    "image_id": 137,
+    "group_id": "globalcc_5ee5cfbf498c11222300",
+    "source": "iotkits_v1",
+    "truth": [],
+    "predictions": []
+  },
+  {
+    "id": "iotkits_train_00888",
+    "image_id": 138,
+    "group_id": "globalcc_1b90042490074f1a245e",
+    "source": "iotkits_v1",
+    "truth": [],
+    "predictions": []
+  },
+  {
+    "id": "iotkits_train_00889",
+    "image_id": 139,
+    "group_id": "globalcc_c2cb466eaf44b81b1a9b",
+    "source": "iotkits_v1",
+    "truth": [
+      {
+        "class_id": 0,
+        "bbox_xyxy": [
+          40.0,
+          106.0,
+          610.0,
+          533.0
+        ]
+      }
+    ],
+    "predictions": [
+      {
+        "class_id": 0,
+        "score": 0.9490314722061157,
+        "bbox_xyxy": [
+          44.946533203125,
+          115.76220703125,
+          608.0744018554688,
+          535.3609619140625
+        ]
+      }
+    ]
+  },
+  {
+    "id": "iotkits_train_00893",
+    "image_id": 140,
+    "group_id": "globalcc_8711186ed9eefc5a6f06",
+    "source": "iotkits_v1",
+    "truth": [
+      {
+        "class_id": 0,
+        "bbox_xyxy": [
+          68.0,
+          110.0,
+          606.0,
+          536.0
+        ]
+      }
+    ],
+    "predictions": [
+      {
+        "class_id": 0,
+        "score": 0.9065714478492737,
+        "bbox_xyxy": [
+          66.9918212890625,
+          113.74015808105469,
+          606.4749755859375,
+          540.2299194335938
+        ]
+      }
+    ]
+  },
+  {
+    "id": "iotkits_train_00903",
+    "image_id": 141,
+    "group_id": "globalcc_c9a9e8298eaed6dfbeb3",
+    "source": "iotkits_v1",
+    "truth": [],
+    "predictions": [
+      {
+        "class_id": 0,
+        "score": 0.0011106312740594149,
+        "bbox_xyxy": [
+          101.94140625,
+          244.70289611816406,
+          625.5376586914062,
+          640.0
+        ]
+      }
+    ]
+  },
+  {
+    "id": "iotkits_train_00920",
+    "image_id": 142,
+    "group_id": "globalcc_ed0c960c1f80724270f1",
+    "source": "iotkits_v1",
+    "truth": [],
+    "predictions": []
+  },
+  {
+    "id": "iotkits_train_00945",
+    "image_id": 143,
+    "group_id": "globalcc_c8beff11ea85bc10aa45",
+    "source": "iotkits_v1",
+    "truth": [],
+    "predictions": []
+  },
+  {
+    "id": "iotkits_train_00951",
+    "image_id": 144,
+    "group_id": "globalcc_a4f6055fdba9dc8757e6",
+    "source": "iotkits_v1",
+    "truth": [],
+    "predictions": [
+      {
+        "class_id": 0,
+        "score": 0.005068491213023663,
+        "bbox_xyxy": [
+          16.171661376953125,
+          384.644775390625,
+          402.2248840332031,
+          508.9410400390625
+        ]
+      },
+      {
+        "class_id": 0,
+        "score": 0.003070184262469411,
+        "bbox_xyxy": [
+          23.808868408203125,
+          132.7716064453125,
+          368.60009765625,
+          356.89935302734375
+        ]
+      },
+      {
+        "class_id": 0,
+        "score": 0.0029885051771998405,
+        "bbox_xyxy": [
+          45.642333984375,
+          384.387451171875,
+          611.1259155273438,
+          504.7845458984375
+        ]
+      },
+      {
+        "class_id": 0,
+        "score": 0.001889556646347046,
+        "bbox_xyxy": [
+          252.8487548828125,
+          136.50579833984375,
+          611.6038818359375,
+          507.647216796875
+        ]
+      },
+      {
+        "class_id": 0,
+        "score": 0.001122079323977232,
+        "bbox_xyxy": [
+          17.4464111328125,
+          130.85394287109375,
+          616.6583251953125,
+          371.23846435546875
+        ]
+      }
+    ]
+  },
+  {
+    "id": "iotkits_train_00953",
+    "image_id": 145,
+    "group_id": "globalcc_e09d43bd5d28ab151750",
+    "source": "iotkits_v1",
+    "truth": [],
+    "predictions": []
+  },
+  {
+    "id": "iotkits_train_00965",
+    "image_id": 146,
+    "group_id": "globalcc_1a7ac921075d2bb82c2f",
+    "source": "iotkits_v1",
+    "truth": [],
+    "predictions": [
+      {
+        "class_id": 0,
+        "score": 0.009108122438192368,
+        "bbox_xyxy": [
+          68.82559204101562,
+          229.54571533203125,
+          413.5453186035156,
+          589.9814453125
+        ]
+      },
+      {
+        "class_id": 0,
+        "score": 0.007288990542292595,
+        "bbox_xyxy": [
+          15.1624755859375,
+          0.0,
+          426.6624755859375,
+          438.32415771484375
+        ]
+      },
+      {
+        "class_id": 0,
+        "score": 0.006463553756475449,
+        "bbox_xyxy": [
+          26.991363525390625,
+          231.86456298828125,
+          420.9825744628906,
+          434.5792236328125
+        ]
+      },
+      {
+        "class_id": 0,
+        "score": 0.005077576730400324,
+        "bbox_xyxy": [
+          5.55169677734375,
+          132.28564453125,
+          424.03045654296875,
+          553.0728759765625
+        ]
+      },
+      {
+        "class_id": 0,
+        "score": 0.0010541882365942001,
+        "bbox_xyxy": [
+          128.114013671875,
+          0.0,
+          622.1065063476562,
+          443.84466552734375
+        ]
+      }
+    ]
+  },
+  {
+    "id": "iotkits_train_00980",
+    "image_id": 147,
+    "group_id": "globalcc_c65d0e6e7b7b7e46cdef",
+    "source": "iotkits_v1",
+    "truth": [
+      {
+        "class_id": 0,
+        "bbox_xyxy": [
+          29.0,
+          190.0,
+          593.0,
+          460.0
+        ]
+      }
+    ],
+    "predictions": [
+      {
+        "class_id": 0,
+        "score": 0.9476787447929382,
+        "bbox_xyxy": [
+          42.49188232421875,
+          186.29541015625,
+          595.1298828125,
+          460.47894287109375
+        ]
+      }
+    ]
+  },
+  {
+    "id": "iotkits_train_00985",
+    "image_id": 148,
+    "group_id": "globalcc_208bb59ac612e644c15d",
+    "source": "iotkits_v1",
+    "truth": [],
+    "predictions": []
+  },
+  {
+    "id": "iotkits_train_00992",
+    "image_id": 149,
+    "group_id": "globalcc_5347e76d33d3869b1107",
+    "source": "iotkits_v1",
+    "truth": [],
+    "predictions": []
+  },
+  {
+    "id": "iotkits_train_00993",
+    "image_id": 150,
+    "group_id": "globalcc_b9c4e1fc48be7672130e",
+    "source": "iotkits_v1",
+    "truth": [
+      {
+        "class_id": 0,
+        "bbox_xyxy": [
+          0.0,
+          26.0,
+          625.0,
+          528.0
+        ]
+      }
+    ],
+    "predictions": [
+      {
+        "class_id": 0,
+        "score": 0.8977642059326172,
+        "bbox_xyxy": [
+          15.29205322265625,
+          24.626953125,
+          630.7311401367188,
+          488.9786376953125
+        ]
+      }
+    ]
+  },
+  {
+    "id": "iotkits_train_01006",
+    "image_id": 151,
+    "group_id": "globalcc_836672c295f4540557d3",
+    "source": "iotkits_v1",
+    "truth": [],
+    "predictions": []
+  },
+  {
+    "id": "iotkits_train_01009",
+    "image_id": 152,
+    "group_id": "globalcc_1faccb12e708d1c08eb7",
+    "source": "iotkits_v1",
+    "truth": [],
+    "predictions": []
+  },
+  {
+    "id": "iotkits_train_01016",
+    "image_id": 153,
+    "group_id": "globalcc_237b2b1f6b5d2378ad05",
+    "source": "iotkits_v1",
+    "truth": [
+      {
+        "class_id": 0,
+        "bbox_xyxy": [
+          65.0,
+          209.0,
+          587.0,
+          553.0
+        ]
+      }
+    ],
+    "predictions": [
+      {
+        "class_id": 0,
+        "score": 0.9387677311897278,
+        "bbox_xyxy": [
+          67.4927978515625,
+          205.90008544921875,
+          592.435791015625,
+          541.33447265625
+        ]
+      }
+    ]
+  },
+  {
+    "id": "iotkits_train_01019",
+    "image_id": 154,
+    "group_id": "globalcc_f424e91a19ff2a002b33",
+    "source": "iotkits_v1",
+    "truth": [
+      {
+        "class_id": 0,
+        "bbox_xyxy": [
+          52.0,
+          129.0,
+          571.0,
+          429.0
+        ]
+      }
+    ],
+    "predictions": [
+      {
+        "class_id": 0,
+        "score": 0.8998715281486511,
+        "bbox_xyxy": [
+          61.4168701171875,
+          130.38442993164062,
+          581.9595947265625,
+          417.7387390136719
+        ]
+      }
+    ]
+  },
+  {
+    "id": "iotkits_train_01025",
+    "image_id": 155,
+    "group_id": "globalcc_9204c2f65a889eeef52f",
+    "source": "iotkits_v1",
+    "truth": [],
+    "predictions": []
+  },
+  {
+    "id": "iotkits_train_01031",
+    "image_id": 156,
+    "group_id": "globalcc_3906e764271ca87eb7a3",
+    "source": "iotkits_v1",
+    "truth": [
+      {
+        "class_id": 0,
+        "bbox_xyxy": [
+          138.0,
+          0.0,
+          488.0,
+          568.0
+        ]
+      }
+    ],
+    "predictions": [
+      {
+        "class_id": 0,
+        "score": 0.9096826910972595,
+        "bbox_xyxy": [
+          121.83636474609375,
+          7.96356201171875,
+          492.2412109375,
+          577.565673828125
+        ]
+      }
+    ]
+  },
+  {
+    "id": "iotkits_train_01035",
+    "image_id": 157,
+    "group_id": "globalcc_cb0ba2492b4ab464b204",
+    "source": "iotkits_v1",
+    "truth": [],
+    "predictions": [
+      {
+        "class_id": 0,
+        "score": 0.001707728486508131,
+        "bbox_xyxy": [
+          94.0396728515625,
+          2.7490234375,
+          635.0194091796875,
+          640.0
+        ]
+      }
+    ]
+  },
+  {
+    "id": "iotkits_train_01037",
+    "image_id": 158,
+    "group_id": "globalcc_f948750cb2ed081091da",
+    "source": "iotkits_v1",
+    "truth": [],
+    "predictions": []
+  },
+  {
+    "id": "iotkits_train_01043",
+    "image_id": 159,
+    "group_id": "globalcc_836672c295f4540557d3",
+    "source": "iotkits_v1",
+    "truth": [],
+    "predictions": []
+  },
+  {
+    "id": "iotkits_train_01053",
+    "image_id": 160,
+    "group_id": "globalcc_fbfcbbd50e5db58039ae",
+    "source": "iotkits_v1",
+    "truth": [],
+    "predictions": []
+  },
+  {
+    "id": "iotkits_train_01055",
+    "image_id": 161,
+    "group_id": "globalcc_ed40930b778f7492cf6c",
+    "source": "iotkits_v1",
+    "truth": [],
+    "predictions": []
+  },
+  {
+    "id": "iotkits_train_01066",
+    "image_id": 162,
+    "group_id": "globalcc_1b90042490074f1a245e",
+    "source": "iotkits_v1",
+    "truth": [],
+    "predictions": []
+  },
+  {
+    "id": "iotkits_train_01067",
+    "image_id": 163,
+    "group_id": "globalcc_1faccb12e708d1c08eb7",
+    "source": "iotkits_v1",
+    "truth": [],
+    "predictions": []
+  },
+  {
+    "id": "iotkits_train_01068",
+    "image_id": 164,
+    "group_id": "globalcc_8711186ed9eefc5a6f06",
+    "source": "iotkits_v1",
+    "truth": [
+      {
+        "class_id": 0,
+        "bbox_xyxy": [
+          62.0,
+          110.0,
+          579.0,
+          531.0
+        ]
+      }
+    ],
+    "predictions": [
+      {
+        "class_id": 0,
+        "score": 0.9165711998939514,
+        "bbox_xyxy": [
+          72.8372802734375,
+          112.3013916015625,
+          594.891845703125,
+          538.4254760742188
+        ]
+      }
+    ]
+  },
+  {
+    "id": "iotkits_train_01078",
+    "image_id": 165,
+    "group_id": "globalcc_ad022fd256d15e44d3cd",
+    "source": "iotkits_v1",
+    "truth": [],
+    "predictions": []
+  },
+  {
+    "id": "iotkits_train_01089",
+    "image_id": 166,
+    "group_id": "globalcc_9204c2f65a889eeef52f",
+    "source": "iotkits_v1",
+    "truth": [],
+    "predictions": []
+  },
+  {
+    "id": "iotkits_train_01093",
+    "image_id": 167,
+    "group_id": "globalcc_b5f4af08cab70955639c",
+    "source": "iotkits_v1",
+    "truth": [],
+    "predictions": []
+  },
+  {
+    "id": "iotkits_train_01105",
+    "image_id": 168,
+    "group_id": "globalcc_ed0c960c1f80724270f1",
+    "source": "iotkits_v1",
+    "truth": [],
+    "predictions": []
+  },
+  {
+    "id": "iotkits_train_01119",
+    "image_id": 169,
+    "group_id": "globalcc_28da5894fb36e93a2a36",
+    "source": "iotkits_v1",
+    "truth": [
+      {
+        "class_id": 0,
+        "bbox_xyxy": [
+          128.0,
+          16.0,
+          477.0,
+          571.0
+        ]
+      }
+    ],
+    "predictions": [
+      {
+        "class_id": 0,
+        "score": 0.7675848603248596,
+        "bbox_xyxy": [
+          129.99981689453125,
+          17.2789306640625,
+          481.95465087890625,
+          580.0491943359375
+        ]
+      }
+    ]
+  },
+  {
+    "id": "iotkits_train_01130",
+    "image_id": 170,
+    "group_id": "globalcc_34860f27a6ba3b18f5eb",
+    "source": "iotkits_v1",
+    "truth": [],
+    "predictions": [
+      {
+        "class_id": 0,
+        "score": 0.019284788519144058,
+        "bbox_xyxy": [
+          38.5467529296875,
+          0.0,
+          640.0,
+          576.142578125
+        ]
+      },
+      {
+        "class_id": 0,
+        "score": 0.014363793656229973,
+        "bbox_xyxy": [
+          231.19732666015625,
+          7.1975860595703125,
+          640.0,
+          199.34365844726562
+        ]
+      },
+      {
+        "class_id": 0,
+        "score": 0.005456636659801006,
+        "bbox_xyxy": [
+          106.10687255859375,
+          5.0070037841796875,
+          434.9776611328125,
+          196.4791259765625
+        ]
+      },
+      {
+        "class_id": 0,
+        "score": 0.004251735284924507,
+        "bbox_xyxy": [
+          29.19012451171875,
+          368.37396240234375,
+          524.179443359375,
+          577.3439331054688
+        ]
+      },
+      {
+        "class_id": 0,
+        "score": 0.0033681790810078382,
+        "bbox_xyxy": [
+          116.065185546875,
+          383.197509765625,
+          497.85107421875,
+          631.478271484375
+        ]
+      }
+    ]
+  },
+  {
+    "id": "iotkits_train_01139",
+    "image_id": 171,
+    "group_id": "globalcc_ca09970c985b124de5f8",
+    "source": "iotkits_v1",
+    "truth": [],
+    "predictions": []
+  },
+  {
+    "id": "iotkits_train_01140",
+    "image_id": 172,
+    "group_id": "globalcc_ced4b9cd3f0feb98ddde",
+    "source": "iotkits_v1",
+    "truth": [
+      {
+        "class_id": 0,
+        "bbox_xyxy": [
+          57.0,
+          36.0,
+          545.0,
+          639.0
+        ]
+      }
+    ],
+    "predictions": [
+      {
+        "class_id": 0,
+        "score": 0.942001461982727,
+        "bbox_xyxy": [
+          63.72430419921875,
+          27.3985595703125,
+          557.0401000976562,
+          635.3985595703125
+        ]
+      }
+    ]
+  },
+  {
+    "id": "iotkits_train_01150",
+    "image_id": 173,
+    "group_id": "globalcc_0633494a8c5dd8998e5a",
+    "source": "iotkits_v1",
+    "truth": [],
+    "predictions": [
+      {
+        "class_id": 0,
+        "score": 0.016300980001688004,
+        "bbox_xyxy": [
+          0.0,
+          50.3291015625,
+          638.5361328125,
+          569.542236328125
+        ]
+      }
+    ]
+  },
+  {
+    "id": "iotkits_train_01156",
+    "image_id": 174,
+    "group_id": "globalcc_8ee95e5909d8936d2202",
+    "source": "iotkits_v1",
+    "truth": [
+      {
+        "class_id": 0,
+        "bbox_xyxy": [
+          38.0,
+          138.0,
+          603.0,
+          504.0
+        ]
+      }
+    ],
+    "predictions": [
+      {
+        "class_id": 0,
+        "score": 0.9227167367935181,
+        "bbox_xyxy": [
+          38.458984375,
+          137.68914794921875,
+          605.7115478515625,
+          505.762451171875
+        ]
+      }
+    ]
+  },
+  {
+    "id": "iotkits_train_01175",
+    "image_id": 175,
+    "group_id": "globalcc_544c5f71f07bf8fb179c",
+    "source": "iotkits_v1",
+    "truth": [],
+    "predictions": [
+      {
+        "class_id": 0,
+        "score": 0.028415890410542488,
+        "bbox_xyxy": [
+          0.0,
+          214.310546875,
+          611.2431030273438,
+          640.0
+        ]
+      },
+      {
+        "class_id": 0,
+        "score": 0.004872239660471678,
+        "bbox_xyxy": [
+          39.69439697265625,
+          269.29345703125,
+          610.8505859375,
+          594.1492919921875
+        ]
+      }
+    ]
+  },
+  {
+    "id": "iotkits_train_01183",
+    "image_id": 176,
+    "group_id": "globalcc_6fab2885398b6d289b49",
+    "source": "iotkits_v1",
+    "truth": [],
+    "predictions": []
+  },
+  {
+    "id": "iotkits_train_01191",
+    "image_id": 177,
+    "group_id": "globalcc_b4861ed886d1c3aadef5",
+    "source": "iotkits_v1",
+    "truth": [
+      {
+        "class_id": 0,
+        "bbox_xyxy": [
+          26.0,
+          164.0,
+          433.0,
+          603.0
+        ]
+      }
+    ],
+    "predictions": [
+      {
+        "class_id": 0,
+        "score": 0.9225325584411621,
+        "bbox_xyxy": [
+          45.05767822265625,
+          160.15277099609375,
+          433.8636169433594,
+          609.4026489257812
+        ]
+      },
+      {
+        "class_id": 0,
+        "score": 0.010876206681132317,
+        "bbox_xyxy": [
+          42.23248291015625,
+          160.666259765625,
+          425.19683837890625,
+          321.654052734375
+        ]
+      }
+    ]
+  },
+  {
+    "id": "iotkits_train_01202",
+    "image_id": 178,
+    "group_id": "globalcc_ad022fd256d15e44d3cd",
+    "source": "iotkits_v1",
+    "truth": [],
+    "predictions": []
+  },
+  {
+    "id": "iotkits_train_01216",
+    "image_id": 179,
+    "group_id": "globalcc_5ee5cfbf498c11222300",
+    "source": "iotkits_v1",
+    "truth": [],
+    "predictions": []
+  },
+  {
+    "id": "iotkits_train_01218",
+    "image_id": 180,
+    "group_id": "globalcc_9aaa1256cbe52f903304",
+    "source": "iotkits_v1",
+    "truth": [
+      {
+        "class_id": 0,
+        "bbox_xyxy": [
+          16.0,
+          110.0,
+          621.0,
+          532.0
+        ]
+      }
+    ],
+    "predictions": [
+      {
+        "class_id": 0,
+        "score": 0.9507055282592773,
+        "bbox_xyxy": [
+          16.40673828125,
+          111.81396484375,
+          637.6051025390625,
+          536.1334838867188
+        ]
+      }
+    ]
+  },
+  {
+    "id": "iotkits_train_01223",
+    "image_id": 181,
+    "group_id": "globalcc_1b90042490074f1a245e",
+    "source": "iotkits_v1",
+    "truth": [],
+    "predictions": []
+  },
+  {
+    "id": "iotkits_train_01224",
+    "image_id": 182,
+    "group_id": "globalcc_55153ef095a627c9a7d4",
+    "source": "iotkits_v1",
+    "truth": [
+      {
+        "class_id": 0,
+        "bbox_xyxy": [
+          193.0,
+          3.0,
+          562.0,
+          612.0
+        ]
+      }
+    ],
+    "predictions": [
+      {
+        "class_id": 0,
+        "score": 0.9465209245681763,
+        "bbox_xyxy": [
+          196.5274200439453,
+          20.28582763671875,
+          560.4323120117188,
+          621.555908203125
+        ]
+      }
+    ]
+  },
+  {
+    "id": "iotkits_train_01231",
+    "image_id": 183,
+    "group_id": "globalcc_3e9a525a150a30113659",
+    "source": "iotkits_v1",
+    "truth": [],
+    "predictions": []
+  },
+  {
+    "id": "iotkits_train_01233",
+    "image_id": 184,
+    "group_id": "globalcc_c1e089507b77a6e18d35",
+    "source": "iotkits_v1",
+    "truth": [],
+    "predictions": []
+  },
+  {
+    "id": "iotkits_train_01237",
+    "image_id": 185,
+    "group_id": "globalcc_3bcc904b0574ed98af28",
+    "source": "iotkits_v1",
+    "truth": [],
+    "predictions": []
+  },
+  {
+    "id": "iotkits_train_01247",
+    "image_id": 186,
+    "group_id": "globalcc_b52e962f35afb9f11aee",
+    "source": "iotkits_v1",
+    "truth": [
+      {
+        "class_id": 0,
+        "bbox_xyxy": [
+          34.0,
+          168.0,
+          622.0,
+          506.0
+        ]
+      }
+    ],
+    "predictions": [
+      {
+        "class_id": 0,
+        "score": 0.9557802677154541,
+        "bbox_xyxy": [
+          28.67071533203125,
+          168.8236083984375,
+          629.3408813476562,
+          499.14874267578125
+        ]
+      }
+    ]
+  },
+  {
+    "id": "iotkits_train_01254",
+    "image_id": 187,
+    "group_id": "globalcc_c9a9e8298eaed6dfbeb3",
+    "source": "iotkits_v1",
+    "truth": [],
+    "predictions": [
+      {
+        "class_id": 0,
+        "score": 0.0037406927440315485,
+        "bbox_xyxy": [
+          34.216552734375,
+          196.5489044189453,
+          558.3912353515625,
+          395.55194091796875
+        ]
+      },
+      {
+        "class_id": 0,
+        "score": 0.0030380256939679384,
+        "bbox_xyxy": [
+          34.276611328125,
+          185.12013244628906,
+          564.0050048828125,
+          640.0
+        ]
+      }
+    ]
+  },
+  {
+    "id": "iotkits_train_01260",
+    "image_id": 188,
+    "group_id": "globalcc_122b999078c4b4571356",
+    "source": "iotkits_v1",
+    "truth": [
+      {
+        "class_id": 0,
+        "bbox_xyxy": [
+          78.0,
+          156.0,
+          533.0,
+          488.0
+        ]
+      }
+    ],
+    "predictions": [
+      {
+        "class_id": 0,
+        "score": 0.8385059237480164,
+        "bbox_xyxy": [
+          72.98858642578125,
+          154.4839324951172,
+          640.0,
+          478.89337158203125
+        ]
+      }
+    ]
+  },
+  {
+    "id": "iotkits_train_01264",
+    "image_id": 189,
+    "group_id": "globalcc_a2216ed5800664a1b4fb",
+    "source": "iotkits_v1",
+    "truth": [],
+    "predictions": []
+  },
+  {
+    "id": "iotkits_train_01265",
+    "image_id": 190,
+    "group_id": "globalcc_1c18b184175c484def1b",
+    "source": "iotkits_v1",
+    "truth": [
+      {
+        "class_id": 0,
+        "bbox_xyxy": [
+          141.0,
+          59.0,
+          482.0,
+          636.0
+        ]
+      }
+    ],
+    "predictions": [
+      {
+        "class_id": 0,
+        "score": 0.9379494190216064,
+        "bbox_xyxy": [
+          141.96209716796875,
+          61.25323486328125,
+          468.05029296875,
+          634.5507202148438
+        ]
+      },
+      {
+        "class_id": 0,
+        "score": 0.0031029267702251673,
+        "bbox_xyxy": [
+          142.07489013671875,
+          63.220947265625,
+          478.5838623046875,
+          394.82257080078125
+        ]
+      }
+    ]
+  },
+  {
+    "id": "iotkits_train_01268",
+    "image_id": 191,
+    "group_id": "globalcc_36ec8d5e2c338ab8d0d5",
+    "source": "iotkits_v1",
+    "truth": [],
+    "predictions": []
+  },
+  {
+    "id": "iotkits_train_01279",
+    "image_id": 192,
+    "group_id": "globalcc_3c7d6c5e5e976841fefe",
+    "source": "iotkits_v1",
+    "truth": [],
+    "predictions": [
+      {
+        "class_id": 0,
+        "score": 0.003366369055584073,
+        "bbox_xyxy": [
+          134.0934295654297,
+          97.26959228515625,
+          498.50103759765625,
+          531.8923950195312
+        ]
+      },
+      {
+        "class_id": 0,
+        "score": 0.0014582978328689933,
+        "bbox_xyxy": [
+          137.52392578125,
+          95.96670532226562,
+          494.44549560546875,
+          362.6662292480469
+        ]
+      }
+    ]
+  },
+  {
+    "id": "iotkits_train_01296",
+    "image_id": 193,
+    "group_id": "globalcc_c5920e9060ce5a950d23",
+    "source": "iotkits_v1",
+    "truth": [
+      {
+        "class_id": 0,
+        "bbox_xyxy": [
+          162.0,
+          112.0,
+          579.0,
+          582.0
+        ]
+      }
+    ],
+    "predictions": [
+      {
+        "class_id": 0,
+        "score": 0.9213350415229797,
+        "bbox_xyxy": [
+          164.9873046875,
+          113.96502685546875,
+          574.213134765625,
+          589.7772216796875
+        ]
+      }
+    ]
+  },
+  {
+    "id": "iotkits_train_01308",
+    "image_id": 194,
+    "group_id": "globalcc_5b4a79d53753fabab1db",
+    "source": "iotkits_v1",
+    "truth": [],
+    "predictions": []
+  },
+  {
+    "id": "iotkits_train_01317",
+    "image_id": 195,
+    "group_id": "globalcc_0388bff2c178cec5a411",
+    "source": "iotkits_v1",
+    "truth": [],
+    "predictions": []
+  },
+  {
+    "id": "iotkits_train_01323",
+    "image_id": 196,
+    "group_id": "globalcc_36ec8d5e2c338ab8d0d5",
+    "source": "iotkits_v1",
+    "truth": [],
+    "predictions": []
+  },
+  {
+    "id": "iotkits_train_01329",
+    "image_id": 197,
+    "group_id": "globalcc_fbc00e31eeedd944979e",
+    "source": "iotkits_v1",
+    "truth": [],
+    "predictions": []
+  },
+  {
+    "id": "iotkits_train_01345",
+    "image_id": 198,
+    "group_id": "globalcc_ec03f59aa3014d7f54e3",
+    "source": "iotkits_v1",
+    "truth": [
+      {
+        "class_id": 0,
+        "bbox_xyxy": [
+          71.0,
+          203.0,
+          585.0,
+          445.0
+        ]
+      }
+    ],
+    "predictions": [
+      {
+        "class_id": 0,
+        "score": 0.936674952507019,
+        "bbox_xyxy": [
+          76.1800537109375,
+          198.10516357421875,
+          583.667236328125,
+          446.1844482421875
+        ]
+      }
+    ]
+  },
+  {
+    "id": "iotkits_train_01351",
+    "image_id": 199,
+    "group_id": "globalcc_11ed8cc5f7456411bcb3",
+    "source": "iotkits_v1",
+    "truth": [
+      {
+        "class_id": 0,
+        "bbox_xyxy": [
+          14.0,
+          154.0,
+          366.0,
+          303.0
+        ]
+      }
+    ],
+    "predictions": [
+      {
+        "class_id": 0,
+        "score": 0.6361944675445557,
+        "bbox_xyxy": [
+          16.909149169921875,
+          145.36553955078125,
+          373.4006652832031,
+          298.94781494140625
+        ]
+      },
+      {
+        "class_id": 0,
+        "score": 0.18261836469173431,
+        "bbox_xyxy": [
+          36.03985595703125,
+          152.53683471679688,
+          367.2049560546875,
+          379.8219909667969
+        ]
+      },
+      {
+        "class_id": 0,
+        "score": 0.005427406635135412,
+        "bbox_xyxy": [
+          83.3548583984375,
+          342.59454345703125,
+          226.27651977539062,
+          495.20599365234375
+        ]
+      },
+      {
+        "class_id": 0,
+        "score": 0.0031231171451509,
+        "bbox_xyxy": [
+          353.0673828125,
+          172.9786376953125,
+          625.6488037109375,
+          383.46380615234375
+        ]
+      },
+      {
+        "class_id": 0,
+        "score": 0.0030066692270338535,
+        "bbox_xyxy": [
+          18.435714721679688,
+          149.40814208984375,
+          197.8912811279297,
+          299.6229248046875
+        ]
+      },
+      {
+        "class_id": 0,
+        "score": 0.002790084108710289,
+        "bbox_xyxy": [
+          98.77410888671875,
+          164.22747802734375,
+          640.0,
+          317.146728515625
+        ]
+      },
+      {
+        "class_id": 0,
+        "score": 0.002288838615640998,
+        "bbox_xyxy": [
+          94.87136840820312,
+          146.23373413085938,
+          360.55419921875,
+          510.3686218261719
+        ]
+      },
+      {
+        "class_id": 0,
+        "score": 0.001215487951412797,
+        "bbox_xyxy": [
+          76.221923828125,
+          152.05345153808594,
+          633.0875244140625,
+          640.0
+        ]
+      },
+      {
+        "class_id": 0,
+        "score": 0.0010982847306877375,
+        "bbox_xyxy": [
+          299.29949951171875,
+          167.9267578125,
+          635.5215454101562,
+          320.09326171875
+        ]
+      }
+    ]
+  },
+  {
+    "id": "iotkits_train_01355",
+    "image_id": 200,
+    "group_id": "globalcc_208bb59ac612e644c15d",
+    "source": "iotkits_v1",
+    "truth": [],
+    "predictions": []
+  },
+  {
+    "id": "iotkits_train_01358",
+    "image_id": 201,
+    "group_id": "globalcc_e710d6396a7fa2762dca",
+    "source": "iotkits_v1",
+    "truth": [
+      {
+        "class_id": 0,
+        "bbox_xyxy": [
+          201.0,
+          130.0,
+          444.0,
+          504.0
+        ]
+      }
+    ],
+    "predictions": [
+      {
+        "class_id": 0,
+        "score": 0.8318070769309998,
+        "bbox_xyxy": [
+          205.0728759765625,
+          122.59884643554688,
+          453.384765625,
+          506.1539001464844
+        ]
+      }
+    ]
+  },
+  {
+    "id": "iotkits_train_01363",
+    "image_id": 202,
+    "group_id": "globalcc_5f5b1ee54bca6a22bcc5",
+    "source": "iotkits_v1",
+    "truth": [
+      {
+        "class_id": 0,
+        "bbox_xyxy": [
+          75.0,
+          146.0,
+          557.0,
+          508.0
+        ]
+      }
+    ],
+    "predictions": [
+      {
+        "class_id": 0,
+        "score": 0.904202938079834,
+        "bbox_xyxy": [
+          88.45777893066406,
+          143.6375732421875,
+          563.744873046875,
+          503.68048095703125
+        ]
+      }
+    ]
+  },
+  {
+    "id": "iotkits_train_01370",
+    "image_id": 203,
+    "group_id": "globalcc_1b90042490074f1a245e",
+    "source": "iotkits_v1",
+    "truth": [],
+    "predictions": []
+  },
+  {
+    "id": "iotkits_train_01371",
+    "image_id": 204,
+    "group_id": "globalcc_b451b9082435e23b620e",
+    "source": "iotkits_v1",
+    "truth": [
+      {
+        "class_id": 0,
+        "bbox_xyxy": [
+          38.0,
+          47.0,
+          639.0,
+          546.0
+        ]
+      }
+    ],
+    "predictions": [
+      {
+        "class_id": 0,
+        "score": 0.9403888583183289,
+        "bbox_xyxy": [
+          33.79010009765625,
+          49.60545349121094,
+          637.7517700195312,
+          543.5411376953125
+        ]
+      }
+    ]
+  },
+  {
+    "id": "iotkits_train_01376",
+    "image_id": 205,
+    "group_id": "globalcc_0999783d5091bfbb1a04",
+    "source": "iotkits_v1",
+    "truth": [],
+    "predictions": []
+  },
+  {
+    "id": "iotkits_train_01392",
+    "image_id": 206,
+    "group_id": "globalcc_9204c2f65a889eeef52f",
+    "source": "iotkits_v1",
+    "truth": [],
+    "predictions": []
+  },
+  {
+    "id": "iotkits_train_01415",
+    "image_id": 207,
+    "group_id": "globalcc_5ee5cfbf498c11222300",
+    "source": "iotkits_v1",
+    "truth": [],
+    "predictions": []
+  },
+  {
+    "id": "iotkits_train_01418",
+    "image_id": 208,
+    "group_id": "globalcc_28da5894fb36e93a2a36",
+    "source": "iotkits_v1",
+    "truth": [
+      {
+        "class_id": 0,
+        "bbox_xyxy": [
+          21.0,
+          147.0,
+          623.0,
+          503.0
+        ]
+      }
+    ],
+    "predictions": [
+      {
+        "class_id": 0,
+        "score": 0.9184538125991821,
+        "bbox_xyxy": [
+          16.25634765625,
+          154.1083984375,
+          631.6239013671875,
+          504.75494384765625
+        ]
+      }
+    ]
+  },
+  {
+    "id": "iotkits_train_01424",
+    "image_id": 209,
+    "group_id": "globalcc_421ed69975182a6ba05e",
+    "source": "iotkits_v1",
+    "truth": [],
+    "predictions": []
+  },
+  {
+    "id": "iotkits_train_01435",
+    "image_id": 210,
+    "group_id": "globalcc_f57d8af224b2447a74b5",
+    "source": "iotkits_v1",
+    "truth": [],
+    "predictions": [
+      {
+        "class_id": 0,
+        "score": 0.002814579289406538,
+        "bbox_xyxy": [
+          10.574462890625,
+          239.5416259765625,
+          640.0,
+          640.0
+        ]
+      }
+    ]
+  },
+  {
+    "id": "iotkits_train_01438",
+    "image_id": 211,
+    "group_id": "globalcc_cb4da519d203c82ef8a9",
+    "source": "iotkits_v1",
+    "truth": [],
+    "predictions": [
+      {
+        "class_id": 0,
+        "score": 0.024595040827989578,
+        "bbox_xyxy": [
+          57.7880859375,
+          318.87664794921875,
+          627.008544921875,
+          570.2914428710938
+        ]
+      },
+      {
+        "class_id": 0,
+        "score": 0.001242642174474895,
+        "bbox_xyxy": [
+          181.794677734375,
+          365.69110107421875,
+          602.72265625,
+          585.88525390625
+        ]
+      }
+    ]
+  },
+  {
+    "id": "iotkits_train_01443",
+    "image_id": 212,
+    "group_id": "globalcc_36ec8d5e2c338ab8d0d5",
+    "source": "iotkits_v1",
+    "truth": [],
+    "predictions": []
+  },
+  {
+    "id": "iotkits_train_01454",
+    "image_id": 213,
+    "group_id": "globalcc_1a6b7cb57331bd798a85",
+    "source": "iotkits_v1",
+    "truth": [
+      {
+        "class_id": 0,
+        "bbox_xyxy": [
+          72.0,
+          115.0,
+          633.0,
+          538.0
+        ]
+      }
+    ],
+    "predictions": [
+      {
+        "class_id": 0,
+        "score": 0.9450387358665466,
+        "bbox_xyxy": [
+          74.2789306640625,
+          122.145263671875,
+          635.71142578125,
+          535.5598754882812
+        ]
+      }
+    ]
+  },
+  {
+    "id": "iotkits_train_01463",
+    "image_id": 214,
+    "group_id": "globalcc_bb12961f290f1f26b616",
+    "source": "iotkits_v1",
+    "truth": [],
+    "predictions": []
+  },
+  {
+    "id": "iotkits_train_01466",
+    "image_id": 215,
+    "group_id": "globalcc_c1e089507b77a6e18d35",
+    "source": "iotkits_v1",
+    "truth": [],
+    "predictions": []
+  },
+  {
+    "id": "iotkits_train_01469",
+    "image_id": 216,
+    "group_id": "globalcc_e09d43bd5d28ab151750",
+    "source": "iotkits_v1",
+    "truth": [],
+    "predictions": [
+      {
+        "class_id": 0,
+        "score": 0.0026166776660829782,
+        "bbox_xyxy": [
+          93.69548034667969,
+          192.00738525390625,
+          605.3027954101562,
+          640.0
+        ]
+      }
+    ]
+  },
+  {
+    "id": "iotkits_train_01471",
+    "image_id": 217,
+    "group_id": "globalcc_5764f70145d170fa135d",
+    "source": "iotkits_v1",
+    "truth": [],
+    "predictions": []
+  },
+  {
+    "id": "iotkits_train_01472",
+    "image_id": 218,
+    "group_id": "globalcc_6fab2885398b6d289b49",
+    "source": "iotkits_v1",
+    "truth": [],
+    "predictions": []
+  },
+  {
+    "id": "iotkits_train_01475",
+    "image_id": 219,
+    "group_id": "globalcc_484012bf420107c6039f",
+    "source": "iotkits_v1",
+    "truth": [
+      {
+        "class_id": 0,
+        "bbox_xyxy": [
+          44.0,
+          178.0,
+          603.0,
+          481.0
+        ]
+      }
+    ],
+    "predictions": [
+      {
+        "class_id": 0,
+        "score": 0.9462460279464722,
+        "bbox_xyxy": [
+          49.48980712890625,
+          186.126953125,
+          596.5938720703125,
+          472.9127197265625
+        ]
+      }
+    ]
+  },
+  {
+    "id": "iotkits_train_01477",
+    "image_id": 220,
+    "group_id": "globalcc_8be13386ff725a663eb9",
+    "source": "iotkits_v1",
+    "truth": [
+      {
+        "class_id": 0,
+        "bbox_xyxy": [
+          41.0,
+          114.0,
+          597.0,
+          485.0
+        ]
+      }
+    ],
+    "predictions": [
+      {
+        "class_id": 0,
+        "score": 0.903118371963501,
+        "bbox_xyxy": [
+          57.3402099609375,
+          112.13825988769531,
+          600.8348388671875,
+          485.49884033203125
+        ]
+      }
+    ]
+  },
+  {
+    "id": "iotkits_train_01482",
+    "image_id": 221,
+    "group_id": "globalcc_c139569766277ce8fba5",
+    "source": "iotkits_v1",
+    "truth": [],
+    "predictions": []
+  },
+  {
+    "id": "iotkits_train_01483",
+    "image_id": 222,
+    "group_id": "globalcc_28871729e1f5e7b2fb2c",
+    "source": "iotkits_v1",
+    "truth": [],
+    "predictions": []
+  },
+  {
+    "id": "iotkits_train_01485",
+    "image_id": 223,
+    "group_id": "globalcc_6a63aec7baeca463434e",
+    "source": "iotkits_v1",
+    "truth": [],
+    "predictions": []
+  },
+  {
+    "id": "iotkits_train_01490",
+    "image_id": 224,
+    "group_id": "globalcc_0633494a8c5dd8998e5a",
+    "source": "iotkits_v1",
+    "truth": [],
+    "predictions": [
+      {
+        "class_id": 0,
+        "score": 0.0036068763583898544,
+        "bbox_xyxy": [
+          181.37890625,
+          70.33335876464844,
+          634.7281494140625,
+          533.353759765625
+        ]
+      },
+      {
+        "class_id": 0,
+        "score": 0.0014699621824547648,
+        "bbox_xyxy": [
+          2.95477294921875,
+          126.79966735839844,
+          640.0,
+          588.3946533203125
+        ]
+      }
+    ]
+  },
+  {
+    "id": "iotkits_train_01492",
+    "image_id": 225,
+    "group_id": "globalcc_dff61a76031f4181a4e6",
+    "source": "iotkits_v1",
+    "truth": [
+      {
+        "class_id": 0,
+        "bbox_xyxy": [
+          71.0,
+          43.0,
+          568.0,
+          596.0
+        ]
+      }
+    ],
+    "predictions": [
+      {
+        "class_id": 0,
+        "score": 0.9309263229370117,
+        "bbox_xyxy": [
+          78.8095703125,
+          41.83868408203125,
+          566.9063110351562,
+          603.047119140625
+        ]
+      }
+    ]
+  },
+  {
+    "id": "iotkits_train_01500",
+    "image_id": 226,
+    "group_id": "globalcc_e650947d4e69f013faa7",
+    "source": "iotkits_v1",
+    "truth": [
+      {
+        "class_id": 0,
+        "bbox_xyxy": [
+          158.0,
+          19.0,
+          482.0,
+          603.0
+        ]
+      }
+    ],
+    "predictions": [
+      {
+        "class_id": 0,
+        "score": 0.9255024790763855,
+        "bbox_xyxy": [
+          170.64926147460938,
+          21.96728515625,
+          480.1326599121094,
+          610.5029296875
+        ]
+      }
+    ]
+  },
+  {
+    "id": "iotkits_train_01506",
+    "image_id": 227,
+    "group_id": "globalcc_c2fdcf7e449351d552c9",
+    "source": "iotkits_v1",
+    "truth": [],
+    "predictions": []
+  },
+  {
+    "id": "iotkits_train_01507",
+    "image_id": 228,
+    "group_id": "globalcc_44d75f12a12fd3e3b510",
+    "source": "iotkits_v1",
+    "truth": [],
+    "predictions": []
+  },
+  {
+    "id": "iotkits_train_01509",
+    "image_id": 229,
+    "group_id": "globalcc_b7916058586d9b3860b9",
+    "source": "iotkits_v1",
+    "truth": [
+      {
+        "class_id": 0,
+        "bbox_xyxy": [
+          112.0,
+          60.0,
+          555.0,
+          594.0
+        ]
+      }
+    ],
+    "predictions": [
+      {
+        "class_id": 0,
+        "score": 0.916848361492157,
+        "bbox_xyxy": [
+          113.8228759765625,
+          62.0213623046875,
+          549.158447265625,
+          592.0358276367188
+        ]
+      }
+    ]
+  },
+  {
+    "id": "iotkits_train_01519",
+    "image_id": 230,
+    "group_id": "globalcc_c92f70743cfcf3c4cd51",
+    "source": "iotkits_v1",
+    "truth": [
+      {
+        "class_id": 0,
+        "bbox_xyxy": [
+          35.0,
+          185.0,
+          600.0,
+          463.0
+        ]
+      }
+    ],
+    "predictions": [
+      {
+        "class_id": 0,
+        "score": 0.9357303380966187,
+        "bbox_xyxy": [
+          39.26885986328125,
+          187.06039428710938,
+          595.6005859375,
+          463.6023254394531
+        ]
+      }
+    ]
+  },
+  {
+    "id": "iotkits_train_01522",
+    "image_id": 231,
+    "group_id": "globalcc_1c18b184175c484def1b",
+    "source": "iotkits_v1",
+    "truth": [
+      {
+        "class_id": 0,
+        "bbox_xyxy": [
+          138.0,
+          2.0,
+          488.0,
+          599.0
+        ]
+      }
+    ],
+    "predictions": [
+      {
+        "class_id": 0,
+        "score": 0.9200553297996521,
+        "bbox_xyxy": [
+          143.2950439453125,
+          0.0,
+          484.05126953125,
+          615.9989013671875
+        ]
+      }
+    ]
+  },
+  {
+    "id": "iotkits_train_01542",
+    "image_id": 232,
+    "group_id": "globalcc_75f345f123f891d37179",
+    "source": "iotkits_v1",
+    "truth": [],
+    "predictions": [
+      {
+        "class_id": 0,
+        "score": 0.8611344695091248,
+        "bbox_xyxy": [
+          0.0,
+          217.63690185546875,
+          640.0,
+          481.02984619140625
+        ]
+      }
+    ]
+  },
+  {
+    "id": "iotkits_train_01548",
+    "image_id": 233,
+    "group_id": "globalcc_8711186ed9eefc5a6f06",
+    "source": "iotkits_v1",
+    "truth": [
+      {
+        "class_id": 0,
+        "bbox_xyxy": [
+          107.0,
+          34.0,
+          542.0,
+          599.0
+        ]
+      }
+    ],
+    "predictions": [
+      {
+        "class_id": 0,
+        "score": 0.8935229778289795,
+        "bbox_xyxy": [
+          102.66851806640625,
+          31.2369384765625,
+          543.67041015625,
+          606.50634765625
+        ]
+      }
+    ]
+  },
+  {
+    "id": "iotkits_train_01549",
+    "image_id": 234,
+    "group_id": "globalcc_6a63aec7baeca463434e",
+    "source": "iotkits_v1",
+    "truth": [],
+    "predictions": []
+  },
+  {
+    "id": "iotkits_train_01550",
+    "image_id": 235,
+    "group_id": "globalcc_d080866ce8cbfcd6bcf7",
+    "source": "iotkits_v1",
+    "truth": [
+      {
+        "class_id": 0,
+        "bbox_xyxy": [
+          0.0,
+          96.0,
+          533.0,
+          503.0
+        ]
+      }
+    ],
+    "predictions": [
+      {
+        "class_id": 0,
+        "score": 0.9228492379188538,
+        "bbox_xyxy": [
+          8.74383544921875,
+          102.94171142578125,
+          528.2763061523438,
+          510.49713134765625
+        ]
+      }
+    ]
+  },
+  {
+    "id": "iotkits_train_01554",
+    "image_id": 236,
+    "group_id": "globalcc_cefeca76f92442815e1e",
+    "source": "iotkits_v1",
+    "truth": [
+      {
+        "class_id": 0,
+        "bbox_xyxy": [
+          100.0,
+          149.0,
+          541.0,
+          483.0
+        ]
+      }
+    ],
+    "predictions": [
+      {
+        "class_id": 0,
+        "score": 0.9214044213294983,
+        "bbox_xyxy": [
+          112.4718017578125,
+          161.1451416015625,
+          542.2029418945312,
+          474.6353759765625
+        ]
+      }
+    ]
+  },
+  {
+    "id": "iotkits_train_01555",
+    "image_id": 237,
+    "group_id": "globalcc_f424e91a19ff2a002b33",
+    "source": "iotkits_v1",
+    "truth": [
+      {
+        "class_id": 0,
+        "bbox_xyxy": [
+          83.0,
+          23.0,
+          454.0,
+          591.0
+        ]
+      }
+    ],
+    "predictions": [
+      {
+        "class_id": 0,
+        "score": 0.8599889278411865,
+        "bbox_xyxy": [
+          75.32940673828125,
+          23.99072265625,
+          453.0953369140625,
+          609.852783203125
+        ]
+      }
+    ]
+  },
+  {
+    "id": "iotkits_train_01561",
+    "image_id": 238,
+    "group_id": "globalcc_11ed8cc5f7456411bcb3",
+    "source": "iotkits_v1",
+    "truth": [
+      {
+        "class_id": 0,
+        "bbox_xyxy": [
+          30.0,
+          155.0,
+          396.0,
+          312.0
+        ]
+      }
+    ],
+    "predictions": [
+      {
+        "class_id": 0,
+        "score": 0.6844879388809204,
+        "bbox_xyxy": [
+          32.9749755859375,
+          148.856201171875,
+          395.5628662109375,
+          316.3499450683594
+        ]
+      },
+      {
+        "class_id": 0,
+        "score": 0.02052774652838707,
+        "bbox_xyxy": [
+          29.84161376953125,
+          153.60968017578125,
+          262.7870788574219,
+          307.0367736816406
+        ]
+      },
+      {
+        "class_id": 0,
+        "score": 0.011955666355788708,
+        "bbox_xyxy": [
+          127.27236938476562,
+          350.07867431640625,
+          284.255126953125,
+          504.44708251953125
+        ]
+      },
+      {
+        "class_id": 0,
+        "score": 0.006689349189400673,
+        "bbox_xyxy": [
+          137.82383728027344,
+          148.43258666992188,
+          382.427001953125,
+          510.4450378417969
+        ]
+      },
+      {
+        "class_id": 0,
+        "score": 0.0024598657619208097,
+        "bbox_xyxy": [
+          24.658782958984375,
+          158.22601318359375,
+          171.57656860351562,
+          313.78131103515625
+        ]
+      },
+      {
+        "class_id": 0,
+        "score": 0.0018743406981229782,
+        "bbox_xyxy": [
+          129.55560302734375,
+          158.24252319335938,
+          631.4139404296875,
+          307.21246337890625
+        ]
+      }
+    ]
+  },
+  {
+    "id": "iotkits_train_01562",
+    "image_id": 239,
+    "group_id": "globalcc_1b90042490074f1a245e",
+    "source": "iotkits_v1",
+    "truth": [],
+    "predictions": []
+  },
+  {
+    "id": "iotkits_train_01564",
+    "image_id": 240,
+    "group_id": "globalcc_e98c89ab3e59d0a65816",
+    "source": "iotkits_v1",
+    "truth": [
+      {
+        "class_id": 0,
+        "bbox_xyxy": [
+          43.0,
+          161.0,
+          563.0,
+          436.0
+        ]
+      }
+    ],
+    "predictions": [
+      {
+        "class_id": 0,
+        "score": 0.9103102087974548,
+        "bbox_xyxy": [
+          56.263427734375,
+          156.4996795654297,
+          582.5498046875,
+          438.02459716796875
+        ]
+      }
+    ]
+  },
+  {
+    "id": "iotkits_train_01570",
+    "image_id": 241,
+    "group_id": "globalcc_1b90042490074f1a245e",
+    "source": "iotkits_v1",
+    "truth": [],
+    "predictions": []
+  },
+  {
+    "id": "iotkits_train_01571",
+    "image_id": 242,
+    "group_id": "globalcc_b5f4af08cab70955639c",
+    "source": "iotkits_v1",
+    "truth": [],
+    "predictions": []
+  },
+  {
+    "id": "iotkits_train_01587",
+    "image_id": 243,
+    "group_id": "globalcc_2f79954cacd497e0732b",
+    "source": "iotkits_v1",
+    "truth": [],
+    "predictions": []
+  },
+  {
+    "id": "iotkits_train_01597",
+    "image_id": 244,
+    "group_id": "globalcc_83a2784d331f243417e6",
+    "source": "iotkits_v1",
+    "truth": [],
+    "predictions": []
+  },
+  {
+    "id": "iotkits_train_01604",
+    "image_id": 245,
+    "group_id": "globalcc_1a7ac921075d2bb82c2f",
+    "source": "iotkits_v1",
+    "truth": [],
+    "predictions": [
+      {
+        "class_id": 0,
+        "score": 0.005518828518688679,
+        "bbox_xyxy": [
+          182.3785400390625,
+          0.0,
+          634.4986572265625,
+          611.9893188476562
+        ]
+      }
+    ]
+  },
+  {
+    "id": "iotkits_train_01607",
+    "image_id": 246,
+    "group_id": "globalcc_637844090fb248b52fd0",
+    "source": "iotkits_v1",
+    "truth": [],
+    "predictions": []
+  },
+  {
+    "id": "iotkits_train_01610",
+    "image_id": 247,
+    "group_id": "globalcc_612460b044df7e6e6197",
+    "source": "iotkits_v1",
+    "truth": [],
+    "predictions": [
+      {
+        "class_id": 0,
+        "score": 0.011488447897136211,
+        "bbox_xyxy": [
+          176.0108642578125,
+          0.0,
+          633.390380859375,
+          545.6788940429688
+        ]
+      }
+    ]
+  },
+  {
+    "id": "iotkits_train_01612",
+    "image_id": 248,
+    "group_id": "globalcc_6fab2885398b6d289b49",
+    "source": "iotkits_v1",
+    "truth": [],
+    "predictions": []
+  },
+  {
+    "id": "iotkits_train_01613",
+    "image_id": 249,
+    "group_id": "globalcc_1efb256a4ba2dc10e3f8",
+    "source": "iotkits_v1",
+    "truth": [
+      {
+        "class_id": 0,
+        "bbox_xyxy": [
+          38.0,
+          217.0,
+          598.0,
+          411.0
+        ]
+      }
+    ],
+    "predictions": [
+      {
+        "class_id": 0,
+        "score": 0.9501824378967285,
+        "bbox_xyxy": [
+          32.724609375,
+          219.0244598388672,
+          596.4002685546875,
+          421.41668701171875
+        ]
+      },
+      {
+        "class_id": 0,
+        "score": 0.0013858691090717912,
+        "bbox_xyxy": [
+          45.13372802734375,
+          229.5531005859375,
+          306.87811279296875,
+          412.68914794921875
+        ]
+      },
+      {
+        "class_id": 0,
+        "score": 0.001291958848014474,
+        "bbox_xyxy": [
+          46.94496154785156,
+          224.052490234375,
+          201.7742462158203,
+          410.99578857421875
+        ]
+      }
+    ]
+  },
+  {
+    "id": "iotkits_train_01616",
+    "image_id": 250,
+    "group_id": "globalcc_8be248bc40b9df41b8a5",
+    "source": "iotkits_v1",
+    "truth": [],
+    "predictions": []
+  },
+  {
+    "id": "iotkits_train_01617",
+    "image_id": 251,
+    "group_id": "globalcc_81dfd90874657a0e5ff7",
+    "source": "iotkits_v1",
+    "truth": [
+      {
+        "class_id": 0,
+        "bbox_xyxy": [
+          14.0,
+          180.0,
+          627.0,
+          473.0
+        ]
+      }
+    ],
+    "predictions": [
+      {
+        "class_id": 0,
+        "score": 0.8572698831558228,
+        "bbox_xyxy": [
+          0.0,
+          179.84454345703125,
+          631.7752685546875,
+          471.83673095703125
+        ]
+      }
+    ]
+  },
+  {
+    "id": "iotkits_train_01620",
+    "image_id": 252,
+    "group_id": "globalcc_9361f78689cb1e01c32a",
+    "source": "iotkits_v1",
+    "truth": [],
+    "predictions": [
+      {
+        "class_id": 0,
+        "score": 0.0010176808573305607,
+        "bbox_xyxy": [
+          179.23785400390625,
+          123.71014404296875,
+          640.0,
+          640.0
+        ]
+      }
+    ]
+  },
+  {
+    "id": "iotkits_train_01629",
+    "image_id": 253,
+    "group_id": "globalcc_60e4878b9b3022e1f7e9",
+    "source": "iotkits_v1",
+    "truth": [
+      {
+        "class_id": 0,
+        "bbox_xyxy": [
+          91.0,
+          55.0,
+          557.0,
+          583.0
+        ]
+      }
+    ],
+    "predictions": [
+      {
+        "class_id": 0,
+        "score": 0.9096165299415588,
+        "bbox_xyxy": [
+          86.72540283203125,
+          54.05706787109375,
+          553.4443359375,
+          593.7892456054688
+        ]
+      }
+    ]
+  },
+  {
+    "id": "iotkits_train_01656",
+    "image_id": 254,
+    "group_id": "globalcc_f61ddb75a06a018a4f1c",
+    "source": "iotkits_v1",
+    "truth": [
+      {
+        "class_id": 0,
+        "bbox_xyxy": [
+          129.0,
+          164.0,
+          583.0,
+          455.0
+        ]
+      }
+    ],
+    "predictions": [
+      {
+        "class_id": 0,
+        "score": 0.9464710354804993,
+        "bbox_xyxy": [
+          137.64691162109375,
+          168.341796875,
+          582.0735473632812,
+          458.8062744140625
+        ]
+      }
+    ]
+  },
+  {
+    "id": "iotkits_train_01659",
+    "image_id": 255,
+    "group_id": "globalcc_f61ddb75a06a018a4f1c",
+    "source": "iotkits_v1",
+    "truth": [
+      {
+        "class_id": 0,
+        "bbox_xyxy": [
+          84.0,
+          137.0,
+          564.0,
+          460.0
+        ]
+      }
+    ],
+    "predictions": [
+      {
+        "class_id": 0,
+        "score": 0.9224482774734497,
+        "bbox_xyxy": [
+          90.12736511230469,
+          142.645751953125,
+          562.5402221679688,
+          456.72296142578125
+        ]
+      }
+    ]
+  },
+  {
+    "id": "iotkits_train_01671",
+    "image_id": 256,
+    "group_id": "globalcc_9204c2f65a889eeef52f",
+    "source": "iotkits_v1",
+    "truth": [],
+    "predictions": []
+  },
+  {
+    "id": "iotkits_train_01681",
+    "image_id": 257,
+    "group_id": "globalcc_ed0c960c1f80724270f1",
+    "source": "iotkits_v1",
+    "truth": [],
+    "predictions": []
+  },
+  {
+    "id": "iotkits_train_01691",
+    "image_id": 258,
+    "group_id": "globalcc_4de31e7b9f4deb091ba6",
+    "source": "iotkits_v1",
+    "truth": [],
+    "predictions": []
+  },
+  {
+    "id": "iotkits_train_01700",
+    "image_id": 259,
+    "group_id": "globalcc_cb4da519d203c82ef8a9",
+    "source": "iotkits_v1",
+    "truth": [],
+    "predictions": []
+  },
+  {
+    "id": "iotkits_train_01701",
+    "image_id": 260,
+    "group_id": "globalcc_1c18b184175c484def1b",
+    "source": "iotkits_v1",
+    "truth": [
+      {
+        "class_id": 0,
+        "bbox_xyxy": [
+          28.0,
+          155.0,
+          578.0,
+          485.0
+        ]
+      }
+    ],
+    "predictions": [
+      {
+        "class_id": 0,
+        "score": 0.945934534072876,
+        "bbox_xyxy": [
+          33.54150390625,
+          160.45204162597656,
+          588.4930419921875,
+          477.108642578125
+        ]
+      }
+    ]
+  },
+  {
+    "id": "iotkits_train_01702",
+    "image_id": 261,
+    "group_id": "globalcc_0723e8a126e728a587da",
+    "source": "iotkits_v1",
+    "truth": [],
+    "predictions": []
+  },
+  {
+    "id": "iotkits_train_01703",
+    "image_id": 262,
+    "group_id": "globalcc_d7c8d61959b7e878004d",
+    "source": "iotkits_v1",
+    "truth": [],
+    "predictions": []
+  },
+  {
+    "id": "iotkits_train_01706",
+    "image_id": 263,
+    "group_id": "globalcc_ad022fd256d15e44d3cd",
+    "source": "iotkits_v1",
+    "truth": [],
+    "predictions": []
+  },
+  {
+    "id": "iotkits_train_01716",
+    "image_id": 264,
+    "group_id": "globalcc_36ec8d5e2c338ab8d0d5",
+    "source": "iotkits_v1",
+    "truth": [],
+    "predictions": []
+  },
+  {
+    "id": "iotkits_train_01717",
+    "image_id": 265,
+    "group_id": "globalcc_12b0ce5dde8b79623abc",
+    "source": "iotkits_v1",
+    "truth": [
+      {
+        "class_id": 0,
+        "bbox_xyxy": [
+          86.0,
+          193.0,
+          585.0,
+          484.0
+        ]
+      }
+    ],
+    "predictions": [
+      {
+        "class_id": 0,
+        "score": 0.9316477179527283,
+        "bbox_xyxy": [
+          88.13630676269531,
+          196.48951721191406,
+          582.3821411132812,
+          482.0906982421875
+        ]
+      }
+    ]
+  },
+  {
+    "id": "iotkits_train_01718",
+    "image_id": 266,
+    "group_id": "globalcc_7bc80c8faf328547b265",
+    "source": "iotkits_v1",
+    "truth": [],
+    "predictions": []
+  },
+  {
+    "id": "iotkits_train_01719",
+    "image_id": 267,
+    "group_id": "globalcc_cd6a8c109a71f1544a4c",
+    "source": "iotkits_v1",
+    "truth": [
+      {
+        "class_id": 0,
+        "bbox_xyxy": [
+          77.0,
+          62.0,
+          562.0,
+          577.0
+        ]
+      }
+    ],
+    "predictions": [
+      {
+        "class_id": 0,
+        "score": 0.9226629734039307,
+        "bbox_xyxy": [
+          77.18487548828125,
+          63.27239990234375,
+          550.3344116210938,
+          575.9699096679688
+        ]
+      }
+    ]
+  },
+  {
+    "id": "iotkits_train_01721",
+    "image_id": 268,
+    "group_id": "globalcc_0d6429d6bfcde978fb21",
+    "source": "iotkits_v1",
+    "truth": [],
+    "predictions": [
+      {
+        "class_id": 0,
+        "score": 0.36206185817718506,
+        "bbox_xyxy": [
+          70.7010498046875,
+          194.9510498046875,
+          630.86962890625,
+          477.01416015625
+        ]
+      },
+      {
+        "class_id": 0,
+        "score": 0.0017558769322931767,
+        "bbox_xyxy": [
+          288.68927001953125,
+          193.2135009765625,
+          630.8047485351562,
+          435.8026123046875
+        ]
+      },
+      {
+        "class_id": 0,
+        "score": 0.0011119451373815536,
+        "bbox_xyxy": [
+          83.29116821289062,
+          235.89334106445312,
+          351.8070373535156,
+          473.0111389160156
+        ]
+      }
+    ]
+  },
+  {
+    "id": "iotkits_train_01724",
+    "image_id": 269,
+    "group_id": "globalcc_1faccb12e708d1c08eb7",
+    "source": "iotkits_v1",
+    "truth": [],
+    "predictions": []
+  },
+  {
+    "id": "iotkits_train_01725",
+    "image_id": 270,
+    "group_id": "globalcc_ac0677b064abd3436bf4",
+    "source": "iotkits_v1",
+    "truth": [
+      {
+        "class_id": 0,
+        "bbox_xyxy": [
+          66.0,
+          54.0,
+          581.0,
+          592.0
+        ]
+      }
+    ],
+    "predictions": [
+      {
+        "class_id": 0,
+        "score": 0.9168327450752258,
+        "bbox_xyxy": [
+          71.94413757324219,
+          53.3197021484375,
+          579.8851928710938,
+          599.6640014648438
+        ]
+      }
+    ]
+  },
+  {
+    "id": "iotkits_train_01726",
+    "image_id": 271,
+    "group_id": "globalcc_f0e32694b6d5460f3418",
+    "source": "iotkits_v1",
+    "truth": [
+      {
+        "class_id": 0,
+        "bbox_xyxy": [
+          77.0,
+          55.0,
+          580.0,
+          484.0
+        ]
+      }
+    ],
+    "predictions": [
+      {
+        "class_id": 0,
+        "score": 0.8582230806350708,
+        "bbox_xyxy": [
+          83.46588134765625,
+          46.58538818359375,
+          595.56640625,
+          498.09027099609375
+        ]
+      }
+    ]
+  },
+  {
+    "id": "iotkits_train_01731",
+    "image_id": 272,
+    "group_id": "globalcc_6ca6676bd95172eb61de",
+    "source": "iotkits_v1",
+    "truth": [
+      {
+        "class_id": 0,
+        "bbox_xyxy": [
+          183.0,
+          0.0,
+          545.0,
+          585.0
+        ]
+      }
+    ],
+    "predictions": [
+      {
+        "class_id": 0,
+        "score": 0.8984123468399048,
+        "bbox_xyxy": [
+          199.3492431640625,
+          0.0,
+          539.341796875,
+          584.0098876953125
+        ]
+      }
+    ]
+  },
+  {
+    "id": "iotkits_train_01733",
+    "image_id": 273,
+    "group_id": "globalcc_1b90042490074f1a245e",
+    "source": "iotkits_v1",
+    "truth": [],
+    "predictions": []
+  },
+  {
+    "id": "iotkits_train_01739",
+    "image_id": 274,
+    "group_id": "globalcc_f6a3c808cbdb1cc6212e",
+    "source": "iotkits_v1",
+    "truth": [
+      {
+        "class_id": 0,
+        "bbox_xyxy": [
+          64.0,
+          26.0,
+          481.0,
+          583.0
+        ]
+      }
+    ],
+    "predictions": [
+      {
+        "class_id": 0,
+        "score": 0.9008845090866089,
+        "bbox_xyxy": [
+          71.23361206054688,
+          27.8765869140625,
+          479.0082702636719,
+          577.7479248046875
+        ]
+      }
+    ]
+  },
+  {
+    "id": "iotkits_train_01743",
+    "image_id": 275,
+    "group_id": "globalcc_5ee5cfbf498c11222300",
+    "source": "iotkits_v1",
+    "truth": [],
+    "predictions": []
+  },
+  {
+    "id": "iotkits_train_01745",
+    "image_id": 276,
+    "group_id": "globalcc_4dd52d31c9211c982b94",
+    "source": "iotkits_v1",
+    "truth": [
+      {
+        "class_id": 0,
+        "bbox_xyxy": [
+          61.0,
+          0.0,
+          623.0,
+          599.0
+        ]
+      }
+    ],
+    "predictions": [
+      {
+        "class_id": 0,
+        "score": 0.9498108625411987,
+        "bbox_xyxy": [
+          71.88494873046875,
+          15.722900390625,
+          627.494140625,
+          605.16748046875
+        ]
+      }
+    ]
+  },
+  {
+    "id": "iotkits_train_01767",
+    "image_id": 277,
+    "group_id": "globalcc_d62c998dfa73f4cd5f7c",
+    "source": "iotkits_v1",
+    "truth": [],
+    "predictions": []
+  },
+  {
+    "id": "iotkits_train_01787",
+    "image_id": 278,
+    "group_id": "globalcc_09264fd32c49d8bdb4f7",
+    "source": "iotkits_v1",
+    "truth": [],
+    "predictions": [
+      {
+        "class_id": 0,
+        "score": 0.002268573734909296,
+        "bbox_xyxy": [
+          209.3115692138672,
+          157.582763671875,
+          435.32220458984375,
+          443.40802001953125
+        ]
+      }
+    ]
+  },
+  {
+    "id": "iotkits_train_01792",
+    "image_id": 279,
+    "group_id": "globalcc_8ee95e5909d8936d2202",
+    "source": "iotkits_v1",
+    "truth": [
+      {
+        "class_id": 0,
+        "bbox_xyxy": [
+          13.0,
+          74.0,
+          639.0,
+          494.0
+        ]
+      }
+    ],
+    "predictions": [
+      {
+        "class_id": 0,
+        "score": 0.9066486358642578,
+        "bbox_xyxy": [
+          13.704345703125,
+          73.34083557128906,
+          637.3192749023438,
+          496.7196044921875
+        ]
+      }
+    ]
+  },
+  {
+    "id": "iotkits_train_01797",
+    "image_id": 280,
+    "group_id": "globalcc_9204c2f65a889eeef52f",
+    "source": "iotkits_v1",
+    "truth": [],
+    "predictions": []
+  },
+  {
+    "id": "iotkits_train_01799",
+    "image_id": 281,
+    "group_id": "globalcc_5947eb12bc37bc71353d",
+    "source": "iotkits_v1",
+    "truth": [
+      {
+        "class_id": 0,
+        "bbox_xyxy": [
+          105.0,
+          28.0,
+          564.0,
+          639.0
+        ]
+      }
+    ],
+    "predictions": [
+      {
+        "class_id": 0,
+        "score": 0.9127190113067627,
+        "bbox_xyxy": [
+          101.24113464355469,
+          24.08685302734375,
+          571.1109008789062,
+          640.0
+        ]
+      }
+    ]
+  },
+  {
+    "id": "iotkits_train_01800",
+    "image_id": 282,
+    "group_id": "globalcc_f08c342aa32b37790bf1",
+    "source": "iotkits_v1",
+    "truth": [],
+    "predictions": []
+  },
+  {
+    "id": "iotkits_train_01802",
+    "image_id": 283,
+    "group_id": "globalcc_eb9d0144a6a10adaf76b",
+    "source": "iotkits_v1",
+    "truth": [],
+    "predictions": [
+      {
+        "class_id": 0,
+        "score": 0.0841539204120636,
+        "bbox_xyxy": [
+          46.24932861328125,
+          222.20989990234375,
+          601.3458862304688,
+          425.71514892578125
+        ]
+      },
+      {
+        "class_id": 0,
+        "score": 0.0018948186188936234,
+        "bbox_xyxy": [
+          51.4814453125,
+          201.2943115234375,
+          604.6800537109375,
+          640.0
+        ]
+      },
+      {
+        "class_id": 0,
+        "score": 0.0011384658282622695,
+        "bbox_xyxy": [
+          52.58544921875,
+          226.413818359375,
+          203.11135864257812,
+          422.099609375
+        ]
+      }
+    ]
+  },
+  {
+    "id": "iotkits_train_01803",
+    "image_id": 284,
+    "group_id": "globalcc_5a482c20f43e1969188b",
+    "source": "iotkits_v1",
+    "truth": [
+      {
+        "class_id": 0,
+        "bbox_xyxy": [
+          30.0,
+          176.0,
+          601.0,
+          504.0
+        ]
+      }
+    ],
+    "predictions": [
+      {
+        "class_id": 0,
+        "score": 0.92383873462677,
+        "bbox_xyxy": [
+          33.2646484375,
+          188.4761962890625,
+          600.1336669921875,
+          496.437255859375
+        ]
+      }
+    ]
+  },
+  {
+    "id": "iotkits_train_01810",
+    "image_id": 285,
+    "group_id": "globalcc_f6a3c808cbdb1cc6212e",
+    "source": "iotkits_v1",
+    "truth": [
+      {
+        "class_id": 0,
+        "bbox_xyxy": [
+          51.0,
+          122.0,
+          561.0,
+          521.0
+        ]
+      }
+    ],
+    "predictions": [
+      {
+        "class_id": 0,
+        "score": 0.9390311241149902,
+        "bbox_xyxy": [
+          51.59765625,
+          132.0111083984375,
+          565.8143310546875,
+          521.8508911132812
+        ]
+      }
+    ]
+  },
+  {
+    "id": "iotkits_train_01822",
+    "image_id": 286,
+    "group_id": "globalcc_4eabd13664ef7e541d51",
+    "source": "iotkits_v1",
+    "truth": [
+      {
+        "class_id": 0,
+        "bbox_xyxy": [
+          11.0,
+          114.0,
+          605.0,
+          524.0
+        ]
+      }
+    ],
+    "predictions": [
+      {
+        "class_id": 0,
+        "score": 0.9222599267959595,
+        "bbox_xyxy": [
+          5.03887939453125,
+          111.00077819824219,
+          635.8854370117188,
+          529.4202270507812
+        ]
+      }
+    ]
+  },
+  {
+    "id": "iotkits_train_01829",
+    "image_id": 287,
+    "group_id": "globalcc_6a63aec7baeca463434e",
+    "source": "iotkits_v1",
+    "truth": [],
+    "predictions": []
+  },
+  {
+    "id": "iotkits_train_01846",
+    "image_id": 288,
+    "group_id": "globalcc_b52e962f35afb9f11aee",
+    "source": "iotkits_v1",
+    "truth": [
+      {
+        "class_id": 0,
+        "bbox_xyxy": [
+          26.0,
+          141.0,
+          610.0,
+          468.0
+        ]
+      }
+    ],
+    "predictions": [
+      {
+        "class_id": 0,
+        "score": 0.9525377750396729,
+        "bbox_xyxy": [
+          20.3363037109375,
+          162.11538696289062,
+          612.66650390625,
+          473.6010437011719
+        ]
+      }
+    ]
+  },
+  {
+    "id": "iotkits_train_01867",
+    "image_id": 289,
+    "group_id": "globalcc_39674fa309ee7d6fedee",
+    "source": "iotkits_v1",
+    "truth": [],
+    "predictions": []
+  },
+  {
+    "id": "iotkits_train_01880",
+    "image_id": 290,
+    "group_id": "globalcc_3889c8d8d2d1e721e11b",
+    "source": "iotkits_v1",
+    "truth": [],
+    "predictions": []
+  },
+  {
+    "id": "iotkits_train_01882",
+    "image_id": 291,
+    "group_id": "globalcc_6a63aec7baeca463434e",
+    "source": "iotkits_v1",
+    "truth": [],
+    "predictions": []
+  },
+  {
+    "id": "iotkits_train_01887",
+    "image_id": 292,
+    "group_id": "globalcc_a3da610b049fd4c9a492",
+    "source": "iotkits_v1",
+    "truth": [],
+    "predictions": [
+      {
+        "class_id": 0,
+        "score": 0.0016207033768296242,
+        "bbox_xyxy": [
+          84.91011047363281,
+          44.7774658203125,
+          487.25482177734375,
+          640.0
+        ]
+      }
+    ]
+  },
+  {
+    "id": "iotkits_train_01897",
+    "image_id": 293,
+    "group_id": "globalcc_5ee5cfbf498c11222300",
+    "source": "iotkits_v1",
+    "truth": [],
+    "predictions": []
+  },
+  {
+    "id": "iotkits_train_01909",
+    "image_id": 294,
+    "group_id": "globalcc_cb4da519d203c82ef8a9",
+    "source": "iotkits_v1",
+    "truth": [],
+    "predictions": [
+      {
+        "class_id": 0,
+        "score": 0.0016834000125527382,
+        "bbox_xyxy": [
+          10.06298828125,
+          343.066650390625,
+          533.2247314453125,
+          580.0962524414062
+        ]
+      }
+    ]
+  },
+  {
+    "id": "iotkits_train_01911",
+    "image_id": 295,
+    "group_id": "globalcc_ec03f59aa3014d7f54e3",
+    "source": "iotkits_v1",
+    "truth": [
+      {
+        "class_id": 0,
+        "bbox_xyxy": [
+          48.0,
+          159.0,
+          606.0,
+          458.0
+        ]
+      }
+    ],
+    "predictions": [
+      {
+        "class_id": 0,
+        "score": 0.9579119086265564,
+        "bbox_xyxy": [
+          48.0174560546875,
+          158.47564697265625,
+          598.4947509765625,
+          443.6893310546875
+        ]
+      }
+    ]
+  },
+  {
+    "id": "iotkits_train_01925",
+    "image_id": 296,
+    "group_id": "globalcc_1efb256a4ba2dc10e3f8",
+    "source": "iotkits_v1",
+    "truth": [
+      {
+        "class_id": 0,
+        "bbox_xyxy": [
+          56.0,
+          176.0,
+          639.0,
+          429.0
+        ]
+      }
+    ],
+    "predictions": [
+      {
+        "class_id": 0,
+        "score": 0.9304470419883728,
+        "bbox_xyxy": [
+          67.8609619140625,
+          188.136474609375,
+          627.456298828125,
+          405.99835205078125
+        ]
+      }
+    ]
+  },
+  {
+    "id": "iotkits_train_01937",
+    "image_id": 297,
+    "group_id": "globalcc_1b90042490074f1a245e",
+    "source": "iotkits_v1",
+    "truth": [],
+    "predictions": []
+  },
+  {
+    "id": "iotkits_train_01941",
+    "image_id": 298,
+    "group_id": "globalcc_5ee5cfbf498c11222300",
+    "source": "iotkits_v1",
+    "truth": [],
+    "predictions": []
+  },
+  {
+    "id": "iotkits_train_01943",
+    "image_id": 299,
+    "group_id": "globalcc_5a482c20f43e1969188b",
+    "source": "iotkits_v1",
+    "truth": [
+      {
+        "class_id": 0,
+        "bbox_xyxy": [
+          1.0,
+          197.0,
+          555.0,
+          489.0
+        ]
+      }
+    ],
+    "predictions": [
+      {
+        "class_id": 0,
+        "score": 0.9003134965896606,
+        "bbox_xyxy": [
+          13.0863037109375,
+          204.4259490966797,
+          560.65869140625,
+          481.79010009765625
+        ]
+      }
+    ]
+  },
+  {
+    "id": "iotkits_train_01947",
+    "image_id": 300,
+    "group_id": "globalcc_78a22ca9ae2c7e6a491b",
+    "source": "iotkits_v1",
+    "truth": [],
+    "predictions": []
+  },
+  {
+    "id": "iotkits_train_01977",
+    "image_id": 301,
+    "group_id": "globalcc_aa695871a4e109b07286",
+    "source": "iotkits_v1",
+    "truth": [
+      {
+        "class_id": 0,
+        "bbox_xyxy": [
+          76.0,
+          122.0,
+          578.0,
+          523.0
+        ]
+      }
+    ],
+    "predictions": [
+      {
+        "class_id": 0,
+        "score": 0.9090037941932678,
+        "bbox_xyxy": [
+          78.09185791015625,
+          127.85508728027344,
+          574.9531860351562,
+          519.3360595703125
+        ]
+      }
+    ]
+  },
+  {
+    "id": "iotkits_train_01996",
+    "image_id": 302,
+    "group_id": "globalcc_4eabd13664ef7e541d51",
+    "source": "iotkits_v1",
+    "truth": [
+      {
+        "class_id": 0,
+        "bbox_xyxy": [
+          103.0,
+          0.0,
+          553.0,
+          593.0
+        ]
+      }
+    ],
+    "predictions": [
+      {
+        "class_id": 0,
+        "score": 0.8930314779281616,
+        "bbox_xyxy": [
+          107.37664794921875,
+          0.0,
+          558.4681396484375,
+          601.3173217773438
+        ]
+      }
+    ]
+  },
+  {
+    "id": "iotkits_train_02001",
+    "image_id": 303,
+    "group_id": "globalcc_36ec8d5e2c338ab8d0d5",
+    "source": "iotkits_v1",
+    "truth": [],
+    "predictions": []
+  },
+  {
+    "id": "iotkits_train_02005",
+    "image_id": 304,
+    "group_id": "globalcc_44d75f12a12fd3e3b510",
+    "source": "iotkits_v1",
+    "truth": [],
+    "predictions": []
+  },
+  {
+    "id": "iotkits_train_02010",
+    "image_id": 305,
+    "group_id": "globalcc_534c0c16e5da9bf48db7",
+    "source": "iotkits_v1",
+    "truth": [
+      {
+        "class_id": 0,
+        "bbox_xyxy": [
+          138.0,
+          35.0,
+          468.0,
+          624.0
+        ]
+      }
+    ],
+    "predictions": [
+      {
+        "class_id": 0,
+        "score": 0.9450492858886719,
+        "bbox_xyxy": [
+          158.0772705078125,
+          25.9232177734375,
+          464.99468994140625,
+          636.7779541015625
+        ]
+      }
+    ]
+  },
+  {
+    "id": "iotkits_train_02017",
+    "image_id": 306,
+    "group_id": "globalcc_799541151de9a76d3d4c",
+    "source": "iotkits_v1",
+    "truth": [],
+    "predictions": [
+      {
+        "class_id": 0,
+        "score": 0.0028134342283010483,
+        "bbox_xyxy": [
+          127.97784423828125,
+          311.75897216796875,
+          640.0,
+          578.5394287109375
+        ]
+      }
+    ]
+  },
+  {
+    "id": "iotkits_train_02067",
+    "image_id": 307,
+    "group_id": "globalcc_c92f70743cfcf3c4cd51",
+    "source": "iotkits_v1",
+    "truth": [
+      {
+        "class_id": 0,
+        "bbox_xyxy": [
+          168.0,
+          31.0,
+          519.0,
+          639.0
+        ]
+      }
+    ],
+    "predictions": [
+      {
+        "class_id": 0,
+        "score": 0.9251388907432556,
+        "bbox_xyxy": [
+          179.05908203125,
+          22.587158203125,
+          520.970703125,
+          640.0
+        ]
+      }
+    ]
+  },
+  {
+    "id": "iotkits_train_02082",
+    "image_id": 308,
+    "group_id": "globalcc_39674fa309ee7d6fedee",
+    "source": "iotkits_v1",
+    "truth": [],
+    "predictions": []
+  },
+  {
+    "id": "iotkits_train_02094",
+    "image_id": 309,
+    "group_id": "globalcc_7e07dcf332adba4c6932",
+    "source": "iotkits_v1",
+    "truth": [],
+    "predictions": [
+      {
+        "class_id": 0,
+        "score": 0.04001295566558838,
+        "bbox_xyxy": [
+          32.986328125,
+          65.33006286621094,
+          629.0218505859375,
+          519.1676025390625
+        ]
+      }
+    ]
+  },
+  {
+    "id": "iotkits_train_02096",
+    "image_id": 310,
+    "group_id": "globalcc_e4957497bea7e54044c5",
+    "source": "iotkits_v1",
+    "truth": [
+      {
+        "class_id": 0,
+        "bbox_xyxy": [
+          345.0,
+          97.0,
+          637.0,
+          551.0
+        ]
+      }
+    ],
+    "predictions": [
+      {
+        "class_id": 0,
+        "score": 0.8120262026786804,
+        "bbox_xyxy": [
+          343.7109375,
+          95.07737731933594,
+          635.8068237304688,
+          550.42041015625
+        ]
+      }
+    ]
+  },
+  {
+    "id": "iotkits_train_02098",
+    "image_id": 311,
+    "group_id": "globalcc_a1b0af26fd06f18073b9",
+    "source": "iotkits_v1",
+    "truth": [],
+    "predictions": [
+      {
+        "class_id": 0,
+        "score": 0.008228035643696785,
+        "bbox_xyxy": [
+          83.04058837890625,
+          41.25384521484375,
+          378.60601806640625,
+          640.0
+        ]
+      },
+      {
+        "class_id": 0,
+        "score": 0.006297169253230095,
+        "bbox_xyxy": [
+          185.98167419433594,
+          429.8250732421875,
+          333.1173095703125,
+          633.8099365234375
+        ]
+      },
+      {
+        "class_id": 0,
+        "score": 0.005860019475221634,
+        "bbox_xyxy": [
+          202.2047119140625,
+          116.276611328125,
+          372.11138916015625,
+          639.2044677734375
+        ]
+      },
+      {
+        "class_id": 0,
+        "score": 0.004357467871159315,
+        "bbox_xyxy": [
+          203.88485717773438,
+          330.6976318359375,
+          366.1654357910156,
+          631.85107421875
+        ]
+      }
+    ]
+  },
+  {
+    "id": "iotkits_train_02100",
+    "image_id": 312,
+    "group_id": "globalcc_eb9d0144a6a10adaf76b",
+    "source": "iotkits_v1",
+    "truth": [],
+    "predictions": [
+      {
+        "class_id": 0,
+        "score": 0.280487060546875,
+        "bbox_xyxy": [
+          56.5057373046875,
+          215.726806640625,
+          603.2481689453125,
+          456.2447509765625
+        ]
+      },
+      {
+        "class_id": 0,
+        "score": 0.001279051648452878,
+        "bbox_xyxy": [
+          259.14349365234375,
+          220.635498046875,
+          601.4254150390625,
+          427.3160400390625
+        ]
+      }
+    ]
+  },
+  {
+    "id": "iotkits_train_02128",
+    "image_id": 313,
+    "group_id": "globalcc_71c2213030fae28cd434",
+    "source": "iotkits_v1",
+    "truth": [],
+    "predictions": [
+      {
+        "class_id": 0,
+        "score": 0.08795388042926788,
+        "bbox_xyxy": [
+          314.391845703125,
+          161.123046875,
+          632.213623046875,
+          434.01959228515625
+        ]
+      },
+      {
+        "class_id": 0,
+        "score": 0.01081591285765171,
+        "bbox_xyxy": [
+          304.484130859375,
+          164.4224853515625,
+          513.0853271484375,
+          431.71527099609375
+        ]
+      },
+      {
+        "class_id": 0,
+        "score": 0.005632681772112846,
+        "bbox_xyxy": [
+          59.39750671386719,
+          166.5671844482422,
+          547.3982543945312,
+          432.85699462890625
+        ]
+      },
+      {
+        "class_id": 0,
+        "score": 0.0024763012770563364,
+        "bbox_xyxy": [
+          1.87689208984375,
+          130.56951904296875,
+          636.5939331054688,
+          640.0
+        ]
+      }
+    ]
+  },
+  {
+    "id": "iotkits_train_02130",
+    "image_id": 314,
+    "group_id": "globalcc_f6a5ea4418a2e23c29ab",
+    "source": "iotkits_v1",
+    "truth": [
+      {
+        "class_id": 0,
+        "bbox_xyxy": [
+          76.0,
+          51.0,
+          565.0,
+          588.0
+        ]
+      }
+    ],
+    "predictions": [
+      {
+        "class_id": 0,
+        "score": 0.912280797958374,
+        "bbox_xyxy": [
+          82.26194763183594,
+          47.6854248046875,
+          565.6785888671875,
+          595.22998046875
+        ]
+      }
+    ]
+  },
+  {
+    "id": "iotkits_train_02144",
+    "image_id": 315,
+    "group_id": "globalcc_f948750cb2ed081091da",
+    "source": "iotkits_v1",
+    "truth": [],
+    "predictions": []
+  },
+  {
+    "id": "iotkits_train_02151",
+    "image_id": 316,
+    "group_id": "globalcc_5ee5cfbf498c11222300",
+    "source": "iotkits_v1",
+    "truth": [],
+    "predictions": []
+  },
+  {
+    "id": "iotkits_train_02154",
+    "image_id": 317,
+    "group_id": "globalcc_d32271472c511194ffac",
+    "source": "iotkits_v1",
+    "truth": [
+      {
+        "class_id": 0,
+        "bbox_xyxy": [
+          5.0,
+          126.0,
+          633.0,
+          541.0
+        ]
+      }
+    ],
+    "predictions": [
+      {
+        "class_id": 0,
+        "score": 0.9596961140632629,
+        "bbox_xyxy": [
+          9.395751953125,
+          125.1009521484375,
+          634.9637451171875,
+          537.1998291015625
+        ]
+      }
+    ]
+  },
+  {
+    "id": "iotkits_train_02171",
+    "image_id": 318,
+    "group_id": "globalcc_46b0a6f98b1216eb15a6",
+    "source": "iotkits_v1",
+    "truth": [
+      {
+        "class_id": 0,
+        "bbox_xyxy": [
+          22.0,
+          100.0,
+          624.0,
+          541.0
+        ]
+      }
+    ],
+    "predictions": [
+      {
+        "class_id": 0,
+        "score": 0.9327468872070312,
+        "bbox_xyxy": [
+          18.26556396484375,
+          99.87339782714844,
+          630.5514526367188,
+          545.343994140625
+        ]
+      }
+    ]
+  },
+  {
+    "id": "iotkits_train_02175",
+    "image_id": 319,
+    "group_id": "globalcc_484012bf420107c6039f",
+    "source": "iotkits_v1",
+    "truth": [
+      {
+        "class_id": 0,
+        "bbox_xyxy": [
+          162.0,
+          43.0,
+          473.0,
+          634.0
+        ]
+      }
+    ],
+    "predictions": [
+      {
+        "class_id": 0,
+        "score": 0.9104036688804626,
+        "bbox_xyxy": [
+          163.61984252929688,
+          31.84844970703125,
+          463.2009582519531,
+          640.0
+        ]
+      }
+    ]
+  },
+  {
+    "id": "iotkits_train_02186",
+    "image_id": 320,
+    "group_id": "globalcc_ec03f59aa3014d7f54e3",
+    "source": "iotkits_v1",
+    "truth": [
+      {
+        "class_id": 0,
+        "bbox_xyxy": [
+          0.0,
+          186.0,
+          584.0,
+          505.0
+        ]
+      }
+    ],
+    "predictions": [
+      {
+        "class_id": 0,
+        "score": 0.917334258556366,
+        "bbox_xyxy": [
+          0.0,
+          185.6326446533203,
+          589.6886596679688,
+          504.56304931640625
+        ]
+      }
+    ]
+  },
+  {
+    "id": "iotkits_train_02195",
+    "image_id": 321,
+    "group_id": "globalcc_1faccb12e708d1c08eb7",
+    "source": "iotkits_v1",
+    "truth": [],
+    "predictions": []
+  },
+  {
+    "id": "iotkits_train_02200",
+    "image_id": 322,
+    "group_id": "globalcc_36ec8d5e2c338ab8d0d5",
+    "source": "iotkits_v1",
+    "truth": [],
+    "predictions": []
+  },
+  {
+    "id": "iotkits_train_02202",
+    "image_id": 323,
+    "group_id": "globalcc_d080866ce8cbfcd6bcf7",
+    "source": "iotkits_v1",
+    "truth": [
+      {
+        "class_id": 0,
+        "bbox_xyxy": [
+          85.0,
+          114.0,
+          564.0,
+          466.0
+        ]
+      }
+    ],
+    "predictions": [
+      {
+        "class_id": 0,
+        "score": 0.901551365852356,
+        "bbox_xyxy": [
+          92.22882080078125,
+          119.90422058105469,
+          568.5467529296875,
+          473.04168701171875
+        ]
+      }
+    ]
+  },
+  {
+    "id": "iotkits_train_02206",
+    "image_id": 324,
+    "group_id": "globalcc_9a1078e221db4ea52925",
+    "source": "iotkits_v1",
+    "truth": [],
+    "predictions": []
+  },
+  {
+    "id": "iotkits_train_02218",
+    "image_id": 325,
+    "group_id": "globalcc_9204c2f65a889eeef52f",
+    "source": "iotkits_v1",
+    "truth": [],
+    "predictions": []
+  },
+  {
+    "id": "iotkits_train_02221",
+    "image_id": 326,
+    "group_id": "globalcc_0633494a8c5dd8998e5a",
+    "source": "iotkits_v1",
+    "truth": [],
+    "predictions": [
+      {
+        "class_id": 0,
+        "score": 0.019771838560700417,
+        "bbox_xyxy": [
+          1.964599609375,
+          49.103759765625,
+          640.0,
+          596.6285400390625
+        ]
+      },
+      {
+        "class_id": 0,
+        "score": 0.0012053082464262843,
+        "bbox_xyxy": [
+          191.0710906982422,
+          110.59014892578125,
+          632.4325561523438,
+          579.4698486328125
+        ]
+      }
+    ]
+  },
+  {
+    "id": "iotkits_train_02231",
+    "image_id": 327,
+    "group_id": "globalcc_a3da610b049fd4c9a492",
+    "source": "iotkits_v1",
+    "truth": [],
+    "predictions": [
+      {
+        "class_id": 0,
+        "score": 0.0010143008548766375,
+        "bbox_xyxy": [
+          155.20889282226562,
+          44.10675048828125,
+          466.1703186035156,
+          640.0
+        ]
+      }
+    ]
+  },
+  {
+    "id": "iotkits_train_02234",
+    "image_id": 328,
+    "group_id": "globalcc_d7c8d61959b7e878004d",
+    "source": "iotkits_v1",
+    "truth": [],
+    "predictions": []
+  },
+  {
+    "id": "iotkits_train_02236",
+    "image_id": 329,
+    "group_id": "globalcc_398d29135be3b00c7938",
+    "source": "iotkits_v1",
+    "truth": [],
+    "predictions": []
+  },
+  {
+    "id": "iotkits_train_02237",
+    "image_id": 330,
+    "group_id": "globalcc_cb4da519d203c82ef8a9",
+    "source": "iotkits_v1",
+    "truth": [],
+    "predictions": [
+      {
+        "class_id": 0,
+        "score": 0.0012914180988445878,
+        "bbox_xyxy": [
+          58.4295654296875,
+          343.30810546875,
+          633.1451416015625,
+          570.388427734375
+        ]
+      }
+    ]
+  },
+  {
+    "id": "iotkits_train_02246",
+    "image_id": 331,
+    "group_id": "globalcc_eb9d0144a6a10adaf76b",
+    "source": "iotkits_v1",
+    "truth": [],
+    "predictions": [
+      {
+        "class_id": 0,
+        "score": 0.01676112785935402,
+        "bbox_xyxy": [
+          46.24530029296875,
+          223.28382873535156,
+          600.3286743164062,
+          424.378173828125
+        ]
+      },
+      {
+        "class_id": 0,
+        "score": 0.003492488292977214,
+        "bbox_xyxy": [
+          50.1082763671875,
+          203.3907012939453,
+          605.1209106445312,
+          640.0
+        ]
+      },
+      {
+        "class_id": 0,
+        "score": 0.001167626236565411,
+        "bbox_xyxy": [
+          53.74253845214844,
+          228.16746520996094,
+          201.29966735839844,
+          414.6531982421875
+        ]
+      }
+    ]
+  },
+  {
+    "id": "iotkits_train_02254",
+    "image_id": 332,
+    "group_id": "globalcc_5fc7cf6ba01b26daf13e",
+    "source": "iotkits_v1",
+    "truth": [],
+    "predictions": []
+  },
+  {
+    "id": "iotkits_train_02260",
+    "image_id": 333,
+    "group_id": "globalcc_1a7ac921075d2bb82c2f",
+    "source": "iotkits_v1",
+    "truth": [],
+    "predictions": [
+      {
+        "class_id": 0,
+        "score": 0.02564789354801178,
+        "bbox_xyxy": [
+          0.0,
+          175.80633544921875,
+          421.5868225097656,
+          636.0068359375
+        ]
+      },
+      {
+        "class_id": 0,
+        "score": 0.00911477766931057,
+        "bbox_xyxy": [
+          134.9561309814453,
+          230.5930633544922,
+          622.1878051757812,
+          632.7597045898438
+        ]
+      },
+      {
+        "class_id": 0,
+        "score": 0.007828030735254288,
+        "bbox_xyxy": [
+          341.17608642578125,
+          248.50421142578125,
+          626.4756469726562,
+          623.060546875
+        ]
+      },
+      {
+        "class_id": 0,
+        "score": 0.001055747619830072,
+        "bbox_xyxy": [
+          440.4308776855469,
+          278.2107849121094,
+          640.0,
+          433.5200500488281
+        ]
+      }
+    ]
+  },
+  {
+    "id": "iotkits_train_02265",
+    "image_id": 334,
+    "group_id": "globalcc_c1e089507b77a6e18d35",
+    "source": "iotkits_v1",
+    "truth": [],
+    "predictions": []
+  },
+  {
+    "id": "iotkits_train_02266",
+    "image_id": 335,
+    "group_id": "globalcc_87a72d509321ecc67558",
+    "source": "iotkits_v1",
+    "truth": [
+      {
+        "class_id": 0,
+        "bbox_xyxy": [
+          67.0,
+          64.0,
+          618.0,
+          639.0
+        ]
+      }
+    ],
+    "predictions": [
+      {
+        "class_id": 0,
+        "score": 0.949256181716919,
+        "bbox_xyxy": [
+          71.739990234375,
+          38.828125,
+          627.874267578125,
+          637.7434692382812
+        ]
+      }
+    ]
+  },
+  {
+    "id": "iotkits_train_02278",
+    "image_id": 336,
+    "group_id": "globalcc_8711186ed9eefc5a6f06",
+    "source": "iotkits_v1",
+    "truth": [
+      {
+        "class_id": 0,
+        "bbox_xyxy": [
+          64.0,
+          40.0,
+          613.0,
+          529.0
+        ]
+      }
+    ],
+    "predictions": [
+      {
+        "class_id": 0,
+        "score": 0.8763850927352905,
+        "bbox_xyxy": [
+          61.38714599609375,
+          34.75665283203125,
+          611.42041015625,
+          553.6327514648438
+        ]
+      }
+    ]
+  },
+  {
+    "id": "iotkits_train_02294",
+    "image_id": 337,
+    "group_id": "globalcc_dff61a76031f4181a4e6",
+    "source": "iotkits_v1",
+    "truth": [
+      {
+        "class_id": 0,
+        "bbox_xyxy": [
+          77.0,
+          48.0,
+          562.0,
+          589.0
+        ]
+      }
+    ],
+    "predictions": [
+      {
+        "class_id": 0,
+        "score": 0.929025411605835,
+        "bbox_xyxy": [
+          83.38812255859375,
+          47.45513916015625,
+          564.4987182617188,
+          600.7382202148438
+        ]
+      }
+    ]
+  },
+  {
+    "id": "iotkits_train_02297",
+    "image_id": 338,
+    "group_id": "globalcc_9ec38270b40cf167b1ac",
+    "source": "iotkits_v1",
+    "truth": [],
+    "predictions": []
+  },
+  {
+    "id": "iotkits_train_02309",
+    "image_id": 339,
+    "group_id": "globalcc_f08c342aa32b37790bf1",
+    "source": "iotkits_v1",
+    "truth": [],
+    "predictions": []
+  },
+  {
+    "id": "iotkits_train_02311",
+    "image_id": 340,
+    "group_id": "globalcc_ce05cdfa67c91de31683",
+    "source": "iotkits_v1",
+    "truth": [
+      {
+        "class_id": 0,
+        "bbox_xyxy": [
+          121.0,
+          143.0,
+          530.0,
+          495.0
+        ]
+      }
+    ],
+    "predictions": [
+      {
+        "class_id": 0,
+        "score": 0.8858002424240112,
+        "bbox_xyxy": [
+          123.88470458984375,
+          146.18423461914062,
+          546.637939453125,
+          495.7929382324219
+        ]
+      }
+    ]
+  },
+  {
+    "id": "iotkits_train_02313",
+    "image_id": 341,
+    "group_id": "globalcc_944081836128250fd99d",
+    "source": "iotkits_v1",
+    "truth": [],
+    "predictions": []
+  },
+  {
+    "id": "iotkits_train_02318",
+    "image_id": 342,
+    "group_id": "globalcc_0d6429d6bfcde978fb21",
+    "source": "iotkits_v1",
+    "truth": [],
+    "predictions": [
+      {
+        "class_id": 0,
+        "score": 0.6151246428489685,
+        "bbox_xyxy": [
+          71.29827880859375,
+          222.64788818359375,
+          584.3543701171875,
+          421.17083740234375
+        ]
+      }
+    ]
+  },
+  {
+    "id": "iotkits_train_02319",
+    "image_id": 343,
+    "group_id": "globalcc_5fc7cf6ba01b26daf13e",
+    "source": "iotkits_v1",
+    "truth": [],
+    "predictions": []
+  },
+  {
+    "id": "iotkits_train_02328",
+    "image_id": 344,
+    "group_id": "globalcc_582ed66621a300a52c6a",
+    "source": "iotkits_v1",
+    "truth": [
+      {
+        "class_id": 0,
+        "bbox_xyxy": [
+          40.0,
+          234.0,
+          605.0,
+          355.0
+        ]
+      }
+    ],
+    "predictions": [
+      {
+        "class_id": 0,
+        "score": 0.8278970718383789,
+        "bbox_xyxy": [
+          33.25836181640625,
+          222.94268798828125,
+          603.0234375,
+          361.7489013671875
+        ]
+      },
+      {
+        "class_id": 0,
+        "score": 0.01274329237639904,
+        "bbox_xyxy": [
+          47.5450439453125,
+          231.67047119140625,
+          403.89593505859375,
+          358.76141357421875
+        ]
+      },
+      {
+        "class_id": 0,
+        "score": 0.0026720580644905567,
+        "bbox_xyxy": [
+          411.56939697265625,
+          233.81912231445312,
+          601.6591796875,
+          360.0154724121094
+        ]
+      },
+      {
+        "class_id": 0,
+        "score": 0.0010237176902592182,
+        "bbox_xyxy": [
+          270.05816650390625,
+          231.74819946289062,
+          607.4708862304688,
+          365.9844055175781
+        ]
+      }
+    ]
+  },
+  {
+    "id": "iotkits_train_02332",
+    "image_id": 345,
+    "group_id": "globalcc_2a8c5956cf056f22d29b",
+    "source": "iotkits_v1",
+    "truth": [
+      {
+        "class_id": 0,
+        "bbox_xyxy": [
+          66.0,
+          49.0,
+          574.0,
+          599.0
+        ]
+      }
+    ],
+    "predictions": [
+      {
+        "class_id": 0,
+        "score": 0.9153574109077454,
+        "bbox_xyxy": [
+          71.61854553222656,
+          50.35888671875,
+          564.1343994140625,
+          604.427490234375
+        ]
+      }
+    ]
+  },
+  {
+    "id": "iotkits_train_02338",
+    "image_id": 346,
+    "group_id": "globalcc_a7f5c2e2618d92cc6232",
+    "source": "iotkits_v1",
+    "truth": [
+      {
+        "class_id": 0,
+        "bbox_xyxy": [
+          5.0,
+          156.0,
+          636.0,
+          481.0
+        ]
+      }
+    ],
+    "predictions": [
+      {
+        "class_id": 0,
+        "score": 0.9330887794494629,
+        "bbox_xyxy": [
+          2.01800537109375,
+          164.58407592773438,
+          637.0591430664062,
+          479.3641662597656
+        ]
+      }
+    ]
+  },
+  {
+    "id": "iotkits_train_02340",
+    "image_id": 347,
+    "group_id": "globalcc_5f7b033d261c76bd4bff",
+    "source": "iotkits_v1",
+    "truth": [],
+    "predictions": []
+  },
+  {
+    "id": "iotkits_train_02350",
+    "image_id": 348,
+    "group_id": "globalcc_c481401b41617f0ac73b",
+    "source": "iotkits_v1",
+    "truth": [],
+    "predictions": []
+  },
+  {
+    "id": "iotkits_train_02358",
+    "image_id": 349,
+    "group_id": "globalcc_1b90042490074f1a245e",
+    "source": "iotkits_v1",
+    "truth": [],
+    "predictions": []
+  },
+  {
+    "id": "iotkits_train_02366",
+    "image_id": 350,
+    "group_id": "globalcc_ef63a32e1fc9b2f3a2d6",
+    "source": "iotkits_v1",
+    "truth": [
+      {
+        "class_id": 0,
+        "bbox_xyxy": [
+          74.0,
+          0.0,
+          548.0,
+          587.0
+        ]
+      }
+    ],
+    "predictions": [
+      {
+        "class_id": 0,
+        "score": 0.8575649857521057,
+        "bbox_xyxy": [
+          75.275634765625,
+          0.0,
+          540.013916015625,
+          606.7119750976562
+        ]
+      }
+    ]
+  },
+  {
+    "id": "iotkits_train_02378",
+    "image_id": 351,
+    "group_id": "globalcc_7bc80c8faf328547b265",
+    "source": "iotkits_v1",
+    "truth": [],
+    "predictions": []
+  },
+  {
+    "id": "iotkits_train_02394",
+    "image_id": 352,
+    "group_id": "globalcc_5764f70145d170fa135d",
+    "source": "iotkits_v1",
+    "truth": [],
+    "predictions": []
+  },
+  {
+    "id": "iotkits_train_02405",
+    "image_id": 353,
+    "group_id": "globalcc_1b90042490074f1a245e",
+    "source": "iotkits_v1",
+    "truth": [],
+    "predictions": []
+  },
+  {
+    "id": "iotkits_train_02412",
+    "image_id": 354,
+    "group_id": "globalcc_e2e70f213252aca57675",
+    "source": "iotkits_v1",
+    "truth": [
+      {
+        "class_id": 0,
+        "bbox_xyxy": [
+          0.0,
+          173.0,
+          628.0,
+          514.0
+        ]
+      }
+    ],
+    "predictions": [
+      {
+        "class_id": 0,
+        "score": 0.9436696767807007,
+        "bbox_xyxy": [
+          0.0,
+          182.730224609375,
+          638.1566772460938,
+          508.47296142578125
+        ]
+      }
+    ]
+  },
+  {
+    "id": "iotkits_train_02432",
+    "image_id": 355,
+    "group_id": "globalcc_3906e764271ca87eb7a3",
+    "source": "iotkits_v1",
+    "truth": [
+      {
+        "class_id": 0,
+        "bbox_xyxy": [
+          50.0,
+          153.0,
+          603.0,
+          523.0
+        ]
+      }
+    ],
+    "predictions": [
+      {
+        "class_id": 0,
+        "score": 0.9362817406654358,
+        "bbox_xyxy": [
+          48.6492919921875,
+          155.99053955078125,
+          601.0145874023438,
+          521.6123046875
+        ]
+      }
+    ]
+  },
+  {
+    "id": "iotkits_train_02433",
+    "image_id": 356,
+    "group_id": "globalcc_0633494a8c5dd8998e5a",
+    "source": "iotkits_v1",
+    "truth": [],
+    "predictions": [
+      {
+        "class_id": 0,
+        "score": 0.01889222115278244,
+        "bbox_xyxy": [
+          2.1343994140625,
+          49.0169677734375,
+          640.0,
+          598.5838623046875
+        ]
+      },
+      {
+        "class_id": 0,
+        "score": 0.0012019486166536808,
+        "bbox_xyxy": [
+          187.5165557861328,
+          109.0556640625,
+          632.6532592773438,
+          583.7640991210938
+        ]
+      }
+    ]
+  },
+  {
+    "id": "iotkits_train_02452",
+    "image_id": 357,
+    "group_id": "globalcc_a17995899622f7c9eceb",
+    "source": "iotkits_v1",
+    "truth": [
+      {
+        "class_id": 0,
+        "bbox_xyxy": [
+          97.0,
+          48.0,
+          581.0,
+          592.0
+        ]
+      }
+    ],
+    "predictions": [
+      {
+        "class_id": 0,
+        "score": 0.9215825200080872,
+        "bbox_xyxy": [
+          103.249755859375,
+          43.51446533203125,
+          579.5859375,
+          599.3621215820312
+        ]
+      }
+    ]
+  },
+  {
+    "id": "iotkits_train_02462",
+    "image_id": 358,
+    "group_id": "globalcc_edf9935e6c62effe82f3",
+    "source": "iotkits_v1",
+    "truth": [],
+    "predictions": []
+  },
+  {
+    "id": "iotkits_train_02463",
+    "image_id": 359,
+    "group_id": "globalcc_cb0ba2492b4ab464b204",
+    "source": "iotkits_v1",
+    "truth": [],
+    "predictions": [
+      {
+        "class_id": 0,
+        "score": 0.007749803829938173,
+        "bbox_xyxy": [
+          2.93756103515625,
+          368.5478515625,
+          483.91607666015625,
+          640.0
+        ]
+      }
+    ]
+  },
+  {
+    "id": "iotkits_valid_00001",
+    "image_id": 360,
+    "group_id": "globalcc_04731be05dd6987416fa",
+    "source": "iotkits_v1",
+    "truth": [],
+    "predictions": [
+      {
+        "class_id": 0,
+        "score": 0.001096817315556109,
+        "bbox_xyxy": [
+          174.50025939941406,
+          135.73980712890625,
+          637.7410888671875,
+          384.1243896484375
+        ]
+      },
+      {
+        "class_id": 0,
+        "score": 0.0010043350048363209,
+        "bbox_xyxy": [
+          0.0,
+          133.0823974609375,
+          428.1805419921875,
+          489.6160888671875
+        ]
+      }
+    ]
+  },
+  {
+    "id": "iotkits_valid_00010",
+    "image_id": 361,
+    "group_id": "globalcc_e2422349728ed30b2bdb",
+    "source": "iotkits_v1",
+    "truth": [
+      {
+        "class_id": 0,
+        "bbox_xyxy": [
+          18.0,
+          170.0,
+          349.0,
+          453.0
+        ]
+      }
+    ],
+    "predictions": [
+      {
+        "class_id": 0,
+        "score": 0.9357423186302185,
+        "bbox_xyxy": [
+          11.894317626953125,
+          163.30242919921875,
+          357.8010559082031,
+          447.51470947265625
+        ]
+      },
+      {
+        "class_id": 0,
+        "score": 0.01556187029927969,
+        "bbox_xyxy": [
+          0.0,
+          151.2611083984375,
+          638.1748046875,
+          450.4326171875
+        ]
+      },
+      {
+        "class_id": 0,
+        "score": 0.003987597767263651,
+        "bbox_xyxy": [
+          15.99432373046875,
+          170.46527099609375,
+          195.95388793945312,
+          450.5108642578125
+        ]
+      },
+      {
+        "class_id": 0,
+        "score": 0.0029509190935641527,
+        "bbox_xyxy": [
+          373.37640380859375,
+          139.0869140625,
+          640.0,
+          447.307861328125
+        ]
+      }
+    ]
+  },
+  {
+    "id": "iotkits_valid_00019",
+    "image_id": 362,
+    "group_id": "globalcc_1ca9ac94e0e01dd38187",
+    "source": "iotkits_v1",
+    "truth": [
+      {
+        "class_id": 0,
+        "bbox_xyxy": [
+          7.0,
+          95.0,
+          631.0,
+          545.0
+        ]
+      }
+    ],
+    "predictions": [
+      {
+        "class_id": 0,
+        "score": 0.9512720704078674,
+        "bbox_xyxy": [
+          8.80078125,
+          84.027099609375,
+          637.2869262695312,
+          544.8821411132812
+        ]
+      }
+    ]
+  },
+  {
+    "id": "iotkits_valid_00026",
+    "image_id": 363,
+    "group_id": "globalcc_1efb256a4ba2dc10e3f8",
+    "source": "iotkits_v1",
+    "truth": [
+      {
+        "class_id": 0,
+        "bbox_xyxy": [
+          217.0,
+          22.0,
+          483.0,
+          621.0
+        ]
+      }
+    ],
+    "predictions": [
+      {
+        "class_id": 0,
+        "score": 0.9379649758338928,
+        "bbox_xyxy": [
+          225.41075134277344,
+          30.36431884765625,
+          481.4718017578125,
+          635.9964599609375
+        ]
+      }
+    ]
+  },
+  {
+    "id": "iotkits_valid_00028",
+    "image_id": 364,
+    "group_id": "globalcc_0ca239bd02ba1f60f383",
+    "source": "iotkits_v1",
+    "truth": [],
+    "predictions": []
+  },
+  {
+    "id": "iotkits_valid_00035",
+    "image_id": 365,
+    "group_id": "globalcc_81d7033dd2d883fd47d4",
+    "source": "iotkits_v1",
+    "truth": [
+      {
+        "class_id": 0,
+        "bbox_xyxy": [
+          20.0,
+          148.0,
+          602.0,
+          470.0
+        ]
+      }
+    ],
+    "predictions": [
+      {
+        "class_id": 0,
+        "score": 0.9568532705307007,
+        "bbox_xyxy": [
+          13.17364501953125,
+          151.49090576171875,
+          602.1959228515625,
+          466.59490966796875
+        ]
+      }
+    ]
+  },
+  {
+    "id": "iotkits_valid_00037",
+    "image_id": 366,
+    "group_id": "globalcc_0633494a8c5dd8998e5a",
+    "source": "iotkits_v1",
+    "truth": [],
+    "predictions": [
+      {
+        "class_id": 0,
+        "score": 0.018987076357007027,
+        "bbox_xyxy": [
+          2.1390380859375,
+          49.02032470703125,
+          640.0,
+          598.52587890625
+        ]
+      },
+      {
+        "class_id": 0,
+        "score": 0.001190466107800603,
+        "bbox_xyxy": [
+          187.50184631347656,
+          109.07769775390625,
+          632.640625,
+          583.7405395507812
+        ]
+      }
+    ]
+  },
+  {
+    "id": "iotkits_valid_00041",
+    "image_id": 367,
+    "group_id": "globalcc_0d6429d6bfcde978fb21",
+    "source": "iotkits_v1",
+    "truth": [],
+    "predictions": [
+      {
+        "class_id": 0,
+        "score": 0.014525137841701508,
+        "bbox_xyxy": [
+          188.15394592285156,
+          0.0,
+          480.329345703125,
+          543.4465942382812
+        ]
+      }
+    ]
+  },
+  {
+    "id": "iotkits_valid_00042",
+    "image_id": 368,
+    "group_id": "globalcc_b4861ed886d1c3aadef5",
+    "source": "iotkits_v1",
+    "truth": [
+      {
+        "class_id": 0,
+        "bbox_xyxy": [
+          11.0,
+          51.0,
+          393.0,
+          511.0
+        ]
+      }
+    ],
+    "predictions": [
+      {
+        "class_id": 0,
+        "score": 0.8483701944351196,
+        "bbox_xyxy": [
+          13.1229248046875,
+          46.20697021484375,
+          408.10491943359375,
+          507.236572265625
+        ]
+      }
+    ]
+  },
+  {
+    "id": "iotkits_valid_00045",
+    "image_id": 369,
+    "group_id": "globalcc_96f5fd66ec13c87923f1",
+    "source": "iotkits_v1",
+    "truth": [
+      {
+        "class_id": 0,
+        "bbox_xyxy": [
+          15.0,
+          192.0,
+          630.0,
+          462.0
+        ]
+      }
+    ],
+    "predictions": [
+      {
+        "class_id": 0,
+        "score": 0.9597076773643494,
+        "bbox_xyxy": [
+          7.4151611328125,
+          184.31655883789062,
+          633.781982421875,
+          469.5483093261719
+        ]
+      }
+    ]
+  },
+  {
+    "id": "iotkits_valid_00052",
+    "image_id": 370,
+    "group_id": "globalcc_f9409b2a6149c2549ce8",
+    "source": "iotkits_v1",
+    "truth": [],
+    "predictions": []
+  },
+  {
+    "id": "iotkits_valid_00053",
+    "image_id": 371,
+    "group_id": "globalcc_5947eb12bc37bc71353d",
+    "source": "iotkits_v1",
+    "truth": [
+      {
+        "class_id": 0,
+        "bbox_xyxy": [
+          4.0,
+          65.0,
+          634.0,
+          572.0
+        ]
+      }
+    ],
+    "predictions": [
+      {
+        "class_id": 0,
+        "score": 0.8880137801170349,
+        "bbox_xyxy": [
+          4.92138671875,
+          62.5625,
+          640.0,
+          578.392333984375
+        ]
+      }
+    ]
+  },
+  {
+    "id": "iotkits_valid_00059",
+    "image_id": 372,
+    "group_id": "globalcc_1b90042490074f1a245e",
+    "source": "iotkits_v1",
+    "truth": [],
+    "predictions": []
+  },
+  {
+    "id": "iotkits_valid_00060",
+    "image_id": 373,
+    "group_id": "globalcc_55153ef095a627c9a7d4",
+    "source": "iotkits_v1",
+    "truth": [
+      {
+        "class_id": 0,
+        "bbox_xyxy": [
+          65.0,
+          25.0,
+          509.0,
+          610.0
+        ]
+      }
+    ],
+    "predictions": [
+      {
+        "class_id": 0,
+        "score": 0.9028346538543701,
+        "bbox_xyxy": [
+          72.91091918945312,
+          22.8662109375,
+          510.9683532714844,
+          613.028076171875
+        ]
+      }
+    ]
+  },
+  {
+    "id": "iotkits_valid_00064",
+    "image_id": 374,
+    "group_id": "globalcc_14d6882bcd9d11e42f75",
+    "source": "iotkits_v1",
+    "truth": [],
+    "predictions": []
+  },
+  {
+    "id": "iotkits_valid_00072",
+    "image_id": 375,
+    "group_id": "globalcc_208bb59ac612e644c15d",
+    "source": "iotkits_v1",
+    "truth": [],
+    "predictions": []
+  },
+  {
+    "id": "iotkits_valid_00078",
+    "image_id": 376,
+    "group_id": "globalcc_e05791f17371adc79377",
+    "source": "iotkits_v1",
+    "truth": [],
+    "predictions": []
+  },
+  {
+    "id": "iotkits_valid_00082",
+    "image_id": 377,
+    "group_id": "globalcc_5e4fe18538324c60952a",
+    "source": "iotkits_v1",
+    "truth": [
+      {
+        "class_id": 0,
+        "bbox_xyxy": [
+          40.0,
+          171.0,
+          604.0,
+          443.0
+        ]
+      }
+    ],
+    "predictions": [
+      {
+        "class_id": 0,
+        "score": 0.9399630427360535,
+        "bbox_xyxy": [
+          40.0384521484375,
+          162.64256286621094,
+          595.7135009765625,
+          440.5194091796875
+        ]
+      }
+    ]
+  },
+  {
+    "id": "iotkits_valid_00086",
+    "image_id": 378,
+    "group_id": "globalcc_8be248bc40b9df41b8a5",
+    "source": "iotkits_v1",
+    "truth": [],
+    "predictions": [
+      {
+        "class_id": 0,
+        "score": 0.006035567726939917,
+        "bbox_xyxy": [
+          18.425186157226562,
+          153.33514404296875,
+          506.2308349609375,
+          485.7091064453125
+        ]
+      }
+    ]
+  },
+  {
+    "id": "iotkits_valid_00097",
+    "image_id": 379,
+    "group_id": "globalcc_32d9d4373820b4486bf5",
+    "source": "iotkits_v1",
+    "truth": [],
+    "predictions": []
+  },
+  {
+    "id": "iotkits_valid_00100",
+    "image_id": 380,
+    "group_id": "globalcc_edf9935e6c62effe82f3",
+    "source": "iotkits_v1",
+    "truth": [],
+    "predictions": []
+  },
+  {
+    "id": "iotkits_valid_00110",
+    "image_id": 381,
+    "group_id": "globalcc_a17995899622f7c9eceb",
+    "source": "iotkits_v1",
+    "truth": [
+      {
+        "class_id": 0,
+        "bbox_xyxy": [
+          96.0,
+          48.0,
+          580.0,
+          592.0
+        ]
+      }
+    ],
+    "predictions": [
+      {
+        "class_id": 0,
+        "score": 0.9140198230743408,
+        "bbox_xyxy": [
+          102.89361572265625,
+          42.52587890625,
+          578.1897583007812,
+          600.078369140625
+        ]
+      }
+    ]
+  },
+  {
+    "id": "iotkits_valid_00115",
+    "image_id": 382,
+    "group_id": "globalcc_1a6b7cb57331bd798a85",
+    "source": "iotkits_v1",
+    "truth": [
+      {
+        "class_id": 0,
+        "bbox_xyxy": [
+          174.0,
+          43.0,
+          568.0,
+          608.0
+        ]
+      }
+    ],
+    "predictions": [
+      {
+        "class_id": 0,
+        "score": 0.9091683030128479,
+        "bbox_xyxy": [
+          179.28790283203125,
+          38.52783203125,
+          577.63232421875,
+          614.8763427734375
+        ]
+      },
+      {
+        "class_id": 0,
+        "score": 0.0012096900027245283,
+        "bbox_xyxy": [
+          179.4821319580078,
+          53.94720458984375,
+          530.8482055664062,
+          402.39080810546875
+        ]
+      }
+    ]
+  },
+  {
+    "id": "iotkits_valid_00134",
+    "image_id": 383,
+    "group_id": "globalcc_14d6882bcd9d11e42f75",
+    "source": "iotkits_v1",
+    "truth": [],
+    "predictions": [
+      {
+        "class_id": 0,
+        "score": 0.0012309143785387278,
+        "bbox_xyxy": [
+          87.108642578125,
+          32.55596923828125,
+          564.6238403320312,
+          594.9829711914062
+        ]
+      }
+    ]
+  },
+  {
+    "id": "iotkits_valid_00155",
+    "image_id": 384,
+    "group_id": "globalcc_35623f05e1e7ed451648",
+    "source": "iotkits_v1",
+    "truth": [
+      {
+        "class_id": 0,
+        "bbox_xyxy": [
+          0.0,
+          79.0,
+          631.0,
+          504.0
+        ]
+      }
+    ],
+    "predictions": [
+      {
+        "class_id": 0,
+        "score": 0.5514023900032043,
+        "bbox_xyxy": [
+          0.0,
+          81.07089233398438,
+          629.585205078125,
+          507.0267639160156
+        ]
+      }
+    ]
+  },
+  {
+    "id": "iotkits_valid_00170",
+    "image_id": 385,
+    "group_id": "globalcc_edf9935e6c62effe82f3",
+    "source": "iotkits_v1",
+    "truth": [],
+    "predictions": []
+  },
+  {
+    "id": "iotkits_valid_00172",
+    "image_id": 386,
+    "group_id": "globalcc_46b0a6f98b1216eb15a6",
+    "source": "iotkits_v1",
+    "truth": [
+      {
+        "class_id": 0,
+        "bbox_xyxy": [
+          13.0,
+          123.0,
+          618.0,
+          527.0
+        ]
+      }
+    ],
+    "predictions": [
+      {
+        "class_id": 0,
+        "score": 0.9292219877243042,
+        "bbox_xyxy": [
+          9.39971923828125,
+          120.6319580078125,
+          625.6725463867188,
+          528.0507202148438
+        ]
+      }
+    ]
+  },
+  {
+    "id": "iotkits_valid_00181",
+    "image_id": 387,
+    "group_id": "globalcc_6a63aec7baeca463434e",
+    "source": "iotkits_v1",
+    "truth": [],
+    "predictions": []
+  },
+  {
+    "id": "iotkits_valid_00191",
+    "image_id": 388,
+    "group_id": "globalcc_1b90042490074f1a245e",
+    "source": "iotkits_v1",
+    "truth": [],
+    "predictions": []
+  },
+  {
+    "id": "iotkits_valid_00195",
+    "image_id": 389,
+    "group_id": "globalcc_6ca6676bd95172eb61de",
+    "source": "iotkits_v1",
+    "truth": [
+      {
+        "class_id": 0,
+        "bbox_xyxy": [
+          10.0,
+          180.0,
+          603.0,
+          504.0
+        ]
+      }
+    ],
+    "predictions": [
+      {
+        "class_id": 0,
+        "score": 0.9232428073883057,
+        "bbox_xyxy": [
+          3.85693359375,
+          170.2176971435547,
+          612.3668212890625,
+          500.68096923828125
+        ]
+      }
+    ]
+  },
+  {
+    "id": "iotkits_valid_00210",
+    "image_id": 390,
+    "group_id": "globalcc_01c1d129bb26f311ad88",
+    "source": "iotkits_v1",
+    "truth": [],
+    "predictions": []
+  },
+  {
+    "id": "iotkits_valid_00224",
+    "image_id": 391,
+    "group_id": "globalcc_13d3016668b7c74475b0",
+    "source": "iotkits_v1",
+    "truth": [
+      {
+        "class_id": 0,
+        "bbox_xyxy": [
+          113.0,
+          191.0,
+          528.0,
+          452.0
+        ]
+      }
+    ],
+    "predictions": [
+      {
+        "class_id": 0,
+        "score": 0.884287416934967,
+        "bbox_xyxy": [
+          115.87242126464844,
+          193.40541076660156,
+          524.797119140625,
+          456.661865234375
+        ]
+      }
+    ]
+  },
+  {
+    "id": "iotkits_valid_00226",
+    "image_id": 392,
+    "group_id": "globalcc_a43a795a9e8d50ec0a4a",
+    "source": "iotkits_v1",
+    "truth": [],
+    "predictions": [
+      {
+        "class_id": 0,
+        "score": 0.19087500870227814,
+        "bbox_xyxy": [
+          106.44268798828125,
+          92.347412109375,
+          565.0517578125,
+          560.9287719726562
+        ]
+      },
+      {
+        "class_id": 0,
+        "score": 0.0015481425216421485,
+        "bbox_xyxy": [
+          272.5408935546875,
+          63.49879455566406,
+          640.0,
+          566.8236083984375
+        ]
+      }
+    ]
+  },
+  {
+    "id": "iotkits_valid_00232",
+    "image_id": 393,
+    "group_id": "globalcc_d080866ce8cbfcd6bcf7",
+    "source": "iotkits_v1",
+    "truth": [
+      {
+        "class_id": 0,
+        "bbox_xyxy": [
+          72.0,
+          91.0,
+          539.0,
+          639.0
+        ]
+      }
+    ],
+    "predictions": [
+      {
+        "class_id": 0,
+        "score": 0.831602156162262,
+        "bbox_xyxy": [
+          84.88822937011719,
+          85.01983642578125,
+          546.1753540039062,
+          640.0
+        ]
+      },
+      {
+        "class_id": 0,
+        "score": 0.0016341396840289235,
+        "bbox_xyxy": [
+          120.73370361328125,
+          93.054443359375,
+          542.5042724609375,
+          453.295654296875
+        ]
+      }
+    ]
+  },
+  {
+    "id": "iotkits_valid_00233",
+    "image_id": 394,
+    "group_id": "globalcc_b7916058586d9b3860b9",
+    "source": "iotkits_v1",
+    "truth": [
+      {
+        "class_id": 0,
+        "bbox_xyxy": [
+          97.0,
+          43.0,
+          568.0,
+          596.0
+        ]
+      }
+    ],
+    "predictions": [
+      {
+        "class_id": 0,
+        "score": 0.8954340815544128,
+        "bbox_xyxy": [
+          109.59770202636719,
+          40.37091064453125,
+          568.4384155273438,
+          597.8572998046875
+        ]
+      }
+    ]
+  },
+  {
+    "id": "iotkits_valid_00234",
+    "image_id": 395,
+    "group_id": "globalcc_1faccb12e708d1c08eb7",
+    "source": "iotkits_v1",
+    "truth": [],
+    "predictions": []
+  },
+  {
+    "id": "iotkits_valid_00240",
+    "image_id": 396,
+    "group_id": "globalcc_f0e32694b6d5460f3418",
+    "source": "iotkits_v1",
+    "truth": [
+      {
+        "class_id": 0,
+        "bbox_xyxy": [
+          122.0,
+          59.0,
+          480.0,
+          521.0
+        ]
+      }
+    ],
+    "predictions": [
+      {
+        "class_id": 0,
+        "score": 0.8896920084953308,
+        "bbox_xyxy": [
+          124.33212280273438,
+          57.77740478515625,
+          475.6938781738281,
+          525.9513549804688
+        ]
+      }
+    ]
+  },
+  {
+    "id": "iotkits_valid_00244",
+    "image_id": 397,
+    "group_id": "globalcc_9204c2f65a889eeef52f",
+    "source": "iotkits_v1",
+    "truth": [],
+    "predictions": []
+  },
+  {
+    "id": "iotkits_valid_00246",
+    "image_id": 398,
+    "group_id": "globalcc_e09d43bd5d28ab151750",
+    "source": "iotkits_v1",
+    "truth": [],
+    "predictions": [
+      {
+        "class_id": 0,
+        "score": 0.001156936283223331,
+        "bbox_xyxy": [
+          92.6427001953125,
+          219.0208740234375,
+          518.8612060546875,
+          640.0
+        ]
+      }
+    ]
+  },
+  {
+    "id": "iotkits_valid_00252",
+    "image_id": 399,
+    "group_id": "globalcc_016fa695e5883b3c51f9",
+    "source": "iotkits_v1",
+    "truth": [
+      {
+        "class_id": 0,
+        "bbox_xyxy": [
+          121.0,
+          49.0,
+          554.0,
+          588.0
+        ]
+      }
+    ],
+    "predictions": [
+      {
+        "class_id": 0,
+        "score": 0.9113466739654541,
+        "bbox_xyxy": [
+          123.94866943359375,
+          48.20001220703125,
+          556.158203125,
+          602.7152099609375
+        ]
+      }
+    ]
+  },
+  {
+    "id": "iotkits_valid_00255",
+    "image_id": 400,
+    "group_id": "globalcc_5ee5cfbf498c11222300",
+    "source": "iotkits_v1",
+    "truth": [],
+    "predictions": [
+      {
+        "class_id": 0,
+        "score": 0.0014954081270843744,
+        "bbox_xyxy": [
+          101.60633850097656,
+          395.121337890625,
+          505.919677734375,
+          578.2135009765625
+        ]
+      }
+    ]
+  },
+  {
+    "id": "iotkits_valid_00257",
+    "image_id": 401,
+    "group_id": "globalcc_ef63a32e1fc9b2f3a2d6",
+    "source": "iotkits_v1",
+    "truth": [
+      {
+        "class_id": 0,
+        "bbox_xyxy": [
+          146.0,
+          41.0,
+          496.0,
+          559.0
+        ]
+      }
+    ],
+    "predictions": [
+      {
+        "class_id": 0,
+        "score": 0.8955953121185303,
+        "bbox_xyxy": [
+          148.74615478515625,
+          30.1846923828125,
+          507.06695556640625,
+          575.7861328125
+        ]
+      }
+    ]
+  },
+  {
+    "id": "iotkits_valid_00263",
+    "image_id": 402,
+    "group_id": "globalcc_dca7f30a8c6ffe7bded2",
+    "source": "iotkits_v1",
+    "truth": [
+      {
+        "class_id": 0,
+        "bbox_xyxy": [
+          71.0,
+          40.0,
+          573.0,
+          600.0
+        ]
+      }
+    ],
+    "predictions": [
+      {
+        "class_id": 0,
+        "score": 0.8946723341941833,
+        "bbox_xyxy": [
+          76.400146484375,
+          35.15087890625,
+          566.8269653320312,
+          603.6012573242188
+        ]
+      }
+    ]
+  },
+  {
+    "id": "iotkits_valid_00268",
+    "image_id": 403,
+    "group_id": "globalcc_b6b5021bda6eadc94740",
+    "source": "iotkits_v1",
+    "truth": [
+      {
+        "class_id": 0,
+        "bbox_xyxy": [
+          35.0,
+          109.0,
+          601.0,
+          531.0
+        ]
+      }
+    ],
+    "predictions": [
+      {
+        "class_id": 0,
+        "score": 0.9446836113929749,
+        "bbox_xyxy": [
+          39.76318359375,
+          104.197998046875,
+          595.0091552734375,
+          530.05419921875
+        ]
+      }
+    ]
+  },
+  {
+    "id": "iotkits_valid_00269",
+    "image_id": 404,
+    "group_id": "globalcc_b5f4af08cab70955639c",
+    "source": "iotkits_v1",
+    "truth": [],
+    "predictions": []
+  },
+  {
+    "id": "iotkits_valid_00275",
+    "image_id": 405,
+    "group_id": "globalcc_0633494a8c5dd8998e5a",
+    "source": "iotkits_v1",
+    "truth": [],
+    "predictions": [
+      {
+        "class_id": 0,
+        "score": 0.0076517160050570965,
+        "bbox_xyxy": [
+          92.20530700683594,
+          34.97119140625,
+          590.93212890625,
+          640.0
+        ]
+      }
+    ]
+  },
+  {
+    "id": "iotkits_valid_00276",
+    "image_id": 406,
+    "group_id": "globalcc_76dcd2273faf176a1168",
+    "source": "iotkits_v1",
+    "truth": [],
+    "predictions": []
+  },
+  {
+    "id": "iotkits_valid_00285",
+    "image_id": 407,
+    "group_id": "globalcc_da28545ec51a0d6dae77",
+    "source": "iotkits_v1",
+    "truth": [
+      {
+        "class_id": 0,
+        "bbox_xyxy": [
+          129.0,
+          20.0,
+          527.0,
+          625.0
+        ]
+      }
+    ],
+    "predictions": [
+      {
+        "class_id": 0,
+        "score": 0.9339826107025146,
+        "bbox_xyxy": [
+          117.16326904296875,
+          17.9722900390625,
+          530.2242431640625,
+          640.0
+        ]
+      }
+    ]
+  },
+  {
+    "id": "iotkits_valid_00295",
+    "image_id": 408,
+    "group_id": "globalcc_d7c8d61959b7e878004d",
+    "source": "iotkits_v1",
+    "truth": [],
+    "predictions": []
+  },
+  {
+    "id": "iotkits_valid_00303",
+    "image_id": 409,
+    "group_id": "globalcc_5e4fe18538324c60952a",
+    "source": "iotkits_v1",
+    "truth": [
+      {
+        "class_id": 0,
+        "bbox_xyxy": [
+          98.0,
+          22.0,
+          502.0,
+          631.0
+        ]
+      }
+    ],
+    "predictions": [
+      {
+        "class_id": 0,
+        "score": 0.8662388920783997,
+        "bbox_xyxy": [
+          106.79505920410156,
+          16.94915771484375,
+          507.6990966796875,
+          637.5543212890625
+        ]
+      }
+    ]
+  },
+  {
+    "id": "iotkits_valid_00316",
+    "image_id": 410,
+    "group_id": "globalcc_944081836128250fd99d",
+    "source": "iotkits_v1",
+    "truth": [],
+    "predictions": []
+  },
+  {
+    "id": "iotkits_valid_00332",
+    "image_id": 411,
+    "group_id": "globalcc_cb4da519d203c82ef8a9",
+    "source": "iotkits_v1",
+    "truth": [],
+    "predictions": []
+  },
+  {
+    "id": "iotkits_valid_00337",
+    "image_id": 412,
+    "group_id": "globalcc_2683f7a706ab3c8a254c",
+    "source": "iotkits_v1",
+    "truth": [],
+    "predictions": []
+  },
+  {
+    "id": "iotkits_valid_00341",
+    "image_id": 413,
+    "group_id": "globalcc_12b0ce5dde8b79623abc",
+    "source": "iotkits_v1",
+    "truth": [
+      {
+        "class_id": 0,
+        "bbox_xyxy": [
+          91.0,
+          196.0,
+          541.0,
+          466.0
+        ]
+      }
+    ],
+    "predictions": [
+      {
+        "class_id": 0,
+        "score": 0.9005851149559021,
+        "bbox_xyxy": [
+          98.82733154296875,
+          195.55267333984375,
+          546.2652587890625,
+          468.899169921875
+        ]
+      }
+    ]
+  },
+  {
+    "id": "iotkits_valid_00343",
+    "image_id": 414,
+    "group_id": "globalcc_9ec38270b40cf167b1ac",
+    "source": "iotkits_v1",
+    "truth": [],
+    "predictions": []
+  },
+  {
+    "id": "iotkits_valid_00349",
+    "image_id": 415,
+    "group_id": "globalcc_38fee7619f3c43169f59",
+    "source": "iotkits_v1",
+    "truth": [],
+    "predictions": []
+  },
+  {
+    "id": "iotkits_valid_00360",
+    "image_id": 416,
+    "group_id": "globalcc_e6df529e204af4bc6707",
+    "source": "iotkits_v1",
+    "truth": [],
+    "predictions": [
+      {
+        "class_id": 0,
+        "score": 0.03420885279774666,
+        "bbox_xyxy": [
+          161.88499450683594,
+          222.1048583984375,
+          609.525634765625,
+          435.473388671875
+        ]
+      },
+      {
+        "class_id": 0,
+        "score": 0.03132341802120209,
+        "bbox_xyxy": [
+          367.202880859375,
+          227.6979522705078,
+          594.996826171875,
+          433.33001708984375
+        ]
+      },
+      {
+        "class_id": 0,
+        "score": 0.008076189085841179,
+        "bbox_xyxy": [
+          0.0,
+          212.724365234375,
+          344.56817626953125,
+          443.39178466796875
+        ]
+      },
+      {
+        "class_id": 0,
+        "score": 0.0028459865134209394,
+        "bbox_xyxy": [
+          0.0,
+          208.6514892578125,
+          335.9985656738281,
+          640.0
+        ]
+      }
+    ]
+  },
+  {
+    "id": "iotkits_valid_00361",
+    "image_id": 417,
+    "group_id": "globalcc_9204c2f65a889eeef52f",
+    "source": "iotkits_v1",
+    "truth": [],
+    "predictions": []
+  },
+  {
+    "id": "iotkits_valid_00370",
+    "image_id": 418,
+    "group_id": "globalcc_e2e70f213252aca57675",
+    "source": "iotkits_v1",
+    "truth": [
+      {
+        "class_id": 0,
+        "bbox_xyxy": [
+          0.0,
+          120.0,
+          618.0,
+          515.0
+        ]
+      }
+    ],
+    "predictions": [
+      {
+        "class_id": 0,
+        "score": 0.9506417512893677,
+        "bbox_xyxy": [
+          4.8603515625,
+          128.87203979492188,
+          614.8294677734375,
+          510.4313659667969
+        ]
+      }
+    ]
+  },
+  {
+    "id": "iotkits_valid_00376",
+    "image_id": 419,
+    "group_id": "globalcc_14d6882bcd9d11e42f75",
+    "source": "iotkits_v1",
+    "truth": [],
+    "predictions": []
+  },
+  {
+    "id": "iotkits_valid_00384",
+    "image_id": 420,
+    "group_id": "globalcc_79a8c5cdc5f65a4a084b",
+    "source": "iotkits_v1",
+    "truth": [],
+    "predictions": [
+      {
+        "class_id": 0,
+        "score": 0.002732229186221957,
+        "bbox_xyxy": [
+          101.15362548828125,
+          158.49310302734375,
+          640.0,
+          640.0
+        ]
+      }
+    ]
+  },
+  {
+    "id": "iotkits_valid_00387",
+    "image_id": 421,
+    "group_id": "globalcc_9fb891dc2e3de5f22a90",
+    "source": "iotkits_v1",
+    "truth": [],
+    "predictions": [
+      {
+        "class_id": 0,
+        "score": 0.0025422328617423773,
+        "bbox_xyxy": [
+          0.0,
+          43.4649658203125,
+          358.6564025878906,
+          564.60498046875
+        ]
+      }
+    ]
+  },
+  {
+    "id": "iotkits_valid_00391",
+    "image_id": 422,
+    "group_id": "globalcc_5f7b033d261c76bd4bff",
+    "source": "iotkits_v1",
+    "truth": [],
+    "predictions": []
+  },
+  {
+    "id": "iotkits_valid_00394",
+    "image_id": 423,
+    "group_id": "globalcc_35b9bf21f0fd3f9e95d1",
+    "source": "iotkits_v1",
+    "truth": [],
+    "predictions": []
+  },
+  {
+    "id": "iotkits_valid_00397",
+    "image_id": 424,
+    "group_id": "globalcc_f08c342aa32b37790bf1",
+    "source": "iotkits_v1",
+    "truth": [],
+    "predictions": []
+  },
+  {
+    "id": "iotkits_valid_00410",
+    "image_id": 425,
+    "group_id": "globalcc_bb12961f290f1f26b616",
+    "source": "iotkits_v1",
+    "truth": [],
+    "predictions": [
+      {
+        "class_id": 0,
+        "score": 0.004747156985104084,
+        "bbox_xyxy": [
+          30.605209350585938,
+          64.4906005859375,
+          536.7156982421875,
+          599.78564453125
+        ]
+      }
+    ]
+  },
+  {
+    "id": "iotkits_valid_00419",
+    "image_id": 426,
+    "group_id": "globalcc_8be248bc40b9df41b8a5",
+    "source": "iotkits_v1",
+    "truth": [],
+    "predictions": []
+  },
+  {
+    "id": "iotkits_valid_00427",
+    "image_id": 427,
+    "group_id": "globalcc_1a6b7cb57331bd798a85",
+    "source": "iotkits_v1",
+    "truth": [
+      {
+        "class_id": 0,
+        "bbox_xyxy": [
+          0.0,
+          82.0,
+          521.0,
+          563.0
+        ]
+      }
+    ],
+    "predictions": [
+      {
+        "class_id": 0,
+        "score": 0.9087643027305603,
+        "bbox_xyxy": [
+          4.9447021484375,
+          89.5369873046875,
+          521.7313232421875,
+          568.6799926757812
+        ]
+      }
+    ]
+  },
+  {
+    "id": "iotkits_valid_00435",
+    "image_id": 428,
+    "group_id": "globalcc_0c7ea4987eabb270a121",
+    "source": "iotkits_v1",
+    "truth": [
+      {
+        "class_id": 0,
+        "bbox_xyxy": [
+          100.0,
+          49.0,
+          556.0,
+          590.0
+        ]
+      }
+    ],
+    "predictions": [
+      {
+        "class_id": 0,
+        "score": 0.8920242786407471,
+        "bbox_xyxy": [
+          106.53509521484375,
+          38.77264404296875,
+          561.49169921875,
+          594.6854248046875
+        ]
+      }
+    ]
+  },
+  {
+    "id": "iotkits_valid_00437",
+    "image_id": 429,
+    "group_id": "globalcc_d1c28e93070431e0d4c1",
+    "source": "iotkits_v1",
+    "truth": [
+      {
+        "class_id": 0,
+        "bbox_xyxy": [
+          102.0,
+          65.0,
+          538.0,
+          573.0
+        ]
+      }
+    ],
+    "predictions": [
+      {
+        "class_id": 0,
+        "score": 0.9164482951164246,
+        "bbox_xyxy": [
+          111.23619079589844,
+          59.625244140625,
+          543.393310546875,
+          570.77197265625
+        ]
+      }
+    ]
+  },
+  {
+    "id": "iotkits_valid_00441",
+    "image_id": 430,
+    "group_id": "globalcc_3fbf955da3be3ba62fa0",
+    "source": "iotkits_v1",
+    "truth": [],
+    "predictions": []
+  },
+  {
+    "id": "iotkits_valid_00446",
+    "image_id": 431,
+    "group_id": "globalcc_2c02d9db35cf7fb5b630",
+    "source": "iotkits_v1",
+    "truth": [
+      {
+        "class_id": 0,
+        "bbox_xyxy": [
+          67.0,
+          23.0,
+          571.0,
+          591.0
+        ]
+      }
+    ],
+    "predictions": [
+      {
+        "class_id": 0,
+        "score": 0.9256698489189148,
+        "bbox_xyxy": [
+          74.80291748046875,
+          32.990478515625,
+          569.10693359375,
+          597.9793701171875
+        ]
+      }
+    ]
+  },
+  {
+    "id": "iotkits_valid_00447",
+    "image_id": 432,
+    "group_id": "globalcc_6a63aec7baeca463434e",
+    "source": "iotkits_v1",
+    "truth": [],
+    "predictions": []
+  },
+  {
+    "id": "iotkits_valid_00455",
+    "image_id": 433,
+    "group_id": "globalcc_f948750cb2ed081091da",
+    "source": "iotkits_v1",
+    "truth": [],
+    "predictions": [
+      {
+        "class_id": 0,
+        "score": 0.0018004811136052012,
+        "bbox_xyxy": [
+          50.240478515625,
+          127.8746337890625,
+          603.383544921875,
+          515.86865234375
+        ]
+      }
+    ]
+  },
+  {
+    "id": "iotkits_valid_00461",
+    "image_id": 434,
+    "group_id": "globalcc_3cc72c18b70b443ef124",
+    "source": "iotkits_v1",
+    "truth": [],
+    "predictions": []
+  },
+  {
+    "id": "iotkits_valid_00468",
+    "image_id": 435,
+    "group_id": "globalcc_a216251969c125579805",
+    "source": "iotkits_v1",
+    "truth": [],
+    "predictions": [
+      {
+        "class_id": 0,
+        "score": 0.002683137310668826,
+        "bbox_xyxy": [
+          0.0,
+          180.64523315429688,
+          613.8060302734375,
+          443.8572082519531
+        ]
+      },
+      {
+        "class_id": 0,
+        "score": 0.00136868457775563,
+        "bbox_xyxy": [
+          277.27215576171875,
+          191.9884033203125,
+          628.5029296875,
+          441.58526611328125
+        ]
+      }
+    ]
+  },
+  {
+    "id": "iotkits_valid_00470",
+    "image_id": 436,
+    "group_id": "globalcc_4eabd13664ef7e541d51",
+    "source": "iotkits_v1",
+    "truth": [
+      {
+        "class_id": 0,
+        "bbox_xyxy": [
+          131.0,
+          0.0,
+          584.0,
+          626.0
+        ]
+      }
+    ],
+    "predictions": [
+      {
+        "class_id": 0,
+        "score": 0.9192629456520081,
+        "bbox_xyxy": [
+          131.91575622558594,
+          21.5025634765625,
+          589.079833984375,
+          616.997314453125
+        ]
+      }
+    ]
+  },
+  {
+    "id": "iotkits_valid_00485",
+    "image_id": 437,
+    "group_id": "globalcc_3bcc904b0574ed98af28",
+    "source": "iotkits_v1",
+    "truth": [],
+    "predictions": []
+  },
+  {
+    "id": "iotkits_valid_00498",
+    "image_id": 438,
+    "group_id": "globalcc_1b90042490074f1a245e",
+    "source": "iotkits_v1",
+    "truth": [],
+    "predictions": []
+  },
+  {
+    "id": "iotkits_valid_00507",
+    "image_id": 439,
+    "group_id": "globalcc_baaa1a2f5f403f8c55a5",
+    "source": "iotkits_v1",
+    "truth": [
+      {
+        "class_id": 0,
+        "bbox_xyxy": [
+          16.0,
+          74.0,
+          639.0,
+          627.0
+        ]
+      }
+    ],
+    "predictions": [
+      {
+        "class_id": 0,
+        "score": 0.9135220646858215,
+        "bbox_xyxy": [
+          2.9654541015625,
+          67.94329833984375,
+          640.0,
+          634.8311767578125
+        ]
+      },
+      {
+        "class_id": 0,
+        "score": 0.0010605878196656704,
+        "bbox_xyxy": [
+          19.83868408203125,
+          77.98956298828125,
+          244.70794677734375,
+          382.15753173828125
+        ]
+      }
+    ]
+  },
+  {
+    "id": "iotkits_valid_00508",
+    "image_id": 440,
+    "group_id": "globalcc_b7916058586d9b3860b9",
+    "source": "iotkits_v1",
+    "truth": [
+      {
+        "class_id": 0,
+        "bbox_xyxy": [
+          104.0,
+          64.0,
+          554.0,
+          594.0
+        ]
+      }
+    ],
+    "predictions": [
+      {
+        "class_id": 0,
+        "score": 0.9139055013656616,
+        "bbox_xyxy": [
+          112.66972351074219,
+          65.638427734375,
+          546.3623657226562,
+          589.334716796875
+        ]
+      }
+    ]
+  },
+  {
+    "id": "iotkits_valid_00518",
+    "image_id": 441,
+    "group_id": "globalcc_fbc00e31eeedd944979e",
+    "source": "iotkits_v1",
+    "truth": [],
+    "predictions": []
+  },
+  {
+    "id": "iotkits_valid_00534",
+    "image_id": 442,
+    "group_id": "globalcc_60e4878b9b3022e1f7e9",
+    "source": "iotkits_v1",
+    "truth": [
+      {
+        "class_id": 0,
+        "bbox_xyxy": [
+          92.0,
+          55.0,
+          556.0,
+          582.0
+        ]
+      }
+    ],
+    "predictions": [
+      {
+        "class_id": 0,
+        "score": 0.9030664563179016,
+        "bbox_xyxy": [
+          87.15338134765625,
+          53.32989501953125,
+          552.8868408203125,
+          593.8248291015625
+        ]
+      }
+    ]
+  },
+  {
+    "id": "iotkits_valid_00536",
+    "image_id": 443,
+    "group_id": "globalcc_6ca6676bd95172eb61de",
+    "source": "iotkits_v1",
+    "truth": [
+      {
+        "class_id": 0,
+        "bbox_xyxy": [
+          31.0,
+          84.0,
+          633.0,
+          494.0
+        ]
+      }
+    ],
+    "predictions": [
+      {
+        "class_id": 0,
+        "score": 0.9390535950660706,
+        "bbox_xyxy": [
+          26.4844970703125,
+          87.61761474609375,
+          637.9542236328125,
+          495.5064697265625
+        ]
+      }
+    ]
+  },
+  {
+    "id": "iotkits_valid_00541",
+    "image_id": 444,
+    "group_id": "globalcc_da28545ec51a0d6dae77",
+    "source": "iotkits_v1",
+    "truth": [
+      {
+        "class_id": 0,
+        "bbox_xyxy": [
+          32.0,
+          15.0,
+          565.0,
+          639.0
+        ]
+      }
+    ],
+    "predictions": [
+      {
+        "class_id": 0,
+        "score": 0.907036542892456,
+        "bbox_xyxy": [
+          46.9339599609375,
+          17.59698486328125,
+          565.03173828125,
+          639.2727661132812
+        ]
+      }
+    ]
+  },
+  {
+    "id": "iotkits_valid_00548",
+    "image_id": 445,
+    "group_id": "globalcc_5e4fe18538324c60952a",
+    "source": "iotkits_v1",
+    "truth": [
+      {
+        "class_id": 0,
+        "bbox_xyxy": [
+          150.0,
+          3.0,
+          540.0,
+          639.0
+        ]
+      }
+    ],
+    "predictions": [
+      {
+        "class_id": 0,
+        "score": 0.9379119873046875,
+        "bbox_xyxy": [
+          143.50299072265625,
+          18.59381103515625,
+          530.46337890625,
+          640.0
+        ]
+      }
+    ]
+  },
+  {
+    "id": "iotkits_valid_00555",
+    "image_id": 446,
+    "group_id": "globalcc_0633494a8c5dd8998e5a",
+    "source": "iotkits_v1",
+    "truth": [],
+    "predictions": [
+      {
+        "class_id": 0,
+        "score": 0.007902463898062706,
+        "bbox_xyxy": [
+          63.6380615234375,
+          15.76123046875,
+          574.1323852539062,
+          637.9764404296875
+        ]
+      }
+    ]
+  },
+  {
+    "id": "iotkits_valid_00558",
+    "image_id": 447,
+    "group_id": "globalcc_ced4b9cd3f0feb98ddde",
+    "source": "iotkits_v1",
+    "truth": [
+      {
+        "class_id": 0,
+        "bbox_xyxy": [
+          15.0,
+          86.0,
+          608.0,
+          557.0
+        ]
+      }
+    ],
+    "predictions": [
+      {
+        "class_id": 0,
+        "score": 0.8836401700973511,
+        "bbox_xyxy": [
+          13.3948974609375,
+          98.29624938964844,
+          607.5152587890625,
+          558.2274169921875
+        ]
+      }
+    ]
+  },
+  {
+    "id": "iotkits_valid_00559",
+    "image_id": 448,
+    "group_id": "globalcc_1b90042490074f1a245e",
+    "source": "iotkits_v1",
+    "truth": [],
+    "predictions": []
+  },
+  {
+    "id": "iotkits_valid_00560",
+    "image_id": 449,
+    "group_id": "globalcc_d47ca557c3df4f08bb67",
+    "source": "iotkits_v1",
+    "truth": [
+      {
+        "class_id": 0,
+        "bbox_xyxy": [
+          106.0,
+          170.0,
+          555.0,
+          459.0
+        ]
+      }
+    ],
+    "predictions": [
+      {
+        "class_id": 0,
+        "score": 0.9240425825119019,
+        "bbox_xyxy": [
+          107.28521728515625,
+          165.173828125,
+          558.6701049804688,
+          456.33306884765625
+        ]
+      }
+    ]
+  },
+  {
+    "id": "iotkits_valid_00561",
+    "image_id": 450,
+    "group_id": "globalcc_b8b0974245b89cc9eea8",
+    "source": "iotkits_v1",
+    "truth": [
+      {
+        "class_id": 0,
+        "bbox_xyxy": [
+          91.0,
+          54.0,
+          554.0,
+          586.0
+        ]
+      }
+    ],
+    "predictions": [
+      {
+        "class_id": 0,
+        "score": 0.9186155796051025,
+        "bbox_xyxy": [
+          102.42222595214844,
+          48.920166015625,
+          549.3370361328125,
+          594.0831298828125
+        ]
+      }
+    ]
+  },
+  {
+    "id": "iotkits_valid_00565",
+    "image_id": 451,
+    "group_id": "globalcc_cb4da519d203c82ef8a9",
+    "source": "iotkits_v1",
+    "truth": [],
+    "predictions": [
+      {
+        "class_id": 0,
+        "score": 0.0017736912705004215,
+        "bbox_xyxy": [
+          7.04437255859375,
+          335.61260986328125,
+          562.8087158203125,
+          586.343505859375
+        ]
+      }
+    ]
+  },
+  {
+    "id": "iotkits_valid_00570",
+    "image_id": 452,
+    "group_id": "globalcc_35623f05e1e7ed451648",
+    "source": "iotkits_v1",
+    "truth": [
+      {
+        "class_id": 0,
+        "bbox_xyxy": [
+          16.0,
+          0.0,
+          639.0,
+          562.0
+        ]
+      }
+    ],
+    "predictions": [
+      {
+        "class_id": 0,
+        "score": 0.8568856716156006,
+        "bbox_xyxy": [
+          26.86688232421875,
+          14.404296875,
+          639.02294921875,
+          563.1297607421875
+        ]
+      }
+    ]
+  },
+  {
+    "id": "iotkits_valid_00586",
+    "image_id": 453,
+    "group_id": "globalcc_9de5e50cded802733fd0",
+    "source": "iotkits_v1",
+    "truth": [
+      {
+        "class_id": 0,
+        "bbox_xyxy": [
+          6.0,
+          82.0,
+          639.0,
+          605.0
+        ]
+      }
+    ],
+    "predictions": [
+      {
+        "class_id": 0,
+        "score": 0.8714872002601624,
+        "bbox_xyxy": [
+          2.76226806640625,
+          83.623291015625,
+          640.0,
+          594.4370727539062
+        ]
+      }
+    ]
+  },
+  {
+    "id": "iotkits_valid_00587",
+    "image_id": 454,
+    "group_id": "globalcc_38fee7619f3c43169f59",
+    "source": "iotkits_v1",
+    "truth": [],
+    "predictions": []
+  },
+  {
+    "id": "iotkits_valid_00597",
+    "image_id": 455,
+    "group_id": "globalcc_396221bae28521a4a0c4",
+    "source": "iotkits_v1",
+    "truth": [],
+    "predictions": [
+      {
+        "class_id": 0,
+        "score": 0.00187547761015594,
+        "bbox_xyxy": [
+          0.0,
+          1.574462890625,
+          636.4103393554688,
+          504.7637634277344
+        ]
+      }
+    ]
+  },
+  {
+    "id": "iotkits_valid_00607",
+    "image_id": 456,
+    "group_id": "globalcc_7cc6a3b487ea282aeae9",
+    "source": "iotkits_v1",
+    "truth": [],
+    "predictions": []
+  }
+]

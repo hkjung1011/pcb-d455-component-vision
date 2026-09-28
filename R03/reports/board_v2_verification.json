@@ -1,0 +1,21 @@
+{
+  "status": "PASS_STRUCTURAL_AND_NATIVE_GEOMETRY_BINDING",
+  "detect_images": 5970,
+  "segment_images": 3094,
+  "actual_materialized_sha256_verified": 9064,
+  "labels_exactly_match_native_geometry_normalization": true,
+  "remaining_cross_split_sha256_pairs": 0,
+  "remaining_cross_split_source_family_or_phash_edges": 0,
+  "retained_edge_counts": {
+    "source_group": 3408,
+    "phash64_distance_lte_4": 8059
+  },
+  "micro_positive_codes": {
+    "G": 625,
+    "H": 625,
+    "M": 625
+  },
+  "same_global_assignment_for_detect_and_segment": true,
+  "annotation_scope": "Source provided geometry; reviewed per-code binary class override; sampling is not exhaustive per-image semantic review",
+  "not_accuracy_or_d455_validation": true
+}

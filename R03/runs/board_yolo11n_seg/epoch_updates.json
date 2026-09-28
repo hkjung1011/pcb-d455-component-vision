@@ -1,0 +1,147 @@
+[
+  {
+    "epoch": 1,
+    "optimizer_steps_min": 377.0,
+    "optimizer_steps_max": 403.0,
+    "learning_rates": [
+      0.0009981378026070764,
+      0.0009981378026070764,
+      0.0009981378026070764
+    ],
+    "metrics": {
+      "metrics/precision(B)": 0.56458,
+      "metrics/recall(B)": 0.58621,
+      "metrics/mAP50(B)": 0.52946,
+      "metrics/mAP50-95(B)": 0.24097,
+      "metrics/precision(M)": 0.53227,
+      "metrics/recall(M)": 0.60345,
+      "metrics/mAP50(M)": 0.53442,
+      "metrics/mAP50-95(M)": 0.22818,
+      "val/box_loss": 1.81182,
+      "val/seg_loss": 3.51132,
+      "val/cls_loss": 19.66903,
+      "val/dfl_loss": 2.93479,
+      "val/sem_loss": 0.0
+    }
+  },
+  {
+    "epoch": 2,
+    "optimizer_steps_min": 640.0,
+    "optimizer_steps_max": 671.0,
+    "learning_rates": [
+      0.0008020000000000001,
+      0.0008020000000000001,
+      0.0008020000000000001
+    ],
+    "metrics": {
+      "metrics/precision(B)": 0.60578,
+      "metrics/recall(B)": 0.69768,
+      "metrics/mAP50(B)": 0.68461,
+      "metrics/mAP50-95(B)": 0.47845,
+      "metrics/precision(M)": 0.59942,
+      "metrics/recall(M)": 0.70115,
+      "metrics/mAP50(M)": 0.68696,
+      "metrics/mAP50-95(M)": 0.5753,
+      "val/box_loss": 0.98979,
+      "val/seg_loss": 1.11086,
+      "val/cls_loss": 1.73102,
+      "val/dfl_loss": 1.82805,
+      "val/sem_loss": 0.0
+    }
+  },
+  {
+    "epoch": 3,
+    "optimizer_steps_min": 902.0,
+    "optimizer_steps_max": 940.0,
+    "learning_rates": [
+      0.000604,
+      0.000604,
+      0.000604
+    ],
+    "metrics": {
+      "metrics/precision(B)": 0.92585,
+      "metrics/recall(B)": 0.86108,
+      "metrics/mAP50(B)": 0.95152,
+      "metrics/mAP50-95(B)": 0.79691,
+      "metrics/precision(M)": 0.91967,
+      "metrics/recall(M)": 0.85533,
+      "metrics/mAP50(M)": 0.94235,
+      "metrics/mAP50-95(M)": 0.83033,
+      "val/box_loss": 0.60216,
+      "val/seg_loss": 0.89849,
+      "val/cls_loss": 0.89359,
+      "val/dfl_loss": 1.26315,
+      "val/sem_loss": 0.0
+    }
+  },
+  {
+    "epoch": 4,
+    "optimizer_steps_min": 1167.0,
+    "optimizer_steps_max": 1208.0,
+    "learning_rates": [
+      0.00040600000000000006,
+      0.00040600000000000006,
+      0.00040600000000000006
+    ],
+    "metrics": {
+      "metrics/precision(B)": 0.96436,
+      "metrics/recall(B)": 0.93297,
+      "metrics/mAP50(B)": 0.98295,
+      "metrics/mAP50-95(B)": 0.81254,
+      "metrics/precision(M)": 0.95837,
+      "metrics/recall(M)": 0.92613,
+      "metrics/mAP50(M)": 0.97887,
+      "metrics/mAP50-95(M)": 0.91085,
+      "val/box_loss": 0.61688,
+      "val/seg_loss": 0.73555,
+      "val/cls_loss": 0.69768,
+      "val/dfl_loss": 1.2665,
+      "val/sem_loss": 0.0
+    }
+  },
+  {
+    "epoch": 5,
+    "optimizer_steps_min": 1432.0,
+    "optimizer_steps_max": 1477.0,
+    "learning_rates": [
+      0.00020799999999999996,
+      0.00020799999999999996,
+      0.00020799999999999996
+    ],
+    "metrics": {
+      "metrics/precision(B)": 0.9882,
+      "metrics/recall(B)": 0.98851,
+      "metrics/mAP50(B)": 0.99466,
+      "metrics/mAP50-95(B)": 0.9142,
+      "metrics/precision(M)": 0.9882,
+      "metrics/recall(M)": 0.98851,
+      "metrics/mAP50(M)": 0.99466,
+      "metrics/mAP50-95(M)": 0.96706,
+      "val/box_loss": 0.38848,
+      "val/seg_loss": 0.64043,
+      "val/cls_loss": 0.37641,
+      "val/dfl_loss": 1.00709,
+      "val/sem_loss": 0.0
+    }
+  },
+  {
+    "epoch": 6,
+    "optimizer_steps_min": 1432.0,
+    "optimizer_steps_max": 1477.0,
+    "learning_rates": [
+      0.00020799999999999996,
+      0.00020799999999999996,
+      0.00020799999999999996
+    ],
+    "metrics": {
+      "metrics/precision(B)": 0.9882165437669415,
+      "metrics/recall(B)": 0.9885057471264368,
+      "metrics/mAP50(B)": 0.9946612976553874,
+      "metrics/mAP50-95(B)": 0.9142057100837926,
+      "metrics/precision(M)": 0.9882165437669415,
+      "metrics/recall(M)": 0.9885057471264368,
+      "metrics/mAP50(M)": 0.9946612976553874,
+      "metrics/mAP50-95(M)": 0.9670641524149254
+    }
+  }
+]

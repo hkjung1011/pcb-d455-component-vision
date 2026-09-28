@@ -1,0 +1,14 @@
+{
+  "model_id": "parts_yolo11n",
+  "status": "TRAINED_OFFLINE_NOT_D455_VALIDATED",
+  "requested_epochs": 20,
+  "last_epoch": 20,
+  "actual_optimizer_steps": 1164.0,
+  "weights_changed": true,
+  "best_path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\runs\\parts_yolo11n\\fit\\weights\\best.pt",
+  "best_sha256": "37a4d6abca501c37f451b9ea41c223a6ed4c58d9d2021a3e0a0b8d6d642b82c8",
+  "peak_cuda_allocated_bytes": 1518690816,
+  "test_evaluated": false,
+  "scope": "WACV native four-component boxes; all Raspberry Pi 3B images held out; not D455 validated",
+  "camera_verified": false
+}

@@ -1,0 +1,1 @@
+CPU self-tests passed: 9 checks; no inference, model loading, torch import, or output writes.

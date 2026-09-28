@@ -1,0 +1,10 @@
+{
+  "schema": "r03-model-dataset-v1",
+  "task": "segment",
+  "names": ["resistor", "capacitor", "ic", "connector"],
+  "training_eligible": false,
+  "eligibility_reason": "No independently reviewed D455 target4 instance masks have been acquired. Board masks and filled boxes are not substitutes.",
+  "source_weighting": "UNDECIDED_AFTER_LABEL_AUDIT",
+  "counts": {"train": {"images": 0, "instances": 0}, "val": {"images": 0, "instances": 0}, "test": {"images": 0, "instances": 0}},
+  "records": []
+}

@@ -1,0 +1,11 @@
+{
+  "source_title": "File:Raspberry Pi Zero W (20170828 194225).jpg",
+  "source_url": "https://commons.wikimedia.org/wiki/File:Raspberry_Pi_Zero_W_(20170828_194225).jpg",
+  "artist": "trekkyandy",
+  "credit": "https://www.flickr.com/photos/87054972@N00/36541049760/",
+  "original_license": "CC BY-SA 2.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+  "modification": "Added R03 model-predicted boxes and whole-board mask overlays. Predictions are not ground truth.",
+  "derivative_license": "Same as the original photo license; source attribution retained",
+  "quantitative_accuracy_measured": false
+}

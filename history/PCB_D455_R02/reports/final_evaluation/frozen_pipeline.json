@@ -1,0 +1,23 @@
+{
+  "frozen_utc": "2026-09-27T16:03:20.135422+00:00",
+  "scope": "PCBVision source3 semantic only; not target4 instance AP or D455",
+  "checkpoint_sha256": "85eb1ac6dbac87ffb04424f37730617d6a0e47be51124e7d9b95cc06882c8fc1",
+  "manifest_sha256": "733f17038222a89245d513f0fd4b9b474cfd07a29dbd438bef93cd32a0c64023",
+  "selected_pipeline": "whole",
+  "tile_size": null,
+  "confidence": 0.1,
+  "imgsz": 1024,
+  "retina_masks": false,
+  "selection_metric": "validation foreground mIoU",
+  "validation_scores": {
+    "whole": 0.46535120153965875,
+    "tile768": 0.22214180881152204
+  },
+  "predeclared_test_conditions": [
+    "native",
+    "half_resolution",
+    "blur"
+  ],
+  "semantic_merge_policy": "highest-confidence polygon owns pixel; no instance dedup in this semantic metric",
+  "test_used_for_selection": false
+}

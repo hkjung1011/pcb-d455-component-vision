@@ -1,0 +1,37 @@
+model_id: parts_yolo11n
+task: detect
+scope: WACV native four-component boxes; all Raspberry Pi 3B images held out; not D455 validated
+weights: models/yolo11n.pt
+data: component_assets/componentdetectdata.yaml
+manifest: component_assets/training_manifest.json
+run_dir: runs/parts_yolo11n
+train:
+  epochs: 20
+  patience: 0
+  imgsz: 1024
+  batch: 2
+  amp: false
+  nbs: 8
+  optimizer: AdamW
+  lr0: 0.001
+  lrf: 0.01
+  weight_decay: 0.0005
+  warmup_epochs: 2.0
+  warmup_bias_lr: 0.0
+  box: 7.5
+  cls: 0.5
+  dfl: 1.5
+  max_det: 1000
+  seed: 42
+  deterministic: true
+  mosaic: 0.0
+  mixup: 0.0
+  copy_paste: 0.0
+  scale: 0.2
+  translate: 0.05
+  degrees: 15.0
+  fliplr: 0.0
+  flipud: 0.0
+  hsv_h: 0.005
+  hsv_s: 0.15
+  hsv_v: 0.2

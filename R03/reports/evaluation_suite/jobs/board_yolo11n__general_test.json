@@ -1,0 +1,43 @@
+{
+  "status": "completed",
+  "started_utc": "2026-09-27T17:32:28.337814+00:00",
+  "binding": {
+    "model_id": "board_yolo11n",
+    "candidate_id": "best_whole",
+    "split": "test",
+    "cohort": null,
+    "task": "detect",
+    "simulation": null,
+    "checkpoint_sha256": "0bc7a0ef6aa5108728a2357e5c4b20189330f58366bf52b4251f3754b14707db",
+    "manifest_sha256": "e9788b91a7fdb5d2c1d859c654bab50721df48ab86d0d5d66fe171d3c743652a",
+    "evaluator_sha256": "a5d9ce1733128d7e89bdcf5ab76f4d3fa49f6d8a4418817d3d7b2e58037dc704",
+    "tile_size": 0,
+    "imgsz": 640,
+    "confidence": 0.4,
+    "bootstrap": 1000
+  },
+  "binding_sha256": "68341d3bc37cb1ef8fee09234d5914ce1954783a9dc84589d5488f6eaee7f40c",
+  "command": [
+    "C:\\Users\\hkjun\\Documents\\mcu-vision\\.venv-yolo11\\Scripts\\python.exe",
+    "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\scripts\\native_evaluate.py",
+    "--manifest",
+    "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\data\\board_detect_v2\\manifest.json",
+    "--weights",
+    "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\runs\\board_yolo11n\\fit\\weights\\best.pt",
+    "--output",
+    "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\reports\\evaluation_suite\\evaluations\\board_yolo11n__general_test",
+    "--split",
+    "test",
+    "--imgsz",
+    "640",
+    "--tile-size",
+    "0",
+    "--bootstrap",
+    "1000",
+    "--operating-conf",
+    "0.40000000000000002"
+  ],
+  "finished_utc": "2026-09-27T17:33:03.318473+00:00",
+  "return_code": 0,
+  "metrics_sha256": "e54798f868f27d27be5cee782ecbf9255b1d26f140126f70c5ed38689a90e4ae"
+}

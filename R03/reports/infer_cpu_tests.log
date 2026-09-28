@@ -1,0 +1,14 @@
+test_board_mask_png_restores_origin_hole_and_original_prediction_index (test_infer_rpi.InferenceGeometryTests.test_board_mask_png_restores_origin_hole_and_original_prediction_index) ... ok
+test_class_aware_torchvision_nms (test_infer_rpi.InferenceGeometryTests.test_class_aware_torchvision_nms) ... ok
+test_empty_roi_never_calls_component_model (test_infer_rpi.InferenceGeometryTests.test_empty_roi_never_calls_component_model) ... ok
+test_native_tiles_are_cropped_before_model_and_restored (test_infer_rpi.InferenceGeometryTests.test_native_tiles_are_cropped_before_model_and_restored) ... ok
+test_nonfinite_prediction_fails (test_infer_rpi.InferenceGeometryTests.test_nonfinite_prediction_fails) ... ok
+test_operating_threshold_is_after_prediction_and_nms (test_infer_rpi.InferenceGeometryTests.test_operating_threshold_is_after_prediction_and_nms) ... ok
+test_registry_whole_accepts_zero_tile_and_validates_hash (test_infer_rpi.InferenceGeometryTests.test_registry_whole_accepts_zero_tile_and_validates_hash) ... ok
+test_restore_clips_to_crop_and_translates_original (test_infer_rpi.InferenceGeometryTests.test_restore_clips_to_crop_and_translates_original) ... ok
+test_roi_margin_clips_to_frame_and_no_board_gives_no_roi (test_infer_rpi.InferenceGeometryTests.test_roi_margin_clips_to_frame_and_no_board_gives_no_roi) ... ok
+
+----------------------------------------------------------------------
+Ran 9 tests in 2.715s
+
+OK

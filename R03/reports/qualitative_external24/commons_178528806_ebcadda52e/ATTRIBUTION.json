@@ -1,0 +1,11 @@
+{
+  "source_title": "File:Raspberry PI Zero 2W TOP 02.jpg",
+  "source_url": "https://commons.wikimedia.org/wiki/File:Raspberry_PI_Zero_2W_TOP_02.jpg",
+  "artist": "Suyash Dwivedi",
+  "credit": "Own work",
+  "original_license": "CC BY-SA 4.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+  "modification": "Added R03 model-predicted boxes and whole-board mask overlays. Predictions are not ground truth.",
+  "derivative_license": "Same as the original photo license; source attribution retained",
+  "quantitative_accuracy_measured": false
+}

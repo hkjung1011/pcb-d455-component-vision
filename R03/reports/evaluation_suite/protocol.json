@@ -1,0 +1,326 @@
+{
+  "created_utc": "2026-09-27T17:28:40.395916+00:00",
+  "protocol_sha256": "e1126d8b7ff2f3386af8d8f2f2b2521569b83252362ecf0dba1029a90334308e",
+  "plan": {
+    "policy": {
+      "version": "r03-native-evaluation-suite-v1",
+      "selection": [
+        "validation bbox AP50-95 max100 descending",
+        "validation bbox AP50-95 max300 descending",
+        "validation offline latency p50 ascending",
+        "candidate ID ascending"
+      ],
+      "parts_candidates": [
+        "best whole",
+        "best tile1024",
+        "last whole",
+        "last tile1024"
+      ],
+      "board_candidates": [
+        "best whole640 only"
+      ],
+      "confidence": "Each validation candidate: box IoU>=0.5 micro-F1, confidence .05:.95 by .05; highest confidence wins F1 ties. Selected candidate's threshold is frozen for test.",
+      "test_policy": "All selected-model validation and all selection locks precede every test call. General test and Pi test never select checkpoints, thresholds, or pipelines.",
+      "bootstrap": "1000 source-group bootstrap resamples of fixed-threshold recall for general test; no Pi one-group CI. This is not an AP CI.",
+      "independence": "Pi3B is held out from this fine-tuning train/validation set. Its possible inclusion in any pretrained source is unknown. Public-source physical specimen independence is not established.",
+      "d455_verified": false,
+      "optional_pi_robustness": "Only with --pi-robustness: half-resolution downsample then original-size upsample, and Gaussian sigma1 separately. Same native GT and frozen selection; camera proxy simulation, not D455 evidence."
+    },
+    "evaluator": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\scripts\\native_evaluate.py",
+    "models": [
+      {
+        "model_id": "parts_yolo11n",
+        "task": "detect",
+        "manifest": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\component_assets\\native_manifest.json",
+        "run_dir": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\runs\\parts_yolo11n",
+        "imgsz": 1024,
+        "candidates": [
+          {
+            "candidate_id": "best_whole",
+            "checkpoint": "best",
+            "weights": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\runs\\parts_yolo11n\\fit\\weights\\best.pt",
+            "tile_size": 0
+          },
+          {
+            "candidate_id": "best_tile1024",
+            "checkpoint": "best",
+            "weights": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\runs\\parts_yolo11n\\fit\\weights\\best.pt",
+            "tile_size": 1024
+          },
+          {
+            "candidate_id": "last_whole",
+            "checkpoint": "last",
+            "weights": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\runs\\parts_yolo11n\\fit\\weights\\last.pt",
+            "tile_size": 0
+          },
+          {
+            "candidate_id": "last_tile1024",
+            "checkpoint": "last",
+            "weights": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\runs\\parts_yolo11n\\fit\\weights\\last.pt",
+            "tile_size": 1024
+          }
+        ],
+        "tests": [
+          {
+            "name": "general_test",
+            "split": "test",
+            "cohort": "test",
+            "bootstrap": 1000
+          },
+          {
+            "name": "pi_test",
+            "split": "test",
+            "cohort": "pi_test",
+            "bootstrap": 0
+          },
+          {
+            "name": "pi_test_half_resolution",
+            "split": "test",
+            "cohort": "pi_test",
+            "bootstrap": 0,
+            "simulation": "half_resolution",
+            "manifest": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\component_assets\\pi_simulations_v1\\half_resolution\\native_manifest.json"
+          },
+          {
+            "name": "pi_test_gaussian_sigma1",
+            "split": "test",
+            "cohort": "pi_test",
+            "bootstrap": 0,
+            "simulation": "gaussian_sigma1",
+            "manifest": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\component_assets\\pi_simulations_v1\\gaussian_sigma1\\native_manifest.json"
+          }
+        ]
+      },
+      {
+        "model_id": "parts_yolo11s",
+        "task": "detect",
+        "manifest": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\component_assets\\native_manifest.json",
+        "run_dir": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\runs\\parts_yolo11s",
+        "imgsz": 1024,
+        "candidates": [
+          {
+            "candidate_id": "best_whole",
+            "checkpoint": "best",
+            "weights": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\runs\\parts_yolo11s\\fit\\weights\\best.pt",
+            "tile_size": 0
+          },
+          {
+            "candidate_id": "best_tile1024",
+            "checkpoint": "best",
+            "weights": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\runs\\parts_yolo11s\\fit\\weights\\best.pt",
+            "tile_size": 1024
+          },
+          {
+            "candidate_id": "last_whole",
+            "checkpoint": "last",
+            "weights": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\runs\\parts_yolo11s\\fit\\weights\\last.pt",
+            "tile_size": 0
+          },
+          {
+            "candidate_id": "last_tile1024",
+            "checkpoint": "last",
+            "weights": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\runs\\parts_yolo11s\\fit\\weights\\last.pt",
+            "tile_size": 1024
+          }
+        ],
+        "tests": [
+          {
+            "name": "general_test",
+            "split": "test",
+            "cohort": "test",
+            "bootstrap": 1000
+          },
+          {
+            "name": "pi_test",
+            "split": "test",
+            "cohort": "pi_test",
+            "bootstrap": 0
+          },
+          {
+            "name": "pi_test_half_resolution",
+            "split": "test",
+            "cohort": "pi_test",
+            "bootstrap": 0,
+            "simulation": "half_resolution",
+            "manifest": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\component_assets\\pi_simulations_v1\\half_resolution\\native_manifest.json"
+          },
+          {
+            "name": "pi_test_gaussian_sigma1",
+            "split": "test",
+            "cohort": "pi_test",
+            "bootstrap": 0,
+            "simulation": "gaussian_sigma1",
+            "manifest": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\component_assets\\pi_simulations_v1\\gaussian_sigma1\\native_manifest.json"
+          }
+        ]
+      },
+      {
+        "model_id": "board_yolo11n",
+        "task": "detect",
+        "manifest": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\data\\board_detect_v2\\manifest.json",
+        "run_dir": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\runs\\board_yolo11n",
+        "imgsz": 640,
+        "candidates": [
+          {
+            "candidate_id": "best_whole",
+            "checkpoint": "best",
+            "weights": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\runs\\board_yolo11n\\fit\\weights\\best.pt",
+            "tile_size": 0
+          }
+        ],
+        "tests": [
+          {
+            "name": "general_test",
+            "split": "test",
+            "cohort": null,
+            "bootstrap": 1000
+          }
+        ]
+      },
+      {
+        "model_id": "board_yolo11n_seg",
+        "task": "segment",
+        "manifest": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\data\\board_segment_v2\\manifest.json",
+        "run_dir": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\runs\\board_yolo11n_seg",
+        "imgsz": 640,
+        "candidates": [
+          {
+            "candidate_id": "best_whole",
+            "checkpoint": "best",
+            "weights": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\runs\\board_yolo11n_seg\\fit\\weights\\best.pt",
+            "tile_size": 0
+          }
+        ],
+        "tests": [
+          {
+            "name": "general_test",
+            "split": "test",
+            "cohort": null,
+            "bootstrap": 1000
+          }
+        ]
+      }
+    ]
+  },
+  "evidence": {
+    "evaluator_sha256": "a5d9ce1733128d7e89bdcf5ab76f4d3fa49f6d8a4418817d3d7b2e58037dc704",
+    "models": {
+      "parts_yolo11n": {
+        "manifest_sha256": "4e34fd9dfe7c92952f1f7da4db700a797af249b10c19ad922171812ae954a9ca",
+        "run_summary_sha256": "c4bbf128f15a269004e4e312a45d9ac19492f87bfd16a48ea5496cf0e4ba8d89",
+        "names": [
+          "resistor",
+          "capacitor",
+          "ic",
+          "connector"
+        ],
+        "scope": "WACV source-provided target4 bounding boxes; RPI3B held out entirely; unknown labels not reclassified; not D455",
+        "annotation_limitations": {
+          "ground_truth": "WACV source-provided human target4 bounding boxes, not masks or full BOM truth",
+          "pi3b_unknown_source_objects": 67,
+          "unknown_policy": "Unknowns remain unknown; never inferred as resistor/capacitor/IC/connector",
+          "holdout_scope": "All RPI3B faces excluded from this fine-tuning train/validation only",
+          "pretrained_source_contamination": "UNKNOWN: cannot establish that public images were absent from every pretraining source",
+          "physical_specimen_independence": "NOT_VERIFIED; source filename board groups",
+          "d455_verified": false,
+          "redistribution_license": "No explicit license confirmed; local research assets only"
+        },
+        "checkpoints": {
+          "best_whole": "37a4d6abca501c37f451b9ea41c223a6ed4c58d9d2021a3e0a0b8d6d642b82c8",
+          "best_tile1024": "37a4d6abca501c37f451b9ea41c223a6ed4c58d9d2021a3e0a0b8d6d642b82c8",
+          "last_whole": "6e4983a8a8fc0bc749cfe113c125124ce329473d798a26ca1983292d3c4e7663",
+          "last_tile1024": "6e4983a8a8fc0bc749cfe113c125124ce329473d798a26ca1983292d3c4e7663"
+        }
+      },
+      "parts_yolo11s": {
+        "manifest_sha256": "4e34fd9dfe7c92952f1f7da4db700a797af249b10c19ad922171812ae954a9ca",
+        "run_summary_sha256": "e9d38d484741a592bf94ad2dcea88b7f6601df6f73255f038a860ad08073893b",
+        "names": [
+          "resistor",
+          "capacitor",
+          "ic",
+          "connector"
+        ],
+        "scope": "WACV source-provided target4 bounding boxes; RPI3B held out entirely; unknown labels not reclassified; not D455",
+        "annotation_limitations": {
+          "ground_truth": "WACV source-provided human target4 bounding boxes, not masks or full BOM truth",
+          "pi3b_unknown_source_objects": 67,
+          "unknown_policy": "Unknowns remain unknown; never inferred as resistor/capacitor/IC/connector",
+          "holdout_scope": "All RPI3B faces excluded from this fine-tuning train/validation only",
+          "pretrained_source_contamination": "UNKNOWN: cannot establish that public images were absent from every pretraining source",
+          "physical_specimen_independence": "NOT_VERIFIED; source filename board groups",
+          "d455_verified": false,
+          "redistribution_license": "No explicit license confirmed; local research assets only"
+        },
+        "checkpoints": {
+          "best_whole": "5f5914c256863d87129de1e6cf93ad7fdea700fc43c85339d599256f3d232d74",
+          "best_tile1024": "5f5914c256863d87129de1e6cf93ad7fdea700fc43c85339d599256f3d232d74",
+          "last_whole": "e05a0d3352ba622fb204ff24e898aa8d8f554d7fb3a061ecfee4e2bab2dbe1f3",
+          "last_tile1024": "e05a0d3352ba622fb204ff24e898aa8d8f554d7fb3a061ecfee4e2bab2dbe1f3"
+        }
+      },
+      "board_yolo11n": {
+        "manifest_sha256": "e9788b91a7fdb5d2c1d859c654bab50721df48ab86d0d5d66fe171d3c743652a",
+        "run_summary_sha256": "204ca342e95ab9a2fb4c614560d5aae03f66a1544b4784d3e2bf697061290ffb",
+        "names": [
+          "raspberry_pi_sbc"
+        ],
+        "scope": null,
+        "annotation_limitations": null,
+        "checkpoints": {
+          "best_whole": "0bc7a0ef6aa5108728a2357e5c4b20189330f58366bf52b4251f3754b14707db"
+        }
+      },
+      "board_yolo11n_seg": {
+        "manifest_sha256": "bdf4fbe18056c81f47f50754048e6610fcb19a2e7c37ba1be4f0d443d672c59f",
+        "run_summary_sha256": "755129ac0ce00df9ec56eb9596c1a62ae4f29fe36d695b6dd7532e5c2039fb27",
+        "names": [
+          "raspberry_pi_sbc"
+        ],
+        "scope": null,
+        "annotation_limitations": null,
+        "checkpoints": {
+          "best_whole": "e6dcdd38b43df1238b0781a5a9ad30b69c14a3bd2a2c84b2303e2f4ebff267a2"
+        }
+      }
+    },
+    "simulations": {
+      "half_resolution": {
+        "manifest": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\component_assets\\pi_simulations_v1\\half_resolution\\native_manifest.json",
+        "manifest_sha256": "1e41f827ea14f9ae2e2f7d2ecbda79d9da0a62aa6ffb50769cfde5ce5e6653e0",
+        "simulation": {
+          "kind": "half_resolution",
+          "camera_proxy_not_D455": true,
+          "canvas_size_preserved": true,
+          "native_gt_unchanged": true,
+          "source_manifest_sha256": "4e34fd9dfe7c92952f1f7da4db700a797af249b10c19ad922171812ae954a9ca",
+          "opencv_version": "5.0.0",
+          "description": "INTER_AREA to floor(W/2),floor(H/2), then INTER_LINEAR back to original W,H",
+          "selection_usage": "None: predeclared stress test only; frozen validation confidence/checkpoint/pipeline"
+        },
+        "image_sha256": {
+          "RPI3B_Bottom__half_resolution": "318166776623b6aa2bf209da7b24b4b6db60e9fc2101bc694e56e84d02cbb2e3",
+          "RPI3B_Top__half_resolution": "3a5fad04b6c3ef6bd5c1f6f90dac631d5debc895dfa9bdacfe6a9274259e901e"
+        }
+      },
+      "gaussian_sigma1": {
+        "manifest": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\component_assets\\pi_simulations_v1\\gaussian_sigma1\\native_manifest.json",
+        "manifest_sha256": "2c7b1aa1464b9dc803d13d80d45e2c29a2621ffc8f099dd12c7f4325642752ec",
+        "simulation": {
+          "kind": "gaussian_sigma1",
+          "camera_proxy_not_D455": true,
+          "canvas_size_preserved": true,
+          "native_gt_unchanged": true,
+          "source_manifest_sha256": "4e34fd9dfe7c92952f1f7da4db700a797af249b10c19ad922171812ae954a9ca",
+          "opencv_version": "5.0.0",
+          "description": "GaussianBlur ksize auto, sigmaX=sigmaY=1.0 native pixels, BORDER_REFLECT_101",
+          "selection_usage": "None: predeclared stress test only; frozen validation confidence/checkpoint/pipeline"
+        },
+        "image_sha256": {
+          "RPI3B_Bottom__gaussian_sigma1": "4f3be2d49b2704171d4f643ba3adf9dfcb1ec06e6d774e4422d360452bc228f6",
+          "RPI3B_Top__gaussian_sigma1": "439cfc9302b4109772fbc49e22344cd0ec5a97e799f7fc75bcffbb42c919eb10"
+        }
+      }
+    }
+  }
+}
