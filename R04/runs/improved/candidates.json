@@ -1,0 +1,72 @@
+[
+  {
+    "epoch": 2,
+    "optimizer_calls": 168,
+    "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04\\runs\\improved\\candidates\\epoch_02.pt",
+    "sha256": "9544126040581378b1d31a230b81dfe9e42fb4e34d339dc6f3b596283f6f94bb",
+    "partial_epoch": false
+  },
+  {
+    "epoch": 4,
+    "optimizer_calls": 280,
+    "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04\\runs\\improved\\candidates\\epoch_04.pt",
+    "sha256": "6c3eb358e9494d53886736dccabb0bd43a4031eab8181d37514bf4a3935b1825",
+    "partial_epoch": false
+  },
+  {
+    "epoch": 6,
+    "optimizer_calls": 392,
+    "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04\\runs\\improved\\candidates\\epoch_06.pt",
+    "sha256": "1012f3b96422eb6d15aa639b51fecce2924d3aa198d7e5f74f4c337ce8ee4231",
+    "partial_epoch": false
+  },
+  {
+    "epoch": 8,
+    "optimizer_calls": 504,
+    "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04\\runs\\improved\\candidates\\epoch_08.pt",
+    "sha256": "d3daed367032d34b00ee2ced753928b7b4f7c88b3e25c25f5a7f75ff874f06e2",
+    "partial_epoch": false
+  },
+  {
+    "epoch": 10,
+    "optimizer_calls": 616,
+    "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04\\runs\\improved\\candidates\\epoch_10.pt",
+    "sha256": "e3516ca73f98ea4d062e642c0f7fcd9c6d71d834cd62b31487c76c156558d74f",
+    "partial_epoch": false
+  },
+  {
+    "epoch": 12,
+    "optimizer_calls": 728,
+    "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04\\runs\\improved\\candidates\\epoch_12.pt",
+    "sha256": "994c2580688c4a8c4d45644b6d54fbc27cb50387b1f023cf3a5400a1e1f00e34",
+    "partial_epoch": false
+  },
+  {
+    "epoch": 14,
+    "optimizer_calls": 840,
+    "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04\\runs\\improved\\candidates\\epoch_14.pt",
+    "sha256": "b7d2f1da70427b539152f5a00ab8628c8db3377fd57bebb5b456913c1f7e3d3b",
+    "partial_epoch": false
+  },
+  {
+    "epoch": 16,
+    "optimizer_calls": 952,
+    "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04\\runs\\improved\\candidates\\epoch_16.pt",
+    "sha256": "79f01b40b9cc7412341e7da5561dc55fb3e3d5fbdfc39adc49aac5ba8dc4e34a",
+    "partial_epoch": false
+  },
+  {
+    "epoch": 18,
+    "optimizer_calls": 1064,
+    "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04\\runs\\improved\\candidates\\epoch_18.pt",
+    "sha256": "7d2ec74622a4ac8399b89176e634f2bb283b1b31e1cc82ca05e751bdd2d66c73",
+    "partial_epoch": false
+  },
+  {
+    "epoch": 20,
+    "optimizer_calls": 1165,
+    "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04\\runs\\improved\\candidates\\epoch_20.pt",
+    "sha256": "406ab7b0630e7c61546cfa8fc0585b03ee66bcf55b51c2a982373e3e06f166c1",
+    "partial_epoch": true
+  }
+]

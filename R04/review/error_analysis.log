@@ -1,0 +1,19 @@
+{
+  "status": "PASS_MATCH_PARITY_DIAGNOSTIC_ONLY",
+  "cohorts": {
+    "general_test": {
+      "both_found": 641,
+      "improved_only": 201,
+      "baseline_only": 52,
+      "both_missed": 454
+    },
+    "pi_test": {
+      "both_found": 99,
+      "improved_only": 47,
+      "baseline_only": 1,
+      "both_missed": 42
+    }
+  },
+  "pi_ic_connector_details": 28,
+  "count_parity_records": 4
+}

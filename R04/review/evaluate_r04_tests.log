@@ -1,0 +1,27 @@
+test_cache_empty_and_negative_images_full_result (__main__.EvaluationTests.test_cache_empty_and_negative_images_full_result) ... ok
+test_cache_exact_iou_tie_and_float_confidence_boundary (__main__.EvaluationTests.test_cache_exact_iou_tie_and_float_confidence_boundary) ... ok
+test_cache_randomized_all_class_per_image_parity (__main__.EvaluationTests.test_cache_randomized_all_class_per_image_parity) ... ok
+test_coco_empty_predictions (__main__.EvaluationTests.test_coco_empty_predictions) ... ok
+test_confidence_boundary_and_empty_pr (__main__.EvaluationTests.test_confidence_boundary_and_empty_pr) ... ok
+test_crop2048_is_translation_only (__main__.EvaluationTests.test_crop2048_is_translation_only) ... ok
+test_cross_table_and_one_to_one_matching (__main__.EvaluationTests.test_cross_table_and_one_to_one_matching) ... ok
+test_dense_ap100_vs_ap300 (__main__.EvaluationTests.test_dense_ap100_vs_ap300) ... ok
+test_dual_deduplicates_but_does_not_change_ground_truth (__main__.EvaluationTests.test_dual_deduplicates_but_does_not_change_ground_truth) ... ok
+test_edge_coverage_and_no_duplicate_bounds (__main__.EvaluationTests.test_edge_coverage_and_no_duplicate_bounds) ... ok
+test_ground_truth_conversion_is_immutable (__main__.EvaluationTests.test_ground_truth_conversion_is_immutable) ... ok
+test_invalid_finite_coordinates_rejected (__main__.EvaluationTests.test_invalid_finite_coordinates_rejected) ... ok
+test_nms_is_class_aware_and_empty_safe (__main__.EvaluationTests.test_nms_is_class_aware_and_empty_safe) ... ok
+test_one_group_ci_refused_and_general_ci_allowed (__main__.EvaluationTests.test_one_group_ci_refused_and_general_ci_allowed) ... ok
+test_test_requires_frozen_confidence (__main__.EvaluationTests.test_test_requires_frozen_confidence) ... usage: test_evaluate_r04.py [-h] --manifest MANIFEST --weights WEIGHTS
+                            --output OUTPUT --split {val,test}
+                            [--cohort COHORT] [--pipeline {native,dual}]
+                            [--operating-conf OPERATING_CONF]
+                            [--device DEVICE] [--bootstrap BOOTSTRAP]
+test_evaluate_r04.py: error: Test/development holdout requires confidence frozen on validation
+ok
+test_tiny_crop_and_clip (__main__.EvaluationTests.test_tiny_crop_and_clip) ... ok
+
+----------------------------------------------------------------------
+Ran 16 tests in 3.882s
+
+OK

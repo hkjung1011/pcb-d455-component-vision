@@ -1,0 +1,10 @@
+path: C:\Users\hkjun\Documents\Codex\2026-09-27\new-chat\work\r04\data\baseline
+train: images/train
+val: images/val
+names:
+- resistor
+- capacitor
+- ic
+- connector
+r04_ignore_sidecar: C:\Users\hkjun\Documents\Codex\2026-09-27\new-chat\work\r04\data\baseline\ignore_regions.json
+r04_views_manifest: C:\Users\hkjun\Documents\Codex\2026-09-27\new-chat\work\r04\data\baseline\views.json

@@ -1,0 +1,2615 @@
+{
+  "schema": "pcb-model-family-architecture-v1",
+  "generated_at_utc": "2026-09-28T12:54:56.809809+00:00",
+  "scope": "Read-only model family/architecture audit, CPU checkpoint deserialization only, no GPU or forward inference. R02/R03 architecture facts are taken from existing records.",
+  "architectures": {
+    "r04_yolo11s_target4": {
+      "model_type": "ultralytics.nn.tasks.DetectionModel",
+      "yaml_scale": "s",
+      "names": {
+        "0": "resistor",
+        "1": "capacitor",
+        "2": "ic",
+        "3": "connector"
+      },
+      "nc": 4,
+      "head_type": "ultralytics.nn.modules.head.Detect",
+      "head_from": [
+        16,
+        19,
+        22
+      ],
+      "head_stride": [
+        8.0,
+        16.0,
+        32.0
+      ],
+      "reg_max": 16,
+      "head_end2end": false,
+      "parameters": 9429340,
+      "top_level_layers": 24,
+      "nested_module_count": 320,
+      "loaded_checkpoint_requires_grad_parameters": 0,
+      "requires_grad_note": "EMA inference checkpoint flags are not the count of parameters trainable during training.",
+      "checkpoint_storage_dtypes": [
+        "torch.float16"
+      ],
+      "criterion_at_saved_checkpoint": null,
+      "all_model_module_types_standard": true,
+      "layers": [
+        {
+          "index": 0,
+          "from": -1,
+          "type": "ultralytics.nn.modules.conv.Conv",
+          "parameters": 928,
+          "stride_attribute": [
+            2,
+            2
+          ],
+          "stride_attribute_scope": "Conv local kernel stride",
+          "upsample_scale_factor": null
+        },
+        {
+          "index": 1,
+          "from": -1,
+          "type": "ultralytics.nn.modules.conv.Conv",
+          "parameters": 18560,
+          "stride_attribute": [
+            2,
+            2
+          ],
+          "stride_attribute_scope": "Conv local kernel stride",
+          "upsample_scale_factor": null
+        },
+        {
+          "index": 2,
+          "from": -1,
+          "type": "ultralytics.nn.modules.block.C3k2",
+          "parameters": 26080,
+          "stride_attribute": null,
+          "stride_attribute_scope": "Not exposed on this top-level module",
+          "upsample_scale_factor": null
+        },
+        {
+          "index": 3,
+          "from": -1,
+          "type": "ultralytics.nn.modules.conv.Conv",
+          "parameters": 147712,
+          "stride_attribute": [
+            2,
+            2
+          ],
+          "stride_attribute_scope": "Conv local kernel stride",
+          "upsample_scale_factor": null
+        },
+        {
+          "index": 4,
+          "from": -1,
+          "type": "ultralytics.nn.modules.block.C3k2",
+          "parameters": 103360,
+          "stride_attribute": null,
+          "stride_attribute_scope": "Not exposed on this top-level module",
+          "upsample_scale_factor": null
+        },
+        {
+          "index": 5,
+          "from": -1,
+          "type": "ultralytics.nn.modules.conv.Conv",
+          "parameters": 590336,
+          "stride_attribute": [
+            2,
+            2
+          ],
+          "stride_attribute_scope": "Conv local kernel stride",
+          "upsample_scale_factor": null
+        },
+        {
+          "index": 6,
+          "from": -1,
+          "type": "ultralytics.nn.modules.block.C3k2",
+          "parameters": 346112,
+          "stride_attribute": null,
+          "stride_attribute_scope": "Not exposed on this top-level module",
+          "upsample_scale_factor": null
+        },
+        {
+          "index": 7,
+          "from": -1,
+          "type": "ultralytics.nn.modules.conv.Conv",
+          "parameters": 1180672,
+          "stride_attribute": [
+            2,
+            2
+          ],
+          "stride_attribute_scope": "Conv local kernel stride",
+          "upsample_scale_factor": null
+        },
+        {
+          "index": 8,
+          "from": -1,
+          "type": "ultralytics.nn.modules.block.C3k2",
+          "parameters": 1380352,
+          "stride_attribute": null,
+          "stride_attribute_scope": "Not exposed on this top-level module",
+          "upsample_scale_factor": null
+        },
+        {
+          "index": 9,
+          "from": -1,
+          "type": "ultralytics.nn.modules.block.SPPF",
+          "parameters": 656896,
+          "stride_attribute": null,
+          "stride_attribute_scope": "Not exposed on this top-level module",
+          "upsample_scale_factor": null
+        },
+        {
+          "index": 10,
+          "from": -1,
+          "type": "ultralytics.nn.modules.block.C2PSA",
+          "parameters": 990976,
+          "stride_attribute": null,
+          "stride_attribute_scope": "Not exposed on this top-level module",
+          "upsample_scale_factor": null
+        },
+        {
+          "index": 11,
+          "from": -1,
+          "type": "torch.nn.modules.upsampling.Upsample",
+          "parameters": 0,
+          "stride_attribute": null,
+          "stride_attribute_scope": "Not exposed on this top-level module",
+          "upsample_scale_factor": 2.0
+        },
+        {
+          "index": 12,
+          "from": [
+            -1,
+            6
+          ],
+          "type": "ultralytics.nn.modules.conv.Concat",
+          "parameters": 0,
+          "stride_attribute": null,
+          "stride_attribute_scope": "Not exposed on this top-level module",
+          "upsample_scale_factor": null
+        },
+        {
+          "index": 13,
+          "from": -1,
+          "type": "ultralytics.nn.modules.block.C3k2",
+          "parameters": 443776,
+          "stride_attribute": null,
+          "stride_attribute_scope": "Not exposed on this top-level module",
+          "upsample_scale_factor": null
+        },
+        {
+          "index": 14,
+          "from": -1,
+          "type": "torch.nn.modules.upsampling.Upsample",
+          "parameters": 0,
+          "stride_attribute": null,
+          "stride_attribute_scope": "Not exposed on this top-level module",
+          "upsample_scale_factor": 2.0
+        },
+        {
+          "index": 15,
+          "from": [
+            -1,
+            4
+          ],
+          "type": "ultralytics.nn.modules.conv.Concat",
+          "parameters": 0,
+          "stride_attribute": null,
+          "stride_attribute_scope": "Not exposed on this top-level module",
+          "upsample_scale_factor": null
+        },
+        {
+          "index": 16,
+          "from": -1,
+          "type": "ultralytics.nn.modules.block.C3k2",
+          "parameters": 127680,
+          "stride_attribute": null,
+          "stride_attribute_scope": "Not exposed on this top-level module",
+          "upsample_scale_factor": null
+        },
+        {
+          "index": 17,
+          "from": -1,
+          "type": "ultralytics.nn.modules.conv.Conv",
+          "parameters": 147712,
+          "stride_attribute": [
+            2,
+            2
+          ],
+          "stride_attribute_scope": "Conv local kernel stride",
+          "upsample_scale_factor": null
+        },
+        {
+          "index": 18,
+          "from": [
+            -1,
+            13
+          ],
+          "type": "ultralytics.nn.modules.conv.Concat",
+          "parameters": 0,
+          "stride_attribute": null,
+          "stride_attribute_scope": "Not exposed on this top-level module",
+          "upsample_scale_factor": null
+        },
+        {
+          "index": 19,
+          "from": -1,
+          "type": "ultralytics.nn.modules.block.C3k2",
+          "parameters": 345472,
+          "stride_attribute": null,
+          "stride_attribute_scope": "Not exposed on this top-level module",
+          "upsample_scale_factor": null
+        },
+        {
+          "index": 20,
+          "from": -1,
+          "type": "ultralytics.nn.modules.conv.Conv",
+          "parameters": 590336,
+          "stride_attribute": [
+            2,
+            2
+          ],
+          "stride_attribute_scope": "Conv local kernel stride",
+          "upsample_scale_factor": null
+        },
+        {
+          "index": 21,
+          "from": [
+            -1,
+            10
+          ],
+          "type": "ultralytics.nn.modules.conv.Concat",
+          "parameters": 0,
+          "stride_attribute": null,
+          "stride_attribute_scope": "Not exposed on this top-level module",
+          "upsample_scale_factor": null
+        },
+        {
+          "index": 22,
+          "from": -1,
+          "type": "ultralytics.nn.modules.block.C3k2",
+          "parameters": 1511424,
+          "stride_attribute": null,
+          "stride_attribute_scope": "Not exposed on this top-level module",
+          "upsample_scale_factor": null
+        },
+        {
+          "index": 23,
+          "from": [
+            16,
+            19,
+            22
+          ],
+          "type": "ultralytics.nn.modules.head.Detect",
+          "parameters": 820956,
+          "stride_attribute": [
+            8.0,
+            16.0,
+            32.0
+          ],
+          "stride_attribute_scope": "Detect feature strides",
+          "upsample_scale_factor": null
+        }
+      ],
+      "yaml": {
+        "nc": 4,
+        "scales": {
+          "n": [
+            0.5,
+            0.25,
+            1024
+          ],
+          "s": [
+            0.5,
+            0.5,
+            1024
+          ],
+          "m": [
+            0.5,
+            1.0,
+            512
+          ],
+          "l": [
+            1.0,
+            1.0,
+            512
+          ],
+          "x": [
+            1.0,
+            1.5,
+            512
+          ]
+        },
+        "backbone": [
+          [
+            -1,
+            1,
+            "Conv",
+            [
+              64,
+              3,
+              2
+            ]
+          ],
+          [
+            -1,
+            1,
+            "Conv",
+            [
+              128,
+              3,
+              2
+            ]
+          ],
+          [
+            -1,
+            2,
+            "C3k2",
+            [
+              256,
+              false,
+              0.25
+            ]
+          ],
+          [
+            -1,
+            1,
+            "Conv",
+            [
+              256,
+              3,
+              2
+            ]
+          ],
+          [
+            -1,
+            2,
+            "C3k2",
+            [
+              512,
+              false,
+              0.25
+            ]
+          ],
+          [
+            -1,
+            1,
+            "Conv",
+            [
+              512,
+              3,
+              2
+            ]
+          ],
+          [
+            -1,
+            2,
+            "C3k2",
+            [
+              512,
+              true
+            ]
+          ],
+          [
+            -1,
+            1,
+            "Conv",
+            [
+              1024,
+              3,
+              2
+            ]
+          ],
+          [
+            -1,
+            2,
+            "C3k2",
+            [
+              1024,
+              true
+            ]
+          ],
+          [
+            -1,
+            1,
+            "SPPF",
+            [
+              1024,
+              5
+            ]
+          ],
+          [
+            -1,
+            2,
+            "C2PSA",
+            [
+              1024
+            ]
+          ]
+        ],
+        "head": [
+          [
+            -1,
+            1,
+            "nn.Upsample",
+            [
+              "None",
+              2,
+              "nearest"
+            ]
+          ],
+          [
+            [
+              -1,
+              6
+            ],
+            1,
+            "Concat",
+            [
+              1
+            ]
+          ],
+          [
+            -1,
+            2,
+            "C3k2",
+            [
+              512,
+              false
+            ]
+          ],
+          [
+            -1,
+            1,
+            "nn.Upsample",
+            [
+              "None",
+              2,
+              "nearest"
+            ]
+          ],
+          [
+            [
+              -1,
+              4
+            ],
+            1,
+            "Concat",
+            [
+              1
+            ]
+          ],
+          [
+            -1,
+            2,
+            "C3k2",
+            [
+              256,
+              false
+            ]
+          ],
+          [
+            -1,
+            1,
+            "Conv",
+            [
+              256,
+              3,
+              2
+            ]
+          ],
+          [
+            [
+              -1,
+              13
+            ],
+            1,
+            "Concat",
+            [
+              1
+            ]
+          ],
+          [
+            -1,
+            2,
+            "C3k2",
+            [
+              512,
+              false
+            ]
+          ],
+          [
+            -1,
+            1,
+            "Conv",
+            [
+              512,
+              3,
+              2
+            ]
+          ],
+          [
+            [
+              -1,
+              10
+            ],
+            1,
+            "Concat",
+            [
+              1
+            ]
+          ],
+          [
+            -1,
+            2,
+            "C3k2",
+            [
+              1024,
+              true
+            ]
+          ],
+          [
+            [
+              16,
+              19,
+              22
+            ],
+            1,
+            "Detect",
+            [
+              "nc"
+            ]
+          ]
+        ],
+        "scale": "s",
+        "yaml_file": "yolo11s.yaml",
+        "ch": 3,
+        "channels": 3
+      },
+      "inspection": {
+        "checkpoint": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04\\runs\\baseline\\candidates\\epoch_02.pt",
+        "sha256": "e540ad9d2d066aa485e96d9876dd34574c878c2209e27d1d4f73710256193e4a",
+        "epoch_completed": 2,
+        "checkpoint_role": "Architecture sample only; NOT final selected model",
+        "cpu_map_location": true,
+        "cuda_visible_devices": "-1",
+        "forward_calls": 0,
+        "new_inference_calls": 0,
+        "optimizer_steps": 0,
+        "checkpoint_unchanged": true
+      },
+      "top_level_layer_parameter_sum": 9429340,
+      "same_top_level_graph_as_stored_r03_parts_s": true
+    }
+  },
+  "models": [
+    {
+      "model_id": "r02_pcbvision_source3_semantic",
+      "revision": "R02",
+      "backbone_family_recorded": "YOLO11n-seg",
+      "parameters": null,
+      "parameter_count_status": "Not recorded in inspected R02 architecture documents; not inferred",
+      "task": "auxiliary source3 semantic evaluation with YOLO segmentation proxy training",
+      "classes": [
+        "IC",
+        "electrolytic_capacitor",
+        "connector_region"
+      ],
+      "source_gt": "PCBVision General semantic label map, 53 source RGB images",
+      "train_label_type": "Connected-component polygons derived from semantic labels; weak proxy, not verified physical instances",
+      "train_instances_proxy": 1584,
+      "input": {
+        "channels": 3,
+        "color": "RGB",
+        "imgsz": 1024,
+        "selected_pipeline_recorded": "whole image"
+      },
+      "output": "Segment predictions restored to native coordinates then confidence-priority foreground class map for semantic evaluation",
+      "reuse_scope": "Source3 semantic auxiliary experiment only; no resistor supervision and no general MLCC class; not interchangeable with target4",
+      "d455_verified": false,
+      "checkpoint_recorded": "pcbvision_source3_fp32_best.pt",
+      "checkpoint_sha256_recorded": "85eb1ac6dbac87ffb04424f37730617d6a0e47be51124e7d9b95cc06882c8fc1",
+      "sources": [
+        {
+          "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\outputs\\PCB_D455_R02_媛쒕컻寃곌낵.md",
+          "sha256": "032134aa3743e8df1398943d5ada2b341aa090db202dd5edfa8357f0616e37ac"
+        },
+        {
+          "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\outputs\\PCB_D455_R02\\models\\model_sources.json",
+          "sha256": "1fb4e1d8ef3e4f5af354044d8f952afada4eae7d831a5b86c93f854774793256"
+        }
+      ]
+    },
+    {
+      "model_id": "r03_board_yolo11n",
+      "revision": "R03",
+      "parameters": 2590035,
+      "task": "detect",
+      "classes": [
+        "raspberry_pi_sbc"
+      ],
+      "source_gt": "Board-level source bbox, corrected RPi mapping",
+      "input": {
+        "channels": 3,
+        "color": "RGB",
+        "imgsz": 640,
+        "selected_pipeline_recorded": "whole image"
+      },
+      "output": "Whole-board bbox,class,confidence",
+      "reuse_scope": "Optional coarse board region/outline module; does not predict component masks",
+      "d455_verified": false,
+      "stored_architecture": {
+        "model_id": "board_yolo11n",
+        "task": "detect",
+        "classes": [
+          "raspberry_pi_sbc"
+        ],
+        "parameters": 2590035,
+        "trainable_parameters": 2590019,
+        "layers": [
+          {
+            "index": 0,
+            "module": "ultralytics.nn.modules.conv.Conv",
+            "from": -1,
+            "parameters": 464
+          },
+          {
+            "index": 1,
+            "module": "ultralytics.nn.modules.conv.Conv",
+            "from": -1,
+            "parameters": 4672
+          },
+          {
+            "index": 2,
+            "module": "ultralytics.nn.modules.block.C3k2",
+            "from": -1,
+            "parameters": 6640
+          },
+          {
+            "index": 3,
+            "module": "ultralytics.nn.modules.conv.Conv",
+            "from": -1,
+            "parameters": 36992
+          },
+          {
+            "index": 4,
+            "module": "ultralytics.nn.modules.block.C3k2",
+            "from": -1,
+            "parameters": 26080
+          },
+          {
+            "index": 5,
+            "module": "ultralytics.nn.modules.conv.Conv",
+            "from": -1,
+            "parameters": 147712
+          },
+          {
+            "index": 6,
+            "module": "ultralytics.nn.modules.block.C3k2",
+            "from": -1,
+            "parameters": 87040
+          },
+          {
+            "index": 7,
+            "module": "ultralytics.nn.modules.conv.Conv",
+            "from": -1,
+            "parameters": 295424
+          },
+          {
+            "index": 8,
+            "module": "ultralytics.nn.modules.block.C3k2",
+            "from": -1,
+            "parameters": 346112
+          },
+          {
+            "index": 9,
+            "module": "ultralytics.nn.modules.block.SPPF",
+            "from": -1,
+            "parameters": 164608
+          },
+          {
+            "index": 10,
+            "module": "ultralytics.nn.modules.block.C2PSA",
+            "from": -1,
+            "parameters": 249728
+          },
+          {
+            "index": 11,
+            "module": "torch.nn.modules.upsampling.Upsample",
+            "from": -1,
+            "parameters": 0
+          },
+          {
+            "index": 12,
+            "module": "ultralytics.nn.modules.conv.Concat",
+            "from": [
+              -1,
+              6
+            ],
+            "parameters": 0
+          },
+          {
+            "index": 13,
+            "module": "ultralytics.nn.modules.block.C3k2",
+            "from": -1,
+            "parameters": 111296
+          },
+          {
+            "index": 14,
+            "module": "torch.nn.modules.upsampling.Upsample",
+            "from": -1,
+            "parameters": 0
+          },
+          {
+            "index": 15,
+            "module": "ultralytics.nn.modules.conv.Concat",
+            "from": [
+              -1,
+              4
+            ],
+            "parameters": 0
+          },
+          {
+            "index": 16,
+            "module": "ultralytics.nn.modules.block.C3k2",
+            "from": -1,
+            "parameters": 32096
+          },
+          {
+            "index": 17,
+            "module": "ultralytics.nn.modules.conv.Conv",
+            "from": -1,
+            "parameters": 36992
+          },
+          {
+            "index": 18,
+            "module": "ultralytics.nn.modules.conv.Concat",
+            "from": [
+              -1,
+              13
+            ],
+            "parameters": 0
+          },
+          {
+            "index": 19,
+            "module": "ultralytics.nn.modules.block.C3k2",
+            "from": -1,
+            "parameters": 86720
+          },
+          {
+            "index": 20,
+            "module": "ultralytics.nn.modules.conv.Conv",
+            "from": -1,
+            "parameters": 147712
+          },
+          {
+            "index": 21,
+            "module": "ultralytics.nn.modules.conv.Concat",
+            "from": [
+              -1,
+              10
+            ],
+            "parameters": 0
+          },
+          {
+            "index": 22,
+            "module": "ultralytics.nn.modules.block.C3k2",
+            "from": -1,
+            "parameters": 378880
+          },
+          {
+            "index": 23,
+            "module": "ultralytics.nn.modules.head.Detect",
+            "from": [
+              16,
+              19,
+              22
+            ],
+            "parameters": 430867
+          }
+        ],
+        "yaml": {
+          "nc": 1,
+          "scales": {
+            "n": [
+              0.5,
+              0.25,
+              1024
+            ],
+            "s": [
+              0.5,
+              0.5,
+              1024
+            ],
+            "m": [
+              0.5,
+              1.0,
+              512
+            ],
+            "l": [
+              1.0,
+              1.0,
+              512
+            ],
+            "x": [
+              1.0,
+              1.5,
+              512
+            ]
+          },
+          "backbone": [
+            [
+              -1,
+              1,
+              "Conv",
+              [
+                64,
+                3,
+                2
+              ]
+            ],
+            [
+              -1,
+              1,
+              "Conv",
+              [
+                128,
+                3,
+                2
+              ]
+            ],
+            [
+              -1,
+              2,
+              "C3k2",
+              [
+                256,
+                false,
+                0.25
+              ]
+            ],
+            [
+              -1,
+              1,
+              "Conv",
+              [
+                256,
+                3,
+                2
+              ]
+            ],
+            [
+              -1,
+              2,
+              "C3k2",
+              [
+                512,
+                false,
+                0.25
+              ]
+            ],
+            [
+              -1,
+              1,
+              "Conv",
+              [
+                512,
+                3,
+                2
+              ]
+            ],
+            [
+              -1,
+              2,
+              "C3k2",
+              [
+                512,
+                true
+              ]
+            ],
+            [
+              -1,
+              1,
+              "Conv",
+              [
+                1024,
+                3,
+                2
+              ]
+            ],
+            [
+              -1,
+              2,
+              "C3k2",
+              [
+                1024,
+                true
+              ]
+            ],
+            [
+              -1,
+              1,
+              "SPPF",
+              [
+                1024,
+                5
+              ]
+            ],
+            [
+              -1,
+              2,
+              "C2PSA",
+              [
+                1024
+              ]
+            ]
+          ],
+          "head": [
+            [
+              -1,
+              1,
+              "nn.Upsample",
+              [
+                "None",
+                2,
+                "nearest"
+              ]
+            ],
+            [
+              [
+                -1,
+                6
+              ],
+              1,
+              "Concat",
+              [
+                1
+              ]
+            ],
+            [
+              -1,
+              2,
+              "C3k2",
+              [
+                512,
+                false
+              ]
+            ],
+            [
+              -1,
+              1,
+              "nn.Upsample",
+              [
+                "None",
+                2,
+                "nearest"
+              ]
+            ],
+            [
+              [
+                -1,
+                4
+              ],
+              1,
+              "Concat",
+              [
+                1
+              ]
+            ],
+            [
+              -1,
+              2,
+              "C3k2",
+              [
+                256,
+                false
+              ]
+            ],
+            [
+              -1,
+              1,
+              "Conv",
+              [
+                256,
+                3,
+                2
+              ]
+            ],
+            [
+              [
+                -1,
+                13
+              ],
+              1,
+              "Concat",
+              [
+                1
+              ]
+            ],
+            [
+              -1,
+              2,
+              "C3k2",
+              [
+                512,
+                false
+              ]
+            ],
+            [
+              -1,
+              1,
+              "Conv",
+              [
+                512,
+                3,
+                2
+              ]
+            ],
+            [
+              [
+                -1,
+                10
+              ],
+              1,
+              "Concat",
+              [
+                1
+              ]
+            ],
+            [
+              -1,
+              2,
+              "C3k2",
+              [
+                1024,
+                true
+              ]
+            ],
+            [
+              [
+                16,
+                19,
+                22
+              ],
+              1,
+              "Detect",
+              [
+                "nc"
+              ]
+            ]
+          ],
+          "scale": "n",
+          "yaml_file": "yolo11n.yaml",
+          "ch": 3,
+          "channels": 3
+        }
+      },
+      "architecture_source": {
+        "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\runs\\board_yolo11n\\architecture.json",
+        "sha256": "09e7c42dabe7a18bc8ec2638d7dba53a92a5e0af1db3b9fe7b2674d6891ffc80"
+      },
+      "head_stride_regmax_record_status": "Not stored explicitly in original R03 architecture.json; do not claim separately checkpoint-inspected here"
+    },
+    {
+      "model_id": "r03_board_yolo11n_seg",
+      "revision": "R03",
+      "parameters": 2842803,
+      "task": "segment",
+      "classes": [
+        "raspberry_pi_sbc"
+      ],
+      "source_gt": "Native board outline polygons (IoTKITs)",
+      "input": {
+        "channels": 3,
+        "color": "RGB",
+        "imgsz": 640,
+        "selected_pipeline_recorded": "whole image"
+      },
+      "output": "Whole-board bbox and whole-board mask",
+      "reuse_scope": "Optional coarse board region/outline module; does not predict component masks",
+      "d455_verified": false,
+      "stored_architecture": {
+        "model_id": "board_yolo11n_seg",
+        "task": "segment",
+        "classes": [
+          "raspberry_pi_sbc"
+        ],
+        "parameters": 2842803,
+        "trainable_parameters": 2842787,
+        "layers": [
+          {
+            "index": 0,
+            "module": "ultralytics.nn.modules.conv.Conv",
+            "from": -1,
+            "parameters": 464
+          },
+          {
+            "index": 1,
+            "module": "ultralytics.nn.modules.conv.Conv",
+            "from": -1,
+            "parameters": 4672
+          },
+          {
+            "index": 2,
+            "module": "ultralytics.nn.modules.block.C3k2",
+            "from": -1,
+            "parameters": 6640
+          },
+          {
+            "index": 3,
+            "module": "ultralytics.nn.modules.conv.Conv",
+            "from": -1,
+            "parameters": 36992
+          },
+          {
+            "index": 4,
+            "module": "ultralytics.nn.modules.block.C3k2",
+            "from": -1,
+            "parameters": 26080
+          },
+          {
+            "index": 5,
+            "module": "ultralytics.nn.modules.conv.Conv",
+            "from": -1,
+            "parameters": 147712
+          },
+          {
+            "index": 6,
+            "module": "ultralytics.nn.modules.block.C3k2",
+            "from": -1,
+            "parameters": 87040
+          },
+          {
+            "index": 7,
+            "module": "ultralytics.nn.modules.conv.Conv",
+            "from": -1,
+            "parameters": 295424
+          },
+          {
+            "index": 8,
+            "module": "ultralytics.nn.modules.block.C3k2",
+            "from": -1,
+            "parameters": 346112
+          },
+          {
+            "index": 9,
+            "module": "ultralytics.nn.modules.block.SPPF",
+            "from": -1,
+            "parameters": 164608
+          },
+          {
+            "index": 10,
+            "module": "ultralytics.nn.modules.block.C2PSA",
+            "from": -1,
+            "parameters": 249728
+          },
+          {
+            "index": 11,
+            "module": "torch.nn.modules.upsampling.Upsample",
+            "from": -1,
+            "parameters": 0
+          },
+          {
+            "index": 12,
+            "module": "ultralytics.nn.modules.conv.Concat",
+            "from": [
+              -1,
+              6
+            ],
+            "parameters": 0
+          },
+          {
+            "index": 13,
+            "module": "ultralytics.nn.modules.block.C3k2",
+            "from": -1,
+            "parameters": 111296
+          },
+          {
+            "index": 14,
+            "module": "torch.nn.modules.upsampling.Upsample",
+            "from": -1,
+            "parameters": 0
+          },
+          {
+            "index": 15,
+            "module": "ultralytics.nn.modules.conv.Concat",
+            "from": [
+              -1,
+              4
+            ],
+            "parameters": 0
+          },
+          {
+            "index": 16,
+            "module": "ultralytics.nn.modules.block.C3k2",
+            "from": -1,
+            "parameters": 32096
+          },
+          {
+            "index": 17,
+            "module": "ultralytics.nn.modules.conv.Conv",
+            "from": -1,
+            "parameters": 36992
+          },
+          {
+            "index": 18,
+            "module": "ultralytics.nn.modules.conv.Concat",
+            "from": [
+              -1,
+              13
+            ],
+            "parameters": 0
+          },
+          {
+            "index": 19,
+            "module": "ultralytics.nn.modules.block.C3k2",
+            "from": -1,
+            "parameters": 86720
+          },
+          {
+            "index": 20,
+            "module": "ultralytics.nn.modules.conv.Conv",
+            "from": -1,
+            "parameters": 147712
+          },
+          {
+            "index": 21,
+            "module": "ultralytics.nn.modules.conv.Concat",
+            "from": [
+              -1,
+              10
+            ],
+            "parameters": 0
+          },
+          {
+            "index": 22,
+            "module": "ultralytics.nn.modules.block.C3k2",
+            "from": -1,
+            "parameters": 378880
+          },
+          {
+            "index": 23,
+            "module": "ultralytics.nn.modules.head.Segment",
+            "from": [
+              16,
+              19,
+              22
+            ],
+            "parameters": 683635
+          }
+        ],
+        "yaml": {
+          "nc": 1,
+          "scales": {
+            "n": [
+              0.5,
+              0.25,
+              1024
+            ],
+            "s": [
+              0.5,
+              0.5,
+              1024
+            ],
+            "m": [
+              0.5,
+              1.0,
+              512
+            ],
+            "l": [
+              1.0,
+              1.0,
+              512
+            ],
+            "x": [
+              1.0,
+              1.5,
+              512
+            ]
+          },
+          "backbone": [
+            [
+              -1,
+              1,
+              "Conv",
+              [
+                64,
+                3,
+                2
+              ]
+            ],
+            [
+              -1,
+              1,
+              "Conv",
+              [
+                128,
+                3,
+                2
+              ]
+            ],
+            [
+              -1,
+              2,
+              "C3k2",
+              [
+                256,
+                false,
+                0.25
+              ]
+            ],
+            [
+              -1,
+              1,
+              "Conv",
+              [
+                256,
+                3,
+                2
+              ]
+            ],
+            [
+              -1,
+              2,
+              "C3k2",
+              [
+                512,
+                false,
+                0.25
+              ]
+            ],
+            [
+              -1,
+              1,
+              "Conv",
+              [
+                512,
+                3,
+                2
+              ]
+            ],
+            [
+              -1,
+              2,
+              "C3k2",
+              [
+                512,
+                true
+              ]
+            ],
+            [
+              -1,
+              1,
+              "Conv",
+              [
+                1024,
+                3,
+                2
+              ]
+            ],
+            [
+              -1,
+              2,
+              "C3k2",
+              [
+                1024,
+                true
+              ]
+            ],
+            [
+              -1,
+              1,
+              "SPPF",
+              [
+                1024,
+                5
+              ]
+            ],
+            [
+              -1,
+              2,
+              "C2PSA",
+              [
+                1024
+              ]
+            ]
+          ],
+          "head": [
+            [
+              -1,
+              1,
+              "nn.Upsample",
+              [
+                "None",
+                2,
+                "nearest"
+              ]
+            ],
+            [
+              [
+                -1,
+                6
+              ],
+              1,
+              "Concat",
+              [
+                1
+              ]
+            ],
+            [
+              -1,
+              2,
+              "C3k2",
+              [
+                512,
+                false
+              ]
+            ],
+            [
+              -1,
+              1,
+              "nn.Upsample",
+              [
+                "None",
+                2,
+                "nearest"
+              ]
+            ],
+            [
+              [
+                -1,
+                4
+              ],
+              1,
+              "Concat",
+              [
+                1
+              ]
+            ],
+            [
+              -1,
+              2,
+              "C3k2",
+              [
+                256,
+                false
+              ]
+            ],
+            [
+              -1,
+              1,
+              "Conv",
+              [
+                256,
+                3,
+                2
+              ]
+            ],
+            [
+              [
+                -1,
+                13
+              ],
+              1,
+              "Concat",
+              [
+                1
+              ]
+            ],
+            [
+              -1,
+              2,
+              "C3k2",
+              [
+                512,
+                false
+              ]
+            ],
+            [
+              -1,
+              1,
+              "Conv",
+              [
+                512,
+                3,
+                2
+              ]
+            ],
+            [
+              [
+                -1,
+                10
+              ],
+              1,
+              "Concat",
+              [
+                1
+              ]
+            ],
+            [
+              -1,
+              2,
+              "C3k2",
+              [
+                1024,
+                true
+              ]
+            ],
+            [
+              [
+                16,
+                19,
+                22
+              ],
+              1,
+              "Segment",
+              [
+                "nc",
+                32,
+                256
+              ]
+            ]
+          ],
+          "scale": "n",
+          "yaml_file": "yolo11n-seg.yaml",
+          "ch": 3,
+          "channels": 3
+        }
+      },
+      "architecture_source": {
+        "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\runs\\board_yolo11n_seg\\architecture.json",
+        "sha256": "0143275cb5ab07c6db088cc1bb1d5ee90d59c619426776a371cf396fbef9c47c"
+      },
+      "head_stride_regmax_record_status": "Not stored explicitly in original R03 architecture.json; do not claim separately checkpoint-inspected here"
+    },
+    {
+      "model_id": "r03_parts_yolo11n",
+      "revision": "R03",
+      "parameters": 2590620,
+      "task": "detect",
+      "classes": [
+        "resistor",
+        "capacitor",
+        "ic",
+        "connector"
+      ],
+      "source_gt": "WACV target4 native bbox,47images/5896objects",
+      "input": {
+        "channels": 3,
+        "color": "RGB",
+        "imgsz": 1024,
+        "selected_pipeline_recorded": "native overlapping1024 crops"
+      },
+      "output": "Per-component target4 bbox,class,confidence restored to native image coordinates",
+      "reuse_scope": "Public source4 component bbox baseline; no learned instance masks",
+      "d455_verified": false,
+      "stored_architecture": {
+        "model_id": "parts_yolo11n",
+        "task": "detect",
+        "classes": [
+          "resistor",
+          "capacitor",
+          "ic",
+          "connector"
+        ],
+        "parameters": 2590620,
+        "trainable_parameters": 2590604,
+        "layers": [
+          {
+            "index": 0,
+            "module": "ultralytics.nn.modules.conv.Conv",
+            "from": -1,
+            "parameters": 464
+          },
+          {
+            "index": 1,
+            "module": "ultralytics.nn.modules.conv.Conv",
+            "from": -1,
+            "parameters": 4672
+          },
+          {
+            "index": 2,
+            "module": "ultralytics.nn.modules.block.C3k2",
+            "from": -1,
+            "parameters": 6640
+          },
+          {
+            "index": 3,
+            "module": "ultralytics.nn.modules.conv.Conv",
+            "from": -1,
+            "parameters": 36992
+          },
+          {
+            "index": 4,
+            "module": "ultralytics.nn.modules.block.C3k2",
+            "from": -1,
+            "parameters": 26080
+          },
+          {
+            "index": 5,
+            "module": "ultralytics.nn.modules.conv.Conv",
+            "from": -1,
+            "parameters": 147712
+          },
+          {
+            "index": 6,
+            "module": "ultralytics.nn.modules.block.C3k2",
+            "from": -1,
+            "parameters": 87040
+          },
+          {
+            "index": 7,
+            "module": "ultralytics.nn.modules.conv.Conv",
+            "from": -1,
+            "parameters": 295424
+          },
+          {
+            "index": 8,
+            "module": "ultralytics.nn.modules.block.C3k2",
+            "from": -1,
+            "parameters": 346112
+          },
+          {
+            "index": 9,
+            "module": "ultralytics.nn.modules.block.SPPF",
+            "from": -1,
+            "parameters": 164608
+          },
+          {
+            "index": 10,
+            "module": "ultralytics.nn.modules.block.C2PSA",
+            "from": -1,
+            "parameters": 249728
+          },
+          {
+            "index": 11,
+            "module": "torch.nn.modules.upsampling.Upsample",
+            "from": -1,
+            "parameters": 0
+          },
+          {
+            "index": 12,
+            "module": "ultralytics.nn.modules.conv.Concat",
+            "from": [
+              -1,
+              6
+            ],
+            "parameters": 0
+          },
+          {
+            "index": 13,
+            "module": "ultralytics.nn.modules.block.C3k2",
+            "from": -1,
+            "parameters": 111296
+          },
+          {
+            "index": 14,
+            "module": "torch.nn.modules.upsampling.Upsample",
+            "from": -1,
+            "parameters": 0
+          },
+          {
+            "index": 15,
+            "module": "ultralytics.nn.modules.conv.Concat",
+            "from": [
+              -1,
+              4
+            ],
+            "parameters": 0
+          },
+          {
+            "index": 16,
+            "module": "ultralytics.nn.modules.block.C3k2",
+            "from": -1,
+            "parameters": 32096
+          },
+          {
+            "index": 17,
+            "module": "ultralytics.nn.modules.conv.Conv",
+            "from": -1,
+            "parameters": 36992
+          },
+          {
+            "index": 18,
+            "module": "ultralytics.nn.modules.conv.Concat",
+            "from": [
+              -1,
+              13
+            ],
+            "parameters": 0
+          },
+          {
+            "index": 19,
+            "module": "ultralytics.nn.modules.block.C3k2",
+            "from": -1,
+            "parameters": 86720
+          },
+          {
+            "index": 20,
+            "module": "ultralytics.nn.modules.conv.Conv",
+            "from": -1,
+            "parameters": 147712
+          },
+          {
+            "index": 21,
+            "module": "ultralytics.nn.modules.conv.Concat",
+            "from": [
+              -1,
+              10
+            ],
+            "parameters": 0
+          },
+          {
+            "index": 22,
+            "module": "ultralytics.nn.modules.block.C3k2",
+            "from": -1,
+            "parameters": 378880
+          },
+          {
+            "index": 23,
+            "module": "ultralytics.nn.modules.head.Detect",
+            "from": [
+              16,
+              19,
+              22
+            ],
+            "parameters": 431452
+          }
+        ],
+        "yaml": {
+          "nc": 4,
+          "scales": {
+            "n": [
+              0.5,
+              0.25,
+              1024
+            ],
+            "s": [
+              0.5,
+              0.5,
+              1024
+            ],
+            "m": [
+              0.5,
+              1.0,
+              512
+            ],
+            "l": [
+              1.0,
+              1.0,
+              512
+            ],
+            "x": [
+              1.0,
+              1.5,
+              512
+            ]
+          },
+          "backbone": [
+            [
+              -1,
+              1,
+              "Conv",
+              [
+                64,
+                3,
+                2
+              ]
+            ],
+            [
+              -1,
+              1,
+              "Conv",
+              [
+                128,
+                3,
+                2
+              ]
+            ],
+            [
+              -1,
+              2,
+              "C3k2",
+              [
+                256,
+                false,
+                0.25
+              ]
+            ],
+            [
+              -1,
+              1,
+              "Conv",
+              [
+                256,
+                3,
+                2
+              ]
+            ],
+            [
+              -1,
+              2,
+              "C3k2",
+              [
+                512,
+                false,
+                0.25
+              ]
+            ],
+            [
+              -1,
+              1,
+              "Conv",
+              [
+                512,
+                3,
+                2
+              ]
+            ],
+            [
+              -1,
+              2,
+              "C3k2",
+              [
+                512,
+                true
+              ]
+            ],
+            [
+              -1,
+              1,
+              "Conv",
+              [
+                1024,
+                3,
+                2
+              ]
+            ],
+            [
+              -1,
+              2,
+              "C3k2",
+              [
+                1024,
+                true
+              ]
+            ],
+            [
+              -1,
+              1,
+              "SPPF",
+              [
+                1024,
+                5
+              ]
+            ],
+            [
+              -1,
+              2,
+              "C2PSA",
+              [
+                1024
+              ]
+            ]
+          ],
+          "head": [
+            [
+              -1,
+              1,
+              "nn.Upsample",
+              [
+                "None",
+                2,
+                "nearest"
+              ]
+            ],
+            [
+              [
+                -1,
+                6
+              ],
+              1,
+              "Concat",
+              [
+                1
+              ]
+            ],
+            [
+              -1,
+              2,
+              "C3k2",
+              [
+                512,
+                false
+              ]
+            ],
+            [
+              -1,
+              1,
+              "nn.Upsample",
+              [
+                "None",
+                2,
+                "nearest"
+              ]
+            ],
+            [
+              [
+                -1,
+                4
+              ],
+              1,
+              "Concat",
+              [
+                1
+              ]
+            ],
+            [
+              -1,
+              2,
+              "C3k2",
+              [
+                256,
+                false
+              ]
+            ],
+            [
+              -1,
+              1,
+              "Conv",
+              [
+                256,
+                3,
+                2
+              ]
+            ],
+            [
+              [
+                -1,
+                13
+              ],
+              1,
+              "Concat",
+              [
+                1
+              ]
+            ],
+            [
+              -1,
+              2,
+              "C3k2",
+              [
+                512,
+                false
+              ]
+            ],
+            [
+              -1,
+              1,
+              "Conv",
+              [
+                512,
+                3,
+                2
+              ]
+            ],
+            [
+              [
+                -1,
+                10
+              ],
+              1,
+              "Concat",
+              [
+                1
+              ]
+            ],
+            [
+              -1,
+              2,
+              "C3k2",
+              [
+                1024,
+                true
+              ]
+            ],
+            [
+              [
+                16,
+                19,
+                22
+              ],
+              1,
+              "Detect",
+              [
+                "nc"
+              ]
+            ]
+          ],
+          "scale": "n",
+          "yaml_file": "yolo11n.yaml",
+          "ch": 3,
+          "channels": 3
+        }
+      },
+      "architecture_source": {
+        "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\runs\\parts_yolo11n\\architecture.json",
+        "sha256": "a547c406fd75d070efbd09169f99b1a8f94efea5b2ea281680df4548ada56a22"
+      },
+      "head_stride_regmax_record_status": "Not stored explicitly in original R03 architecture.json; do not claim separately checkpoint-inspected here"
+    },
+    {
+      "model_id": "r03_parts_yolo11s",
+      "revision": "R03",
+      "parameters": 9429340,
+      "task": "detect",
+      "classes": [
+        "resistor",
+        "capacitor",
+        "ic",
+        "connector"
+      ],
+      "source_gt": "WACV target4 native bbox,47images/5896objects",
+      "input": {
+        "channels": 3,
+        "color": "RGB",
+        "imgsz": 1024,
+        "selected_pipeline_recorded": "native overlapping1024 crops"
+      },
+      "output": "Per-component target4 bbox,class,confidence restored to native image coordinates",
+      "reuse_scope": "Public source4 component bbox baseline; no learned instance masks",
+      "d455_verified": false,
+      "stored_architecture": {
+        "model_id": "parts_yolo11s",
+        "task": "detect",
+        "classes": [
+          "resistor",
+          "capacitor",
+          "ic",
+          "connector"
+        ],
+        "parameters": 9429340,
+        "trainable_parameters": 9429324,
+        "layers": [
+          {
+            "index": 0,
+            "module": "ultralytics.nn.modules.conv.Conv",
+            "from": -1,
+            "parameters": 928
+          },
+          {
+            "index": 1,
+            "module": "ultralytics.nn.modules.conv.Conv",
+            "from": -1,
+            "parameters": 18560
+          },
+          {
+            "index": 2,
+            "module": "ultralytics.nn.modules.block.C3k2",
+            "from": -1,
+            "parameters": 26080
+          },
+          {
+            "index": 3,
+            "module": "ultralytics.nn.modules.conv.Conv",
+            "from": -1,
+            "parameters": 147712
+          },
+          {
+            "index": 4,
+            "module": "ultralytics.nn.modules.block.C3k2",
+            "from": -1,
+            "parameters": 103360
+          },
+          {
+            "index": 5,
+            "module": "ultralytics.nn.modules.conv.Conv",
+            "from": -1,
+            "parameters": 590336
+          },
+          {
+            "index": 6,
+            "module": "ultralytics.nn.modules.block.C3k2",
+            "from": -1,
+            "parameters": 346112
+          },
+          {
+            "index": 7,
+            "module": "ultralytics.nn.modules.conv.Conv",
+            "from": -1,
+            "parameters": 1180672
+          },
+          {
+            "index": 8,
+            "module": "ultralytics.nn.modules.block.C3k2",
+            "from": -1,
+            "parameters": 1380352
+          },
+          {
+            "index": 9,
+            "module": "ultralytics.nn.modules.block.SPPF",
+            "from": -1,
+            "parameters": 656896
+          },
+          {
+            "index": 10,
+            "module": "ultralytics.nn.modules.block.C2PSA",
+            "from": -1,
+            "parameters": 990976
+          },
+          {
+            "index": 11,
+            "module": "torch.nn.modules.upsampling.Upsample",
+            "from": -1,
+            "parameters": 0
+          },
+          {
+            "index": 12,
+            "module": "ultralytics.nn.modules.conv.Concat",
+            "from": [
+              -1,
+              6
+            ],
+            "parameters": 0
+          },
+          {
+            "index": 13,
+            "module": "ultralytics.nn.modules.block.C3k2",
+            "from": -1,
+            "parameters": 443776
+          },
+          {
+            "index": 14,
+            "module": "torch.nn.modules.upsampling.Upsample",
+            "from": -1,
+            "parameters": 0
+          },
+          {
+            "index": 15,
+            "module": "ultralytics.nn.modules.conv.Concat",
+            "from": [
+              -1,
+              4
+            ],
+            "parameters": 0
+          },
+          {
+            "index": 16,
+            "module": "ultralytics.nn.modules.block.C3k2",
+            "from": -1,
+            "parameters": 127680
+          },
+          {
+            "index": 17,
+            "module": "ultralytics.nn.modules.conv.Conv",
+            "from": -1,
+            "parameters": 147712
+          },
+          {
+            "index": 18,
+            "module": "ultralytics.nn.modules.conv.Concat",
+            "from": [
+              -1,
+              13
+            ],
+            "parameters": 0
+          },
+          {
+            "index": 19,
+            "module": "ultralytics.nn.modules.block.C3k2",
+            "from": -1,
+            "parameters": 345472
+          },
+          {
+            "index": 20,
+            "module": "ultralytics.nn.modules.conv.Conv",
+            "from": -1,
+            "parameters": 590336
+          },
+          {
+            "index": 21,
+            "module": "ultralytics.nn.modules.conv.Concat",
+            "from": [
+              -1,
+              10
+            ],
+            "parameters": 0
+          },
+          {
+            "index": 22,
+            "module": "ultralytics.nn.modules.block.C3k2",
+            "from": -1,
+            "parameters": 1511424
+          },
+          {
+            "index": 23,
+            "module": "ultralytics.nn.modules.head.Detect",
+            "from": [
+              16,
+              19,
+              22
+            ],
+            "parameters": 820956
+          }
+        ],
+        "yaml": {
+          "nc": 4,
+          "scales": {
+            "n": [
+              0.5,
+              0.25,
+              1024
+            ],
+            "s": [
+              0.5,
+              0.5,
+              1024
+            ],
+            "m": [
+              0.5,
+              1.0,
+              512
+            ],
+            "l": [
+              1.0,
+              1.0,
+              512
+            ],
+            "x": [
+              1.0,
+              1.5,
+              512
+            ]
+          },
+          "backbone": [
+            [
+              -1,
+              1,
+              "Conv",
+              [
+                64,
+                3,
+                2
+              ]
+            ],
+            [
+              -1,
+              1,
+              "Conv",
+              [
+                128,
+                3,
+                2
+              ]
+            ],
+            [
+              -1,
+              2,
+              "C3k2",
+              [
+                256,
+                false,
+                0.25
+              ]
+            ],
+            [
+              -1,
+              1,
+              "Conv",
+              [
+                256,
+                3,
+                2
+              ]
+            ],
+            [
+              -1,
+              2,
+              "C3k2",
+              [
+                512,
+                false,
+                0.25
+              ]
+            ],
+            [
+              -1,
+              1,
+              "Conv",
+              [
+                512,
+                3,
+                2
+              ]
+            ],
+            [
+              -1,
+              2,
+              "C3k2",
+              [
+                512,
+                true
+              ]
+            ],
+            [
+              -1,
+              1,
+              "Conv",
+              [
+                1024,
+                3,
+                2
+              ]
+            ],
+            [
+              -1,
+              2,
+              "C3k2",
+              [
+                1024,
+                true
+              ]
+            ],
+            [
+              -1,
+              1,
+              "SPPF",
+              [
+                1024,
+                5
+              ]
+            ],
+            [
+              -1,
+              2,
+              "C2PSA",
+              [
+                1024
+              ]
+            ]
+          ],
+          "head": [
+            [
+              -1,
+              1,
+              "nn.Upsample",
+              [
+                "None",
+                2,
+                "nearest"
+              ]
+            ],
+            [
+              [
+                -1,
+                6
+              ],
+              1,
+              "Concat",
+              [
+                1
+              ]
+            ],
+            [
+              -1,
+              2,
+              "C3k2",
+              [
+                512,
+                false
+              ]
+            ],
+            [
+              -1,
+              1,
+              "nn.Upsample",
+              [
+                "None",
+                2,
+                "nearest"
+              ]
+            ],
+            [
+              [
+                -1,
+                4
+              ],
+              1,
+              "Concat",
+              [
+                1
+              ]
+            ],
+            [
+              -1,
+              2,
+              "C3k2",
+              [
+                256,
+                false
+              ]
+            ],
+            [
+              -1,
+              1,
+              "Conv",
+              [
+                256,
+                3,
+                2
+              ]
+            ],
+            [
+              [
+                -1,
+                13
+              ],
+              1,
+              "Concat",
+              [
+                1
+              ]
+            ],
+            [
+              -1,
+              2,
+              "C3k2",
+              [
+                512,
+                false
+              ]
+            ],
+            [
+              -1,
+              1,
+              "Conv",
+              [
+                512,
+                3,
+                2
+              ]
+            ],
+            [
+              [
+                -1,
+                10
+              ],
+              1,
+              "Concat",
+              [
+                1
+              ]
+            ],
+            [
+              -1,
+              2,
+              "C3k2",
+              [
+                1024,
+                true
+              ]
+            ],
+            [
+              [
+                16,
+                19,
+                22
+              ],
+              1,
+              "Detect",
+              [
+                "nc"
+              ]
+            ]
+          ],
+          "scale": "s",
+          "yaml_file": "yolo11s.yaml",
+          "ch": 3,
+          "channels": 3
+        }
+      },
+      "architecture_source": {
+        "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\runs\\parts_yolo11s\\architecture.json",
+        "sha256": "fb8cda975c88ef8c0a97b865fc15f649125224897441b2302a3eab43c4da90f2"
+      },
+      "head_stride_regmax_record_status": "Not stored explicitly in original R03 architecture.json; do not claim separately checkpoint-inspected here"
+    },
+    {
+      "model_id": "r04_baseline",
+      "revision": "R04",
+      "architecture_ref": "r04_yolo11s_target4",
+      "parameters": 9429340,
+      "task": "detect",
+      "classes": [
+        "resistor",
+        "capacitor",
+        "ic",
+        "connector"
+      ],
+      "source_gt": "Same frozen source target4 bbox and same25train/9val source images as paired arm",
+      "input": {
+        "channels": 3,
+        "color": "RGB",
+        "imgsz": 1024,
+        "evaluation_pipeline_candidates": [
+          "native1024",
+          "dual1024+2048"
+        ]
+      },
+      "output": "Per-component target4 bbox,class,confidence; crop offsets restored and class-aware NMS",
+      "training_difference": "Native1024 views and empty ignore sidecar",
+      "same_architecture_evidence": [
+        "Same builder and official initialization checkpoint",
+        "Identical initial model parameter SHA in both start.json",
+        "Identical9429340parameters and four classes in both start.json"
+      ],
+      "initial_checkpoint_sha256": "85a76fe86dd8afe384648546b56a7a78580c7cb7b404fc595f97969322d502d5",
+      "initial_model_parameter_sha256": "9e44a6a12ec1fc7e37a830f904c1a48afb76782a10668f2cc48c729a12ec4d20",
+      "architecture_checkpoint_inspected": "baseline epoch02 only",
+      "reuse_scope": "Paired public-data component bbox experiment; final selected weights and metrics belong in result README/selection record",
+      "d455_verified": false,
+      "performance_status": "Not recorded in this architecture document; see completed result README",
+      "run_start_evidence": {
+        "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04\\runs\\baseline\\start.json",
+        "sha256": "6c43d262ed005be628106aaead38c3d4c0669c679f52d04d2fc71b4f1c6f35ca"
+      }
+    },
+    {
+      "model_id": "r04_improved",
+      "revision": "R04",
+      "architecture_ref": "r04_yolo11s_target4",
+      "parameters": 9429340,
+      "task": "detect",
+      "classes": [
+        "resistor",
+        "capacitor",
+        "ic",
+        "connector"
+      ],
+      "source_gt": "Same frozen source target4 bbox and same25train/9val source images as paired arm",
+      "input": {
+        "channels": 3,
+        "color": "RGB",
+        "imgsz": 1024,
+        "evaluation_pipeline_candidates": [
+          "native1024",
+          "dual1024+2048"
+        ]
+      },
+      "output": "Per-component target4 bbox,class,confidence; crop offsets restored and class-aware NMS",
+      "training_difference": "Native1024+context2048+object-centered views; unknown and less-than50-percent bbox fragments ignored for unassigned negative classification loss",
+      "same_architecture_evidence": [
+        "Same builder and official initialization checkpoint",
+        "Identical initial model parameter SHA in both start.json",
+        "Identical9429340parameters and four classes in both start.json"
+      ],
+      "initial_checkpoint_sha256": "85a76fe86dd8afe384648546b56a7a78580c7cb7b404fc595f97969322d502d5",
+      "initial_model_parameter_sha256": "9e44a6a12ec1fc7e37a830f904c1a48afb76782a10668f2cc48c729a12ec4d20",
+      "architecture_checkpoint_inspected": "baseline epoch02 only",
+      "reuse_scope": "Paired public-data component bbox experiment; final selected weights and metrics belong in result README/selection record",
+      "d455_verified": false,
+      "performance_status": "Not recorded in this architecture document; see completed result README",
+      "run_start_evidence": {
+        "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04\\runs\\improved\\start.json",
+        "sha256": "db7abdf95588c9efd651e5ad6b7f0db9905c4c2fdf5d32b4fe8061fee2538b56"
+      }
+    }
+  ],
+  "protocol": {
+    "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04\\protocol.json",
+    "sha256": "c712d8f3e24ce8fa8291d4b2e7e2593924ccdb154ba4361f50958e63555a4def",
+    "initial_weights_sha256": "85a76fe86dd8afe384648546b56a7a78580c7cb7b404fc595f97969322d502d5"
+  },
+  "comparison_boundary": "R02 semantic mIoU, R03 board bbox/maskAP, R03/R04 component bboxAP differ in target, GT and/or split. No direct family ranking.",
+  "checkpoint_compatibility": {
+    "saved_model": "Standard ultralytics.nn.tasks.DetectionModel, criterion cleared before saving",
+    "ignore_logic": "Training-only dataset/loss adapter; not a novel inference layer or extra output class",
+    "supported_runtime_tested": "Ultralytics8.4.120 local standard-model loading; CPU architecture load, no new inference in this audit",
+    "resume_note": "Candidate files omit optimizer state and are inference/selection candidates, not exact optimizer-resume snapshots",
+    "scope_limit": "Compatibility does not establish ONNX/TensorRT export or other-version deployment"
+  }
+}

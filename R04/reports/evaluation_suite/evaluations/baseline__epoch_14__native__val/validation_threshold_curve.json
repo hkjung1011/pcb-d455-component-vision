@@ -1,0 +1,2795 @@
+[
+  {
+    "confidence": 0.05,
+    "match_box_iou": 0.5,
+    "tp": 884,
+    "fp": 1130,
+    "fn": 168,
+    "precision": 0.43892750744786496,
+    "recall": 0.8403041825095057,
+    "f1": 0.5766470971950424,
+    "per_class_counts_tp_fp_fn": [
+      [
+        390,
+        207,
+        20
+      ],
+      [
+        373,
+        370,
+        81
+      ],
+      [
+        54,
+        132,
+        19
+      ],
+      [
+        67,
+        421,
+        48
+      ]
+    ],
+    "size_recall": {
+      "lt8": {
+        "detected": 0,
+        "total": 0,
+        "recall": null
+      },
+      "8to16": {
+        "detected": 74,
+        "total": 98,
+        "recall": 0.7551020408163265
+      },
+      "16to32": {
+        "detected": 376,
+        "total": 430,
+        "recall": 0.8744186046511628
+      },
+      "ge32": {
+        "detected": 434,
+        "total": 524,
+        "recall": 0.8282442748091603
+      }
+    },
+    "class_by_native_shortside_recall": {
+      "resistor": {
+        "lt8": {
+          "detected": 0,
+          "total": 0,
+          "recall": null
+        },
+        "8to16": {
+          "detected": 33,
+          "total": 35,
+          "recall": 0.9428571428571428
+        },
+        "16to32": {
+          "detected": 244,
+          "total": 259,
+          "recall": 0.9420849420849421
+        },
+        "ge32": {
+          "detected": 113,
+          "total": 116,
+          "recall": 0.9741379310344828
+        }
+      },
+      "capacitor": {
+        "lt8": {
+          "detected": 0,
+          "total": 0,
+          "recall": null
+        },
+        "8to16": {
+          "detected": 41,
+          "total": 63,
+          "recall": 0.6507936507936508
+        },
+        "16to32": {
+          "detected": 130,
+          "total": 167,
+          "recall": 0.7784431137724551
+        },
+        "ge32": {
+          "detected": 202,
+          "total": 224,
+          "recall": 0.9017857142857143
+        }
+      },
+      "ic": {
+        "lt8": {
+          "detected": 0,
+          "total": 0,
+          "recall": null
+        },
+        "8to16": {
+          "detected": 0,
+          "total": 0,
+          "recall": null
+        },
+        "16to32": {
+          "detected": 1,
+          "total": 1,
+          "recall": 1.0
+        },
+        "ge32": {
+          "detected": 53,
+          "total": 72,
+          "recall": 0.7361111111111112
+        }
+      },
+      "connector": {
+        "lt8": {
+          "detected": 0,
+          "total": 0,
+          "recall": null
+        },
+        "8to16": {
+          "detected": 0,
+          "total": 0,
+          "recall": null
+        },
+        "16to32": {
+          "detected": 1,
+          "total": 3,
+          "recall": 0.3333333333333333
+        },
+        "ge32": {
+          "detected": 66,
+          "total": 112,
+          "recall": 0.5892857142857143
+        }
+      }
+    },
+    "negative_images": 0,
+    "negative_images_with_false_positive": 0,
+    "negative_false_positive_image_rate": null
+  },
+  {
+    "confidence": 0.1,
+    "match_box_iou": 0.5,
+    "tp": 858,
+    "fp": 821,
+    "fn": 194,
+    "precision": 0.5110184633710542,
+    "recall": 0.8155893536121673,
+    "f1": 0.6283412669351884,
+    "per_class_counts_tp_fp_fn": [
+      [
+        387,
+        160,
+        23
+      ],
+      [
+        357,
+        268,
+        97
+      ],
+      [
+        53,
+        90,
+        20
+      ],
+      [
+        61,
+        303,
+        54
+      ]
+    ],
+    "size_recall": {
+      "lt8": {
+        "detected": 0,
+        "total": 0,
+        "recall": null
+      },
+      "8to16": {
+        "detected": 68,
+        "total": 98,
+        "recall": 0.6938775510204082
+      },
+      "16to32": {
+        "detected": 372,
+        "total": 430,
+        "recall": 0.8651162790697674
+      },
+      "ge32": {
+        "detected": 418,
+        "total": 524,
+        "recall": 0.7977099236641222
+      }
+    },
+    "class_by_native_shortside_recall": {
+      "resistor": {
+        "lt8": {
+          "detected": 0,
+          "total": 0,
+          "recall": null
+        },
+        "8to16": {
+          "detected": 32,
+          "total": 35,
+          "recall": 0.9142857142857143
+        },
+        "16to32": {
+          "detected": 243,
+          "total": 259,
+          "recall": 0.9382239382239382
+        },
+        "ge32": {
+          "detected": 112,
+          "total": 116,
+          "recall": 0.9655172413793104
+        }
+      },
+      "capacitor": {
+        "lt8": {
+          "detected": 0,
+          "total": 0,
+          "recall": null
+        },
+        "8to16": {
+          "detected": 36,
+          "total": 63,
+          "recall": 0.5714285714285714
+        },
+        "16to32": {
+          "detected": 128,
+          "total": 167,
+          "recall": 0.7664670658682635
+        },
+        "ge32": {
+          "detected": 193,
+          "total": 224,
+          "recall": 0.8616071428571429
+        }
+      },
+      "ic": {
+        "lt8": {
+          "detected": 0,
+          "total": 0,
+          "recall": null
+        },
+        "8to16": {
+          "detected": 0,
+          "total": 0,
+          "recall": null
+        },
+        "16to32": {
+          "detected": 1,
+          "total": 1,
+          "recall": 1.0
+        },
+        "ge32": {
+          "detected": 52,
+          "total": 72,
+          "recall": 0.7222222222222222
+        }
+      },
+      "connector": {
+        "lt8": {
+          "detected": 0,
+          "total": 0,
+          "recall": null
+        },
+        "8to16": {
+          "detected": 0,
+          "total": 0,
+          "recall": null
+        },
+        "16to32": {
+          "detected": 0,
+          "total": 3,
+          "recall": 0.0
+        },
+        "ge32": {
+          "detected": 61,
+          "total": 112,
+          "recall": 0.5446428571428571
+        }
+      }
+    },
+    "negative_images": 0,
+    "negative_images_with_false_positive": 0,
+    "negative_false_positive_image_rate": null
+  },
+  {
+    "confidence": 0.15,
+    "match_box_iou": 0.5,
+    "tp": 838,
+    "fp": 681,
+    "fn": 214,
+    "precision": 0.5516787360105333,
+    "recall": 0.7965779467680608,
+    "f1": 0.6518864255153637,
+    "per_class_counts_tp_fp_fn": [
+      [
+        383,
+        141,
+        27
+      ],
+      [
+        347,
+        228,
+        107
+      ],
+      [
+        53,
+        66,
+        20
+      ],
+      [
+        55,
+        246,
+        60
+      ]
+    ],
+    "size_recall": {
+      "lt8": {
+        "detected": 0,
+        "total": 0,
+        "recall": null
+      },
+      "8to16": {
+        "detected": 65,
+        "total": 98,
+        "recall": 0.6632653061224489
+      },
+      "16to32": {
+        "detected": 368,
+        "total": 430,
+        "recall": 0.8558139534883721
+      },
+      "ge32": {
+        "detected": 405,
+        "total": 524,
+        "recall": 0.7729007633587787
+      }
+    },
+    "class_by_native_shortside_recall": {
+      "resistor": {
+        "lt8": {
+          "detected": 0,
+          "total": 0,
+          "recall": null
+        },
+        "8to16": {
+          "detected": 30,
+          "total": 35,
+          "recall": 0.8571428571428571
+        },
+        "16to32": {
+          "detected": 242,
+          "total": 259,
+          "recall": 0.9343629343629344
+        },
+        "ge32": {
+          "detected": 111,
+          "total": 116,
+          "recall": 0.9568965517241379
+        }
+      },
+      "capacitor": {
+        "lt8": {
+          "detected": 0,
+          "total": 0,
+          "recall": null
+        },
+        "8to16": {
+          "detected": 35,
+          "total": 63,
+          "recall": 0.5555555555555556
+        },
+        "16to32": {
+          "detected": 125,
+          "total": 167,
+          "recall": 0.7485029940119761
+        },
+        "ge32": {
+          "detected": 187,
+          "total": 224,
+          "recall": 0.8348214285714286
+        }
+      },
+      "ic": {
+        "lt8": {
+          "detected": 0,
+          "total": 0,
+          "recall": null
+        },
+        "8to16": {
+          "detected": 0,
+          "total": 0,
+          "recall": null
+        },
+        "16to32": {
+          "detected": 1,
+          "total": 1,
+          "recall": 1.0
+        },
+        "ge32": {
+          "detected": 52,
+          "total": 72,
+          "recall": 0.7222222222222222
+        }
+      },
+      "connector": {
+        "lt8": {
+          "detected": 0,
+          "total": 0,
+          "recall": null
+        },
+        "8to16": {
+          "detected": 0,
+          "total": 0,
+          "recall": null
+        },
+        "16to32": {
+          "detected": 0,
+          "total": 3,
+          "recall": 0.0
+        },
+        "ge32": {
+          "detected": 55,
+          "total": 112,
+          "recall": 0.49107142857142855
+        }
+      }
+    },
+    "negative_images": 0,
+    "negative_images_with_false_positive": 0,
+    "negative_false_positive_image_rate": null
+  },
+  {
+    "confidence": 0.2,
+    "match_box_iou": 0.5,
+    "tp": 822,
+    "fp": 575,
+    "fn": 230,
+    "precision": 0.58840372226199,
+    "recall": 0.7813688212927756,
+    "f1": 0.671294405879951,
+    "per_class_counts_tp_fp_fn": [
+      [
+        381,
+        124,
+        29
+      ],
+      [
+        340,
+        197,
+        114
+      ],
+      [
+        53,
+        60,
+        20
+      ],
+      [
+        48,
+        194,
+        67
+      ]
+    ],
+    "size_recall": {
+      "lt8": {
+        "detected": 0,
+        "total": 0,
+        "recall": null
+      },
+      "8to16": {
+        "detected": 64,
+        "total": 98,
+        "recall": 0.6530612244897959
+      },
+      "16to32": {
+        "detected": 365,
+        "total": 430,
+        "recall": 0.8488372093023255
+      },
+      "ge32": {
+        "detected": 393,
+        "total": 524,
+        "recall": 0.75
+      }
+    },
+    "class_by_native_shortside_recall": {
+      "resistor": {
+        "lt8": {
+          "detected": 0,
+          "total": 0,
+          "recall": null
+        },
+        "8to16": {
+          "detected": 30,
+          "total": 35,
+          "recall": 0.8571428571428571
+        },
+        "16to32": {
+          "detected": 241,
+          "total": 259,
+          "recall": 0.9305019305019305
+        },
+        "ge32": {
+          "detected": 110,
+          "total": 116,
+          "recall": 0.9482758620689655
+        }
+      },
+      "capacitor": {
+        "lt8": {
+          "detected": 0,
+          "total": 0,
+          "recall": null
+        },
+        "8to16": {
+          "detected": 34,
+          "total": 63,
+          "recall": 0.5396825396825397
+        },
+        "16to32": {
+          "detected": 123,
+          "total": 167,
+          "recall": 0.7365269461077845
+        },
+        "ge32": {
+          "detected": 183,
+          "total": 224,
+          "recall": 0.8169642857142857
+        }
+      },
+      "ic": {
+        "lt8": {
+          "detected": 0,
+          "total": 0,
+          "recall": null
+        },
+        "8to16": {
+          "detected": 0,
+          "total": 0,
+          "recall": null
+        },
+        "16to32": {
+          "detected": 1,
+          "total": 1,
+          "recall": 1.0
+        },
+        "ge32": {
+          "detected": 52,
+          "total": 72,
+          "recall": 0.7222222222222222
+        }
+      },
+      "connector": {
+        "lt8": {
+          "detected": 0,
+          "total": 0,
+          "recall": null
+        },
+        "8to16": {
+          "detected": 0,
+          "total": 0,
+          "recall": null
+        },
+        "16to32": {
+          "detected": 0,
+          "total": 3,
+          "recall": 0.0
+        },
+        "ge32": {
+          "detected": 48,
+          "total": 112,
+          "recall": 0.42857142857142855
+        }
+      }
+    },
+    "negative_images": 0,
+    "negative_images_with_false_positive": 0,
+    "negative_false_positive_image_rate": null
+  },
+  {
+    "confidence": 0.25,
+    "match_box_iou": 0.5,
+    "tp": 809,
+    "fp": 494,
+    "fn": 243,
+    "precision": 0.6208749040675364,
+    "recall": 0.7690114068441065,
+    "f1": 0.6870488322717623,
+    "per_class_counts_tp_fp_fn": [
+      [
+        378,
+        111,
+        32
+      ],
+      [
+        333,
+        171,
+        121
+      ],
+      [
+        52,
+        51,
+        21
+      ],
+      [
+        46,
+        161,
+        69
+      ]
+    ],
+    "size_recall": {
+      "lt8": {
+        "detected": 0,
+        "total": 0,
+        "recall": null
+      },
+      "8to16": {
+        "detected": 61,
+        "total": 98,
+        "recall": 0.6224489795918368
+      },
+      "16to32": {
+        "detected": 364,
+        "total": 430,
+        "recall": 0.8465116279069768
+      },
+      "ge32": {
+        "detected": 384,
+        "total": 524,
+        "recall": 0.732824427480916
+      }
+    },
+    "class_by_native_shortside_recall": {
+      "resistor": {
+        "lt8": {
+          "detected": 0,
+          "total": 0,
+          "recall": null
+        },
+        "8to16": {
+          "detected": 29,
+          "total": 35,
+          "recall": 0.8285714285714286
+        },
+        "16to32": {
+          "detected": 241,
+          "total": 259,
+          "recall": 0.9305019305019305
+        },
+        "ge32": {
+          "detected": 108,
+          "total": 116,
+          "recall": 0.9310344827586207
+        }
+      },
+      "capacitor": {
+        "lt8": {
+          "detected": 0,
+          "total": 0,
+          "recall": null
+        },
+        "8to16": {
+          "detected": 32,
+          "total": 63,
+          "recall": 0.5079365079365079
+        },
+        "16to32": {
+          "detected": 122,
+          "total": 167,
+          "recall": 0.7305389221556886
+        },
+        "ge32": {
+          "detected": 179,
+          "total": 224,
+          "recall": 0.7991071428571429
+        }
+      },
+      "ic": {
+        "lt8": {
+          "detected": 0,
+          "total": 0,
+          "recall": null
+        },
+        "8to16": {
+          "detected": 0,
+          "total": 0,
+          "recall": null
+        },
+        "16to32": {
+          "detected": 1,
+          "total": 1,
+          "recall": 1.0
+        },
+        "ge32": {
+          "detected": 51,
+          "total": 72,
+          "recall": 0.7083333333333334
+        }
+      },
+      "connector": {
+        "lt8": {
+          "detected": 0,
+          "total": 0,
+          "recall": null
+        },
+        "8to16": {
+          "detected": 0,
+          "total": 0,
+          "recall": null
+        },
+        "16to32": {
+          "detected": 0,
+          "total": 3,
+          "recall": 0.0
+        },
+        "ge32": {
+          "detected": 46,
+          "total": 112,
+          "recall": 0.4107142857142857
+        }
+      }
+    },
+    "negative_images": 0,
+    "negative_images_with_false_positive": 0,
+    "negative_false_positive_image_rate": null
+  },
+  {
+    "confidence": 0.3,
+    "match_box_iou": 0.5,
+    "tp": 802,
+    "fp": 446,
+    "fn": 250,
+    "precision": 0.6426282051282052,
+    "recall": 0.7623574144486692,
+    "f1": 0.697391304347826,
+    "per_class_counts_tp_fp_fn": [
+      [
+        378,
+        97,
+        32
+      ],
+      [
+        330,
+        164,
+        124
+      ],
+      [
+        51,
+        49,
+        22
+      ],
+      [
+        43,
+        136,
+        72
+      ]
+    ],
+    "size_recall": {
+      "lt8": {
+        "detected": 0,
+        "total": 0,
+        "recall": null
+      },
+      "8to16": {
+        "detected": 61,
+        "total": 98,
+        "recall": 0.6224489795918368
+      },
+      "16to32": {
+        "detected": 362,
+        "total": 430,
+        "recall": 0.8418604651162791
+      },
+      "ge32": {
+        "detected": 379,
+        "total": 524,
+        "recall": 0.7232824427480916
+      }
+    },
+    "class_by_native_shortside_recall": {
+      "resistor": {
+        "lt8": {
+          "detected": 0,
+          "total": 0,
+          "recall": null
+        },
+        "8to16": {
+          "detected": 29,
+          "total": 35,
+          "recall": 0.8285714285714286
+        },
+        "16to32": {
+          "detected": 241,
+          "total": 259,
+          "recall": 0.9305019305019305
+        },
+        "ge32": {
+          "detected": 108,
+          "total": 116,
+          "recall": 0.9310344827586207
+        }
+      },
+      "capacitor": {
+        "lt8": {
+          "detected": 0,
+          "total": 0,
+          "recall": null
+        },
+        "8to16": {
+          "detected": 32,
+          "total": 63,
+          "recall": 0.5079365079365079
+        },
+        "16to32": {
+          "detected": 120,
+          "total": 167,
+          "recall": 0.718562874251497
+        },
+        "ge32": {
+          "detected": 178,
+          "total": 224,
+          "recall": 0.7946428571428571
+        }
+      },
+      "ic": {
+        "lt8": {
+          "detected": 0,
+          "total": 0,
+          "recall": null
+        },
+        "8to16": {
+          "detected": 0,
+          "total": 0,
+          "recall": null
+        },
+        "16to32": {
+          "detected": 1,
+          "total": 1,
+          "recall": 1.0
+        },
+        "ge32": {
+          "detected": 50,
+          "total": 72,
+          "recall": 0.6944444444444444
+        }
+      },
+      "connector": {
+        "lt8": {
+          "detected": 0,
+          "total": 0,
+          "recall": null
+        },
+        "8to16": {
+          "detected": 0,
+          "total": 0,
+          "recall": null
+        },
+        "16to32": {
+          "detected": 0,
+          "total": 3,
+          "recall": 0.0
+        },
+        "ge32": {
+          "detected": 43,
+          "total": 112,
+          "recall": 0.38392857142857145
+        }
+      }
+    },
+    "negative_images": 0,
+    "negative_images_with_false_positive": 0,
+    "negative_false_positive_image_rate": null
+  },
+  {
+    "confidence": 0.35,
+    "match_box_iou": 0.5,
+    "tp": 790,
+    "fp": 399,
+    "fn": 262,
+    "precision": 0.6644238856181666,
+    "recall": 0.7509505703422054,
+    "f1": 0.7050423917893797,
+    "per_class_counts_tp_fp_fn": [
+      [
+        377,
+        87,
+        33
+      ],
+      [
+        327,
+        155,
+        127
+      ],
+      [
+        48,
+        45,
+        25
+      ],
+      [
+        38,
+        112,
+        77
+      ]
+    ],
+    "size_recall": {
+      "lt8": {
+        "detected": 0,
+        "total": 0,
+        "recall": null
+      },
+      "8to16": {
+        "detected": 61,
+        "total": 98,
+        "recall": 0.6224489795918368
+      },
+      "16to32": {
+        "detected": 359,
+        "total": 430,
+        "recall": 0.8348837209302326
+      },
+      "ge32": {
+        "detected": 370,
+        "total": 524,
+        "recall": 0.7061068702290076
+      }
+    },
+    "class_by_native_shortside_recall": {
+      "resistor": {
+        "lt8": {
+          "detected": 0,
+          "total": 0,
+          "recall": null
+        },
+        "8to16": {
+          "detected": 29,
+          "total": 35,
+          "recall": 0.8285714285714286
+        },
+        "16to32": {
+          "detected": 241,
+          "total": 259,
+          "recall": 0.9305019305019305
+        },
+        "ge32": {
+          "detected": 107,
+          "total": 116,
+          "recall": 0.9224137931034483
+        }
+      },
+      "capacitor": {
+        "lt8": {
+          "detected": 0,
+          "total": 0,
+          "recall": null
+        },
+        "8to16": {
+          "detected": 32,
+          "total": 63,
+          "recall": 0.5079365079365079
+        },
+        "16to32": {
+          "detected": 117,
+          "total": 167,
+          "recall": 0.7005988023952096
+        },
+        "ge32": {
+          "detected": 178,
+          "total": 224,
+          "recall": 0.7946428571428571
+        }
+      },
+      "ic": {
+        "lt8": {
+          "detected": 0,
+          "total": 0,
+          "recall": null
+        },
+        "8to16": {
+          "detected": 0,
+          "total": 0,
+          "recall": null
+        },
+        "16to32": {
+          "detected": 1,
+          "total": 1,
+          "recall": 1.0
+        },
+        "ge32": {
+          "detected": 47,
+          "total": 72,
+          "recall": 0.6527777777777778
+        }
+      },
+      "connector": {
+        "lt8": {
+          "detected": 0,
+          "total": 0,
+          "recall": null
+        },
+        "8to16": {
+          "detected": 0,
+          "total": 0,
+          "recall": null
+        },
+        "16to32": {
+          "detected": 0,
+          "total": 3,
+          "recall": 0.0
+        },
+        "ge32": {
+          "detected": 38,
+          "total": 112,
+          "recall": 0.3392857142857143
+        }
+      }
+    },
+    "negative_images": 0,
+    "negative_images_with_false_positive": 0,
+    "negative_false_positive_image_rate": null
+  },
+  {
+    "confidence": 0.4,
+    "match_box_iou": 0.5,
+    "tp": 775,
+    "fp": 364,
+    "fn": 277,
+    "precision": 0.6804214223002634,
+    "recall": 0.7366920152091255,
+    "f1": 0.7074395253308992,
+    "per_class_counts_tp_fp_fn": [
+      [
+        375,
+        80,
+        35
+      ],
+      [
+        318,
+        146,
+        136
+      ],
+      [
+        48,
+        43,
+        25
+      ],
+      [
+        34,
+        95,
+        81
+      ]
+    ],
+    "size_recall": {
+      "lt8": {
+        "detected": 0,
+        "total": 0,
+        "recall": null
+      },
+      "8to16": {
+        "detected": 60,
+        "total": 98,
+        "recall": 0.6122448979591837
+      },
+      "16to32": {
+        "detected": 353,
+        "total": 430,
+        "recall": 0.8209302325581396
+      },
+      "ge32": {
+        "detected": 362,
+        "total": 524,
+        "recall": 0.6908396946564885
+      }
+    },
+    "class_by_native_shortside_recall": {
+      "resistor": {
+        "lt8": {
+          "detected": 0,
+          "total": 0,
+          "recall": null
+        },
+        "8to16": {
+          "detected": 29,
+          "total": 35,
+          "recall": 0.8285714285714286
+        },
+        "16to32": {
+          "detected": 239,
+          "total": 259,
+          "recall": 0.9227799227799228
+        },
+        "ge32": {
+          "detected": 107,
+          "total": 116,
+          "recall": 0.9224137931034483
+        }
+      },
+      "capacitor": {
+        "lt8": {
+          "detected": 0,
+          "total": 0,
+          "recall": null
+        },
+        "8to16": {
+          "detected": 31,
+          "total": 63,
+          "recall": 0.49206349206349204
+        },
+        "16to32": {
+          "detected": 113,
+          "total": 167,
+          "recall": 0.6766467065868264
+        },
+        "ge32": {
+          "detected": 174,
+          "total": 224,
+          "recall": 0.7767857142857143
+        }
+      },
+      "ic": {
+        "lt8": {
+          "detected": 0,
+          "total": 0,
+          "recall": null
+        },
+        "8to16": {
+          "detected": 0,
+          "total": 0,
+          "recall": null
+        },
+        "16to32": {
+          "detected": 1,
+          "total": 1,
+          "recall": 1.0
+        },
+        "ge32": {
+          "detected": 47,
+          "total": 72,
+          "recall": 0.6527777777777778
+        }
+      },
+      "connector": {
+        "lt8": {
+          "detected": 0,
+          "total": 0,
+          "recall": null
+        },
+        "8to16": {
+          "detected": 0,
+          "total": 0,
+          "recall": null
+        },
+        "16to32": {
+          "detected": 0,
+          "total": 3,
+          "recall": 0.0
+        },
+        "ge32": {
+          "detected": 34,
+          "total": 112,
+          "recall": 0.30357142857142855
+        }
+      }
+    },
+    "negative_images": 0,
+    "negative_images_with_false_positive": 0,
+    "negative_false_positive_image_rate": null
+  },
+  {
+    "confidence": 0.45,
+    "match_box_iou": 0.5,
+    "tp": 764,
+    "fp": 322,
+    "fn": 288,
+    "precision": 0.7034990791896869,
+    "recall": 0.7262357414448669,
+    "f1": 0.7146866230121608,
+    "per_class_counts_tp_fp_fn": [
+      [
+        372,
+        72,
+        38
+      ],
+      [
+        313,
+        129,
+        141
+      ],
+      [
+        48,
+        38,
+        25
+      ],
+      [
+        31,
+        83,
+        84
+      ]
+    ],
+    "size_recall": {
+      "lt8": {
+        "detected": 0,
+        "total": 0,
+        "recall": null
+      },
+      "8to16": {
+        "detected": 58,
+        "total": 98,
+        "recall": 0.5918367346938775
+      },
+      "16to32": {
+        "detected": 351,
+        "total": 430,
+        "recall": 0.8162790697674419
+      },
+      "ge32": {
+        "detected": 355,
+        "total": 524,
+        "recall": 0.6774809160305344
+      }
+    },
+    "class_by_native_shortside_recall": {
+      "resistor": {
+        "lt8": {
+          "detected": 0,
+          "total": 0,
+          "recall": null
+        },
+        "8to16": {
+          "detected": 28,
+          "total": 35,
+          "recall": 0.8
+        },
+        "16to32": {
+          "detected": 238,
+          "total": 259,
+          "recall": 0.918918918918919
+        },
+        "ge32": {
+          "detected": 106,
+          "total": 116,
+          "recall": 0.9137931034482759
+        }
+      },
+      "capacitor": {
+        "lt8": {
+          "detected": 0,
+          "total": 0,
+          "recall": null
+        },
+        "8to16": {
+          "detected": 30,
+          "total": 63,
+          "recall": 0.47619047619047616
+        },
+        "16to32": {
+          "detected": 112,
+          "total": 167,
+          "recall": 0.6706586826347305
+        },
+        "ge32": {
+          "detected": 171,
+          "total": 224,
+          "recall": 0.7633928571428571
+        }
+      },
+      "ic": {
+        "lt8": {
+          "detected": 0,
+          "total": 0,
+          "recall": null
+        },
+        "8to16": {
+          "detected": 0,
+          "total": 0,
+          "recall": null
+        },
+        "16to32": {
+          "detected": 1,
+          "total": 1,
+          "recall": 1.0
+        },
+        "ge32": {
+          "detected": 47,
+          "total": 72,
+          "recall": 0.6527777777777778
+        }
+      },
+      "connector": {
+        "lt8": {
+          "detected": 0,
+          "total": 0,
+          "recall": null
+        },
+        "8to16": {
+          "detected": 0,
+          "total": 0,
+          "recall": null
+        },
+        "16to32": {
+          "detected": 0,
+          "total": 3,
+          "recall": 0.0
+        },
+        "ge32": {
+          "detected": 31,
+          "total": 112,
+          "recall": 0.2767857142857143
+        }
+      }
+    },
+    "negative_images": 0,
+    "negative_images_with_false_positive": 0,
+    "negative_false_positive_image_rate": null
+  },
+  {
+    "confidence": 0.5,
+    "match_box_iou": 0.5,
+    "tp": 744,
+    "fp": 295,
+    "fn": 308,
+    "precision": 0.7160731472569779,
+    "recall": 0.7072243346007605,
+    "f1": 0.7116212338593975,
+    "per_class_counts_tp_fp_fn": [
+      [
+        370,
+        68,
+        40
+      ],
+      [
+        302,
+        125,
+        152
+      ],
+      [
+        45,
+        35,
+        28
+      ],
+      [
+        27,
+        67,
+        88
+      ]
+    ],
+    "size_recall": {
+      "lt8": {
+        "detected": 0,
+        "total": 0,
+        "recall": null
+      },
+      "8to16": {
+        "detected": 56,
+        "total": 98,
+        "recall": 0.5714285714285714
+      },
+      "16to32": {
+        "detected": 347,
+        "total": 430,
+        "recall": 0.8069767441860465
+      },
+      "ge32": {
+        "detected": 341,
+        "total": 524,
+        "recall": 0.6507633587786259
+      }
+    },
+    "class_by_native_shortside_recall": {
+      "resistor": {
+        "lt8": {
+          "detected": 0,
+          "total": 0,
+          "recall": null
+        },
+        "8to16": {
+          "detected": 28,
+          "total": 35,
+          "recall": 0.8
+        },
+        "16to32": {
+          "detected": 238,
+          "total": 259,
+          "recall": 0.918918918918919
+        },
+        "ge32": {
+          "detected": 104,
+          "total": 116,
+          "recall": 0.896551724137931
+        }
+      },
+      "capacitor": {
+        "lt8": {
+          "detected": 0,
+          "total": 0,
+          "recall": null
+        },
+        "8to16": {
+          "detected": 28,
+          "total": 63,
+          "recall": 0.4444444444444444
+        },
+        "16to32": {
+          "detected": 108,
+          "total": 167,
+          "recall": 0.6467065868263473
+        },
+        "ge32": {
+          "detected": 166,
+          "total": 224,
+          "recall": 0.7410714285714286
+        }
+      },
+      "ic": {
+        "lt8": {
+          "detected": 0,
+          "total": 0,
+          "recall": null
+        },
+        "8to16": {
+          "detected": 0,
+          "total": 0,
+          "recall": null
+        },
+        "16to32": {
+          "detected": 1,
+          "total": 1,
+          "recall": 1.0
+        },
+        "ge32": {
+          "detected": 44,
+          "total": 72,
+          "recall": 0.6111111111111112
+        }
+      },
+      "connector": {
+        "lt8": {
+          "detected": 0,
+          "total": 0,
+          "recall": null
+        },
+        "8to16": {
+          "detected": 0,
+          "total": 0,
+          "recall": null
+        },
+        "16to32": {
+          "detected": 0,
+          "total": 3,
+          "recall": 0.0
+        },
+        "ge32": {
+          "detected": 27,
+          "total": 112,
+          "recall": 0.24107142857142858
+        }
+      }
+    },
+    "negative_images": 0,
+    "negative_images_with_false_positive": 0,
+    "negative_false_positive_image_rate": null
+  },
+  {
+    "confidence": 0.55,
+    "match_box_iou": 0.5,
+    "tp": 728,
+    "fp": 261,
+    "fn": 324,
+    "precision": 0.7360970677451971,
+    "recall": 0.6920152091254753,
+    "f1": 0.713375796178344,
+    "per_class_counts_tp_fp_fn": [
+      [
+        367,
+        62,
+        43
+      ],
+      [
+        295,
+        113,
+        159
+      ],
+      [
+        42,
+        32,
+        31
+      ],
+      [
+        24,
+        54,
+        91
+      ]
+    ],
+    "size_recall": {
+      "lt8": {
+        "detected": 0,
+        "total": 0,
+        "recall": null
+      },
+      "8to16": {
+        "detected": 56,
+        "total": 98,
+        "recall": 0.5714285714285714
+      },
+      "16to32": {
+        "detected": 345,
+        "total": 430,
+        "recall": 0.8023255813953488
+      },
+      "ge32": {
+        "detected": 327,
+        "total": 524,
+        "recall": 0.6240458015267175
+      }
+    },
+    "class_by_native_shortside_recall": {
+      "resistor": {
+        "lt8": {
+          "detected": 0,
+          "total": 0,
+          "recall": null
+        },
+        "8to16": {
+          "detected": 28,
+          "total": 35,
+          "recall": 0.8
+        },
+        "16to32": {
+          "detected": 238,
+          "total": 259,
+          "recall": 0.918918918918919
+        },
+        "ge32": {
+          "detected": 101,
+          "total": 116,
+          "recall": 0.8706896551724138
+        }
+      },
+      "capacitor": {
+        "lt8": {
+          "detected": 0,
+          "total": 0,
+          "recall": null
+        },
+        "8to16": {
+          "detected": 28,
+          "total": 63,
+          "recall": 0.4444444444444444
+        },
+        "16to32": {
+          "detected": 106,
+          "total": 167,
+          "recall": 0.6347305389221557
+        },
+        "ge32": {
+          "detected": 161,
+          "total": 224,
+          "recall": 0.71875
+        }
+      },
+      "ic": {
+        "lt8": {
+          "detected": 0,
+          "total": 0,
+          "recall": null
+        },
+        "8to16": {
+          "detected": 0,
+          "total": 0,
+          "recall": null
+        },
+        "16to32": {
+          "detected": 1,
+          "total": 1,
+          "recall": 1.0
+        },
+        "ge32": {
+          "detected": 41,
+          "total": 72,
+          "recall": 0.5694444444444444
+        }
+      },
+      "connector": {
+        "lt8": {
+          "detected": 0,
+          "total": 0,
+          "recall": null
+        },
+        "8to16": {
+          "detected": 0,
+          "total": 0,
+          "recall": null
+        },
+        "16to32": {
+          "detected": 0,
+          "total": 3,
+          "recall": 0.0
+        },
+        "ge32": {
+          "detected": 24,
+          "total": 112,
+          "recall": 0.21428571428571427
+        }
+      }
+    },
+    "negative_images": 0,
+    "negative_images_with_false_positive": 0,
+    "negative_false_positive_image_rate": null
+  },
+  {
+    "confidence": 0.6,
+    "match_box_iou": 0.5,
+    "tp": 705,
+    "fp": 222,
+    "fn": 347,
+    "precision": 0.7605177993527508,
+    "recall": 0.6701520912547528,
+    "f1": 0.7124810510358766,
+    "per_class_counts_tp_fp_fn": [
+      [
+        359,
+        57,
+        51
+      ],
+      [
+        286,
+        95,
+        168
+      ],
+      [
+        40,
+        26,
+        33
+      ],
+      [
+        20,
+        44,
+        95
+      ]
+    ],
+    "size_recall": {
+      "lt8": {
+        "detected": 0,
+        "total": 0,
+        "recall": null
+      },
+      "8to16": {
+        "detected": 53,
+        "total": 98,
+        "recall": 0.5408163265306123
+      },
+      "16to32": {
+        "detected": 338,
+        "total": 430,
+        "recall": 0.786046511627907
+      },
+      "ge32": {
+        "detected": 314,
+        "total": 524,
+        "recall": 0.5992366412213741
+      }
+    },
+    "class_by_native_shortside_recall": {
+      "resistor": {
+        "lt8": {
+          "detected": 0,
+          "total": 0,
+          "recall": null
+        },
+        "8to16": {
+          "detected": 28,
+          "total": 35,
+          "recall": 0.8
+        },
+        "16to32": {
+          "detected": 235,
+          "total": 259,
+          "recall": 0.9073359073359073
+        },
+        "ge32": {
+          "detected": 96,
+          "total": 116,
+          "recall": 0.8275862068965517
+        }
+      },
+      "capacitor": {
+        "lt8": {
+          "detected": 0,
+          "total": 0,
+          "recall": null
+        },
+        "8to16": {
+          "detected": 25,
+          "total": 63,
+          "recall": 0.3968253968253968
+        },
+        "16to32": {
+          "detected": 102,
+          "total": 167,
+          "recall": 0.6107784431137725
+        },
+        "ge32": {
+          "detected": 159,
+          "total": 224,
+          "recall": 0.7098214285714286
+        }
+      },
+      "ic": {
+        "lt8": {
+          "detected": 0,
+          "total": 0,
+          "recall": null
+        },
+        "8to16": {
+          "detected": 0,
+          "total": 0,
+          "recall": null
+        },
+        "16to32": {
+          "detected": 1,
+          "total": 1,
+          "recall": 1.0
+        },
+        "ge32": {
+          "detected": 39,
+          "total": 72,
+          "recall": 0.5416666666666666
+        }
+      },
+      "connector": {
+        "lt8": {
+          "detected": 0,
+          "total": 0,
+          "recall": null
+        },
+        "8to16": {
+          "detected": 0,
+          "total": 0,
+          "recall": null
+        },
+        "16to32": {
+          "detected": 0,
+          "total": 3,
+          "recall": 0.0
+        },
+        "ge32": {
+          "detected": 20,
+          "total": 112,
+          "recall": 0.17857142857142858
+        }
+      }
+    },
+    "negative_images": 0,
+    "negative_images_with_false_positive": 0,
+    "negative_false_positive_image_rate": null
+  },
+  {
+    "confidence": 0.65,
+    "match_box_iou": 0.5,
+    "tp": 681,
+    "fp": 191,
+    "fn": 371,
+    "precision": 0.7809633027522935,
+    "recall": 0.6473384030418251,
+    "f1": 0.707900207900208,
+    "per_class_counts_tp_fp_fn": [
+      [
+        347,
+        49,
+        63
+      ],
+      [
+        279,
+        86,
+        175
+      ],
+      [
+        38,
+        23,
+        35
+      ],
+      [
+        17,
+        33,
+        98
+      ]
+    ],
+    "size_recall": {
+      "lt8": {
+        "detected": 0,
+        "total": 0,
+        "recall": null
+      },
+      "8to16": {
+        "detected": 52,
+        "total": 98,
+        "recall": 0.5306122448979592
+      },
+      "16to32": {
+        "detected": 332,
+        "total": 430,
+        "recall": 0.772093023255814
+      },
+      "ge32": {
+        "detected": 297,
+        "total": 524,
+        "recall": 0.566793893129771
+      }
+    },
+    "class_by_native_shortside_recall": {
+      "resistor": {
+        "lt8": {
+          "detected": 0,
+          "total": 0,
+          "recall": null
+        },
+        "8to16": {
+          "detected": 27,
+          "total": 35,
+          "recall": 0.7714285714285715
+        },
+        "16to32": {
+          "detected": 231,
+          "total": 259,
+          "recall": 0.8918918918918919
+        },
+        "ge32": {
+          "detected": 89,
+          "total": 116,
+          "recall": 0.7672413793103449
+        }
+      },
+      "capacitor": {
+        "lt8": {
+          "detected": 0,
+          "total": 0,
+          "recall": null
+        },
+        "8to16": {
+          "detected": 25,
+          "total": 63,
+          "recall": 0.3968253968253968
+        },
+        "16to32": {
+          "detected": 100,
+          "total": 167,
+          "recall": 0.5988023952095808
+        },
+        "ge32": {
+          "detected": 154,
+          "total": 224,
+          "recall": 0.6875
+        }
+      },
+      "ic": {
+        "lt8": {
+          "detected": 0,
+          "total": 0,
+          "recall": null
+        },
+        "8to16": {
+          "detected": 0,
+          "total": 0,
+          "recall": null
+        },
+        "16to32": {
+          "detected": 1,
+          "total": 1,
+          "recall": 1.0
+        },
+        "ge32": {
+          "detected": 37,
+          "total": 72,
+          "recall": 0.5138888888888888
+        }
+      },
+      "connector": {
+        "lt8": {
+          "detected": 0,
+          "total": 0,
+          "recall": null
+        },
+        "8to16": {
+          "detected": 0,
+          "total": 0,
+          "recall": null
+        },
+        "16to32": {
+          "detected": 0,
+          "total": 3,
+          "recall": 0.0
+        },
+        "ge32": {
+          "detected": 17,
+          "total": 112,
+          "recall": 0.15178571428571427
+        }
+      }
+    },
+    "negative_images": 0,
+    "negative_images_with_false_positive": 0,
+    "negative_false_positive_image_rate": null
+  },
+  {
+    "confidence": 0.7,
+    "match_box_iou": 0.5,
+    "tp": 652,
+    "fp": 160,
+    "fn": 400,
+    "precision": 0.8029556650246306,
+    "recall": 0.6197718631178707,
+    "f1": 0.6995708154506437,
+    "per_class_counts_tp_fp_fn": [
+      [
+        334,
+        42,
+        76
+      ],
+      [
+        267,
+        75,
+        187
+      ],
+      [
+        37,
+        23,
+        36
+      ],
+      [
+        14,
+        20,
+        101
+      ]
+    ],
+    "size_recall": {
+      "lt8": {
+        "detected": 0,
+        "total": 0,
+        "recall": null
+      },
+      "8to16": {
+        "detected": 50,
+        "total": 98,
+        "recall": 0.5102040816326531
+      },
+      "16to32": {
+        "detected": 327,
+        "total": 430,
+        "recall": 0.7604651162790698
+      },
+      "ge32": {
+        "detected": 275,
+        "total": 524,
+        "recall": 0.5248091603053435
+      }
+    },
+    "class_by_native_shortside_recall": {
+      "resistor": {
+        "lt8": {
+          "detected": 0,
+          "total": 0,
+          "recall": null
+        },
+        "8to16": {
+          "detected": 27,
+          "total": 35,
+          "recall": 0.7714285714285715
+        },
+        "16to32": {
+          "detected": 226,
+          "total": 259,
+          "recall": 0.8725868725868726
+        },
+        "ge32": {
+          "detected": 81,
+          "total": 116,
+          "recall": 0.6982758620689655
+        }
+      },
+      "capacitor": {
+        "lt8": {
+          "detected": 0,
+          "total": 0,
+          "recall": null
+        },
+        "8to16": {
+          "detected": 23,
+          "total": 63,
+          "recall": 0.36507936507936506
+        },
+        "16to32": {
+          "detected": 100,
+          "total": 167,
+          "recall": 0.5988023952095808
+        },
+        "ge32": {
+          "detected": 144,
+          "total": 224,
+          "recall": 0.6428571428571429
+        }
+      },
+      "ic": {
+        "lt8": {
+          "detected": 0,
+          "total": 0,
+          "recall": null
+        },
+        "8to16": {
+          "detected": 0,
+          "total": 0,
+          "recall": null
+        },
+        "16to32": {
+          "detected": 1,
+          "total": 1,
+          "recall": 1.0
+        },
+        "ge32": {
+          "detected": 36,
+          "total": 72,
+          "recall": 0.5
+        }
+      },
+      "connector": {
+        "lt8": {
+          "detected": 0,
+          "total": 0,
+          "recall": null
+        },
+        "8to16": {
+          "detected": 0,
+          "total": 0,
+          "recall": null
+        },
+        "16to32": {
+          "detected": 0,
+          "total": 3,
+          "recall": 0.0
+        },
+        "ge32": {
+          "detected": 14,
+          "total": 112,
+          "recall": 0.125
+        }
+      }
+    },
+    "negative_images": 0,
+    "negative_images_with_false_positive": 0,
+    "negative_false_positive_image_rate": null
+  },
+  {
+    "confidence": 0.75,
+    "match_box_iou": 0.5,
+    "tp": 593,
+    "fp": 139,
+    "fn": 459,
+    "precision": 0.8101092896174863,
+    "recall": 0.5636882129277566,
+    "f1": 0.6647982062780269,
+    "per_class_counts_tp_fp_fn": [
+      [
+        314,
+        39,
+        96
+      ],
+      [
+        237,
+        67,
+        217
+      ],
+      [
+        36,
+        18,
+        37
+      ],
+      [
+        6,
+        15,
+        109
+      ]
+    ],
+    "size_recall": {
+      "lt8": {
+        "detected": 0,
+        "total": 0,
+        "recall": null
+      },
+      "8to16": {
+        "detected": 44,
+        "total": 98,
+        "recall": 0.4489795918367347
+      },
+      "16to32": {
+        "detected": 308,
+        "total": 430,
+        "recall": 0.7162790697674418
+      },
+      "ge32": {
+        "detected": 241,
+        "total": 524,
+        "recall": 0.4599236641221374
+      }
+    },
+    "class_by_native_shortside_recall": {
+      "resistor": {
+        "lt8": {
+          "detected": 0,
+          "total": 0,
+          "recall": null
+        },
+        "8to16": {
+          "detected": 26,
+          "total": 35,
+          "recall": 0.7428571428571429
+        },
+        "16to32": {
+          "detected": 216,
+          "total": 259,
+          "recall": 0.833976833976834
+        },
+        "ge32": {
+          "detected": 72,
+          "total": 116,
+          "recall": 0.6206896551724138
+        }
+      },
+      "capacitor": {
+        "lt8": {
+          "detected": 0,
+          "total": 0,
+          "recall": null
+        },
+        "8to16": {
+          "detected": 18,
+          "total": 63,
+          "recall": 0.2857142857142857
+        },
+        "16to32": {
+          "detected": 91,
+          "total": 167,
+          "recall": 0.5449101796407185
+        },
+        "ge32": {
+          "detected": 128,
+          "total": 224,
+          "recall": 0.5714285714285714
+        }
+      },
+      "ic": {
+        "lt8": {
+          "detected": 0,
+          "total": 0,
+          "recall": null
+        },
+        "8to16": {
+          "detected": 0,
+          "total": 0,
+          "recall": null
+        },
+        "16to32": {
+          "detected": 1,
+          "total": 1,
+          "recall": 1.0
+        },
+        "ge32": {
+          "detected": 35,
+          "total": 72,
+          "recall": 0.4861111111111111
+        }
+      },
+      "connector": {
+        "lt8": {
+          "detected": 0,
+          "total": 0,
+          "recall": null
+        },
+        "8to16": {
+          "detected": 0,
+          "total": 0,
+          "recall": null
+        },
+        "16to32": {
+          "detected": 0,
+          "total": 3,
+          "recall": 0.0
+        },
+        "ge32": {
+          "detected": 6,
+          "total": 112,
+          "recall": 0.05357142857142857
+        }
+      }
+    },
+    "negative_images": 0,
+    "negative_images_with_false_positive": 0,
+    "negative_false_positive_image_rate": null
+  },
+  {
+    "confidence": 0.8,
+    "match_box_iou": 0.5,
+    "tp": 494,
+    "fp": 103,
+    "fn": 558,
+    "precision": 0.8274706867671692,
+    "recall": 0.4695817490494297,
+    "f1": 0.5991510006064281,
+    "per_class_counts_tp_fp_fn": [
+      [
+        277,
+        34,
+        133
+      ],
+      [
+        181,
+        48,
+        273
+      ],
+      [
+        31,
+        12,
+        42
+      ],
+      [
+        5,
+        9,
+        110
+      ]
+    ],
+    "size_recall": {
+      "lt8": {
+        "detected": 0,
+        "total": 0,
+        "recall": null
+      },
+      "8to16": {
+        "detected": 40,
+        "total": 98,
+        "recall": 0.40816326530612246
+      },
+      "16to32": {
+        "detected": 282,
+        "total": 430,
+        "recall": 0.6558139534883721
+      },
+      "ge32": {
+        "detected": 172,
+        "total": 524,
+        "recall": 0.3282442748091603
+      }
+    },
+    "class_by_native_shortside_recall": {
+      "resistor": {
+        "lt8": {
+          "detected": 0,
+          "total": 0,
+          "recall": null
+        },
+        "8to16": {
+          "detected": 25,
+          "total": 35,
+          "recall": 0.7142857142857143
+        },
+        "16to32": {
+          "detected": 200,
+          "total": 259,
+          "recall": 0.7722007722007722
+        },
+        "ge32": {
+          "detected": 52,
+          "total": 116,
+          "recall": 0.4482758620689655
+        }
+      },
+      "capacitor": {
+        "lt8": {
+          "detected": 0,
+          "total": 0,
+          "recall": null
+        },
+        "8to16": {
+          "detected": 15,
+          "total": 63,
+          "recall": 0.23809523809523808
+        },
+        "16to32": {
+          "detected": 81,
+          "total": 167,
+          "recall": 0.48502994011976047
+        },
+        "ge32": {
+          "detected": 85,
+          "total": 224,
+          "recall": 0.3794642857142857
+        }
+      },
+      "ic": {
+        "lt8": {
+          "detected": 0,
+          "total": 0,
+          "recall": null
+        },
+        "8to16": {
+          "detected": 0,
+          "total": 0,
+          "recall": null
+        },
+        "16to32": {
+          "detected": 1,
+          "total": 1,
+          "recall": 1.0
+        },
+        "ge32": {
+          "detected": 30,
+          "total": 72,
+          "recall": 0.4166666666666667
+        }
+      },
+      "connector": {
+        "lt8": {
+          "detected": 0,
+          "total": 0,
+          "recall": null
+        },
+        "8to16": {
+          "detected": 0,
+          "total": 0,
+          "recall": null
+        },
+        "16to32": {
+          "detected": 0,
+          "total": 3,
+          "recall": 0.0
+        },
+        "ge32": {
+          "detected": 5,
+          "total": 112,
+          "recall": 0.044642857142857144
+        }
+      }
+    },
+    "negative_images": 0,
+    "negative_images_with_false_positive": 0,
+    "negative_false_positive_image_rate": null
+  },
+  {
+    "confidence": 0.85,
+    "match_box_iou": 0.5,
+    "tp": 327,
+    "fp": 68,
+    "fn": 725,
+    "precision": 0.8278481012658228,
+    "recall": 0.3108365019011407,
+    "f1": 0.45196959225984795,
+    "per_class_counts_tp_fp_fn": [
+      [
+        213,
+        25,
+        197
+      ],
+      [
+        90,
+        35,
+        364
+      ],
+      [
+        20,
+        4,
+        53
+      ],
+      [
+        4,
+        4,
+        111
+      ]
+    ],
+    "size_recall": {
+      "lt8": {
+        "detected": 0,
+        "total": 0,
+        "recall": null
+      },
+      "8to16": {
+        "detected": 31,
+        "total": 98,
+        "recall": 0.3163265306122449
+      },
+      "16to32": {
+        "detected": 207,
+        "total": 430,
+        "recall": 0.4813953488372093
+      },
+      "ge32": {
+        "detected": 89,
+        "total": 524,
+        "recall": 0.16984732824427481
+      }
+    },
+    "class_by_native_shortside_recall": {
+      "resistor": {
+        "lt8": {
+          "detected": 0,
+          "total": 0,
+          "recall": null
+        },
+        "8to16": {
+          "detected": 22,
+          "total": 35,
+          "recall": 0.6285714285714286
+        },
+        "16to32": {
+          "detected": 161,
+          "total": 259,
+          "recall": 0.6216216216216216
+        },
+        "ge32": {
+          "detected": 30,
+          "total": 116,
+          "recall": 0.25862068965517243
+        }
+      },
+      "capacitor": {
+        "lt8": {
+          "detected": 0,
+          "total": 0,
+          "recall": null
+        },
+        "8to16": {
+          "detected": 9,
+          "total": 63,
+          "recall": 0.14285714285714285
+        },
+        "16to32": {
+          "detected": 46,
+          "total": 167,
+          "recall": 0.2754491017964072
+        },
+        "ge32": {
+          "detected": 35,
+          "total": 224,
+          "recall": 0.15625
+        }
+      },
+      "ic": {
+        "lt8": {
+          "detected": 0,
+          "total": 0,
+          "recall": null
+        },
+        "8to16": {
+          "detected": 0,
+          "total": 0,
+          "recall": null
+        },
+        "16to32": {
+          "detected": 0,
+          "total": 1,
+          "recall": 0.0
+        },
+        "ge32": {
+          "detected": 20,
+          "total": 72,
+          "recall": 0.2777777777777778
+        }
+      },
+      "connector": {
+        "lt8": {
+          "detected": 0,
+          "total": 0,
+          "recall": null
+        },
+        "8to16": {
+          "detected": 0,
+          "total": 0,
+          "recall": null
+        },
+        "16to32": {
+          "detected": 0,
+          "total": 3,
+          "recall": 0.0
+        },
+        "ge32": {
+          "detected": 4,
+          "total": 112,
+          "recall": 0.03571428571428571
+        }
+      }
+    },
+    "negative_images": 0,
+    "negative_images_with_false_positive": 0,
+    "negative_false_positive_image_rate": null
+  },
+  {
+    "confidence": 0.9,
+    "match_box_iou": 0.5,
+    "tp": 57,
+    "fp": 12,
+    "fn": 995,
+    "precision": 0.8260869565217391,
+    "recall": 0.05418250950570342,
+    "f1": 0.10169491525423728,
+    "per_class_counts_tp_fp_fn": [
+      [
+        28,
+        6,
+        382
+      ],
+      [
+        18,
+        3,
+        436
+      ],
+      [
+        10,
+        2,
+        63
+      ],
+      [
+        1,
+        1,
+        114
+      ]
+    ],
+    "size_recall": {
+      "lt8": {
+        "detected": 0,
+        "total": 0,
+        "recall": null
+      },
+      "8to16": {
+        "detected": 5,
+        "total": 98,
+        "recall": 0.05102040816326531
+      },
+      "16to32": {
+        "detected": 24,
+        "total": 430,
+        "recall": 0.05581395348837209
+      },
+      "ge32": {
+        "detected": 28,
+        "total": 524,
+        "recall": 0.05343511450381679
+      }
+    },
+    "class_by_native_shortside_recall": {
+      "resistor": {
+        "lt8": {
+          "detected": 0,
+          "total": 0,
+          "recall": null
+        },
+        "8to16": {
+          "detected": 3,
+          "total": 35,
+          "recall": 0.08571428571428572
+        },
+        "16to32": {
+          "detected": 19,
+          "total": 259,
+          "recall": 0.07335907335907337
+        },
+        "ge32": {
+          "detected": 6,
+          "total": 116,
+          "recall": 0.05172413793103448
+        }
+      },
+      "capacitor": {
+        "lt8": {
+          "detected": 0,
+          "total": 0,
+          "recall": null
+        },
+        "8to16": {
+          "detected": 2,
+          "total": 63,
+          "recall": 0.031746031746031744
+        },
+        "16to32": {
+          "detected": 5,
+          "total": 167,
+          "recall": 0.029940119760479042
+        },
+        "ge32": {
+          "detected": 11,
+          "total": 224,
+          "recall": 0.049107142857142856
+        }
+      },
+      "ic": {
+        "lt8": {
+          "detected": 0,
+          "total": 0,
+          "recall": null
+        },
+        "8to16": {
+          "detected": 0,
+          "total": 0,
+          "recall": null
+        },
+        "16to32": {
+          "detected": 0,
+          "total": 1,
+          "recall": 0.0
+        },
+        "ge32": {
+          "detected": 10,
+          "total": 72,
+          "recall": 0.1388888888888889
+        }
+      },
+      "connector": {
+        "lt8": {
+          "detected": 0,
+          "total": 0,
+          "recall": null
+        },
+        "8to16": {
+          "detected": 0,
+          "total": 0,
+          "recall": null
+        },
+        "16to32": {
+          "detected": 0,
+          "total": 3,
+          "recall": 0.0
+        },
+        "ge32": {
+          "detected": 1,
+          "total": 112,
+          "recall": 0.008928571428571428
+        }
+      }
+    },
+    "negative_images": 0,
+    "negative_images_with_false_positive": 0,
+    "negative_false_positive_image_rate": null
+  },
+  {
+    "confidence": 0.95,
+    "match_box_iou": 0.5,
+    "tp": 2,
+    "fp": 0,
+    "fn": 1050,
+    "precision": 1.0,
+    "recall": 0.0019011406844106464,
+    "f1": 0.0037950664136622387,
+    "per_class_counts_tp_fp_fn": [
+      [
+        0,
+        0,
+        410
+      ],
+      [
+        2,
+        0,
+        452
+      ],
+      [
+        0,
+        0,
+        73
+      ],
+      [
+        0,
+        0,
+        115
+      ]
+    ],
+    "size_recall": {
+      "lt8": {
+        "detected": 0,
+        "total": 0,
+        "recall": null
+      },
+      "8to16": {
+        "detected": 0,
+        "total": 98,
+        "recall": 0.0
+      },
+      "16to32": {
+        "detected": 0,
+        "total": 430,
+        "recall": 0.0
+      },
+      "ge32": {
+        "detected": 2,
+        "total": 524,
+        "recall": 0.003816793893129771
+      }
+    },
+    "class_by_native_shortside_recall": {
+      "resistor": {
+        "lt8": {
+          "detected": 0,
+          "total": 0,
+          "recall": null
+        },
+        "8to16": {
+          "detected": 0,
+          "total": 35,
+          "recall": 0.0
+        },
+        "16to32": {
+          "detected": 0,
+          "total": 259,
+          "recall": 0.0
+        },
+        "ge32": {
+          "detected": 0,
+          "total": 116,
+          "recall": 0.0
+        }
+      },
+      "capacitor": {
+        "lt8": {
+          "detected": 0,
+          "total": 0,
+          "recall": null
+        },
+        "8to16": {
+          "detected": 0,
+          "total": 63,
+          "recall": 0.0
+        },
+        "16to32": {
+          "detected": 0,
+          "total": 167,
+          "recall": 0.0
+        },
+        "ge32": {
+          "detected": 2,
+          "total": 224,
+          "recall": 0.008928571428571428
+        }
+      },
+      "ic": {
+        "lt8": {
+          "detected": 0,
+          "total": 0,
+          "recall": null
+        },
+        "8to16": {
+          "detected": 0,
+          "total": 0,
+          "recall": null
+        },
+        "16to32": {
+          "detected": 0,
+          "total": 1,
+          "recall": 0.0
+        },
+        "ge32": {
+          "detected": 0,
+          "total": 72,
+          "recall": 0.0
+        }
+      },
+      "connector": {
+        "lt8": {
+          "detected": 0,
+          "total": 0,
+          "recall": null
+        },
+        "8to16": {
+          "detected": 0,
+          "total": 0,
+          "recall": null
+        },
+        "16to32": {
+          "detected": 0,
+          "total": 3,
+          "recall": 0.0
+        },
+        "ge32": {
+          "detected": 0,
+          "total": 112,
+          "recall": 0.0
+        }
+      }
+    },
+    "negative_images": 0,
+    "negative_images_with_false_positive": 0,
+    "negative_false_positive_image_rate": null
+  }
+]

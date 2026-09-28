@@ -1,0 +1,6 @@
+{
+  "reason": "Recompute summary counts after new split; source rows, objects and images unchanged",
+  "before_sha256": "24bd7cd40ef1c66669451ec8f3bb9ba7867cfc66954a998503f2c6c4b93bd38c",
+  "after_sha256": "a91d4956da6adc8b3eebcd87da6e8e428362e1c14cef9e8f9d5a4583817d8c19",
+  "before_any_r04_training": true
+}

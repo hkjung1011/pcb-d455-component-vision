@@ -1,0 +1,966 @@
+{
+  "script": "r04_independent_ap_matching",
+  "generated_utc": "2026-09-28T16:00:12.039535+00:00",
+  "review_commit": "17f72fdd9143bca6645f9b342414b0c5a2c1ed6d",
+  "inputs_modified": false,
+  "definitions": {
+    "coco": "IoU thresholds .50:.05:.95; 101 recall points; greedy per image/category by score (stable) with best-IoU unmatched GT; per-image-per-category truncation to maxDets before accumulation; precision envelope; mean over IoU x recall x categories with GT",
+    "operating": "score-descending greedy, same class, IoU>=0.5, one-to-one; exact IoU ties to the highest native GT index",
+    "caveat": "Reproduces the stored arithmetic from saved predictions; cannot see predictions removed by the evaluator's per-crop/global 1,000 caps"
+  },
+  "results": {
+    "jobs": 22,
+    "max_abs_ap_difference": 2.220446049250313e-16,
+    "all_operating_counts_equal": true,
+    "rows": [
+      {
+        "job": "baseline__epoch_02__dual__val",
+        "stored": {
+          "ap50_95_max100": 0.12062069540179585,
+          "ap50_95_max300": 0.14903562230724904,
+          "ap50_max300": 0.32633870000196363
+        },
+        "recomputed": {
+          "ap50_95_max100": 0.12062069540179586,
+          "ap50_95_max300": 0.14903562230724904,
+          "ap50_max300": 0.32633870000196363
+        },
+        "abs_diff": {
+          "ap50_95_max100": 1.3877787807814457e-17,
+          "ap50_95_max300": 0.0,
+          "ap50_max300": 0.0
+        },
+        "operating_confidence": 0.6,
+        "operating_counts_equal": true,
+        "prediction_cells_over_100": 30,
+        "prediction_cells_over_300": 9,
+        "prediction_cells": 36
+      },
+      {
+        "job": "baseline__epoch_02__native__val",
+        "stored": {
+          "ap50_95_max100": 0.09096920133474755,
+          "ap50_95_max300": 0.12040068852593076,
+          "ap50_max300": 0.28743303722598873
+        },
+        "recomputed": {
+          "ap50_95_max100": 0.09096920133474753,
+          "ap50_95_max300": 0.12040068852593075,
+          "ap50_max300": 0.2874330372259888
+        },
+        "abs_diff": {
+          "ap50_95_max100": 1.3877787807814457e-17,
+          "ap50_95_max300": 1.3877787807814457e-17,
+          "ap50_max300": 5.551115123125783e-17
+        },
+        "operating_confidence": 0.5,
+        "operating_counts_equal": true,
+        "prediction_cells_over_100": 30,
+        "prediction_cells_over_300": 10,
+        "prediction_cells": 36
+      },
+      {
+        "job": "baseline__epoch_04__dual__val",
+        "stored": {
+          "ap50_95_max100": 0.2835543953211011,
+          "ap50_95_max300": 0.31620817044730304,
+          "ap50_max300": 0.5503237543273868
+        },
+        "recomputed": {
+          "ap50_95_max100": 0.2835543953211011,
+          "ap50_95_max300": 0.3162081704473031,
+          "ap50_max300": 0.5503237543273868
+        },
+        "abs_diff": {
+          "ap50_95_max100": 0.0,
+          "ap50_95_max300": 5.551115123125783e-17,
+          "ap50_max300": 0.0
+        },
+        "operating_confidence": 0.6,
+        "operating_counts_equal": true,
+        "prediction_cells_over_100": 22,
+        "prediction_cells_over_300": 6,
+        "prediction_cells": 36
+      },
+      {
+        "job": "baseline__epoch_04__native__val",
+        "stored": {
+          "ap50_95_max100": 0.24880033431369128,
+          "ap50_95_max300": 0.2780109463668659,
+          "ap50_max300": 0.4935780902726706
+        },
+        "recomputed": {
+          "ap50_95_max100": 0.24880033431369128,
+          "ap50_95_max300": 0.27801094636686585,
+          "ap50_max300": 0.4935780902726706
+        },
+        "abs_diff": {
+          "ap50_95_max100": 0.0,
+          "ap50_95_max300": 5.551115123125783e-17,
+          "ap50_max300": 0.0
+        },
+        "operating_confidence": 0.55,
+        "operating_counts_equal": true,
+        "prediction_cells_over_100": 23,
+        "prediction_cells_over_300": 5,
+        "prediction_cells": 36
+      },
+      {
+        "job": "baseline__epoch_06__dual__val",
+        "stored": {
+          "ap50_95_max100": 0.29067409212934897,
+          "ap50_95_max300": 0.3154619682479876,
+          "ap50_max300": 0.548320899844452
+        },
+        "recomputed": {
+          "ap50_95_max100": 0.29067409212934897,
+          "ap50_95_max300": 0.3154619682479876,
+          "ap50_max300": 0.548320899844452
+        },
+        "abs_diff": {
+          "ap50_95_max100": 0.0,
+          "ap50_95_max300": 0.0,
+          "ap50_max300": 0.0
+        },
+        "operating_confidence": 0.6,
+        "operating_counts_equal": true,
+        "prediction_cells_over_100": 19,
+        "prediction_cells_over_300": 6,
+        "prediction_cells": 36
+      },
+      {
+        "job": "baseline__epoch_06__native__val",
+        "stored": {
+          "ap50_95_max100": 0.25430243022892185,
+          "ap50_95_max300": 0.27723851380808573,
+          "ap50_max300": 0.5018731072283892
+        },
+        "recomputed": {
+          "ap50_95_max100": 0.25430243022892185,
+          "ap50_95_max300": 0.2772385138080858,
+          "ap50_max300": 0.5018731072283892
+        },
+        "abs_diff": {
+          "ap50_95_max100": 0.0,
+          "ap50_95_max300": 5.551115123125783e-17,
+          "ap50_max300": 0.0
+        },
+        "operating_confidence": 0.5,
+        "operating_counts_equal": true,
+        "prediction_cells_over_100": 18,
+        "prediction_cells_over_300": 6,
+        "prediction_cells": 36
+      },
+      {
+        "job": "baseline__epoch_08__dual__val",
+        "stored": {
+          "ap50_95_max100": 0.31734834449668176,
+          "ap50_95_max300": 0.3461763093437149,
+          "ap50_max300": 0.5960061580292635
+        },
+        "recomputed": {
+          "ap50_95_max100": 0.31734834449668176,
+          "ap50_95_max300": 0.3461763093437149,
+          "ap50_max300": 0.5960061580292635
+        },
+        "abs_diff": {
+          "ap50_95_max100": 0.0,
+          "ap50_95_max300": 0.0,
+          "ap50_max300": 0.0
+        },
+        "operating_confidence": 0.65,
+        "operating_counts_equal": true,
+        "prediction_cells_over_100": 17,
+        "prediction_cells_over_300": 7,
+        "prediction_cells": 36
+      },
+      {
+        "job": "baseline__epoch_08__native__val",
+        "stored": {
+          "ap50_95_max100": 0.2599085048014094,
+          "ap50_95_max300": 0.2885821971166293,
+          "ap50_max300": 0.5188520071257219
+        },
+        "recomputed": {
+          "ap50_95_max100": 0.25990850480140937,
+          "ap50_95_max300": 0.2885821971166293,
+          "ap50_max300": 0.5188520071257221
+        },
+        "abs_diff": {
+          "ap50_95_max100": 5.551115123125783e-17,
+          "ap50_95_max300": 0.0,
+          "ap50_max300": 2.220446049250313e-16
+        },
+        "operating_confidence": 0.5,
+        "operating_counts_equal": true,
+        "prediction_cells_over_100": 15,
+        "prediction_cells_over_300": 5,
+        "prediction_cells": 36
+      },
+      {
+        "job": "baseline__epoch_10__dual__val",
+        "stored": {
+          "ap50_95_max100": 0.3321479706544031,
+          "ap50_95_max300": 0.36112272034672194,
+          "ap50_max300": 0.6168136872870509
+        },
+        "recomputed": {
+          "ap50_95_max100": 0.3321479706544031,
+          "ap50_95_max300": 0.36112272034672194,
+          "ap50_max300": 0.6168136872870509
+        },
+        "abs_diff": {
+          "ap50_95_max100": 0.0,
+          "ap50_95_max300": 0.0,
+          "ap50_max300": 0.0
+        },
+        "operating_confidence": 0.75,
+        "operating_counts_equal": true,
+        "prediction_cells_over_100": 16,
+        "prediction_cells_over_300": 7,
+        "prediction_cells": 36
+      },
+      {
+        "job": "baseline__epoch_10__native__val",
+        "stored": {
+          "ap50_95_max100": 0.2747338137452566,
+          "ap50_95_max300": 0.30339878804888115,
+          "ap50_max300": 0.5635301718900502
+        },
+        "recomputed": {
+          "ap50_95_max100": 0.27473381374525657,
+          "ap50_95_max300": 0.30339878804888115,
+          "ap50_max300": 0.5635301718900503
+        },
+        "abs_diff": {
+          "ap50_95_max100": 5.551115123125783e-17,
+          "ap50_95_max300": 0.0,
+          "ap50_max300": 1.1102230246251565e-16
+        },
+        "operating_confidence": 0.5,
+        "operating_counts_equal": true,
+        "prediction_cells_over_100": 15,
+        "prediction_cells_over_300": 5,
+        "prediction_cells": 36
+      },
+      {
+        "job": "baseline__epoch_12__dual__val",
+        "stored": {
+          "ap50_95_max100": 0.30540373681207006,
+          "ap50_95_max300": 0.34320135037661953,
+          "ap50_max300": 0.5872439807395975
+        },
+        "recomputed": {
+          "ap50_95_max100": 0.30540373681207006,
+          "ap50_95_max300": 0.34320135037661964,
+          "ap50_max300": 0.5872439807395975
+        },
+        "abs_diff": {
+          "ap50_95_max100": 0.0,
+          "ap50_95_max300": 1.1102230246251565e-16,
+          "ap50_max300": 0.0
+        },
+        "operating_confidence": 0.45,
+        "operating_counts_equal": true,
+        "prediction_cells_over_100": 17,
+        "prediction_cells_over_300": 6,
+        "prediction_cells": 36
+      },
+      {
+        "job": "baseline__epoch_12__native__val",
+        "stored": {
+          "ap50_95_max100": 0.26285109930607825,
+          "ap50_95_max300": 0.30203715420018706,
+          "ap50_max300": 0.5420502945985726
+        },
+        "recomputed": {
+          "ap50_95_max100": 0.26285109930607825,
+          "ap50_95_max300": 0.30203715420018706,
+          "ap50_max300": 0.5420502945985726
+        },
+        "abs_diff": {
+          "ap50_95_max100": 0.0,
+          "ap50_95_max300": 0.0,
+          "ap50_max300": 0.0
+        },
+        "operating_confidence": 0.3,
+        "operating_counts_equal": true,
+        "prediction_cells_over_100": 15,
+        "prediction_cells_over_300": 7,
+        "prediction_cells": 36
+      },
+      {
+        "job": "baseline__epoch_14__dual__val",
+        "stored": {
+          "ap50_95_max100": 0.31158762049541655,
+          "ap50_95_max300": 0.3441818792450482,
+          "ap50_max300": 0.6054761088813749
+        },
+        "recomputed": {
+          "ap50_95_max100": 0.31158762049541655,
+          "ap50_95_max300": 0.3441818792450481,
+          "ap50_max300": 0.6054761088813749
+        },
+        "abs_diff": {
+          "ap50_95_max100": 0.0,
+          "ap50_95_max300": 5.551115123125783e-17,
+          "ap50_max300": 0.0
+        },
+        "operating_confidence": 0.7,
+        "operating_counts_equal": true,
+        "prediction_cells_over_100": 16,
+        "prediction_cells_over_300": 6,
+        "prediction_cells": 36
+      },
+      {
+        "job": "baseline__epoch_14__native__val",
+        "stored": {
+          "ap50_95_max100": 0.276739046447503,
+          "ap50_95_max300": 0.3085058468864295,
+          "ap50_max300": 0.5645077045534115
+        },
+        "recomputed": {
+          "ap50_95_max100": 0.276739046447503,
+          "ap50_95_max300": 0.30850584688642946,
+          "ap50_max300": 0.5645077045534116
+        },
+        "abs_diff": {
+          "ap50_95_max100": 0.0,
+          "ap50_95_max300": 5.551115123125783e-17,
+          "ap50_max300": 1.1102230246251565e-16
+        },
+        "operating_confidence": 0.45,
+        "operating_counts_equal": true,
+        "prediction_cells_over_100": 16,
+        "prediction_cells_over_300": 6,
+        "prediction_cells": 36
+      },
+      {
+        "job": "baseline__epoch_16__dual__val",
+        "stored": {
+          "ap50_95_max100": 0.3442017605967222,
+          "ap50_95_max300": 0.37920759832894246,
+          "ap50_max300": 0.6300177390186836
+        },
+        "recomputed": {
+          "ap50_95_max100": 0.3442017605967222,
+          "ap50_95_max300": 0.37920759832894246,
+          "ap50_max300": 0.6300177390186836
+        },
+        "abs_diff": {
+          "ap50_95_max100": 0.0,
+          "ap50_95_max300": 0.0,
+          "ap50_max300": 0.0
+        },
+        "operating_confidence": 0.7,
+        "operating_counts_equal": true,
+        "prediction_cells_over_100": 17,
+        "prediction_cells_over_300": 7,
+        "prediction_cells": 36
+      },
+      {
+        "job": "baseline__epoch_16__native__val",
+        "stored": {
+          "ap50_95_max100": 0.3027532159278121,
+          "ap50_95_max300": 0.33602809344228635,
+          "ap50_max300": 0.5871552521719311
+        },
+        "recomputed": {
+          "ap50_95_max100": 0.3027532159278121,
+          "ap50_95_max300": 0.3360280934422864,
+          "ap50_max300": 0.5871552521719311
+        },
+        "abs_diff": {
+          "ap50_95_max100": 0.0,
+          "ap50_95_max300": 5.551115123125783e-17,
+          "ap50_max300": 0.0
+        },
+        "operating_confidence": 0.5,
+        "operating_counts_equal": true,
+        "prediction_cells_over_100": 16,
+        "prediction_cells_over_300": 6,
+        "prediction_cells": 36
+      },
+      {
+        "job": "baseline__epoch_18__dual__val",
+        "stored": {
+          "ap50_95_max100": 0.34959225042636016,
+          "ap50_95_max300": 0.38498834797662446,
+          "ap50_max300": 0.649354087047574
+        },
+        "recomputed": {
+          "ap50_95_max100": 0.34959225042636016,
+          "ap50_95_max300": 0.38498834797662446,
+          "ap50_max300": 0.6493540870475739
+        },
+        "abs_diff": {
+          "ap50_95_max100": 0.0,
+          "ap50_95_max300": 0.0,
+          "ap50_max300": 1.1102230246251565e-16
+        },
+        "operating_confidence": 0.7,
+        "operating_counts_equal": true,
+        "prediction_cells_over_100": 18,
+        "prediction_cells_over_300": 6,
+        "prediction_cells": 36
+      },
+      {
+        "job": "baseline__epoch_18__native__val",
+        "stored": {
+          "ap50_95_max100": 0.3146232424526976,
+          "ap50_95_max300": 0.34813091549305875,
+          "ap50_max300": 0.6128308060184923
+        },
+        "recomputed": {
+          "ap50_95_max100": 0.3146232424526976,
+          "ap50_95_max300": 0.34813091549305875,
+          "ap50_max300": 0.6128308060184923
+        },
+        "abs_diff": {
+          "ap50_95_max100": 0.0,
+          "ap50_95_max300": 0.0,
+          "ap50_max300": 0.0
+        },
+        "operating_confidence": 0.55,
+        "operating_counts_equal": true,
+        "prediction_cells_over_100": 15,
+        "prediction_cells_over_300": 5,
+        "prediction_cells": 36
+      },
+      {
+        "job": "baseline__epoch_20__dual__val",
+        "stored": {
+          "ap50_95_max100": 0.3554185928316102,
+          "ap50_95_max300": 0.3924585727507874,
+          "ap50_max300": 0.6524036753248056
+        },
+        "recomputed": {
+          "ap50_95_max100": 0.35541859283161026,
+          "ap50_95_max300": 0.3924585727507873,
+          "ap50_max300": 0.6524036753248056
+        },
+        "abs_diff": {
+          "ap50_95_max100": 5.551115123125783e-17,
+          "ap50_95_max300": 5.551115123125783e-17,
+          "ap50_max300": 0.0
+        },
+        "operating_confidence": 0.75,
+        "operating_counts_equal": true,
+        "prediction_cells_over_100": 17,
+        "prediction_cells_over_300": 6,
+        "prediction_cells": 36
+      },
+      {
+        "job": "baseline__epoch_20__native__val",
+        "stored": {
+          "ap50_95_max100": 0.3201997859105784,
+          "ap50_95_max300": 0.3539304318005965,
+          "ap50_max300": 0.6132680613320882
+        },
+        "recomputed": {
+          "ap50_95_max100": 0.3201997859105784,
+          "ap50_95_max300": 0.35393043180059647,
+          "ap50_max300": 0.6132680613320882
+        },
+        "abs_diff": {
+          "ap50_95_max100": 0.0,
+          "ap50_95_max300": 5.551115123125783e-17,
+          "ap50_max300": 0.0
+        },
+        "operating_confidence": 0.45,
+        "operating_counts_equal": true,
+        "prediction_cells_over_100": 14,
+        "prediction_cells_over_300": 4,
+        "prediction_cells": 36
+      },
+      {
+        "job": "improved__epoch_02__dual__val",
+        "stored": {
+          "ap50_95_max100": 0.18839108035314622,
+          "ap50_95_max300": 0.211667769773068,
+          "ap50_max300": 0.4286619944229002
+        },
+        "recomputed": {
+          "ap50_95_max100": 0.18839108035314628,
+          "ap50_95_max300": 0.211667769773068,
+          "ap50_max300": 0.42866199442290026
+        },
+        "abs_diff": {
+          "ap50_95_max100": 5.551115123125783e-17,
+          "ap50_95_max300": 0.0,
+          "ap50_max300": 5.551115123125783e-17
+        },
+        "operating_confidence": 0.5,
+        "operating_counts_equal": true,
+        "prediction_cells_over_100": 26,
+        "prediction_cells_over_300": 8,
+        "prediction_cells": 36
+      },
+      {
+        "job": "improved__epoch_02__native__val",
+        "stored": {
+          "ap50_95_max100": 0.14984724960907583,
+          "ap50_95_max300": 0.17293548619505625,
+          "ap50_max300": 0.3711233195487787
+        },
+        "recomputed": {
+          "ap50_95_max100": 0.14984724960907583,
+          "ap50_95_max300": 0.17293548619505625,
+          "ap50_max300": 0.37112331954877875
+        },
+        "abs_diff": {
+          "ap50_95_max100": 0.0,
+          "ap50_95_max300": 0.0,
+          "ap50_max300": 5.551115123125783e-17
+        },
+        "operating_confidence": 0.45,
+        "operating_counts_equal": true,
+        "prediction_cells_over_100": 26,
+        "prediction_cells_over_300": 8,
+        "prediction_cells": 36
+      }
+    ]
+  },
+  "inputs": [
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04\\reports\\evaluation_suite\\evaluations\\baseline__epoch_02__dual__val\\bbox_predictions.json",
+      "sha256": "7a2ea0a4221383496df1427c3280c3669b54d38e85172c215757e217f8cd2827",
+      "bytes": 1715282
+    },
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04\\reports\\evaluation_suite\\evaluations\\baseline__epoch_02__dual__val\\metrics.json",
+      "sha256": "500c9afedc841f06bdb77e2a7b1ea74b6d6b1a982190f06d80f31b69c744376c",
+      "bytes": 13125
+    },
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04\\reports\\evaluation_suite\\evaluations\\baseline__epoch_02__dual__val\\native_ground_truth.json",
+      "sha256": "8657ed2394bbbe666f230cf8cc87b0fb95f1b57b300eddaa1b998626c9999580",
+      "bytes": 225810
+    },
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04\\reports\\evaluation_suite\\evaluations\\baseline__epoch_02__dual__val\\samples.json",
+      "sha256": "4fc3cba86bc6033f9f9bc98c30ffae9bf92fde23008caf68b8660f6c5ac9ce7c",
+      "bytes": 2061107
+    },
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04\\reports\\evaluation_suite\\evaluations\\baseline__epoch_02__native__val\\bbox_predictions.json",
+      "sha256": "2196e3d80b9d687b755bf609494fb7b80c0140de6c2ddf4d48e70b070393481e",
+      "bytes": 1719343
+    },
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04\\reports\\evaluation_suite\\evaluations\\baseline__epoch_02__native__val\\metrics.json",
+      "sha256": "aaa6f58fd46d71d179ba6a786cc246ab6ed3dfb3499292faec3c906f0e27ca71",
+      "bytes": 13108
+    },
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04\\reports\\evaluation_suite\\evaluations\\baseline__epoch_02__native__val\\native_ground_truth.json",
+      "sha256": "8657ed2394bbbe666f230cf8cc87b0fb95f1b57b300eddaa1b998626c9999580",
+      "bytes": 225810
+    },
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04\\reports\\evaluation_suite\\evaluations\\baseline__epoch_02__native__val\\samples.json",
+      "sha256": "eeefd7bd4405955d7956f8e7d02cea3c7da25cce3483b9dd0eb510203e8326ba",
+      "bytes": 2064359
+    },
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04\\reports\\evaluation_suite\\evaluations\\baseline__epoch_04__dual__val\\bbox_predictions.json",
+      "sha256": "6b92b32204f5d9f2f057845bf65f80d3bbd836325fd3b41136179496633b401f",
+      "bytes": 1347410
+    },
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04\\reports\\evaluation_suite\\evaluations\\baseline__epoch_04__dual__val\\metrics.json",
+      "sha256": "8ba9059c725fc9dddd61dbd506153da56ed8eeabb509d0eb0e48d66784bfbc7a",
+      "bytes": 13081
+    },
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04\\reports\\evaluation_suite\\evaluations\\baseline__epoch_04__dual__val\\native_ground_truth.json",
+      "sha256": "8657ed2394bbbe666f230cf8cc87b0fb95f1b57b300eddaa1b998626c9999580",
+      "bytes": 225810
+    },
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04\\reports\\evaluation_suite\\evaluations\\baseline__epoch_04__dual__val\\samples.json",
+      "sha256": "548c6dd27823f9035ae6c186cc529ab12822eb3467b44bdf2d0f3cf0cf900991",
+      "bytes": 1654329
+    },
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04\\reports\\evaluation_suite\\evaluations\\baseline__epoch_04__native__val\\bbox_predictions.json",
+      "sha256": "15e6197aab1c1713c2ee7dfe35e5388449669f1c6d1c148702b5ac2147b02245",
+      "bytes": 1352564
+    },
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04\\reports\\evaluation_suite\\evaluations\\baseline__epoch_04__native__val\\metrics.json",
+      "sha256": "adb63d75adc16537208f02885260c8b4d84016d2901e5f40ad193370ac440623",
+      "bytes": 13073
+    },
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04\\reports\\evaluation_suite\\evaluations\\baseline__epoch_04__native__val\\native_ground_truth.json",
+      "sha256": "8657ed2394bbbe666f230cf8cc87b0fb95f1b57b300eddaa1b998626c9999580",
+      "bytes": 225810
+    },
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04\\reports\\evaluation_suite\\evaluations\\baseline__epoch_04__native__val\\samples.json",
+      "sha256": "38ca6c88756b17195424bb3987fbb0da5643aa9a0e9b07570031b2d145f9a8e7",
+      "bytes": 1656257
+    },
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04\\reports\\evaluation_suite\\evaluations\\baseline__epoch_06__dual__val\\bbox_predictions.json",
+      "sha256": "7d7620a3a4eaa68134ccc98cf42fa8701828ea505cd59ac39070873abebdd8b7",
+      "bytes": 1242538
+    },
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04\\reports\\evaluation_suite\\evaluations\\baseline__epoch_06__dual__val\\metrics.json",
+      "sha256": "12784d4cba9cd02b9b2d9469851c59f196c760f6c796b680599e3997f48d99af",
+      "bytes": 13091
+    },
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04\\reports\\evaluation_suite\\evaluations\\baseline__epoch_06__dual__val\\native_ground_truth.json",
+      "sha256": "8657ed2394bbbe666f230cf8cc87b0fb95f1b57b300eddaa1b998626c9999580",
+      "bytes": 225810
+    },
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04\\reports\\evaluation_suite\\evaluations\\baseline__epoch_06__dual__val\\samples.json",
+      "sha256": "21c43b652b8c5cf2f3208259dc5655979833f49837dedb952dd911238e71a640",
+      "bytes": 1538302
+    },
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04\\reports\\evaluation_suite\\evaluations\\baseline__epoch_06__native__val\\bbox_predictions.json",
+      "sha256": "16cf5b265e0fe48f78672b08007fd3e9d62e00c470a9df9c8957fb746fac16f7",
+      "bytes": 1246623
+    },
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04\\reports\\evaluation_suite\\evaluations\\baseline__epoch_06__native__val\\metrics.json",
+      "sha256": "8ea9d6ebe345db0c6db8b63778e3cf7c89f405c20f918e4930b766e44c36d6a8",
+      "bytes": 13087
+    },
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04\\reports\\evaluation_suite\\evaluations\\baseline__epoch_06__native__val\\native_ground_truth.json",
+      "sha256": "8657ed2394bbbe666f230cf8cc87b0fb95f1b57b300eddaa1b998626c9999580",
+      "bytes": 225810
+    },
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04\\reports\\evaluation_suite\\evaluations\\baseline__epoch_06__native__val\\samples.json",
+      "sha256": "d8d5f6bb3dda32ee7c9a38428faf7f22e71170135eceabd3867a94c03c7c94a6",
+      "bytes": 1540482
+    },
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04\\reports\\evaluation_suite\\evaluations\\baseline__epoch_08__dual__val\\bbox_predictions.json",
+      "sha256": "f601ea529d0dcc03ebcef88c7aa1cbca25017b1cf0767ce827ecd48411d4c732",
+      "bytes": 1163470
+    },
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04\\reports\\evaluation_suite\\evaluations\\baseline__epoch_08__dual__val\\metrics.json",
+      "sha256": "b676061cd2a91efdd2d6bef16d5acf50e7645082f3ab48e7312ee48f85448cdf",
+      "bytes": 13068
+    },
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04\\reports\\evaluation_suite\\evaluations\\baseline__epoch_08__dual__val\\native_ground_truth.json",
+      "sha256": "8657ed2394bbbe666f230cf8cc87b0fb95f1b57b300eddaa1b998626c9999580",
+      "bytes": 225810
+    },
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04\\reports\\evaluation_suite\\evaluations\\baseline__epoch_08__dual__val\\samples.json",
+      "sha256": "b4e81d39c767fa6a629a1173f82a291e169837778be40f30f49a29c17feb4cc2",
+      "bytes": 1449266
+    },
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04\\reports\\evaluation_suite\\evaluations\\baseline__epoch_08__native__val\\bbox_predictions.json",
+      "sha256": "51294c4283583784a91487df85de1d45a72713b34d52e762e7307cc614e73ee6",
+      "bytes": 1120199
+    },
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04\\reports\\evaluation_suite\\evaluations\\baseline__epoch_08__native__val\\metrics.json",
+      "sha256": "39c961ef8d742cfcf79551a1f754493b786c4592fa344d80592205a44c252009",
+      "bytes": 13062
+    },
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04\\reports\\evaluation_suite\\evaluations\\baseline__epoch_08__native__val\\native_ground_truth.json",
+      "sha256": "8657ed2394bbbe666f230cf8cc87b0fb95f1b57b300eddaa1b998626c9999580",
+      "bytes": 225810
+    },
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04\\reports\\evaluation_suite\\evaluations\\baseline__epoch_08__native__val\\samples.json",
+      "sha256": "1a216bc54e59eb05faff43bcdb29e18ce802c462446d266a4c1a02d70acdcbf8",
+      "bytes": 1398438
+    },
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04\\reports\\evaluation_suite\\evaluations\\baseline__epoch_10__dual__val\\bbox_predictions.json",
+      "sha256": "5a2651ed6d2e511bbc751ed54696fe36319a584fb7bf34038da70b2084fa1572",
+      "bytes": 1151942
+    },
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04\\reports\\evaluation_suite\\evaluations\\baseline__epoch_10__dual__val\\metrics.json",
+      "sha256": "78af6f4b88b75626b693bee05be19383745c585a4e26532ff26581806fd6aef9",
+      "bytes": 13065
+    },
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04\\reports\\evaluation_suite\\evaluations\\baseline__epoch_10__dual__val\\native_ground_truth.json",
+      "sha256": "8657ed2394bbbe666f230cf8cc87b0fb95f1b57b300eddaa1b998626c9999580",
+      "bytes": 225810
+    },
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04\\reports\\evaluation_suite\\evaluations\\baseline__epoch_10__dual__val\\samples.json",
+      "sha256": "74a19c66cc2d92b80286444c592e36cafb32dffda266787c337575591b3a38b2",
+      "bytes": 1439878
+    },
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04\\reports\\evaluation_suite\\evaluations\\baseline__epoch_10__native__val\\bbox_predictions.json",
+      "sha256": "e78408288c7897db6ac86d0e45bde922d7f2aafd29d0ca8363362a5760e00390",
+      "bytes": 1098334
+    },
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04\\reports\\evaluation_suite\\evaluations\\baseline__epoch_10__native__val\\metrics.json",
+      "sha256": "6b5ecda0df6301047229ec6146d43ccfc58e6acee558cbade7aa9d33e808b5dc",
+      "bytes": 13048
+    },
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04\\reports\\evaluation_suite\\evaluations\\baseline__epoch_10__native__val\\native_ground_truth.json",
+      "sha256": "8657ed2394bbbe666f230cf8cc87b0fb95f1b57b300eddaa1b998626c9999580",
+      "bytes": 225810
+    },
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04\\reports\\evaluation_suite\\evaluations\\baseline__epoch_10__native__val\\samples.json",
+      "sha256": "a5fad30fe95229b4151305f75f6b0ab4ee3914524b26c76573f41624c7592539",
+      "bytes": 1378049
+    },
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04\\reports\\evaluation_suite\\evaluations\\baseline__epoch_12__dual__val\\bbox_predictions.json",
+      "sha256": "2b6278822d2877979d628b00eb9102490a8738d075d9080f8ac9788380b711d4",
+      "bytes": 1059432
+    },
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04\\reports\\evaluation_suite\\evaluations\\baseline__epoch_12__dual__val\\metrics.json",
+      "sha256": "e92fbb1b1b7d0b6a258710b519cfaf608a0bb7b91a03e6b109875d51bfe54096",
+      "bytes": 13091
+    },
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04\\reports\\evaluation_suite\\evaluations\\baseline__epoch_12__dual__val\\native_ground_truth.json",
+      "sha256": "8657ed2394bbbe666f230cf8cc87b0fb95f1b57b300eddaa1b998626c9999580",
+      "bytes": 225810
+    },
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04\\reports\\evaluation_suite\\evaluations\\baseline__epoch_12__dual__val\\samples.json",
+      "sha256": "82e88ffdac49c7384191a3864cf5e3d3c67b786b1ba153c9a56200bc8dea3f59",
+      "bytes": 1334161
+    },
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04\\reports\\evaluation_suite\\evaluations\\baseline__epoch_12__native__val\\bbox_predictions.json",
+      "sha256": "223e0b23a180d726d7cd3bad20e4ed19de58fb5b8719c8b1abcf4f7987f97530",
+      "bytes": 999032
+    },
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04\\reports\\evaluation_suite\\evaluations\\baseline__epoch_12__native__val\\metrics.json",
+      "sha256": "88352a4740721f70024d41501979b8dfb16068a17146b96db41480cb25b6be90",
+      "bytes": 13084
+    },
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04\\reports\\evaluation_suite\\evaluations\\baseline__epoch_12__native__val\\native_ground_truth.json",
+      "sha256": "8657ed2394bbbe666f230cf8cc87b0fb95f1b57b300eddaa1b998626c9999580",
+      "bytes": 225810
+    },
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04\\reports\\evaluation_suite\\evaluations\\baseline__epoch_12__native__val\\samples.json",
+      "sha256": "7ec68aad165f1340342e40ea0c6e859c298e8a21a1d093ad62881052362289d9",
+      "bytes": 1265152
+    },
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04\\reports\\evaluation_suite\\evaluations\\baseline__epoch_14__dual__val\\bbox_predictions.json",
+      "sha256": "e3235a9fd5e5a4d390cd38669561404e0c29673b728f163a5254e1f949bc3b91",
+      "bytes": 1058213
+    },
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04\\reports\\evaluation_suite\\evaluations\\baseline__epoch_14__dual__val\\metrics.json",
+      "sha256": "99b9380d69b1d3a0f81a7812f0b2ed9f5cd6edab37d4b283c87e0c81bfb1947a",
+      "bytes": 13080
+    },
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04\\reports\\evaluation_suite\\evaluations\\baseline__epoch_14__dual__val\\native_ground_truth.json",
+      "sha256": "8657ed2394bbbe666f230cf8cc87b0fb95f1b57b300eddaa1b998626c9999580",
+      "bytes": 225810
+    },
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04\\reports\\evaluation_suite\\evaluations\\baseline__epoch_14__dual__val\\samples.json",
+      "sha256": "f77e7f948b8f15b61058867c5c59f118ccfa924adb983094a59ede598575cf50",
+      "bytes": 1336503
+    },
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04\\reports\\evaluation_suite\\evaluations\\baseline__epoch_14__native__val\\bbox_predictions.json",
+      "sha256": "5bdeece67756e5d16ae23dc4c0f2fcd890b729e89aa185f1220bf3f9b1f921af",
+      "bytes": 999966
+    },
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04\\reports\\evaluation_suite\\evaluations\\baseline__epoch_14__native__val\\metrics.json",
+      "sha256": "cfa49c89007ce1cbec600701d4900c325767c9a8242024a69ab0945fc32716ae",
+      "bytes": 13059
+    },
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04\\reports\\evaluation_suite\\evaluations\\baseline__epoch_14__native__val\\native_ground_truth.json",
+      "sha256": "8657ed2394bbbe666f230cf8cc87b0fb95f1b57b300eddaa1b998626c9999580",
+      "bytes": 225810
+    },
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04\\reports\\evaluation_suite\\evaluations\\baseline__epoch_14__native__val\\samples.json",
+      "sha256": "bb140924d803e74ed93acf19fb001563ec0ee16538de88ec0d36a90c33535887",
+      "bytes": 1268937
+    },
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04\\reports\\evaluation_suite\\evaluations\\baseline__epoch_16__dual__val\\bbox_predictions.json",
+      "sha256": "84066db90c3b6033d23c80ab894e15be16b9bc132d031fee2239e3aa332ddfc4",
+      "bytes": 1087159
+    },
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04\\reports\\evaluation_suite\\evaluations\\baseline__epoch_16__dual__val\\metrics.json",
+      "sha256": "576f85acfae05874f3259a0ae97305b23c10e3dc4ae21045dfecec1d0db233b6",
+      "bytes": 13077
+    },
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04\\reports\\evaluation_suite\\evaluations\\baseline__epoch_16__dual__val\\native_ground_truth.json",
+      "sha256": "8657ed2394bbbe666f230cf8cc87b0fb95f1b57b300eddaa1b998626c9999580",
+      "bytes": 225810
+    },
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04\\reports\\evaluation_suite\\evaluations\\baseline__epoch_16__dual__val\\samples.json",
+      "sha256": "4be58ac5d525e9b191a550378e279b3e012d20c75e521b1e34ecf6b8ec580a0c",
+      "bytes": 1366072
+    },
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04\\reports\\evaluation_suite\\evaluations\\baseline__epoch_16__native__val\\bbox_predictions.json",
+      "sha256": "a59f88dc7216832007454cacfa5b617fabb4ed66ab5c81a33062f0c1ecea40d1",
+      "bytes": 1018857
+    },
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04\\reports\\evaluation_suite\\evaluations\\baseline__epoch_16__native__val\\metrics.json",
+      "sha256": "0dd6e795b3b13af4179084d322de8f0615f8d33c3a3d4a5299cd1cee30d5e2d5",
+      "bytes": 13046
+    },
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04\\reports\\evaluation_suite\\evaluations\\baseline__epoch_16__native__val\\native_ground_truth.json",
+      "sha256": "8657ed2394bbbe666f230cf8cc87b0fb95f1b57b300eddaa1b998626c9999580",
+      "bytes": 225810
+    },
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04\\reports\\evaluation_suite\\evaluations\\baseline__epoch_16__native__val\\samples.json",
+      "sha256": "238b9f2b5866c255bb933163df7578165563b6c9bb1c8c0cc344849d2f1dedd7",
+      "bytes": 1287705
+    },
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04\\reports\\evaluation_suite\\evaluations\\baseline__epoch_18__dual__val\\bbox_predictions.json",
+      "sha256": "eebab0267c27e7423cf91a0a1eb47b723ebecc43aabb8da822e76dc0b9224cc8",
+      "bytes": 1020647
+    },
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04\\reports\\evaluation_suite\\evaluations\\baseline__epoch_18__dual__val\\metrics.json",
+      "sha256": "7e324d5709f04b916a7408ca38b904bdb7e7e2e4a8a88980c2e8c68798e5b55d",
+      "bytes": 13070
+    },
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04\\reports\\evaluation_suite\\evaluations\\baseline__epoch_18__dual__val\\native_ground_truth.json",
+      "sha256": "8657ed2394bbbe666f230cf8cc87b0fb95f1b57b300eddaa1b998626c9999580",
+      "bytes": 225810
+    },
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04\\reports\\evaluation_suite\\evaluations\\baseline__epoch_18__dual__val\\samples.json",
+      "sha256": "3609bc8dc60560c2675da52dbd60afeee61cc8380855a2b7f56779962c5ffbea",
+      "bytes": 1294606
+    },
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04\\reports\\evaluation_suite\\evaluations\\baseline__epoch_18__native__val\\bbox_predictions.json",
+      "sha256": "728d7b947b04d0229d73bf8a72ee5b5d951b591fecbdc443bf32be36f49bdea9",
+      "bytes": 921606
+    },
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04\\reports\\evaluation_suite\\evaluations\\baseline__epoch_18__native__val\\metrics.json",
+      "sha256": "2ef637f8e43c08ed10b899c96b39b62ca21602905845894234d9709e30b0d900",
+      "bytes": 13071
+    },
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04\\reports\\evaluation_suite\\evaluations\\baseline__epoch_18__native__val\\native_ground_truth.json",
+      "sha256": "8657ed2394bbbe666f230cf8cc87b0fb95f1b57b300eddaa1b998626c9999580",
+      "bytes": 225810
+    },
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04\\reports\\evaluation_suite\\evaluations\\baseline__epoch_18__native__val\\samples.json",
+      "sha256": "e0f5284f0f260e8aecd941102d1e087f6ec6a0247686a2908c118cb55da92ad9",
+      "bytes": 1182149
+    },
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04\\reports\\evaluation_suite\\evaluations\\baseline__epoch_20__dual__val\\bbox_predictions.json",
+      "sha256": "25601dc431391dae764665a9bb559daf5f0fdb4d4c8141e7d6f9cd9b2fca059d",
+      "bytes": 996318
+    },
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04\\reports\\evaluation_suite\\evaluations\\baseline__epoch_20__dual__val\\metrics.json",
+      "sha256": "13b62813c84de64ddbe755055851b4ad035f094df8be924be532238d88f38865",
+      "bytes": 13051
+    },
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04\\reports\\evaluation_suite\\evaluations\\baseline__epoch_20__dual__val\\native_ground_truth.json",
+      "sha256": "8657ed2394bbbe666f230cf8cc87b0fb95f1b57b300eddaa1b998626c9999580",
+      "bytes": 225810
+    },
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04\\reports\\evaluation_suite\\evaluations\\baseline__epoch_20__dual__val\\samples.json",
+      "sha256": "881e7368692f925846d951f093976681961a436b1903b274bf5282d99a06541a",
+      "bytes": 1266326
+    },
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04\\reports\\evaluation_suite\\evaluations\\baseline__epoch_20__native__val\\bbox_predictions.json",
+      "sha256": "668cd17383872d8f2342a6f909dc8798f5160b2bbd3614cb0be82245ecfe7807",
+      "bytes": 863759
+    },
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04\\reports\\evaluation_suite\\evaluations\\baseline__epoch_20__native__val\\metrics.json",
+      "sha256": "8e5648da95063bde0374b6c0df592ee8d866372a39d572018d8fe7f0a20d286c",
+      "bytes": 13051
+    },
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04\\reports\\evaluation_suite\\evaluations\\baseline__epoch_20__native__val\\native_ground_truth.json",
+      "sha256": "8657ed2394bbbe666f230cf8cc87b0fb95f1b57b300eddaa1b998626c9999580",
+      "bytes": 225810
+    },
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04\\reports\\evaluation_suite\\evaluations\\baseline__epoch_20__native__val\\samples.json",
+      "sha256": "ca0b054137dfe55f74e5ab7eb3d551f5971dd8078a8e0707a260c6504fb48108",
+      "bytes": 1116729
+    },
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04\\reports\\evaluation_suite\\evaluations\\improved__epoch_02__dual__val\\bbox_predictions.json",
+      "sha256": "0da736ec0710fb8a3f52b1d8bb99b94eb8e77ffce5cc25ab924a783d36090c33",
+      "bytes": 1569372
+    },
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04\\reports\\evaluation_suite\\evaluations\\improved__epoch_02__dual__val\\metrics.json",
+      "sha256": "1781ef7b22f52720dd2e7cf6cf5da6c2a794fe0eb9220f6f3da29ce2fbf3edaf",
+      "bytes": 13094
+    },
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04\\reports\\evaluation_suite\\evaluations\\improved__epoch_02__dual__val\\native_ground_truth.json",
+      "sha256": "8657ed2394bbbe666f230cf8cc87b0fb95f1b57b300eddaa1b998626c9999580",
+      "bytes": 225810
+    },
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04\\reports\\evaluation_suite\\evaluations\\improved__epoch_02__dual__val\\samples.json",
+      "sha256": "a21954254b4c60bbbb75d40a67370ced9256669b2425d092de1ee9b68918ff1a",
+      "bytes": 1898943
+    },
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04\\reports\\evaluation_suite\\evaluations\\improved__epoch_02__native__val\\bbox_predictions.json",
+      "sha256": "b63ce8eb7ca3ff5172cd7b73fc2cf7074b9bfea3d1853dbd7960878911fe4fe1",
+      "bytes": 1573893
+    },
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04\\reports\\evaluation_suite\\evaluations\\improved__epoch_02__native__val\\metrics.json",
+      "sha256": "3a4f1f3ff987c9d71c22af4a70b674a1b822c202243273374194ea73359573c5",
+      "bytes": 13088
+    },
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04\\reports\\evaluation_suite\\evaluations\\improved__epoch_02__native__val\\native_ground_truth.json",
+      "sha256": "8657ed2394bbbe666f230cf8cc87b0fb95f1b57b300eddaa1b998626c9999580",
+      "bytes": 225810
+    },
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04\\reports\\evaluation_suite\\evaluations\\improved__epoch_02__native__val\\samples.json",
+      "sha256": "be83648eb4a780f840ba8eac3fc82580f6cd50f08374957388a1a1bbbd334059",
+      "bytes": 1901704
+    }
+  ]
+}

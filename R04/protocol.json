@@ -1,0 +1,55 @@
+{
+  "created_utc": "2026-09-28T12:24:57.769447+00:00",
+  "revision": "R04",
+  "arms": [
+    "baseline",
+    "improved"
+  ],
+  "initial_weights": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\models\\yolo11s.pt",
+  "initial_weights_sha256": "85a76fe86dd8afe384648546b56a7a78580c7cb7b404fc595f97969322d502d5",
+  "max_epochs_per_arm": 20,
+  "max_direct_optimizer_calls_per_arm": 1165,
+  "epoch_replacement_draws": 448,
+  "batch": 4,
+  "nbs": 8,
+  "amp": false,
+  "optimizer": "AdamW",
+  "lr0": 0.001,
+  "lrf": 0.01,
+  "warmup_epochs": 2,
+  "transform_policy": "Shared LetterBox, HSV, horizontal/vertical flips; no RandomPerspective filtering, mosaic, mixup, scale, translation or random crops",
+  "class_multipliers": [
+    1.0,
+    1.0,
+    1.0,
+    1.0
+  ],
+  "save_epoch_candidates": [
+    2,
+    4,
+    6,
+    8,
+    10,
+    12,
+    14,
+    16,
+    18,
+    20
+  ],
+  "inference_candidates": [
+    "native",
+    "dual"
+  ],
+  "validation_rank": [
+    "bbox AP50-95 max300 descending",
+    "bbox AP50-95 max100 descending",
+    "offline p50 ascending",
+    "candidate id"
+  ],
+  "operating_confidence": "val micro-F1 on .05:.95 grid; greatest threshold in a tie; same single global threshold on fixed test",
+  "test_order": "All candidate validation for both arms, freeze all selections with hashes, then one general/Pi development-holdout evaluation per selected arm",
+  "limitation": "Joint view/ignore intervention; not an individual-factor ablation. R03 historic comparisons differ in split/sampling/batch/augmentation. No fresh untouched final or actual D455 test available.",
+  "data_summary_sha256": "e9049d08689f00276ea68702fe9c8b346d11aabd05be645b8eaecf959f952f46",
+  "native_manifest_sha256": "a91d4956da6adc8b3eebcd87da6e8e428362e1c14cef9e8f9d5a4583817d8c19",
+  "metadata_corrected_before_training_utc": "2026-09-28T12:26:44.904884+00:00"
+}

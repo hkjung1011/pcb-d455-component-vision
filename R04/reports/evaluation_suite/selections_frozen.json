@@ -1,0 +1,447 @@
+{
+  "frozen_utc": "2026-09-28T16:18:58.180487+00:00",
+  "protocol_sha256": "a45e4d372f507af24518000b37e7bd39423eafdf290b46fe8072332855c325e1",
+  "test_results_used_for_selection": false,
+  "evaluation_scope": "development_holdout_not_pristine_final",
+  "recommended_arm": "improved",
+  "recommended_candidate_id": "improved__epoch_16__dual",
+  "recommendation_basis": "Validation only; does not establish real-world or statistically significant superiority",
+  "rank": [
+    "validation bbox AP50-95 max300 descending",
+    "validation bbox AP50-95 max100 descending",
+    "validation offline predict/postprocess p50 ascending",
+    "candidate id ascending"
+  ],
+  "all_validation_evidence": {
+    "baseline": [
+      {
+        "candidate_id": "baseline__epoch_02__native",
+        "metrics_path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04\\reports\\evaluation_suite\\evaluations\\baseline__epoch_02__native__val\\metrics.json",
+        "metrics_sha256": "aaa6f58fd46d71d179ba6a786cc246ab6ed3dfb3499292faec3c906f0e27ca71",
+        "job_sha256": "077b07f220eefba1e66659a2862efd6fe1f191710b26024acbbd174d1063a01a"
+      },
+      {
+        "candidate_id": "baseline__epoch_02__dual",
+        "metrics_path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04\\reports\\evaluation_suite\\evaluations\\baseline__epoch_02__dual__val\\metrics.json",
+        "metrics_sha256": "500c9afedc841f06bdb77e2a7b1ea74b6d6b1a982190f06d80f31b69c744376c",
+        "job_sha256": "21a413c32d4225e3c38dff052dbc86a95bf6f62e3403eac9f0b0c822d6f176d9"
+      },
+      {
+        "candidate_id": "baseline__epoch_04__native",
+        "metrics_path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04\\reports\\evaluation_suite\\evaluations\\baseline__epoch_04__native__val\\metrics.json",
+        "metrics_sha256": "adb63d75adc16537208f02885260c8b4d84016d2901e5f40ad193370ac440623",
+        "job_sha256": "67e8cdb232737b3019a8684aeca2156252360f3f72722a18c001b1a078fd0f33"
+      },
+      {
+        "candidate_id": "baseline__epoch_04__dual",
+        "metrics_path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04\\reports\\evaluation_suite\\evaluations\\baseline__epoch_04__dual__val\\metrics.json",
+        "metrics_sha256": "8ba9059c725fc9dddd61dbd506153da56ed8eeabb509d0eb0e48d66784bfbc7a",
+        "job_sha256": "b8768bc1ac52c2b3ba41a6bffe8ac982133102657d89820d0d9c55e8541c228c"
+      },
+      {
+        "candidate_id": "baseline__epoch_06__native",
+        "metrics_path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04\\reports\\evaluation_suite\\evaluations\\baseline__epoch_06__native__val\\metrics.json",
+        "metrics_sha256": "8ea9d6ebe345db0c6db8b63778e3cf7c89f405c20f918e4930b766e44c36d6a8",
+        "job_sha256": "5637cb6f7b1a76e97810e45a5ddbc939b57bfb7b9862e9e564fa6d8a138155da"
+      },
+      {
+        "candidate_id": "baseline__epoch_06__dual",
+        "metrics_path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04\\reports\\evaluation_suite\\evaluations\\baseline__epoch_06__dual__val\\metrics.json",
+        "metrics_sha256": "12784d4cba9cd02b9b2d9469851c59f196c760f6c796b680599e3997f48d99af",
+        "job_sha256": "627bce316d044ee092c57a137628fcf0aab0761e32af13e5649a628d2fa993e3"
+      },
+      {
+        "candidate_id": "baseline__epoch_08__native",
+        "metrics_path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04\\reports\\evaluation_suite\\evaluations\\baseline__epoch_08__native__val\\metrics.json",
+        "metrics_sha256": "39c961ef8d742cfcf79551a1f754493b786c4592fa344d80592205a44c252009",
+        "job_sha256": "0ce279aaecb7ff24b618102db790a08a37a2a26cdacbc75669122282ceb20d8b"
+      },
+      {
+        "candidate_id": "baseline__epoch_08__dual",
+        "metrics_path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04\\reports\\evaluation_suite\\evaluations\\baseline__epoch_08__dual__val\\metrics.json",
+        "metrics_sha256": "b676061cd2a91efdd2d6bef16d5acf50e7645082f3ab48e7312ee48f85448cdf",
+        "job_sha256": "f7b54313067dfa78354050eb48d524d13ac5a90c42400c04c89cf63cf598b430"
+      },
+      {
+        "candidate_id": "baseline__epoch_10__native",
+        "metrics_path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04\\reports\\evaluation_suite\\evaluations\\baseline__epoch_10__native__val\\metrics.json",
+        "metrics_sha256": "6b5ecda0df6301047229ec6146d43ccfc58e6acee558cbade7aa9d33e808b5dc",
+        "job_sha256": "55789d72929ad5e973a975e285b0ddb2c49a2d3e1bbc6131f32a372657114a94"
+      },
+      {
+        "candidate_id": "baseline__epoch_10__dual",
+        "metrics_path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04\\reports\\evaluation_suite\\evaluations\\baseline__epoch_10__dual__val\\metrics.json",
+        "metrics_sha256": "78af6f4b88b75626b693bee05be19383745c585a4e26532ff26581806fd6aef9",
+        "job_sha256": "42a9682c8c3f9372e899ab5329e9c87ce36fccd65c6a25b2c10ee63c379770ea"
+      },
+      {
+        "candidate_id": "baseline__epoch_12__native",
+        "metrics_path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04\\reports\\evaluation_suite\\evaluations\\baseline__epoch_12__native__val\\metrics.json",
+        "metrics_sha256": "88352a4740721f70024d41501979b8dfb16068a17146b96db41480cb25b6be90",
+        "job_sha256": "661dd851daf28ce3f72f6e7e902fde7d805f437a3240da4024255647301353d3"
+      },
+      {
+        "candidate_id": "baseline__epoch_12__dual",
+        "metrics_path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04\\reports\\evaluation_suite\\evaluations\\baseline__epoch_12__dual__val\\metrics.json",
+        "metrics_sha256": "e92fbb1b1b7d0b6a258710b519cfaf608a0bb7b91a03e6b109875d51bfe54096",
+        "job_sha256": "21c15c93554eda1a8f74225166fcd25c242bad14a10fe8ed2b2f4f6261060e79"
+      },
+      {
+        "candidate_id": "baseline__epoch_14__native",
+        "metrics_path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04\\reports\\evaluation_suite\\evaluations\\baseline__epoch_14__native__val\\metrics.json",
+        "metrics_sha256": "cfa49c89007ce1cbec600701d4900c325767c9a8242024a69ab0945fc32716ae",
+        "job_sha256": "da7a9252a9d830de3a3f29507209ddf0fef31ed6d9a7c4833a1f6276b684617d"
+      },
+      {
+        "candidate_id": "baseline__epoch_14__dual",
+        "metrics_path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04\\reports\\evaluation_suite\\evaluations\\baseline__epoch_14__dual__val\\metrics.json",
+        "metrics_sha256": "99b9380d69b1d3a0f81a7812f0b2ed9f5cd6edab37d4b283c87e0c81bfb1947a",
+        "job_sha256": "7dbad76a497ee43b3940c700fbea50aec04da58f09cd3653ad33f58c99e79854"
+      },
+      {
+        "candidate_id": "baseline__epoch_16__native",
+        "metrics_path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04\\reports\\evaluation_suite\\evaluations\\baseline__epoch_16__native__val\\metrics.json",
+        "metrics_sha256": "0dd6e795b3b13af4179084d322de8f0615f8d33c3a3d4a5299cd1cee30d5e2d5",
+        "job_sha256": "e30e180dffecd9808e35f4ea57c2f0c33b09e12f8eb10eace6574bffeb712739"
+      },
+      {
+        "candidate_id": "baseline__epoch_16__dual",
+        "metrics_path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04\\reports\\evaluation_suite\\evaluations\\baseline__epoch_16__dual__val\\metrics.json",
+        "metrics_sha256": "576f85acfae05874f3259a0ae97305b23c10e3dc4ae21045dfecec1d0db233b6",
+        "job_sha256": "a178892892581efcaa2bb7fa9b753fa0fd6ad98eb8ae03165d280aed17c40729"
+      },
+      {
+        "candidate_id": "baseline__epoch_18__native",
+        "metrics_path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04\\reports\\evaluation_suite\\evaluations\\baseline__epoch_18__native__val\\metrics.json",
+        "metrics_sha256": "2ef637f8e43c08ed10b899c96b39b62ca21602905845894234d9709e30b0d900",
+        "job_sha256": "c8e648b3fdd56beef4e1f98f0ac820d798556ce9a5eec0c1f76e9d6523a67d66"
+      },
+      {
+        "candidate_id": "baseline__epoch_18__dual",
+        "metrics_path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04\\reports\\evaluation_suite\\evaluations\\baseline__epoch_18__dual__val\\metrics.json",
+        "metrics_sha256": "7e324d5709f04b916a7408ca38b904bdb7e7e2e4a8a88980c2e8c68798e5b55d",
+        "job_sha256": "ecb4753c021f23f1510f05c84c21f84a66ad0059a5468008106d7842af4746c2"
+      },
+      {
+        "candidate_id": "baseline__epoch_20__native",
+        "metrics_path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04\\reports\\evaluation_suite\\evaluations\\baseline__epoch_20__native__val\\metrics.json",
+        "metrics_sha256": "8e5648da95063bde0374b6c0df592ee8d866372a39d572018d8fe7f0a20d286c",
+        "job_sha256": "d97331b4db5c0790d3d14519851017da61c55745b1e8c85a510156ab57591231"
+      },
+      {
+        "candidate_id": "baseline__epoch_20__dual",
+        "metrics_path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04\\reports\\evaluation_suite\\evaluations\\baseline__epoch_20__dual__val\\metrics.json",
+        "metrics_sha256": "13b62813c84de64ddbe755055851b4ad035f094df8be924be532238d88f38865",
+        "job_sha256": "1987a10df13d340379eabd6b54fd2c3360553ef748407d928e58b2327a196e35"
+      }
+    ],
+    "improved": [
+      {
+        "candidate_id": "improved__epoch_02__native",
+        "metrics_path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04\\reports\\evaluation_suite\\evaluations\\improved__epoch_02__native__val\\metrics.json",
+        "metrics_sha256": "3a4f1f3ff987c9d71c22af4a70b674a1b822c202243273374194ea73359573c5",
+        "job_sha256": "4c974f725248098c9f75358b548d2683e1f30d45452bb4c2a46e6960865e828e"
+      },
+      {
+        "candidate_id": "improved__epoch_02__dual",
+        "metrics_path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04\\reports\\evaluation_suite\\evaluations\\improved__epoch_02__dual__val\\metrics.json",
+        "metrics_sha256": "1781ef7b22f52720dd2e7cf6cf5da6c2a794fe0eb9220f6f3da29ce2fbf3edaf",
+        "job_sha256": "62bf16a7e793ea93b616c4f7c1d784a785ee4a9278e09224660e66da4f08c0d6"
+      },
+      {
+        "candidate_id": "improved__epoch_04__native",
+        "metrics_path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04\\reports\\evaluation_suite\\evaluations\\improved__epoch_04__native__val\\metrics.json",
+        "metrics_sha256": "9fd0ea5b5a87d67a6dc84104959e5e43c205ba05cb5281af17037b2968ad8981",
+        "job_sha256": "c400dffba9402361e299d5aabbdee06d357844e4343e2c863e6bd842522d8dcb"
+      },
+      {
+        "candidate_id": "improved__epoch_04__dual",
+        "metrics_path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04\\reports\\evaluation_suite\\evaluations\\improved__epoch_04__dual__val\\metrics.json",
+        "metrics_sha256": "898ded09691912014cd9951ed327c76dc37ca713a047881b03250bf2f5bd0383",
+        "job_sha256": "15502f60e57f1da87784b57db3d58eb43b19b70769be08503bd287ac3af9ccb6"
+      },
+      {
+        "candidate_id": "improved__epoch_06__native",
+        "metrics_path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04\\reports\\evaluation_suite\\evaluations\\improved__epoch_06__native__val\\metrics.json",
+        "metrics_sha256": "a089936109f1fee302c20d2efac080d1283b93cc8ee32b4a41a32d203a9bff16",
+        "job_sha256": "ca4521a0d56a5e516b7ef68035a7b04fa9462948104a079c0e05adce75af8830"
+      },
+      {
+        "candidate_id": "improved__epoch_06__dual",
+        "metrics_path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04\\reports\\evaluation_suite\\evaluations\\improved__epoch_06__dual__val\\metrics.json",
+        "metrics_sha256": "a5be9e8cd7baf4e138c10e5b6d212482d2752635274693e39c346e33dd5fc4b8",
+        "job_sha256": "d39d6d8ad42061561f483fed817fbb23affb2401063eb6b4f53f3c4fc5000368"
+      },
+      {
+        "candidate_id": "improved__epoch_08__native",
+        "metrics_path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04\\reports\\evaluation_suite\\evaluations\\improved__epoch_08__native__val\\metrics.json",
+        "metrics_sha256": "90cc90b79816c7acdfb88a1ec7da6b687d8572cc26444569490b542754cff651",
+        "job_sha256": "d1d84d8e9df90168211930cf903ecd5ecc7f38d8f236a642dc5e7391442ab465"
+      },
+      {
+        "candidate_id": "improved__epoch_08__dual",
+        "metrics_path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04\\reports\\evaluation_suite\\evaluations\\improved__epoch_08__dual__val\\metrics.json",
+        "metrics_sha256": "12487a84a6b9b9ec641e42cdf98bfe06d523c56c6151f8daafcb8d26cdf24803",
+        "job_sha256": "9728b48762839aea522bfd40917419bd5c3b29af0867bd214d8c25f581273e02"
+      },
+      {
+        "candidate_id": "improved__epoch_10__native",
+        "metrics_path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04\\reports\\evaluation_suite\\evaluations\\improved__epoch_10__native__val\\metrics.json",
+        "metrics_sha256": "b9e8502b2727c9364cc66d3e64bcd46c6f651e32de97930833b21ed9e9c723f6",
+        "job_sha256": "f3553b0f4d2a9214941ca4cac99ae1da5023c62bf387536223c9b85929be15f2"
+      },
+      {
+        "candidate_id": "improved__epoch_10__dual",
+        "metrics_path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04\\reports\\evaluation_suite\\evaluations\\improved__epoch_10__dual__val\\metrics.json",
+        "metrics_sha256": "97ba6337d6d456a49ec93807927b8f4c1689c484ba75d72aefc9702158f951e8",
+        "job_sha256": "bea871502966637b14284cd768697a12c444e7d97593d787966df1d7651de463"
+      },
+      {
+        "candidate_id": "improved__epoch_12__native",
+        "metrics_path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04\\reports\\evaluation_suite\\evaluations\\improved__epoch_12__native__val\\metrics.json",
+        "metrics_sha256": "bd44bca7c887957d6d2ec2857698435351e707ab71182ec7a7bb3ebe5d860e9a",
+        "job_sha256": "42c714e00ecf7cd6cf0b1d86bed958881d82f6610b3548dc20fb0e4ea5ca5af3"
+      },
+      {
+        "candidate_id": "improved__epoch_12__dual",
+        "metrics_path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04\\reports\\evaluation_suite\\evaluations\\improved__epoch_12__dual__val\\metrics.json",
+        "metrics_sha256": "e9eafe19ffc93eb65c802cdc4735aa42c7bed3d694868e16ae4a9c098a04bb21",
+        "job_sha256": "7cb877cb603281d64b6fae9b46e9651670fd930ee8603e64a79cecbbbdad4369"
+      },
+      {
+        "candidate_id": "improved__epoch_14__native",
+        "metrics_path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04\\reports\\evaluation_suite\\evaluations\\improved__epoch_14__native__val\\metrics.json",
+        "metrics_sha256": "859de9cb00af9f9fa3fbfbb285a59cc11c734dd4dc750451400a572a279de2a2",
+        "job_sha256": "8cdf1811bff3ac88d4e1387d205874edc48293a9bac99d4ac68b940a5eae8f21"
+      },
+      {
+        "candidate_id": "improved__epoch_14__dual",
+        "metrics_path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04\\reports\\evaluation_suite\\evaluations\\improved__epoch_14__dual__val\\metrics.json",
+        "metrics_sha256": "73f4790f73b0b3df2802101b9d2fba015f7d05902163fa059ed41fbc008aacb0",
+        "job_sha256": "79e63d4cee6fbb4189d9cdcfed4c06e615d9d98e7000a57530cacfee32d253b5"
+      },
+      {
+        "candidate_id": "improved__epoch_16__native",
+        "metrics_path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04\\reports\\evaluation_suite\\evaluations\\improved__epoch_16__native__val\\metrics.json",
+        "metrics_sha256": "70ff33a23eea3e8b8f43aea7698a31cc988e2fa6c13a0cef5681972a53cd5b59",
+        "job_sha256": "8c5cede074915755e51483e00cc38fc10924d5a292895dd065f58cb7246f0b13"
+      },
+      {
+        "candidate_id": "improved__epoch_16__dual",
+        "metrics_path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04\\reports\\evaluation_suite\\evaluations\\improved__epoch_16__dual__val\\metrics.json",
+        "metrics_sha256": "dc6e4dd4bfa4040f3f9c674e02b535af9bab464b48e84ed50591238d2df58601",
+        "job_sha256": "79b428e2f4788b5290cdb1eb1aa85030fd9e5ae22b7673b1a47241943a6e85fc"
+      },
+      {
+        "candidate_id": "improved__epoch_18__native",
+        "metrics_path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04\\reports\\evaluation_suite\\evaluations\\improved__epoch_18__native__val\\metrics.json",
+        "metrics_sha256": "18fdbf4b4188f6ef046eec5c0b2892a903238418aa5f1ce0bc4c7c033aadc260",
+        "job_sha256": "f5ed1701030176592586fb3377532fb449a9fa6ef54b94b561768faeacce1207"
+      },
+      {
+        "candidate_id": "improved__epoch_18__dual",
+        "metrics_path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04\\reports\\evaluation_suite\\evaluations\\improved__epoch_18__dual__val\\metrics.json",
+        "metrics_sha256": "2ae08512098121114055cae450b6b08c5bea84cc7685b14ab64dbd476545fe48",
+        "job_sha256": "53ace1415d39a16f3233e567b5e795316ae82b9209c2f8f4ed1d17dbe0be1350"
+      },
+      {
+        "candidate_id": "improved__epoch_20__native",
+        "metrics_path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04\\reports\\evaluation_suite\\evaluations\\improved__epoch_20__native__val\\metrics.json",
+        "metrics_sha256": "2dddee387407d55448602632918d4f63030cb9091926a7d4f8c9381fe1359315",
+        "job_sha256": "f07fd2233b45925057d3176a210aef82cb329ce98e9eae137d3d9eabe8b289c3"
+      },
+      {
+        "candidate_id": "improved__epoch_20__dual",
+        "metrics_path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04\\reports\\evaluation_suite\\evaluations\\improved__epoch_20__dual__val\\metrics.json",
+        "metrics_sha256": "ede7ce4116f19974936df8c68ef7c0a56d1eb045b31282905aac9d4338ff142b",
+        "job_sha256": "7785e6c8e42da479e38f4084bc0c84fba2b69997be959ff21de52588accce175"
+      }
+    ]
+  },
+  "selections": {
+    "baseline": {
+      "candidate": {
+        "arm": "baseline",
+        "epoch": 20,
+        "optimizer_calls": 1165,
+        "pipeline": "dual",
+        "candidate_id": "baseline__epoch_20__dual",
+        "weights": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04\\runs\\baseline\\candidates\\epoch_20.pt",
+        "checkpoint_sha256": "ab1250fa46cb1471648ec7c576d53b8c48707cd24f6b8e4abc1adc811181e8a2",
+        "candidate_training_metadata": {
+          "epoch": 20,
+          "optimizer_calls": 1165,
+          "partial_epoch": true
+        }
+      },
+      "checkpoint_sha256": "ab1250fa46cb1471648ec7c576d53b8c48707cd24f6b8e4abc1adc811181e8a2",
+      "manifest_sha256": "a91d4956da6adc8b3eebcd87da6e8e428362e1c14cef9e8f9d5a4583817d8c19",
+      "operating_confidence": 0.75,
+      "validation_metrics_path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04\\reports\\evaluation_suite\\evaluations\\baseline__epoch_20__dual__val\\metrics.json",
+      "validation_metrics_sha256": "13b62813c84de64ddbe755055851b4ad035f094df8be924be532238d88f38865",
+      "validation_bbox": {
+        "iou_type": "bbox",
+        "ap50_95_max100": 0.3554185928316102,
+        "ap50_max100": 0.5699723045365905,
+        "ap75_max100": 0.3940356549800181,
+        "ap50_95_max300": 0.3924585727507874,
+        "ap50_max300": 0.6524036753248056,
+        "ap75_max300": 0.4183222072372571,
+        "per_class": {
+          "resistor": {
+            "ap50_95_max100": 0.3438136035294705,
+            "ap50_max100": 0.6208205508899942,
+            "ap75_max100": 0.35363861425139587,
+            "ap50_95_max300": 0.45034019985304924,
+            "ap50_max300": 0.8741349903384559,
+            "ap75_max300": 0.41081429260269514
+          },
+          "capacitor": {
+            "ap50_95_max100": 0.3813670007197553,
+            "ap50_max100": 0.6065329781859244,
+            "ap75_max100": 0.43777446456655755,
+            "ap50_95_max300": 0.4177722288542627,
+            "ap50_max300": 0.6751595547145085,
+            "ap75_max300": 0.4730671719785012
+          },
+          "ic": {
+            "ap50_95_max100": 0.45251551866389356,
+            "ap50_max100": 0.6319433809079572,
+            "ap75_max100": 0.5085166084544696,
+            "ap50_95_max300": 0.45300384053129056,
+            "ap50_max300": 0.6333258150389839,
+            "ap75_max300": 0.508247174016775
+          },
+          "connector": {
+            "ap50_95_max100": 0.24397824841332172,
+            "ap50_max100": 0.42059230816248633,
+            "ap75_max100": 0.2762129326476493,
+            "ap50_95_max300": 0.24871802176454683,
+            "ap50_max300": 0.4269943412072744,
+            "ap75_max300": 0.2811601903510569
+          }
+        },
+        "max_detections_scope": "Per image and category, before standard COCO accumulation",
+        "area_ap50_95_max100": {
+          "all": 0.3554185928316102,
+          "small": 0.4086872347969053,
+          "medium": 0.3842112840056267,
+          "large": 0.40536383612644333
+        },
+        "area_ap50_95_max300": {
+          "all": 0.3924585727507874,
+          "small": 0.484140519688877,
+          "medium": 0.38969248630889064,
+          "large": 0.45099362658062914
+        }
+      },
+      "validation_latency": {
+        "offline_predict_and_postprocess_ms_p50": 259.3172000197228,
+        "offline_predict_and_postprocess_ms_p95": 1011.7015800031368,
+        "samples": 9,
+        "warmup_excluded": true,
+        "scope": "Offline crop predict plus native coordinate merge/global NMS only; NOT camera-to-result latency",
+        "excludes": [
+          "model initialization",
+          "file read/hash/decode",
+          "camera capture",
+          "visualization",
+          "metrics",
+          "disk write"
+        ]
+      }
+    },
+    "improved": {
+      "candidate": {
+        "arm": "improved",
+        "epoch": 16,
+        "optimizer_calls": 952,
+        "pipeline": "dual",
+        "candidate_id": "improved__epoch_16__dual",
+        "weights": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04\\runs\\improved\\candidates\\epoch_16.pt",
+        "checkpoint_sha256": "79f01b40b9cc7412341e7da5561dc55fb3e3d5fbdfc39adc49aac5ba8dc4e34a",
+        "candidate_training_metadata": {
+          "epoch": 16,
+          "optimizer_calls": 952,
+          "partial_epoch": false
+        }
+      },
+      "checkpoint_sha256": "79f01b40b9cc7412341e7da5561dc55fb3e3d5fbdfc39adc49aac5ba8dc4e34a",
+      "manifest_sha256": "a91d4956da6adc8b3eebcd87da6e8e428362e1c14cef9e8f9d5a4583817d8c19",
+      "operating_confidence": 0.65,
+      "validation_metrics_path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04\\reports\\evaluation_suite\\evaluations\\improved__epoch_16__dual__val\\metrics.json",
+      "validation_metrics_sha256": "dc6e4dd4bfa4040f3f9c674e02b535af9bab464b48e84ed50591238d2df58601",
+      "validation_bbox": {
+        "iou_type": "bbox",
+        "ap50_95_max100": 0.42185839425411203,
+        "ap50_max100": 0.6334544964333902,
+        "ap75_max100": 0.47811396317294436,
+        "ap50_95_max300": 0.4611709726999595,
+        "ap50_max300": 0.7160932542373284,
+        "ap75_max300": 0.5138080414145795,
+        "per_class": {
+          "resistor": {
+            "ap50_95_max100": 0.3274982009871334,
+            "ap50_max100": 0.615311492543932,
+            "ap75_max100": 0.3340837212454369,
+            "ap50_95_max300": 0.44527152916137297,
+            "ap50_max300": 0.8710324802211804,
+            "ap75_max300": 0.4384779281075338
+          },
+          "capacitor": {
+            "ap50_95_max100": 0.45173896566939975,
+            "ap50_max100": 0.693759016308575,
+            "ap75_max100": 0.5118670149550207,
+            "ap50_95_max300": 0.48529795858270985,
+            "ap50_max300": 0.7575034634580219,
+            "ap75_max300": 0.5468431749648225
+          },
+          "ic": {
+            "ap50_95_max100": 0.5668295543849833,
+            "ap50_max100": 0.7058108054136603,
+            "ap75_max100": 0.661020085896629,
+            "ap50_95_max300": 0.5668295543849833,
+            "ap50_max300": 0.7058108054136603,
+            "ap75_max300": 0.661020085896629
+          },
+          "connector": {
+            "ap50_95_max100": 0.3413668559749318,
+            "ap50_max100": 0.5189366714673933,
+            "ap75_max100": 0.40548503059469054,
+            "ap50_95_max300": 0.3472848486707718,
+            "ap50_max300": 0.5300262678564508,
+            "ap75_max300": 0.4088909766893326
+          }
+        },
+        "max_detections_scope": "Per image and category, before standard COCO accumulation",
+        "area_ap50_95_max100": {
+          "all": 0.42185839425411203,
+          "small": 0.4624446203585717,
+          "medium": 0.467800890360524,
+          "large": 0.49137352269770374
+        },
+        "area_ap50_95_max300": {
+          "all": 0.4611709726999595,
+          "small": 0.5452058070857208,
+          "medium": 0.4781317961266207,
+          "large": 0.5214525685267156
+        }
+      },
+      "validation_latency": {
+        "offline_predict_and_postprocess_ms_p50": 340.9279999905266,
+        "offline_predict_and_postprocess_ms_p95": 1128.27585999039,
+        "samples": 9,
+        "warmup_excluded": true,
+        "scope": "Offline crop predict plus native coordinate merge/global NMS only; NOT camera-to-result latency",
+        "excludes": [
+          "model initialization",
+          "file read/hash/decode",
+          "camera capture",
+          "visualization",
+          "metrics",
+          "disk write"
+        ]
+      }
+    }
+  }
+}

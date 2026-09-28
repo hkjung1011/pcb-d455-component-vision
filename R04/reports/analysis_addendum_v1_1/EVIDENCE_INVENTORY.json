@@ -1,0 +1,231 @@
+{
+  "created_utc": "2026-09-28T16:25:06.063469+00:00",
+  "status": "PASS_ANALYSIS_EVIDENCE_COPY",
+  "files": [
+    {
+      "path": "ANALYSIS_ADDENDUM_v1.1.md",
+      "source_path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04_addendum\\ANALYSIS_ADDENDUM_v1.1.md",
+      "sha256": "05ad1712846b33e345e938d4c8f52b8eb14530f99ea093e1cb19eff36cd569be",
+      "bytes": 38816
+    },
+    {
+      "path": "ANALYSIS_ADDENDUM_v1.1.sha256",
+      "source_path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04_addendum\\ANALYSIS_ADDENDUM_v1.1.sha256",
+      "sha256": "56f4562b86118475ec5a1d2a655035399b3f6286936a4b29d7a9513ecc9fe3a7",
+      "bytes": 93
+    },
+    {
+      "path": "freeze_addendum.py",
+      "source_path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04_addendum\\freeze_addendum.py",
+      "sha256": "ad03ed1da905f138984b5717591afdf32d11beb6248d638328af276440c4a679",
+      "bytes": 4979
+    },
+    {
+      "path": "freeze_record.json",
+      "source_path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04_addendum\\freeze_record.json",
+      "sha256": "48a95b652deacf34f0009116b6d6686cf48b7d1df3446cad10f27f3e701df691",
+      "bytes": 1704
+    },
+    {
+      "path": "prepare_analysis_evidence.py",
+      "source_path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04_addendum\\prepare_analysis_evidence.py",
+      "sha256": "f2b98a00b6e06a8ac2d761b7d7426a42649e1f873b664b4d81f14808567ee86f",
+      "bytes": 3660
+    },
+    {
+      "path": "pre_holdout_audit.py",
+      "source_path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04_addendum\\pre_holdout_audit.py",
+      "sha256": "2a4db5be41e88f9afccf5f1b52bc468451507234edc4f1a0575c3ef24341dcf6",
+      "bytes": 6134
+    },
+    {
+      "path": "supplementary_analysis.py",
+      "source_path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04_addendum\\supplementary_analysis.py",
+      "sha256": "6f7bb3cd3ca7f5c9ee238d54fea58b45fa7727bd24b273a6fc013be6a12335b0",
+      "bytes": 20726
+    },
+    {
+      "path": "supplementary_holdout.log",
+      "source_path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04_addendum\\supplementary_holdout.log",
+      "sha256": "5517a6bc6d4f34910f72bcf246ea0a1c49de0349254a4c2bf65256093713a42d",
+      "bytes": 210
+    },
+    {
+      "path": "supplementary_val.log",
+      "source_path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04_addendum\\supplementary_val.log",
+      "sha256": "7079d20345cac03179006dd9a6cded685418d6367ac2ad19b52144f6c740705a",
+      "bytes": 1842
+    },
+    {
+      "path": "test_supplementary_analysis.py",
+      "source_path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04_addendum\\test_supplementary_analysis.py",
+      "sha256": "8d524eed4df41a1e90685d4d2b5d1bb9d54418b98e50af0d159c34235e6fb59c",
+      "bytes": 3025
+    },
+    {
+      "path": "outputs/pre_holdout_audit.json",
+      "source_path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04_addendum\\reports\\pre_holdout_audit.json",
+      "sha256": "7c9c6c87710e6c16068c2cfaf9033c68d7fa967230a3b530d595ef18acd6da23",
+      "bytes": 942046
+    },
+    {
+      "path": "outputs/pre_holdout_audit.md",
+      "source_path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04_addendum\\reports\\pre_holdout_audit.md",
+      "sha256": "1d8ac0c9054700408fc7ef345ad6d4624aff9f9d18fb8f306b7794fbe60e2c97",
+      "bytes": 254
+    },
+    {
+      "path": "outputs/supplementary_holdout.json",
+      "source_path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04_addendum\\reports\\supplementary_holdout.json",
+      "sha256": "c1ffbf113271cfc7d3392ea35fc1ea47288adbfbd62420ac97f0b0e4e3ec6eaf",
+      "bytes": 628178
+    },
+    {
+      "path": "outputs/supplementary_holdout.md",
+      "source_path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04_addendum\\reports\\supplementary_holdout.md",
+      "sha256": "4c2816f31ea86f968da726771bc90798c391c406b2542254255c899b63bdb3dc",
+      "bytes": 748
+    },
+    {
+      "path": "outputs/supplementary_synthetic_tests.json",
+      "source_path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04_addendum\\reports\\supplementary_synthetic_tests.json",
+      "sha256": "619d06ec08a67d95559b88a5ab181f10e064ef50a58dd441fe9b56eecdf27b99",
+      "bytes": 500
+    },
+    {
+      "path": "outputs/supplementary_val.json",
+      "source_path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04_addendum\\reports\\supplementary_val.json",
+      "sha256": "bf49a644e992a4f1c0f6c33ce8595b27c03836c39682f36a91ea0b180ba7af1a",
+      "bytes": 2826538
+    },
+    {
+      "path": "outputs/supplementary_val.md",
+      "source_path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04_addendum\\reports\\supplementary_val.md",
+      "sha256": "4846555ce11a464b0d159fc969d5560ad3a91b1f36a0c43e15bba941b7dc31c6",
+      "bytes": 1597
+    },
+    {
+      "path": "ANALYSIS_ADDENDUM_v1.1_DRAFT.md",
+      "source_path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04_review\\analysis_addendum_v1_1_draft\\ANALYSIS_ADDENDUM_v1.1_DRAFT.md",
+      "sha256": "e3135ccb477f7fff6aee25c57726cd18da98d35609227a2139b409dc41f1c205",
+      "bytes": 36833
+    },
+    {
+      "path": "REVIEW_APPENDIX.md",
+      "source_path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04_review\\analysis_addendum_v1_1_draft\\REVIEW_APPENDIX.md",
+      "sha256": "9a12649b6a2b240a7e6701fc1f762fec049285767fb5f6f56b00f2c54b8a8799",
+      "bytes": 15764
+    },
+    {
+      "path": "repro/common.py",
+      "source_path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04_review\\analysis_addendum_v1_1_draft\\repro\\common.py",
+      "sha256": "8a527ce025121ff9ae963e7a02e56e7952a2eeee28cf8b4651918c4f612a4157",
+      "bytes": 2438
+    },
+    {
+      "path": "repro/r01_hash_bindings.py",
+      "source_path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04_review\\analysis_addendum_v1_1_draft\\repro\\r01_hash_bindings.py",
+      "sha256": "afc6814dce3525b6547477c604d0924c257f69e5e452dafa3d1f3e4edc40c196",
+      "bytes": 6377
+    },
+    {
+      "path": "repro/r02_optimizer_schedule.py",
+      "source_path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04_review\\analysis_addendum_v1_1_draft\\repro\\r02_optimizer_schedule.py",
+      "sha256": "7e5b0031d53bfabb47380ac5935c48c18415698a8e4530b1ace410f05ac559d0",
+      "bytes": 3493
+    },
+    {
+      "path": "repro/r03_split_reproduction.py",
+      "source_path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04_review\\analysis_addendum_v1_1_draft\\repro\\r03_split_reproduction.py",
+      "sha256": "b554ac9991253bc3aef28eaa4de2fc2c73201e2eda45cdef234861abc34459fc",
+      "bytes": 4453
+    },
+    {
+      "path": "repro/r04_independent_ap_matching.py",
+      "source_path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04_review\\analysis_addendum_v1_1_draft\\repro\\r04_independent_ap_matching.py",
+      "sha256": "d1e65f94458b14a2cd72503d7420e741d9e71ff73d304840e454817edf6b83c7",
+      "bytes": 7277
+    },
+    {
+      "path": "repro/r05_ignore_geometry_check.py",
+      "source_path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04_review\\analysis_addendum_v1_1_draft\\repro\\r05_ignore_geometry_check.py",
+      "sha256": "3d3f9732fc781f20bbb169668f83d11c6da5a4697e867bfc841b67a24c8f675e",
+      "bytes": 4912
+    },
+    {
+      "path": "repro/r06_exposure_and_anchor_coverage.py",
+      "source_path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04_review\\analysis_addendum_v1_1_draft\\repro\\r06_exposure_and_anchor_coverage.py",
+      "sha256": "bcbfc6ec69cef750b92c2b61d967690cac6dca8749b803e4a47d66069f12b977",
+      "bytes": 8736
+    },
+    {
+      "path": "repro/r07_eval_caps.py",
+      "source_path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04_review\\analysis_addendum_v1_1_draft\\repro\\r07_eval_caps.py",
+      "sha256": "a3fb54191d33487d00d1b349d5603be1aa623c221c5540928acbf4d004d3280d",
+      "bytes": 2605
+    },
+    {
+      "path": "repro/r08_excluded_objects.py",
+      "source_path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04_review\\analysis_addendum_v1_1_draft\\repro\\r08_excluded_objects.py",
+      "sha256": "ac961aaa4b49150117c281d99614ce8b58cff4e5e64a893f15dc5a21510c3308",
+      "bytes": 6230
+    },
+    {
+      "path": "repro/run_all.ps1",
+      "source_path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04_review\\analysis_addendum_v1_1_draft\\repro\\run_all.ps1",
+      "sha256": "7e8e9408d89883c5a10bb2d79100fa9d87f81f1203667f6673e7515bebb8bb86",
+      "bytes": 772
+    },
+    {
+      "path": "repro/outputs/r01_hash_bindings.json",
+      "source_path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04_review\\analysis_addendum_v1_1_draft\\repro\\outputs\\r01_hash_bindings.json",
+      "sha256": "2cb0ada7b3cd211ebe8b3b7ea842d91754fe90640c5b6090e635a6e71aaf9cc6",
+      "bytes": 52272
+    },
+    {
+      "path": "repro/outputs/r02_optimizer_schedule.json",
+      "source_path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04_review\\analysis_addendum_v1_1_draft\\repro\\outputs\\r02_optimizer_schedule.json",
+      "sha256": "710e9c36d0a15aa4afac5b2f4f8ed8a571f21ebb538415c2ad3dfb44f7a643b2",
+      "bytes": 14506
+    },
+    {
+      "path": "repro/outputs/r03_split_reproduction.json",
+      "source_path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04_review\\analysis_addendum_v1_1_draft\\repro\\outputs\\r03_split_reproduction.json",
+      "sha256": "ee6753e66a174707d8ecb545b36494cb957fbbb2510a3866b62b88f598b4989d",
+      "bytes": 7393
+    },
+    {
+      "path": "repro/outputs/r04_independent_ap_matching.json",
+      "source_path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04_review\\analysis_addendum_v1_1_draft\\repro\\outputs\\r04_independent_ap_matching.json",
+      "sha256": "48715b8e1d8ba2ce4199e2dffbc9368ec6b13afb47543e8c25adee22fd76afdb",
+      "bytes": 44403
+    },
+    {
+      "path": "repro/outputs/r05_ignore_geometry_check.json",
+      "source_path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04_review\\analysis_addendum_v1_1_draft\\repro\\outputs\\r05_ignore_geometry_check.json",
+      "sha256": "c9ed93ecfc4798b8dc2b9fc9bf242d534fc25b00c869e6f008f97778ac7d5256",
+      "bytes": 2337
+    },
+    {
+      "path": "repro/outputs/r06_exposure_and_anchor_coverage.json",
+      "source_path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04_review\\analysis_addendum_v1_1_draft\\repro\\outputs\\r06_exposure_and_anchor_coverage.json",
+      "sha256": "94afca02be45fec642f4e60fa2fbac77cac5a7dc012f7a9c876d2ceb4151e36b",
+      "bytes": 9466
+    },
+    {
+      "path": "repro/outputs/r07_eval_caps.json",
+      "source_path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04_review\\analysis_addendum_v1_1_draft\\repro\\outputs\\r07_eval_caps.json",
+      "sha256": "823ecb72fc1f7638703470a491959636fcee2798d792aa89b7adf71152144511",
+      "bytes": 48493
+    },
+    {
+      "path": "repro/outputs/r08_excluded_objects.json",
+      "source_path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04_review\\analysis_addendum_v1_1_draft\\repro\\outputs\\r08_excluded_objects.json",
+      "sha256": "ee9c1e7a550e2f43352cda7eff4a85c789f320abadd6d3f82242b35c03967416",
+      "bytes": 26258
+    }
+  ],
+  "core_hashes_unchanged": true,
+  "source_images_included": false,
+  "analysis_selection_unchanged": true
+}

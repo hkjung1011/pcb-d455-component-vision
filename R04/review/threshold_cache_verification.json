@@ -1,0 +1,104 @@
+{
+  "status": "PASS_CPU_NO_INFERENCE",
+  "evaluator_after_sha256": "b62dce3fa1e3b8a0fe0b4526809bde5bf63f914e0e53ac8398f2f29b1c35b3e5",
+  "evaluator_before_sha256": "723ffdfa02298c988af5cab655dbfe45acda32e75e6fa986c53853a66c1aca00",
+  "saved_prediction_cases": [
+    {
+      "source": "work\\r03\\reports\\evaluation_suite\\evaluations\\parts_yolo11n__val__best_tile1024\\samples.json",
+      "sample_sha256": "af0d639a22fa0dd7cbcbca6296e3f805351e6b8bb60e1ab0e427bc4230751da4",
+      "images": 7,
+      "predictions": 5632,
+      "before_seconds": 4.596134099992923,
+      "after_seconds": 0.07373090001055971,
+      "speedup": 62.33660648838773,
+      "full_curve_class_per_image_float_tie_parity": "EXACT",
+      "thresholds_checked": 19,
+      "curve_sha256": "0ffd91c52da00fb1a485cd2a712b72758c55824a5b2f997f3a4e99e85f25379a"
+    },
+    {
+      "source": "work\\r03\\reports\\evaluation_suite\\evaluations\\parts_yolo11n__val__best_whole\\samples.json",
+      "sample_sha256": "086cfd663231548dcd4444a282383a4efcb23624a8d9a25239898e191060464f",
+      "images": 7,
+      "predictions": 2644,
+      "before_seconds": 0.9638857000099961,
+      "after_seconds": 0.05059699999401346,
+      "speedup": 19.050253970078092,
+      "full_curve_class_per_image_float_tie_parity": "EXACT",
+      "thresholds_checked": 19,
+      "curve_sha256": "05078b83ac9a5cb90b9490dc860c612189fbc4f20ee382f65cb382f7dd3aceff"
+    },
+    {
+      "source": "work\\r03\\reports\\evaluation_suite\\evaluations\\parts_yolo11n__val__last_tile1024\\samples.json",
+      "sample_sha256": "3c2083f7451bdd67170cd1a8febb5411d2b8cd386d625c224993df06e59a2d86",
+      "images": 7,
+      "predictions": 5559,
+      "before_seconds": 4.8682845000003,
+      "after_seconds": 0.07555939999292605,
+      "speedup": 64.42989886706451,
+      "full_curve_class_per_image_float_tie_parity": "EXACT",
+      "thresholds_checked": 19,
+      "curve_sha256": "33deecb53f155b9f22a6f19c9a90173811394cadb5db31cdbcc735bad9a22da7"
+    },
+    {
+      "source": "work\\r03\\reports\\evaluation_suite\\evaluations\\parts_yolo11n__val__last_whole\\samples.json",
+      "sample_sha256": "e64bb01585cbe68fcda187a51f86f14738efa8eeeea9c1553c130f9c4b294957",
+      "images": 7,
+      "predictions": 2468,
+      "before_seconds": 1.0041063000098802,
+      "after_seconds": 0.042482899996684864,
+      "speedup": 23.635540419515504,
+      "full_curve_class_per_image_float_tie_parity": "EXACT",
+      "thresholds_checked": 19,
+      "curve_sha256": "a7b02af4a5cb3c62ba8d0d582f49175e6ec6447ef86b1c3d52690d3654f5b22d"
+    },
+    {
+      "source": "work\\r03\\reports\\evaluation_suite\\evaluations\\parts_yolo11s__val__best_tile1024\\samples.json",
+      "sample_sha256": "8aafd8e70d6d5450b9c8937066da8f9db8029643acee1657d86098bae02a5f5c",
+      "images": 7,
+      "predictions": 5504,
+      "before_seconds": 3.911577400023816,
+      "after_seconds": 0.0795648000203073,
+      "speedup": 49.16215963623946,
+      "full_curve_class_per_image_float_tie_parity": "EXACT",
+      "thresholds_checked": 19,
+      "curve_sha256": "e86661f428e65a376cbcc204203a5040fe30c949f1a569ef68f87ae097565439"
+    },
+    {
+      "source": "work\\r03\\reports\\evaluation_suite\\evaluations\\parts_yolo11s__val__best_whole\\samples.json",
+      "sample_sha256": "8c8ae1c0baa1a94db963baebcede2ef7a8fb616709cb17828869edd53135ad8e",
+      "images": 7,
+      "predictions": 2049,
+      "before_seconds": 0.7415944000240415,
+      "after_seconds": 0.03634510000119917,
+      "speedup": 20.404247064929613,
+      "full_curve_class_per_image_float_tie_parity": "EXACT",
+      "thresholds_checked": 19,
+      "curve_sha256": "293a041ec57d0fb045f324c6e420d278303e0febe46d4b2f50edaacf28b36fd4"
+    },
+    {
+      "source": "work\\r03\\reports\\evaluation_suite\\evaluations\\parts_yolo11s__val__last_tile1024\\samples.json",
+      "sample_sha256": "e7c422e53329bfe321e232de1bb6bec6729cfd4df9806a72194a4150f655e3ac",
+      "images": 7,
+      "predictions": 5269,
+      "before_seconds": 3.922907900006976,
+      "after_seconds": 0.07120109998504631,
+      "speedup": 55.09616987421356,
+      "full_curve_class_per_image_float_tie_parity": "EXACT",
+      "thresholds_checked": 19,
+      "curve_sha256": "610ac6baa65556e0c190b767a91a8b1a93b31d3e2547acb1529e572f027d7421"
+    },
+    {
+      "source": "work\\r03\\reports\\evaluation_suite\\evaluations\\parts_yolo11s__val__last_whole\\samples.json",
+      "sample_sha256": "d06c580c36096fb8db31c830cb9643657e637aa0bea07fc91d38dfb44bdfb992",
+      "images": 7,
+      "predictions": 2014,
+      "before_seconds": 0.7422565000015311,
+      "after_seconds": 0.028893599985167384,
+      "speedup": 25.689304911211156,
+      "full_curve_class_per_image_float_tie_parity": "EXACT",
+      "thresholds_checked": 19,
+      "curve_sha256": "1304884ed5d928e33465fd24a8890325c09c4f52729f4c17f55e356a869f28ea"
+    }
+  ],
+  "automatic_evaluation_protocol_exists_at_end": false
+}

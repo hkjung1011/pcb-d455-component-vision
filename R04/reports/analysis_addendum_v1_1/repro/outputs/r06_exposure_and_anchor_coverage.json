@@ -1,0 +1,275 @@
+{
+  "script": "r06_exposure_and_anchor_coverage",
+  "generated_utc": "2026-09-28T16:00:17.840743+00:00",
+  "review_commit": "17f72fdd9143bca6645f9b342414b0c5a2c1ed6d",
+  "inputs_modified": false,
+  "definitions": {
+    "unique_drawn": "distinct instance_id among positive targets of views drawn at least once; complete = visible_fraction >= 1-1e-12 (prepare_r04.py:129 rule)",
+    "stored_label": "one target row in one saved crop label file (views.json targets)",
+    "actual_exposure": "sum over drawn views of draw_count x labels in that view (8,872 draws = 2,218 batches x 4)",
+    "sampling_weight": "per view: priority (1.5 if the view has an IC/connector target else 1.0) / sum of priorities in its board group",
+    "loss_weight": "not computed here: class multipliers are 1.0 in effect (cls_pw=0, no model.class_weights; see R01/start.json)",
+    "anchor_centre": "centre (i+0.5)*stride inside the box after LetterBox to 1024; strides 8/16/32; inclusive bounds",
+    "interpretation": "anchor-coverage shares are geometric counts, NOT performance-loss rates"
+  },
+  "results": {
+    "original_train_objects": {
+      "total": 3307,
+      "per_class": {
+        "connector": 318,
+        "ic": 204,
+        "capacitor": 1584,
+        "resistor": 1201
+      }
+    },
+    "baseline": {
+      "stored_views": 418,
+      "views_drawn": 418,
+      "view_kinds_stored": {
+        "native1024": 418
+      },
+      "unique_original_objects_drawn": {
+        "as_positive": 3307,
+        "complete": 3215,
+        "all_in_train_split": true,
+        "recorded": [
+          3307,
+          3215
+        ],
+        "match_recorded": true
+      },
+      "stored_positive_labels": {
+        "total": 6575,
+        "per_class": {
+          "connector": 828,
+          "capacitor": 3054,
+          "ic": 507,
+          "resistor": 2186
+        }
+      },
+      "stored_ignore_regions": {},
+      "stored_fragment_positives_lt50": 837,
+      "stored_fragment_positives_without_anchor_centre": 110,
+      "actual_draws": 8872,
+      "draws_by_view_kind": {
+        "native1024": 8872
+      },
+      "actual_positive_label_exposures": {
+        "total": 268170,
+        "per_class": {
+          "connector": 24939,
+          "ic": 31951,
+          "capacitor": 131249,
+          "resistor": 80031
+        },
+        "per_view_kind": {
+          "native1024": 268170
+        },
+        "per_draw": 30.226555455365194
+      },
+      "actual_ignore_exposures": {},
+      "recorded_class_exposures_match": true,
+      "most_exposed_view": {
+        "id": "UTL-103__0000_native1024",
+        "group": "UTL-103",
+        "kind": "native1024",
+        "draws": 510,
+        "labels_in_view": 127,
+        "exposures": 64770,
+        "share_of_positive_exposures": 0.24152589775142633,
+        "views_in_its_group": 1
+      },
+      "group_exposure_shares": {
+        "UTL-103": 0.24152589775142633,
+        "DigitalDiscovery": 0.17210724540403474,
+        "MicroZed": 0.11965917142111347,
+        "Spartan6Redux": 0.07702576723720028,
+        "HackRF": 0.06733042473058135,
+        "ML365": 0.06612223589514114,
+        "Ztex": 0.05522989148674348,
+        "ATTIOT": 0.04741768281314092,
+        "XLVDSproSupply": 0.034045568109781106,
+        "ThingMagicM6e": 0.027366968713875527,
+        "Zedboard": 0.026938136256851996,
+        "SystemAce": 0.018712011037774545,
+        "ZTurn": 0.01653801692955961,
+        "Virtex5": 0.01063131595629638,
+        "Spartan3": 0.0070887869634933065,
+        "STK644": 0.0063131595629637915,
+        "ArduinoMega": 0.005947719730022001
+      },
+      "top3_group_share": 0.5332923145765746,
+      "draw_count_quantiles": {
+        "max": 510,
+        "median": 14,
+        "min": 2
+      },
+      "effective_views_inverse_simpson": 104.96104117772562,
+      "sampling_weight_group_sums": {
+        "min": 0.9999999999999991,
+        "max": 1.000000000000001,
+        "groups": 17
+      },
+      "ignore_anchor_coverage": {}
+    },
+    "improved": {
+      "stored_views": 968,
+      "views_drawn": 966,
+      "view_kinds_stored": {
+        "native1024": 418,
+        "context2048": 126,
+        "object_centered": 424
+      },
+      "unique_original_objects_drawn": {
+        "as_positive": 3307,
+        "complete": 3307,
+        "all_in_train_split": true,
+        "recorded": [
+          3307,
+          3307
+        ],
+        "match_recorded": true
+      },
+      "stored_positive_labels": {
+        "total": 24807,
+        "per_class": {
+          "connector": 2471,
+          "ic": 1721,
+          "capacitor": 11092,
+          "resistor": 9523
+        }
+      },
+      "stored_ignore_regions": {
+        "target_fragment_lt50": 2722,
+        "source_unknown": 1399
+      },
+      "stored_fragment_positives_lt50": 0,
+      "stored_fragment_positives_without_anchor_centre": 0,
+      "actual_draws": 8872,
+      "draws_by_view_kind": {
+        "native1024": 4249,
+        "context2048": 1130,
+        "object_centered": 3493
+      },
+      "actual_positive_label_exposures": {
+        "total": 324762,
+        "per_class": {
+          "connector": 26617,
+          "ic": 34352,
+          "capacitor": 156437,
+          "resistor": 107356
+        },
+        "per_view_kind": {
+          "native1024": 145594,
+          "context2048": 57566,
+          "object_centered": 121602
+        },
+        "per_draw": 36.605275022542834
+      },
+      "actual_ignore_exposures": {
+        "target_fragment_lt50": 21180,
+        "source_unknown": 25289
+      },
+      "recorded_class_exposures_match": true,
+      "most_exposed_view": {
+        "id": "UTL-103__0000_native1024",
+        "group": "UTL-103",
+        "kind": "native1024",
+        "draws": 510,
+        "labels_in_view": 127,
+        "exposures": 64770,
+        "share_of_positive_exposures": 0.19943835793596543,
+        "views_in_its_group": 1
+      },
+      "group_exposure_shares": {
+        "UTL-103": 0.19943835793596543,
+        "DigitalDiscovery": 0.1728127059200276,
+        "MicroZed": 0.11441609547915088,
+        "ML365": 0.07944587113024307,
+        "HackRF": 0.06977109390877012,
+        "Spartan6Redux": 0.06360350040953067,
+        "ATTIOT": 0.06269822208263282,
+        "XLVDSproSupply": 0.05005203810790671,
+        "Ztex": 0.04814294775866634,
+        "Zedboard": 0.03184177951853973,
+        "ThingMagicM6e": 0.026742660779278365,
+        "SystemAce": 0.022419494891643726,
+        "ZTurn": 0.022284011060407314,
+        "ArduinoMega": 0.011162020187090855,
+        "Virtex5": 0.009009674777221473,
+        "Spartan3": 0.008387680824727031,
+        "STK644": 0.00777184522819788
+      },
+      "top3_group_share": 0.4866671593351439,
+      "draw_count_quantiles": {
+        "max": 510,
+        "median": 6,
+        "min": 1
+      },
+      "effective_views_inverse_simpson": 139.25381605112128,
+      "sampling_weight_group_sums": {
+        "min": 0.9999999999999984,
+        "max": 1.0000000000000024,
+        "groups": 17
+      },
+      "ignore_anchor_coverage": {
+        "target_fragment_lt50": {
+          "regions": 2722,
+          "regions_without_anchor_centre": 309,
+          "region_share": 0.11351947097722263,
+          "exposures": 21180,
+          "exposures_without_anchor_centre": 2608,
+          "exposure_share": 0.12313503305004722
+        },
+        "source_unknown": {
+          "regions": 1399,
+          "regions_without_anchor_centre": 11,
+          "region_share": 0.007862759113652609,
+          "exposures": 25289,
+          "exposures_without_anchor_centre": 98,
+          "exposure_share": 0.003875202657281822
+        }
+      }
+    },
+    "arm_differences": {
+      "positive_exposure_ratio_improved_over_baseline": 1.2110303165902225,
+      "per_class_ratio": {
+        "resistor": 1.341430195799128,
+        "capacitor": 1.191910033600256,
+        "ic": 1.0751463177991298,
+        "connector": 1.0672841733830547
+      },
+      "native_draws": [
+        8872,
+        4249
+      ]
+    }
+  },
+  "inputs": [
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\github_private_archive\\R04_PAUSED\\runs\\baseline\\sampled_exposures.json",
+      "sha256": "fb214f20f2d7517b6e8fae58b558e1323e3e708c449527eb219682f8873f49b6",
+      "bytes": 18199
+    },
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\github_private_archive\\R04_PAUSED\\runs\\improved\\sampled_exposures.json",
+      "sha256": "d9b2706218ff76988c7edbeabd88b96e7ea88cbd343575b19bd8f839870e6e9a",
+      "bytes": 42440
+    },
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04\\data\\baseline\\views.json",
+      "sha256": "fa507ef74db349875cd2f24c9e793dc6276a8d3b63427f0a0b8972ee2375df23",
+      "bytes": 3040662
+    },
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04\\data\\improved\\views.json",
+      "sha256": "df7b5bdb67323af200a5809253120e048027b08851f47be66ba9c863e0237986",
+      "bytes": 11995586
+    },
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04\\data\\original_records.json",
+      "sha256": "8f09eec359fcae412e539a2ecdc2aee1a10102aaa489edd792b17b46c551aa13",
+      "bytes": 8967965
+    }
+  ]
+}

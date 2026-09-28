@@ -1,0 +1,14 @@
+test_ap100_secondary (__main__.self_test.<locals>.Tests.test_ap100_secondary) ... ok
+test_ap300_primary (__main__.self_test.<locals>.Tests.test_ap300_primary) ... ok
+test_command_frozen_threshold (__main__.self_test.<locals>.Tests.test_command_frozen_threshold) ... ok
+test_hash_binding_changes (__main__.self_test.<locals>.Tests.test_hash_binding_changes) ... ok
+test_holdout_forbidden (__main__.self_test.<locals>.Tests.test_holdout_forbidden) ... ok
+test_incomplete_output_inventory_refused (__main__.self_test.<locals>.Tests.test_incomplete_output_inventory_refused) ... ok
+test_latency_then_id (__main__.self_test.<locals>.Tests.test_latency_then_id) ... ok
+test_nonfinite_refused (__main__.self_test.<locals>.Tests.test_nonfinite_refused) ... ok
+test_test_metric_threshold_tamper (__main__.self_test.<locals>.Tests.test_test_metric_threshold_tamper) ... ok
+
+----------------------------------------------------------------------
+Ran 9 tests in 0.000s
+
+OK

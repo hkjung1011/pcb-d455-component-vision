@@ -1,0 +1,32 @@
+{
+  "schema": "r04-inference-selection-v1",
+  "recommended_arm": "improved",
+  "selection_sha256": "0c2ade30935aa8584813a58825f7be5577415a764ff0250581a8a696b5a33380",
+  "selected_on": "validation_only",
+  "d455_verified": false,
+  "component_instance_masks_trained": false,
+  "arms": {
+    "baseline": {
+      "checkpoint": "runs/baseline/candidates/epoch_20.pt",
+      "sha256": "ab1250fa46cb1471648ec7c576d53b8c48707cd24f6b8e4abc1adc811181e8a2",
+      "pipeline": "dual",
+      "confidence": 0.75,
+      "epoch": 20,
+      "optimizer_calls": 1165,
+      "imgsz": 1024,
+      "tile_overlap": 0.2,
+      "tile_nms_iou": 0.5
+    },
+    "improved": {
+      "checkpoint": "runs/improved/candidates/epoch_16.pt",
+      "sha256": "79f01b40b9cc7412341e7da5561dc55fb3e3d5fbdfc39adc49aac5ba8dc4e34a",
+      "pipeline": "dual",
+      "confidence": 0.65,
+      "epoch": 16,
+      "optimizer_calls": 952,
+      "imgsz": 1024,
+      "tile_overlap": 0.2,
+      "tile_nms_iou": 0.5
+    }
+  }
+}

@@ -1,0 +1,79 @@
+[
+  {
+    "id": "DuetWIFI_Bottom",
+    "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\component_assets\\wacv_original\\pcb_wacv_2019\\DuetWIFI_Bottom\\DuetWIFI_Bottom.jpg",
+    "sha256": "2f4ca3f6eb8ae8eb7e076ef2463673b3a69fd2f1c71b760d4e49c9b696c1b7f4",
+    "width": 4112,
+    "height": 3008
+  },
+  {
+    "id": "DuetWIFI_Top",
+    "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\component_assets\\wacv_original\\pcb_wacv_2019\\DuetWIFI_Top\\DuetWIFI_Top.jpg",
+    "sha256": "712c5e91d00fadd1db69d3828ddcbf4ee7b94e02e766f3d6ccaa35b527e10678",
+    "width": 4112,
+    "height": 3008
+  },
+  {
+    "id": "EDA-008_Bottom",
+    "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\component_assets\\wacv_original\\pcb_wacv_2019\\EDA-008_Bottom\\EDA-008_Bottom.jpg",
+    "sha256": "fef8448b4550869e001c7aaf4eef3c9790582af3cbd486a332b0f4e693fb385f",
+    "width": 864,
+    "height": 503
+  },
+  {
+    "id": "EDA-008_Top",
+    "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\component_assets\\wacv_original\\pcb_wacv_2019\\EDA-008_Top\\EDA-008_Top.jpg",
+    "sha256": "449243ab8c31d6ebcde72466784b1b52e675f4496013df1c98f638a4389db358",
+    "width": 879,
+    "height": 503
+  },
+  {
+    "id": "ML450_Bottom1",
+    "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\component_assets\\wacv_original\\pcb_wacv_2019\\ML450_Bottom1\\ML450_Bottom1.jpg",
+    "sha256": "f7edffa483d8dfe99e61f20bcc613b87021a7e723889a1f23762f9f1315b472d",
+    "width": 4112,
+    "height": 3008
+  },
+  {
+    "id": "ML450_Bottom2",
+    "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\component_assets\\wacv_original\\pcb_wacv_2019\\ML450_Bottom2\\ML450_Bottom2.jpg",
+    "sha256": "8ba9c3e220bc28f1fb768c998b790c460fb4db5e65944456eff294dc46fee17e",
+    "width": 4005,
+    "height": 2241
+  },
+  {
+    "id": "ML450_Top1",
+    "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\component_assets\\wacv_original\\pcb_wacv_2019\\ML450_Top1\\ML450_Top1.jpg",
+    "sha256": "36410b93a776e56430eda4ba56496b17b545524f35eba184485bdb40f91b8373",
+    "width": 4051,
+    "height": 2383
+  },
+  {
+    "id": "ML450_Top2",
+    "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\component_assets\\wacv_original\\pcb_wacv_2019\\ML450_Top2\\ML450_Top2.jpg",
+    "sha256": "b0430fc9ba100d729fb0756298ad965483ca2abe4683dacbb2429516b2eb5b89",
+    "width": 4112,
+    "height": 3008
+  },
+  {
+    "id": "OlimexRed",
+    "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\component_assets\\wacv_original\\pcb_wacv_2019\\OlimexRed\\OlimexRed.jpg",
+    "sha256": "7fbec1163d3c1dcc1c3465bec4a6e5e94c8e48ba10bb23466903ae0cec97fc12",
+    "width": 4000,
+    "height": 2500
+  },
+  {
+    "id": "Spartan6_Bottom",
+    "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\component_assets\\wacv_original\\pcb_wacv_2019\\Spartan6_Bottom\\Spartan6_Bottom.jpg",
+    "sha256": "43d25ae2544b3b416916c5ac40e98cccab5105aa8e6de45b44cbd47d5bad6aed",
+    "width": 600,
+    "height": 600
+  },
+  {
+    "id": "Spartan6_Top",
+    "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\component_assets\\wacv_original\\pcb_wacv_2019\\Spartan6_Top\\Spartan6_Top.jpg",
+    "sha256": "e56ac52cfbb3d43f170bdecc5a9190aec50300558aa9cd5e94934e591e829b98",
+    "width": 600,
+    "height": 600
+  }
+]

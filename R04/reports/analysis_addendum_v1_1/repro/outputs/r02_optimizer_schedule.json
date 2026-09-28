@@ -1,0 +1,588 @@
+{
+  "script": "r02_optimizer_schedule",
+  "generated_utc": "2026-09-28T16:00:03.605602+00:00",
+  "review_commit": "17f72fdd9143bca6645f9b342414b0c5a2c1ed6d",
+  "inputs_modified": false,
+  "definitions": {
+    "trainer_sha256": "21591c434e65a0bb6a10504f9184c3af012dde58b4b15d714f0f7b93ed0d128c",
+    "rule": "nw=round(min(warmup_epochs,epochs-1)*nb); if ni<nw: accumulate=max(1,int(interp(ni,[0,nw],[1,nbs/batch]).round())); step when ni-last>=accumulate; stop after the batch reaching 1165 calls"
+  },
+  "results": {
+    "baseline": {
+      "warmup_iterations": 224,
+      "derived": [
+        {
+          "epoch": 1,
+          "calls": 112,
+          "batches": 112
+        },
+        {
+          "epoch": 2,
+          "calls": 168,
+          "batches": 112
+        },
+        {
+          "epoch": 3,
+          "calls": 224,
+          "batches": 112
+        },
+        {
+          "epoch": 4,
+          "calls": 280,
+          "batches": 112
+        },
+        {
+          "epoch": 5,
+          "calls": 336,
+          "batches": 112
+        },
+        {
+          "epoch": 6,
+          "calls": 392,
+          "batches": 112
+        },
+        {
+          "epoch": 7,
+          "calls": 448,
+          "batches": 112
+        },
+        {
+          "epoch": 8,
+          "calls": 504,
+          "batches": 112
+        },
+        {
+          "epoch": 9,
+          "calls": 560,
+          "batches": 112
+        },
+        {
+          "epoch": 10,
+          "calls": 616,
+          "batches": 112
+        },
+        {
+          "epoch": 11,
+          "calls": 672,
+          "batches": 112
+        },
+        {
+          "epoch": 12,
+          "calls": 728,
+          "batches": 112
+        },
+        {
+          "epoch": 13,
+          "calls": 784,
+          "batches": 112
+        },
+        {
+          "epoch": 14,
+          "calls": 840,
+          "batches": 112
+        },
+        {
+          "epoch": 15,
+          "calls": 896,
+          "batches": 112
+        },
+        {
+          "epoch": 16,
+          "calls": 952,
+          "batches": 112
+        },
+        {
+          "epoch": 17,
+          "calls": 1008,
+          "batches": 112
+        },
+        {
+          "epoch": 18,
+          "calls": 1064,
+          "batches": 112
+        },
+        {
+          "epoch": 19,
+          "calls": 1120,
+          "batches": 112
+        },
+        {
+          "epoch": 20,
+          "calls": 1165,
+          "batches": 90
+        }
+      ],
+      "recorded": [
+        {
+          "epoch": 1,
+          "calls": 112,
+          "batches": 112,
+          "ema_updates": 112,
+          "partial": false
+        },
+        {
+          "epoch": 2,
+          "calls": 168,
+          "batches": 112,
+          "ema_updates": 168,
+          "partial": false
+        },
+        {
+          "epoch": 3,
+          "calls": 224,
+          "batches": 112,
+          "ema_updates": 224,
+          "partial": false
+        },
+        {
+          "epoch": 4,
+          "calls": 280,
+          "batches": 112,
+          "ema_updates": 280,
+          "partial": false
+        },
+        {
+          "epoch": 5,
+          "calls": 336,
+          "batches": 112,
+          "ema_updates": 336,
+          "partial": false
+        },
+        {
+          "epoch": 6,
+          "calls": 392,
+          "batches": 112,
+          "ema_updates": 392,
+          "partial": false
+        },
+        {
+          "epoch": 7,
+          "calls": 448,
+          "batches": 112,
+          "ema_updates": 448,
+          "partial": false
+        },
+        {
+          "epoch": 8,
+          "calls": 504,
+          "batches": 112,
+          "ema_updates": 504,
+          "partial": false
+        },
+        {
+          "epoch": 9,
+          "calls": 560,
+          "batches": 112,
+          "ema_updates": 560,
+          "partial": false
+        },
+        {
+          "epoch": 10,
+          "calls": 616,
+          "batches": 112,
+          "ema_updates": 616,
+          "partial": false
+        },
+        {
+          "epoch": 11,
+          "calls": 672,
+          "batches": 112,
+          "ema_updates": 672,
+          "partial": false
+        },
+        {
+          "epoch": 12,
+          "calls": 728,
+          "batches": 112,
+          "ema_updates": 728,
+          "partial": false
+        },
+        {
+          "epoch": 13,
+          "calls": 784,
+          "batches": 112,
+          "ema_updates": 784,
+          "partial": false
+        },
+        {
+          "epoch": 14,
+          "calls": 840,
+          "batches": 112,
+          "ema_updates": 840,
+          "partial": false
+        },
+        {
+          "epoch": 15,
+          "calls": 896,
+          "batches": 112,
+          "ema_updates": 896,
+          "partial": false
+        },
+        {
+          "epoch": 16,
+          "calls": 952,
+          "batches": 112,
+          "ema_updates": 952,
+          "partial": false
+        },
+        {
+          "epoch": 17,
+          "calls": 1008,
+          "batches": 112,
+          "ema_updates": 1008,
+          "partial": false
+        },
+        {
+          "epoch": 18,
+          "calls": 1064,
+          "batches": 112,
+          "ema_updates": 1064,
+          "partial": false
+        },
+        {
+          "epoch": 19,
+          "calls": 1120,
+          "batches": 112,
+          "ema_updates": 1120,
+          "partial": false
+        },
+        {
+          "epoch": 20,
+          "calls": 1165,
+          "batches": 90,
+          "ema_updates": 1165,
+          "partial": true
+        }
+      ],
+      "derived_equals_recorded": true,
+      "ema_equals_calls": true,
+      "total_batches": 2218,
+      "draws": 8872,
+      "last_epoch_partial": true
+    },
+    "improved": {
+      "warmup_iterations": 224,
+      "derived": [
+        {
+          "epoch": 1,
+          "calls": 112,
+          "batches": 112
+        },
+        {
+          "epoch": 2,
+          "calls": 168,
+          "batches": 112
+        },
+        {
+          "epoch": 3,
+          "calls": 224,
+          "batches": 112
+        },
+        {
+          "epoch": 4,
+          "calls": 280,
+          "batches": 112
+        },
+        {
+          "epoch": 5,
+          "calls": 336,
+          "batches": 112
+        },
+        {
+          "epoch": 6,
+          "calls": 392,
+          "batches": 112
+        },
+        {
+          "epoch": 7,
+          "calls": 448,
+          "batches": 112
+        },
+        {
+          "epoch": 8,
+          "calls": 504,
+          "batches": 112
+        },
+        {
+          "epoch": 9,
+          "calls": 560,
+          "batches": 112
+        },
+        {
+          "epoch": 10,
+          "calls": 616,
+          "batches": 112
+        },
+        {
+          "epoch": 11,
+          "calls": 672,
+          "batches": 112
+        },
+        {
+          "epoch": 12,
+          "calls": 728,
+          "batches": 112
+        },
+        {
+          "epoch": 13,
+          "calls": 784,
+          "batches": 112
+        },
+        {
+          "epoch": 14,
+          "calls": 840,
+          "batches": 112
+        },
+        {
+          "epoch": 15,
+          "calls": 896,
+          "batches": 112
+        },
+        {
+          "epoch": 16,
+          "calls": 952,
+          "batches": 112
+        },
+        {
+          "epoch": 17,
+          "calls": 1008,
+          "batches": 112
+        },
+        {
+          "epoch": 18,
+          "calls": 1064,
+          "batches": 112
+        },
+        {
+          "epoch": 19,
+          "calls": 1120,
+          "batches": 112
+        },
+        {
+          "epoch": 20,
+          "calls": 1165,
+          "batches": 90
+        }
+      ],
+      "recorded": [
+        {
+          "epoch": 1,
+          "calls": 112,
+          "batches": 112,
+          "ema_updates": 112,
+          "partial": false
+        },
+        {
+          "epoch": 2,
+          "calls": 168,
+          "batches": 112,
+          "ema_updates": 168,
+          "partial": false
+        },
+        {
+          "epoch": 3,
+          "calls": 224,
+          "batches": 112,
+          "ema_updates": 224,
+          "partial": false
+        },
+        {
+          "epoch": 4,
+          "calls": 280,
+          "batches": 112,
+          "ema_updates": 280,
+          "partial": false
+        },
+        {
+          "epoch": 5,
+          "calls": 336,
+          "batches": 112,
+          "ema_updates": 336,
+          "partial": false
+        },
+        {
+          "epoch": 6,
+          "calls": 392,
+          "batches": 112,
+          "ema_updates": 392,
+          "partial": false
+        },
+        {
+          "epoch": 7,
+          "calls": 448,
+          "batches": 112,
+          "ema_updates": 448,
+          "partial": false
+        },
+        {
+          "epoch": 8,
+          "calls": 504,
+          "batches": 112,
+          "ema_updates": 504,
+          "partial": false
+        },
+        {
+          "epoch": 9,
+          "calls": 560,
+          "batches": 112,
+          "ema_updates": 560,
+          "partial": false
+        },
+        {
+          "epoch": 10,
+          "calls": 616,
+          "batches": 112,
+          "ema_updates": 616,
+          "partial": false
+        },
+        {
+          "epoch": 11,
+          "calls": 672,
+          "batches": 112,
+          "ema_updates": 672,
+          "partial": false
+        },
+        {
+          "epoch": 12,
+          "calls": 728,
+          "batches": 112,
+          "ema_updates": 728,
+          "partial": false
+        },
+        {
+          "epoch": 13,
+          "calls": 784,
+          "batches": 112,
+          "ema_updates": 784,
+          "partial": false
+        },
+        {
+          "epoch": 14,
+          "calls": 840,
+          "batches": 112,
+          "ema_updates": 840,
+          "partial": false
+        },
+        {
+          "epoch": 15,
+          "calls": 896,
+          "batches": 112,
+          "ema_updates": 896,
+          "partial": false
+        },
+        {
+          "epoch": 16,
+          "calls": 952,
+          "batches": 112,
+          "ema_updates": 952,
+          "partial": false
+        },
+        {
+          "epoch": 17,
+          "calls": 1008,
+          "batches": 112,
+          "ema_updates": 1008,
+          "partial": false
+        },
+        {
+          "epoch": 18,
+          "calls": 1064,
+          "batches": 112,
+          "ema_updates": 1064,
+          "partial": false
+        },
+        {
+          "epoch": 19,
+          "calls": 1120,
+          "batches": 112,
+          "ema_updates": 1120,
+          "partial": false
+        },
+        {
+          "epoch": 20,
+          "calls": 1165,
+          "batches": 90,
+          "ema_updates": 1165,
+          "partial": true
+        }
+      ],
+      "derived_equals_recorded": true,
+      "ema_equals_calls": true,
+      "total_batches": 2218,
+      "draws": 8872,
+      "last_epoch_partial": true
+    },
+    "group_draws_identical_between_arms": true,
+    "group_draws": {
+      "ML365": 490,
+      "ATTIOT": 497,
+      "Spartan3": 501,
+      "Ztex": 503,
+      "ZTurn": 508,
+      "SystemAce": 508,
+      "Virtex5": 509,
+      "UTL-103": 510,
+      "ArduinoMega": 518,
+      "Spartan6Redux": 520,
+      "MicroZed": 520,
+      "STK644": 533,
+      "HackRF": 539,
+      "DigitalDiscovery": 544,
+      "ThingMagicM6e": 554,
+      "Zedboard": 558,
+      "XLVDSproSupply": 560
+    }
+  },
+  "inputs": [
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\github_private_archive\\R04_PAUSED\\protocol.json",
+      "sha256": "c712d8f3e24ce8fa8291d4b2e7e2593924ccdb154ba4361f50958e63555a4def",
+      "bytes": 1930
+    },
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\github_private_archive\\R04_PAUSED\\runs\\baseline\\epochs.json",
+      "sha256": "39d12c00ad31abebb05591d43dec7f323854eee0b8cd1c8e17fc994876856032",
+      "bytes": 22733
+    },
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\github_private_archive\\R04_PAUSED\\runs\\baseline\\sampled_exposures.json",
+      "sha256": "fb214f20f2d7517b6e8fae58b558e1323e3e708c449527eb219682f8873f49b6",
+      "bytes": 18199
+    },
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\github_private_archive\\R04_PAUSED\\runs\\baseline\\start.json",
+      "sha256": "6c43d262ed005be628106aaead38c3d4c0669c679f52d04d2fc71b4f1c6f35ca",
+      "bytes": 1076
+    },
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\github_private_archive\\R04_PAUSED\\runs\\baseline\\training_summary.json",
+      "sha256": "6c575cabac797f666ea46ec9c4b2b7ccb9c2557b6d11bd8b3eab562c7466b222",
+      "bytes": 1170
+    },
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\github_private_archive\\R04_PAUSED\\runs\\improved\\epochs.json",
+      "sha256": "9b11cdd78a3a0b574106c1b484cd8ebf9481c85fd25af68c3c15dd2b2b4c9493",
+      "bytes": 22725
+    },
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\github_private_archive\\R04_PAUSED\\runs\\improved\\sampled_exposures.json",
+      "sha256": "d9b2706218ff76988c7edbeabd88b96e7ea88cbd343575b19bd8f839870e6e9a",
+      "bytes": 42440
+    },
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\github_private_archive\\R04_PAUSED\\runs\\improved\\start.json",
+      "sha256": "db7abdf95588c9efd651e5ad6b7f0db9905c4c2fdf5d32b4fe8061fee2538b56",
+      "bytes": 1076
+    },
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\github_private_archive\\R04_PAUSED\\runs\\improved\\training_summary.json",
+      "sha256": "e6a293184efb56c71c367deb935010d0ae424159ccc3ba8def70e6500c1d005d",
+      "bytes": 1170
+    },
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\mcu-vision\\.venv-yolo11\\Lib\\site-packages\\ultralytics\\engine\\trainer.py",
+      "sha256": "21591c434e65a0bb6a10504f9184c3af012dde58b4b15d714f0f7b93ed0d128c",
+      "bytes": 67283
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "generated": [
+    "01_algorithm_pipeline",
+    "02_original_labels_and_view_exposures",
+    "03_complete_views_and_ignore_regions",
+    "04_actual_training_loss_and_updates",
+    "05_all_validation_candidates_ap300",
+    "06_development_holdout_metrics",
+    "07_pi_class_recall_and_counts",
+    "08_class_by_native_size_recall",
+    "09_actual_group_sampling_balance"
+  ],
+  "skipped": [],
+  "errors": []
+}

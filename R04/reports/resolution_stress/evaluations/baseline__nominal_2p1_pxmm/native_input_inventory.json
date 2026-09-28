@@ -1,0 +1,16 @@
+[
+  {
+    "id": "RPI3B_Bottom",
+    "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04\\data\\resolution_stress\\images\\nominal_2p1_pxmm\\RPI3B_Bottom.png",
+    "sha256": "d1c4da9fcfada26877ad7cba1545a15affdc83828e0c056e5d1e54d42f3e99aa",
+    "width": 239,
+    "height": 159
+  },
+  {
+    "id": "RPI3B_Top",
+    "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04\\data\\resolution_stress\\images\\nominal_2p1_pxmm\\RPI3B_Top.png",
+    "sha256": "c38d793559a2218a2ad238533b4760645bf524bed3b1a14b8f58b4071cde27d1",
+    "width": 186,
+    "height": 126
+  }
+]

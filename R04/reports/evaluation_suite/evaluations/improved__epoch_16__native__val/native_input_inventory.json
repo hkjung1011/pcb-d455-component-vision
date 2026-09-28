@@ -1,0 +1,65 @@
+[
+  {
+    "id": "ACM-109_Bottom",
+    "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\component_assets\\wacv_original\\pcb_wacv_2019\\ACM-109_Bottom\\ACM-109_Bottom.jpg",
+    "sha256": "83922ddd638b4e2a2c42405bd06c7adf60f4f14dd59d1d6d2542f21bd1c8208b",
+    "width": 560,
+    "height": 701
+  },
+  {
+    "id": "ACM-109_Top",
+    "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\component_assets\\wacv_original\\pcb_wacv_2019\\ACM-109_Top\\ACM-109_Top.jpg",
+    "sha256": "d206f0bc43b897120cd6fba2bf3013409faf45b6a347354c90dfd77f3636d35e",
+    "width": 560,
+    "height": 701
+  },
+  {
+    "id": "Arty_Bottom",
+    "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\component_assets\\wacv_original\\pcb_wacv_2019\\Arty_Bottom\\Arty_Bottom.jpg",
+    "sha256": "f9361066acbf1a8b1d2eb4f5a3b5bd756961a7009f7effc163e10d873114ce4c",
+    "width": 2773,
+    "height": 2221
+  },
+  {
+    "id": "Arty_Top",
+    "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\component_assets\\wacv_original\\pcb_wacv_2019\\Arty_Top\\Arty_Top.jpg",
+    "sha256": "7149b76cd99de19c62d8441e82de974bb0e7a32a2abce2fa5fe00322788d47e5",
+    "width": 5866,
+    "height": 3911
+  },
+  {
+    "id": "UTL-016",
+    "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\component_assets\\wacv_original\\pcb_wacv_2019\\UTL-016\\UTL-016.jpg",
+    "sha256": "13921c41d19d4851a7426c0a6f608b22f720bfb3a0e4eb9011392861f11a0310",
+    "width": 917,
+    "height": 627
+  },
+  {
+    "id": "Virtex6",
+    "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\component_assets\\wacv_original\\pcb_wacv_2019\\Virtex6\\Virtex6.jpg",
+    "sha256": "a63b94dc0245d5556c917bd0f6d235820a106dceb1247dec497f2b811ce93ec9",
+    "width": 5658,
+    "height": 3772
+  },
+  {
+    "id": "XCM-307A_Bottom",
+    "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\component_assets\\wacv_original\\pcb_wacv_2019\\XCM-307A_Bottom\\XCM-307A_Bottom.jpg",
+    "sha256": "6382a033ce5f0319f02f4bd3b52cb475545b700d90449449f4eecc306313a205",
+    "width": 600,
+    "height": 610
+  },
+  {
+    "id": "XCM-307A_Top",
+    "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\component_assets\\wacv_original\\pcb_wacv_2019\\XCM-307A_Top\\XCM-307A_Top.jpg",
+    "sha256": "92de76a3f5ac90776375baaaa374b5b884909f1b9cfa45820dcc546674270d86",
+    "width": 2454,
+    "height": 2501
+  },
+  {
+    "id": "Zybo",
+    "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\component_assets\\wacv_original\\pcb_wacv_2019\\Zybo\\Zybo.jpg",
+    "sha256": "5abf1b66e455a35bfe05174119742db22d5076dda3a9afff89897e1eba6c8469",
+    "width": 5833,
+    "height": 3889
+  }
+]

@@ -1,0 +1,625 @@
+{
+  "created_utc": "2026-09-28T13:04:22.544737+00:00",
+  "protocol_sha256": "a45e4d372f507af24518000b37e7bd39423eafdf290b46fe8072332855c325e1",
+  "evidence": {
+    "policy": {
+      "version": "r04-matched-ab-native-evaluation-v1",
+      "selection_rank": [
+        "validation bbox AP50-95 max300 descending",
+        "validation bbox AP50-95 max100 descending",
+        "validation offline predict/postprocess p50 ascending",
+        "candidate id ascending"
+      ],
+      "confidence": "Single global val micro-F1 confidence on .05:.95 by .05; highest confidence breaks F1 ties; class PR is diagnostic only",
+      "sequence": "All epochs x both pipelines for BOTH arms on val, freeze all selections, then one general/Pi holdout run per selected arm",
+      "global_recommendation": "Compare the arm winners using the same VAL-only rank; never use development-holdout performance",
+      "evaluation_scope": "development_holdout_not_pristine_final",
+      "bootstrap": "General test:200 source-board-group recall resamples; Pi:0 and no one-group CI",
+      "device": "0",
+      "d455_verified": false
+    },
+    "training_protocol_path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04\\protocol.json",
+    "training_protocol_sha256": "c712d8f3e24ce8fa8291d4b2e7e2593924ccdb154ba4361f50958e63555a4def",
+    "manifest_path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04\\data\\native_manifest.json",
+    "manifest_sha256": "a91d4956da6adc8b3eebcd87da6e8e428362e1c14cef9e8f9d5a4583817d8c19",
+    "evaluator_path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04\\scripts\\evaluate_r04.py",
+    "evaluator_sha256": "b62dce3fa1e3b8a0fe0b4526809bde5bf63f914e0e53ac8398f2f29b1c35b3e5",
+    "orchestrator_sha256": "82e5a95fd5c2c14e827761c923786be15e7ac790f5df622678ae96f2dbd57f65",
+    "python_executable": "C:\\Users\\hkjun\\Documents\\mcu-vision\\.venv-yolo11\\Scripts\\python.exe",
+    "python_executable_sha256": "21bb438c0d4a6f1f164b9a646f6ee000340185e5871180aec06db8d3f07c0082",
+    "candidates_files": {
+      "baseline": {
+        "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04\\runs\\baseline\\candidates.json",
+        "sha256": "37326c24b33ce48d51b131a633da1111d99636552f2601d2a2fc8d94f9497510",
+        "final_optimizer_calls": 1165
+      },
+      "improved": {
+        "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04\\runs\\improved\\candidates.json",
+        "sha256": "d9d154ea88ad3c9154bdcda7c72466e5e23725168b277869057e4571b51f90d4",
+        "final_optimizer_calls": 1165
+      }
+    },
+    "candidates": {
+      "baseline": [
+        {
+          "arm": "baseline",
+          "epoch": 2,
+          "optimizer_calls": 168,
+          "pipeline": "native",
+          "candidate_id": "baseline__epoch_02__native",
+          "weights": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04\\runs\\baseline\\candidates\\epoch_02.pt",
+          "checkpoint_sha256": "e540ad9d2d066aa485e96d9876dd34574c878c2209e27d1d4f73710256193e4a",
+          "candidate_training_metadata": {
+            "epoch": 2,
+            "optimizer_calls": 168,
+            "partial_epoch": false
+          }
+        },
+        {
+          "arm": "baseline",
+          "epoch": 2,
+          "optimizer_calls": 168,
+          "pipeline": "dual",
+          "candidate_id": "baseline__epoch_02__dual",
+          "weights": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04\\runs\\baseline\\candidates\\epoch_02.pt",
+          "checkpoint_sha256": "e540ad9d2d066aa485e96d9876dd34574c878c2209e27d1d4f73710256193e4a",
+          "candidate_training_metadata": {
+            "epoch": 2,
+            "optimizer_calls": 168,
+            "partial_epoch": false
+          }
+        },
+        {
+          "arm": "baseline",
+          "epoch": 4,
+          "optimizer_calls": 280,
+          "pipeline": "native",
+          "candidate_id": "baseline__epoch_04__native",
+          "weights": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04\\runs\\baseline\\candidates\\epoch_04.pt",
+          "checkpoint_sha256": "168ae2f8edeb0453499227b17425e66f1abd42ec57669b1d3c86c2287c368456",
+          "candidate_training_metadata": {
+            "epoch": 4,
+            "optimizer_calls": 280,
+            "partial_epoch": false
+          }
+        },
+        {
+          "arm": "baseline",
+          "epoch": 4,
+          "optimizer_calls": 280,
+          "pipeline": "dual",
+          "candidate_id": "baseline__epoch_04__dual",
+          "weights": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04\\runs\\baseline\\candidates\\epoch_04.pt",
+          "checkpoint_sha256": "168ae2f8edeb0453499227b17425e66f1abd42ec57669b1d3c86c2287c368456",
+          "candidate_training_metadata": {
+            "epoch": 4,
+            "optimizer_calls": 280,
+            "partial_epoch": false
+          }
+        },
+        {
+          "arm": "baseline",
+          "epoch": 6,
+          "optimizer_calls": 392,
+          "pipeline": "native",
+          "candidate_id": "baseline__epoch_06__native",
+          "weights": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04\\runs\\baseline\\candidates\\epoch_06.pt",
+          "checkpoint_sha256": "cdd61d07983e9871eddcd88ff7247db341c2084d08e1c7b0e3395fbd411d4489",
+          "candidate_training_metadata": {
+            "epoch": 6,
+            "optimizer_calls": 392,
+            "partial_epoch": false
+          }
+        },
+        {
+          "arm": "baseline",
+          "epoch": 6,
+          "optimizer_calls": 392,
+          "pipeline": "dual",
+          "candidate_id": "baseline__epoch_06__dual",
+          "weights": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04\\runs\\baseline\\candidates\\epoch_06.pt",
+          "checkpoint_sha256": "cdd61d07983e9871eddcd88ff7247db341c2084d08e1c7b0e3395fbd411d4489",
+          "candidate_training_metadata": {
+            "epoch": 6,
+            "optimizer_calls": 392,
+            "partial_epoch": false
+          }
+        },
+        {
+          "arm": "baseline",
+          "epoch": 8,
+          "optimizer_calls": 504,
+          "pipeline": "native",
+          "candidate_id": "baseline__epoch_08__native",
+          "weights": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04\\runs\\baseline\\candidates\\epoch_08.pt",
+          "checkpoint_sha256": "73cb2284a3b580b9d9f2f161a3184fec1a3816ba31045c0c96699bb172b1805b",
+          "candidate_training_metadata": {
+            "epoch": 8,
+            "optimizer_calls": 504,
+            "partial_epoch": false
+          }
+        },
+        {
+          "arm": "baseline",
+          "epoch": 8,
+          "optimizer_calls": 504,
+          "pipeline": "dual",
+          "candidate_id": "baseline__epoch_08__dual",
+          "weights": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04\\runs\\baseline\\candidates\\epoch_08.pt",
+          "checkpoint_sha256": "73cb2284a3b580b9d9f2f161a3184fec1a3816ba31045c0c96699bb172b1805b",
+          "candidate_training_metadata": {
+            "epoch": 8,
+            "optimizer_calls": 504,
+            "partial_epoch": false
+          }
+        },
+        {
+          "arm": "baseline",
+          "epoch": 10,
+          "optimizer_calls": 616,
+          "pipeline": "native",
+          "candidate_id": "baseline__epoch_10__native",
+          "weights": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04\\runs\\baseline\\candidates\\epoch_10.pt",
+          "checkpoint_sha256": "25b513e631f8813d0b03e9ccb4a6680719ef8f07c090fb1350b5e34967d5f3c5",
+          "candidate_training_metadata": {
+            "epoch": 10,
+            "optimizer_calls": 616,
+            "partial_epoch": false
+          }
+        },
+        {
+          "arm": "baseline",
+          "epoch": 10,
+          "optimizer_calls": 616,
+          "pipeline": "dual",
+          "candidate_id": "baseline__epoch_10__dual",
+          "weights": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04\\runs\\baseline\\candidates\\epoch_10.pt",
+          "checkpoint_sha256": "25b513e631f8813d0b03e9ccb4a6680719ef8f07c090fb1350b5e34967d5f3c5",
+          "candidate_training_metadata": {
+            "epoch": 10,
+            "optimizer_calls": 616,
+            "partial_epoch": false
+          }
+        },
+        {
+          "arm": "baseline",
+          "epoch": 12,
+          "optimizer_calls": 728,
+          "pipeline": "native",
+          "candidate_id": "baseline__epoch_12__native",
+          "weights": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04\\runs\\baseline\\candidates\\epoch_12.pt",
+          "checkpoint_sha256": "2a90f892ab00d1c2da06d717cac8625a6d10100d045d08a0a3877c926d51c41a",
+          "candidate_training_metadata": {
+            "epoch": 12,
+            "optimizer_calls": 728,
+            "partial_epoch": false
+          }
+        },
+        {
+          "arm": "baseline",
+          "epoch": 12,
+          "optimizer_calls": 728,
+          "pipeline": "dual",
+          "candidate_id": "baseline__epoch_12__dual",
+          "weights": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04\\runs\\baseline\\candidates\\epoch_12.pt",
+          "checkpoint_sha256": "2a90f892ab00d1c2da06d717cac8625a6d10100d045d08a0a3877c926d51c41a",
+          "candidate_training_metadata": {
+            "epoch": 12,
+            "optimizer_calls": 728,
+            "partial_epoch": false
+          }
+        },
+        {
+          "arm": "baseline",
+          "epoch": 14,
+          "optimizer_calls": 840,
+          "pipeline": "native",
+          "candidate_id": "baseline__epoch_14__native",
+          "weights": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04\\runs\\baseline\\candidates\\epoch_14.pt",
+          "checkpoint_sha256": "e83dc4c971c4b219f0b630c41dcb8eee71ac1b17e22bf999c27fac1657e579fa",
+          "candidate_training_metadata": {
+            "epoch": 14,
+            "optimizer_calls": 840,
+            "partial_epoch": false
+          }
+        },
+        {
+          "arm": "baseline",
+          "epoch": 14,
+          "optimizer_calls": 840,
+          "pipeline": "dual",
+          "candidate_id": "baseline__epoch_14__dual",
+          "weights": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04\\runs\\baseline\\candidates\\epoch_14.pt",
+          "checkpoint_sha256": "e83dc4c971c4b219f0b630c41dcb8eee71ac1b17e22bf999c27fac1657e579fa",
+          "candidate_training_metadata": {
+            "epoch": 14,
+            "optimizer_calls": 840,
+            "partial_epoch": false
+          }
+        },
+        {
+          "arm": "baseline",
+          "epoch": 16,
+          "optimizer_calls": 952,
+          "pipeline": "native",
+          "candidate_id": "baseline__epoch_16__native",
+          "weights": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04\\runs\\baseline\\candidates\\epoch_16.pt",
+          "checkpoint_sha256": "1d40c39b432feddb25cba26140cf3b44a6369ae44ef5f78ad659008185fb77b2",
+          "candidate_training_metadata": {
+            "epoch": 16,
+            "optimizer_calls": 952,
+            "partial_epoch": false
+          }
+        },
+        {
+          "arm": "baseline",
+          "epoch": 16,
+          "optimizer_calls": 952,
+          "pipeline": "dual",
+          "candidate_id": "baseline__epoch_16__dual",
+          "weights": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04\\runs\\baseline\\candidates\\epoch_16.pt",
+          "checkpoint_sha256": "1d40c39b432feddb25cba26140cf3b44a6369ae44ef5f78ad659008185fb77b2",
+          "candidate_training_metadata": {
+            "epoch": 16,
+            "optimizer_calls": 952,
+            "partial_epoch": false
+          }
+        },
+        {
+          "arm": "baseline",
+          "epoch": 18,
+          "optimizer_calls": 1064,
+          "pipeline": "native",
+          "candidate_id": "baseline__epoch_18__native",
+          "weights": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04\\runs\\baseline\\candidates\\epoch_18.pt",
+          "checkpoint_sha256": "b06fa6c674392d68e3d8cd27dddace9ee9f0e60455c703423a9e0f436b3c301b",
+          "candidate_training_metadata": {
+            "epoch": 18,
+            "optimizer_calls": 1064,
+            "partial_epoch": false
+          }
+        },
+        {
+          "arm": "baseline",
+          "epoch": 18,
+          "optimizer_calls": 1064,
+          "pipeline": "dual",
+          "candidate_id": "baseline__epoch_18__dual",
+          "weights": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04\\runs\\baseline\\candidates\\epoch_18.pt",
+          "checkpoint_sha256": "b06fa6c674392d68e3d8cd27dddace9ee9f0e60455c703423a9e0f436b3c301b",
+          "candidate_training_metadata": {
+            "epoch": 18,
+            "optimizer_calls": 1064,
+            "partial_epoch": false
+          }
+        },
+        {
+          "arm": "baseline",
+          "epoch": 20,
+          "optimizer_calls": 1165,
+          "pipeline": "native",
+          "candidate_id": "baseline__epoch_20__native",
+          "weights": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04\\runs\\baseline\\candidates\\epoch_20.pt",
+          "checkpoint_sha256": "ab1250fa46cb1471648ec7c576d53b8c48707cd24f6b8e4abc1adc811181e8a2",
+          "candidate_training_metadata": {
+            "epoch": 20,
+            "optimizer_calls": 1165,
+            "partial_epoch": true
+          }
+        },
+        {
+          "arm": "baseline",
+          "epoch": 20,
+          "optimizer_calls": 1165,
+          "pipeline": "dual",
+          "candidate_id": "baseline__epoch_20__dual",
+          "weights": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04\\runs\\baseline\\candidates\\epoch_20.pt",
+          "checkpoint_sha256": "ab1250fa46cb1471648ec7c576d53b8c48707cd24f6b8e4abc1adc811181e8a2",
+          "candidate_training_metadata": {
+            "epoch": 20,
+            "optimizer_calls": 1165,
+            "partial_epoch": true
+          }
+        }
+      ],
+      "improved": [
+        {
+          "arm": "improved",
+          "epoch": 2,
+          "optimizer_calls": 168,
+          "pipeline": "native",
+          "candidate_id": "improved__epoch_02__native",
+          "weights": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04\\runs\\improved\\candidates\\epoch_02.pt",
+          "checkpoint_sha256": "9544126040581378b1d31a230b81dfe9e42fb4e34d339dc6f3b596283f6f94bb",
+          "candidate_training_metadata": {
+            "epoch": 2,
+            "optimizer_calls": 168,
+            "partial_epoch": false
+          }
+        },
+        {
+          "arm": "improved",
+          "epoch": 2,
+          "optimizer_calls": 168,
+          "pipeline": "dual",
+          "candidate_id": "improved__epoch_02__dual",
+          "weights": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04\\runs\\improved\\candidates\\epoch_02.pt",
+          "checkpoint_sha256": "9544126040581378b1d31a230b81dfe9e42fb4e34d339dc6f3b596283f6f94bb",
+          "candidate_training_metadata": {
+            "epoch": 2,
+            "optimizer_calls": 168,
+            "partial_epoch": false
+          }
+        },
+        {
+          "arm": "improved",
+          "epoch": 4,
+          "optimizer_calls": 280,
+          "pipeline": "native",
+          "candidate_id": "improved__epoch_04__native",
+          "weights": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04\\runs\\improved\\candidates\\epoch_04.pt",
+          "checkpoint_sha256": "6c3eb358e9494d53886736dccabb0bd43a4031eab8181d37514bf4a3935b1825",
+          "candidate_training_metadata": {
+            "epoch": 4,
+            "optimizer_calls": 280,
+            "partial_epoch": false
+          }
+        },
+        {
+          "arm": "improved",
+          "epoch": 4,
+          "optimizer_calls": 280,
+          "pipeline": "dual",
+          "candidate_id": "improved__epoch_04__dual",
+          "weights": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04\\runs\\improved\\candidates\\epoch_04.pt",
+          "checkpoint_sha256": "6c3eb358e9494d53886736dccabb0bd43a4031eab8181d37514bf4a3935b1825",
+          "candidate_training_metadata": {
+            "epoch": 4,
+            "optimizer_calls": 280,
+            "partial_epoch": false
+          }
+        },
+        {
+          "arm": "improved",
+          "epoch": 6,
+          "optimizer_calls": 392,
+          "pipeline": "native",
+          "candidate_id": "improved__epoch_06__native",
+          "weights": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04\\runs\\improved\\candidates\\epoch_06.pt",
+          "checkpoint_sha256": "1012f3b96422eb6d15aa639b51fecce2924d3aa198d7e5f74f4c337ce8ee4231",
+          "candidate_training_metadata": {
+            "epoch": 6,
+            "optimizer_calls": 392,
+            "partial_epoch": false
+          }
+        },
+        {
+          "arm": "improved",
+          "epoch": 6,
+          "optimizer_calls": 392,
+          "pipeline": "dual",
+          "candidate_id": "improved__epoch_06__dual",
+          "weights": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04\\runs\\improved\\candidates\\epoch_06.pt",
+          "checkpoint_sha256": "1012f3b96422eb6d15aa639b51fecce2924d3aa198d7e5f74f4c337ce8ee4231",
+          "candidate_training_metadata": {
+            "epoch": 6,
+            "optimizer_calls": 392,
+            "partial_epoch": false
+          }
+        },
+        {
+          "arm": "improved",
+          "epoch": 8,
+          "optimizer_calls": 504,
+          "pipeline": "native",
+          "candidate_id": "improved__epoch_08__native",
+          "weights": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04\\runs\\improved\\candidates\\epoch_08.pt",
+          "checkpoint_sha256": "d3daed367032d34b00ee2ced753928b7b4f7c88b3e25c25f5a7f75ff874f06e2",
+          "candidate_training_metadata": {
+            "epoch": 8,
+            "optimizer_calls": 504,
+            "partial_epoch": false
+          }
+        },
+        {
+          "arm": "improved",
+          "epoch": 8,
+          "optimizer_calls": 504,
+          "pipeline": "dual",
+          "candidate_id": "improved__epoch_08__dual",
+          "weights": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04\\runs\\improved\\candidates\\epoch_08.pt",
+          "checkpoint_sha256": "d3daed367032d34b00ee2ced753928b7b4f7c88b3e25c25f5a7f75ff874f06e2",
+          "candidate_training_metadata": {
+            "epoch": 8,
+            "optimizer_calls": 504,
+            "partial_epoch": false
+          }
+        },
+        {
+          "arm": "improved",
+          "epoch": 10,
+          "optimizer_calls": 616,
+          "pipeline": "native",
+          "candidate_id": "improved__epoch_10__native",
+          "weights": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04\\runs\\improved\\candidates\\epoch_10.pt",
+          "checkpoint_sha256": "e3516ca73f98ea4d062e642c0f7fcd9c6d71d834cd62b31487c76c156558d74f",
+          "candidate_training_metadata": {
+            "epoch": 10,
+            "optimizer_calls": 616,
+            "partial_epoch": false
+          }
+        },
+        {
+          "arm": "improved",
+          "epoch": 10,
+          "optimizer_calls": 616,
+          "pipeline": "dual",
+          "candidate_id": "improved__epoch_10__dual",
+          "weights": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04\\runs\\improved\\candidates\\epoch_10.pt",
+          "checkpoint_sha256": "e3516ca73f98ea4d062e642c0f7fcd9c6d71d834cd62b31487c76c156558d74f",
+          "candidate_training_metadata": {
+            "epoch": 10,
+            "optimizer_calls": 616,
+            "partial_epoch": false
+          }
+        },
+        {
+          "arm": "improved",
+          "epoch": 12,
+          "optimizer_calls": 728,
+          "pipeline": "native",
+          "candidate_id": "improved__epoch_12__native",
+          "weights": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04\\runs\\improved\\candidates\\epoch_12.pt",
+          "checkpoint_sha256": "994c2580688c4a8c4d45644b6d54fbc27cb50387b1f023cf3a5400a1e1f00e34",
+          "candidate_training_metadata": {
+            "epoch": 12,
+            "optimizer_calls": 728,
+            "partial_epoch": false
+          }
+        },
+        {
+          "arm": "improved",
+          "epoch": 12,
+          "optimizer_calls": 728,
+          "pipeline": "dual",
+          "candidate_id": "improved__epoch_12__dual",
+          "weights": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04\\runs\\improved\\candidates\\epoch_12.pt",
+          "checkpoint_sha256": "994c2580688c4a8c4d45644b6d54fbc27cb50387b1f023cf3a5400a1e1f00e34",
+          "candidate_training_metadata": {
+            "epoch": 12,
+            "optimizer_calls": 728,
+            "partial_epoch": false
+          }
+        },
+        {
+          "arm": "improved",
+          "epoch": 14,
+          "optimizer_calls": 840,
+          "pipeline": "native",
+          "candidate_id": "improved__epoch_14__native",
+          "weights": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04\\runs\\improved\\candidates\\epoch_14.pt",
+          "checkpoint_sha256": "b7d2f1da70427b539152f5a00ab8628c8db3377fd57bebb5b456913c1f7e3d3b",
+          "candidate_training_metadata": {
+            "epoch": 14,
+            "optimizer_calls": 840,
+            "partial_epoch": false
+          }
+        },
+        {
+          "arm": "improved",
+          "epoch": 14,
+          "optimizer_calls": 840,
+          "pipeline": "dual",
+          "candidate_id": "improved__epoch_14__dual",
+          "weights": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04\\runs\\improved\\candidates\\epoch_14.pt",
+          "checkpoint_sha256": "b7d2f1da70427b539152f5a00ab8628c8db3377fd57bebb5b456913c1f7e3d3b",
+          "candidate_training_metadata": {
+            "epoch": 14,
+            "optimizer_calls": 840,
+            "partial_epoch": false
+          }
+        },
+        {
+          "arm": "improved",
+          "epoch": 16,
+          "optimizer_calls": 952,
+          "pipeline": "native",
+          "candidate_id": "improved__epoch_16__native",
+          "weights": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04\\runs\\improved\\candidates\\epoch_16.pt",
+          "checkpoint_sha256": "79f01b40b9cc7412341e7da5561dc55fb3e3d5fbdfc39adc49aac5ba8dc4e34a",
+          "candidate_training_metadata": {
+            "epoch": 16,
+            "optimizer_calls": 952,
+            "partial_epoch": false
+          }
+        },
+        {
+          "arm": "improved",
+          "epoch": 16,
+          "optimizer_calls": 952,
+          "pipeline": "dual",
+          "candidate_id": "improved__epoch_16__dual",
+          "weights": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04\\runs\\improved\\candidates\\epoch_16.pt",
+          "checkpoint_sha256": "79f01b40b9cc7412341e7da5561dc55fb3e3d5fbdfc39adc49aac5ba8dc4e34a",
+          "candidate_training_metadata": {
+            "epoch": 16,
+            "optimizer_calls": 952,
+            "partial_epoch": false
+          }
+        },
+        {
+          "arm": "improved",
+          "epoch": 18,
+          "optimizer_calls": 1064,
+          "pipeline": "native",
+          "candidate_id": "improved__epoch_18__native",
+          "weights": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04\\runs\\improved\\candidates\\epoch_18.pt",
+          "checkpoint_sha256": "7d2ec74622a4ac8399b89176e634f2bb283b1b31e1cc82ca05e751bdd2d66c73",
+          "candidate_training_metadata": {
+            "epoch": 18,
+            "optimizer_calls": 1064,
+            "partial_epoch": false
+          }
+        },
+        {
+          "arm": "improved",
+          "epoch": 18,
+          "optimizer_calls": 1064,
+          "pipeline": "dual",
+          "candidate_id": "improved__epoch_18__dual",
+          "weights": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04\\runs\\improved\\candidates\\epoch_18.pt",
+          "checkpoint_sha256": "7d2ec74622a4ac8399b89176e634f2bb283b1b31e1cc82ca05e751bdd2d66c73",
+          "candidate_training_metadata": {
+            "epoch": 18,
+            "optimizer_calls": 1064,
+            "partial_epoch": false
+          }
+        },
+        {
+          "arm": "improved",
+          "epoch": 20,
+          "optimizer_calls": 1165,
+          "pipeline": "native",
+          "candidate_id": "improved__epoch_20__native",
+          "weights": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04\\runs\\improved\\candidates\\epoch_20.pt",
+          "checkpoint_sha256": "406ab7b0630e7c61546cfa8fc0585b03ee66bcf55b51c2a982373e3e06f166c1",
+          "candidate_training_metadata": {
+            "epoch": 20,
+            "optimizer_calls": 1165,
+            "partial_epoch": true
+          }
+        },
+        {
+          "arm": "improved",
+          "epoch": 20,
+          "optimizer_calls": 1165,
+          "pipeline": "dual",
+          "candidate_id": "improved__epoch_20__dual",
+          "weights": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04\\runs\\improved\\candidates\\epoch_20.pt",
+          "checkpoint_sha256": "406ab7b0630e7c61546cfa8fc0585b03ee66bcf55b51c2a982373e3e06f166c1",
+          "candidate_training_metadata": {
+            "epoch": 20,
+            "optimizer_calls": 1165,
+            "partial_epoch": true
+          }
+        }
+      ]
+    },
+    "native_class_names": [
+      "resistor",
+      "capacitor",
+      "ic",
+      "connector"
+    ],
+    "annotation_limitations": {
+      "ground_truth": "WACV source-provided human target4 bounding boxes, not masks or full BOM truth",
+      "pi3b_unknown_source_objects": 67,
+      "unknown_policy": "Unknowns remain unknown; never inferred as resistor/capacitor/IC/connector",
+      "holdout_scope": "All RPI3B faces excluded from this fine-tuning train/validation only",
+      "pretrained_source_contamination": "UNKNOWN: cannot establish that public images were absent from every pretraining source",
+      "physical_specimen_independence": "NOT_VERIFIED; source filename board groups",
+      "d455_verified": false,
+      "redistribution_license": "No explicit license confirmed; local research assets only"
+    }
+  }
+}

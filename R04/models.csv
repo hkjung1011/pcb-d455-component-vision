@@ -1,0 +1,3 @@
+﻿arm,epoch_reached,last_epoch_partial,direct_optimizer_calls,actual_draws,parameters,selected_epoch,selected_optimizer_calls,pipeline,confidence,checkpoint_sha256
+baseline,20,True,1165,8872,9429340,20,1165,dual,0.75,ab1250fa46cb1471648ec7c576d53b8c48707cd24f6b8e4abc1adc811181e8a2
+improved,20,True,1165,8872,9429340,16,952,dual,0.65,79f01b40b9cc7412341e7da5561dc55fb3e3d5fbdfc39adc49aac5ba8dc4e34a

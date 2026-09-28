@@ -1,0 +1,323 @@
+{
+  "schema_version": 1,
+  "generated_at_utc": "2026-09-28T12:21:39.089265+00:00",
+  "status": "READ_ONLY_REVIEW_COMPLETED_NOT_D455_VALIDATED",
+  "scope": "Claude R03 second review: camera pixel assumptions, source Pi connector annotation and saved prediction audit",
+  "operations": {
+    "camera_opened": false,
+    "camera_settings_changed": false,
+    "inference_run": false,
+    "training_run": false,
+    "source_or_test_gt_modified": false,
+    "writes": [
+      "camera_gt_audit.md",
+      "camera_gt_audit.json"
+    ]
+  },
+  "claims": [
+    {
+      "id": "gpio_scale",
+      "status": "PARTLY_CONFIRMED_APPROXIMATE",
+      "finding": "Top J8 source bbox width is 1142 pixels. 50.8 mm is not verified as the exact annotation box width. The schematic verifies a 40-way 0.1-inch header: 19 pin intervals span 48.26 mm, not 50.8 mm. Using visible end-pin centers gives approximately 22.6 px/mm in Top, and 14.2 px/mm in Bottom. This is approximate image metrology, not D455 calibration."
+    },
+    {
+      "id": "fx_640",
+      "status": "CONDITIONAL_ARITHMETIC_ONLY",
+      "finding": "At width1280 and nominal horizontal FOV90 degrees, pinhole fx is640 pixels. At Z200/300 mm, fx/Z is3.2/2.1333px/mm. R03 fx640 was explicitly illustrative. No measured D455 intrinsics or RGB focus distance is available."
+    },
+    {
+      "id": "half_resolution_11pxmm",
+      "status": "OVERGENERALIZED",
+      "finding": "Approximately11.2px/mm describes half-scale Top only under the header-scale assumption. Bottom is approximately7.1px/mm at half scale. Neither is a calibrated D455 proxy."
+    },
+    {
+      "id": "downsample_lower_bound",
+      "status": "REJECTED",
+      "finding": "A fixed-model synthetic downsample/upsample experiment is neither a guaranteed lower nor upper bound on D455 accuracy. Optical MTF, defocus, noise, illumination, perspective and domain-adapted training are not reproduced."
+    },
+    {
+      "id": "depth_minimum_0p5m",
+      "status": "CONFIRMED_WITH_RESOLUTION_QUALIFIER",
+      "finding": "Official D455 manufacturer page says minimum depth distance about52cm at maximum resolution. This is a depth parameter, not an RGB minimum focus specification or proof that all RGB close-ups fail."
+    },
+    {
+      "id": "two_unpopulated_connector_annotations",
+      "status": "VISUAL_SCOPE_MISMATCH_NOT_CONFIRMED_SOURCE_ERROR",
+      "finding": "Original photos show open two-hole pads at Top connector RUN and Bottom connector unknown. Original XML explicitly labels both connector. They may be opposite views of the same RUN footprint; physical correspondence is not independently proved. Future mounted-assembly contract should mark such a footprint unpopulated with evidence. Existing source GT stays unchanged."
+    },
+    {
+      "id": "connector_recall_ceiling_10of12",
+      "status": "NOT_A_MODEL_CEILING",
+      "finding": "10/12 is only a policy-mismatch illustration if predictions are constrained to mounted connectors while scoring12 source annotations. The current detector can predict footprints under the source taxonomy, so no unconditional83.3percent ceiling follows. An independently versioned mounted-only GT would have its own denominator."
+    },
+    {
+      "id": "j9_microsd_misclassification",
+      "status": "CONFIRMED_SAVED_PREDICTION",
+      "finding": "Bottom source annotation connector J9 surrounds a visible microSD socket with MICRO SD CARD and J9 silkscreen. Saved prediction class2(ic) score0.9139190316200256 overlaps its connector GT with IoU0.9262676916934351. No new inference was run."
+    },
+    {
+      "id": "all_d455_images_ineligible",
+      "status": "OVERSTATED",
+      "finding": "Guide applies the complete-review requirement to mask mAP and already permits explicitly restricted evaluation with disclosed unresolved areas. A concrete ignore policy and evaluator implementation are still needed; removing labels alone is not an ignore operation."
+    }
+  ],
+  "sources": [
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\component_assets\\component_records.json",
+      "sha256": "bcfd37fc0b08d67502234b2e8e6eb4102020850a8f857b72a2839e24cfc68d77"
+    },
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\reports\\evaluation_suite\\evaluations\\parts_yolo11s__pi_test\\samples.json",
+      "sha256": "83b88fe2d7f974df4ac09ad37f1f3abb5d3f333fb0dd25c9cc18bf749f51346e"
+    },
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\annotation\\D455_PIXEL_BUDGET.md",
+      "sha256": "3402fd2fac964f2f09b5ba59736edb62efad58f53b86f00928e507b5b3841dea"
+    },
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\annotation\\target4_labeling_guide.md",
+      "sha256": "761570f32cd7236f5176f60ec7cfb50219b7d9c06ec297814c87b697d294fded"
+    },
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\reports\\d455_inventory_r03\\camera_status.json",
+      "sha256": "93a874472b94c39c11789bf60b5f013918a1a3ada7d6430b5fab91732ef7e2d7"
+    },
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\component_assets\\wacv_original\\pcb_wacv_2019\\RPI3B_Bottom\\RPI3B_Bottom.jpg",
+      "sha256": "b9e6c2f55a556a51037a16010a0282e93acd7ba1c9773c6b6c6eac7ef73e112c",
+      "matches_record": true
+    },
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\component_assets\\wacv_original\\pcb_wacv_2019\\RPI3B_Bottom\\RPI3B_Bottom.xml",
+      "sha256": "1d7f0e1a83eff8fa67e5e265ce7d4c3e3e8b68afa5b4456251ed360b5279e177",
+      "matches_record": true
+    },
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\component_assets\\wacv_original\\pcb_wacv_2019\\RPI3B_Top\\RPI3B_Top.jpg",
+      "sha256": "7b51a5ec80c937f7aee3d772a3f29ae118606fcb04b4eeb953a035227c0bdd69",
+      "matches_record": true
+    },
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\component_assets\\wacv_original\\pcb_wacv_2019\\RPI3B_Top\\RPI3B_Top.xml",
+      "sha256": "9d4351051c85a5cb0d93ba8261d831131496e04d1916c80eda1974a1841a4b63",
+      "matches_record": true
+    }
+  ],
+  "official_sources": [
+    {
+      "url": "https://www.realsenseai.com/products/real-sense-depth-camera-d455f/",
+      "supports": "D455 tech specs: ~52cm Min-Z at max resolution, RGB1280x80030fps, RGBFOV90x65 degrees; page titleD455 despite URLsuffixd455f"
+    },
+    {
+      "url": "https://datasheets.raspberrypi.com/rpi3/raspberry-pi-3-b-reduced-schematics.pdf",
+      "supports": "Revision1.2, J8 40-way0.1inch header, RUN/J2 two-way pin header; reduced schematic does not independently identify J9microSD"
+    }
+  ],
+  "d455_record_read": {
+    "timestamp_utc": "2026-09-27T16:46:07.156747+00:00",
+    "device_count": 0,
+    "capture_attempted": false,
+    "frames_saved": 0,
+    "devices": []
+  },
+  "native_pi_dimensions": [
+    {
+      "image_id": "RPI3B_Bottom",
+      "width": 1622,
+      "height": 1080,
+      "image_sha256": "b9e6c2f55a556a51037a16010a0282e93acd7ba1c9773c6b6c6eac7ef73e112c",
+      "annotation_sha256": "1d7f0e1a83eff8fa67e5e265ce7d4c3e3e8b68afa5b4456251ed360b5279e177"
+    },
+    {
+      "image_id": "RPI3B_Top",
+      "width": 2000,
+      "height": 1350,
+      "image_sha256": "7b51a5ec80c937f7aee3d772a3f29ae118606fcb04b4eeb953a035227c0bdd69",
+      "annotation_sha256": "9d4351051c85a5cb0d93ba8261d831131496e04d1916c80eda1974a1841a4b63"
+    }
+  ],
+  "j9_evidence": {
+    "source_name": "connector J9",
+    "truth": {
+      "class_id": 3,
+      "bbox_xyxy": [
+        1234.0,
+        421.0,
+        1409.0,
+        604.0
+      ]
+    },
+    "prediction": {
+      "class_id": 2,
+      "score": 0.9139190316200256,
+      "bbox_xyxy": [
+        1232.5384521484375,
+        418.294677734375,
+        1415.1395263671875,
+        607.6376953125
+      ]
+    },
+    "iou": 0.9262676916934351
+  },
+  "connector_annotations": [
+    {
+      "image_id": "RPI3B_Bottom",
+      "instance_id": "RPI3B_Bottom:00118",
+      "source_name": "connector J9",
+      "bbox_xyxy": [
+        1234,
+        421,
+        1409,
+        604
+      ]
+    },
+    {
+      "image_id": "RPI3B_Bottom",
+      "instance_id": "RPI3B_Bottom:00371",
+      "source_name": "connector unknown",
+      "bbox_xyxy": [
+        516,
+        218,
+        590,
+        256
+      ]
+    },
+    {
+      "image_id": "RPI3B_Top",
+      "instance_id": "RPI3B_Top:00023",
+      "source_name": "connector J1",
+      "bbox_xyxy": [
+        166,
+        1140,
+        343,
+        1289
+      ]
+    },
+    {
+      "image_id": "RPI3B_Top",
+      "instance_id": "RPI3B_Top:00035",
+      "source_name": "connector J6",
+      "bbox_xyxy": [
+        556,
+        1020,
+        896,
+        1307
+      ]
+    },
+    {
+      "image_id": "RPI3B_Top",
+      "instance_id": "RPI3B_Top:00051",
+      "source_name": "connector J4",
+      "bbox_xyxy": [
+        20,
+        388,
+        169,
+        897
+      ]
+    },
+    {
+      "image_id": "RPI3B_Top",
+      "instance_id": "RPI3B_Top:00065",
+      "source_name": "connector RUN",
+      "bbox_xyxy": [
+        1328,
+        180,
+        1445,
+        234
+      ]
+    },
+    {
+      "image_id": "RPI3B_Top",
+      "instance_id": "RPI3B_Top:00066",
+      "source_name": "connector J12",
+      "bbox_xyxy": [
+        1581,
+        68,
+        1974,
+        377
+      ]
+    },
+    {
+      "image_id": "RPI3B_Top",
+      "instance_id": "RPI3B_Top:00067",
+      "source_name": "connector J11",
+      "bbox_xyxy": [
+        1580,
+        483,
+        1976,
+        790
+      ]
+    },
+    {
+      "image_id": "RPI3B_Top",
+      "instance_id": "RPI3B_Top:00068",
+      "source_name": "connector J10",
+      "bbox_xyxy": [
+        1471,
+        849,
+        1980,
+        1245
+      ]
+    },
+    {
+      "image_id": "RPI3B_Top",
+      "instance_id": "RPI3B_Top:00089",
+      "source_name": "connector J7",
+      "bbox_xyxy": [
+        1133,
+        992,
+        1288,
+        1332
+      ]
+    },
+    {
+      "image_id": "RPI3B_Top",
+      "instance_id": "RPI3B_Top:00093",
+      "source_name": "connector J3",
+      "bbox_xyxy": [
+        953,
+        755,
+        1083,
+        1254
+      ]
+    },
+    {
+      "image_id": "RPI3B_Top",
+      "instance_id": "RPI3B_Top:00138",
+      "source_name": "connector J8",
+      "bbox_xyxy": [
+        168,
+        30,
+        1310,
+        155
+      ]
+    }
+  ],
+  "approximate_header_scale": {
+    "method": "Visual identification of outermost20-pin-row endpoints; bright-component centroids within native image ROIs; no lens/perspective correction. Approximate only, not a calibrated physical measurement. Top header above PCB plane creates another small depth difference.",
+    "reference_pitch_mm": 2.54,
+    "reference_intervals": 19,
+    "reference_span_mm": 48.26,
+    "Top": {
+      "endpoint_px": [
+        194.03,
+        1283.17
+      ],
+      "approx_px_per_mm": 22.568172399502696
+    },
+    "Bottom": {
+      "endpoint_px": [
+        621.85,
+        1308.62
+      ],
+      "approx_px_per_mm": 14.230625777041025
+    }
+  },
+  "future_actions": [
+    "Keep original source Pi GT and R03 metrics frozen. Record mounted-only policy as a separate annotation version after independent review.",
+    "Do not report synthetic resolution metrics as D455 bounds or label currently unseen hardware as validated.",
+    "Measure native RGB intrinsics and in-plane scale with ruler, focus/readability and illumination in a later authorized capture pilot.",
+    "For unresolved areas define region-level ignore semantics, evaluator handling and coverage before reporting restricted mAP.",
+    "Keep target4 goal; do not permanently drop R/C mask classes based on nominal pixel budget alone."
+  ]
+}

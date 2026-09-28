@@ -1,0 +1,10 @@
+WARNING 'half' is deprecated and will be removed in the future. Use 'quantize' instead.
+WARNING 'half' is deprecated and will be removed in the future. Use 'quantize' instead.
+WARNING 'half' is deprecated and will be removed in the future. Use 'quantize' instead.
+WARNING 'half' is deprecated and will be removed in the future. Use 'quantize' instead.
+WARNING 'half' is deprecated and will be removed in the future. Use 'quantize' instead.
+WARNING 'half' is deprecated and will be removed in the future. Use 'quantize' instead.
+WARNING 'half' is deprecated and will be removed in the future. Use 'quantize' instead.
+WARNING 'half' is deprecated and will be removed in the future. Use 'quantize' instead.
+1/1 RPI3B_Top.jpg: 115 detections
+{"status": "PASS_OFFLINE_REPLAY_PARITY", "utc": "2026-09-28T16:25:51.751507+00:00", "arm": "improved", "sample_id": "RPI3B_Top", "count": 115, "max_absolute_coordinate_or_score_difference": 0.0, "selection_registry_sha256": "dbbef6b844da8bae8fadb06a2c5665f1f808ccd5aaea08cf5364250539db7352", "frozen_selection_sha256": "0c2ade30935aa8584813a58825f7be5577415a764ff0250581a8a696b5a33380", "inference_script_sha256": "c655787d3a106978452c6e32dd31fb4d7a344000b3a6d38d3894570e023385dd", "expected_samples_sha256": "8869017fa3d036cc2d6861298842bc93c0df521b4d9bd8e855304c3b32a24502", "actual_predictions_sha256": "c0c1db813539a5b2467cab97b5a0f05d1a879a0d811e9166ebca39c5682f039d", "raw_output_not_packaged": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04_runtime_smoke", "scope": "One deployment-CLI replay of fixed predictions for software equivalence; no metrics, threshold search, training or model reselection; not a new evaluation or D455 observation."}

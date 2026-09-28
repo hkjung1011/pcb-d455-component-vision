@@ -1,0 +1,11 @@
+test_confidence_prefix_recount_matches_separate_matching (__main__.self_test.<locals>.Tests.test_confidence_prefix_recount_matches_separate_matching) ... ok
+test_dense_coco_independent (__main__.self_test.<locals>.Tests.test_dense_coco_independent) ... ok
+test_empty (__main__.self_test.<locals>.Tests.test_empty) ... ok
+test_exact_confidence (__main__.self_test.<locals>.Tests.test_exact_confidence) ... ok
+test_matching_duplicate_and_class (__main__.self_test.<locals>.Tests.test_matching_duplicate_and_class) ... ok
+test_timestamp_requires_zone (__main__.self_test.<locals>.Tests.test_timestamp_requires_zone) ... ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.207s
+
+OK

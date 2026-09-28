@@ -1,0 +1,92 @@
+[
+  {
+    "id": "ACM-109_Bottom",
+    "tiles": 1,
+    "requested_tile_sizes": [
+      1024
+    ],
+    "pre_global_nms_predictions": 169,
+    "post_global_nms_predictions": 152,
+    "offline_predict_and_postprocess_ms": 52.09889999241568
+  },
+  {
+    "id": "ACM-109_Top",
+    "tiles": 1,
+    "requested_tile_sizes": [
+      1024
+    ],
+    "pre_global_nms_predictions": 122,
+    "post_global_nms_predictions": 114,
+    "offline_predict_and_postprocess_ms": 25.772199995117262
+  },
+  {
+    "id": "Arty_Bottom",
+    "tiles": 12,
+    "requested_tile_sizes": [
+      1024
+    ],
+    "pre_global_nms_predictions": 1892,
+    "post_global_nms_predictions": 976,
+    "offline_predict_and_postprocess_ms": 326.0166999825742
+  },
+  {
+    "id": "Arty_Top",
+    "tiles": 35,
+    "requested_tile_sizes": [
+      1024
+    ],
+    "pre_global_nms_predictions": 2369,
+    "post_global_nms_predictions": 1000,
+    "offline_predict_and_postprocess_ms": 699.4543000182603
+  },
+  {
+    "id": "UTL-016",
+    "tiles": 1,
+    "requested_tile_sizes": [
+      1024
+    ],
+    "pre_global_nms_predictions": 143,
+    "post_global_nms_predictions": 134,
+    "offline_predict_and_postprocess_ms": 62.069600011454895
+  },
+  {
+    "id": "Virtex6",
+    "tiles": 35,
+    "requested_tile_sizes": [
+      1024
+    ],
+    "pre_global_nms_predictions": 4112,
+    "post_global_nms_predictions": 1000,
+    "offline_predict_and_postprocess_ms": 742.3343000118621
+  },
+  {
+    "id": "XCM-307A_Bottom",
+    "tiles": 1,
+    "requested_tile_sizes": [
+      1024
+    ],
+    "pre_global_nms_predictions": 143,
+    "post_global_nms_predictions": 119,
+    "offline_predict_and_postprocess_ms": 29.981100000441074
+  },
+  {
+    "id": "XCM-307A_Top",
+    "tiles": 9,
+    "requested_tile_sizes": [
+      1024
+    ],
+    "pre_global_nms_predictions": 700,
+    "post_global_nms_predictions": 462,
+    "offline_predict_and_postprocess_ms": 181.98419999680482
+  },
+  {
+    "id": "Zybo",
+    "tiles": 35,
+    "requested_tile_sizes": [
+      1024
+    ],
+    "pre_global_nms_predictions": 2383,
+    "post_global_nms_predictions": 1000,
+    "offline_predict_and_postprocess_ms": 719.829599984223
+  }
+]

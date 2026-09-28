@@ -1,0 +1,123 @@
+[
+  {
+    "id": "DuetWIFI_Bottom",
+    "tiles": 26,
+    "requested_tile_sizes": [
+      1024,
+      2048
+    ],
+    "pre_global_nms_predictions": 1752,
+    "post_global_nms_predictions": 894,
+    "offline_predict_and_postprocess_ms": 767.2515000158455
+  },
+  {
+    "id": "DuetWIFI_Top",
+    "tiles": 26,
+    "requested_tile_sizes": [
+      1024,
+      2048
+    ],
+    "pre_global_nms_predictions": 3032,
+    "post_global_nms_predictions": 1000,
+    "offline_predict_and_postprocess_ms": 631.1416999960784
+  },
+  {
+    "id": "EDA-008_Bottom",
+    "tiles": 2,
+    "requested_tile_sizes": [
+      1024,
+      2048
+    ],
+    "pre_global_nms_predictions": 376,
+    "post_global_nms_predictions": 167,
+    "offline_predict_and_postprocess_ms": 118.15899997600354
+  },
+  {
+    "id": "EDA-008_Top",
+    "tiles": 2,
+    "requested_tile_sizes": [
+      1024,
+      2048
+    ],
+    "pre_global_nms_predictions": 294,
+    "post_global_nms_predictions": 140,
+    "offline_predict_and_postprocess_ms": 52.00709999189712
+  },
+  {
+    "id": "ML450_Bottom1",
+    "tiles": 26,
+    "requested_tile_sizes": [
+      1024,
+      2048
+    ],
+    "pre_global_nms_predictions": 2999,
+    "post_global_nms_predictions": 1000,
+    "offline_predict_and_postprocess_ms": 670.7282999996096
+  },
+  {
+    "id": "ML450_Bottom2",
+    "tiles": 21,
+    "requested_tile_sizes": [
+      1024,
+      2048
+    ],
+    "pre_global_nms_predictions": 1139,
+    "post_global_nms_predictions": 513,
+    "offline_predict_and_postprocess_ms": 513.3586000010837
+  },
+  {
+    "id": "ML450_Top1",
+    "tiles": 21,
+    "requested_tile_sizes": [
+      1024,
+      2048
+    ],
+    "pre_global_nms_predictions": 4488,
+    "post_global_nms_predictions": 1000,
+    "offline_predict_and_postprocess_ms": 581.2860000005458
+  },
+  {
+    "id": "ML450_Top2",
+    "tiles": 26,
+    "requested_tile_sizes": [
+      1024,
+      2048
+    ],
+    "pre_global_nms_predictions": 4698,
+    "post_global_nms_predictions": 1000,
+    "offline_predict_and_postprocess_ms": 701.5324000094552
+  },
+  {
+    "id": "OlimexRed",
+    "tiles": 21,
+    "requested_tile_sizes": [
+      1024,
+      2048
+    ],
+    "pre_global_nms_predictions": 1864,
+    "post_global_nms_predictions": 964,
+    "offline_predict_and_postprocess_ms": 721.2919000012334
+  },
+  {
+    "id": "Spartan6_Bottom",
+    "tiles": 2,
+    "requested_tile_sizes": [
+      1024,
+      2048
+    ],
+    "pre_global_nms_predictions": 332,
+    "post_global_nms_predictions": 131,
+    "offline_predict_and_postprocess_ms": 61.12460000440478
+  },
+  {
+    "id": "Spartan6_Top",
+    "tiles": 2,
+    "requested_tile_sizes": [
+      1024,
+      2048
+    ],
+    "pre_global_nms_predictions": 148,
+    "post_global_nms_predictions": 57,
+    "offline_predict_and_postprocess_ms": 53.50259999977425
+  }
+]

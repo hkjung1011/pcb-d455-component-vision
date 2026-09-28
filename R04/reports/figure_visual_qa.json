@@ -1,0 +1,27 @@
+{
+  "status": "PASS_VISUAL_REVIEW",
+  "reviewed_utc": "2026-09-28T16:28:34.0774423Z",
+  "figure_inventory_sha256": "863403c9c499e5ece6bb469462e219c6f5ad311fb4e9a6ad2bc50ab4ca92429c",
+  "reviewed_pngs": [
+    "01_algorithm_pipeline.png",
+    "02_original_labels_and_view_exposures.png",
+    "03_complete_views_and_ignore_regions.png",
+    "04_actual_training_loss_and_updates.png",
+    "05_all_validation_candidates_ap300.png",
+    "06_development_holdout_metrics.png",
+    "07_pi_class_recall_and_counts.png",
+    "08_class_by_native_size_recall.png",
+    "09_actual_group_sampling_balance.png"
+  ],
+  "checks": [
+    "Korean glyphs and all nine figure layouts visually reviewed",
+    "Actual result values match metric-linked plot inventory",
+    "Figure05 legend and caption overlap corrected and re-reviewed",
+    "Figure04 identifies final partial epoch in legend",
+    "Figures05 and06 state global1000 cap before class max100/300",
+    "No source photograph pixels in plots"
+  ],
+  "limitations": [
+    "Visual QA is not camera validation or an independent new statistical result"
+  ]
+}

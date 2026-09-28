@@ -1,0 +1,556 @@
+{
+  "script": "r08_excluded_objects",
+  "generated_utc": "2026-09-28T16:00:19.290495+00:00",
+  "review_commit": "17f72fdd9143bca6645f9b342414b0c5a2c1ed6d",
+  "inputs_modified": false,
+  "definitions": {
+    "excluded_source_object": "a source VOC object whose type is not one of the four targets; kept with its source_type, never a GT",
+    "bbox_xyxy": "continuous native pixels, (xmin-1, ymin-1, xmax, ymax) from the 1-based VOC box; same rule as target GT",
+    "source_object_index": "0-based position of the <object> element in the source XML",
+    "subtotals": "fixed reference groups declared in addendum section 3.6; not labels or classes"
+  },
+  "results": {
+    "images": 47,
+    "xml_objects": 18201,
+    "targets": 5896,
+    "excluded": 12305,
+    "targets_plus_excluded_equals_xml": true,
+    "problems": [],
+    "source_name_differs_from_xml_name": {
+      "count": 0,
+      "examples": []
+    },
+    "source_types": 28,
+    "excluded_by_source_type": {
+      "text": 9190,
+      "component text": 995,
+      "pads": 332,
+      "pins": 317,
+      "test point": 292,
+      "unknown": 281,
+      "led": 214,
+      "button": 85,
+      "jumper": 85,
+      "transistor": 84,
+      "resistor network": 74,
+      "diode": 69,
+      "inductor": 69,
+      "switch": 58,
+      "emi filter": 51,
+      "clock": 37,
+      "ferrite bead": 30,
+      "fuse": 7,
+      "potentiometer": 7,
+      "resistor jumper": 6,
+      "display": 5,
+      "zener diode": 5,
+      "heatsink": 4,
+      "diode zener array": 3,
+      "capacitor jumper": 2,
+      "battery": 1,
+      "buzzer": 1,
+      "transformer": 1
+    },
+    "excluded_by_cohort": {
+      "general_test": {
+        "total": 2995,
+        "unknown": 44,
+        "by_source_type": {
+          "text": 2169,
+          "component text": 323,
+          "pads": 103,
+          "pins": 98,
+          "test point": 71,
+          "led": 47,
+          "unknown": 44,
+          "transistor": 21,
+          "resistor network": 20,
+          "button": 17,
+          "emi filter": 17,
+          "diode": 14,
+          "inductor": 12,
+          "jumper": 12,
+          "clock": 8,
+          "switch": 8,
+          "diode zener array": 3,
+          "potentiometer": 2,
+          "ferrite bead": 1,
+          "resistor jumper": 1,
+          "transformer": 1,
+          "fuse": 1,
+          "display": 1,
+          "zener diode": 1
+        }
+      },
+      "pi_test": {
+        "total": 507,
+        "unknown": 67,
+        "by_source_type": {
+          "text": 313,
+          "unknown": 67,
+          "test point": 46,
+          "pads": 19,
+          "pins": 16,
+          "component text": 15,
+          "ferrite bead": 8,
+          "inductor": 8,
+          "transistor": 7,
+          "diode": 3,
+          "clock": 2,
+          "led": 2,
+          "fuse": 1
+        }
+      },
+      "train": {
+        "total": 6753,
+        "unknown": 145,
+        "by_source_type": {
+          "text": 5081,
+          "component text": 537,
+          "pins": 180,
+          "test point": 166,
+          "pads": 161,
+          "unknown": 145,
+          "led": 112,
+          "jumper": 54,
+          "diode": 49,
+          "button": 45,
+          "transistor": 43,
+          "inductor": 41,
+          "switch": 32,
+          "resistor network": 27,
+          "emi filter": 25,
+          "clock": 21,
+          "ferrite bead": 10,
+          "fuse": 5,
+          "potentiometer": 5,
+          "resistor jumper": 4,
+          "heatsink": 4,
+          "display": 3,
+          "zener diode": 2,
+          "buzzer": 1
+        }
+      },
+      "val": {
+        "total": 2050,
+        "unknown": 25,
+        "by_source_type": {
+          "text": 1627,
+          "component text": 120,
+          "led": 53,
+          "pads": 49,
+          "resistor network": 27,
+          "unknown": 25,
+          "pins": 23,
+          "button": 23,
+          "jumper": 19,
+          "switch": 18,
+          "transistor": 13,
+          "ferrite bead": 11,
+          "emi filter": 9,
+          "test point": 9,
+          "inductor": 8,
+          "clock": 6,
+          "diode": 3,
+          "capacitor jumper": 2,
+          "zener diode": 2,
+          "battery": 1,
+          "display": 1,
+          "resistor jumper": 1
+        }
+      }
+    },
+    "validation_truth_equals_original_targets": true,
+    "truth_checked_job": "baseline__epoch_20__dual__val",
+    "native_ground_truth_sha256_distinct": [
+      "8657ed2394bbbe666f230cf8cc87b0fb95f1b57b300eddaa1b998626c9999580"
+    ],
+    "native_ground_truth_files": 22,
+    "subtotal_names_missing_from_data": [],
+    "subtotal_counts": {
+      "look_alike_passives": 246,
+      "pins_pads": 649,
+      "text": 10185
+    },
+    "types_in_rest": [
+      "battery",
+      "button",
+      "buzzer",
+      "clock",
+      "diode",
+      "diode zener array",
+      "display",
+      "heatsink",
+      "jumper",
+      "led",
+      "switch",
+      "test point",
+      "transformer",
+      "transistor",
+      "unknown",
+      "zener diode"
+    ]
+  },
+  "inputs": [
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\component_assets\\wacv_original\\pcb_wacv_2019\\ACM-109_Bottom\\ACM-109_Bottom.xml",
+      "sha256": "fa3eb1a420e1cf631c092bb863bfc662db7d40170574a61ed0a08a1ac21b2a19",
+      "bytes": 23622
+    },
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\component_assets\\wacv_original\\pcb_wacv_2019\\ACM-109_Top\\ACM-109_Top.xml",
+      "sha256": "a0724c15dcf783017d4819a3151efc28968b62769572c87d688b5f8965840c75",
+      "bytes": 35649
+    },
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\component_assets\\wacv_original\\pcb_wacv_2019\\ATTIOT_Bottom\\ATTIOT_Bottom.xml",
+      "sha256": "48fbecd4ee1c09d4da54a8e40560b3eea99447e9aa444a79177e90486e601678",
+      "bytes": 129487
+    },
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\component_assets\\wacv_original\\pcb_wacv_2019\\ATTIOT_Top\\ATTIOT_Top.xml",
+      "sha256": "c71dc97bc949e155242bcc055066b0a945fa8bd1e5253aa28335e44634aaf82f",
+      "bytes": 55182
+    },
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\component_assets\\wacv_original\\pcb_wacv_2019\\ArduinoMega_Bottom\\ArduinoMega_Bottom.xml",
+      "sha256": "2bcdde14fcc5b29f46c118a75333e3ca6debe228bcc62e506b982ec541c9f426",
+      "bytes": 9615
+    },
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\component_assets\\wacv_original\\pcb_wacv_2019\\ArduinoMega_Top\\ArduinoMega_Top.xml",
+      "sha256": "faad7162d304ec4b307bbeea77e5b193e060f308fe29cadbec6521f1d180f0b2",
+      "bytes": 39835
+    },
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\component_assets\\wacv_original\\pcb_wacv_2019\\Arty_Bottom\\Arty_Bottom.xml",
+      "sha256": "4effbd289b6295c00ec0411dff7989e7eecbe9641b16aedb31675d10a15266eb",
+      "bytes": 190574
+    },
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\component_assets\\wacv_original\\pcb_wacv_2019\\Arty_Top\\Arty_Top.xml",
+      "sha256": "9c2cc62260e7300e7bc7c09ba4ae30788148a4cfef8e4103259967ca987028a2",
+      "bytes": 97115
+    },
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\component_assets\\wacv_original\\pcb_wacv_2019\\DigitalDiscovery\\DigitalDiscovery.xml",
+      "sha256": "77b90232b949aa5e8a7743bd8c7e87478269ded9a2f575153c759577e06e53fc",
+      "bytes": 93485
+    },
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\component_assets\\wacv_original\\pcb_wacv_2019\\DuetWIFI_Bottom\\DuetWIFI_Bottom.xml",
+      "sha256": "216008d1649ae21cb2b6fe5a9d1237f739952e30a5c7a4dfa1c490d360d98036",
+      "bytes": 56181
+    },
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\component_assets\\wacv_original\\pcb_wacv_2019\\DuetWIFI_Top\\DuetWIFI_Top.xml",
+      "sha256": "33ca114b4a6c55e97aa45ea5f1bae21bddb5abf25bebebafc578c57735aae403",
+      "bytes": 194261
+    },
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\component_assets\\wacv_original\\pcb_wacv_2019\\EDA-008_Bottom\\EDA-008_Bottom.xml",
+      "sha256": "993d399cbb00fe86380e2d2c76d8eef8f2a1b1e7c22a093f0e68063d23d5a0da",
+      "bytes": 50366
+    },
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\component_assets\\wacv_original\\pcb_wacv_2019\\EDA-008_Top\\EDA-008_Top.xml",
+      "sha256": "1d0ed5c899163d4857be74916ef4be14b5c618ca8a0d93d9d9a48fe282e63896",
+      "bytes": 54637
+    },
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\component_assets\\wacv_original\\pcb_wacv_2019\\HackRF\\HackRF.xml",
+      "sha256": "6d03acba012ca3fb760bcf9a1bd9eeb1d85ad93f69ad59e6df172b82249a060d",
+      "bytes": 110617
+    },
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\component_assets\\wacv_original\\pcb_wacv_2019\\ML365_Bottom\\ML365_Bottom.xml",
+      "sha256": "0eb2d053cd59dcecedad3609fc29e4149a944acbeb9d7fec550ac86746fe325a",
+      "bytes": 339010
+    },
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\component_assets\\wacv_original\\pcb_wacv_2019\\ML365_Top\\ML365_Top.xml",
+      "sha256": "183f7732b843116db293dd3a7540c444f6c94c0cf96f63834abe3a061f6b8a47",
+      "bytes": 247275
+    },
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\component_assets\\wacv_original\\pcb_wacv_2019\\ML450_Bottom1\\ML450_Bottom1.xml",
+      "sha256": "734ae357a8a19801779cf9a902321f55f792d2b5b0f79ea54e0ba1009b258376",
+      "bytes": 108637
+    },
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\component_assets\\wacv_original\\pcb_wacv_2019\\ML450_Bottom2\\ML450_Bottom2.xml",
+      "sha256": "04056fccdd4e231036d2bb61b7509500f617ce8a891f83921cbdf872e5a828a9",
+      "bytes": 47682
+    },
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\component_assets\\wacv_original\\pcb_wacv_2019\\ML450_Top1\\ML450_Top1.xml",
+      "sha256": "6cc3de25ebc5955f9b099f21c522ee60baa1837e4d09d070cf7cd51086b8b02d",
+      "bytes": 233656
+    },
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\component_assets\\wacv_original\\pcb_wacv_2019\\ML450_Top2\\ML450_Top2.xml",
+      "sha256": "288b597802bfd4b1a717e5f9c2bcf7b89ef8cd4cbcb4ebc6c1e2c04c51380a7c",
+      "bytes": 184948
+    },
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\component_assets\\wacv_original\\pcb_wacv_2019\\MicroZed_Bottom\\MicroZed_Bottom.xml",
+      "sha256": "24200159b629c9cbc22f85dc2e11d9f149794c583c17c67cf229b3fef81fa61f",
+      "bytes": 117472
+    },
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\component_assets\\wacv_original\\pcb_wacv_2019\\MicroZed_Top\\MicroZed_Top.xml",
+      "sha256": "24ae6bfe1978823eae33102175c2e3aac35305a083430495b44d4a05286ec584",
+      "bytes": 85841
+    },
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\component_assets\\wacv_original\\pcb_wacv_2019\\OlimexRed\\OlimexRed.xml",
+      "sha256": "11540ffc479f4c3fd95679a6e2f95f0ed44af514999c6862d7a167b6c347ad8a",
+      "bytes": 66515
+    },
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\component_assets\\wacv_original\\pcb_wacv_2019\\RPI3B_Bottom\\RPI3B_Bottom.xml",
+      "sha256": "1d7f0e1a83eff8fa67e5e265ce7d4c3e3e8b68afa5b4456251ed360b5279e177",
+      "bytes": 86903
+    },
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\component_assets\\wacv_original\\pcb_wacv_2019\\RPI3B_Top\\RPI3B_Top.xml",
+      "sha256": "9d4351051c85a5cb0d93ba8261d831131496e04d1916c80eda1974a1841a4b63",
+      "bytes": 75830
+    },
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\component_assets\\wacv_original\\pcb_wacv_2019\\STK644\\STK644.xml",
+      "sha256": "77f3877487bac2003a035c26539c891a08d67085e02d27e359dd586486426a7b",
+      "bytes": 65242
+    },
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\component_assets\\wacv_original\\pcb_wacv_2019\\Spartan3\\Spartan3.xml",
+      "sha256": "73fb71c5dbbb538b7f1f8cbe56521d019099028d0c8f2ea7521e37cb31484cb5",
+      "bytes": 67527
+    },
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\component_assets\\wacv_original\\pcb_wacv_2019\\Spartan6Redux_Bottom\\Spartan6Redux_Bottom.xml",
+      "sha256": "962cadf077bca2324cedff2795cf6e7bdbe35c3f28cd97bbf8040c2df3436367",
+      "bytes": 30502
+    },
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\component_assets\\wacv_original\\pcb_wacv_2019\\Spartan6Redux_Top\\Spartan6Redux_Top.xml",
+      "sha256": "62f2d92a80e207cec5111385e3e5c5a53020b110e0e4c0bd4d9409caabc3554a",
+      "bytes": 49284
+    },
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\component_assets\\wacv_original\\pcb_wacv_2019\\Spartan6_Bottom\\Spartan6_Bottom.xml",
+      "sha256": "36aeeec4cd78d68630cd9b19f505441b742aa559662b9fd1dac7c977d519c29a",
+      "bytes": 19881
+    },
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\component_assets\\wacv_original\\pcb_wacv_2019\\Spartan6_Top\\Spartan6_Top.xml",
+      "sha256": "6efbdbee9320575cd77d27460884812ee6bdcec3b63a41a7466ae56f02616013",
+      "bytes": 9253
+    },
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\component_assets\\wacv_original\\pcb_wacv_2019\\SystemAce_Bottom\\SystemAce_Bottom.xml",
+      "sha256": "3146d18a8058a0b0c13332ae87a527d74c84bc421e3fd3d026aced98c203785f",
+      "bytes": 9100
+    },
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\component_assets\\wacv_original\\pcb_wacv_2019\\SystemAce_Top\\SystemAce_Top.xml",
+      "sha256": "cae52d2b85d4029c8cc883beb23be676bbe460e55c3d981c0de4bcb043febed3",
+      "bytes": 148673
+    },
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\component_assets\\wacv_original\\pcb_wacv_2019\\ThingMagicM6e\\ThingMagicM6e.xml",
+      "sha256": "f47c7b054e728f4e56bf9879486d793d03530e0681c5d7885f76e3c68440399d",
+      "bytes": 75945
+    },
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\component_assets\\wacv_original\\pcb_wacv_2019\\UTL-016\\UTL-016.xml",
+      "sha256": "3d68b67ae69728d4ecd4fe4a79e408d2326c1eb2f157f26f8f23f2b934645188",
+      "bytes": 43945
+    },
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\component_assets\\wacv_original\\pcb_wacv_2019\\UTL-103\\UTL-103.xml",
+      "sha256": "a4891d0e54fcd034c8f7c1a3a712e4f4722abbfb8982169d19374742600d3174",
+      "bytes": 88179
+    },
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\component_assets\\wacv_original\\pcb_wacv_2019\\Virtex5\\Virtex5.xml",
+      "sha256": "5540ed1b8db121179d48fb04528691943de1a493061f26291c967ffde9ca01be",
+      "bytes": 29098
+    },
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\component_assets\\wacv_original\\pcb_wacv_2019\\Virtex6\\Virtex6.xml",
+      "sha256": "cb3e1502e0754c113a323dd07e8dc0ad44a9d222a65bd3d54127bbb7462605f7",
+      "bytes": 184270
+    },
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\component_assets\\wacv_original\\pcb_wacv_2019\\XCM-307A_Bottom\\XCM-307A_Bottom.xml",
+      "sha256": "9af92cb7d07d1e9de8cda091a6f45fe0f47efaad5b273a2c0ef3c9d265938f53",
+      "bytes": 18975
+    },
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\component_assets\\wacv_original\\pcb_wacv_2019\\XCM-307A_Top\\XCM-307A_Top.xml",
+      "sha256": "013efa5c9c3a070a38ed7ad441b12216bb00792ce8849a9a2008d10b967ea3c3",
+      "bytes": 38107
+    },
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\component_assets\\wacv_original\\pcb_wacv_2019\\XLVDSproSupply_Bottom1\\XLVDSproSupply_Bottom1.xml",
+      "sha256": "dd531384dd0de54ae1d9caf55d72a683cba9574c1a086bc1f2d88bf7ffe08e15",
+      "bytes": 12910
+    },
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\component_assets\\wacv_original\\pcb_wacv_2019\\XLVDSproSupply_Bottom2\\XLVDSproSupply_Bottom2.xml",
+      "sha256": "8b91c4d2e53dcdce6e6404751559cba18d459624dc4a03d44ef3235eb4e25e15",
+      "bytes": 11254
+    },
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\component_assets\\wacv_original\\pcb_wacv_2019\\XLVDSproSupply_Top1\\XLVDSproSupply_Top1.xml",
+      "sha256": "3268c50c1c141ebd8132c3ad8d7c67a4a8b129a46aef3680bc700da84af1332b",
+      "bytes": 239217
+    },
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\component_assets\\wacv_original\\pcb_wacv_2019\\ZTurn\\ZTurn.xml",
+      "sha256": "dcae568d1d89780772bb9ee130a99df54fab72fe4782224eebe04f5796fac48d",
+      "bytes": 109890
+    },
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\component_assets\\wacv_original\\pcb_wacv_2019\\Zedboard\\Zedboard.xml",
+      "sha256": "495faac87e000ce91ace96052f0022a1486e0b4d08dbbb0c590d02ea3618c163",
+      "bytes": 177278
+    },
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\component_assets\\wacv_original\\pcb_wacv_2019\\Ztex\\Ztex.xml",
+      "sha256": "895c279b3d1aa3da95e55bd4225da83adaf4b48ec2edec9c1676627a674e5ebe",
+      "bytes": 32404
+    },
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\component_assets\\wacv_original\\pcb_wacv_2019\\Zybo\\Zybo.xml",
+      "sha256": "67e9f8be37adcf0d288f0db607f3581674abc9b602fade761b3ebbe6744a83bc",
+      "bytes": 99009
+    },
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04\\data\\native_manifest.json",
+      "sha256": "a91d4956da6adc8b3eebcd87da6e8e428362e1c14cef9e8f9d5a4583817d8c19",
+      "bytes": 8969482
+    },
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04\\data\\original_records.json",
+      "sha256": "8f09eec359fcae412e539a2ecdc2aee1a10102aaa489edd792b17b46c551aa13",
+      "bytes": 8967965
+    },
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04\\reports\\evaluation_suite\\evaluations\\baseline__epoch_02__dual__val\\native_ground_truth.json",
+      "sha256": "8657ed2394bbbe666f230cf8cc87b0fb95f1b57b300eddaa1b998626c9999580",
+      "bytes": 225810
+    },
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04\\reports\\evaluation_suite\\evaluations\\baseline__epoch_02__native__val\\native_ground_truth.json",
+      "sha256": "8657ed2394bbbe666f230cf8cc87b0fb95f1b57b300eddaa1b998626c9999580",
+      "bytes": 225810
+    },
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04\\reports\\evaluation_suite\\evaluations\\baseline__epoch_04__dual__val\\native_ground_truth.json",
+      "sha256": "8657ed2394bbbe666f230cf8cc87b0fb95f1b57b300eddaa1b998626c9999580",
+      "bytes": 225810
+    },
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04\\reports\\evaluation_suite\\evaluations\\baseline__epoch_04__native__val\\native_ground_truth.json",
+      "sha256": "8657ed2394bbbe666f230cf8cc87b0fb95f1b57b300eddaa1b998626c9999580",
+      "bytes": 225810
+    },
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04\\reports\\evaluation_suite\\evaluations\\baseline__epoch_06__dual__val\\native_ground_truth.json",
+      "sha256": "8657ed2394bbbe666f230cf8cc87b0fb95f1b57b300eddaa1b998626c9999580",
+      "bytes": 225810
+    },
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04\\reports\\evaluation_suite\\evaluations\\baseline__epoch_06__native__val\\native_ground_truth.json",
+      "sha256": "8657ed2394bbbe666f230cf8cc87b0fb95f1b57b300eddaa1b998626c9999580",
+      "bytes": 225810
+    },
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04\\reports\\evaluation_suite\\evaluations\\baseline__epoch_08__dual__val\\native_ground_truth.json",
+      "sha256": "8657ed2394bbbe666f230cf8cc87b0fb95f1b57b300eddaa1b998626c9999580",
+      "bytes": 225810
+    },
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04\\reports\\evaluation_suite\\evaluations\\baseline__epoch_08__native__val\\native_ground_truth.json",
+      "sha256": "8657ed2394bbbe666f230cf8cc87b0fb95f1b57b300eddaa1b998626c9999580",
+      "bytes": 225810
+    },
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04\\reports\\evaluation_suite\\evaluations\\baseline__epoch_10__dual__val\\native_ground_truth.json",
+      "sha256": "8657ed2394bbbe666f230cf8cc87b0fb95f1b57b300eddaa1b998626c9999580",
+      "bytes": 225810
+    },
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04\\reports\\evaluation_suite\\evaluations\\baseline__epoch_10__native__val\\native_ground_truth.json",
+      "sha256": "8657ed2394bbbe666f230cf8cc87b0fb95f1b57b300eddaa1b998626c9999580",
+      "bytes": 225810
+    },
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04\\reports\\evaluation_suite\\evaluations\\baseline__epoch_12__dual__val\\native_ground_truth.json",
+      "sha256": "8657ed2394bbbe666f230cf8cc87b0fb95f1b57b300eddaa1b998626c9999580",
+      "bytes": 225810
+    },
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04\\reports\\evaluation_suite\\evaluations\\baseline__epoch_12__native__val\\native_ground_truth.json",
+      "sha256": "8657ed2394bbbe666f230cf8cc87b0fb95f1b57b300eddaa1b998626c9999580",
+      "bytes": 225810
+    },
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04\\reports\\evaluation_suite\\evaluations\\baseline__epoch_14__dual__val\\native_ground_truth.json",
+      "sha256": "8657ed2394bbbe666f230cf8cc87b0fb95f1b57b300eddaa1b998626c9999580",
+      "bytes": 225810
+    },
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04\\reports\\evaluation_suite\\evaluations\\baseline__epoch_14__native__val\\native_ground_truth.json",
+      "sha256": "8657ed2394bbbe666f230cf8cc87b0fb95f1b57b300eddaa1b998626c9999580",
+      "bytes": 225810
+    },
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04\\reports\\evaluation_suite\\evaluations\\baseline__epoch_16__dual__val\\native_ground_truth.json",
+      "sha256": "8657ed2394bbbe666f230cf8cc87b0fb95f1b57b300eddaa1b998626c9999580",
+      "bytes": 225810
+    },
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04\\reports\\evaluation_suite\\evaluations\\baseline__epoch_16__native__val\\native_ground_truth.json",
+      "sha256": "8657ed2394bbbe666f230cf8cc87b0fb95f1b57b300eddaa1b998626c9999580",
+      "bytes": 225810
+    },
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04\\reports\\evaluation_suite\\evaluations\\baseline__epoch_18__dual__val\\native_ground_truth.json",
+      "sha256": "8657ed2394bbbe666f230cf8cc87b0fb95f1b57b300eddaa1b998626c9999580",
+      "bytes": 225810
+    },
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04\\reports\\evaluation_suite\\evaluations\\baseline__epoch_18__native__val\\native_ground_truth.json",
+      "sha256": "8657ed2394bbbe666f230cf8cc87b0fb95f1b57b300eddaa1b998626c9999580",
+      "bytes": 225810
+    },
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04\\reports\\evaluation_suite\\evaluations\\baseline__epoch_20__dual__val\\native_ground_truth.json",
+      "sha256": "8657ed2394bbbe666f230cf8cc87b0fb95f1b57b300eddaa1b998626c9999580",
+      "bytes": 225810
+    },
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04\\reports\\evaluation_suite\\evaluations\\baseline__epoch_20__dual__val\\samples.json",
+      "sha256": "881e7368692f925846d951f093976681961a436b1903b274bf5282d99a06541a",
+      "bytes": 1266326
+    },
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04\\reports\\evaluation_suite\\evaluations\\baseline__epoch_20__native__val\\native_ground_truth.json",
+      "sha256": "8657ed2394bbbe666f230cf8cc87b0fb95f1b57b300eddaa1b998626c9999580",
+      "bytes": 225810
+    },
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04\\reports\\evaluation_suite\\evaluations\\improved__epoch_02__dual__val\\native_ground_truth.json",
+      "sha256": "8657ed2394bbbe666f230cf8cc87b0fb95f1b57b300eddaa1b998626c9999580",
+      "bytes": 225810
+    },
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04\\reports\\evaluation_suite\\evaluations\\improved__epoch_02__native__val\\native_ground_truth.json",
+      "sha256": "8657ed2394bbbe666f230cf8cc87b0fb95f1b57b300eddaa1b998626c9999580",
+      "bytes": 225810
+    }
+  ]
+}

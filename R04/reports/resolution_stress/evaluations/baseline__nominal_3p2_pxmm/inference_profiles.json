@@ -1,0 +1,24 @@
+[
+  {
+    "id": "RPI3B_Bottom",
+    "tiles": 2,
+    "requested_tile_sizes": [
+      1024,
+      2048
+    ],
+    "pre_global_nms_predictions": 40,
+    "post_global_nms_predictions": 16,
+    "offline_predict_and_postprocess_ms": 72.90480000665411
+  },
+  {
+    "id": "RPI3B_Top",
+    "tiles": 2,
+    "requested_tile_sizes": [
+      1024,
+      2048
+    ],
+    "pre_global_nms_predictions": 170,
+    "post_global_nms_predictions": 80,
+    "offline_predict_and_postprocess_ms": 40.88590000174008
+  }
+]

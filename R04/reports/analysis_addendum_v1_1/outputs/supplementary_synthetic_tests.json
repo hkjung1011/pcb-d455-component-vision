@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "synthetic_tests": 6,
+  "command": "python -B work/r04_addendum/test_supplementary_analysis.py",
+  "evidence": "Executed in tool on 2026-09-29 KST; unittest returned OK after six tests",
+  "script_sha256": "6f7bb3cd3ca7f5c9ee238d54fea58b45fa7727bd24b273a6fc013be6a12335b0",
+  "test_script_sha256": "8d524eed4df41a1e90685d4d2b5d1bb9d54418b98e50af0d159c34235e6fb59c",
+  "limitations": "Synthetic rules and subset indexing only; real saved outputs checked separately"
+}

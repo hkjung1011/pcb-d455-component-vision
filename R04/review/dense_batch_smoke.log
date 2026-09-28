@@ -1,0 +1,79 @@
+Fast image access  (ping: 0.20.1 ms, read: 451.2250.4 MB/s, size: 357.4 KB)
+
+[KScanning C:\Users\hkjun\Documents\Codex\2026-09-27\new-chat\work\r04\data\improved\labels\train.cache... 968 images, 127 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 968/968  0.0s
+Overriding model.yaml nc=80 with nc=4
+Transferred 493/499 items from pretrained weights
+{
+  "started_utc": "2026-09-28T12:49:00.733339+00:00",
+  "script_sha256": "39b585ec82e22ed8117a2648aa28482c657f247fd52f341c22fbb06d3f157386",
+  "ignore_adapter_sha256": "a8d5bd2baa4b43f86ce0ffd9507eeec69be1a29d431a1ba12b1b38534ca95280",
+  "device": "NVIDIA GeForce RTX 5060 Laptop GPU",
+  "torch": "2.12.1+cu130",
+  "ultralytics": "8.4.120",
+  "batch": 4,
+  "imgsz": 1024,
+  "dtype": "float32",
+  "optimizer_steps": 0,
+  "forward_calls": 1,
+  "backward_calls": 1,
+  "finite_gradients": true,
+  "sampler_location": {
+    "epoch": 1,
+    "batch": 65,
+    "seed": 42
+  },
+  "sample_source_counts": [
+    {
+      "id": "ML365_Bottom__0019_context2048",
+      "positive": 543,
+      "ignore": 3
+    },
+    {
+      "id": "Spartan3__0068_native1024",
+      "positive": 6,
+      "ignore": 1
+    },
+    {
+      "id": "Spartan6Redux_Bottom__0000_native1024",
+      "positive": 34,
+      "ignore": 38
+    },
+    {
+      "id": "ATTIOT_Bottom__0024_object_centered",
+      "positive": 84,
+      "ignore": 8
+    }
+  ],
+  "positive_labels": 667,
+  "ignore_labels": 50,
+  "positive_per_image": [
+    543,
+    6,
+    34,
+    84
+  ],
+  "suppressed_negative_anchors": 5219,
+  "loss_items": {
+    "box_loss": 2.038557767868042,
+    "cls_loss": 3.8853366374969482,
+    "dfl_loss": 1.541541576385498
+  },
+  "parameter_sha256_before": "9e44a6a12ec1fc7e37a830f904c1a48afb76782a10668f2cc48c729a12ec4d20",
+  "parameter_sha256_after": "9e44a6a12ec1fc7e37a830f904c1a48afb76782a10668f2cc48c729a12ec4d20",
+  "parameters_unchanged": true,
+  "peak_allocated_bytes": 5503733760,
+  "peak_reserved_bytes": 5687476224,
+  "allocated_before_cleanup_bytes": 194846208,
+  "initial_checkpoint_sha256": "85a76fe86dd8afe384648546b56a7a78580c7cb7b404fc595f97969322d502d5",
+  "data_yaml_sha256": "13f5f8a965dabfc4c6aa3ddf110890d4eadf10dfbe0dfc12e9c3678db36d35ee",
+  "views_sha256": "df7b5bdb67323af200a5809253120e048027b08851f47be66ba9c863e0237986",
+  "sidecar_sha256": "5a2fb1e4799f9c9595a3d6674f0e26e3fd7050e3061ad364351a739d4223878c",
+  "scope": "One fresh forward/backward without AdamW state or EMA memory. Dense TAL input check, not a training run, AP result or camera test.",
+  "status": "PASS_DENSE_BATCH_FORWARD_BACKWARD",
+  "assignment_log_messages": [],
+  "tal_cpu_fallback_observed": false,
+  "allocated_after_cleanup_bytes": 67108864,
+  "reserved_after_cleanup_bytes": 67108864,
+  "elapsed_seconds": 4.8368957999919076,
+  "finished_utc": "2026-09-28T12:49:05.569917+00:00"
+}

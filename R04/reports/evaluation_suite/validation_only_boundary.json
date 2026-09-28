@@ -1,0 +1,10 @@
+{
+  "status": "VALIDATION_COMPLETE_HOLDOUT_NOT_STARTED",
+  "completed_utc": "2026-09-28T16:18:58.219737+00:00",
+  "wrapper_sha256": "7afe31abf3a9cd5b692bb0c5ffae11a15bdcd82f125a729b226c50749bfefce1",
+  "protocol_sha256": "a45e4d372f507af24518000b37e7bd39423eafdf290b46fe8072332855c325e1",
+  "selection_sha256": "0c2ade30935aa8584813a58825f7be5577415a764ff0250581a8a696b5a33380",
+  "validation_jobs": 40,
+  "recommended_arm": "improved",
+  "note": "Frozen original functions reused. Await separate read-only pre-holdout audit."
+}

@@ -1,0 +1,66 @@
+{
+  "script": "r05_ignore_geometry_check",
+  "generated_utc": "2026-09-28T16:00:16.689942+00:00",
+  "review_commit": "17f72fdd9143bca6645f9b342414b0c5a2c1ed6d",
+  "inputs_modified": false,
+  "definitions": {
+    "input_shape": "64x128 (H x W), strides 8/16/32, anchor centres (i+0.5)*stride",
+    "reference": "inclusive centre-in-box test against ignore boxes minus positive boxes, minus TAL foreground",
+    "adapter_sha256": "a8d5bd2baa4b43f86ce0ffd9507eeec69be1a29d431a1ba12b1b38534ca95280"
+  },
+  "results": {
+    "cases": [
+      {
+        "case": "tall_left_strip",
+        "suppressed": 42,
+        "anchors": 168,
+        "equals_numpy_reference": true,
+        "zero_class_gradient_inside": true,
+        "nonzero_gradient_outside": true,
+        "foreground_never_suppressed": true
+      },
+      {
+        "case": "wide_top_sliver",
+        "suppressed": 44,
+        "anchors": 168,
+        "equals_numpy_reference": true,
+        "zero_class_gradient_inside": true,
+        "nonzero_gradient_outside": true,
+        "foreground_never_suppressed": true
+      },
+      {
+        "case": "corner_box",
+        "suppressed": 19,
+        "anchors": 168,
+        "equals_numpy_reference": true,
+        "zero_class_gradient_inside": true,
+        "nonzero_gradient_outside": true,
+        "foreground_never_suppressed": true
+      },
+      {
+        "case": "ignore_with_positive_inside",
+        "suppressed": 154,
+        "anchors": 168,
+        "equals_numpy_reference": true,
+        "zero_class_gradient_inside": true,
+        "nonzero_gradient_outside": true,
+        "foreground_never_suppressed": true
+      }
+    ],
+    "all_cases_pass": true,
+    "positive_only_equals_stock_loss": true,
+    "tiny_2px_ignore_suppressed_anchors": 0
+  },
+  "inputs": [
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\github_private_archive\\R04_PAUSED\\scripts\\ignore_adapter.py",
+      "sha256": "a8d5bd2baa4b43f86ce0ffd9507eeec69be1a29d431a1ba12b1b38534ca95280",
+      "bytes": 13191
+    },
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\mcu-vision\\.venv-yolo11\\Lib\\site-packages\\ultralytics\\utils\\loss.py",
+      "sha256": "dbda30466bcef7f2513699c7a187c4210eb1961d33e3072e3b83ed7206b1d349",
+      "bytes": 71001
+    }
+  ]
+}

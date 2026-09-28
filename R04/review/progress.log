@@ -1,0 +1,603 @@
+[R04] Review started. Checking labels, training counters, validation and camera assumptions. GPU training has not started.
+[21:20:12] 평가 감사 완료: 저장 예측 CPU COCO 재계산 일치, optimizer min/max와 조건부 호출 재구성 구분, s best epoch18 재구성 확인. evaluation_audit.json/md 저장.
+[R04 DATA] baseline: 418 views, 3215/3307 original objects completely visible at least once; ignore {}
+[R04 DATA] improved: 968 views, 3307/3307 original objects completely visible at least once; ignore {'target_fragment_lt50': 2722, 'source_unknown': 1399}
+[R04 DATA] Data and protocol frozen. No R04 training or evaluation has run yet.
+[21:28:16] R04 평가기 구현 완료: CPU 13검사 PASS, R03 저장예측 AP/TPFPFN/size recall 동일, crop 좌표 grid10조건 일치. GPU 미사용.
+[2026-09-28T12:34:05.343639+00:00] TRAIN baseline started: 20 epochs maximum; 1165 optimizer calls maximum; batch=4 FP32; 448 weighted draws/epoch
+[2026-09-28T12:34:54.345501+00:00] TRAIN baseline epoch 1/20: optimizer=112/1165, batches=112/112, loss=4.4192
+[2026-09-28T12:35:38.848421+00:00] TRAIN baseline epoch 2/20: optimizer=168/1165, batches=112/112, loss=3.5272
+[21:36:09] R04 평가 orchestration 준비 완료: CPU 정책검사9개 PASS, native manifest 사전검사 PASS. 모든 VAL완료→선택해시동결→개발holdout순서,완료job해시재검증재사용지원. GPU실행안함.
+[2026-09-28T12:36:22.758278+00:00] TRAIN baseline epoch 3/20: optimizer=224/1165, batches=112/112, loss=3.3204
+[2026-09-28T12:37:06.830227+00:00] TRAIN baseline epoch 4/20: optimizer=280/1165, batches=112/112, loss=2.9527
+[2026-09-28T12:37:50.653914+00:00] TRAIN baseline epoch 5/20: optimizer=336/1165, batches=112/112, loss=2.9218
+[2026-09-28T12:38:35.227423+00:00] TRAIN baseline epoch 6/20: optimizer=392/1165, batches=112/112, loss=2.7790
+[2026-09-28T12:39:18.845105+00:00] TRAIN baseline epoch 7/20: optimizer=448/1165, batches=112/112, loss=2.4884
+[2026-09-28T12:40:01.588211+00:00] TRAIN baseline epoch 8/20: optimizer=504/1165, batches=112/112, loss=2.2870
+[2026-09-28T12:40:44.458478+00:00] TRAIN baseline epoch 9/20: optimizer=560/1165, batches=112/112, loss=2.2958
+[2026-09-28T12:41:27.288337+00:00] TRAIN baseline epoch 10/20: optimizer=616/1165, batches=112/112, loss=2.1750
+[2026-09-28T12:42:10.219265+00:00] TRAIN baseline epoch 11/20: optimizer=672/1165, batches=112/112, loss=2.1676
+[2026-09-28T12:42:52.902713+00:00] TRAIN baseline epoch 12/20: optimizer=728/1165, batches=112/112, loss=2.0754
+[2026-09-28T12:43:35.602374+00:00] TRAIN baseline epoch 13/20: optimizer=784/1165, batches=112/112, loss=2.0028
+[2026-09-28T12:44:18.438156+00:00] TRAIN baseline epoch 14/20: optimizer=840/1165, batches=112/112, loss=1.9747
+[2026-09-28T12:45:02.083710+00:00] TRAIN baseline epoch 15/20: optimizer=896/1165, batches=112/112, loss=1.9448
+[21:45:31] 최종 결과 감사기 준비: audit_r04_results.py CPU synthetic6검사 PASS. 실제 결과 감사는 학습·평가 완료 후 실행 예정(현재 미실행). 독립 COCO/매칭/threshold grid,초기화·직접콜·EMA·노출·GT검사.
+[2026-09-28T12:45:46.808309+00:00] TRAIN baseline epoch 16/20: optimizer=952/1165, batches=112/112, loss=1.9050
+[2026-09-28T12:46:30.378461+00:00] TRAIN baseline epoch 17/20: optimizer=1008/1165, batches=112/112, loss=1.7537
+[2026-09-28T12:47:13.875833+00:00] TRAIN baseline epoch 18/20: optimizer=1064/1165, batches=112/112, loss=1.7297
+[2026-09-28T12:47:57.415108+00:00] TRAIN baseline epoch 19/20: optimizer=1120/1165, batches=112/112, loss=1.6449
+[2026-09-28T12:48:32.718937+00:00] TRAIN baseline epoch 20/20: optimizer=1165/1165, batches=90/112, loss=1.6150
+[2026-09-28T12:48:34.525262+00:00] TRAIN baseline COMPLETE: 1165 directly observed optimizer calls; 10 candidates ready for native validation
+[2026-09-28T12:49:32.610567+00:00] TRAIN improved started: 20 epochs maximum; 1165 optimizer calls maximum; batch=4 FP32; 448 weighted draws/epoch
+[2026-09-28T12:50:22.888355+00:00] TRAIN improved epoch 1/20: optimizer=112/1165, batches=112/112, loss=4.2471
+[2026-09-28T12:51:07.413970+00:00] TRAIN improved epoch 2/20: optimizer=168/1165, batches=112/112, loss=3.3369
+[2026-09-28T12:51:51.035248+00:00] TRAIN improved epoch 3/20: optimizer=224/1165, batches=112/112, loss=3.1312
+[2026-09-28T12:52:34.144116+00:00] TRAIN improved epoch 4/20: optimizer=280/1165, batches=112/112, loss=2.8187
+[2026-09-28T12:53:17.308382+00:00] TRAIN improved epoch 5/20: optimizer=336/1165, batches=112/112, loss=2.7273
+[2026-09-28T12:54:00.759206+00:00] TRAIN improved epoch 6/20: optimizer=392/1165, batches=112/112, loss=2.6228
+[2026-09-28T12:54:44.364336+00:00] TRAIN improved epoch 7/20: optimizer=448/1165, batches=112/112, loss=2.3643
+[21:55:02] evaluator CPU최적화 완료: R03 val8조건×19threshold 전체curve/class/per_image 완전동일,기존13+신규3=16검사PASS. 단일prefix캐시로합계20.75초→0.46초. 자동평가동결이전수정완료.
+[2026-09-28T12:55:27.532824+00:00] TRAIN improved epoch 8/20: optimizer=504/1165, batches=112/112, loss=2.2630
+[2026-09-28T12:56:10.998103+00:00] TRAIN improved epoch 9/20: optimizer=560/1165, batches=112/112, loss=2.2393
+[2026-09-28T12:56:54.301951+00:00] TRAIN improved epoch 10/20: optimizer=616/1165, batches=112/112, loss=2.1395
+[2026-09-28T12:57:41.588675+00:00] TRAIN improved epoch 11/20: optimizer=672/1165, batches=112/112, loss=2.1680
+[2026-09-28T12:58:27.774304+00:00] TRAIN improved epoch 12/20: optimizer=728/1165, batches=112/112, loss=2.0731
+[2026-09-28T12:59:13.150182+00:00] TRAIN improved epoch 13/20: optimizer=784/1165, batches=112/112, loss=1.9958
+[2026-09-28T12:59:58.288436+00:00] TRAIN improved epoch 14/20: optimizer=840/1165, batches=112/112, loss=1.9915
+[2026-09-28T13:00:42.876075+00:00] TRAIN improved epoch 15/20: optimizer=896/1165, batches=112/112, loss=1.9486
+[2026-09-28T13:01:27.695028+00:00] TRAIN improved epoch 16/20: optimizer=952/1165, batches=112/112, loss=1.8930
+[2026-09-28T13:02:12.346618+00:00] TRAIN improved epoch 17/20: optimizer=1008/1165, batches=112/112, loss=1.8272
+[2026-09-28T13:02:56.967533+00:00] TRAIN improved epoch 18/20: optimizer=1064/1165, batches=112/112, loss=1.7658
+[2026-09-28T13:03:41.943848+00:00] TRAIN improved epoch 19/20: optimizer=1120/1165, batches=112/112, loss=1.7251
+[2026-09-28T13:04:18.548487+00:00] TRAIN improved epoch 20/20: optimizer=1165/1165, batches=90/112, loss=1.7190
+[2026-09-28T13:04:20.471491+00:00] TRAIN improved COMPLETE: 1165 directly observed optimizer calls; 10 candidates ready for native validation
+[2026-09-28T13:04:22.202199+00:00] R04 evaluation preflight: check both arm candidates, native GT and frozen training protocol
+[2026-09-28T13:04:22.546901+00:00] PHASE 1: validate all predeclared epoch x pipeline candidates for both arms
+[2026-09-28T13:04:22.571723+00:00] RUN baseline__epoch_02__native__val checkpoint=e540ad9d2d06
+[2026-09-28T13:04:28.900286+00:00] baseline__epoch_02__native__val: EVALUATED 1/9 ACM-109_Bottom tiles=1
+[2026-09-28T13:04:28.941643+00:00] baseline__epoch_02__native__val: EVALUATED 2/9 ACM-109_Top tiles=1
+[2026-09-28T13:04:29.459721+00:00] baseline__epoch_02__native__val: EVALUATED 3/9 Arty_Bottom tiles=12
+[2026-09-28T13:04:30.892551+00:00] baseline__epoch_02__native__val: EVALUATED 4/9 Arty_Top tiles=35
+[2026-09-28T13:04:30.981954+00:00] baseline__epoch_02__native__val: EVALUATED 5/9 UTL-016 tiles=1
+[2026-09-28T13:04:32.426402+00:00] baseline__epoch_02__native__val: EVALUATED 6/9 Virtex6 tiles=35
+[2026-09-28T13:04:32.475969+00:00] baseline__epoch_02__native__val: EVALUATED 7/9 XCM-307A_Bottom tiles=1
+[2026-09-28T13:04:32.977005+00:00] baseline__epoch_02__native__val: EVALUATED 8/9 XCM-307A_Top tiles=9
+[2026-09-28T13:04:34.390365+00:00] baseline__epoch_02__native__val: EVALUATED 9/9 Zybo tiles=35
+[2026-09-28T13:04:38.890628+00:00] DONE baseline__epoch_02__native__val: AP300=0.120401 AP100=0.090969
+[2026-09-28T13:04:38.929937+00:00] RUN baseline__epoch_02__dual__val checkpoint=e540ad9d2d06
+[2026-09-28T13:04:43.415451+00:00] baseline__epoch_02__dual__val: EVALUATED 1/9 ACM-109_Bottom tiles=2
+[2026-09-28T13:04:43.501230+00:00] baseline__epoch_02__dual__val: EVALUATED 2/9 ACM-109_Top tiles=2
+[2026-09-28T13:04:44.179654+00:00] baseline__epoch_02__dual__val: EVALUATED 3/9 Arty_Bottom tiles=16
+[2026-09-28T13:04:46.062664+00:00] baseline__epoch_02__dual__val: EVALUATED 4/9 Arty_Top tiles=47
+[2026-09-28T13:04:46.185743+00:00] baseline__epoch_02__dual__val: EVALUATED 5/9 UTL-016 tiles=2
+[2026-09-28T13:04:48.290506+00:00] baseline__epoch_02__dual__val: EVALUATED 6/9 Virtex6 tiles=47
+[2026-09-28T13:04:48.382389+00:00] baseline__epoch_02__dual__val: EVALUATED 7/9 XCM-307A_Bottom tiles=2
+[2026-09-28T13:04:48.905944+00:00] baseline__epoch_02__dual__val: EVALUATED 8/9 XCM-307A_Top tiles=13
+[2026-09-28T13:04:50.971257+00:00] baseline__epoch_02__dual__val: EVALUATED 9/9 Zybo tiles=47
+[2026-09-28T13:04:56.462874+00:00] DONE baseline__epoch_02__dual__val: AP300=0.149036 AP100=0.120621
+[2026-09-28T13:04:56.505527+00:00] RUN baseline__epoch_04__native__val checkpoint=168ae2f8edeb
+[2026-09-28T13:05:01.004439+00:00] baseline__epoch_04__native__val: EVALUATED 1/9 ACM-109_Bottom tiles=1
+[2026-09-28T13:05:01.038076+00:00] baseline__epoch_04__native__val: EVALUATED 2/9 ACM-109_Top tiles=1
+[2026-09-28T13:05:01.400133+00:00] baseline__epoch_04__native__val: EVALUATED 3/9 Arty_Bottom tiles=12
+[2026-09-28T13:05:02.386411+00:00] baseline__epoch_04__native__val: EVALUATED 4/9 Arty_Top tiles=35
+[2026-09-28T13:05:02.459313+00:00] baseline__epoch_04__native__val: EVALUATED 5/9 UTL-016 tiles=1
+[2026-09-28T13:05:03.458910+00:00] baseline__epoch_04__native__val: EVALUATED 6/9 Virtex6 tiles=35
+[2026-09-28T13:05:03.640164+00:00] baseline__epoch_04__native__val: EVALUATED 7/9 XCM-307A_Bottom tiles=1
+[2026-09-28T13:05:03.884448+00:00] baseline__epoch_04__native__val: EVALUATED 8/9 XCM-307A_Top tiles=9
+[2026-09-28T13:05:04.883619+00:00] baseline__epoch_04__native__val: EVALUATED 9/9 Zybo tiles=35
+[2026-09-28T13:05:08.730773+00:00] DONE baseline__epoch_04__native__val: AP300=0.278011 AP100=0.248800
+[2026-09-28T13:05:08.773157+00:00] RUN baseline__epoch_04__dual__val checkpoint=168ae2f8edeb
+[2026-09-28T13:05:13.233142+00:00] baseline__epoch_04__dual__val: EVALUATED 1/9 ACM-109_Bottom tiles=2
+[2026-09-28T13:05:13.291687+00:00] baseline__epoch_04__dual__val: EVALUATED 2/9 ACM-109_Top tiles=2
+[2026-09-28T13:05:13.787520+00:00] baseline__epoch_04__dual__val: EVALUATED 3/9 Arty_Bottom tiles=16
+[2026-09-28T13:05:15.085367+00:00] baseline__epoch_04__dual__val: EVALUATED 4/9 Arty_Top tiles=47
+[2026-09-28T13:05:15.180819+00:00] baseline__epoch_04__dual__val: EVALUATED 5/9 UTL-016 tiles=2
+[2026-09-28T13:05:16.656806+00:00] baseline__epoch_04__dual__val: EVALUATED 6/9 Virtex6 tiles=47
+[2026-09-28T13:05:16.718096+00:00] baseline__epoch_04__dual__val: EVALUATED 7/9 XCM-307A_Bottom tiles=2
+[2026-09-28T13:05:17.084239+00:00] baseline__epoch_04__dual__val: EVALUATED 8/9 XCM-307A_Top tiles=13
+[2026-09-28T13:05:18.409100+00:00] baseline__epoch_04__dual__val: EVALUATED 9/9 Zybo tiles=47
+[2026-09-28T13:05:22.439346+00:00] DONE baseline__epoch_04__dual__val: AP300=0.316208 AP100=0.283554
+[2026-09-28T13:05:22.480102+00:00] RUN baseline__epoch_06__native__val checkpoint=cdd61d07983e
+[2026-09-28T13:05:26.894245+00:00] baseline__epoch_06__native__val: EVALUATED 1/9 ACM-109_Bottom tiles=1
+[2026-09-28T13:05:26.920509+00:00] baseline__epoch_06__native__val: EVALUATED 2/9 ACM-109_Top tiles=1
+[2026-09-28T13:05:27.250915+00:00] baseline__epoch_06__native__val: EVALUATED 3/9 Arty_Bottom tiles=12
+[2026-09-28T13:05:28.168230+00:00] baseline__epoch_06__native__val: EVALUATED 4/9 Arty_Top tiles=35
+[2026-09-28T13:05:28.236997+00:00] baseline__epoch_06__native__val: EVALUATED 5/9 UTL-016 tiles=1
+[2026-09-28T13:05:29.195525+00:00] baseline__epoch_06__native__val: EVALUATED 6/9 Virtex6 tiles=35
+[2026-09-28T13:05:29.227897+00:00] baseline__epoch_06__native__val: EVALUATED 7/9 XCM-307A_Bottom tiles=1
+[2026-09-28T13:05:29.510600+00:00] baseline__epoch_06__native__val: EVALUATED 8/9 XCM-307A_Top tiles=9
+[2026-09-28T13:05:30.639068+00:00] baseline__epoch_06__native__val: EVALUATED 9/9 Zybo tiles=35
+[2026-09-28T13:05:35.205127+00:00] DONE baseline__epoch_06__native__val: AP300=0.277239 AP100=0.254302
+[2026-09-28T13:05:35.246506+00:00] RUN baseline__epoch_06__dual__val checkpoint=cdd61d07983e
+[2026-09-28T13:05:39.934959+00:00] baseline__epoch_06__dual__val: EVALUATED 1/9 ACM-109_Bottom tiles=2
+[2026-09-28T13:05:39.995648+00:00] baseline__epoch_06__dual__val: EVALUATED 2/9 ACM-109_Top tiles=2
+[2026-09-28T13:05:40.498044+00:00] baseline__epoch_06__dual__val: EVALUATED 3/9 Arty_Bottom tiles=16
+[2026-09-28T13:05:41.811188+00:00] baseline__epoch_06__dual__val: EVALUATED 4/9 Arty_Top tiles=47
+[2026-09-28T13:05:41.906228+00:00] baseline__epoch_06__dual__val: EVALUATED 5/9 UTL-016 tiles=2
+[2026-09-28T13:05:43.504738+00:00] baseline__epoch_06__dual__val: EVALUATED 6/9 Virtex6 tiles=47
+[2026-09-28T13:05:43.563740+00:00] baseline__epoch_06__dual__val: EVALUATED 7/9 XCM-307A_Bottom tiles=2
+[2026-09-28T13:05:43.918257+00:00] baseline__epoch_06__dual__val: EVALUATED 8/9 XCM-307A_Top tiles=13
+[2026-09-28T13:05:45.261582+00:00] baseline__epoch_06__dual__val: EVALUATED 9/9 Zybo tiles=47
+[2026-09-28T13:05:50.321258+00:00] DONE baseline__epoch_06__dual__val: AP300=0.315462 AP100=0.290674
+[2026-09-28T13:05:50.363900+00:00] RUN baseline__epoch_08__native__val checkpoint=73cb2284a3b5
+[2026-09-28T13:05:55.060800+00:00] baseline__epoch_08__native__val: EVALUATED 1/9 ACM-109_Bottom tiles=1
+[2026-09-28T13:05:55.094522+00:00] baseline__epoch_08__native__val: EVALUATED 2/9 ACM-109_Top tiles=1
+[2026-09-28T13:05:55.470401+00:00] baseline__epoch_08__native__val: EVALUATED 3/9 Arty_Bottom tiles=12
+[2026-09-28T13:05:56.438608+00:00] baseline__epoch_08__native__val: EVALUATED 4/9 Arty_Top tiles=35
+[2026-09-28T13:05:56.510739+00:00] baseline__epoch_08__native__val: EVALUATED 5/9 UTL-016 tiles=1
+[2026-09-28T13:05:57.533543+00:00] baseline__epoch_08__native__val: EVALUATED 6/9 Virtex6 tiles=35
+[2026-09-28T13:05:57.567235+00:00] baseline__epoch_08__native__val: EVALUATED 7/9 XCM-307A_Bottom tiles=1
+[2026-09-28T13:05:57.829055+00:00] baseline__epoch_08__native__val: EVALUATED 8/9 XCM-307A_Top tiles=9
+[2026-09-28T13:05:58.822975+00:00] baseline__epoch_08__native__val: EVALUATED 9/9 Zybo tiles=35
+[2026-09-28T13:06:03.348532+00:00] DONE baseline__epoch_08__native__val: AP300=0.288582 AP100=0.259909
+[2026-09-28T13:06:03.392893+00:00] RUN baseline__epoch_08__dual__val checkpoint=73cb2284a3b5
+[2026-09-28T13:06:07.795890+00:00] baseline__epoch_08__dual__val: EVALUATED 1/9 ACM-109_Bottom tiles=2
+[2026-09-28T13:06:07.853831+00:00] baseline__epoch_08__dual__val: EVALUATED 2/9 ACM-109_Top tiles=2
+[2026-09-28T13:06:08.283900+00:00] baseline__epoch_08__dual__val: EVALUATED 3/9 Arty_Bottom tiles=16
+[2026-09-28T13:06:09.498558+00:00] baseline__epoch_08__dual__val: EVALUATED 4/9 Arty_Top tiles=47
+[2026-09-28T13:06:09.585736+00:00] baseline__epoch_08__dual__val: EVALUATED 5/9 UTL-016 tiles=2
+[2026-09-28T13:06:10.849511+00:00] baseline__epoch_08__dual__val: EVALUATED 6/9 Virtex6 tiles=47
+[2026-09-28T13:06:10.902287+00:00] baseline__epoch_08__dual__val: EVALUATED 7/9 XCM-307A_Bottom tiles=2
+[2026-09-28T13:06:11.212536+00:00] baseline__epoch_08__dual__val: EVALUATED 8/9 XCM-307A_Top tiles=13
+[2026-09-28T13:06:12.566891+00:00] baseline__epoch_08__dual__val: EVALUATED 9/9 Zybo tiles=47
+[2026-09-28T13:06:17.539136+00:00] DONE baseline__epoch_08__dual__val: AP300=0.346176 AP100=0.317348
+[2026-09-28T13:06:17.585367+00:00] RUN baseline__epoch_10__native__val checkpoint=25b513e631f8
+[2026-09-28T13:06:22.343151+00:00] baseline__epoch_10__native__val: EVALUATED 1/9 ACM-109_Bottom tiles=1
+[2026-09-28T13:06:22.370274+00:00] baseline__epoch_10__native__val: EVALUATED 2/9 ACM-109_Top tiles=1
+[2026-09-28T13:06:22.722759+00:00] baseline__epoch_10__native__val: EVALUATED 3/9 Arty_Bottom tiles=12
+[2026-09-28T13:06:23.636923+00:00] baseline__epoch_10__native__val: EVALUATED 4/9 Arty_Top tiles=35
+[2026-09-28T13:06:23.706718+00:00] baseline__epoch_10__native__val: EVALUATED 5/9 UTL-016 tiles=1
+[2026-09-28T13:06:24.645771+00:00] baseline__epoch_10__native__val: EVALUATED 6/9 Virtex6 tiles=35
+[2026-09-28T13:06:24.676578+00:00] baseline__epoch_10__native__val: EVALUATED 7/9 XCM-307A_Bottom tiles=1
+[2026-09-28T13:06:24.971428+00:00] baseline__epoch_10__native__val: EVALUATED 8/9 XCM-307A_Top tiles=9
+[2026-09-28T13:06:25.939030+00:00] baseline__epoch_10__native__val: EVALUATED 9/9 Zybo tiles=35
+[2026-09-28T13:06:31.032527+00:00] DONE baseline__epoch_10__native__val: AP300=0.303399 AP100=0.274734
+[2026-09-28T13:06:31.074803+00:00] RUN baseline__epoch_10__dual__val checkpoint=25b513e631f8
+[2026-09-28T13:06:36.058285+00:00] baseline__epoch_10__dual__val: EVALUATED 1/9 ACM-109_Bottom tiles=2
+[2026-09-28T13:06:36.114343+00:00] baseline__epoch_10__dual__val: EVALUATED 2/9 ACM-109_Top tiles=2
+[2026-09-28T13:06:36.557752+00:00] baseline__epoch_10__dual__val: EVALUATED 3/9 Arty_Bottom tiles=16
+[2026-09-28T13:06:37.834566+00:00] baseline__epoch_10__dual__val: EVALUATED 4/9 Arty_Top tiles=47
+[2026-09-28T13:06:37.918460+00:00] baseline__epoch_10__dual__val: EVALUATED 5/9 UTL-016 tiles=2
+[2026-09-28T13:06:39.252376+00:00] baseline__epoch_10__dual__val: EVALUATED 6/9 Virtex6 tiles=47
+[2026-09-28T13:06:39.308220+00:00] baseline__epoch_10__dual__val: EVALUATED 7/9 XCM-307A_Bottom tiles=2
+[2026-09-28T13:06:39.628690+00:00] baseline__epoch_10__dual__val: EVALUATED 8/9 XCM-307A_Top tiles=13
+[2026-09-28T13:06:41.040764+00:00] baseline__epoch_10__dual__val: EVALUATED 9/9 Zybo tiles=47
+[2026-09-28T13:06:45.474499+00:00] DONE baseline__epoch_10__dual__val: AP300=0.361123 AP100=0.332148
+[2026-09-28T13:06:45.514871+00:00] RUN baseline__epoch_12__native__val checkpoint=2a90f892ab00
+[2026-09-28T13:06:50.457089+00:00] baseline__epoch_12__native__val: EVALUATED 1/9 ACM-109_Bottom tiles=1
+[2026-09-28T13:06:50.484847+00:00] baseline__epoch_12__native__val: EVALUATED 2/9 ACM-109_Top tiles=1
+[2026-09-28T13:06:50.835394+00:00] baseline__epoch_12__native__val: EVALUATED 3/9 Arty_Bottom tiles=12
+[2026-09-28T13:06:51.787630+00:00] baseline__epoch_12__native__val: EVALUATED 4/9 Arty_Top tiles=35
+[2026-09-28T13:06:51.850212+00:00] baseline__epoch_12__native__val: EVALUATED 5/9 UTL-016 tiles=1
+[2026-09-28T13:06:52.867306+00:00] baseline__epoch_12__native__val: EVALUATED 6/9 Virtex6 tiles=35
+[2026-09-28T13:06:52.899720+00:00] baseline__epoch_12__native__val: EVALUATED 7/9 XCM-307A_Bottom tiles=1
+[2026-09-28T13:06:53.172468+00:00] baseline__epoch_12__native__val: EVALUATED 8/9 XCM-307A_Top tiles=9
+[2026-09-28T13:06:54.135098+00:00] baseline__epoch_12__native__val: EVALUATED 9/9 Zybo tiles=35
+[2026-09-28T13:06:58.670609+00:00] DONE baseline__epoch_12__native__val: AP300=0.302037 AP100=0.262851
+[2026-09-28T13:06:58.715492+00:00] RUN baseline__epoch_12__dual__val checkpoint=2a90f892ab00
+[2026-09-28T13:07:03.693026+00:00] baseline__epoch_12__dual__val: EVALUATED 1/9 ACM-109_Bottom tiles=2
+[2026-09-28T13:07:03.738259+00:00] baseline__epoch_12__dual__val: EVALUATED 2/9 ACM-109_Top tiles=2
+[2026-09-28T13:07:04.195166+00:00] baseline__epoch_12__dual__val: EVALUATED 3/9 Arty_Bottom tiles=16
+[2026-09-28T13:07:05.478055+00:00] baseline__epoch_12__dual__val: EVALUATED 4/9 Arty_Top tiles=47
+[2026-09-28T13:07:05.560884+00:00] baseline__epoch_12__dual__val: EVALUATED 5/9 UTL-016 tiles=2
+[2026-09-28T13:07:06.867860+00:00] baseline__epoch_12__dual__val: EVALUATED 6/9 Virtex6 tiles=47
+[2026-09-28T13:07:06.918630+00:00] baseline__epoch_12__dual__val: EVALUATED 7/9 XCM-307A_Bottom tiles=2
+[2026-09-28T13:07:07.229617+00:00] baseline__epoch_12__dual__val: EVALUATED 8/9 XCM-307A_Top tiles=13
+[2026-09-28T13:07:08.488185+00:00] baseline__epoch_12__dual__val: EVALUATED 9/9 Zybo tiles=47
+[2026-09-28T13:07:13.124588+00:00] DONE baseline__epoch_12__dual__val: AP300=0.343201 AP100=0.305404
+[2026-09-28T13:07:13.164676+00:00] RUN baseline__epoch_14__native__val checkpoint=e83dc4c971c4
+[2026-09-28T13:07:18.073492+00:00] baseline__epoch_14__native__val: EVALUATED 1/9 ACM-109_Bottom tiles=1
+[2026-09-28T13:07:18.100772+00:00] baseline__epoch_14__native__val: EVALUATED 2/9 ACM-109_Top tiles=1
+[2026-09-28T13:07:18.448327+00:00] baseline__epoch_14__native__val: EVALUATED 3/9 Arty_Bottom tiles=12
+[2026-09-28T13:07:19.421147+00:00] baseline__epoch_14__native__val: EVALUATED 4/9 Arty_Top tiles=35
+[2026-09-28T13:07:19.492942+00:00] baseline__epoch_14__native__val: EVALUATED 5/9 UTL-016 tiles=1
+[2026-09-28T13:07:20.430069+00:00] baseline__epoch_14__native__val: EVALUATED 6/9 Virtex6 tiles=35
+[2026-09-28T13:07:20.461483+00:00] baseline__epoch_14__native__val: EVALUATED 7/9 XCM-307A_Bottom tiles=1
+[2026-09-28T13:07:20.745297+00:00] baseline__epoch_14__native__val: EVALUATED 8/9 XCM-307A_Top tiles=9
+[2026-09-28T13:07:21.675333+00:00] baseline__epoch_14__native__val: EVALUATED 9/9 Zybo tiles=35
+[2026-09-28T13:07:26.365775+00:00] DONE baseline__epoch_14__native__val: AP300=0.308506 AP100=0.276739
+[2026-09-28T13:07:26.406168+00:00] RUN baseline__epoch_14__dual__val checkpoint=e83dc4c971c4
+[2026-09-28T13:07:31.159045+00:00] baseline__epoch_14__dual__val: EVALUATED 1/9 ACM-109_Bottom tiles=2
+[2026-09-28T13:07:31.213378+00:00] baseline__epoch_14__dual__val: EVALUATED 2/9 ACM-109_Top tiles=2
+[2026-09-28T13:07:31.683179+00:00] baseline__epoch_14__dual__val: EVALUATED 3/9 Arty_Bottom tiles=16
+[2026-09-28T13:07:32.967304+00:00] baseline__epoch_14__dual__val: EVALUATED 4/9 Arty_Top tiles=47
+[2026-09-28T13:07:33.060119+00:00] baseline__epoch_14__dual__val: EVALUATED 5/9 UTL-016 tiles=2
+[2026-09-28T13:07:34.365231+00:00] baseline__epoch_14__dual__val: EVALUATED 6/9 Virtex6 tiles=47
+[2026-09-28T13:07:34.417559+00:00] baseline__epoch_14__dual__val: EVALUATED 7/9 XCM-307A_Bottom tiles=2
+[2026-09-28T13:07:34.733870+00:00] baseline__epoch_14__dual__val: EVALUATED 8/9 XCM-307A_Top tiles=13
+[2026-09-28T13:07:36.004709+00:00] baseline__epoch_14__dual__val: EVALUATED 9/9 Zybo tiles=47
+[2026-09-28T13:07:40.690307+00:00] DONE baseline__epoch_14__dual__val: AP300=0.344182 AP100=0.311588
+[2026-09-28T13:07:40.728923+00:00] RUN baseline__epoch_16__native__val checkpoint=1d40c39b432f
+[2026-09-28T13:07:45.581763+00:00] baseline__epoch_16__native__val: EVALUATED 1/9 ACM-109_Bottom tiles=1
+[2026-09-28T13:07:45.619089+00:00] baseline__epoch_16__native__val: EVALUATED 2/9 ACM-109_Top tiles=1
+[2026-09-28T13:07:45.954814+00:00] baseline__epoch_16__native__val: EVALUATED 3/9 Arty_Bottom tiles=12
+[2026-09-28T13:07:46.894794+00:00] baseline__epoch_16__native__val: EVALUATED 4/9 Arty_Top tiles=35
+[2026-09-28T13:07:46.961906+00:00] baseline__epoch_16__native__val: EVALUATED 5/9 UTL-016 tiles=1
+[2026-09-28T13:07:47.976569+00:00] baseline__epoch_16__native__val: EVALUATED 6/9 Virtex6 tiles=35
+[2026-09-28T13:07:48.014183+00:00] baseline__epoch_16__native__val: EVALUATED 7/9 XCM-307A_Bottom tiles=1
+[2026-09-28T13:07:48.304335+00:00] baseline__epoch_16__native__val: EVALUATED 8/9 XCM-307A_Top tiles=9
+[2026-09-28T13:07:49.422168+00:00] baseline__epoch_16__native__val: EVALUATED 9/9 Zybo tiles=35
+[2026-09-28T13:07:52.558520+00:00] DONE baseline__epoch_16__native__val: AP300=0.336028 AP100=0.302753
+[2026-09-28T13:07:52.591229+00:00] RUN baseline__epoch_16__dual__val checkpoint=1d40c39b432f
+[2026-09-28T13:07:57.044691+00:00] baseline__epoch_16__dual__val: EVALUATED 1/9 ACM-109_Bottom tiles=2
+[2026-09-28T13:07:57.083777+00:00] baseline__epoch_16__dual__val: EVALUATED 2/9 ACM-109_Top tiles=2
+[2026-09-28T13:07:57.468820+00:00] baseline__epoch_16__dual__val: EVALUATED 3/9 Arty_Bottom tiles=16
+[2026-09-28T13:07:58.692666+00:00] baseline__epoch_16__dual__val: EVALUATED 4/9 Arty_Top tiles=47
+[2026-09-28T13:07:58.774330+00:00] baseline__epoch_16__dual__val: EVALUATED 5/9 UTL-016 tiles=2
+[2026-09-28T13:07:59.988912+00:00] baseline__epoch_16__dual__val: EVALUATED 6/9 Virtex6 tiles=47
+[2026-09-28T13:08:00.041035+00:00] baseline__epoch_16__dual__val: EVALUATED 7/9 XCM-307A_Bottom tiles=2
+[2026-09-28T13:08:00.333898+00:00] baseline__epoch_16__dual__val: EVALUATED 8/9 XCM-307A_Top tiles=13
+[2026-09-28T13:08:01.553830+00:00] baseline__epoch_16__dual__val: EVALUATED 9/9 Zybo tiles=47
+[2026-09-28T13:08:04.686669+00:00] DONE baseline__epoch_16__dual__val: AP300=0.379208 AP100=0.344202
+[2026-09-28T13:08:04.720457+00:00] RUN baseline__epoch_18__native__val checkpoint=b06fa6c67439
+[2026-09-28T13:08:09.122578+00:00] baseline__epoch_18__native__val: EVALUATED 1/9 ACM-109_Bottom tiles=1
+[2026-09-28T13:08:09.142304+00:00] baseline__epoch_18__native__val: EVALUATED 2/9 ACM-109_Top tiles=1
+[2026-09-28T13:08:09.451189+00:00] baseline__epoch_18__native__val: EVALUATED 3/9 Arty_Bottom tiles=12
+[2026-09-28T13:08:10.339882+00:00] baseline__epoch_18__native__val: EVALUATED 4/9 Arty_Top tiles=35
+[2026-09-28T13:08:10.384307+00:00] baseline__epoch_18__native__val: EVALUATED 5/9 UTL-016 tiles=1
+[2026-09-28T13:08:11.218768+00:00] baseline__epoch_18__native__val: EVALUATED 6/9 Virtex6 tiles=35
+[2026-09-28T13:08:11.250367+00:00] baseline__epoch_18__native__val: EVALUATED 7/9 XCM-307A_Bottom tiles=1
+[2026-09-28T13:08:11.527636+00:00] baseline__epoch_18__native__val: EVALUATED 8/9 XCM-307A_Top tiles=9
+[2026-09-28T13:08:12.350672+00:00] baseline__epoch_18__native__val: EVALUATED 9/9 Zybo tiles=35
+[2026-09-28T13:08:15.211786+00:00] DONE baseline__epoch_18__native__val: AP300=0.348131 AP100=0.314623
+[2026-09-28T13:08:15.244115+00:00] RUN baseline__epoch_18__dual__val checkpoint=b06fa6c67439
+[2026-09-28T13:08:19.522207+00:00] baseline__epoch_18__dual__val: EVALUATED 1/9 ACM-109_Bottom tiles=2
+[2026-09-28T13:08:19.560985+00:00] baseline__epoch_18__dual__val: EVALUATED 2/9 ACM-109_Top tiles=2
+[2026-09-28T13:08:19.951623+00:00] baseline__epoch_18__dual__val: EVALUATED 3/9 Arty_Bottom tiles=16
+[2026-09-28T13:08:21.132307+00:00] baseline__epoch_18__dual__val: EVALUATED 4/9 Arty_Top tiles=47
+[2026-09-28T13:08:21.199596+00:00] baseline__epoch_18__dual__val: EVALUATED 5/9 UTL-016 tiles=2
+[2026-09-28T13:08:22.401303+00:00] baseline__epoch_18__dual__val: EVALUATED 6/9 Virtex6 tiles=47
+[2026-09-28T13:08:22.456064+00:00] baseline__epoch_18__dual__val: EVALUATED 7/9 XCM-307A_Bottom tiles=2
+[2026-09-28T13:08:22.749503+00:00] baseline__epoch_18__dual__val: EVALUATED 8/9 XCM-307A_Top tiles=13
+[2026-09-28T13:08:23.904383+00:00] baseline__epoch_18__dual__val: EVALUATED 9/9 Zybo tiles=47
+[2026-09-28T13:08:26.755913+00:00] DONE baseline__epoch_18__dual__val: AP300=0.384988 AP100=0.349592
+[2026-09-28T13:08:26.789154+00:00] RUN baseline__epoch_20__native__val checkpoint=ab1250fa46cb
+[2026-09-28T13:08:30.962800+00:00] baseline__epoch_20__native__val: EVALUATED 1/9 ACM-109_Bottom tiles=1
+[2026-09-28T13:08:30.984355+00:00] baseline__epoch_20__native__val: EVALUATED 2/9 ACM-109_Top tiles=1
+[2026-09-28T13:08:31.270568+00:00] baseline__epoch_20__native__val: EVALUATED 3/9 Arty_Bottom tiles=12
+[2026-09-28T13:08:32.105744+00:00] baseline__epoch_20__native__val: EVALUATED 4/9 Arty_Top tiles=35
+[2026-09-28T13:08:32.148018+00:00] baseline__epoch_20__native__val: EVALUATED 5/9 UTL-016 tiles=1
+[2026-09-28T13:08:32.968808+00:00] baseline__epoch_20__native__val: EVALUATED 6/9 Virtex6 tiles=35
+[2026-09-28T13:08:32.997326+00:00] baseline__epoch_20__native__val: EVALUATED 7/9 XCM-307A_Bottom tiles=1
+[2026-09-28T13:08:33.278501+00:00] baseline__epoch_20__native__val: EVALUATED 8/9 XCM-307A_Top tiles=9
+[2026-09-28T13:08:34.061609+00:00] baseline__epoch_20__native__val: EVALUATED 9/9 Zybo tiles=35
+[2026-09-28T13:08:36.645589+00:00] DONE baseline__epoch_20__native__val: AP300=0.353930 AP100=0.320200
+[2026-09-28T13:08:36.679958+00:00] RUN baseline__epoch_20__dual__val checkpoint=ab1250fa46cb
+[2026-09-28T13:08:41.125977+00:00] baseline__epoch_20__dual__val: EVALUATED 1/9 ACM-109_Bottom tiles=2
+[2026-09-28T13:08:41.168022+00:00] baseline__epoch_20__dual__val: EVALUATED 2/9 ACM-109_Top tiles=2
+[2026-09-28T13:08:41.558959+00:00] baseline__epoch_20__dual__val: EVALUATED 3/9 Arty_Bottom tiles=16
+[2026-09-28T13:08:42.704086+00:00] baseline__epoch_20__dual__val: EVALUATED 4/9 Arty_Top tiles=47
+[2026-09-28T13:08:42.773963+00:00] baseline__epoch_20__dual__val: EVALUATED 5/9 UTL-016 tiles=2
+[2026-09-28T13:08:43.953371+00:00] baseline__epoch_20__dual__val: EVALUATED 6/9 Virtex6 tiles=47
+[2026-09-28T13:08:44.005649+00:00] baseline__epoch_20__dual__val: EVALUATED 7/9 XCM-307A_Bottom tiles=2
+[2026-09-28T13:08:44.292679+00:00] baseline__epoch_20__dual__val: EVALUATED 8/9 XCM-307A_Top tiles=13
+[2026-09-28T13:08:45.436722+00:00] baseline__epoch_20__dual__val: EVALUATED 9/9 Zybo tiles=47
+[2026-09-28T13:08:48.380476+00:00] DONE baseline__epoch_20__dual__val: AP300=0.392459 AP100=0.355419
+[2026-09-28T13:08:48.389328+00:00] VAL ARM WINNER baseline: baseline__epoch_20__dual
+[2026-09-28T13:08:48.416006+00:00] RUN improved__epoch_02__native__val checkpoint=954412604058
+[2026-09-28T13:08:52.655300+00:00] improved__epoch_02__native__val: EVALUATED 1/9 ACM-109_Bottom tiles=1
+[2026-09-28T13:08:52.689217+00:00] improved__epoch_02__native__val: EVALUATED 2/9 ACM-109_Top tiles=1
+[2026-09-28T13:08:53.095583+00:00] improved__epoch_02__native__val: EVALUATED 3/9 Arty_Bottom tiles=12
+[2026-09-28T13:08:54.331627+00:00] improved__epoch_02__native__val: EVALUATED 4/9 Arty_Top tiles=35
+[2026-09-28T13:08:54.400376+00:00] improved__epoch_02__native__val: EVALUATED 5/9 UTL-016 tiles=1
+[2026-09-28T13:08:55.641360+00:00] improved__epoch_02__native__val: EVALUATED 6/9 Virtex6 tiles=35
+[2026-09-28T13:08:55.679692+00:00] improved__epoch_02__native__val: EVALUATED 7/9 XCM-307A_Bottom tiles=1
+[2026-09-28T13:08:55.990363+00:00] improved__epoch_02__native__val: EVALUATED 8/9 XCM-307A_Top tiles=9
+[2026-09-28T13:08:57.288318+00:00] improved__epoch_02__native__val: EVALUATED 9/9 Zybo tiles=35
+[2026-09-28T13:09:00.244741+00:00] DONE improved__epoch_02__native__val: AP300=0.172935 AP100=0.149847
+[2026-09-28T13:09:00.278150+00:00] RUN improved__epoch_02__dual__val checkpoint=954412604058
+[2026-09-28T13:09:04.484859+00:00] improved__epoch_02__dual__val: EVALUATED 1/9 ACM-109_Bottom tiles=2
+[2026-09-28T13:09:04.556280+00:00] improved__epoch_02__dual__val: EVALUATED 2/9 ACM-109_Top tiles=2
+[2026-09-28T13:09:05.137488+00:00] improved__epoch_02__dual__val: EVALUATED 3/9 Arty_Bottom tiles=16
+[2026-09-28T13:09:06.795721+00:00] improved__epoch_02__dual__val: EVALUATED 4/9 Arty_Top tiles=47
+[2026-09-28T13:09:06.882916+00:00] improved__epoch_02__dual__val: EVALUATED 5/9 UTL-016 tiles=2
+[2026-09-28T13:09:08.687914+00:00] improved__epoch_02__dual__val: EVALUATED 6/9 Virtex6 tiles=47
+[2026-09-28T13:09:08.758222+00:00] improved__epoch_02__dual__val: EVALUATED 7/9 XCM-307A_Bottom tiles=2
+[2026-09-28T13:09:09.198977+00:00] improved__epoch_02__dual__val: EVALUATED 8/9 XCM-307A_Top tiles=13
+[2026-09-28T13:09:10.952495+00:00] improved__epoch_02__dual__val: EVALUATED 9/9 Zybo tiles=47
+[2026-09-28T13:09:13.906433+00:00] DONE improved__epoch_02__dual__val: AP300=0.211668 AP100=0.188391
+[2026-09-28T13:09:13.939887+00:00] RUN improved__epoch_04__native__val checkpoint=6c3eb358e949
+[2026-09-28T13:11:15.875947+00:00] USER PAUSED: both trainings complete; 22/40 validation jobs verified, 1 interrupted job preserved for retry; no active GPU task.
+[2026-09-28T16:14:33.140790+00:00] REUSE baseline__epoch_02__native__val: identical inputs and output hashes verified
+[2026-09-28T16:14:33.205750+00:00] REUSE baseline__epoch_02__dual__val: identical inputs and output hashes verified
+[2026-09-28T16:14:33.266542+00:00] REUSE baseline__epoch_04__native__val: identical inputs and output hashes verified
+[2026-09-28T16:14:33.328514+00:00] REUSE baseline__epoch_04__dual__val: identical inputs and output hashes verified
+[2026-09-28T16:14:33.388498+00:00] REUSE baseline__epoch_06__native__val: identical inputs and output hashes verified
+[2026-09-28T16:14:33.451831+00:00] REUSE baseline__epoch_06__dual__val: identical inputs and output hashes verified
+[2026-09-28T16:14:33.513989+00:00] REUSE baseline__epoch_08__native__val: identical inputs and output hashes verified
+[2026-09-28T16:14:33.579925+00:00] REUSE baseline__epoch_08__dual__val: identical inputs and output hashes verified
+[2026-09-28T16:14:33.641414+00:00] REUSE baseline__epoch_10__native__val: identical inputs and output hashes verified
+[2026-09-28T16:14:33.700428+00:00] REUSE baseline__epoch_10__dual__val: identical inputs and output hashes verified
+[2026-09-28T16:14:33.763428+00:00] REUSE baseline__epoch_12__native__val: identical inputs and output hashes verified
+[2026-09-28T16:14:33.821525+00:00] REUSE baseline__epoch_12__dual__val: identical inputs and output hashes verified
+[2026-09-28T16:14:33.880500+00:00] REUSE baseline__epoch_14__native__val: identical inputs and output hashes verified
+[2026-09-28T16:14:33.953800+00:00] REUSE baseline__epoch_14__dual__val: identical inputs and output hashes verified
+[2026-09-28T16:14:34.015891+00:00] REUSE baseline__epoch_16__native__val: identical inputs and output hashes verified
+[2026-09-28T16:14:34.072836+00:00] REUSE baseline__epoch_16__dual__val: identical inputs and output hashes verified
+[2026-09-28T16:14:34.132875+00:00] REUSE baseline__epoch_18__native__val: identical inputs and output hashes verified
+[2026-09-28T16:14:34.195259+00:00] REUSE baseline__epoch_18__dual__val: identical inputs and output hashes verified
+[2026-09-28T16:14:34.254982+00:00] REUSE baseline__epoch_20__native__val: identical inputs and output hashes verified
+[2026-09-28T16:14:34.296724+00:00] REUSE baseline__epoch_20__dual__val: identical inputs and output hashes verified
+[2026-09-28T16:14:34.363799+00:00] REUSE improved__epoch_02__native__val: identical inputs and output hashes verified
+[2026-09-28T16:14:34.424468+00:00] REUSE improved__epoch_02__dual__val: identical inputs and output hashes verified
+[2026-09-28T16:14:34.454782+00:00] RUN improved__epoch_04__native__val checkpoint=6c3eb358e949
+[2026-09-28T16:14:44.278075+00:00] improved__epoch_04__native__val: EVALUATED 1/9 ACM-109_Bottom tiles=1
+[2026-09-28T16:14:44.320585+00:00] improved__epoch_04__native__val: EVALUATED 2/9 ACM-109_Top tiles=1
+[2026-09-28T16:14:44.798472+00:00] improved__epoch_04__native__val: EVALUATED 3/9 Arty_Bottom tiles=12
+[2026-09-28T16:14:45.971156+00:00] improved__epoch_04__native__val: EVALUATED 4/9 Arty_Top tiles=35
+[2026-09-28T16:14:46.051322+00:00] improved__epoch_04__native__val: EVALUATED 5/9 UTL-016 tiles=1
+[2026-09-28T16:14:47.573701+00:00] improved__epoch_04__native__val: EVALUATED 6/9 Virtex6 tiles=35
+[2026-09-28T16:14:47.617363+00:00] improved__epoch_04__native__val: EVALUATED 7/9 XCM-307A_Bottom tiles=1
+[2026-09-28T16:14:47.903139+00:00] improved__epoch_04__native__val: EVALUATED 8/9 XCM-307A_Top tiles=9
+[2026-09-28T16:14:49.017405+00:00] improved__epoch_04__native__val: EVALUATED 9/9 Zybo tiles=35
+[2026-09-28T16:14:53.792058+00:00] DONE improved__epoch_04__native__val: AP300=0.270335 AP100=0.231155
+[2026-09-28T16:14:53.832506+00:00] RUN improved__epoch_04__dual__val checkpoint=6c3eb358e949
+[2026-09-28T16:15:00.045215+00:00] improved__epoch_04__dual__val: EVALUATED 1/9 ACM-109_Bottom tiles=2
+[2026-09-28T16:15:00.107652+00:00] improved__epoch_04__dual__val: EVALUATED 2/9 ACM-109_Top tiles=2
+[2026-09-28T16:15:00.708562+00:00] improved__epoch_04__dual__val: EVALUATED 3/9 Arty_Bottom tiles=16
+[2026-09-28T16:15:02.188089+00:00] improved__epoch_04__dual__val: EVALUATED 4/9 Arty_Top tiles=47
+[2026-09-28T16:15:02.297532+00:00] improved__epoch_04__dual__val: EVALUATED 5/9 UTL-016 tiles=2
+[2026-09-28T16:15:04.015022+00:00] improved__epoch_04__dual__val: EVALUATED 6/9 Virtex6 tiles=47
+[2026-09-28T16:15:04.081145+00:00] improved__epoch_04__dual__val: EVALUATED 7/9 XCM-307A_Bottom tiles=2
+[2026-09-28T16:15:04.479969+00:00] improved__epoch_04__dual__val: EVALUATED 8/9 XCM-307A_Top tiles=13
+[2026-09-28T16:15:05.937553+00:00] improved__epoch_04__dual__val: EVALUATED 9/9 Zybo tiles=47
+[2026-09-28T16:15:09.994331+00:00] DONE improved__epoch_04__dual__val: AP300=0.303311 AP100=0.265509
+[2026-09-28T16:15:10.039607+00:00] RUN improved__epoch_06__native__val checkpoint=1012f3b96422
+[2026-09-28T16:15:15.200961+00:00] improved__epoch_06__native__val: EVALUATED 1/9 ACM-109_Bottom tiles=1
+[2026-09-28T16:15:15.230778+00:00] improved__epoch_06__native__val: EVALUATED 2/9 ACM-109_Top tiles=1
+[2026-09-28T16:15:15.594539+00:00] improved__epoch_06__native__val: EVALUATED 3/9 Arty_Bottom tiles=12
+[2026-09-28T16:15:16.602520+00:00] improved__epoch_06__native__val: EVALUATED 4/9 Arty_Top tiles=35
+[2026-09-28T16:15:16.690036+00:00] improved__epoch_06__native__val: EVALUATED 5/9 UTL-016 tiles=1
+[2026-09-28T16:15:17.820416+00:00] improved__epoch_06__native__val: EVALUATED 6/9 Virtex6 tiles=35
+[2026-09-28T16:15:17.858732+00:00] improved__epoch_06__native__val: EVALUATED 7/9 XCM-307A_Bottom tiles=1
+[2026-09-28T16:15:18.106729+00:00] improved__epoch_06__native__val: EVALUATED 8/9 XCM-307A_Top tiles=9
+[2026-09-28T16:15:19.257971+00:00] improved__epoch_06__native__val: EVALUATED 9/9 Zybo tiles=35
+[2026-09-28T16:15:22.885193+00:00] DONE improved__epoch_06__native__val: AP300=0.310288 AP100=0.275310
+[2026-09-28T16:15:22.926818+00:00] RUN improved__epoch_06__dual__val checkpoint=1012f3b96422
+[2026-09-28T16:15:28.545562+00:00] improved__epoch_06__dual__val: EVALUATED 1/9 ACM-109_Bottom tiles=2
+[2026-09-28T16:15:28.605509+00:00] improved__epoch_06__dual__val: EVALUATED 2/9 ACM-109_Top tiles=2
+[2026-09-28T16:15:29.208740+00:00] improved__epoch_06__dual__val: EVALUATED 3/9 Arty_Bottom tiles=16
+[2026-09-28T16:15:30.644586+00:00] improved__epoch_06__dual__val: EVALUATED 4/9 Arty_Top tiles=47
+[2026-09-28T16:15:30.753104+00:00] improved__epoch_06__dual__val: EVALUATED 5/9 UTL-016 tiles=2
+[2026-09-28T16:15:32.447513+00:00] improved__epoch_06__dual__val: EVALUATED 6/9 Virtex6 tiles=47
+[2026-09-28T16:15:32.513705+00:00] improved__epoch_06__dual__val: EVALUATED 7/9 XCM-307A_Bottom tiles=2
+[2026-09-28T16:15:32.868207+00:00] improved__epoch_06__dual__val: EVALUATED 8/9 XCM-307A_Top tiles=13
+[2026-09-28T16:15:34.399775+00:00] improved__epoch_06__dual__val: EVALUATED 9/9 Zybo tiles=47
+[2026-09-28T16:15:38.443466+00:00] DONE improved__epoch_06__dual__val: AP300=0.366397 AP100=0.330082
+[2026-09-28T16:15:38.483874+00:00] RUN improved__epoch_08__native__val checkpoint=d3daed367032
+[2026-09-28T16:15:43.764125+00:00] improved__epoch_08__native__val: EVALUATED 1/9 ACM-109_Bottom tiles=1
+[2026-09-28T16:15:43.795535+00:00] improved__epoch_08__native__val: EVALUATED 2/9 ACM-109_Top tiles=1
+[2026-09-28T16:15:44.155902+00:00] improved__epoch_08__native__val: EVALUATED 3/9 Arty_Bottom tiles=12
+[2026-09-28T16:15:45.053475+00:00] improved__epoch_08__native__val: EVALUATED 4/9 Arty_Top tiles=35
+[2026-09-28T16:15:45.122532+00:00] improved__epoch_08__native__val: EVALUATED 5/9 UTL-016 tiles=1
+[2026-09-28T16:15:46.064827+00:00] improved__epoch_08__native__val: EVALUATED 6/9 Virtex6 tiles=35
+[2026-09-28T16:15:46.098520+00:00] improved__epoch_08__native__val: EVALUATED 7/9 XCM-307A_Bottom tiles=1
+[2026-09-28T16:15:46.313648+00:00] improved__epoch_08__native__val: EVALUATED 8/9 XCM-307A_Top tiles=9
+[2026-09-28T16:15:47.229930+00:00] improved__epoch_08__native__val: EVALUATED 9/9 Zybo tiles=35
+[2026-09-28T16:15:51.145721+00:00] DONE improved__epoch_08__native__val: AP300=0.351855 AP100=0.312888
+[2026-09-28T16:15:51.184323+00:00] RUN improved__epoch_08__dual__val checkpoint=d3daed367032
+[2026-09-28T16:15:56.326494+00:00] improved__epoch_08__dual__val: EVALUATED 1/9 ACM-109_Bottom tiles=2
+[2026-09-28T16:15:56.378844+00:00] improved__epoch_08__dual__val: EVALUATED 2/9 ACM-109_Top tiles=2
+[2026-09-28T16:15:56.891452+00:00] improved__epoch_08__dual__val: EVALUATED 3/9 Arty_Bottom tiles=16
+[2026-09-28T16:15:58.071184+00:00] improved__epoch_08__dual__val: EVALUATED 4/9 Arty_Top tiles=47
+[2026-09-28T16:15:58.159894+00:00] improved__epoch_08__dual__val: EVALUATED 5/9 UTL-016 tiles=2
+[2026-09-28T16:15:59.412842+00:00] improved__epoch_08__dual__val: EVALUATED 6/9 Virtex6 tiles=47
+[2026-09-28T16:15:59.467444+00:00] improved__epoch_08__dual__val: EVALUATED 7/9 XCM-307A_Bottom tiles=2
+[2026-09-28T16:15:59.790453+00:00] improved__epoch_08__dual__val: EVALUATED 8/9 XCM-307A_Top tiles=13
+[2026-09-28T16:16:01.175360+00:00] improved__epoch_08__dual__val: EVALUATED 9/9 Zybo tiles=47
+[2026-09-28T16:16:05.518859+00:00] DONE improved__epoch_08__dual__val: AP300=0.390561 AP100=0.348201
+[2026-09-28T16:16:05.566808+00:00] RUN improved__epoch_10__native__val checkpoint=e3516ca73f98
+[2026-09-28T16:16:10.732459+00:00] improved__epoch_10__native__val: EVALUATED 1/9 ACM-109_Bottom tiles=1
+[2026-09-28T16:16:10.762936+00:00] improved__epoch_10__native__val: EVALUATED 2/9 ACM-109_Top tiles=1
+[2026-09-28T16:16:11.124738+00:00] improved__epoch_10__native__val: EVALUATED 3/9 Arty_Bottom tiles=12
+[2026-09-28T16:16:12.116588+00:00] improved__epoch_10__native__val: EVALUATED 4/9 Arty_Top tiles=35
+[2026-09-28T16:16:12.189747+00:00] improved__epoch_10__native__val: EVALUATED 5/9 UTL-016 tiles=1
+[2026-09-28T16:16:13.186582+00:00] improved__epoch_10__native__val: EVALUATED 6/9 Virtex6 tiles=35
+[2026-09-28T16:16:13.218474+00:00] improved__epoch_10__native__val: EVALUATED 7/9 XCM-307A_Bottom tiles=1
+[2026-09-28T16:16:13.438184+00:00] improved__epoch_10__native__val: EVALUATED 8/9 XCM-307A_Top tiles=9
+[2026-09-28T16:16:14.338190+00:00] improved__epoch_10__native__val: EVALUATED 9/9 Zybo tiles=35
+[2026-09-28T16:16:18.260648+00:00] DONE improved__epoch_10__native__val: AP300=0.363687 AP100=0.333025
+[2026-09-28T16:16:18.298662+00:00] RUN improved__epoch_10__dual__val checkpoint=e3516ca73f98
+[2026-09-28T16:16:23.654671+00:00] improved__epoch_10__dual__val: EVALUATED 1/9 ACM-109_Bottom tiles=2
+[2026-09-28T16:16:23.707646+00:00] improved__epoch_10__dual__val: EVALUATED 2/9 ACM-109_Top tiles=2
+[2026-09-28T16:16:24.157938+00:00] improved__epoch_10__dual__val: EVALUATED 3/9 Arty_Bottom tiles=16
+[2026-09-28T16:16:25.428860+00:00] improved__epoch_10__dual__val: EVALUATED 4/9 Arty_Top tiles=47
+[2026-09-28T16:16:25.536730+00:00] improved__epoch_10__dual__val: EVALUATED 5/9 UTL-016 tiles=2
+[2026-09-28T16:16:26.847659+00:00] improved__epoch_10__dual__val: EVALUATED 6/9 Virtex6 tiles=47
+[2026-09-28T16:16:26.907135+00:00] improved__epoch_10__dual__val: EVALUATED 7/9 XCM-307A_Bottom tiles=2
+[2026-09-28T16:16:27.236232+00:00] improved__epoch_10__dual__val: EVALUATED 8/9 XCM-307A_Top tiles=13
+[2026-09-28T16:16:28.477048+00:00] improved__epoch_10__dual__val: EVALUATED 9/9 Zybo tiles=47
+[2026-09-28T16:16:33.386688+00:00] DONE improved__epoch_10__dual__val: AP300=0.408705 AP100=0.379176
+[2026-09-28T16:16:33.430441+00:00] RUN improved__epoch_12__native__val checkpoint=994c2580688c
+[2026-09-28T16:16:39.882295+00:00] improved__epoch_12__native__val: EVALUATED 1/9 ACM-109_Bottom tiles=1
+[2026-09-28T16:16:39.913399+00:00] improved__epoch_12__native__val: EVALUATED 2/9 ACM-109_Top tiles=1
+[2026-09-28T16:16:40.282587+00:00] improved__epoch_12__native__val: EVALUATED 3/9 Arty_Bottom tiles=12
+[2026-09-28T16:16:41.307728+00:00] improved__epoch_12__native__val: EVALUATED 4/9 Arty_Top tiles=35
+[2026-09-28T16:16:41.383923+00:00] improved__epoch_12__native__val: EVALUATED 5/9 UTL-016 tiles=1
+[2026-09-28T16:16:42.407200+00:00] improved__epoch_12__native__val: EVALUATED 6/9 Virtex6 tiles=35
+[2026-09-28T16:16:42.442323+00:00] improved__epoch_12__native__val: EVALUATED 7/9 XCM-307A_Bottom tiles=1
+[2026-09-28T16:16:42.679578+00:00] improved__epoch_12__native__val: EVALUATED 8/9 XCM-307A_Top tiles=9
+[2026-09-28T16:16:43.619797+00:00] improved__epoch_12__native__val: EVALUATED 9/9 Zybo tiles=35
+[2026-09-28T16:16:47.386848+00:00] DONE improved__epoch_12__native__val: AP300=0.377778 AP100=0.332269
+[2026-09-28T16:16:47.436758+00:00] RUN improved__epoch_12__dual__val checkpoint=994c2580688c
+[2026-09-28T16:16:53.086369+00:00] improved__epoch_12__dual__val: EVALUATED 1/9 ACM-109_Bottom tiles=2
+[2026-09-28T16:16:53.144803+00:00] improved__epoch_12__dual__val: EVALUATED 2/9 ACM-109_Top tiles=2
+[2026-09-28T16:16:53.679975+00:00] improved__epoch_12__dual__val: EVALUATED 3/9 Arty_Bottom tiles=16
+[2026-09-28T16:16:54.922666+00:00] improved__epoch_12__dual__val: EVALUATED 4/9 Arty_Top tiles=47
+[2026-09-28T16:16:55.032052+00:00] improved__epoch_12__dual__val: EVALUATED 5/9 UTL-016 tiles=2
+[2026-09-28T16:16:56.381289+00:00] improved__epoch_12__dual__val: EVALUATED 6/9 Virtex6 tiles=47
+[2026-09-28T16:16:56.440714+00:00] improved__epoch_12__dual__val: EVALUATED 7/9 XCM-307A_Bottom tiles=2
+[2026-09-28T16:16:56.772994+00:00] improved__epoch_12__dual__val: EVALUATED 8/9 XCM-307A_Top tiles=13
+[2026-09-28T16:16:58.036257+00:00] improved__epoch_12__dual__val: EVALUATED 9/9 Zybo tiles=47
+[2026-09-28T16:17:02.370796+00:00] DONE improved__epoch_12__dual__val: AP300=0.431706 AP100=0.388159
+[2026-09-28T16:17:02.411948+00:00] RUN improved__epoch_14__native__val checkpoint=b7d2f1da7042
+[2026-09-28T16:17:07.820634+00:00] improved__epoch_14__native__val: EVALUATED 1/9 ACM-109_Bottom tiles=1
+[2026-09-28T16:17:07.849692+00:00] improved__epoch_14__native__val: EVALUATED 2/9 ACM-109_Top tiles=1
+[2026-09-28T16:17:08.213973+00:00] improved__epoch_14__native__val: EVALUATED 3/9 Arty_Bottom tiles=12
+[2026-09-28T16:17:09.154947+00:00] improved__epoch_14__native__val: EVALUATED 4/9 Arty_Top tiles=35
+[2026-09-28T16:17:09.226446+00:00] improved__epoch_14__native__val: EVALUATED 5/9 UTL-016 tiles=1
+[2026-09-28T16:17:10.205955+00:00] improved__epoch_14__native__val: EVALUATED 6/9 Virtex6 tiles=35
+[2026-09-28T16:17:10.238899+00:00] improved__epoch_14__native__val: EVALUATED 7/9 XCM-307A_Bottom tiles=1
+[2026-09-28T16:17:10.462447+00:00] improved__epoch_14__native__val: EVALUATED 8/9 XCM-307A_Top tiles=9
+[2026-09-28T16:17:11.395011+00:00] improved__epoch_14__native__val: EVALUATED 9/9 Zybo tiles=35
+[2026-09-28T16:17:15.239039+00:00] DONE improved__epoch_14__native__val: AP300=0.372564 AP100=0.328780
+[2026-09-28T16:17:15.278017+00:00] RUN improved__epoch_14__dual__val checkpoint=b7d2f1da7042
+[2026-09-28T16:17:21.116534+00:00] improved__epoch_14__dual__val: EVALUATED 1/9 ACM-109_Bottom tiles=2
+[2026-09-28T16:17:21.183037+00:00] improved__epoch_14__dual__val: EVALUATED 2/9 ACM-109_Top tiles=2
+[2026-09-28T16:17:21.741622+00:00] improved__epoch_14__dual__val: EVALUATED 3/9 Arty_Bottom tiles=16
+[2026-09-28T16:17:23.207478+00:00] improved__epoch_14__dual__val: EVALUATED 4/9 Arty_Top tiles=47
+[2026-09-28T16:17:23.313801+00:00] improved__epoch_14__dual__val: EVALUATED 5/9 UTL-016 tiles=2
+[2026-09-28T16:17:24.777388+00:00] improved__epoch_14__dual__val: EVALUATED 6/9 Virtex6 tiles=47
+[2026-09-28T16:17:24.839979+00:00] improved__epoch_14__dual__val: EVALUATED 7/9 XCM-307A_Bottom tiles=2
+[2026-09-28T16:17:25.195413+00:00] improved__epoch_14__dual__val: EVALUATED 8/9 XCM-307A_Top tiles=13
+[2026-09-28T16:17:26.550540+00:00] improved__epoch_14__dual__val: EVALUATED 9/9 Zybo tiles=47
+[2026-09-28T16:17:31.245368+00:00] DONE improved__epoch_14__dual__val: AP300=0.426677 AP100=0.380503
+[2026-09-28T16:17:31.288069+00:00] RUN improved__epoch_16__native__val checkpoint=79f01b40b9cc
+[2026-09-28T16:17:36.882273+00:00] improved__epoch_16__native__val: EVALUATED 1/9 ACM-109_Bottom tiles=1
+[2026-09-28T16:17:36.917481+00:00] improved__epoch_16__native__val: EVALUATED 2/9 ACM-109_Top tiles=1
+[2026-09-28T16:17:37.324207+00:00] improved__epoch_16__native__val: EVALUATED 3/9 Arty_Bottom tiles=12
+[2026-09-28T16:17:38.402393+00:00] improved__epoch_16__native__val: EVALUATED 4/9 Arty_Top tiles=35
+[2026-09-28T16:17:38.479680+00:00] improved__epoch_16__native__val: EVALUATED 5/9 UTL-016 tiles=1
+[2026-09-28T16:17:39.521212+00:00] improved__epoch_16__native__val: EVALUATED 6/9 Virtex6 tiles=35
+[2026-09-28T16:17:39.554693+00:00] improved__epoch_16__native__val: EVALUATED 7/9 XCM-307A_Bottom tiles=1
+[2026-09-28T16:17:39.784978+00:00] improved__epoch_16__native__val: EVALUATED 8/9 XCM-307A_Top tiles=9
+[2026-09-28T16:17:40.712385+00:00] improved__epoch_16__native__val: EVALUATED 9/9 Zybo tiles=35
+[2026-09-28T16:17:44.206400+00:00] DONE improved__epoch_16__native__val: AP300=0.415611 AP100=0.374783
+[2026-09-28T16:17:44.247622+00:00] RUN improved__epoch_16__dual__val checkpoint=79f01b40b9cc
+[2026-09-28T16:17:49.698505+00:00] improved__epoch_16__dual__val: EVALUATED 1/9 ACM-109_Bottom tiles=2
+[2026-09-28T16:17:49.751854+00:00] improved__epoch_16__dual__val: EVALUATED 2/9 ACM-109_Top tiles=2
+[2026-09-28T16:17:50.205206+00:00] improved__epoch_16__dual__val: EVALUATED 3/9 Arty_Bottom tiles=16
+[2026-09-28T16:17:51.478472+00:00] improved__epoch_16__dual__val: EVALUATED 4/9 Arty_Top tiles=47
+[2026-09-28T16:17:51.591475+00:00] improved__epoch_16__dual__val: EVALUATED 5/9 UTL-016 tiles=2
+[2026-09-28T16:17:52.968518+00:00] improved__epoch_16__dual__val: EVALUATED 6/9 Virtex6 tiles=47
+[2026-09-28T16:17:53.039761+00:00] improved__epoch_16__dual__val: EVALUATED 7/9 XCM-307A_Bottom tiles=2
+[2026-09-28T16:17:53.433153+00:00] improved__epoch_16__dual__val: EVALUATED 8/9 XCM-307A_Top tiles=13
+[2026-09-28T16:17:54.768887+00:00] improved__epoch_16__dual__val: EVALUATED 9/9 Zybo tiles=47
+[2026-09-28T16:17:59.312645+00:00] DONE improved__epoch_16__dual__val: AP300=0.461171 AP100=0.421858
+[2026-09-28T16:17:59.356358+00:00] RUN improved__epoch_18__native__val checkpoint=7d2ec74622a4
+[2026-09-28T16:18:05.605427+00:00] improved__epoch_18__native__val: EVALUATED 1/9 ACM-109_Bottom tiles=1
+[2026-09-28T16:18:05.645563+00:00] improved__epoch_18__native__val: EVALUATED 2/9 ACM-109_Top tiles=1
+[2026-09-28T16:18:06.060621+00:00] improved__epoch_18__native__val: EVALUATED 3/9 Arty_Bottom tiles=12
+[2026-09-28T16:18:07.020729+00:00] improved__epoch_18__native__val: EVALUATED 4/9 Arty_Top tiles=35
+[2026-09-28T16:18:07.092884+00:00] improved__epoch_18__native__val: EVALUATED 5/9 UTL-016 tiles=1
+[2026-09-28T16:18:08.098813+00:00] improved__epoch_18__native__val: EVALUATED 6/9 Virtex6 tiles=35
+[2026-09-28T16:18:08.133283+00:00] improved__epoch_18__native__val: EVALUATED 7/9 XCM-307A_Bottom tiles=1
+[2026-09-28T16:18:08.388063+00:00] improved__epoch_18__native__val: EVALUATED 8/9 XCM-307A_Top tiles=9
+[2026-09-28T16:18:09.352462+00:00] improved__epoch_18__native__val: EVALUATED 9/9 Zybo tiles=35
+[2026-09-28T16:18:13.492581+00:00] DONE improved__epoch_18__native__val: AP300=0.407592 AP100=0.370787
+[2026-09-28T16:18:13.541811+00:00] RUN improved__epoch_18__dual__val checkpoint=7d2ec74622a4
+[2026-09-28T16:18:19.679720+00:00] improved__epoch_18__dual__val: EVALUATED 1/9 ACM-109_Bottom tiles=2
+[2026-09-28T16:18:19.732885+00:00] improved__epoch_18__dual__val: EVALUATED 2/9 ACM-109_Top tiles=2
+[2026-09-28T16:18:20.235878+00:00] improved__epoch_18__dual__val: EVALUATED 3/9 Arty_Bottom tiles=16
+[2026-09-28T16:18:21.573595+00:00] improved__epoch_18__dual__val: EVALUATED 4/9 Arty_Top tiles=47
+[2026-09-28T16:18:21.693829+00:00] improved__epoch_18__dual__val: EVALUATED 5/9 UTL-016 tiles=2
+[2026-09-28T16:18:23.072428+00:00] improved__epoch_18__dual__val: EVALUATED 6/9 Virtex6 tiles=47
+[2026-09-28T16:18:23.135895+00:00] improved__epoch_18__dual__val: EVALUATED 7/9 XCM-307A_Bottom tiles=2
+[2026-09-28T16:18:23.497408+00:00] improved__epoch_18__dual__val: EVALUATED 8/9 XCM-307A_Top tiles=13
+[2026-09-28T16:18:24.848746+00:00] improved__epoch_18__dual__val: EVALUATED 9/9 Zybo tiles=47
+[2026-09-28T16:18:29.048465+00:00] DONE improved__epoch_18__dual__val: AP300=0.455057 AP100=0.417567
+[2026-09-28T16:18:29.092093+00:00] RUN improved__epoch_20__native__val checkpoint=406ab7b0630e
+[2026-09-28T16:18:35.047068+00:00] improved__epoch_20__native__val: EVALUATED 1/9 ACM-109_Bottom tiles=1
+[2026-09-28T16:18:35.081909+00:00] improved__epoch_20__native__val: EVALUATED 2/9 ACM-109_Top tiles=1
+[2026-09-28T16:18:35.475023+00:00] improved__epoch_20__native__val: EVALUATED 3/9 Arty_Bottom tiles=12
+[2026-09-28T16:18:36.452427+00:00] improved__epoch_20__native__val: EVALUATED 4/9 Arty_Top tiles=35
+[2026-09-28T16:18:36.530472+00:00] improved__epoch_20__native__val: EVALUATED 5/9 UTL-016 tiles=1
+[2026-09-28T16:18:37.613525+00:00] improved__epoch_20__native__val: EVALUATED 6/9 Virtex6 tiles=35
+[2026-09-28T16:18:37.653820+00:00] improved__epoch_20__native__val: EVALUATED 7/9 XCM-307A_Bottom tiles=1
+[2026-09-28T16:18:37.912019+00:00] improved__epoch_20__native__val: EVALUATED 8/9 XCM-307A_Top tiles=9
+[2026-09-28T16:18:38.960604+00:00] improved__epoch_20__native__val: EVALUATED 9/9 Zybo tiles=35
+[2026-09-28T16:18:42.766337+00:00] DONE improved__epoch_20__native__val: AP300=0.423376 AP100=0.384445
+[2026-09-28T16:18:42.810492+00:00] RUN improved__epoch_20__dual__val checkpoint=406ab7b0630e
+[2026-09-28T16:18:48.645411+00:00] improved__epoch_20__dual__val: EVALUATED 1/9 ACM-109_Bottom tiles=2
+[2026-09-28T16:18:48.698067+00:00] improved__epoch_20__dual__val: EVALUATED 2/9 ACM-109_Top tiles=2
+[2026-09-28T16:18:49.192511+00:00] improved__epoch_20__dual__val: EVALUATED 3/9 Arty_Bottom tiles=16
+[2026-09-28T16:18:50.660323+00:00] improved__epoch_20__dual__val: EVALUATED 4/9 Arty_Top tiles=47
+[2026-09-28T16:18:50.768820+00:00] improved__epoch_20__dual__val: EVALUATED 5/9 UTL-016 tiles=2
+[2026-09-28T16:18:52.108523+00:00] improved__epoch_20__dual__val: EVALUATED 6/9 Virtex6 tiles=47
+[2026-09-28T16:18:52.172759+00:00] improved__epoch_20__dual__val: EVALUATED 7/9 XCM-307A_Bottom tiles=2
+[2026-09-28T16:18:52.526507+00:00] improved__epoch_20__dual__val: EVALUATED 8/9 XCM-307A_Top tiles=13
+[2026-09-28T16:18:53.875536+00:00] improved__epoch_20__dual__val: EVALUATED 9/9 Zybo tiles=47
+[2026-09-28T16:18:58.170451+00:00] DONE improved__epoch_20__dual__val: AP300=0.452608 AP100=0.413071
+[2026-09-28T16:18:58.222170+00:00] VALIDATION-ONLY STOP: 40 jobs completed; selections frozen; no holdout executed
+[2026-09-28T16:23:28.439865+00:00] R04 evaluation preflight: check both arm candidates, native GT and frozen training protocol
+[2026-09-28T16:23:28.850747+00:00] PHASE 1: validate all predeclared epoch x pipeline candidates for both arms
+[2026-09-28T16:23:28.885941+00:00] REUSE baseline__epoch_02__native__val: identical inputs and output hashes verified
+[2026-09-28T16:23:28.920073+00:00] REUSE baseline__epoch_02__dual__val: identical inputs and output hashes verified
+[2026-09-28T16:23:28.953813+00:00] REUSE baseline__epoch_04__native__val: identical inputs and output hashes verified
+[2026-09-28T16:23:28.988217+00:00] REUSE baseline__epoch_04__dual__val: identical inputs and output hashes verified
+[2026-09-28T16:23:29.022415+00:00] REUSE baseline__epoch_06__native__val: identical inputs and output hashes verified
+[2026-09-28T16:23:29.057272+00:00] REUSE baseline__epoch_06__dual__val: identical inputs and output hashes verified
+[2026-09-28T16:23:29.092442+00:00] REUSE baseline__epoch_08__native__val: identical inputs and output hashes verified
+[2026-09-28T16:23:29.126584+00:00] REUSE baseline__epoch_08__dual__val: identical inputs and output hashes verified
+[2026-09-28T16:23:29.159745+00:00] REUSE baseline__epoch_10__native__val: identical inputs and output hashes verified
+[2026-09-28T16:23:29.195232+00:00] REUSE baseline__epoch_10__dual__val: identical inputs and output hashes verified
+[2026-09-28T16:23:29.230013+00:00] REUSE baseline__epoch_12__native__val: identical inputs and output hashes verified
+[2026-09-28T16:23:29.268984+00:00] REUSE baseline__epoch_12__dual__val: identical inputs and output hashes verified
+[2026-09-28T16:23:29.303755+00:00] REUSE baseline__epoch_14__native__val: identical inputs and output hashes verified
+[2026-09-28T16:23:29.337591+00:00] REUSE baseline__epoch_14__dual__val: identical inputs and output hashes verified
+[2026-09-28T16:23:29.372078+00:00] REUSE baseline__epoch_16__native__val: identical inputs and output hashes verified
+[2026-09-28T16:23:29.404898+00:00] REUSE baseline__epoch_16__dual__val: identical inputs and output hashes verified
+[2026-09-28T16:23:29.438673+00:00] REUSE baseline__epoch_18__native__val: identical inputs and output hashes verified
+[2026-09-28T16:23:29.472774+00:00] REUSE baseline__epoch_18__dual__val: identical inputs and output hashes verified
+[2026-09-28T16:23:29.505446+00:00] REUSE baseline__epoch_20__native__val: identical inputs and output hashes verified
+[2026-09-28T16:23:29.540650+00:00] REUSE baseline__epoch_20__dual__val: identical inputs and output hashes verified
+[2026-09-28T16:23:29.542224+00:00] VAL ARM WINNER baseline: baseline__epoch_20__dual
+[2026-09-28T16:23:29.578447+00:00] REUSE improved__epoch_02__native__val: identical inputs and output hashes verified
+[2026-09-28T16:23:29.614829+00:00] REUSE improved__epoch_02__dual__val: identical inputs and output hashes verified
+[2026-09-28T16:23:29.649838+00:00] REUSE improved__epoch_04__native__val: identical inputs and output hashes verified
+[2026-09-28T16:23:29.684930+00:00] REUSE improved__epoch_04__dual__val: identical inputs and output hashes verified
+[2026-09-28T16:23:29.718430+00:00] REUSE improved__epoch_06__native__val: identical inputs and output hashes verified
+[2026-09-28T16:23:29.753352+00:00] REUSE improved__epoch_06__dual__val: identical inputs and output hashes verified
+[2026-09-28T16:23:29.786636+00:00] REUSE improved__epoch_08__native__val: identical inputs and output hashes verified
+[2026-09-28T16:23:29.821872+00:00] REUSE improved__epoch_08__dual__val: identical inputs and output hashes verified
+[2026-09-28T16:23:29.857711+00:00] REUSE improved__epoch_10__native__val: identical inputs and output hashes verified
+[2026-09-28T16:23:29.892420+00:00] REUSE improved__epoch_10__dual__val: identical inputs and output hashes verified
+[2026-09-28T16:23:29.926445+00:00] REUSE improved__epoch_12__native__val: identical inputs and output hashes verified
+[2026-09-28T16:23:29.961804+00:00] REUSE improved__epoch_12__dual__val: identical inputs and output hashes verified
+[2026-09-28T16:23:29.996847+00:00] REUSE improved__epoch_14__native__val: identical inputs and output hashes verified
+[2026-09-28T16:23:30.031583+00:00] REUSE improved__epoch_14__dual__val: identical inputs and output hashes verified
+[2026-09-28T16:23:30.066647+00:00] REUSE improved__epoch_16__native__val: identical inputs and output hashes verified
+[2026-09-28T16:23:30.099791+00:00] REUSE improved__epoch_16__dual__val: identical inputs and output hashes verified
+[2026-09-28T16:23:30.132670+00:00] REUSE improved__epoch_18__native__val: identical inputs and output hashes verified
+[2026-09-28T16:23:30.167792+00:00] REUSE improved__epoch_18__dual__val: identical inputs and output hashes verified
+[2026-09-28T16:23:30.203079+00:00] REUSE improved__epoch_20__native__val: identical inputs and output hashes verified
+[2026-09-28T16:23:30.238805+00:00] REUSE improved__epoch_20__dual__val: identical inputs and output hashes verified
+[2026-09-28T16:23:30.240308+00:00] VAL ARM WINNER improved: improved__epoch_16__dual
+[2026-09-28T16:23:30.240308+00:00] PHASE 2: freeze all arm selections and VAL-only overall recommendation before any holdout
+[2026-09-28T16:23:30.257574+00:00] SELECTION FROZEN sha=0c2ade30935aa8584813a58825f7be5577415a764ff0250581a8a696b5a33380; recommended_arm=improved
+[2026-09-28T16:23:30.257574+00:00] PHASE 3: one general and one Pi development-holdout evaluation per selected arm; no retuning
+[2026-09-28T16:23:30.287667+00:00] RUN baseline__general_test checkpoint=ab1250fa46cb
+[2026-09-28T16:23:37.666472+00:00] baseline__general_test: EVALUATED 1/11 DuetWIFI_Bottom tiles=26
+[2026-09-28T16:23:38.507830+00:00] baseline__general_test: EVALUATED 2/11 DuetWIFI_Top tiles=26
+[2026-09-28T16:23:38.638539+00:00] baseline__general_test: EVALUATED 3/11 EDA-008_Bottom tiles=2
+[2026-09-28T16:23:38.712931+00:00] baseline__general_test: EVALUATED 4/11 EDA-008_Top tiles=2
+[2026-09-28T16:23:39.406205+00:00] baseline__general_test: EVALUATED 5/11 ML450_Bottom1 tiles=26
+[2026-09-28T16:23:39.966410+00:00] baseline__general_test: EVALUATED 6/11 ML450_Bottom2 tiles=21
+[2026-09-28T16:23:40.565871+00:00] baseline__general_test: EVALUATED 7/11 ML450_Top1 tiles=21
+[2026-09-28T16:23:41.308551+00:00] baseline__general_test: EVALUATED 8/11 ML450_Top2 tiles=26
+[2026-09-28T16:23:41.933607+00:00] baseline__general_test: EVALUATED 9/11 OlimexRed tiles=21
+[2026-09-28T16:23:42.003473+00:00] baseline__general_test: EVALUATED 10/11 Spartan6_Bottom tiles=2
+[2026-09-28T16:23:42.067742+00:00] baseline__general_test: EVALUATED 11/11 Spartan6_Top tiles=2
+[2026-09-28T16:23:47.747818+00:00] DONE baseline__general_test: AP300=0.360212 AP100=0.331042
+[2026-09-28T16:23:47.813481+00:00] RUN baseline__pi_test checkpoint=ab1250fa46cb
+[2026-09-28T16:23:54.838261+00:00] baseline__pi_test: EVALUATED 1/2 RPI3B_Bottom tiles=5
+[2026-09-28T16:23:55.036448+00:00] baseline__pi_test: EVALUATED 2/2 RPI3B_Top tiles=7
+[2026-09-28T16:23:56.982418+00:00] DONE baseline__pi_test: AP300=0.353312 AP100=0.353506
+[2026-09-28T16:23:57.064006+00:00] RUN improved__general_test checkpoint=79f01b40b9cc
+[2026-09-28T16:24:04.532178+00:00] improved__general_test: EVALUATED 1/11 DuetWIFI_Bottom tiles=26
+[2026-09-28T16:24:05.316572+00:00] improved__general_test: EVALUATED 2/11 DuetWIFI_Top tiles=26
+[2026-09-28T16:24:05.441620+00:00] improved__general_test: EVALUATED 3/11 EDA-008_Bottom tiles=2
+[2026-09-28T16:24:05.498654+00:00] improved__general_test: EVALUATED 4/11 EDA-008_Top tiles=2
+[2026-09-28T16:24:06.227954+00:00] improved__general_test: EVALUATED 5/11 ML450_Bottom1 tiles=26
+[2026-09-28T16:24:06.785467+00:00] improved__general_test: EVALUATED 6/11 ML450_Bottom2 tiles=21
+[2026-09-28T16:24:07.419719+00:00] improved__general_test: EVALUATED 7/11 ML450_Top1 tiles=21
+[2026-09-28T16:24:08.192761+00:00] improved__general_test: EVALUATED 8/11 ML450_Top2 tiles=26
+[2026-09-28T16:24:09.005763+00:00] improved__general_test: EVALUATED 9/11 OlimexRed tiles=21
+[2026-09-28T16:24:09.071571+00:00] improved__general_test: EVALUATED 10/11 Spartan6_Bottom tiles=2
+[2026-09-28T16:24:09.130447+00:00] improved__general_test: EVALUATED 11/11 Spartan6_Top tiles=2
+[2026-09-28T16:24:14.365104+00:00] DONE improved__general_test: AP300=0.427703 AP100=0.395614
+[2026-09-28T16:24:14.438682+00:00] RUN improved__pi_test checkpoint=79f01b40b9cc
+[2026-09-28T16:24:20.518972+00:00] improved__pi_test: EVALUATED 1/2 RPI3B_Bottom tiles=5
+[2026-09-28T16:24:20.701304+00:00] improved__pi_test: EVALUATED 2/2 RPI3B_Top tiles=7
+[2026-09-28T16:24:22.363858+00:00] DONE improved__pi_test: AP300=0.420772 AP100=0.420358
+[2026-09-28T16:24:22.414857+00:00] R04 EVALUATION COMPLETE: C:\Users\hkjun\Documents\Codex\2026-09-27\new-chat\work\r04\reports\evaluation_suite\aggregate.json; recommended by VAL=improved

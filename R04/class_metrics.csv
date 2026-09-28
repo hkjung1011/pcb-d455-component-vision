@@ -1,0 +1,17 @@
+﻿arm,cohort,class,tp,fp,fn,total,recall
+baseline,general_test,resistor,222,31,221,443,0.5011286681715575
+baseline,general_test,capacitor,383,82,253,636,0.6022012578616353
+baseline,general_test,ic,39,13,54,93,0.41935483870967744
+baseline,general_test,connector,49,24,127,176,0.2784090909090909
+baseline,pi_test,resistor,37,7,20,57,0.6491228070175439
+baseline,pi_test,capacitor,54,10,50,104,0.5192307692307693
+baseline,pi_test,ic,9,2,7,16,0.5625
+baseline,pi_test,connector,0,4,12,12,0.0
+improved,general_test,resistor,258,26,185,443,0.582392776523702
+improved,general_test,capacitor,472,75,164,636,0.7421383647798742
+improved,general_test,ic,54,15,39,93,0.5806451612903226
+improved,general_test,connector,58,47,118,176,0.32954545454545453
+improved,pi_test,resistor,46,8,11,57,0.8070175438596491
+improved,pi_test,capacitor,88,31,16,104,0.8461538461538461
+improved,pi_test,ic,9,6,7,16,0.5625
+improved,pi_test,connector,3,1,9,12,0.25

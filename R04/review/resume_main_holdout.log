@@ -1,0 +1,82 @@
+[2026-09-28T16:23:28.439865+00:00] R04 evaluation preflight: check both arm candidates, native GT and frozen training protocol
+[2026-09-28T16:23:28.850747+00:00] PHASE 1: validate all predeclared epoch x pipeline candidates for both arms
+[2026-09-28T16:23:28.885941+00:00] REUSE baseline__epoch_02__native__val: identical inputs and output hashes verified
+[2026-09-28T16:23:28.920073+00:00] REUSE baseline__epoch_02__dual__val: identical inputs and output hashes verified
+[2026-09-28T16:23:28.953813+00:00] REUSE baseline__epoch_04__native__val: identical inputs and output hashes verified
+[2026-09-28T16:23:28.988217+00:00] REUSE baseline__epoch_04__dual__val: identical inputs and output hashes verified
+[2026-09-28T16:23:29.022415+00:00] REUSE baseline__epoch_06__native__val: identical inputs and output hashes verified
+[2026-09-28T16:23:29.057272+00:00] REUSE baseline__epoch_06__dual__val: identical inputs and output hashes verified
+[2026-09-28T16:23:29.092442+00:00] REUSE baseline__epoch_08__native__val: identical inputs and output hashes verified
+[2026-09-28T16:23:29.126584+00:00] REUSE baseline__epoch_08__dual__val: identical inputs and output hashes verified
+[2026-09-28T16:23:29.159745+00:00] REUSE baseline__epoch_10__native__val: identical inputs and output hashes verified
+[2026-09-28T16:23:29.195232+00:00] REUSE baseline__epoch_10__dual__val: identical inputs and output hashes verified
+[2026-09-28T16:23:29.230013+00:00] REUSE baseline__epoch_12__native__val: identical inputs and output hashes verified
+[2026-09-28T16:23:29.268984+00:00] REUSE baseline__epoch_12__dual__val: identical inputs and output hashes verified
+[2026-09-28T16:23:29.303755+00:00] REUSE baseline__epoch_14__native__val: identical inputs and output hashes verified
+[2026-09-28T16:23:29.337591+00:00] REUSE baseline__epoch_14__dual__val: identical inputs and output hashes verified
+[2026-09-28T16:23:29.372078+00:00] REUSE baseline__epoch_16__native__val: identical inputs and output hashes verified
+[2026-09-28T16:23:29.404898+00:00] REUSE baseline__epoch_16__dual__val: identical inputs and output hashes verified
+[2026-09-28T16:23:29.438673+00:00] REUSE baseline__epoch_18__native__val: identical inputs and output hashes verified
+[2026-09-28T16:23:29.472774+00:00] REUSE baseline__epoch_18__dual__val: identical inputs and output hashes verified
+[2026-09-28T16:23:29.505446+00:00] REUSE baseline__epoch_20__native__val: identical inputs and output hashes verified
+[2026-09-28T16:23:29.540650+00:00] REUSE baseline__epoch_20__dual__val: identical inputs and output hashes verified
+[2026-09-28T16:23:29.542224+00:00] VAL ARM WINNER baseline: baseline__epoch_20__dual
+[2026-09-28T16:23:29.578447+00:00] REUSE improved__epoch_02__native__val: identical inputs and output hashes verified
+[2026-09-28T16:23:29.614829+00:00] REUSE improved__epoch_02__dual__val: identical inputs and output hashes verified
+[2026-09-28T16:23:29.649838+00:00] REUSE improved__epoch_04__native__val: identical inputs and output hashes verified
+[2026-09-28T16:23:29.684930+00:00] REUSE improved__epoch_04__dual__val: identical inputs and output hashes verified
+[2026-09-28T16:23:29.718430+00:00] REUSE improved__epoch_06__native__val: identical inputs and output hashes verified
+[2026-09-28T16:23:29.753352+00:00] REUSE improved__epoch_06__dual__val: identical inputs and output hashes verified
+[2026-09-28T16:23:29.786636+00:00] REUSE improved__epoch_08__native__val: identical inputs and output hashes verified
+[2026-09-28T16:23:29.821872+00:00] REUSE improved__epoch_08__dual__val: identical inputs and output hashes verified
+[2026-09-28T16:23:29.857711+00:00] REUSE improved__epoch_10__native__val: identical inputs and output hashes verified
+[2026-09-28T16:23:29.892420+00:00] REUSE improved__epoch_10__dual__val: identical inputs and output hashes verified
+[2026-09-28T16:23:29.926445+00:00] REUSE improved__epoch_12__native__val: identical inputs and output hashes verified
+[2026-09-28T16:23:29.961804+00:00] REUSE improved__epoch_12__dual__val: identical inputs and output hashes verified
+[2026-09-28T16:23:29.996847+00:00] REUSE improved__epoch_14__native__val: identical inputs and output hashes verified
+[2026-09-28T16:23:30.031583+00:00] REUSE improved__epoch_14__dual__val: identical inputs and output hashes verified
+[2026-09-28T16:23:30.066647+00:00] REUSE improved__epoch_16__native__val: identical inputs and output hashes verified
+[2026-09-28T16:23:30.099791+00:00] REUSE improved__epoch_16__dual__val: identical inputs and output hashes verified
+[2026-09-28T16:23:30.132670+00:00] REUSE improved__epoch_18__native__val: identical inputs and output hashes verified
+[2026-09-28T16:23:30.167792+00:00] REUSE improved__epoch_18__dual__val: identical inputs and output hashes verified
+[2026-09-28T16:23:30.203079+00:00] REUSE improved__epoch_20__native__val: identical inputs and output hashes verified
+[2026-09-28T16:23:30.238805+00:00] REUSE improved__epoch_20__dual__val: identical inputs and output hashes verified
+[2026-09-28T16:23:30.240308+00:00] VAL ARM WINNER improved: improved__epoch_16__dual
+[2026-09-28T16:23:30.240308+00:00] PHASE 2: freeze all arm selections and VAL-only overall recommendation before any holdout
+[2026-09-28T16:23:30.257574+00:00] SELECTION FROZEN sha=0c2ade30935aa8584813a58825f7be5577415a764ff0250581a8a696b5a33380; recommended_arm=improved
+[2026-09-28T16:23:30.257574+00:00] PHASE 3: one general and one Pi development-holdout evaluation per selected arm; no retuning
+[2026-09-28T16:23:30.287667+00:00] RUN baseline__general_test checkpoint=ab1250fa46cb
+[2026-09-28T16:23:37.666472+00:00] baseline__general_test: EVALUATED 1/11 DuetWIFI_Bottom tiles=26
+[2026-09-28T16:23:38.507830+00:00] baseline__general_test: EVALUATED 2/11 DuetWIFI_Top tiles=26
+[2026-09-28T16:23:38.638539+00:00] baseline__general_test: EVALUATED 3/11 EDA-008_Bottom tiles=2
+[2026-09-28T16:23:38.712931+00:00] baseline__general_test: EVALUATED 4/11 EDA-008_Top tiles=2
+[2026-09-28T16:23:39.406205+00:00] baseline__general_test: EVALUATED 5/11 ML450_Bottom1 tiles=26
+[2026-09-28T16:23:39.966410+00:00] baseline__general_test: EVALUATED 6/11 ML450_Bottom2 tiles=21
+[2026-09-28T16:23:40.565871+00:00] baseline__general_test: EVALUATED 7/11 ML450_Top1 tiles=21
+[2026-09-28T16:23:41.308551+00:00] baseline__general_test: EVALUATED 8/11 ML450_Top2 tiles=26
+[2026-09-28T16:23:41.933607+00:00] baseline__general_test: EVALUATED 9/11 OlimexRed tiles=21
+[2026-09-28T16:23:42.003473+00:00] baseline__general_test: EVALUATED 10/11 Spartan6_Bottom tiles=2
+[2026-09-28T16:23:42.067742+00:00] baseline__general_test: EVALUATED 11/11 Spartan6_Top tiles=2
+[2026-09-28T16:23:47.747818+00:00] DONE baseline__general_test: AP300=0.360212 AP100=0.331042
+[2026-09-28T16:23:47.813481+00:00] RUN baseline__pi_test checkpoint=ab1250fa46cb
+[2026-09-28T16:23:54.838261+00:00] baseline__pi_test: EVALUATED 1/2 RPI3B_Bottom tiles=5
+[2026-09-28T16:23:55.036448+00:00] baseline__pi_test: EVALUATED 2/2 RPI3B_Top tiles=7
+[2026-09-28T16:23:56.982418+00:00] DONE baseline__pi_test: AP300=0.353312 AP100=0.353506
+[2026-09-28T16:23:57.064006+00:00] RUN improved__general_test checkpoint=79f01b40b9cc
+[2026-09-28T16:24:04.532178+00:00] improved__general_test: EVALUATED 1/11 DuetWIFI_Bottom tiles=26
+[2026-09-28T16:24:05.316572+00:00] improved__general_test: EVALUATED 2/11 DuetWIFI_Top tiles=26
+[2026-09-28T16:24:05.441620+00:00] improved__general_test: EVALUATED 3/11 EDA-008_Bottom tiles=2
+[2026-09-28T16:24:05.498654+00:00] improved__general_test: EVALUATED 4/11 EDA-008_Top tiles=2
+[2026-09-28T16:24:06.227954+00:00] improved__general_test: EVALUATED 5/11 ML450_Bottom1 tiles=26
+[2026-09-28T16:24:06.785467+00:00] improved__general_test: EVALUATED 6/11 ML450_Bottom2 tiles=21
+[2026-09-28T16:24:07.419719+00:00] improved__general_test: EVALUATED 7/11 ML450_Top1 tiles=21
+[2026-09-28T16:24:08.192761+00:00] improved__general_test: EVALUATED 8/11 ML450_Top2 tiles=26
+[2026-09-28T16:24:09.005763+00:00] improved__general_test: EVALUATED 9/11 OlimexRed tiles=21
+[2026-09-28T16:24:09.071571+00:00] improved__general_test: EVALUATED 10/11 Spartan6_Bottom tiles=2
+[2026-09-28T16:24:09.130447+00:00] improved__general_test: EVALUATED 11/11 Spartan6_Top tiles=2
+[2026-09-28T16:24:14.365104+00:00] DONE improved__general_test: AP300=0.427703 AP100=0.395614
+[2026-09-28T16:24:14.438682+00:00] RUN improved__pi_test checkpoint=79f01b40b9cc
+[2026-09-28T16:24:20.518972+00:00] improved__pi_test: EVALUATED 1/2 RPI3B_Bottom tiles=5
+[2026-09-28T16:24:20.701304+00:00] improved__pi_test: EVALUATED 2/2 RPI3B_Top tiles=7
+[2026-09-28T16:24:22.363858+00:00] DONE improved__pi_test: AP300=0.420772 AP100=0.420358
+[2026-09-28T16:24:22.414857+00:00] R04 EVALUATION COMPLETE: C:\Users\hkjun\Documents\Codex\2026-09-27\new-chat\work\r04\reports\evaluation_suite\aggregate.json; recommended by VAL=improved

@@ -1,0 +1,67 @@
+{
+  "python": "3.11.9",
+  "platform": "Windows-10-10.0.26200-SP0",
+  "dependencies": {
+    "torch": "2.12.1+cu130",
+    "torchvision": "0.27.1+cu130",
+    "ultralytics": "8.4.120",
+    "numpy": "2.4.6",
+    "opencv-python": "5.0.0.93",
+    "Pillow": "12.3.0",
+    "PyYAML": "6.0.3",
+    "pycocotools": "2.0.11",
+    "matplotlib": "3.11.1"
+  },
+  "training": {
+    "baseline": {
+      "utc": "2026-09-28T12:34:05.344718+00:00",
+      "arm": "baseline",
+      "protocol_sha256": "c712d8f3e24ce8fa8291d4b2e7e2593924ccdb154ba4361f50958e63555a4def",
+      "training_script_sha256": "336c958b7a01ed07662c02d7d3767974a952dd2438ec4a196779a9dcb300a60b",
+      "ignore_adapter_sha256": "a8d5bd2baa4b43f86ce0ffd9507eeec69be1a29d431a1ba12b1b38534ca95280",
+      "initial_model_parameter_sha256": "9e44a6a12ec1fc7e37a830f904c1a48afb76782a10668f2cc48c729a12ec4d20",
+      "initial_checkpoint_sha256": "85a76fe86dd8afe384648546b56a7a78580c7cb7b404fc595f97969322d502d5",
+      "torch": "2.12.1+cu130",
+      "ultralytics": "8.4.120",
+      "cuda": "13.0",
+      "gpu": "NVIDIA GeForce RTX 5060 Laptop GPU",
+      "actual_batch": 4,
+      "loader_batches_per_epoch": 112,
+      "parameters": 9429340,
+      "class_weights": null,
+      "names": {
+        "0": "resistor",
+        "1": "capacitor",
+        "2": "ic",
+        "3": "connector"
+      },
+      "data_yaml_sha256": "de3ac85aab16b51ec7796e6c9155c4d530d560ad1ce5e733c324dece1d48e24f",
+      "sidecar_sha256": "449046938ca0d375c8b93328838199f79452a8b08d2f84fef871fcf07ebdf1ea"
+    },
+    "improved": {
+      "utc": "2026-09-28T12:49:32.611569+00:00",
+      "arm": "improved",
+      "protocol_sha256": "c712d8f3e24ce8fa8291d4b2e7e2593924ccdb154ba4361f50958e63555a4def",
+      "training_script_sha256": "336c958b7a01ed07662c02d7d3767974a952dd2438ec4a196779a9dcb300a60b",
+      "ignore_adapter_sha256": "a8d5bd2baa4b43f86ce0ffd9507eeec69be1a29d431a1ba12b1b38534ca95280",
+      "initial_model_parameter_sha256": "9e44a6a12ec1fc7e37a830f904c1a48afb76782a10668f2cc48c729a12ec4d20",
+      "initial_checkpoint_sha256": "85a76fe86dd8afe384648546b56a7a78580c7cb7b404fc595f97969322d502d5",
+      "torch": "2.12.1+cu130",
+      "ultralytics": "8.4.120",
+      "cuda": "13.0",
+      "gpu": "NVIDIA GeForce RTX 5060 Laptop GPU",
+      "actual_batch": 4,
+      "loader_batches_per_epoch": 112,
+      "parameters": 9429340,
+      "class_weights": null,
+      "names": {
+        "0": "resistor",
+        "1": "capacitor",
+        "2": "ic",
+        "3": "connector"
+      },
+      "data_yaml_sha256": "13f5f8a965dabfc4c6aa3ddf110890d4eadf10dfbe0dfc12e9c3678db36d35ee",
+      "sidecar_sha256": "5a2fb1e4799f9c9595a3d6674f0e26e3fd7050e3061ad364351a739d4223878c"
+    }
+  }
+}

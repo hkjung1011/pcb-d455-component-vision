@@ -1,0 +1,50 @@
+{
+  "status": "completed",
+  "started_utc": "2026-09-28T16:25:11.741526+00:00",
+  "binding": {
+    "stress_protocol_sha256": "7afc529c3ddb6131ba5ee2db9281f8ff8a851407f165799cbdd5b6840d9fbb1d",
+    "selection_sha256": "0c2ade30935aa8584813a58825f7be5577415a764ff0250581a8a696b5a33380",
+    "checkpoint_sha256": "79f01b40b9cc7412341e7da5561dc55fb3e3d5fbdfc39adc49aac5ba8dc4e34a",
+    "manifest_sha256": "69fc7a9725b13f396b805946a743a7c2bcbd0baf40236b0d9573733abbbf5881",
+    "evaluator_sha256": "b62dce3fa1e3b8a0fe0b4526809bde5bf63f914e0e53ac8398f2f29b1c35b3e5",
+    "pipeline": "dual",
+    "confidence": 0.65,
+    "arm": "improved",
+    "condition": "nominal_2p1_pxmm",
+    "device": "0",
+    "bootstrap": 0,
+    "source_gt_count": 189
+  },
+  "command": [
+    "C:\\Users\\hkjun\\Documents\\mcu-vision\\.venv-yolo11\\Scripts\\python.exe",
+    "-B",
+    "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04\\scripts\\evaluate_r04.py",
+    "--manifest",
+    "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04\\data\\resolution_stress\\nominal_2p1_pxmm_manifest.json",
+    "--weights",
+    "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04\\runs\\improved\\candidates\\epoch_16.pt",
+    "--output",
+    "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04\\reports\\resolution_stress\\evaluations\\improved__nominal_2p1_pxmm",
+    "--split",
+    "test",
+    "--cohort",
+    "pi_test",
+    "--pipeline",
+    "dual",
+    "--operating-conf",
+    "0.65000000000000002",
+    "--bootstrap",
+    "0",
+    "--device",
+    "0"
+  ],
+  "finished_utc": "2026-09-28T16:25:19.039639+00:00",
+  "output_sha256": {
+    "metrics.json": "2cd14194ea524ce7f6c0d4556a5fc5245f775805c44c8c116363b1568a5b1be1",
+    "native_ground_truth.json": "7f7e6aeef16b6d0ff68508d8695d8602e7a134424844cf6183b801c16e78f437",
+    "bbox_predictions.json": "94cf15f6f5e31bfb47613a7ba5b02baa83a74df87615d5e40c5acbfd1f969c0c",
+    "samples.json": "c09072d872ebed5a5c8224601b3f3892325e8a550092ab8d2074541d32bee9c6",
+    "native_input_inventory.json": "6bd91e6d86141fdc6225da2be8589e08b130f4210745bf11a07e474310a67d50",
+    "inference_profiles.json": "01310dd9000462a5fa32adec8fe8ecde0c9370a4e9134bc3cb281d73fb528a30"
+  }
+}

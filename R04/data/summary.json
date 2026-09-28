@@ -1,0 +1,197 @@
+{
+  "arms": [
+    {
+      "arm": "baseline",
+      "training_eligible": true,
+      "names": [
+        "resistor",
+        "capacitor",
+        "ic",
+        "connector"
+      ],
+      "views": 418,
+      "view_types": {
+        "native1024": 418
+      },
+      "original_targets": 3307,
+      "original_targets_with_complete_view": 3215,
+      "supervised_label_exposures": {
+        "connector": 828,
+        "capacitor": 3054,
+        "ic": 507,
+        "resistor": 2186
+      },
+      "ignored_regions_by_reason": {},
+      "new_human_labels": 0,
+      "new_instance_masks": 0,
+      "data_yaml": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04\\data\\baseline\\data.yaml",
+      "source_ontology_unchanged": true,
+      "known_nontarget_objects_retained_as_background": true,
+      "sampling": "448 replacement draws/epoch; equal expected probability per board group; within-group 1.5x IC/connector view priority; not equal per-instance/gradient weights",
+      "source_originals_sha256": "bcfd37fc0b08d67502234b2e8e6eb4102020850a8f857b72a2839e24cfc68d77"
+    },
+    {
+      "arm": "improved",
+      "training_eligible": true,
+      "names": [
+        "resistor",
+        "capacitor",
+        "ic",
+        "connector"
+      ],
+      "views": 968,
+      "view_types": {
+        "native1024": 418,
+        "context2048": 126,
+        "object_centered": 424
+      },
+      "original_targets": 3307,
+      "original_targets_with_complete_view": 3307,
+      "supervised_label_exposures": {
+        "connector": 2471,
+        "ic": 1721,
+        "capacitor": 11092,
+        "resistor": 9523
+      },
+      "ignored_regions_by_reason": {
+        "target_fragment_lt50": 2722,
+        "source_unknown": 1399
+      },
+      "new_human_labels": 0,
+      "new_instance_masks": 0,
+      "data_yaml": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04\\data\\improved\\data.yaml",
+      "source_ontology_unchanged": true,
+      "known_nontarget_objects_retained_as_background": true,
+      "sampling": "448 replacement draws/epoch; equal expected probability per board group; within-group 1.5x IC/connector view priority; not equal per-instance/gradient weights",
+      "source_originals_sha256": "bcfd37fc0b08d67502234b2e8e6eb4102020850a8f857b72a2839e24cfc68d77"
+    }
+  ],
+  "split": {
+    "created_utc": "2026-09-28T12:24:22.925793+00:00",
+    "policy": "Six whole groups chosen from R03 train+val ONLY, target 25% of pool class/size cross-counts; lexicographic deterministic tie break",
+    "candidate_groups": [
+      "ACM-109",
+      "ATTIOT",
+      "ArduinoMega",
+      "Arty",
+      "DigitalDiscovery",
+      "HackRF",
+      "ML365",
+      "MicroZed",
+      "STK644",
+      "Spartan3",
+      "Spartan6Redux",
+      "SystemAce",
+      "ThingMagicM6e",
+      "UTL-016",
+      "UTL-103",
+      "Virtex5",
+      "Virtex6",
+      "XCM-307A",
+      "XLVDSproSupply",
+      "ZTurn",
+      "Zedboard",
+      "Ztex",
+      "Zybo"
+    ],
+    "eligible_combinations": 29385,
+    "objective": 0.034397343066640246,
+    "validation_groups": [
+      "ACM-109",
+      "Arty",
+      "UTL-016",
+      "Virtex6",
+      "XCM-307A",
+      "Zybo"
+    ],
+    "training_groups": [
+      "ATTIOT",
+      "ArduinoMega",
+      "DigitalDiscovery",
+      "HackRF",
+      "ML365",
+      "MicroZed",
+      "STK644",
+      "Spartan3",
+      "Spartan6Redux",
+      "SystemAce",
+      "ThingMagicM6e",
+      "UTL-103",
+      "Virtex5",
+      "XLVDSproSupply",
+      "ZTurn",
+      "Zedboard",
+      "Ztex"
+    ],
+    "test_policy": "R03 general and Pi groups remain unchanged; previously inspected development holdouts, not pristine final validation",
+    "initialization": "Both arms start from the same official yolo11s.pt; R03 weights prohibited because new val can contain former train groups",
+    "source_sha256": "bcfd37fc0b08d67502234b2e8e6eb4102020850a8f857b72a2839e24cfc68d77",
+    "names": [
+      "resistor",
+      "capacitor",
+      "ic",
+      "connector"
+    ],
+    "train": {
+      "images": 25,
+      "groups": 17,
+      "class_counts": {
+        "connector": 318,
+        "ic": 204,
+        "capacitor": 1584,
+        "resistor": 1201
+      },
+      "short_side_counts": {
+        "ge32": 1603,
+        "16to32": 1189,
+        "8to16": 515
+      }
+    },
+    "val": {
+      "images": 9,
+      "groups": 6,
+      "class_counts": {
+        "connector": 115,
+        "resistor": 410,
+        "capacitor": 454,
+        "ic": 73
+      },
+      "short_side_counts": {
+        "ge32": 524,
+        "16to32": 430,
+        "8to16": 98
+      }
+    },
+    "test": {
+      "images": 11,
+      "groups": 5,
+      "class_counts": {
+        "connector": 176,
+        "resistor": 443,
+        "capacitor": 636,
+        "ic": 93
+      },
+      "short_side_counts": {
+        "ge32": 497,
+        "16to32": 405,
+        "8to16": 446
+      }
+    },
+    "pi_test": {
+      "images": 2,
+      "groups": 1,
+      "class_counts": {
+        "capacitor": 104,
+        "ic": 16,
+        "resistor": 57,
+        "connector": 12
+      },
+      "short_side_counts": {
+        "8to16": 77,
+        "16to32": 72,
+        "ge32": 38,
+        "lt8": 2
+      }
+    }
+  }
+}

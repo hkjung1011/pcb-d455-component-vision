@@ -1,0 +1,10 @@
+CPU PREPARATION VERIFIED: 2 conditions;189 GT each
+STRESS RUN baseline__nominal_3p2_pxmm
+STRESS DONE baseline__nominal_3p2_pxmm
+STRESS RUN baseline__nominal_2p1_pxmm
+STRESS DONE baseline__nominal_2p1_pxmm
+STRESS RUN improved__nominal_3p2_pxmm
+STRESS DONE improved__nominal_3p2_pxmm
+STRESS RUN improved__nominal_2p1_pxmm
+STRESS DONE improved__nominal_2p1_pxmm
+STRESS COMPLETE C:\Users\hkjun\Documents\Codex\2026-09-27\new-chat\work\r04\reports\resolution_stress\summary.json

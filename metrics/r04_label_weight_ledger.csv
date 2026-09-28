@@ -1,0 +1,9 @@
+﻿arm,class,original_train_bbox,stored_view_label_exposures,actual_sampled_label_exposures,additional_class_loss_multiplier,new_human_labels,note
+baseline,resistor,1201,2186,80031,1.0,0,View/sample exposures include repeated original instances; not unique labels or gradient-share weights
+baseline,capacitor,1584,3054,131249,1.0,0,View/sample exposures include repeated original instances; not unique labels or gradient-share weights
+baseline,ic,204,507,31951,1.0,0,View/sample exposures include repeated original instances; not unique labels or gradient-share weights
+baseline,connector,318,828,24939,1.0,0,View/sample exposures include repeated original instances; not unique labels or gradient-share weights
+improved,resistor,1201,9523,107356,1.0,0,View/sample exposures include repeated original instances; not unique labels or gradient-share weights
+improved,capacitor,1584,11092,156437,1.0,0,View/sample exposures include repeated original instances; not unique labels or gradient-share weights
+improved,ic,204,1721,34352,1.0,0,View/sample exposures include repeated original instances; not unique labels or gradient-share weights
+improved,connector,318,2471,26617,1.0,0,View/sample exposures include repeated original instances; not unique labels or gradient-share weights

@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="1040.4pt" height="630pt" viewBox="0 0 1040.4 630" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-09-29T01:27:31.543993</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.11.1, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 630 
+L 1040.4 630 
+L 1040.4 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 22.248 165.5712 
+L 258.912 165.5712 
+Q 267.12 165.5712 267.12 159.58368 
+L 267.12 89.23032 
+Q 267.12 83.2428 258.912 83.2428 
+L 22.248 83.2428 
+Q 14.04 83.2428 14.04 89.23032 
+L 14.04 159.58368 
+Q 14.04 165.5712 22.248 165.5712 
+z
+" clip-path="url(#pd7259bfb91)" style="fill: #eff4f8; stroke: #a4b6c7; stroke-width: 1.5; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 316.368 148.1076 
+L 635.112 148.1076 
+Q 643.32 148.1076 643.32 142.12008 
+L 643.32 86.73552 
+Q 643.32 80.748 635.112 80.748 
+L 316.368 80.748 
+Q 308.16 80.748 308.16 86.73552 
+L 308.16 142.12008 
+Q 308.16 148.1076 316.368 148.1076 
+z
+" clip-path="url(#pd7259bfb91)" style="fill: #edf0f5; stroke: #a4b6c7; stroke-width: 1.5; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 316.368 237.9204 
+L 635.112 237.9204 
+Q 643.32 237.9204 643.32 231.93288 
+L 643.32 176.54832 
+Q 643.32 170.5608 635.112 170.5608 
+L 316.368 170.5608 
+Q 308.16 170.5608 308.16 176.54832 
+L 308.16 231.93288 
+Q 308.16 237.9204 316.368 237.9204 
+z
+" clip-path="url(#pd7259bfb91)" style="fill: #e5f4f3; stroke: #a4b6c7; stroke-width: 1.5; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 699.408 230.436 
+L 994.212 230.436 
+Q 1002.42 230.436 1002.42 224.44848 
+L 1002.42 91.72512 
+Q 1002.42 85.7376 994.212 85.7376 
+L 699.408 85.7376 
+Q 691.2 85.7376 691.2 91.72512 
+L 691.2 224.44848 
+Q 691.2 230.436 699.408 230.436 
+z
+" clip-path="url(#pd7259bfb91)" style="fill: #ecf4fb; stroke: #a4b6c7; stroke-width: 1.5; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 672.048 367.65 
+L 990.792 367.65 
+Q 999 367.65 999 361.66248 
+L 999 273.84552 
+Q 999 267.858 990.792 267.858 
+L 672.048 267.858 
+Q 663.84 267.858 663.84 273.84552 
+L 663.84 361.66248 
+Q 663.84 367.65 672.048 367.65 
+z
+" clip-path="url(#pd7259bfb91)" style="fill: #e8f2fa; stroke: #a4b6c7; stroke-width: 1.5; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_7">
+    <path d="M 381.348 360.1656 
+L 597.492 360.1656 
+Q 605.7 360.1656 605.7 354.17808 
+L 605.7 283.82472 
+Q 605.7 277.8372 597.492 277.8372 
+L 381.348 277.8372 
+Q 373.14 277.8372 373.14 283.82472 
+L 373.14 354.17808 
+Q 373.14 360.1656 381.348 360.1656 
+z
+" clip-path="url(#pd7259bfb91)" style="fill: #fff4da; stroke: #d1b767; stroke-width: 1.5; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_8">
+    <path d="M 22.248 377.6292 
+L 303.372 377.6292 
+Q 311.58 377.6292 311.58 371.64168 
+L 311.58 268.85592 
+Q 311.58 262.8684 303.372 262.8684 
+L 22.248 262.8684 
+Q 14.04 262.8684 14.04 268.85592 
+L 14.04 371.64168 
+Q 14.04 377.6292 22.248 377.6292 
+z
+" clip-path="url(#pd7259bfb91)" style="fill: #f4ecf6; stroke: #b59dc0; stroke-width: 1.5; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_9">
+    <path d="M 22.248 542.286 
+L 990.792 542.286 
+Q 999 542.286 999 536.29848 
+L 999 448.48152 
+Q 999 442.494 990.792 442.494 
+L 22.248 442.494 
+Q 14.04 442.494 14.04 448.48152 
+L 14.04 536.29848 
+Q 14.04 542.286 22.248 542.286 
+z
+" clip-path="url(#pd7259bfb91)" style="fill: #f6f7f8; stroke: #b2bcc5; stroke-width: 1.5; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_1">
+    <text style="font-size: 11px; font-family: 'Malgun Gothic'; fill: #20364b" transform="translate(75.234844 111.570516)">공개 원본 47장 · 4종 bbox</text>
+    <text style="font-size: 11px; font-family: 'Malgun Gothic'; fill: #20364b" transform="translate(72.345625 128.703875)">그룹 단위 분할을 먼저 고정</text>
+    <text style="font-size: 11px; font-family: 'Malgun Gothic'; fill: #20364b" transform="translate(71.462187 145.670516)">새 인간 라벨·부품 mask = 0</text>
+   </g>
+   <g id="text_2">
+    <text style="font-size: 11px; font-family: 'Malgun Gothic'; fill: #20364b" transform="translate(395.809531 109.299909)">기준안: 원본 1024px 타일 418개</text>
+    <text style="font-size: 11px; font-family: 'Malgun Gothic'; fill: #20364b" transform="translate(379.344766 126.994441)">조각 라벨 유지 · 비대상/unknown 배경</text>
+   </g>
+   <g id="text_3">
+    <text style="font-size: 11px; font-family: 'Malgun Gothic'; fill: #20364b" transform="translate(377.550391 199.929116)">개선안: 다중 크기·객체 중심 view 968개</text>
+    <text style="font-size: 11px; font-family: 'Malgun Gothic'; fill: #20364b" transform="translate(370.450234 216.979116)">작은 조각·unknown → 실제 음성 loss 제외</text>
+   </g>
+   <g id="patch_10">
+    <path d="M 270.063655 122.573968 
+Q 285.930876 119.417226 299.824319 116.653162 
+" style="fill: none; stroke: #526b80; stroke-width: 1.8; stroke-linecap: round"/>
+    <path d="M 295.079621 115.353991 
+L 299.824319 116.653162 
+L 295.938164 119.669418 
+z
+" style="fill: #526b80; stroke: #526b80; stroke-width: 1.8; stroke-linecap: round"/>
+   </g>
+   <g id="patch_11">
+    <path d="M 235.543552 167.029342 
+Q 268.830405 185.529825 300.358226 203.052656 
+" style="fill: none; stroke: #526b80; stroke-width: 1.8; stroke-linecap: round"/>
+    <path d="M 297.581074 198.992185 
+L 300.358226 203.052656 
+L 295.443558 202.838095 
+z
+" style="fill: #526b80; stroke: #526b80; stroke-width: 1.8; stroke-linecap: round"/>
+   </g>
+   <g id="text_4">
+    <text style="font-size: 11px; font-family: 'Malgun Gothic'; fill: #20364b" transform="translate(809.942813 128.226956)">공통 학습 조건</text>
+    <text style="font-size: 11px; font-family: 'Malgun Gothic'; fill: #20364b" transform="translate(780.156875 145.250316)">공식 YOLO11s 초기 가중치</text>
+    <text style="font-size: 11px; font-family: 'Malgun Gothic'; fill: #20364b" transform="translate(760.293281 161.483909)">최대 20 epoch / optimizer 1,165회</text>
+    <text style="font-size: 11px; font-family: 'Malgun Gothic'; fill: #20364b" transform="translate(760.588047 178.533909)">batch 4 · FP32 · 같은 sampler 정책</text>
+    <text style="font-size: 11px; font-family: 'Malgun Gothic'; fill: #20364b" transform="translate(786.519688 195.583909)">검증 후보: 2 epoch 간격</text>
+   </g>
+   <g id="patch_12">
+    <path d="M 645.982273 117.062384 
+Q 667.262259 128.150377 686.757524 138.308436 
+" style="fill: none; stroke: #526b80; stroke-width: 1.8; stroke-linecap: round"/>
+    <path d="M 683.872045 134.324216 
+L 686.757524 138.308436 
+L 681.838861 138.226288 
+z
+" style="fill: #526b80; stroke: #526b80; stroke-width: 1.8; stroke-linecap: round"/>
+   </g>
+   <g id="patch_13">
+    <path d="M 645.865378 203.896469 
+Q 667.26125 190.518418 686.95076 178.207293 
+" style="fill: none; stroke: #526b80; stroke-width: 1.8; stroke-linecap: round"/>
+    <path d="M 682.053658 178.674619 
+L 686.95076 178.207293 
+L 684.386359 182.40537 
+z
+" style="fill: #526b80; stroke: #526b80; stroke-width: 1.8; stroke-linecap: round"/>
+   </g>
+   <g id="text_5">
+    <text style="font-size: 11px; font-family: 'Malgun Gothic'; fill: #20364b" transform="translate(729.388125 295.659469)">모든 arm × 10 checkpoint × 2 추론 방식</text>
+    <text style="font-size: 11px; font-family: 'Malgun Gothic'; fill: #20364b" transform="translate(759.230781 313.270641)">검증 후보 40개: native / dual</text>
+    <text style="font-size: 11px; font-family: 'Malgun Gothic'; fill: #20364b" transform="translate(727.109922 330.458141)">val AP@300 → AP@100 → 지연으로 선택</text>
+    <text style="font-size: 11px; font-family: 'Malgun Gothic'; fill: #20364b" transform="translate(766.12125 347.542516)">confidence도 val에서 결정</text>
+   </g>
+   <g id="patch_14">
+    <path d="M 848.52 238.425938 
+Q 848.52 250.393487 848.52 260.348576 
+" style="fill: none; stroke: #526b80; stroke-width: 1.8; stroke-linecap: round"/>
+    <path d="M 850.72 255.948576 
+L 848.52 260.348576 
+L 846.32 255.948576 
+z
+" style="fill: #526b80; stroke: #526b80; stroke-width: 1.8; stroke-linecap: round"/>
+   </g>
+   <g id="text_6">
+    <text style="font-size: 11px; font-family: 'Malgun Gothic'; fill: #20364b" transform="translate(424.204609 306.164916)">모든 선택·confidence 동결</text>
+    <text style="font-size: 11px; font-family: 'Malgun Gothic'; fill: #20364b" transform="translate(428.682813 323.214916)">선택 파일 SHA-256 기록</text>
+    <text style="font-size: 11px; font-family: 'Malgun Gothic'; fill: #20364b" transform="translate(436.607109 340.264916)">그 다음 holdout 평가</text>
+   </g>
+   <g id="patch_15">
+    <path d="M 653.998733 317.754 
+Q 633.059068 317.754 614.131864 317.754 
+" style="fill: none; stroke: #526b80; stroke-width: 1.8; stroke-linecap: round"/>
+    <path d="M 618.531864 319.954 
+L 614.131864 317.754 
+L 618.531864 315.554 
+z
+" style="fill: #526b80; stroke: #526b80; stroke-width: 1.8; stroke-linecap: round"/>
+   </g>
+   <g id="text_7">
+    <text style="font-size: 11px; font-family: 'Malgun Gothic'; fill: #20364b" transform="translate(111.079063 298.715441)">일반 11장 / Pi3B 2장</text>
+    <text style="font-size: 11px; font-family: 'Malgun Gothic'; fill: #20364b" transform="translate(91.096875 315.902941)">원본 좌표 bbox AP@100·300</text>
+    <text style="font-size: 11px; font-family: 'Malgun Gothic'; fill: #20364b" transform="translate(86.338516 332.815441)">클래스·크기별 recall / TP·FP·FN</text>
+    <text style="font-size: 11px; font-family: 'Malgun Gothic'; fill: #20364b" transform="translate(82.150781 350.037316)">R03에서 본 개발 holdout 재사용</text>
+   </g>
+   <g id="patch_16">
+    <path d="M 366.71748 320.2488 
+Q 342.359696 320.2488 320.014373 320.2488 
+" style="fill: none; stroke: #526b80; stroke-width: 1.8; stroke-linecap: round"/>
+    <path d="M 324.414373 322.4488 
+L 320.014373 320.2488 
+L 324.414373 318.0488 
+z
+" style="fill: #526b80; stroke: #526b80; stroke-width: 1.8; stroke-linecap: round"/>
+   </g>
+   <g id="text_8">
+    <text style="font-size: 11px; font-family: 'Malgun Gothic'; fill: #20364b" transform="translate(378.875313 479.580156)">후속 실제 D455 단계 — 현재 공개자료 시험과 별도</text>
+    <text style="font-size: 11px; font-family: 'Malgun Gothic'; fill: #20364b" transform="translate(249.833281 496.479766)">실촬영·intrinsics·픽셀 크기 → 판독 가능성 확인 → 검수된 라벨/instance mask → 새 실물·세션·설계 시험</text>
+    <text style="font-size: 11px; font-family: 'Malgun Gothic'; fill: #20364b" transform="translate(322.621484 513.653516)">현재 결과로 4종 부품 세그멘테이션 또는 실제 D455 성능을 주장하지 않음</text>
+   </g>
+  </g>
+  <g id="text_9">
+   <text style="font-weight: 700; font-size: 18px; font-family: 'Malgun Gothic'; text-anchor: start; fill: #193044" x="34.2" y="22.573125" transform="rotate(-0 34.2 22.573125)">R04 알고리즘과 검증 순서</text>
+  </g>
+  <g id="text_10">
+   <text style="font-size: 9px; font-family: 'Malgun Gothic'; fill: #485462" transform="translate(34.2 611.092617)">구조도는 protocol과 데이터 준비 기록을 표현한다. 후보 40개는 사전 계획 수이며 실제 완료 여부는 05 그림과 inventory에서 확인한다. R03에서 이미 검토한 개발 holdout 재사용</text>
+   <text style="font-size: 9px; font-family: 'Malgun Gothic'; fill: #485462" transform="translate(34.2 620.998242)">· 새로운 최종 시험 아님 · 실제 D455 미검증</text>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="pd7259bfb91">
+   <rect x="7.2" y="55.8" width="1026" height="498.96"/>
+  </clipPath>
+ </defs>
+</svg>

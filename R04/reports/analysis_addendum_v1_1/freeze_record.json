@@ -1,0 +1,24 @@
+{
+  "schema": "r04-analysis-addendum-freeze-v1.1",
+  "frozen_utc": "2026-09-28T16:15:25.826647+00:00",
+  "document": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04_addendum\\ANALYSIS_ADDENDUM_v1.1.md",
+  "document_sha256": "05ad1712846b33e345e938d4c8f52b8eb14530f99ea093e1cb19eff36cd569be",
+  "source_draft_sha256": "e3135ccb477f7fff6aee25c57726cd18da98d35609227a2139b409dc41f1c205",
+  "source_review": "Claude draft provided by user",
+  "authorization": "User instructed proceed now on 2026-09-29",
+  "holdout_jobs_at_freeze": 0,
+  "completed_val_jobs_at_freeze": 25,
+  "prior_seen": "R03 holdout and initial 22/40 R04 validation; supplemental definitions are not pre-results registration",
+  "core_sha256": {
+    "protocol.json": "c712d8f3e24ce8fa8291d4b2e7e2593924ccdb154ba4361f50958e63555a4def",
+    "stress_protocol.json": "7afc529c3ddb6131ba5ee2db9281f8ff8a851407f165799cbdd5b6840d9fbb1d",
+    "scripts/evaluate_r04.py": "b62dce3fa1e3b8a0fe0b4526809bde5bf63f914e0e53ac8398f2f29b1c35b3e5",
+    "scripts/run_r04_evaluation.py": "82e5a95fd5c2c14e827761c923786be15e7ac790f5df622678ae96f2dbd57f65",
+    "scripts/audit_r04_results.py": "90e4155d40e3ce8f420290704e567291c53534c5c6924dd96d894ca19c9b7799",
+    "scripts/train_r04.py": "336c958b7a01ed07662c02d7d3767974a952dd2438ec4a196779a9dcb300a60b",
+    "scripts/ignore_adapter.py": "a8d5bd2baa4b43f86ce0ffd9507eeec69be1a29d431a1ba12b1b38534ca95280",
+    "data/native_manifest.json": "a91d4956da6adc8b3eebcd87da6e8e428362e1c14cef9e8f9d5a4583817d8c19",
+    "reports/evaluation_suite/protocol.json": "e52f35a71f69cdb8ff6a78c67e2b6fd3d9157ad39ddc5afd7519f261a781ff6c"
+  },
+  "primary_selection_unchanged": true
+}

@@ -1,0 +1,23 @@
+{
+  "status": "PASS_CPU_NO_INFERENCE",
+  "legacy_coordinate_grid_cases": 10,
+  "legacy_saved_prediction_parity": [
+    {
+      "cohort": "general_test",
+      "pass": true,
+      "ap100": 0.20695252229350547,
+      "ap300": 0.23311062458117998,
+      "ap50_max300": 0.4460005653866024,
+      "original_metrics_sha256": "104867926e868e382537618eba2c6fa353f3ce6f25e74d3e3ae876f2927b3ddb"
+    },
+    {
+      "cohort": "pi_test",
+      "pass": true,
+      "ap100": 0.231528018955079,
+      "ap300": 0.23160404043703783,
+      "ap50_max300": 0.4620563054179206,
+      "original_metrics_sha256": "d923052b47c16467064476cb71034654fd5b319c4733cd8de5138ee70c26668b"
+    }
+  ],
+  "evaluator_sha256": "723ffdfa02298c988af5cab655dbfe45acda32e75e6fa986c53853a66c1aca00"
+}

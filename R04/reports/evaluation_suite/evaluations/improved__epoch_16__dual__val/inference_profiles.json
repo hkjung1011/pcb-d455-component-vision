@@ -1,0 +1,101 @@
+[
+  {
+    "id": "ACM-109_Bottom",
+    "tiles": 2,
+    "requested_tile_sizes": [
+      1024,
+      2048
+    ],
+    "pre_global_nms_predictions": 198,
+    "post_global_nms_predictions": 93,
+    "offline_predict_and_postprocess_ms": 70.97040000371635
+  },
+  {
+    "id": "ACM-109_Top",
+    "tiles": 2,
+    "requested_tile_sizes": [
+      1024,
+      2048
+    ],
+    "pre_global_nms_predictions": 132,
+    "post_global_nms_predictions": 66,
+    "offline_predict_and_postprocess_ms": 49.06610000762157
+  },
+  {
+    "id": "Arty_Bottom",
+    "tiles": 16,
+    "requested_tile_sizes": [
+      1024,
+      2048
+    ],
+    "pre_global_nms_predictions": 2753,
+    "post_global_nms_predictions": 1000,
+    "offline_predict_and_postprocess_ms": 420.68020001170225
+  },
+  {
+    "id": "Arty_Top",
+    "tiles": 47,
+    "requested_tile_sizes": [
+      1024,
+      2048
+    ],
+    "pre_global_nms_predictions": 2101,
+    "post_global_nms_predictions": 979,
+    "offline_predict_and_postprocess_ms": 1068.6764999991283
+  },
+  {
+    "id": "UTL-016",
+    "tiles": 2,
+    "requested_tile_sizes": [
+      1024,
+      2048
+    ],
+    "pre_global_nms_predictions": 180,
+    "post_global_nms_predictions": 86,
+    "offline_predict_and_postprocess_ms": 104.38259999500588
+  },
+  {
+    "id": "Virtex6",
+    "tiles": 47,
+    "requested_tile_sizes": [
+      1024,
+      2048
+    ],
+    "pre_global_nms_predictions": 6705,
+    "post_global_nms_predictions": 1000,
+    "offline_predict_and_postprocess_ms": 1136.4994999894407
+  },
+  {
+    "id": "XCM-307A_Bottom",
+    "tiles": 2,
+    "requested_tile_sizes": [
+      1024,
+      2048
+    ],
+    "pre_global_nms_predictions": 172,
+    "post_global_nms_predictions": 73,
+    "offline_predict_and_postprocess_ms": 64.81090001761913
+  },
+  {
+    "id": "XCM-307A_Top",
+    "tiles": 13,
+    "requested_tile_sizes": [
+      1024,
+      2048
+    ],
+    "pre_global_nms_predictions": 637,
+    "post_global_nms_predictions": 285,
+    "offline_predict_and_postprocess_ms": 340.9279999905266
+  },
+  {
+    "id": "Zybo",
+    "tiles": 47,
+    "requested_tile_sizes": [
+      1024,
+      2048
+    ],
+    "pre_global_nms_predictions": 1859,
+    "post_global_nms_predictions": 865,
+    "offline_predict_and_postprocess_ms": 1115.940399991814
+  }
+]

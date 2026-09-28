@@ -1,0 +1,70 @@
+WARNING 'half' is deprecated and will be removed in the future. Use 'quantize' instead.
+WARNING 'half' is deprecated and will be removed in the future. Use 'quantize' instead.
+WARNING 'half' is deprecated and will be removed in the future. Use 'quantize' instead.
+EVALUATED 1/2 RPI3B_Bottom tiles=2
+WARNING 'half' is deprecated and will be removed in the future. Use 'quantize' instead.
+WARNING 'half' is deprecated and will be removed in the future. Use 'quantize' instead.
+EVALUATED 2/2 RPI3B_Top tiles=2
+{
+  "split": "test",
+  "cohort": "pi_test",
+  "pipeline": "dual",
+  "images": 2,
+  "native_gt_instances": 189,
+  "bbox": {
+    "iou_type": "bbox",
+    "ap50_95_max100": 0.15402344278545502,
+    "ap50_max100": 0.2459138771019959,
+    "ap75_max100": 0.17897021319779036,
+    "ap50_95_max300": 0.15402344278545502,
+    "ap50_max300": 0.2459138771019959,
+    "ap75_max300": 0.17897021319779036,
+    "per_class": {
+      "resistor": {
+        "ap50_95_max100": 0.0,
+        "ap50_max100": 0.0,
+        "ap75_max100": 0.0,
+        "ap50_95_max300": 0.0,
+        "ap50_max300": 0.0,
+        "ap75_max300": 0.0
+      },
+      "capacitor": {
+        "ap50_95_max100": 0.09440235199990588,
+        "ap50_max100": 0.16683168316831684,
+        "ap75_max100": 0.10496226093197555,
+        "ap50_95_max300": 0.09440235199990588,
+        "ap50_max300": 0.16683168316831684,
+        "ap75_max300": 0.10496226093197555
+      },
+      "ic": {
+        "ap50_95_max100": 0.29181636020744933,
+        "ap50_max100": 0.46789250353606787,
+        "ap75_max100": 0.2849009900990099,
+        "ap50_95_max300": 0.29181636020744933,
+        "ap50_max300": 0.46789250353606787,
+        "ap75_max300": 0.2849009900990099
+      },
+      "connector": {
+        "ap50_95_max100": 0.22987505893446492,
+        "ap50_max100": 0.348931321703599,
+        "ap75_max100": 0.326017601760176,
+        "ap50_95_max300": 0.22987505893446492,
+        "ap50_max300": 0.348931321703599,
+        "ap75_max300": 0.326017601760176
+      }
+    },
+    "max_detections_scope": "Per image and category, before standard COCO accumulation",
+    "area_ap50_95_max100": {
+      "all": 0.15402344278545502,
+      "small": 0.08731607089280358,
+      "medium": 0.5222941524921723,
+      "large": null
+    },
+    "area_ap50_95_max300": {
+      "all": 0.15402344278545502,
+      "small": 0.08731607089280358,
+      "medium": 0.5222941524921723,
+      "large": null
+    }
+  }
+}

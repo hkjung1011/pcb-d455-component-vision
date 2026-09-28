@@ -1,0 +1,181 @@
+{
+  "schema": "r04-resolution-stress-preparation-v1",
+  "prepared_utc": "2026-09-28T13:06:20.491796+00:00",
+  "stress_protocol_sha256": "7afc529c3ddb6131ba5ee2db9281f8ff8a851407f165799cbdd5b6840d9fbb1d",
+  "source_manifest_sha256": "a91d4956da6adc8b3eebcd87da6e8e428362e1c14cef9e8f9d5a4583817d8c19",
+  "pillow_version": "12.3.0",
+  "evaluator_sha256": "b62dce3fa1e3b8a0fe0b4526809bde5bf63f914e0e53ac8398f2f29b1c35b3e5",
+  "training_eligible": false,
+  "d455_verified": false,
+  "mask": null,
+  "conditions": [
+    {
+      "condition": {
+        "id": "nominal_3p2_pxmm",
+        "target_nominal_px_per_mm": 3.2
+      },
+      "manifest_path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04\\data\\resolution_stress\\nominal_3p2_pxmm_manifest.json",
+      "manifest_sha256": "682bd1989f68c58385fabebb0462c1dca563bcc2f0f86f3d5d66cc17ae06c6c0",
+      "target_count": 189,
+      "class_counts": {
+        "capacitor": 104,
+        "ic": 16,
+        "resistor": 57,
+        "connector": 12
+      },
+      "excluded_source_type_counts": {
+        "test point": 46,
+        "pads": 19,
+        "unknown": 67,
+        "ferrite bead": 8,
+        "clock": 2,
+        "transistor": 7,
+        "fuse": 1,
+        "inductor": 8,
+        "text": 313,
+        "pins": 16,
+        "component text": 15,
+        "led": 2,
+        "diode": 3
+      },
+      "images": [
+        {
+          "id": "RPI3B_Bottom",
+          "source_sha256": "b9e6c2f55a556a51037a16010a0282e93acd7ba1c9773c6b6c6eac7ef73e112c",
+          "derived_sha256": "47130567fd903864dbce152026e4c4ca0f173146cdf67f67923594ac356fb8f0",
+          "original_wh": [
+            1622,
+            1080
+          ],
+          "saved_wh": [
+            365,
+            243
+          ],
+          "resample": "Pillow.LANCZOS",
+          "source_approx_px_per_mm": 14.23,
+          "target_nominal_px_per_mm": 3.2,
+          "nominal_factor": 0.22487702037947999,
+          "actual_sx": 0.22503082614056721,
+          "actual_sy": 0.225,
+          "approx_realized_px_per_mm_x": 3.202188655980271,
+          "approx_realized_px_per_mm_y": 3.20175,
+          "target_count": 75,
+          "excluded_count": 297,
+          "subpixel_target_bbox_count": 0,
+          "subpixel_excluded_bbox_count": 0
+        },
+        {
+          "id": "RPI3B_Top",
+          "source_sha256": "7b51a5ec80c937f7aee3d772a3f29ae118606fcb04b4eeb953a035227c0bdd69",
+          "derived_sha256": "81526c064140cd97e783e257b273cd4221f8e55e4d7f2f0b8acf0f48c3f72c87",
+          "original_wh": [
+            2000,
+            1350
+          ],
+          "saved_wh": [
+            284,
+            191
+          ],
+          "resample": "Pillow.LANCZOS",
+          "source_approx_px_per_mm": 22.57,
+          "target_nominal_px_per_mm": 3.2,
+          "nominal_factor": 0.14178112538768278,
+          "actual_sx": 0.142,
+          "actual_sy": 0.14148148148148149,
+          "approx_realized_px_per_mm_x": 3.20494,
+          "approx_realized_px_per_mm_y": 3.193237037037037,
+          "target_count": 114,
+          "excluded_count": 210,
+          "subpixel_target_bbox_count": 0,
+          "subpixel_excluded_bbox_count": 0
+        }
+      ],
+      "max_boundary_roundoff_clip_px": 0.0,
+      "max_original_coordinate_roundtrip_error_px": 2.2737367544323206e-13
+    },
+    {
+      "condition": {
+        "id": "nominal_2p1_pxmm",
+        "target_nominal_px_per_mm": 2.1
+      },
+      "manifest_path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04\\data\\resolution_stress\\nominal_2p1_pxmm_manifest.json",
+      "manifest_sha256": "69fc7a9725b13f396b805946a743a7c2bcbd0baf40236b0d9573733abbbf5881",
+      "target_count": 189,
+      "class_counts": {
+        "capacitor": 104,
+        "ic": 16,
+        "resistor": 57,
+        "connector": 12
+      },
+      "excluded_source_type_counts": {
+        "test point": 46,
+        "pads": 19,
+        "unknown": 67,
+        "ferrite bead": 8,
+        "clock": 2,
+        "transistor": 7,
+        "fuse": 1,
+        "inductor": 8,
+        "text": 313,
+        "pins": 16,
+        "component text": 15,
+        "led": 2,
+        "diode": 3
+      },
+      "images": [
+        {
+          "id": "RPI3B_Bottom",
+          "source_sha256": "b9e6c2f55a556a51037a16010a0282e93acd7ba1c9773c6b6c6eac7ef73e112c",
+          "derived_sha256": "d1c4da9fcfada26877ad7cba1545a15affdc83828e0c056e5d1e54d42f3e99aa",
+          "original_wh": [
+            1622,
+            1080
+          ],
+          "saved_wh": [
+            239,
+            159
+          ],
+          "resample": "Pillow.LANCZOS",
+          "source_approx_px_per_mm": 14.23,
+          "target_nominal_px_per_mm": 2.1,
+          "nominal_factor": 0.14757554462403374,
+          "actual_sx": 0.14734895191122072,
+          "actual_sy": 0.14722222222222223,
+          "approx_realized_px_per_mm_x": 2.0967755856966708,
+          "approx_realized_px_per_mm_y": 2.0949722222222222,
+          "target_count": 75,
+          "excluded_count": 297,
+          "subpixel_target_bbox_count": 0,
+          "subpixel_excluded_bbox_count": 4
+        },
+        {
+          "id": "RPI3B_Top",
+          "source_sha256": "7b51a5ec80c937f7aee3d772a3f29ae118606fcb04b4eeb953a035227c0bdd69",
+          "derived_sha256": "c38d793559a2218a2ad238533b4760645bf524bed3b1a14b8f58b4071cde27d1",
+          "original_wh": [
+            2000,
+            1350
+          ],
+          "saved_wh": [
+            186,
+            126
+          ],
+          "resample": "Pillow.LANCZOS",
+          "source_approx_px_per_mm": 22.57,
+          "target_nominal_px_per_mm": 2.1,
+          "nominal_factor": 0.09304386353566682,
+          "actual_sx": 0.093,
+          "actual_sy": 0.09333333333333334,
+          "approx_realized_px_per_mm_x": 2.0990100000000003,
+          "approx_realized_px_per_mm_y": 2.1065333333333336,
+          "target_count": 114,
+          "excluded_count": 210,
+          "subpixel_target_bbox_count": 0,
+          "subpixel_excluded_bbox_count": 0
+        }
+      ],
+      "max_boundary_roundoff_clip_px": 0.0,
+      "max_original_coordinate_roundtrip_error_px": 2.2737367544323206e-13
+    }
+  ]
+}

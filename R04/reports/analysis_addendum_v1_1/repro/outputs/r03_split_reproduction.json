@@ -1,0 +1,267 @@
+{
+  "script": "r03_split_reproduction",
+  "generated_utc": "2026-09-28T16:00:04.884896+00:00",
+  "review_commit": "17f72fdd9143bca6645f9b342414b0c5a2c1ed6d",
+  "inputs_modified": false,
+  "definitions": {
+    "features": "per group: 4 class counts, 4 short-side bins (<8,8-16,16-32,>=32 px), 16 class x bin, image count",
+    "objective": "weighted mean |val share - 0.25| over active features; weights 2 (class, bin, images) / 1 (class x bin)",
+    "constraints": "each class >=25; val target share 18-34%; each class share 12-45%; 8-16 px objects >=50"
+  },
+  "results": {
+    "pool_groups": 23,
+    "combinations": 100947,
+    "eligible": 29385,
+    "recomputed_val_groups": [
+      "ACM-109",
+      "Arty",
+      "UTL-016",
+      "Virtex6",
+      "XCM-307A",
+      "Zybo"
+    ],
+    "recomputed_objective": 0.034397343066640246,
+    "stored_val_groups": [
+      "ACM-109",
+      "Arty",
+      "UTL-016",
+      "Virtex6",
+      "XCM-307A",
+      "Zybo"
+    ],
+    "stored_objective": 0.034397343066640246,
+    "stored_eligible": 29385,
+    "match": true,
+    "pool_contains_r03_test_or_pi": false,
+    "per_split": {
+      "train": {
+        "images": 25,
+        "groups": 17,
+        "objects": 3307,
+        "per_class": {
+          "connector": 318,
+          "ic": 204,
+          "capacitor": 1584,
+          "resistor": 1201
+        },
+        "short_side_bins": {
+          "lt8": 0,
+          "8to16": 515,
+          "16to32": 1189,
+          "ge32": 1603
+        },
+        "largest_group": "ML365",
+        "largest_group_object_share": 0.2978530390081645,
+        "group_objects": {
+          "ML365": 985,
+          "XLVDSproSupply": 348,
+          "MicroZed": 326,
+          "Zedboard": 262,
+          "ATTIOT": 213,
+          "HackRF": 211,
+          "DigitalDiscovery": 179,
+          "SystemAce": 151,
+          "ZTurn": 149,
+          "UTL-103": 127,
+          "Spartan6Redux": 80,
+          "ThingMagicM6e": 73,
+          "Spartan3": 57,
+          "ArduinoMega": 43,
+          "Ztex": 36,
+          "STK644": 34,
+          "Virtex5": 33
+        },
+        "image_class_cells_gt_gt100": 6,
+        "image_class_cells_gt_gt300": 1,
+        "max_gt_per_image_class": 371,
+        "excluded_by_source_type": {
+          "text": 5081,
+          "pins": 180,
+          "pads": 161,
+          "led": 112,
+          "clock": 21,
+          "button": 45,
+          "diode": 49,
+          "resistor network": 27,
+          "component text": 537,
+          "fuse": 5,
+          "unknown": 145,
+          "test point": 166,
+          "jumper": 54,
+          "inductor": 41,
+          "zener diode": 2,
+          "transistor": 43,
+          "resistor jumper": 4,
+          "switch": 32,
+          "potentiometer": 5,
+          "display": 3,
+          "emi filter": 25,
+          "heatsink": 4,
+          "ferrite bead": 10,
+          "buzzer": 1
+        }
+      },
+      "val": {
+        "images": 9,
+        "groups": 6,
+        "objects": 1052,
+        "per_class": {
+          "connector": 115,
+          "resistor": 410,
+          "capacitor": 454,
+          "ic": 73
+        },
+        "short_side_bins": {
+          "lt8": 0,
+          "8to16": 98,
+          "16to32": 430,
+          "ge32": 524
+        },
+        "largest_group": "Arty",
+        "largest_group_object_share": 0.4553231939163498,
+        "group_objects": {
+          "Arty": 479,
+          "Virtex6": 208,
+          "Zybo": 143,
+          "ACM-109": 104,
+          "XCM-307A": 71,
+          "UTL-016": 47
+        },
+        "image_class_cells_gt_gt100": 2,
+        "image_class_cells_gt_gt300": 0,
+        "max_gt_per_image_class": 217,
+        "excluded_by_source_type": {
+          "pads": 49,
+          "emi filter": 9,
+          "resistor network": 27,
+          "text": 1627,
+          "pins": 23,
+          "component text": 120,
+          "test point": 9,
+          "led": 53,
+          "clock": 6,
+          "switch": 18,
+          "diode": 3,
+          "transistor": 13,
+          "ferrite bead": 11,
+          "button": 23,
+          "jumper": 19,
+          "inductor": 8,
+          "capacitor jumper": 2,
+          "battery": 1,
+          "display": 1,
+          "unknown": 25,
+          "resistor jumper": 1,
+          "zener diode": 2
+        }
+      },
+      "test": {
+        "images": 11,
+        "groups": 5,
+        "objects": 1348,
+        "per_class": {
+          "connector": 176,
+          "resistor": 443,
+          "capacitor": 636,
+          "ic": 93
+        },
+        "short_side_bins": {
+          "lt8": 0,
+          "8to16": 446,
+          "16to32": 405,
+          "ge32": 497
+        },
+        "largest_group": "ML450",
+        "largest_group_object_share": 0.612759643916914,
+        "group_objects": {
+          "ML450": 826,
+          "DuetWIFI": 280,
+          "EDA-008": 178,
+          "OlimexRed": 32,
+          "Spartan6": 32
+        },
+        "image_class_cells_gt_gt100": 4,
+        "image_class_cells_gt_gt300": 0,
+        "max_gt_per_image_class": 159,
+        "excluded_by_source_type": {
+          "text": 2169,
+          "pins": 98,
+          "pads": 103,
+          "test point": 71,
+          "led": 47,
+          "transistor": 21,
+          "component text": 323,
+          "resistor network": 20,
+          "diode": 14,
+          "clock": 8,
+          "ferrite bead": 1,
+          "inductor": 12,
+          "button": 17,
+          "unknown": 44,
+          "diode zener array": 3,
+          "resistor jumper": 1,
+          "jumper": 12,
+          "emi filter": 17,
+          "switch": 8,
+          "potentiometer": 2,
+          "transformer": 1,
+          "fuse": 1,
+          "display": 1,
+          "zener diode": 1
+        }
+      },
+      "pi_test": {
+        "images": 2,
+        "groups": 1,
+        "objects": 189,
+        "per_class": {
+          "capacitor": 104,
+          "ic": 16,
+          "resistor": 57,
+          "connector": 12
+        },
+        "short_side_bins": {
+          "lt8": 2,
+          "8to16": 77,
+          "16to32": 72,
+          "ge32": 38
+        },
+        "largest_group": "RPI3B",
+        "largest_group_object_share": 1.0,
+        "group_objects": {
+          "RPI3B": 189
+        },
+        "image_class_cells_gt_gt100": 0,
+        "image_class_cells_gt_gt300": 0,
+        "max_gt_per_image_class": 52,
+        "excluded_by_source_type": {
+          "test point": 46,
+          "pads": 19,
+          "unknown": 67,
+          "ferrite bead": 8,
+          "clock": 2,
+          "transistor": 7,
+          "fuse": 1,
+          "inductor": 8,
+          "text": 313,
+          "pins": 16,
+          "component text": 15,
+          "led": 2,
+          "diode": 3
+        }
+      }
+    }
+  },
+  "inputs": [
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04\\data\\original_records.json",
+      "sha256": "8f09eec359fcae412e539a2ecdc2aee1a10102aaa489edd792b17b46c551aa13",
+      "bytes": 8967965
+    },
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04\\data\\split.json",
+      "sha256": "0640f66e0d058af706e9a3693b7a56d4ed475d1b4058e5e6c24374413c566429",
+      "bytes": 2718
+    }
+  ]
+}

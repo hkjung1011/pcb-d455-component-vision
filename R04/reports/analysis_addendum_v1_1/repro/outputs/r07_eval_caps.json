@@ -1,0 +1,1430 @@
+{
+  "script": "r07_eval_caps",
+  "generated_utc": "2026-09-28T16:00:18.285475+00:00",
+  "review_commit": "17f72fdd9143bca6645f9b342414b0c5a2c1ed6d",
+  "inputs_modified": false,
+  "definitions": {
+    "caps": "per crop: model.predict max_det=1000 (conf .001, iou .6); per image: class-aware global NMS iou .5 then first 1,000 by score; COCO: maxDets 100/300 per image per category",
+    "ap300_label": "AP50-95 'max300' = COCO max 300 per image per category AFTER the per-image 1,000 limit across all classes",
+    "unmeasured": "AP change due to the caps; needs predictions before the caps (not saved)"
+  },
+  "results": {
+    "jobs": 22,
+    "image_evaluations": 198,
+    "image_evaluations_at_global_cap": 87,
+    "rows": [
+      {
+        "job": "baseline__epoch_02__dual__val",
+        "images": 9,
+        "images_at_global_cap": 5,
+        "images_all_crops_saturated": 5,
+        "capped_detail": [
+          {
+            "image": "Arty_Bottom",
+            "kept": 1000,
+            "lowest_kept_score": 0.12009826302528381,
+            "classes_with_fewer_than_300_kept": {
+              "2": 94,
+              "3": 177
+            },
+            "tiles": 16,
+            "raw_before_global_nms": 16000
+          },
+          {
+            "image": "Arty_Top",
+            "kept": 1000,
+            "lowest_kept_score": 0.13778118789196014,
+            "classes_with_fewer_than_300_kept": {
+              "0": 149,
+              "2": 95,
+              "3": 275
+            },
+            "tiles": 47,
+            "raw_before_global_nms": 34686
+          },
+          {
+            "image": "Virtex6",
+            "kept": 1000,
+            "lowest_kept_score": 0.2710665166378021,
+            "classes_with_fewer_than_300_kept": {
+              "0": 130,
+              "2": 234,
+              "3": 124
+            },
+            "tiles": 47,
+            "raw_before_global_nms": 43064
+          },
+          {
+            "image": "XCM-307A_Top",
+            "kept": 1000,
+            "lowest_kept_score": 0.07961510866880417,
+            "classes_with_fewer_than_300_kept": {
+              "0": 165,
+              "2": 114,
+              "3": 174
+            },
+            "tiles": 13,
+            "raw_before_global_nms": 13000
+          },
+          {
+            "image": "Zybo",
+            "kept": 1000,
+            "lowest_kept_score": 0.23325729370117188,
+            "classes_with_fewer_than_300_kept": {
+              "0": 141,
+              "2": 194,
+              "3": 124
+            },
+            "tiles": 47,
+            "raw_before_global_nms": 40910
+          }
+        ]
+      },
+      {
+        "job": "baseline__epoch_02__native__val",
+        "images": 9,
+        "images_at_global_cap": 5,
+        "images_all_crops_saturated": 5,
+        "capped_detail": [
+          {
+            "image": "Arty_Bottom",
+            "kept": 1000,
+            "lowest_kept_score": 0.08735627681016922,
+            "classes_with_fewer_than_300_kept": {
+              "2": 85,
+              "3": 190
+            },
+            "tiles": 12,
+            "raw_before_global_nms": 12000
+          },
+          {
+            "image": "Arty_Top",
+            "kept": 1000,
+            "lowest_kept_score": 0.0892845168709755,
+            "classes_with_fewer_than_300_kept": {
+              "0": 157,
+              "2": 85
+            },
+            "tiles": 35,
+            "raw_before_global_nms": 23212
+          },
+          {
+            "image": "Virtex6",
+            "kept": 1000,
+            "lowest_kept_score": 0.19294199347496033,
+            "classes_with_fewer_than_300_kept": {
+              "0": 165,
+              "2": 256,
+              "3": 123
+            },
+            "tiles": 35,
+            "raw_before_global_nms": 31064
+          },
+          {
+            "image": "XCM-307A_Top",
+            "kept": 1000,
+            "lowest_kept_score": 0.05248725414276123,
+            "classes_with_fewer_than_300_kept": {
+              "0": 189,
+              "2": 117,
+              "3": 121
+            },
+            "tiles": 9,
+            "raw_before_global_nms": 9000
+          },
+          {
+            "image": "Zybo",
+            "kept": 1000,
+            "lowest_kept_score": 0.15249669551849365,
+            "classes_with_fewer_than_300_kept": {
+              "0": 169,
+              "2": 191,
+              "3": 144
+            },
+            "tiles": 35,
+            "raw_before_global_nms": 29055
+          }
+        ]
+      },
+      {
+        "job": "baseline__epoch_04__dual__val",
+        "images": 9,
+        "images_at_global_cap": 5,
+        "images_all_crops_saturated": 0,
+        "capped_detail": [
+          {
+            "image": "Arty_Bottom",
+            "kept": 1000,
+            "lowest_kept_score": 0.03279034420847893,
+            "classes_with_fewer_than_300_kept": {
+              "1": 290,
+              "2": 46,
+              "3": 120
+            },
+            "tiles": 16,
+            "raw_before_global_nms": 7975
+          },
+          {
+            "image": "Arty_Top",
+            "kept": 1000,
+            "lowest_kept_score": 0.040893472731113434,
+            "classes_with_fewer_than_300_kept": {
+              "0": 280,
+              "1": 171,
+              "2": 100
+            },
+            "tiles": 47,
+            "raw_before_global_nms": 10601
+          },
+          {
+            "image": "Virtex6",
+            "kept": 1000,
+            "lowest_kept_score": 0.09755903482437134,
+            "classes_with_fewer_than_300_kept": {
+              "0": 275,
+              "1": 218,
+              "2": 178
+            },
+            "tiles": 47,
+            "raw_before_global_nms": 15808
+          },
+          {
+            "image": "XCM-307A_Top",
+            "kept": 1000,
+            "lowest_kept_score": 0.008176354691386223,
+            "classes_with_fewer_than_300_kept": {
+              "0": 276,
+              "2": 127,
+              "3": 285
+            },
+            "tiles": 13,
+            "raw_before_global_nms": 5001
+          },
+          {
+            "image": "Zybo",
+            "kept": 1000,
+            "lowest_kept_score": 0.0564831979572773,
+            "classes_with_fewer_than_300_kept": {
+              "1": 277,
+              "2": 91
+            },
+            "tiles": 47,
+            "raw_before_global_nms": 13474
+          }
+        ]
+      },
+      {
+        "job": "baseline__epoch_04__native__val",
+        "images": 9,
+        "images_at_global_cap": 5,
+        "images_all_crops_saturated": 0,
+        "capped_detail": [
+          {
+            "image": "Arty_Bottom",
+            "kept": 1000,
+            "lowest_kept_score": 0.015584971755743027,
+            "classes_with_fewer_than_300_kept": {
+              "1": 273,
+              "2": 41,
+              "3": 159
+            },
+            "tiles": 12,
+            "raw_before_global_nms": 4976
+          },
+          {
+            "image": "Arty_Top",
+            "kept": 1000,
+            "lowest_kept_score": 0.021773722022771835,
+            "classes_with_fewer_than_300_kept": {
+              "0": 182,
+              "1": 150,
+              "2": 106
+            },
+            "tiles": 35,
+            "raw_before_global_nms": 6753
+          },
+          {
+            "image": "Virtex6",
+            "kept": 1000,
+            "lowest_kept_score": 0.05594796687364578,
+            "classes_with_fewer_than_300_kept": {
+              "0": 256,
+              "1": 198,
+              "2": 174
+            },
+            "tiles": 35,
+            "raw_before_global_nms": 10210
+          },
+          {
+            "image": "XCM-307A_Top",
+            "kept": 1000,
+            "lowest_kept_score": 0.00375008350238204,
+            "classes_with_fewer_than_300_kept": {
+              "0": 265,
+              "2": 126,
+              "3": 294
+            },
+            "tiles": 9,
+            "raw_before_global_nms": 2944
+          },
+          {
+            "image": "Zybo",
+            "kept": 1000,
+            "lowest_kept_score": 0.0308139119297266,
+            "classes_with_fewer_than_300_kept": {
+              "0": 244,
+              "1": 261,
+              "2": 97
+            },
+            "tiles": 35,
+            "raw_before_global_nms": 8762
+          }
+        ]
+      },
+      {
+        "job": "baseline__epoch_06__dual__val",
+        "images": 9,
+        "images_at_global_cap": 5,
+        "images_all_crops_saturated": 0,
+        "capped_detail": [
+          {
+            "image": "Arty_Bottom",
+            "kept": 1000,
+            "lowest_kept_score": 0.008856398984789848,
+            "classes_with_fewer_than_300_kept": {
+              "2": 23,
+              "3": 189
+            },
+            "tiles": 16,
+            "raw_before_global_nms": 4625
+          },
+          {
+            "image": "Arty_Top",
+            "kept": 1000,
+            "lowest_kept_score": 0.015925854444503784,
+            "classes_with_fewer_than_300_kept": {
+              "0": 233,
+              "1": 141,
+              "2": 107
+            },
+            "tiles": 47,
+            "raw_before_global_nms": 7023
+          },
+          {
+            "image": "Virtex6",
+            "kept": 1000,
+            "lowest_kept_score": 0.0704314261674881,
+            "classes_with_fewer_than_300_kept": {
+              "0": 267,
+              "1": 252,
+              "2": 144
+            },
+            "tiles": 47,
+            "raw_before_global_nms": 13121
+          },
+          {
+            "image": "XCM-307A_Top",
+            "kept": 1000,
+            "lowest_kept_score": 0.0025988381821662188,
+            "classes_with_fewer_than_300_kept": {
+              "0": 262,
+              "1": 202,
+              "2": 143
+            },
+            "tiles": 13,
+            "raw_before_global_nms": 3252
+          },
+          {
+            "image": "Zybo",
+            "kept": 1000,
+            "lowest_kept_score": 0.0339910164475441,
+            "classes_with_fewer_than_300_kept": {
+              "0": 207,
+              "1": 225,
+              "2": 104
+            },
+            "tiles": 47,
+            "raw_before_global_nms": 8555
+          }
+        ]
+      },
+      {
+        "job": "baseline__epoch_06__native__val",
+        "images": 9,
+        "images_at_global_cap": 5,
+        "images_all_crops_saturated": 0,
+        "capped_detail": [
+          {
+            "image": "Arty_Bottom",
+            "kept": 1000,
+            "lowest_kept_score": 0.003714383812621236,
+            "classes_with_fewer_than_300_kept": {
+              "2": 28,
+              "3": 254
+            },
+            "tiles": 12,
+            "raw_before_global_nms": 2981
+          },
+          {
+            "image": "Arty_Top",
+            "kept": 1000,
+            "lowest_kept_score": 0.008774454705417156,
+            "classes_with_fewer_than_300_kept": {
+              "0": 221,
+              "1": 97,
+              "2": 106
+            },
+            "tiles": 35,
+            "raw_before_global_nms": 4636
+          },
+          {
+            "image": "Virtex6",
+            "kept": 1000,
+            "lowest_kept_score": 0.039461005479097366,
+            "classes_with_fewer_than_300_kept": {
+              "0": 264,
+              "1": 223,
+              "2": 140
+            },
+            "tiles": 35,
+            "raw_before_global_nms": 8333
+          },
+          {
+            "image": "XCM-307A_Top",
+            "kept": 1000,
+            "lowest_kept_score": 0.0013792043318971992,
+            "classes_with_fewer_than_300_kept": {
+              "0": 265,
+              "1": 197,
+              "2": 105
+            },
+            "tiles": 9,
+            "raw_before_global_nms": 1842
+          },
+          {
+            "image": "Zybo",
+            "kept": 1000,
+            "lowest_kept_score": 0.01902598701417446,
+            "classes_with_fewer_than_300_kept": {
+              "0": 174,
+              "1": 177,
+              "2": 123
+            },
+            "tiles": 35,
+            "raw_before_global_nms": 5730
+          }
+        ]
+      },
+      {
+        "job": "baseline__epoch_08__dual__val",
+        "images": 9,
+        "images_at_global_cap": 4,
+        "images_all_crops_saturated": 0,
+        "capped_detail": [
+          {
+            "image": "Arty_Bottom",
+            "kept": 1000,
+            "lowest_kept_score": 0.004516047891229391,
+            "classes_with_fewer_than_300_kept": {
+              "2": 49,
+              "3": 195
+            },
+            "tiles": 16,
+            "raw_before_global_nms": 3599
+          },
+          {
+            "image": "Arty_Top",
+            "kept": 1000,
+            "lowest_kept_score": 0.011339304968714714,
+            "classes_with_fewer_than_300_kept": {
+              "0": 212,
+              "1": 156,
+              "2": 45
+            },
+            "tiles": 47,
+            "raw_before_global_nms": 5879
+          },
+          {
+            "image": "Virtex6",
+            "kept": 1000,
+            "lowest_kept_score": 0.043769143521785736,
+            "classes_with_fewer_than_300_kept": {
+              "0": 236,
+              "1": 259,
+              "2": 122
+            },
+            "tiles": 47,
+            "raw_before_global_nms": 8801
+          },
+          {
+            "image": "Zybo",
+            "kept": 1000,
+            "lowest_kept_score": 0.01712805964052677,
+            "classes_with_fewer_than_300_kept": {
+              "0": 173,
+              "2": 65
+            },
+            "tiles": 47,
+            "raw_before_global_nms": 6428
+          }
+        ]
+      },
+      {
+        "job": "baseline__epoch_08__native__val",
+        "images": 9,
+        "images_at_global_cap": 4,
+        "images_all_crops_saturated": 0,
+        "capped_detail": [
+          {
+            "image": "Arty_Bottom",
+            "kept": 1000,
+            "lowest_kept_score": 0.001965781906619668,
+            "classes_with_fewer_than_300_kept": {
+              "2": 64,
+              "3": 222
+            },
+            "tiles": 12,
+            "raw_before_global_nms": 2267
+          },
+          {
+            "image": "Arty_Top",
+            "kept": 1000,
+            "lowest_kept_score": 0.005812465213239193,
+            "classes_with_fewer_than_300_kept": {
+              "0": 162,
+              "1": 135,
+              "2": 48
+            },
+            "tiles": 35,
+            "raw_before_global_nms": 3709
+          },
+          {
+            "image": "Virtex6",
+            "kept": 1000,
+            "lowest_kept_score": 0.021874869242310524,
+            "classes_with_fewer_than_300_kept": {
+              "0": 197,
+              "1": 260,
+              "2": 92
+            },
+            "tiles": 35,
+            "raw_before_global_nms": 5588
+          },
+          {
+            "image": "Zybo",
+            "kept": 1000,
+            "lowest_kept_score": 0.009079672396183014,
+            "classes_with_fewer_than_300_kept": {
+              "0": 137,
+              "1": 264,
+              "2": 81
+            },
+            "tiles": 35,
+            "raw_before_global_nms": 4080
+          }
+        ]
+      },
+      {
+        "job": "baseline__epoch_10__dual__val",
+        "images": 9,
+        "images_at_global_cap": 4,
+        "images_all_crops_saturated": 0,
+        "capped_detail": [
+          {
+            "image": "Arty_Bottom",
+            "kept": 1000,
+            "lowest_kept_score": 0.0037871389649808407,
+            "classes_with_fewer_than_300_kept": {
+              "1": 286,
+              "2": 44,
+              "3": 114
+            },
+            "tiles": 16,
+            "raw_before_global_nms": 3072
+          },
+          {
+            "image": "Arty_Top",
+            "kept": 1000,
+            "lowest_kept_score": 0.005515672732144594,
+            "classes_with_fewer_than_300_kept": {
+              "1": 179,
+              "2": 58
+            },
+            "tiles": 47,
+            "raw_before_global_nms": 3965
+          },
+          {
+            "image": "Virtex6",
+            "kept": 1000,
+            "lowest_kept_score": 0.02593495324254036,
+            "classes_with_fewer_than_300_kept": {
+              "1": 256,
+              "2": 95
+            },
+            "tiles": 47,
+            "raw_before_global_nms": 6651
+          },
+          {
+            "image": "Zybo",
+            "kept": 1000,
+            "lowest_kept_score": 0.009502088651061058,
+            "classes_with_fewer_than_300_kept": {
+              "0": 268,
+              "2": 76
+            },
+            "tiles": 47,
+            "raw_before_global_nms": 4607
+          }
+        ]
+      },
+      {
+        "job": "baseline__epoch_10__native__val",
+        "images": 9,
+        "images_at_global_cap": 4,
+        "images_all_crops_saturated": 0,
+        "capped_detail": [
+          {
+            "image": "Arty_Bottom",
+            "kept": 1000,
+            "lowest_kept_score": 0.0010850431863218546,
+            "classes_with_fewer_than_300_kept": {
+              "1": 275,
+              "2": 70,
+              "3": 161
+            },
+            "tiles": 12,
+            "raw_before_global_nms": 1821
+          },
+          {
+            "image": "Arty_Top",
+            "kept": 1000,
+            "lowest_kept_score": 0.002180373528972268,
+            "classes_with_fewer_than_300_kept": {
+              "0": 251,
+              "1": 175,
+              "2": 63
+            },
+            "tiles": 35,
+            "raw_before_global_nms": 2410
+          },
+          {
+            "image": "Virtex6",
+            "kept": 1000,
+            "lowest_kept_score": 0.01312324684113264,
+            "classes_with_fewer_than_300_kept": {
+              "1": 250,
+              "2": 87
+            },
+            "tiles": 35,
+            "raw_before_global_nms": 4112
+          },
+          {
+            "image": "Zybo",
+            "kept": 1000,
+            "lowest_kept_score": 0.004229932092130184,
+            "classes_with_fewer_than_300_kept": {
+              "0": 234,
+              "1": 274,
+              "2": 95
+            },
+            "tiles": 35,
+            "raw_before_global_nms": 2946
+          }
+        ]
+      },
+      {
+        "job": "baseline__epoch_12__dual__val",
+        "images": 9,
+        "images_at_global_cap": 4,
+        "images_all_crops_saturated": 0,
+        "capped_detail": [
+          {
+            "image": "Arty_Bottom",
+            "kept": 1000,
+            "lowest_kept_score": 0.002141025383025408,
+            "classes_with_fewer_than_300_kept": {
+              "2": 59,
+              "3": 159
+            },
+            "tiles": 16,
+            "raw_before_global_nms": 2705
+          },
+          {
+            "image": "Arty_Top",
+            "kept": 1000,
+            "lowest_kept_score": 0.0038924997206777334,
+            "classes_with_fewer_than_300_kept": {
+              "0": 163,
+              "1": 227,
+              "2": 81
+            },
+            "tiles": 47,
+            "raw_before_global_nms": 3423
+          },
+          {
+            "image": "Virtex6",
+            "kept": 1000,
+            "lowest_kept_score": 0.022876812145113945,
+            "classes_with_fewer_than_300_kept": {
+              "0": 154,
+              "2": 202,
+              "3": 283
+            },
+            "tiles": 47,
+            "raw_before_global_nms": 5489
+          },
+          {
+            "image": "Zybo",
+            "kept": 1000,
+            "lowest_kept_score": 0.007572563365101814,
+            "classes_with_fewer_than_300_kept": {
+              "0": 158,
+              "2": 98
+            },
+            "tiles": 47,
+            "raw_before_global_nms": 4014
+          }
+        ]
+      },
+      {
+        "job": "baseline__epoch_12__native__val",
+        "images": 9,
+        "images_at_global_cap": 3,
+        "images_all_crops_saturated": 0,
+        "capped_detail": [
+          {
+            "image": "Arty_Top",
+            "kept": 1000,
+            "lowest_kept_score": 0.0016962139634415507,
+            "classes_with_fewer_than_300_kept": {
+              "0": 137,
+              "1": 193,
+              "2": 70
+            },
+            "tiles": 35,
+            "raw_before_global_nms": 2212
+          },
+          {
+            "image": "Virtex6",
+            "kept": 1000,
+            "lowest_kept_score": 0.01089057419449091,
+            "classes_with_fewer_than_300_kept": {
+              "0": 144,
+              "2": 180
+            },
+            "tiles": 35,
+            "raw_before_global_nms": 3553
+          },
+          {
+            "image": "Zybo",
+            "kept": 1000,
+            "lowest_kept_score": 0.0032384556252509356,
+            "classes_with_fewer_than_300_kept": {
+              "0": 131,
+              "2": 94
+            },
+            "tiles": 35,
+            "raw_before_global_nms": 2484
+          }
+        ]
+      },
+      {
+        "job": "baseline__epoch_14__dual__val",
+        "images": 9,
+        "images_at_global_cap": 4,
+        "images_all_crops_saturated": 0,
+        "capped_detail": [
+          {
+            "image": "Arty_Bottom",
+            "kept": 1000,
+            "lowest_kept_score": 0.0021533258259296417,
+            "classes_with_fewer_than_300_kept": {
+              "2": 51,
+              "3": 83
+            },
+            "tiles": 16,
+            "raw_before_global_nms": 2634
+          },
+          {
+            "image": "Arty_Top",
+            "kept": 1000,
+            "lowest_kept_score": 0.0037134820595383644,
+            "classes_with_fewer_than_300_kept": {
+              "0": 262,
+              "1": 257,
+              "2": 48
+            },
+            "tiles": 47,
+            "raw_before_global_nms": 3536
+          },
+          {
+            "image": "Virtex6",
+            "kept": 1000,
+            "lowest_kept_score": 0.02308383211493492,
+            "classes_with_fewer_than_300_kept": {
+              "0": 195,
+              "2": 182,
+              "3": 256
+            },
+            "tiles": 47,
+            "raw_before_global_nms": 5909
+          },
+          {
+            "image": "Zybo",
+            "kept": 1000,
+            "lowest_kept_score": 0.006115470547229052,
+            "classes_with_fewer_than_300_kept": {
+              "0": 164,
+              "2": 128
+            },
+            "tiles": 47,
+            "raw_before_global_nms": 3823
+          }
+        ]
+      },
+      {
+        "job": "baseline__epoch_14__native__val",
+        "images": 9,
+        "images_at_global_cap": 3,
+        "images_all_crops_saturated": 0,
+        "capped_detail": [
+          {
+            "image": "Arty_Top",
+            "kept": 1000,
+            "lowest_kept_score": 0.0016422378830611706,
+            "classes_with_fewer_than_300_kept": {
+              "0": 198,
+              "1": 226,
+              "2": 39
+            },
+            "tiles": 35,
+            "raw_before_global_nms": 2165
+          },
+          {
+            "image": "Virtex6",
+            "kept": 1000,
+            "lowest_kept_score": 0.010888036340475082,
+            "classes_with_fewer_than_300_kept": {
+              "0": 194,
+              "2": 159,
+              "3": 278
+            },
+            "tiles": 35,
+            "raw_before_global_nms": 3768
+          },
+          {
+            "image": "Zybo",
+            "kept": 1000,
+            "lowest_kept_score": 0.0025572546292096376,
+            "classes_with_fewer_than_300_kept": {
+              "0": 146,
+              "2": 150
+            },
+            "tiles": 35,
+            "raw_before_global_nms": 2263
+          }
+        ]
+      },
+      {
+        "job": "baseline__epoch_16__dual__val",
+        "images": 9,
+        "images_at_global_cap": 4,
+        "images_all_crops_saturated": 0,
+        "capped_detail": [
+          {
+            "image": "Arty_Bottom",
+            "kept": 1000,
+            "lowest_kept_score": 0.0022575713228434324,
+            "classes_with_fewer_than_300_kept": {
+              "2": 52,
+              "3": 76
+            },
+            "tiles": 16,
+            "raw_before_global_nms": 2603
+          },
+          {
+            "image": "Arty_Top",
+            "kept": 1000,
+            "lowest_kept_score": 0.002750867046415806,
+            "classes_with_fewer_than_300_kept": {
+              "0": 181,
+              "2": 75
+            },
+            "tiles": 47,
+            "raw_before_global_nms": 3009
+          },
+          {
+            "image": "Virtex6",
+            "kept": 1000,
+            "lowest_kept_score": 0.018877902999520302,
+            "classes_with_fewer_than_300_kept": {
+              "0": 206,
+              "2": 153,
+              "3": 281
+            },
+            "tiles": 47,
+            "raw_before_global_nms": 5073
+          },
+          {
+            "image": "Zybo",
+            "kept": 1000,
+            "lowest_kept_score": 0.006074368953704834,
+            "classes_with_fewer_than_300_kept": {
+              "0": 167,
+              "2": 120
+            },
+            "tiles": 47,
+            "raw_before_global_nms": 3597
+          }
+        ]
+      },
+      {
+        "job": "baseline__epoch_16__native__val",
+        "images": 9,
+        "images_at_global_cap": 3,
+        "images_all_crops_saturated": 0,
+        "capped_detail": [
+          {
+            "image": "Arty_Top",
+            "kept": 1000,
+            "lowest_kept_score": 0.001235704286955297,
+            "classes_with_fewer_than_300_kept": {
+              "0": 132,
+              "1": 273,
+              "2": 70
+            },
+            "tiles": 35,
+            "raw_before_global_nms": 1767
+          },
+          {
+            "image": "Virtex6",
+            "kept": 1000,
+            "lowest_kept_score": 0.009238924831151962,
+            "classes_with_fewer_than_300_kept": {
+              "0": 193,
+              "2": 121
+            },
+            "tiles": 35,
+            "raw_before_global_nms": 3206
+          },
+          {
+            "image": "Zybo",
+            "kept": 1000,
+            "lowest_kept_score": 0.002493486739695072,
+            "classes_with_fewer_than_300_kept": {
+              "0": 146,
+              "2": 132
+            },
+            "tiles": 35,
+            "raw_before_global_nms": 2076
+          }
+        ]
+      },
+      {
+        "job": "baseline__epoch_18__dual__val",
+        "images": 9,
+        "images_at_global_cap": 3,
+        "images_all_crops_saturated": 0,
+        "capped_detail": [
+          {
+            "image": "Arty_Top",
+            "kept": 1000,
+            "lowest_kept_score": 0.0016997010679915547,
+            "classes_with_fewer_than_300_kept": {
+              "0": 222,
+              "1": 265,
+              "2": 101
+            },
+            "tiles": 47,
+            "raw_before_global_nms": 2429
+          },
+          {
+            "image": "Virtex6",
+            "kept": 1000,
+            "lowest_kept_score": 0.010652310214936733,
+            "classes_with_fewer_than_300_kept": {
+              "0": 226,
+              "2": 144,
+              "3": 290
+            },
+            "tiles": 47,
+            "raw_before_global_nms": 4025
+          },
+          {
+            "image": "Zybo",
+            "kept": 1000,
+            "lowest_kept_score": 0.0028267051093280315,
+            "classes_with_fewer_than_300_kept": {
+              "0": 195,
+              "2": 125
+            },
+            "tiles": 47,
+            "raw_before_global_nms": 2739
+          }
+        ]
+      },
+      {
+        "job": "baseline__epoch_18__native__val",
+        "images": 9,
+        "images_at_global_cap": 2,
+        "images_all_crops_saturated": 0,
+        "capped_detail": [
+          {
+            "image": "Virtex6",
+            "kept": 1000,
+            "lowest_kept_score": 0.004492434207350016,
+            "classes_with_fewer_than_300_kept": {
+              "0": 201,
+              "2": 140
+            },
+            "tiles": 35,
+            "raw_before_global_nms": 2531
+          },
+          {
+            "image": "Zybo",
+            "kept": 1000,
+            "lowest_kept_score": 0.001194040640257299,
+            "classes_with_fewer_than_300_kept": {
+              "0": 153,
+              "2": 132
+            },
+            "tiles": 35,
+            "raw_before_global_nms": 1585
+          }
+        ]
+      },
+      {
+        "job": "baseline__epoch_20__dual__val",
+        "images": 9,
+        "images_at_global_cap": 3,
+        "images_all_crops_saturated": 0,
+        "capped_detail": [
+          {
+            "image": "Arty_Top",
+            "kept": 1000,
+            "lowest_kept_score": 0.0011382288066670299,
+            "classes_with_fewer_than_300_kept": {
+              "0": 211,
+              "1": 258,
+              "2": 112
+            },
+            "tiles": 47,
+            "raw_before_global_nms": 2044
+          },
+          {
+            "image": "Virtex6",
+            "kept": 1000,
+            "lowest_kept_score": 0.008693580515682697,
+            "classes_with_fewer_than_300_kept": {
+              "0": 208,
+              "2": 171,
+              "3": 285
+            },
+            "tiles": 47,
+            "raw_before_global_nms": 3750
+          },
+          {
+            "image": "Zybo",
+            "kept": 1000,
+            "lowest_kept_score": 0.0025096533354371786,
+            "classes_with_fewer_than_300_kept": {
+              "0": 180,
+              "2": 133
+            },
+            "tiles": 47,
+            "raw_before_global_nms": 2602
+          }
+        ]
+      },
+      {
+        "job": "baseline__epoch_20__native__val",
+        "images": 9,
+        "images_at_global_cap": 2,
+        "images_all_crops_saturated": 0,
+        "capped_detail": [
+          {
+            "image": "Virtex6",
+            "kept": 1000,
+            "lowest_kept_score": 0.004301697015762329,
+            "classes_with_fewer_than_300_kept": {
+              "0": 189,
+              "2": 168
+            },
+            "tiles": 35,
+            "raw_before_global_nms": 2378
+          },
+          {
+            "image": "Zybo",
+            "kept": 1000,
+            "lowest_kept_score": 0.0010535772889852524,
+            "classes_with_fewer_than_300_kept": {
+              "0": 160,
+              "1": 291,
+              "2": 151
+            },
+            "tiles": 35,
+            "raw_before_global_nms": 1473
+          }
+        ]
+      },
+      {
+        "job": "improved__epoch_02__dual__val",
+        "images": 9,
+        "images_at_global_cap": 5,
+        "images_all_crops_saturated": 1,
+        "capped_detail": [
+          {
+            "image": "Arty_Bottom",
+            "kept": 1000,
+            "lowest_kept_score": 0.08581575006246567,
+            "classes_with_fewer_than_300_kept": {
+              "0": 242,
+              "2": 93,
+              "3": 79
+            },
+            "tiles": 16,
+            "raw_before_global_nms": 14917
+          },
+          {
+            "image": "Arty_Top",
+            "kept": 1000,
+            "lowest_kept_score": 0.1147928237915039,
+            "classes_with_fewer_than_300_kept": {
+              "0": 151,
+              "2": 212,
+              "3": 118
+            },
+            "tiles": 47,
+            "raw_before_global_nms": 33538
+          },
+          {
+            "image": "Virtex6",
+            "kept": 1000,
+            "lowest_kept_score": 0.14628805220127106,
+            "classes_with_fewer_than_300_kept": {
+              "0": 150,
+              "2": 165,
+              "3": 111
+            },
+            "tiles": 47,
+            "raw_before_global_nms": 42867
+          },
+          {
+            "image": "XCM-307A_Top",
+            "kept": 1000,
+            "lowest_kept_score": 0.03416851535439491,
+            "classes_with_fewer_than_300_kept": {
+              "0": 159,
+              "2": 68,
+              "3": 150
+            },
+            "tiles": 13,
+            "raw_before_global_nms": 12854
+          },
+          {
+            "image": "Zybo",
+            "kept": 1000,
+            "lowest_kept_score": 0.10921186953783035,
+            "classes_with_fewer_than_300_kept": {
+              "0": 115,
+              "2": 154,
+              "3": 158
+            },
+            "tiles": 47,
+            "raw_before_global_nms": 38526
+          }
+        ]
+      },
+      {
+        "job": "improved__epoch_02__native__val",
+        "images": 9,
+        "images_at_global_cap": 5,
+        "images_all_crops_saturated": 1,
+        "capped_detail": [
+          {
+            "image": "Arty_Bottom",
+            "kept": 1000,
+            "lowest_kept_score": 0.055448420345783234,
+            "classes_with_fewer_than_300_kept": {
+              "0": 226,
+              "2": 82,
+              "3": 82
+            },
+            "tiles": 12,
+            "raw_before_global_nms": 10917
+          },
+          {
+            "image": "Arty_Top",
+            "kept": 1000,
+            "lowest_kept_score": 0.07378867268562317,
+            "classes_with_fewer_than_300_kept": {
+              "0": 106,
+              "2": 209,
+              "3": 141
+            },
+            "tiles": 35,
+            "raw_before_global_nms": 22506
+          },
+          {
+            "image": "Virtex6",
+            "kept": 1000,
+            "lowest_kept_score": 0.09472103416919708,
+            "classes_with_fewer_than_300_kept": {
+              "0": 206,
+              "2": 137,
+              "3": 123
+            },
+            "tiles": 35,
+            "raw_before_global_nms": 30867
+          },
+          {
+            "image": "XCM-307A_Top",
+            "kept": 1000,
+            "lowest_kept_score": 0.025522230193018913,
+            "classes_with_fewer_than_300_kept": {
+              "0": 149,
+              "2": 55,
+              "3": 157
+            },
+            "tiles": 9,
+            "raw_before_global_nms": 8854
+          },
+          {
+            "image": "Zybo",
+            "kept": 1000,
+            "lowest_kept_score": 0.0812796875834465,
+            "classes_with_fewer_than_300_kept": {
+              "0": 138,
+              "2": 142,
+              "3": 153
+            },
+            "tiles": 35,
+            "raw_before_global_nms": 27033
+          }
+        ]
+      }
+    ]
+  },
+  "inputs": [
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04\\reports\\evaluation_suite\\evaluations\\baseline__epoch_02__dual__val\\inference_profiles.json",
+      "sha256": "bb84af4a8810be44597d6158b6953f82a00c6799df88b61616f59370a95eb1bf",
+      "bytes": 2361
+    },
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04\\reports\\evaluation_suite\\evaluations\\baseline__epoch_02__dual__val\\samples.json",
+      "sha256": "4fc3cba86bc6033f9f9bc98c30ffae9bf92fde23008caf68b8660f6c5ac9ce7c",
+      "bytes": 2061107
+    },
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04\\reports\\evaluation_suite\\evaluations\\baseline__epoch_02__native__val\\inference_profiles.json",
+      "sha256": "0b8a9a5962cd8ef87a9483ca7428a2f652b9c950ded2333bfb229d6b2a6c44ba",
+      "bytes": 2236
+    },
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04\\reports\\evaluation_suite\\evaluations\\baseline__epoch_02__native__val\\samples.json",
+      "sha256": "eeefd7bd4405955d7956f8e7d02cea3c7da25cce3483b9dd0eb510203e8326ba",
+      "bytes": 2064359
+    },
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04\\reports\\evaluation_suite\\evaluations\\baseline__epoch_04__dual__val\\inference_profiles.json",
+      "sha256": "d3ff1b57feb32d5dc7e2d39394981a087688a1a0f916343dcff230a5b900cab2",
+      "bytes": 2355
+    },
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04\\reports\\evaluation_suite\\evaluations\\baseline__epoch_04__dual__val\\samples.json",
+      "sha256": "548c6dd27823f9035ae6c186cc529ab12822eb3467b44bdf2d0f3cf0cf900991",
+      "bytes": 1654329
+    },
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04\\reports\\evaluation_suite\\evaluations\\baseline__epoch_04__native__val\\inference_profiles.json",
+      "sha256": "0172d80c2b2919059b6e522d1b3fbce92de1180a02575b9309c40ecf28d87610",
+      "bytes": 2232
+    },
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04\\reports\\evaluation_suite\\evaluations\\baseline__epoch_04__native__val\\samples.json",
+      "sha256": "38ca6c88756b17195424bb3987fbb0da5643aa9a0e9b07570031b2d145f9a8e7",
+      "bytes": 1656257
+    },
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04\\reports\\evaluation_suite\\evaluations\\baseline__epoch_06__dual__val\\inference_profiles.json",
+      "sha256": "fe0f7fc55a4af4d4ee06b0b2cd3da408c216ff2caef1c11213153ca84c6876bc",
+      "bytes": 2353
+    },
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04\\reports\\evaluation_suite\\evaluations\\baseline__epoch_06__dual__val\\samples.json",
+      "sha256": "21c43b652b8c5cf2f3208259dc5655979833f49837dedb952dd911238e71a640",
+      "bytes": 1538302
+    },
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04\\reports\\evaluation_suite\\evaluations\\baseline__epoch_06__native__val\\inference_profiles.json",
+      "sha256": "2059e9923b3e58acfb329bf4a301175e546c4a44066348c1e9f86cac3cc39353",
+      "bytes": 2234
+    },
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04\\reports\\evaluation_suite\\evaluations\\baseline__epoch_06__native__val\\samples.json",
+      "sha256": "d8d5f6bb3dda32ee7c9a38428faf7f22e71170135eceabd3867a94c03c7c94a6",
+      "bytes": 1540482
+    },
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04\\reports\\evaluation_suite\\evaluations\\baseline__epoch_08__dual__val\\inference_profiles.json",
+      "sha256": "6afbc239a48243bd3816ec3e0410382695a0c82b8af87140186d662288e540d5",
+      "bytes": 2350
+    },
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04\\reports\\evaluation_suite\\evaluations\\baseline__epoch_08__dual__val\\samples.json",
+      "sha256": "b4e81d39c767fa6a629a1173f82a291e169837778be40f30f49a29c17feb4cc2",
+      "bytes": 1449266
+    },
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04\\reports\\evaluation_suite\\evaluations\\baseline__epoch_08__native__val\\inference_profiles.json",
+      "sha256": "10b1bcbda1cc91b97f296e01e77204668a5489281f63f3d7802919bf4e16b7d4",
+      "bytes": 2232
+    },
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04\\reports\\evaluation_suite\\evaluations\\baseline__epoch_08__native__val\\samples.json",
+      "sha256": "1a216bc54e59eb05faff43bcdb29e18ce802c462446d266a4c1a02d70acdcbf8",
+      "bytes": 1398438
+    },
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04\\reports\\evaluation_suite\\evaluations\\baseline__epoch_10__dual__val\\inference_profiles.json",
+      "sha256": "3aa91029754c7c01fe64184e0aa7af05982ab3aa7eb308fc4968d5b186c494ea",
+      "bytes": 2351
+    },
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04\\reports\\evaluation_suite\\evaluations\\baseline__epoch_10__dual__val\\samples.json",
+      "sha256": "74a19c66cc2d92b80286444c592e36cafb32dffda266787c337575591b3a38b2",
+      "bytes": 1439878
+    },
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04\\reports\\evaluation_suite\\evaluations\\baseline__epoch_10__native__val\\inference_profiles.json",
+      "sha256": "5b2605e86fa2be5e15a86e1dd1f10fc039844ec11f8c35c531f58f2991294021",
+      "bytes": 2230
+    },
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04\\reports\\evaluation_suite\\evaluations\\baseline__epoch_10__native__val\\samples.json",
+      "sha256": "a5fad30fe95229b4151305f75f6b0ab4ee3914524b26c76573f41624c7592539",
+      "bytes": 1378049
+    },
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04\\reports\\evaluation_suite\\evaluations\\baseline__epoch_12__dual__val\\inference_profiles.json",
+      "sha256": "0e4b160e24b9c369fd231322171464eae4aa5f5adb4f4a650ed9209a8ab39ae5",
+      "bytes": 2348
+    },
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04\\reports\\evaluation_suite\\evaluations\\baseline__epoch_12__dual__val\\samples.json",
+      "sha256": "82e88ffdac49c7384191a3864cf5e3d3c67b786b1ba153c9a56200bc8dea3f59",
+      "bytes": 1334161
+    },
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04\\reports\\evaluation_suite\\evaluations\\baseline__epoch_12__native__val\\inference_profiles.json",
+      "sha256": "d3dc7cd25157eb8b94c3e691f2a78079f844968d868d873bf20a4c5e0d3a8133",
+      "bytes": 2228
+    },
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04\\reports\\evaluation_suite\\evaluations\\baseline__epoch_12__native__val\\samples.json",
+      "sha256": "7ec68aad165f1340342e40ea0c6e859c298e8a21a1d093ad62881052362289d9",
+      "bytes": 1265152
+    },
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04\\reports\\evaluation_suite\\evaluations\\baseline__epoch_14__dual__val\\inference_profiles.json",
+      "sha256": "42ea08fbb7ce4384ff3199cb0df4bf8d8e2c48418097a14e267a3be512c96778",
+      "bytes": 2349
+    },
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04\\reports\\evaluation_suite\\evaluations\\baseline__epoch_14__dual__val\\samples.json",
+      "sha256": "f77e7f948b8f15b61058867c5c59f118ccfa924adb983094a59ede598575cf50",
+      "bytes": 1336503
+    },
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04\\reports\\evaluation_suite\\evaluations\\baseline__epoch_14__native__val\\inference_profiles.json",
+      "sha256": "67ac3ae498122ed53cfef6ec692852991b702e4280f3aa4b9e4f17c2f446ba96",
+      "bytes": 2227
+    },
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04\\reports\\evaluation_suite\\evaluations\\baseline__epoch_14__native__val\\samples.json",
+      "sha256": "bb140924d803e74ed93acf19fb001563ec0ee16538de88ec0d36a90c33535887",
+      "bytes": 1268937
+    },
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04\\reports\\evaluation_suite\\evaluations\\baseline__epoch_16__dual__val\\inference_profiles.json",
+      "sha256": "84b79fe645daeaf911b358435bfdfada34034aeb68bbcdefb53d3eb24beb108c",
+      "bytes": 2349
+    },
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04\\reports\\evaluation_suite\\evaluations\\baseline__epoch_16__dual__val\\samples.json",
+      "sha256": "4be58ac5d525e9b191a550378e279b3e012d20c75e521b1e34ecf6b8ec580a0c",
+      "bytes": 1366072
+    },
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04\\reports\\evaluation_suite\\evaluations\\baseline__epoch_16__native__val\\inference_profiles.json",
+      "sha256": "85f8ae74a581378d7b65babf1dcff72c4ebcf49c14b10275236c16f72f2055b4",
+      "bytes": 2226
+    },
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04\\reports\\evaluation_suite\\evaluations\\baseline__epoch_16__native__val\\samples.json",
+      "sha256": "238b9f2b5866c255bb933163df7578165563b6c9bb1c8c0cc344849d2f1dedd7",
+      "bytes": 1287705
+    },
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04\\reports\\evaluation_suite\\evaluations\\baseline__epoch_18__dual__val\\inference_profiles.json",
+      "sha256": "a971a2a1206814c3b65fbc97277478d9bac86512213709c12ac378cd629efb4b",
+      "bytes": 2347
+    },
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04\\reports\\evaluation_suite\\evaluations\\baseline__epoch_18__dual__val\\samples.json",
+      "sha256": "3609bc8dc60560c2675da52dbd60afeee61cc8380855a2b7f56779962c5ffbea",
+      "bytes": 1294606
+    },
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04\\reports\\evaluation_suite\\evaluations\\baseline__epoch_18__native__val\\inference_profiles.json",
+      "sha256": "dc9b1102b68152ce6960913cfa19f769122c57bd16d9ffcb7c75eb1f744e3880",
+      "bytes": 2225
+    },
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04\\reports\\evaluation_suite\\evaluations\\baseline__epoch_18__native__val\\samples.json",
+      "sha256": "e0f5284f0f260e8aecd941102d1e087f6ec6a0247686a2908c118cb55da92ad9",
+      "bytes": 1182149
+    },
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04\\reports\\evaluation_suite\\evaluations\\baseline__epoch_20__dual__val\\inference_profiles.json",
+      "sha256": "d48c0adf1437cf1452cbb7640efbe593e26c1e4e0c3827e6e5891d1de82c2e71",
+      "bytes": 2344
+    },
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04\\reports\\evaluation_suite\\evaluations\\baseline__epoch_20__dual__val\\samples.json",
+      "sha256": "881e7368692f925846d951f093976681961a436b1903b274bf5282d99a06541a",
+      "bytes": 1266326
+    },
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04\\reports\\evaluation_suite\\evaluations\\baseline__epoch_20__native__val\\inference_profiles.json",
+      "sha256": "435949e7bf6290ac8eed56afe4a1eed056bc86ee9895aa15e5bd4ff2aee33b01",
+      "bytes": 2225
+    },
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04\\reports\\evaluation_suite\\evaluations\\baseline__epoch_20__native__val\\samples.json",
+      "sha256": "ca0b054137dfe55f74e5ab7eb3d551f5971dd8078a8e0707a260c6504fb48108",
+      "bytes": 1116729
+    },
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04\\reports\\evaluation_suite\\evaluations\\improved__epoch_02__dual__val\\inference_profiles.json",
+      "sha256": "74d7fc4a5dee0063a3f8a6ea987da2abbf50509aa333bf53c35ac927b1b7809b",
+      "bytes": 2358
+    },
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04\\reports\\evaluation_suite\\evaluations\\improved__epoch_02__dual__val\\samples.json",
+      "sha256": "a21954254b4c60bbbb75d40a67370ced9256669b2425d092de1ee9b68918ff1a",
+      "bytes": 1898943
+    },
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04\\reports\\evaluation_suite\\evaluations\\improved__epoch_02__native__val\\inference_profiles.json",
+      "sha256": "a2471961fb4cc6f79f1a94efe4be02a1c74a7bca235ef63ecc3b78d29d6e9591",
+      "bytes": 2239
+    },
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04\\reports\\evaluation_suite\\evaluations\\improved__epoch_02__native__val\\samples.json",
+      "sha256": "be83648eb4a780f840ba8eac3fc82580f6cd50f08374957388a1a1bbbd334059",
+      "bytes": 1901704
+    }
+  ]
+}

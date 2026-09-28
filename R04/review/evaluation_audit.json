@@ -1,0 +1,926 @@
+{
+  "created_utc": "2026-09-28T12:18:55.647327+00:00",
+  "scope": "CPU metadata and saved prediction audit only; no training, inference, source mutation or remote operation",
+  "status": "R03_REVIEW_VERIFIED_WITH_QUALIFICATIONS_NOT_D455_VALIDATED",
+  "split_distribution": {
+    "train": {
+      "images": 27,
+      "groups": 18,
+      "objects": 3484,
+      "classes": {
+        "connector": 311,
+        "resistor": 1390,
+        "capacitor": 1570,
+        "ic": 213
+      },
+      "shortside_bins": {
+        "ge32": 1659,
+        "16to32": 1236,
+        "8to16": 589
+      },
+      "class_x_shortside": {
+        "connector": {
+          "ge32": 299,
+          "16to32": 12
+        },
+        "resistor": {
+          "16to32": 670,
+          "8to16": 351,
+          "ge32": 369
+        },
+        "capacitor": {
+          "16to32": 544,
+          "8to16": 238,
+          "ge32": 788
+        },
+        "ic": {
+          "ge32": 203,
+          "16to32": 10
+        }
+      },
+      "shortside_8to16_fraction": 0.1690585533869116
+    },
+    "val": {
+      "images": 7,
+      "groups": 5,
+      "objects": 875,
+      "classes": {
+        "resistor": 221,
+        "capacitor": 468,
+        "connector": 122,
+        "ic": 64
+      },
+      "shortside_bins": {
+        "16to32": 383,
+        "8to16": 24,
+        "ge32": 468
+      },
+      "class_x_shortside": {
+        "resistor": {
+          "16to32": 160,
+          "ge32": 61
+        },
+        "capacitor": {
+          "8to16": 24,
+          "16to32": 221,
+          "ge32": 223
+        },
+        "connector": {
+          "ge32": 120,
+          "16to32": 2
+        },
+        "ic": {
+          "ge32": 64
+        }
+      },
+      "shortside_8to16_fraction": 0.027428571428571427
+    },
+    "test": {
+      "images": 11,
+      "groups": 5,
+      "objects": 1348,
+      "classes": {
+        "connector": 176,
+        "resistor": 443,
+        "capacitor": 636,
+        "ic": 93
+      },
+      "shortside_bins": {
+        "ge32": 497,
+        "16to32": 405,
+        "8to16": 446
+      },
+      "class_x_shortside": {
+        "connector": {
+          "ge32": 172,
+          "16to32": 3,
+          "8to16": 1
+        },
+        "resistor": {
+          "ge32": 104,
+          "16to32": 116,
+          "8to16": 223
+        },
+        "capacitor": {
+          "ge32": 155,
+          "16to32": 259,
+          "8to16": 222
+        },
+        "ic": {
+          "ge32": 66,
+          "16to32": 27
+        }
+      },
+      "shortside_8to16_fraction": 0.33086053412462907
+    },
+    "pi_test": {
+      "images": 2,
+      "groups": 1,
+      "objects": 189,
+      "classes": {
+        "capacitor": 104,
+        "ic": 16,
+        "resistor": 57,
+        "connector": 12
+      },
+      "shortside_bins": {
+        "8to16": 77,
+        "16to32": 72,
+        "ge32": 38,
+        "lt8": 2
+      },
+      "class_x_shortside": {
+        "capacitor": {
+          "8to16": 49,
+          "16to32": 40,
+          "lt8": 2,
+          "ge32": 13
+        },
+        "ic": {
+          "16to32": 3,
+          "ge32": 13
+        },
+        "resistor": {
+          "8to16": 28,
+          "16to32": 29
+        },
+        "connector": {
+          "ge32": 12
+        }
+      },
+      "shortside_8to16_fraction": 0.4074074074074074
+    }
+  },
+  "trainval_group_inventory_for_restratification_only": {
+    "wacv:ACM-109": {
+      "original_split": "train",
+      "images": 2,
+      "class_counts": {
+        "connector": 7,
+        "resistor": 25,
+        "capacitor": 62,
+        "ic": 10
+      },
+      "shortside_counts": {
+        "ge32": 25,
+        "16to32": 17,
+        "8to16": 62
+      }
+    },
+    "wacv:ArduinoMega": {
+      "original_split": "train",
+      "images": 2,
+      "class_counts": {
+        "connector": 14,
+        "ic": 7,
+        "capacitor": 19,
+        "resistor": 3
+      },
+      "shortside_counts": {
+        "ge32": 41,
+        "16to32": 2
+      }
+    },
+    "wacv:Arty": {
+      "original_split": "train",
+      "images": 2,
+      "class_counts": {
+        "resistor": 270,
+        "connector": 16,
+        "ic": 14,
+        "capacitor": 179
+      },
+      "shortside_counts": {
+        "16to32": 312,
+        "ge32": 146,
+        "8to16": 21
+      }
+    },
+    "wacv:ATTIOT": {
+      "original_split": "train",
+      "images": 2,
+      "class_counts": {
+        "connector": 44,
+        "capacitor": 70,
+        "resistor": 82,
+        "ic": 17
+      },
+      "shortside_counts": {
+        "ge32": 136,
+        "16to32": 77
+      }
+    },
+    "wacv:DigitalDiscovery": {
+      "original_split": "train",
+      "images": 1,
+      "class_counts": {
+        "resistor": 89,
+        "connector": 4,
+        "ic": 10,
+        "capacitor": 76
+      },
+      "shortside_counts": {
+        "16to32": 144,
+        "ge32": 15,
+        "8to16": 20
+      }
+    },
+    "wacv:HackRF": {
+      "original_split": "train",
+      "images": 1,
+      "class_counts": {
+        "connector": 18,
+        "ic": 23,
+        "capacitor": 87,
+        "resistor": 83
+      },
+      "shortside_counts": {
+        "ge32": 121,
+        "16to32": 90
+      }
+    },
+    "wacv:ML365": {
+      "original_split": "train",
+      "images": 2,
+      "class_counts": {
+        "capacitor": 411,
+        "resistor": 520,
+        "ic": 9,
+        "connector": 45
+      },
+      "shortside_counts": {
+        "8to16": 387,
+        "16to32": 426,
+        "ge32": 172
+      }
+    },
+    "wacv:Spartan3": {
+      "original_split": "train",
+      "images": 1,
+      "class_counts": {
+        "connector": 13,
+        "ic": 5,
+        "capacitor": 28,
+        "resistor": 11
+      },
+      "shortside_counts": {
+        "ge32": 57
+      }
+    },
+    "wacv:Spartan6Redux": {
+      "original_split": "train",
+      "images": 2,
+      "class_counts": {
+        "ic": 19,
+        "resistor": 23,
+        "capacitor": 23,
+        "connector": 15
+      },
+      "shortside_counts": {
+        "ge32": 32,
+        "16to32": 22,
+        "8to16": 26
+      }
+    },
+    "wacv:STK644": {
+      "original_split": "train",
+      "images": 1,
+      "class_counts": {
+        "connector": 16,
+        "resistor": 3,
+        "capacitor": 12,
+        "ic": 3
+      },
+      "shortside_counts": {
+        "ge32": 34
+      }
+    },
+    "wacv:ThingMagicM6e": {
+      "original_split": "train",
+      "images": 1,
+      "class_counts": {
+        "resistor": 22,
+        "connector": 24,
+        "ic": 6,
+        "capacitor": 21
+      },
+      "shortside_counts": {
+        "ge32": 69,
+        "16to32": 4
+      }
+    },
+    "wacv:UTL-103": {
+      "original_split": "train",
+      "images": 1,
+      "class_counts": {
+        "capacitor": 77,
+        "resistor": 25,
+        "connector": 4,
+        "ic": 21
+      },
+      "shortside_counts": {
+        "16to32": 44,
+        "8to16": 57,
+        "ge32": 26
+      }
+    },
+    "wacv:Virtex5": {
+      "original_split": "train",
+      "images": 1,
+      "class_counts": {
+        "capacitor": 15,
+        "ic": 7,
+        "resistor": 8,
+        "connector": 3
+      },
+      "shortside_counts": {
+        "ge32": 33
+      }
+    },
+    "wacv:XCM-307A": {
+      "original_split": "train",
+      "images": 2,
+      "class_counts": {
+        "connector": 10,
+        "capacitor": 20,
+        "resistor": 29,
+        "ic": 12
+      },
+      "shortside_counts": {
+        "ge32": 55,
+        "16to32": 2,
+        "8to16": 14
+      }
+    },
+    "wacv:XLVDSproSupply": {
+      "original_split": "train",
+      "images": 3,
+      "class_counts": {
+        "connector": 26,
+        "capacitor": 200,
+        "resistor": 99,
+        "ic": 23
+      },
+      "shortside_counts": {
+        "ge32": 283,
+        "16to32": 63,
+        "8to16": 2
+      }
+    },
+    "wacv:Zedboard": {
+      "original_split": "train",
+      "images": 1,
+      "class_counts": {
+        "connector": 38,
+        "capacitor": 202,
+        "resistor": 16,
+        "ic": 6
+      },
+      "shortside_counts": {
+        "ge32": 245,
+        "16to32": 17
+      }
+    },
+    "wacv:Ztex": {
+      "original_split": "train",
+      "images": 1,
+      "class_counts": {
+        "capacitor": 18,
+        "resistor": 9,
+        "ic": 4,
+        "connector": 5
+      },
+      "shortside_counts": {
+        "16to32": 14,
+        "ge32": 22
+      }
+    },
+    "wacv:ZTurn": {
+      "original_split": "train",
+      "images": 1,
+      "class_counts": {
+        "connector": 9,
+        "resistor": 73,
+        "capacitor": 50,
+        "ic": 17
+      },
+      "shortside_counts": {
+        "ge32": 147,
+        "16to32": 2
+      }
+    },
+    "wacv:MicroZed": {
+      "original_split": "val",
+      "images": 2,
+      "class_counts": {
+        "resistor": 91,
+        "capacitor": 204,
+        "connector": 12,
+        "ic": 19
+      },
+      "shortside_counts": {
+        "16to32": 236,
+        "8to16": 23,
+        "ge32": 67
+      }
+    },
+    "wacv:SystemAce": {
+      "original_split": "val",
+      "images": 2,
+      "class_counts": {
+        "connector": 28,
+        "resistor": 44,
+        "capacitor": 71,
+        "ic": 8
+      },
+      "shortside_counts": {
+        "ge32": 103,
+        "16to32": 48
+      }
+    },
+    "wacv:UTL-016": {
+      "original_split": "val",
+      "images": 1,
+      "class_counts": {
+        "connector": 9,
+        "capacitor": 22,
+        "ic": 3,
+        "resistor": 13
+      },
+      "shortside_counts": {
+        "ge32": 14,
+        "16to32": 32,
+        "8to16": 1
+      }
+    },
+    "wacv:Virtex6": {
+      "original_split": "val",
+      "images": 1,
+      "class_counts": {
+        "capacitor": 95,
+        "connector": 50,
+        "resistor": 33,
+        "ic": 30
+      },
+      "shortside_counts": {
+        "ge32": 142,
+        "16to32": 66
+      }
+    },
+    "wacv:Zybo": {
+      "original_split": "val",
+      "images": 1,
+      "class_counts": {
+        "connector": 23,
+        "resistor": 40,
+        "capacitor": 76,
+        "ic": 4
+      },
+      "shortside_counts": {
+        "ge32": 142,
+        "16to32": 1
+      }
+    }
+  },
+  "dense_image_class_counts": [
+    {
+      "cohort": "train",
+      "image": "Arty_Bottom",
+      "class": "resistor",
+      "gt_count": 217,
+      "max100_recall_ceiling_for_image_class": 0.4608294930875576
+    },
+    {
+      "cohort": "train",
+      "image": "Arty_Bottom",
+      "class": "capacitor",
+      "gt_count": 134,
+      "max100_recall_ceiling_for_image_class": 0.746268656716418
+    },
+    {
+      "cohort": "train",
+      "image": "ML365_Bottom",
+      "class": "capacitor",
+      "gt_count": 371,
+      "max100_recall_ceiling_for_image_class": 0.2695417789757412
+    },
+    {
+      "cohort": "train",
+      "image": "ML365_Bottom",
+      "class": "resistor",
+      "gt_count": 289,
+      "max100_recall_ceiling_for_image_class": 0.3460207612456747
+    },
+    {
+      "cohort": "train",
+      "image": "ML365_Top",
+      "class": "resistor",
+      "gt_count": 231,
+      "max100_recall_ceiling_for_image_class": 0.4329004329004329
+    },
+    {
+      "cohort": "train",
+      "image": "XLVDSproSupply_Top1",
+      "class": "capacitor",
+      "gt_count": 194,
+      "max100_recall_ceiling_for_image_class": 0.5154639175257731
+    },
+    {
+      "cohort": "train",
+      "image": "Zedboard",
+      "class": "capacitor",
+      "gt_count": 202,
+      "max100_recall_ceiling_for_image_class": 0.49504950495049505
+    },
+    {
+      "cohort": "val",
+      "image": "MicroZed_Bottom",
+      "class": "capacitor",
+      "gt_count": 141,
+      "max100_recall_ceiling_for_image_class": 0.7092198581560284
+    },
+    {
+      "cohort": "test",
+      "image": "ML450_Bottom1",
+      "class": "capacitor",
+      "gt_count": 159,
+      "max100_recall_ceiling_for_image_class": 0.6289308176100629
+    },
+    {
+      "cohort": "test",
+      "image": "ML450_Top1",
+      "class": "capacitor",
+      "gt_count": 141,
+      "max100_recall_ceiling_for_image_class": 0.7092198581560284
+    },
+    {
+      "cohort": "test",
+      "image": "ML450_Top1",
+      "class": "resistor",
+      "gt_count": 140,
+      "max100_recall_ceiling_for_image_class": 0.7142857142857143
+    },
+    {
+      "cohort": "test",
+      "image": "ML450_Top2",
+      "class": "capacitor",
+      "gt_count": 119,
+      "max100_recall_ceiling_for_image_class": 0.8403361344537815
+    }
+  ],
+  "training_accounting": {
+    "parts_yolo11n": {
+      "epochs_completed": 20,
+      "train_images_or_tiles": 425,
+      "batch": 2,
+      "state_steps_min": 1164.0,
+      "state_steps_max": 1165.0,
+      "optimizer_step_call_counter_recorded": false,
+      "deterministically_reconstructed_calls_if_uninterrupted": 1165,
+      "reconstruction_assumptions": [
+        "No loader-length or batch change/restart",
+        "Current installed trainer matches training version",
+        "All scheduled batches completed"
+      ],
+      "checkpoint_epoch_after_stripping": -1,
+      "checkpoint_ema_updates_after_stripping": null,
+      "best_checkpoint_train_metrics_matching_csv_epochs": [
+        17
+      ],
+      "highest_training_loader_bbox_ap_epoch": 17,
+      "highest_training_loader_bbox_ap": 0.05346,
+      "train_metrics": {
+        "metrics/precision(B)": 0.31461,
+        "metrics/recall(B)": 0.12553,
+        "metrics/mAP50(B)": 0.10185,
+        "metrics/mAP50-95(B)": 0.05346,
+        "val/box_loss": 2.30054,
+        "val/cls_loss": 2.60608,
+        "val/dfl_loss": 1.45797,
+        "fitness": 0.05346
+      },
+      "terminal_callback_epochs_excluded": [
+        21
+      ]
+    },
+    "parts_yolo11s": {
+      "epochs_completed": 20,
+      "train_images_or_tiles": 425,
+      "batch": 2,
+      "state_steps_min": 1164.0,
+      "state_steps_max": 1165.0,
+      "optimizer_step_call_counter_recorded": false,
+      "deterministically_reconstructed_calls_if_uninterrupted": 1165,
+      "reconstruction_assumptions": [
+        "No loader-length or batch change/restart",
+        "Current installed trainer matches training version",
+        "All scheduled batches completed"
+      ],
+      "checkpoint_epoch_after_stripping": -1,
+      "checkpoint_ema_updates_after_stripping": null,
+      "best_checkpoint_train_metrics_matching_csv_epochs": [
+        18
+      ],
+      "highest_training_loader_bbox_ap_epoch": 18,
+      "highest_training_loader_bbox_ap": 0.05532,
+      "train_metrics": {
+        "metrics/precision(B)": 0.38514,
+        "metrics/recall(B)": 0.11225,
+        "metrics/mAP50(B)": 0.09732,
+        "metrics/mAP50-95(B)": 0.05532,
+        "val/box_loss": 2.2828,
+        "val/cls_loss": 2.65746,
+        "val/dfl_loss": 1.571,
+        "fitness": 0.05532
+      },
+      "terminal_callback_epochs_excluded": [
+        21
+      ]
+    },
+    "board_yolo11n": {
+      "epochs_completed": 5,
+      "train_images_or_tiles": 4179,
+      "batch": 8,
+      "state_steps_min": 2605.0,
+      "state_steps_max": 2615.0,
+      "optimizer_step_call_counter_recorded": false,
+      "deterministically_reconstructed_calls_if_uninterrupted": 2615,
+      "reconstruction_assumptions": [
+        "No loader-length or batch change/restart",
+        "Current installed trainer matches training version",
+        "All scheduled batches completed"
+      ],
+      "checkpoint_epoch_after_stripping": -1,
+      "checkpoint_ema_updates_after_stripping": null,
+      "best_checkpoint_train_metrics_matching_csv_epochs": [
+        5
+      ],
+      "highest_training_loader_bbox_ap_epoch": 5,
+      "highest_training_loader_bbox_ap": 0.85786,
+      "train_metrics": {
+        "metrics/precision(B)": 0.99058,
+        "metrics/recall(B)": 0.97868,
+        "metrics/mAP50(B)": 0.99416,
+        "metrics/mAP50-95(B)": 0.85786,
+        "val/box_loss": 0.63388,
+        "val/cls_loss": 0.36251,
+        "val/dfl_loss": 1.30514,
+        "fitness": 0.85786
+      },
+      "terminal_callback_epochs_excluded": [
+        6
+      ]
+    },
+    "board_yolo11n_seg": {
+      "epochs_completed": 5,
+      "train_images_or_tiles": 2148,
+      "batch": 4,
+      "state_steps_min": 1432.0,
+      "state_steps_max": 1477.0,
+      "optimizer_step_call_counter_recorded": false,
+      "deterministically_reconstructed_calls_if_uninterrupted": 1477,
+      "reconstruction_assumptions": [
+        "No loader-length or batch change/restart",
+        "Current installed trainer matches training version",
+        "All scheduled batches completed"
+      ],
+      "checkpoint_epoch_after_stripping": -1,
+      "checkpoint_ema_updates_after_stripping": null,
+      "best_checkpoint_train_metrics_matching_csv_epochs": [
+        5
+      ],
+      "highest_training_loader_bbox_ap_epoch": 5,
+      "highest_training_loader_bbox_ap": 0.9142,
+      "train_metrics": {
+        "metrics/precision(B)": 0.9882,
+        "metrics/recall(B)": 0.98851,
+        "metrics/mAP50(B)": 0.99466,
+        "metrics/mAP50-95(B)": 0.9142,
+        "metrics/precision(M)": 0.9882,
+        "metrics/recall(M)": 0.98851,
+        "metrics/mAP50(M)": 0.99466,
+        "metrics/mAP50-95(M)": 0.96706,
+        "val/box_loss": 0.38848,
+        "val/seg_loss": 0.64043,
+        "val/cls_loss": 0.37641,
+        "val/dfl_loss": 1.00709,
+        "val/sem_loss": 0.0,
+        "fitness": 1.88126
+      },
+      "terminal_callback_epochs_excluded": [
+        6
+      ]
+    }
+  },
+  "cpu_saved_prediction_recalculation": {
+    "general_test": {
+      "ap100": 0.20695252229350547,
+      "ap300": 0.23311062458117998,
+      "confidence": 0.35000000000000003,
+      "per_class_tp_fp_fn": [
+        [
+          295,
+          114,
+          148
+        ],
+        [
+          419,
+          85,
+          217
+        ],
+        [
+          20,
+          22,
+          73
+        ],
+        [
+          22,
+          31,
+          154
+        ]
+      ],
+      "precision": 0.75,
+      "recall": 0.5608308605341247,
+      "group_bootstrap_recall95": {
+        "resamples": 1000,
+        "groups": 5,
+        "lower": 0.12831858407079647,
+        "upper": 0.6550362080315998,
+        "scope": "Fixed-threshold recall CI, NOT an AP confidence interval; source-family groups, physical identity may be unknown"
+      },
+      "saved_predictions_recalculation_matches": true
+    },
+    "pi_test": {
+      "ap100": 0.231528018955079,
+      "ap300": 0.23160404043703783,
+      "confidence": 0.35000000000000003,
+      "per_class_tp_fp_fn": [
+        [
+          39,
+          15,
+          18
+        ],
+        [
+          51,
+          13,
+          53
+        ],
+        [
+          3,
+          3,
+          13
+        ],
+        [
+          0,
+          5,
+          12
+        ]
+      ],
+      "precision": 0.7209302325581395,
+      "recall": 0.49206349206349204,
+      "group_bootstrap_recall95": null,
+      "saved_predictions_recalculation_matches": true
+    }
+  },
+  "validation_candidates": {
+    "parts_yolo11n": {
+      "best_whole": {
+        "ap100": 0.05746542485623719,
+        "ap300": 0.05746476255733716,
+        "confidence": 0.1
+      },
+      "last_whole": {
+        "ap100": 0.051747814701589415,
+        "ap300": 0.051744633145528816,
+        "confidence": 0.1
+      },
+      "best_tile1024": {
+        "ap100": 0.20921871958945418,
+        "ap300": 0.21569740946555233,
+        "confidence": 0.45
+      },
+      "last_tile1024": {
+        "ap100": 0.21077415778090014,
+        "ap300": 0.2187620084904634,
+        "confidence": 0.6000000000000001
+      }
+    },
+    "parts_yolo11s": {
+      "best_whole": {
+        "ap100": 0.05843150134507016,
+        "ap300": 0.05843457547553654,
+        "confidence": 0.15000000000000002
+      },
+      "last_whole": {
+        "ap100": 0.045708409228093154,
+        "ap300": 0.0456987873060643,
+        "confidence": 0.1
+      },
+      "best_tile1024": {
+        "ap100": 0.24092052755224994,
+        "ap300": 0.24615086800269445,
+        "confidence": 0.35000000000000003
+      },
+      "last_tile1024": {
+        "ap100": 0.2031431031014666,
+        "ap300": 0.2090758747927623,
+        "confidence": 0.4
+      }
+    }
+  },
+  "claim_verdicts": [
+    {
+      "claim": "1165/2615/1477 are measured optimizer.step call counts",
+      "verdict": "QUALIFY",
+      "finding": "They are measured maxima of per-parameter AdamW state.step. No independent call hook was recorded. Deterministic scheduler reconstruction gives the same values; use inferred scheduled calls, not directly measured calls."
+    },
+    {
+      "claim": "s best checkpoint is epoch18",
+      "verdict": "SUPPORTED_BY_RECONSTRUCTION",
+      "finding": "Stripped checkpoint epoch=-1; its train_metrics uniquely match CSV epoch18, highest whole-loader fitness, and installed save_model saves fitness maxima. Record reconstructed epoch18, not a surviving epoch tag."
+    },
+    {
+      "claim": "val small-object coverage is poor",
+      "verdict": "CONFIRMED",
+      "finding": "Native 8<=shortside<16 counts: val24/875, general446/1348, Pi77/189. This is a selection representativeness limitation, not a COCO arithmetic error."
+    },
+    {
+      "claim": "best checkpoint selection differs from tiled deployment",
+      "verdict": "CONFIRMED_WITH_SCOPE",
+      "finding": "Training best is whole-image1024 fitness. R03 later correctly chose among best/last x whole/tile on native val, but never evaluated every epoch in deployed tiled mode; this restricts candidates, not test leakage."
+    },
+    {
+      "claim": "AP300 should be available for dense scenes",
+      "verdict": "CONFIRMED",
+      "finding": "COCO maxDets truncates per image/category here. R03 computed both correctly. Keep AP100 historical result and prespecify AP300 for R04; do not replace R03 metric definition retroactively."
+    },
+    {
+      "claim": "Graph05 does not mention training-loader versus final native tiled evaluation",
+      "verdict": "PARTLY_INCORRECT",
+      "finding": "Graph source footer already says VAL monitor comes from training loader and final native/tiled evaluation is separate. Add explicit whole-image downsample1024 wording and chosen-checkpoint epoch to make it clearer."
+    },
+    {
+      "claim": "s better than n is established",
+      "verdict": "NOT_ESTABLISHED",
+      "finding": "s is the validation-selected default. One Pi board group and broad general-test group recall interval do not establish significant model superiority; distinct thresholds also confound precision comparisons."
+    },
+    {
+      "claim": "Synthetic degraded-image performance is a lower bound on D455",
+      "verdict": "UNSUPPORTED",
+      "finding": "Neither resolution reduction nor assumed fx proves a lower bound for real optics, focus, noise, exposure, aliasing or domain shift. Use sensitivity probe only."
+    }
+  ],
+  "r04_recommended_protocol": {
+    "test_status": "R03 general/Pi test are now development holdouts because diagnostics informed R04. Preserve their image membership and original source GT; do not claim fresh final test. New independent D455 test remains unavailable.",
+    "split": "Restratify only the previous train+val union, preserving source board groups. Freeze labels/manifest SHA before fitting; objective uses class and native-size coverage, never predictions or R03 test performance. Compare R04 baseline and improved arm under identical new split.",
+    "initialization": "Start both arms from identical official pretrained checkpoint SHA, not the R03 fine-tuned model after repartitioning (it has seen some new-val groups).",
+    "budget": "At most20 epochs per arm plus prespecified equal optimizer-call budget, image/tile exposure and walltime records. Equal epochs alone are not equal effort when adding scales/oversampling; nbs8 does not guarantee same warmup updates with batch2 versus8.",
+    "counter": "Log optimizer.step pre/post hooks, per-parameter step min/max, EMA updates and global batches separately; count actual finite parameter change if needed. Preserve unstripped periodic metadata so best epoch survives.",
+    "checkpoint_selection": "Prespecify every2 completed epochs plus final checkpoint, label 1-based epoch explicitly (Ultralytics save_period names use0-based epoch). Evaluate each with final native/tile/multiscale pipeline on frozen val. Choose native AP300 then AP100 then prespecified tie-break. Freeze checkpoint SHA and class/global thresholds before development-holdout run.",
+    "metrics": "Native AP100+AP300, class-by-size AP/recall, PR curves; one confidence policy fixed on val. Report paired changes descriptively; preserve raw source-GT main metric and separate reviewed-label sensitivity analysis.",
+    "annotation_limits": "Known excluded categories are hard negatives for target4 only if ontology is reliable; unknown may include target4 and remains incomplete-label limitation. Filling gray is image masking, not mathematically ignored loss/COCO GT. Genuine ignore needs explicit supported loss/evaluation logic.",
+    "d455": "Real camera pixel dimensions/intrinsics/focus still need measurement. Synthetic down/up sampling is diagnostic, not D455 evidence or lower bound."
+  },
+  "source_sha256": {
+    "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\component_assets\\native_manifest.json": "4e34fd9dfe7c92952f1f7da4db700a797af249b10c19ad922171812ae954a9ca",
+    "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\runs\\parts_yolo11n\\environment.json": "a3aea5c6be4987c493a7e572849fa0ec2301005356fdb216689683fa2cf3c4a0",
+    "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\runs\\parts_yolo11n\\epoch_updates.json": "44f63fda6e1e5cfef64f4a750dd57e2888c0784bc9dc473a32448f6d36ef5802",
+    "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\runs\\parts_yolo11n\\fit\\results.csv": "3836f3003b5396309826f70799cbff7747b21f4237b324bb44a470e8ea90ba98",
+    "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\runs\\parts_yolo11n\\fit\\weights\\best.pt": "37a4d6abca501c37f451b9ea41c223a6ed4c58d9d2021a3e0a0b8d6d642b82c8",
+    "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\runs\\parts_yolo11s\\environment.json": "2a46d718f3148217aed0eefae21f7785e5d49c37cd0130dd1f3ec7932309f114",
+    "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\runs\\parts_yolo11s\\epoch_updates.json": "785d68d8b0ea3218ae9baa83560109578f344efb443664f7e3e1a502ab3a7ff9",
+    "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\runs\\parts_yolo11s\\fit\\results.csv": "477c19c2ca792439694230e09c56cbb52bb4bd771c5e13623cf2f8ec8cafc552",
+    "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\runs\\parts_yolo11s\\fit\\weights\\best.pt": "5f5914c256863d87129de1e6cf93ad7fdea700fc43c85339d599256f3d232d74",
+    "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\runs\\board_yolo11n\\environment.json": "f698cc3538b4efa2eab1a52b28ee8804481c23efda1a269c5d251ae288a2b360",
+    "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\runs\\board_yolo11n\\epoch_updates.json": "f3da4a19156953f7d19212d6a1407809955f7224f4b9a5622cb4503f6d20ce88",
+    "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\runs\\board_yolo11n\\fit\\results.csv": "2cf2c105944988826796d4c5750e4793e2af8ef6fb8df1a3b35c89fa037a9deb",
+    "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\runs\\board_yolo11n\\fit\\weights\\best.pt": "0bc7a0ef6aa5108728a2357e5c4b20189330f58366bf52b4251f3754b14707db",
+    "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\runs\\board_yolo11n_seg\\environment.json": "92613cc872fac3f8a9937f41901595ef09b74ed836e5dbf6806e9b316deaa82b",
+    "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\runs\\board_yolo11n_seg\\epoch_updates.json": "5037a7e7f5bd0152568145b6e25e8421da0499c9b10353dd366032694c373375",
+    "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\runs\\board_yolo11n_seg\\fit\\results.csv": "a162caa87ae7b2b5d675c0119cad7a29cb4409523895a12195a726d9532ff15c",
+    "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\runs\\board_yolo11n_seg\\fit\\weights\\best.pt": "e6dcdd38b43df1238b0781a5a9ad30b69c14a3bd2a2c84b2303e2f4ebff267a2",
+    "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\reports\\evaluation_suite\\evaluations\\parts_yolo11s__general_test\\metrics.json": "104867926e868e382537618eba2c6fa353f3ce6f25e74d3e3ae876f2927b3ddb",
+    "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\reports\\evaluation_suite\\evaluations\\parts_yolo11s__general_test\\native_ground_truth.json": "a35b0d57f832b18b6212bdb8a6c1f018a590e52a74df5c79afa0ed63bb0fb650",
+    "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\reports\\evaluation_suite\\evaluations\\parts_yolo11s__general_test\\bbox_predictions.json": "bdf3bac4b0bca81f8c74fbb391e5644a23232ec67bbe457536c40657c560aac0",
+    "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\reports\\evaluation_suite\\evaluations\\parts_yolo11s__general_test\\samples.json": "84bd6e55aa80d6f913ee82d3c0e25751b99178155cef7362f331afe21930f00a",
+    "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\reports\\evaluation_suite\\evaluations\\parts_yolo11s__pi_test\\metrics.json": "d923052b47c16467064476cb71034654fd5b319c4733cd8de5138ee70c26668b",
+    "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\reports\\evaluation_suite\\evaluations\\parts_yolo11s__pi_test\\native_ground_truth.json": "91383d3b3fdbdee0da841828d1a1245729c6a348b322c33b80d65e4bd4ef34f1",
+    "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\reports\\evaluation_suite\\evaluations\\parts_yolo11s__pi_test\\bbox_predictions.json": "f192088a055b05ead2a43478e445268b9c1a9989bc3f5232383720ecaee58c51",
+    "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\reports\\evaluation_suite\\evaluations\\parts_yolo11s__pi_test\\samples.json": "83b88fe2d7f974df4ac09ad37f1f3abb5d3f333fb0dd25c9cc18bf749f51346e",
+    "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\reports\\evaluation_suite\\evaluations\\parts_yolo11n__val__best_whole\\metrics.json": "96905b800994f77b169ffe78833f8dcaaff23394c84fd13cfea9c73f2f5c3d59",
+    "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\reports\\evaluation_suite\\evaluations\\parts_yolo11n__val__last_whole\\metrics.json": "739f81e73cded238ca1ad4716126b6720b812cb59e5d9b914182f5dd019d0df8",
+    "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\reports\\evaluation_suite\\evaluations\\parts_yolo11n__val__best_tile1024\\metrics.json": "5baa3e70a9ad12879f57d3c324643959e50aa5158beced480b56024fb31013d5",
+    "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\reports\\evaluation_suite\\evaluations\\parts_yolo11n__val__last_tile1024\\metrics.json": "aad1de6676cd4fb2e5743c5b48f365b37137a77d262b8d5940513be864b42743",
+    "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\reports\\evaluation_suite\\evaluations\\parts_yolo11s__val__best_whole\\metrics.json": "e4446297c3ed80c8efe9d51fc1c03f6d121381b492b1ed8f1c0907281a6e8dc2",
+    "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\reports\\evaluation_suite\\evaluations\\parts_yolo11s__val__last_whole\\metrics.json": "7bb2c084e53cf4847dd6c04ad4b2b8d7007e5567371b3f932529e32f681a8256",
+    "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\reports\\evaluation_suite\\evaluations\\parts_yolo11s__val__best_tile1024\\metrics.json": "6d6161bad167a60a09449a6cec863a4e852c7fba5d909e5a053d37400acd9587",
+    "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\reports\\evaluation_suite\\evaluations\\parts_yolo11s__val__last_tile1024\\metrics.json": "0f95b639476f8e3c02d56b3615867434afb3abead77a10157ce4e7bf4481db0a",
+    "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\scripts\\train_model.py": "93ec27958ab92eaf5bfe37da0494b7183f39977407799e57d5a87e1345d32fb8",
+    "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\scripts\\native_evaluate.py": "a5d9ce1733128d7e89bdcf5ab76f4d3fa49f6d8a4418817d3d7b2e58037dc704",
+    "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\scripts\\run_evaluation_suite.py": "b90e014b2d05d228d827632e69931a051e42ac25fbc826480b97037f4d2c6035",
+    "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\scripts\\make_r03_result_figures.py": "29538da9b3406a42df93e78f4b3f53f76d5de2d59fe723a9cbca01a5569eb026",
+    "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\reports\\evaluation_suite\\selection.json": "65bd40ec349a211ff1af222dae0ab7389fed7c9fc92d9fca10e4c83928917785",
+    "C:\\Users\\hkjun\\Documents\\mcu-vision\\.venv-yolo11\\Lib\\site-packages\\ultralytics\\engine\\trainer.py": "21591c434e65a0bb6a10504f9184c3af012dde58b4b15d714f0f7b93ed0d128c",
+    "C:\\Users\\hkjun\\Documents\\mcu-vision\\.venv-yolo11\\Lib\\site-packages\\ultralytics\\utils\\metrics.py": "974116d855398c48cd4cb30919b5ee424f8eaf555198086d7d5dc3068bc71ce2"
+  }
+}

@@ -1,0 +1,1162 @@
+{
+  "script": "r01_hash_bindings",
+  "generated_utc": "2026-09-28T16:00:03.307863+00:00",
+  "review_commit": "17f72fdd9143bca6645f9b342414b0c5a2c1ed6d",
+  "inputs_modified": false,
+  "definitions": {
+    "identity": "SHA-256 of whole file bytes",
+    "prf": "precision=TP/(TP+FP), recall=TP/(TP+FN), F1=2PR/(P+R) from stored operating counts",
+    "scope": "Completed validation jobs only (22/40); no holdout job exists yet"
+  },
+  "results": {
+    "archive_head": "17f72fdd9143bca6645f9b342414b0c5a2c1ed6d",
+    "archive_status_porcelain": "",
+    "archive_head_is_review_commit": true,
+    "archive_clean": true,
+    "github_local_identity": [
+      {
+        "file": "protocol.json",
+        "github_sha256": "c712d8f3e24ce8fa8291d4b2e7e2593924ccdb154ba4361f50958e63555a4def",
+        "local_sha256": "c712d8f3e24ce8fa8291d4b2e7e2593924ccdb154ba4361f50958e63555a4def",
+        "identical": true
+      },
+      {
+        "file": "stress_protocol.json",
+        "github_sha256": "7afc529c3ddb6131ba5ee2db9281f8ff8a851407f165799cbdd5b6840d9fbb1d",
+        "local_sha256": "7afc529c3ddb6131ba5ee2db9281f8ff8a851407f165799cbdd5b6840d9fbb1d",
+        "identical": true
+      },
+      {
+        "file": "runs/baseline/start.json",
+        "github_sha256": "6c43d262ed005be628106aaead38c3d4c0669c679f52d04d2fc71b4f1c6f35ca",
+        "local_sha256": "6c43d262ed005be628106aaead38c3d4c0669c679f52d04d2fc71b4f1c6f35ca",
+        "identical": true
+      },
+      {
+        "file": "runs/baseline/training_summary.json",
+        "github_sha256": "6c575cabac797f666ea46ec9c4b2b7ccb9c2557b6d11bd8b3eab562c7466b222",
+        "local_sha256": "6c575cabac797f666ea46ec9c4b2b7ccb9c2557b6d11bd8b3eab562c7466b222",
+        "identical": true
+      },
+      {
+        "file": "runs/baseline/epochs.json",
+        "github_sha256": "39d12c00ad31abebb05591d43dec7f323854eee0b8cd1c8e17fc994876856032",
+        "local_sha256": "39d12c00ad31abebb05591d43dec7f323854eee0b8cd1c8e17fc994876856032",
+        "identical": true
+      },
+      {
+        "file": "runs/baseline/sampled_exposures.json",
+        "github_sha256": "fb214f20f2d7517b6e8fae58b558e1323e3e708c449527eb219682f8873f49b6",
+        "local_sha256": "fb214f20f2d7517b6e8fae58b558e1323e3e708c449527eb219682f8873f49b6",
+        "identical": true
+      },
+      {
+        "file": "runs/baseline/candidates.json",
+        "github_sha256": "37326c24b33ce48d51b131a633da1111d99636552f2601d2a2fc8d94f9497510",
+        "local_sha256": "37326c24b33ce48d51b131a633da1111d99636552f2601d2a2fc8d94f9497510",
+        "identical": true
+      },
+      {
+        "file": "runs/improved/start.json",
+        "github_sha256": "db7abdf95588c9efd651e5ad6b7f0db9905c4c2fdf5d32b4fe8061fee2538b56",
+        "local_sha256": "db7abdf95588c9efd651e5ad6b7f0db9905c4c2fdf5d32b4fe8061fee2538b56",
+        "identical": true
+      },
+      {
+        "file": "runs/improved/training_summary.json",
+        "github_sha256": "e6a293184efb56c71c367deb935010d0ae424159ccc3ba8def70e6500c1d005d",
+        "local_sha256": "e6a293184efb56c71c367deb935010d0ae424159ccc3ba8def70e6500c1d005d",
+        "identical": true
+      },
+      {
+        "file": "runs/improved/epochs.json",
+        "github_sha256": "9b11cdd78a3a0b574106c1b484cd8ebf9481c85fd25af68c3c15dd2b2b4c9493",
+        "local_sha256": "9b11cdd78a3a0b574106c1b484cd8ebf9481c85fd25af68c3c15dd2b2b4c9493",
+        "identical": true
+      },
+      {
+        "file": "runs/improved/sampled_exposures.json",
+        "github_sha256": "d9b2706218ff76988c7edbeabd88b96e7ea88cbd343575b19bd8f839870e6e9a",
+        "local_sha256": "d9b2706218ff76988c7edbeabd88b96e7ea88cbd343575b19bd8f839870e6e9a",
+        "identical": true
+      },
+      {
+        "file": "runs/improved/candidates.json",
+        "github_sha256": "d9d154ea88ad3c9154bdcda7c72466e5e23725168b277869057e4571b51f90d4",
+        "local_sha256": "d9d154ea88ad3c9154bdcda7c72466e5e23725168b277869057e4571b51f90d4",
+        "identical": true
+      },
+      {
+        "file": "scripts/prepare_r04.py",
+        "github_sha256": "5bbdd79455adee7178e2552512c38c4c9744743987df54e9c00bf19d1152b1dc",
+        "local_sha256": "5bbdd79455adee7178e2552512c38c4c9744743987df54e9c00bf19d1152b1dc",
+        "identical": true
+      },
+      {
+        "file": "scripts/train_r04.py",
+        "github_sha256": "336c958b7a01ed07662c02d7d3767974a952dd2438ec4a196779a9dcb300a60b",
+        "local_sha256": "336c958b7a01ed07662c02d7d3767974a952dd2438ec4a196779a9dcb300a60b",
+        "identical": true
+      },
+      {
+        "file": "scripts/ignore_adapter.py",
+        "github_sha256": "a8d5bd2baa4b43f86ce0ffd9507eeec69be1a29d431a1ba12b1b38534ca95280",
+        "local_sha256": "a8d5bd2baa4b43f86ce0ffd9507eeec69be1a29d431a1ba12b1b38534ca95280",
+        "identical": true
+      },
+      {
+        "file": "scripts/test_ignore_adapter.py",
+        "github_sha256": "3a075a8c9bad48b6187b71945ae1194e6773c180f3b16138692ff59015dbd14c",
+        "local_sha256": "3a075a8c9bad48b6187b71945ae1194e6773c180f3b16138692ff59015dbd14c",
+        "identical": true
+      },
+      {
+        "file": "scripts/evaluate_r04.py",
+        "github_sha256": "b62dce3fa1e3b8a0fe0b4526809bde5bf63f914e0e53ac8398f2f29b1c35b3e5",
+        "local_sha256": "b62dce3fa1e3b8a0fe0b4526809bde5bf63f914e0e53ac8398f2f29b1c35b3e5",
+        "identical": true
+      },
+      {
+        "file": "scripts/test_evaluate_r04.py",
+        "github_sha256": "ba1e96d1cd584adb137e1acc9a12a923a0b9cf5f836f54212eea9477adef3bbe",
+        "local_sha256": "ba1e96d1cd584adb137e1acc9a12a923a0b9cf5f836f54212eea9477adef3bbe",
+        "identical": true
+      },
+      {
+        "file": "scripts/run_r04_evaluation.py",
+        "github_sha256": "82e5a95fd5c2c14e827761c923786be15e7ac790f5df622678ae96f2dbd57f65",
+        "local_sha256": "82e5a95fd5c2c14e827761c923786be15e7ac790f5df622678ae96f2dbd57f65",
+        "identical": true
+      },
+      {
+        "file": "scripts/audit_r04_results.py",
+        "github_sha256": "90e4155d40e3ce8f420290704e567291c53534c5c6924dd96d894ca19c9b7799",
+        "local_sha256": "90e4155d40e3ce8f420290704e567291c53534c5c6924dd96d894ca19c9b7799",
+        "identical": true
+      },
+      {
+        "file": "scripts/evaluate_resolution_stress.py",
+        "github_sha256": "e92b18c1f3469616855dfa3954d172364c2099e983618e695acfbb0195eee1a5",
+        "local_sha256": "e92b18c1f3469616855dfa3954d172364c2099e983618e695acfbb0195eee1a5",
+        "identical": true
+      },
+      {
+        "file": "reports/data_independent_audit.json",
+        "github_sha256": "0abe8899f603d196bc10af4d0116120f681bbb03718b25b5ac6be99e56090b0f",
+        "local_sha256": "0abe8899f603d196bc10af4d0116120f681bbb03718b25b5ac6be99e56090b0f",
+        "identical": true
+      },
+      {
+        "file": "reports/ignore_adapter_tests.json",
+        "github_sha256": "5964f138d526ff04c01260f12928e041fa59a6a20b08383501ae0fbe94a32845",
+        "local_sha256": "5964f138d526ff04c01260f12928e041fa59a6a20b08383501ae0fbe94a32845",
+        "identical": true
+      }
+    ],
+    "github_local_all_identical": true,
+    "protocol_input_bindings": {
+      "initial_weights": {
+        "expected": "85a76fe86dd8afe384648546b56a7a78580c7cb7b404fc595f97969322d502d5",
+        "actual": "85a76fe86dd8afe384648546b56a7a78580c7cb7b404fc595f97969322d502d5",
+        "match": true
+      },
+      "data_summary": {
+        "expected": "e9049d08689f00276ea68702fe9c8b346d11aabd05be645b8eaecf959f952f46",
+        "actual": "e9049d08689f00276ea68702fe9c8b346d11aabd05be645b8eaecf959f952f46",
+        "match": true
+      },
+      "native_manifest": {
+        "expected": "a91d4956da6adc8b3eebcd87da6e8e428362e1c14cef9e8f9d5a4583817d8c19",
+        "actual": "a91d4956da6adc8b3eebcd87da6e8e428362e1c14cef9e8f9d5a4583817d8c19",
+        "match": true
+      }
+    },
+    "validation_jobs": 22,
+    "validation_evaluator_sha256": [
+      "b62dce3fa1e3b8a0fe0b4526809bde5bf63f914e0e53ac8398f2f29b1c35b3e5"
+    ],
+    "validation_manifest_sha256": [
+      "a91d4956da6adc8b3eebcd87da6e8e428362e1c14cef9e8f9d5a4583817d8c19"
+    ],
+    "validation_problems": [],
+    "validation_table": [
+      {
+        "job": "baseline__epoch_02__dual__val",
+        "epoch": 2,
+        "partial_epoch": false,
+        "optimizer_calls": 168,
+        "pipeline": "dual",
+        "ap50_95_max300": 0.14903562230724904,
+        "ap50_95_max100": 0.12062069540179585,
+        "operating_confidence": 0.6,
+        "tp": 573,
+        "fp": 1114,
+        "fn": 479,
+        "precision": 0.3396561944279787,
+        "recall": 0.5446768060836502,
+        "f1": 0.41840087623220157,
+        "latency_p50_ms": 488.1372000090778
+      },
+      {
+        "job": "baseline__epoch_02__native__val",
+        "epoch": 2,
+        "partial_epoch": false,
+        "optimizer_calls": 168,
+        "pipeline": "native",
+        "ap50_95_max300": 0.12040068852593076,
+        "ap50_95_max100": 0.09096920133474755,
+        "operating_confidence": 0.5,
+        "tp": 591,
+        "fp": 1093,
+        "fn": 461,
+        "precision": 0.3509501187648456,
+        "recall": 0.561787072243346,
+        "f1": 0.4320175438596491,
+        "latency_p50_ms": 463.32809998421
+      },
+      {
+        "job": "baseline__epoch_04__dual__val",
+        "epoch": 4,
+        "partial_epoch": false,
+        "optimizer_calls": 280,
+        "pipeline": "dual",
+        "ap50_95_max300": 0.31620817044730304,
+        "ap50_95_max100": 0.2835543953211011,
+        "operating_confidence": 0.6,
+        "tp": 679,
+        "fp": 460,
+        "fn": 373,
+        "precision": 0.5961369622475856,
+        "recall": 0.6454372623574145,
+        "f1": 0.6198083067092652,
+        "latency_p50_ms": 328.3443999825977
+      },
+      {
+        "job": "baseline__epoch_04__native__val",
+        "epoch": 4,
+        "partial_epoch": false,
+        "optimizer_calls": 280,
+        "pipeline": "native",
+        "ap50_95_max300": 0.2780109463668659,
+        "ap50_95_max100": 0.24880033431369128,
+        "operating_confidence": 0.55,
+        "tp": 567,
+        "fp": 358,
+        "fn": 485,
+        "precision": 0.6129729729729729,
+        "recall": 0.5389733840304183,
+        "f1": 0.5735963581183612,
+        "latency_p50_ms": 210.84850002080202
+      },
+      {
+        "job": "baseline__epoch_06__dual__val",
+        "epoch": 6,
+        "partial_epoch": false,
+        "optimizer_calls": 392,
+        "pipeline": "dual",
+        "ap50_95_max300": 0.3154619682479876,
+        "ap50_95_max100": 0.29067409212934897,
+        "operating_confidence": 0.6,
+        "tp": 708,
+        "fp": 391,
+        "fn": 344,
+        "precision": 0.6442220200181984,
+        "recall": 0.6730038022813688,
+        "f1": 0.6582984658298465,
+        "latency_p50_ms": 319.54050000058487
+      },
+      {
+        "job": "baseline__epoch_06__native__val",
+        "epoch": 6,
+        "partial_epoch": false,
+        "optimizer_calls": 392,
+        "pipeline": "native",
+        "ap50_95_max300": 0.27723851380808573,
+        "ap50_95_max100": 0.25430243022892185,
+        "operating_confidence": 0.5,
+        "tp": 671,
+        "fp": 435,
+        "fn": 381,
+        "precision": 0.6066907775768535,
+        "recall": 0.6378326996197718,
+        "f1": 0.6218721037998146,
+        "latency_p50_ms": 245.97329998505302
+      },
+      {
+        "job": "baseline__epoch_08__dual__val",
+        "epoch": 8,
+        "partial_epoch": false,
+        "optimizer_calls": 504,
+        "pipeline": "dual",
+        "ap50_95_max300": 0.3461763093437149,
+        "ap50_95_max100": 0.31734834449668176,
+        "operating_confidence": 0.65,
+        "tp": 673,
+        "fp": 213,
+        "fn": 379,
+        "precision": 0.7595936794582393,
+        "recall": 0.6397338403041825,
+        "f1": 0.6945304437564499,
+        "latency_p50_ms": 276.21710000676103
+      },
+      {
+        "job": "baseline__epoch_08__native__val",
+        "epoch": 8,
+        "partial_epoch": false,
+        "optimizer_calls": 504,
+        "pipeline": "native",
+        "ap50_95_max300": 0.2885821971166293,
+        "ap50_95_max100": 0.2599085048014094,
+        "operating_confidence": 0.5,
+        "tp": 648,
+        "fp": 248,
+        "fn": 404,
+        "precision": 0.7232142857142857,
+        "recall": 0.6159695817490495,
+        "f1": 0.6652977412731007,
+        "latency_p50_ms": 226.7305999994278
+      },
+      {
+        "job": "baseline__epoch_10__dual__val",
+        "epoch": 10,
+        "partial_epoch": false,
+        "optimizer_calls": 616,
+        "pipeline": "dual",
+        "ap50_95_max300": 0.36112272034672194,
+        "ap50_95_max100": 0.3321479706544031,
+        "operating_confidence": 0.75,
+        "tp": 693,
+        "fp": 182,
+        "fn": 359,
+        "precision": 0.792,
+        "recall": 0.658745247148289,
+        "f1": 0.7192527244421382,
+        "latency_p50_ms": 282.9828000103589
+      },
+      {
+        "job": "baseline__epoch_10__native__val",
+        "epoch": 10,
+        "partial_epoch": false,
+        "optimizer_calls": 616,
+        "pipeline": "native",
+        "ap50_95_max300": 0.30339878804888115,
+        "ap50_95_max100": 0.2747338137452566,
+        "operating_confidence": 0.5,
+        "tp": 728,
+        "fp": 302,
+        "fn": 324,
+        "precision": 0.7067961165048544,
+        "recall": 0.6920152091254753,
+        "f1": 0.6993275696445725,
+        "latency_p50_ms": 263.459799985867
+      },
+      {
+        "job": "baseline__epoch_12__dual__val",
+        "epoch": 12,
+        "partial_epoch": false,
+        "optimizer_calls": 728,
+        "pipeline": "dual",
+        "ap50_95_max300": 0.34320135037661953,
+        "ap50_95_max100": 0.30540373681207006,
+        "operating_confidence": 0.45,
+        "tp": 715,
+        "fp": 336,
+        "fn": 337,
+        "precision": 0.6803044719314938,
+        "recall": 0.6796577946768061,
+        "f1": 0.6799809795530195,
+        "latency_p50_ms": 277.5797999929637
+      },
+      {
+        "job": "baseline__epoch_12__native__val",
+        "epoch": 12,
+        "partial_epoch": false,
+        "optimizer_calls": 728,
+        "pipeline": "native",
+        "ap50_95_max300": 0.30203715420018706,
+        "ap50_95_max100": 0.26285109930607825,
+        "operating_confidence": 0.3,
+        "tp": 708,
+        "fp": 332,
+        "fn": 344,
+        "precision": 0.6807692307692308,
+        "recall": 0.6730038022813688,
+        "f1": 0.6768642447418739,
+        "latency_p50_ms": 234.10209998837672
+      },
+      {
+        "job": "baseline__epoch_14__dual__val",
+        "epoch": 14,
+        "partial_epoch": false,
+        "optimizer_calls": 840,
+        "pipeline": "dual",
+        "ap50_95_max300": 0.3441818792450482,
+        "ap50_95_max100": 0.31158762049541655,
+        "operating_confidence": 0.7,
+        "tp": 746,
+        "fp": 228,
+        "fn": 306,
+        "precision": 0.7659137577002053,
+        "recall": 0.7091254752851711,
+        "f1": 0.7364264560710759,
+        "latency_p50_ms": 281.3286999880802
+      },
+      {
+        "job": "baseline__epoch_14__native__val",
+        "epoch": 14,
+        "partial_epoch": false,
+        "optimizer_calls": 840,
+        "pipeline": "native",
+        "ap50_95_max300": 0.3085058468864295,
+        "ap50_95_max100": 0.276739046447503,
+        "operating_confidence": 0.45,
+        "tp": 764,
+        "fp": 322,
+        "fn": 288,
+        "precision": 0.7034990791896869,
+        "recall": 0.7262357414448669,
+        "f1": 0.7146866230121608,
+        "latency_p50_ms": 245.96489997929893
+      },
+      {
+        "job": "baseline__epoch_16__dual__val",
+        "epoch": 16,
+        "partial_epoch": false,
+        "optimizer_calls": 952,
+        "pipeline": "dual",
+        "ap50_95_max300": 0.37920759832894246,
+        "ap50_95_max100": 0.3442017605967222,
+        "operating_confidence": 0.7,
+        "tp": 737,
+        "fp": 223,
+        "fn": 315,
+        "precision": 0.7677083333333333,
+        "recall": 0.7005703422053232,
+        "f1": 0.7326043737574554,
+        "latency_p50_ms": 264.2803000053391
+      },
+      {
+        "job": "baseline__epoch_16__native__val",
+        "epoch": 16,
+        "partial_epoch": false,
+        "optimizer_calls": 952,
+        "pipeline": "native",
+        "ap50_95_max300": 0.33602809344228635,
+        "ap50_95_max100": 0.3027532159278121,
+        "operating_confidence": 0.5,
+        "tp": 734,
+        "fp": 271,
+        "fn": 318,
+        "precision": 0.7303482587064677,
+        "recall": 0.6977186311787072,
+        "f1": 0.7136606708799221,
+        "latency_p50_ms": 254.18180000269786
+      },
+      {
+        "job": "baseline__epoch_18__dual__val",
+        "epoch": 18,
+        "partial_epoch": false,
+        "optimizer_calls": 1064,
+        "pipeline": "dual",
+        "ap50_95_max300": 0.38498834797662446,
+        "ap50_95_max100": 0.34959225042636016,
+        "operating_confidence": 0.7,
+        "tp": 753,
+        "fp": 252,
+        "fn": 299,
+        "precision": 0.7492537313432835,
+        "recall": 0.7157794676806084,
+        "f1": 0.7321341759844433,
+        "latency_p50_ms": 259.6616999944672
+      },
+      {
+        "job": "baseline__epoch_18__native__val",
+        "epoch": 18,
+        "partial_epoch": false,
+        "optimizer_calls": 1064,
+        "pipeline": "native",
+        "ap50_95_max300": 0.34813091549305875,
+        "ap50_95_max100": 0.3146232424526976,
+        "operating_confidence": 0.55,
+        "tp": 739,
+        "fp": 260,
+        "fn": 313,
+        "precision": 0.7397397397397397,
+        "recall": 0.7024714828897338,
+        "f1": 0.7206240858117992,
+        "latency_p50_ms": 250.02179999137297
+      },
+      {
+        "job": "baseline__epoch_20__dual__val",
+        "epoch": 20,
+        "partial_epoch": true,
+        "optimizer_calls": 1165,
+        "pipeline": "dual",
+        "ap50_95_max300": 0.3924585727507874,
+        "ap50_95_max100": 0.3554185928316102,
+        "operating_confidence": 0.75,
+        "tp": 728,
+        "fp": 197,
+        "fn": 324,
+        "precision": 0.787027027027027,
+        "recall": 0.6920152091254753,
+        "f1": 0.7364693980778958,
+        "latency_p50_ms": 259.3172000197228
+      },
+      {
+        "job": "baseline__epoch_20__native__val",
+        "epoch": 20,
+        "partial_epoch": true,
+        "optimizer_calls": 1165,
+        "pipeline": "native",
+        "ap50_95_max300": 0.3539304318005965,
+        "ap50_95_max100": 0.3201997859105784,
+        "operating_confidence": 0.45,
+        "tp": 763,
+        "fp": 276,
+        "fn": 289,
+        "precision": 0.7343599615014437,
+        "recall": 0.7252851711026616,
+        "f1": 0.729794356767097,
+        "latency_p50_ms": 255.4768999980297
+      },
+      {
+        "job": "improved__epoch_02__dual__val",
+        "epoch": 2,
+        "partial_epoch": false,
+        "optimizer_calls": 168,
+        "pipeline": "dual",
+        "ap50_95_max300": 0.211667769773068,
+        "ap50_95_max100": 0.18839108035314622,
+        "operating_confidence": 0.5,
+        "tp": 596,
+        "fp": 492,
+        "fn": 456,
+        "precision": 0.5477941176470589,
+        "recall": 0.5665399239543726,
+        "f1": 0.5570093457943924,
+        "latency_p50_ms": 413.8383999816142
+      },
+      {
+        "job": "improved__epoch_02__native__val",
+        "epoch": 2,
+        "partial_epoch": false,
+        "optimizer_calls": 168,
+        "pipeline": "native",
+        "ap50_95_max300": 0.17293548619505625,
+        "ap50_95_max100": 0.14984724960907583,
+        "operating_confidence": 0.45,
+        "tp": 530,
+        "fp": 418,
+        "fn": 522,
+        "precision": 0.5590717299578059,
+        "recall": 0.5038022813688213,
+        "f1": 0.53,
+        "latency_p50_ms": 281.6043999919202
+      }
+    ],
+    "checkpoint_count": 20,
+    "checkpoint_sha_mismatches": [],
+    "args_yaml_differences": {
+      "data": [
+        "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04\\data\\baseline\\data.yaml",
+        "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04\\data\\improved\\data.yaml"
+      ],
+      "name": [
+        "baseline",
+        "improved"
+      ],
+      "save_dir": [
+        "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04\\training_logs\\baseline",
+        "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04\\training_logs\\improved"
+      ]
+    }
+  },
+  "inputs": [
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\github_private_archive\\R04_PAUSED\\partial_validation.csv",
+      "sha256": "148adf8b9d88e52c73a91379790dd3a489ad40a3cb64472845e2b45ed8b650b8",
+      "bytes": 3424
+    },
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\github_private_archive\\R04_PAUSED\\protocol.json",
+      "sha256": "c712d8f3e24ce8fa8291d4b2e7e2593924ccdb154ba4361f50958e63555a4def",
+      "bytes": 1930
+    },
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\github_private_archive\\R04_PAUSED\\reports\\data_independent_audit.json",
+      "sha256": "0abe8899f603d196bc10af4d0116120f681bbb03718b25b5ac6be99e56090b0f",
+      "bytes": 14088
+    },
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\github_private_archive\\R04_PAUSED\\reports\\ignore_adapter_tests.json",
+      "sha256": "5964f138d526ff04c01260f12928e041fa59a6a20b08383501ae0fbe94a32845",
+      "bytes": 2311
+    },
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\github_private_archive\\R04_PAUSED\\runs\\baseline\\candidates.json",
+      "sha256": "37326c24b33ce48d51b131a633da1111d99636552f2601d2a2fc8d94f9497510",
+      "bytes": 2940
+    },
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\github_private_archive\\R04_PAUSED\\runs\\baseline\\epochs.json",
+      "sha256": "39d12c00ad31abebb05591d43dec7f323854eee0b8cd1c8e17fc994876856032",
+      "bytes": 22733
+    },
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\github_private_archive\\R04_PAUSED\\runs\\baseline\\sampled_exposures.json",
+      "sha256": "fb214f20f2d7517b6e8fae58b558e1323e3e708c449527eb219682f8873f49b6",
+      "bytes": 18199
+    },
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\github_private_archive\\R04_PAUSED\\runs\\baseline\\start.json",
+      "sha256": "6c43d262ed005be628106aaead38c3d4c0669c679f52d04d2fc71b4f1c6f35ca",
+      "bytes": 1076
+    },
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\github_private_archive\\R04_PAUSED\\runs\\baseline\\training_summary.json",
+      "sha256": "6c575cabac797f666ea46ec9c4b2b7ccb9c2557b6d11bd8b3eab562c7466b222",
+      "bytes": 1170
+    },
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\github_private_archive\\R04_PAUSED\\runs\\improved\\candidates.json",
+      "sha256": "d9d154ea88ad3c9154bdcda7c72466e5e23725168b277869057e4571b51f90d4",
+      "bytes": 2940
+    },
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\github_private_archive\\R04_PAUSED\\runs\\improved\\epochs.json",
+      "sha256": "9b11cdd78a3a0b574106c1b484cd8ebf9481c85fd25af68c3c15dd2b2b4c9493",
+      "bytes": 22725
+    },
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\github_private_archive\\R04_PAUSED\\runs\\improved\\sampled_exposures.json",
+      "sha256": "d9b2706218ff76988c7edbeabd88b96e7ea88cbd343575b19bd8f839870e6e9a",
+      "bytes": 42440
+    },
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\github_private_archive\\R04_PAUSED\\runs\\improved\\start.json",
+      "sha256": "db7abdf95588c9efd651e5ad6b7f0db9905c4c2fdf5d32b4fe8061fee2538b56",
+      "bytes": 1076
+    },
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\github_private_archive\\R04_PAUSED\\runs\\improved\\training_summary.json",
+      "sha256": "e6a293184efb56c71c367deb935010d0ae424159ccc3ba8def70e6500c1d005d",
+      "bytes": 1170
+    },
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\github_private_archive\\R04_PAUSED\\scripts\\audit_r04_results.py",
+      "sha256": "90e4155d40e3ce8f420290704e567291c53534c5c6924dd96d894ca19c9b7799",
+      "bytes": 39273
+    },
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\github_private_archive\\R04_PAUSED\\scripts\\evaluate_r04.py",
+      "sha256": "b62dce3fa1e3b8a0fe0b4526809bde5bf63f914e0e53ac8398f2f29b1c35b3e5",
+      "bytes": 28105
+    },
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\github_private_archive\\R04_PAUSED\\scripts\\evaluate_resolution_stress.py",
+      "sha256": "e92b18c1f3469616855dfa3954d172364c2099e983618e695acfbb0195eee1a5",
+      "bytes": 28755
+    },
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\github_private_archive\\R04_PAUSED\\scripts\\ignore_adapter.py",
+      "sha256": "a8d5bd2baa4b43f86ce0ffd9507eeec69be1a29d431a1ba12b1b38534ca95280",
+      "bytes": 13191
+    },
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\github_private_archive\\R04_PAUSED\\scripts\\prepare_r04.py",
+      "sha256": "5bbdd79455adee7178e2552512c38c4c9744743987df54e9c00bf19d1152b1dc",
+      "bytes": 15478
+    },
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\github_private_archive\\R04_PAUSED\\scripts\\run_r04_evaluation.py",
+      "sha256": "82e5a95fd5c2c14e827761c923786be15e7ac790f5df622678ae96f2dbd57f65",
+      "bytes": 27246
+    },
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\github_private_archive\\R04_PAUSED\\scripts\\test_evaluate_r04.py",
+      "sha256": "ba1e96d1cd584adb137e1acc9a12a923a0b9cf5f836f54212eea9477adef3bbe",
+      "bytes": 8440
+    },
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\github_private_archive\\R04_PAUSED\\scripts\\test_ignore_adapter.py",
+      "sha256": "3a075a8c9bad48b6187b71945ae1194e6773c180f3b16138692ff59015dbd14c",
+      "bytes": 11536
+    },
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\github_private_archive\\R04_PAUSED\\scripts\\train_r04.py",
+      "sha256": "336c958b7a01ed07662c02d7d3767974a952dd2438ec4a196779a9dcb300a60b",
+      "bytes": 15257
+    },
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\github_private_archive\\R04_PAUSED\\snapshot.json",
+      "sha256": "7644417918d35396ff7f58bb69278997df904c9663e55d3b043552f682316c91",
+      "bytes": 10389
+    },
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\github_private_archive\\R04_PAUSED\\stress_protocol.json",
+      "sha256": "7afc529c3ddb6131ba5ee2db9281f8ff8a851407f165799cbdd5b6840d9fbb1d",
+      "bytes": 3304
+    },
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\github_private_archive\\R04_PAUSED\\validation\\baseline__epoch_02__dual__val\\metrics.json",
+      "sha256": "500c9afedc841f06bdb77e2a7b1ea74b6d6b1a982190f06d80f31b69c744376c",
+      "bytes": 13125
+    },
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\github_private_archive\\R04_PAUSED\\validation\\baseline__epoch_02__native__val\\metrics.json",
+      "sha256": "aaa6f58fd46d71d179ba6a786cc246ab6ed3dfb3499292faec3c906f0e27ca71",
+      "bytes": 13108
+    },
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\github_private_archive\\R04_PAUSED\\validation\\baseline__epoch_04__dual__val\\metrics.json",
+      "sha256": "8ba9059c725fc9dddd61dbd506153da56ed8eeabb509d0eb0e48d66784bfbc7a",
+      "bytes": 13081
+    },
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\github_private_archive\\R04_PAUSED\\validation\\baseline__epoch_04__native__val\\metrics.json",
+      "sha256": "adb63d75adc16537208f02885260c8b4d84016d2901e5f40ad193370ac440623",
+      "bytes": 13073
+    },
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\github_private_archive\\R04_PAUSED\\validation\\baseline__epoch_06__dual__val\\metrics.json",
+      "sha256": "12784d4cba9cd02b9b2d9469851c59f196c760f6c796b680599e3997f48d99af",
+      "bytes": 13091
+    },
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\github_private_archive\\R04_PAUSED\\validation\\baseline__epoch_06__native__val\\metrics.json",
+      "sha256": "8ea9d6ebe345db0c6db8b63778e3cf7c89f405c20f918e4930b766e44c36d6a8",
+      "bytes": 13087
+    },
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\github_private_archive\\R04_PAUSED\\validation\\baseline__epoch_08__dual__val\\metrics.json",
+      "sha256": "b676061cd2a91efdd2d6bef16d5acf50e7645082f3ab48e7312ee48f85448cdf",
+      "bytes": 13068
+    },
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\github_private_archive\\R04_PAUSED\\validation\\baseline__epoch_08__native__val\\metrics.json",
+      "sha256": "39c961ef8d742cfcf79551a1f754493b786c4592fa344d80592205a44c252009",
+      "bytes": 13062
+    },
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\github_private_archive\\R04_PAUSED\\validation\\baseline__epoch_10__dual__val\\metrics.json",
+      "sha256": "78af6f4b88b75626b693bee05be19383745c585a4e26532ff26581806fd6aef9",
+      "bytes": 13065
+    },
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\github_private_archive\\R04_PAUSED\\validation\\baseline__epoch_10__native__val\\metrics.json",
+      "sha256": "6b5ecda0df6301047229ec6146d43ccfc58e6acee558cbade7aa9d33e808b5dc",
+      "bytes": 13048
+    },
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\github_private_archive\\R04_PAUSED\\validation\\baseline__epoch_12__dual__val\\metrics.json",
+      "sha256": "e92fbb1b1b7d0b6a258710b519cfaf608a0bb7b91a03e6b109875d51bfe54096",
+      "bytes": 13091
+    },
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\github_private_archive\\R04_PAUSED\\validation\\baseline__epoch_12__native__val\\metrics.json",
+      "sha256": "88352a4740721f70024d41501979b8dfb16068a17146b96db41480cb25b6be90",
+      "bytes": 13084
+    },
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\github_private_archive\\R04_PAUSED\\validation\\baseline__epoch_14__dual__val\\metrics.json",
+      "sha256": "99b9380d69b1d3a0f81a7812f0b2ed9f5cd6edab37d4b283c87e0c81bfb1947a",
+      "bytes": 13080
+    },
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\github_private_archive\\R04_PAUSED\\validation\\baseline__epoch_14__native__val\\metrics.json",
+      "sha256": "cfa49c89007ce1cbec600701d4900c325767c9a8242024a69ab0945fc32716ae",
+      "bytes": 13059
+    },
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\github_private_archive\\R04_PAUSED\\validation\\baseline__epoch_16__dual__val\\metrics.json",
+      "sha256": "576f85acfae05874f3259a0ae97305b23c10e3dc4ae21045dfecec1d0db233b6",
+      "bytes": 13077
+    },
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\github_private_archive\\R04_PAUSED\\validation\\baseline__epoch_16__native__val\\metrics.json",
+      "sha256": "0dd6e795b3b13af4179084d322de8f0615f8d33c3a3d4a5299cd1cee30d5e2d5",
+      "bytes": 13046
+    },
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\github_private_archive\\R04_PAUSED\\validation\\baseline__epoch_18__dual__val\\metrics.json",
+      "sha256": "7e324d5709f04b916a7408ca38b904bdb7e7e2e4a8a88980c2e8c68798e5b55d",
+      "bytes": 13070
+    },
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\github_private_archive\\R04_PAUSED\\validation\\baseline__epoch_18__native__val\\metrics.json",
+      "sha256": "2ef637f8e43c08ed10b899c96b39b62ca21602905845894234d9709e30b0d900",
+      "bytes": 13071
+    },
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\github_private_archive\\R04_PAUSED\\validation\\baseline__epoch_20__dual__val\\metrics.json",
+      "sha256": "13b62813c84de64ddbe755055851b4ad035f094df8be924be532238d88f38865",
+      "bytes": 13051
+    },
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\github_private_archive\\R04_PAUSED\\validation\\baseline__epoch_20__native__val\\metrics.json",
+      "sha256": "8e5648da95063bde0374b6c0df592ee8d866372a39d572018d8fe7f0a20d286c",
+      "bytes": 13051
+    },
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\github_private_archive\\R04_PAUSED\\validation\\improved__epoch_02__dual__val\\metrics.json",
+      "sha256": "1781ef7b22f52720dd2e7cf6cf5da6c2a794fe0eb9220f6f3da29ce2fbf3edaf",
+      "bytes": 13094
+    },
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\github_private_archive\\R04_PAUSED\\validation\\improved__epoch_02__native__val\\metrics.json",
+      "sha256": "3a4f1f3ff987c9d71c22af4a70b674a1b822c202243273374194ea73359573c5",
+      "bytes": 13088
+    },
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\models\\yolo11s.pt",
+      "sha256": "85a76fe86dd8afe384648546b56a7a78580c7cb7b404fc595f97969322d502d5",
+      "bytes": 19313732
+    },
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04\\data\\native_manifest.json",
+      "sha256": "a91d4956da6adc8b3eebcd87da6e8e428362e1c14cef9e8f9d5a4583817d8c19",
+      "bytes": 8969482
+    },
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04\\data\\summary.json",
+      "sha256": "e9049d08689f00276ea68702fe9c8b346d11aabd05be645b8eaecf959f952f46",
+      "bytes": 5361
+    },
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04\\protocol.json",
+      "sha256": "c712d8f3e24ce8fa8291d4b2e7e2593924ccdb154ba4361f50958e63555a4def",
+      "bytes": 1930
+    },
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04\\reports\\data_independent_audit.json",
+      "sha256": "0abe8899f603d196bc10af4d0116120f681bbb03718b25b5ac6be99e56090b0f",
+      "bytes": 14088
+    },
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04\\reports\\evaluation_suite\\evaluations\\baseline__epoch_02__dual__val\\metrics.json",
+      "sha256": "500c9afedc841f06bdb77e2a7b1ea74b6d6b1a982190f06d80f31b69c744376c",
+      "bytes": 13125
+    },
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04\\reports\\evaluation_suite\\evaluations\\baseline__epoch_02__native__val\\metrics.json",
+      "sha256": "aaa6f58fd46d71d179ba6a786cc246ab6ed3dfb3499292faec3c906f0e27ca71",
+      "bytes": 13108
+    },
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04\\reports\\evaluation_suite\\evaluations\\baseline__epoch_04__dual__val\\metrics.json",
+      "sha256": "8ba9059c725fc9dddd61dbd506153da56ed8eeabb509d0eb0e48d66784bfbc7a",
+      "bytes": 13081
+    },
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04\\reports\\evaluation_suite\\evaluations\\baseline__epoch_04__native__val\\metrics.json",
+      "sha256": "adb63d75adc16537208f02885260c8b4d84016d2901e5f40ad193370ac440623",
+      "bytes": 13073
+    },
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04\\reports\\evaluation_suite\\evaluations\\baseline__epoch_06__dual__val\\metrics.json",
+      "sha256": "12784d4cba9cd02b9b2d9469851c59f196c760f6c796b680599e3997f48d99af",
+      "bytes": 13091
+    },
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04\\reports\\evaluation_suite\\evaluations\\baseline__epoch_06__native__val\\metrics.json",
+      "sha256": "8ea9d6ebe345db0c6db8b63778e3cf7c89f405c20f918e4930b766e44c36d6a8",
+      "bytes": 13087
+    },
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04\\reports\\evaluation_suite\\evaluations\\baseline__epoch_08__dual__val\\metrics.json",
+      "sha256": "b676061cd2a91efdd2d6bef16d5acf50e7645082f3ab48e7312ee48f85448cdf",
+      "bytes": 13068
+    },
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04\\reports\\evaluation_suite\\evaluations\\baseline__epoch_08__native__val\\metrics.json",
+      "sha256": "39c961ef8d742cfcf79551a1f754493b786c4592fa344d80592205a44c252009",
+      "bytes": 13062
+    },
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04\\reports\\evaluation_suite\\evaluations\\baseline__epoch_10__dual__val\\metrics.json",
+      "sha256": "78af6f4b88b75626b693bee05be19383745c585a4e26532ff26581806fd6aef9",
+      "bytes": 13065
+    },
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04\\reports\\evaluation_suite\\evaluations\\baseline__epoch_10__native__val\\metrics.json",
+      "sha256": "6b5ecda0df6301047229ec6146d43ccfc58e6acee558cbade7aa9d33e808b5dc",
+      "bytes": 13048
+    },
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04\\reports\\evaluation_suite\\evaluations\\baseline__epoch_12__dual__val\\metrics.json",
+      "sha256": "e92fbb1b1b7d0b6a258710b519cfaf608a0bb7b91a03e6b109875d51bfe54096",
+      "bytes": 13091
+    },
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04\\reports\\evaluation_suite\\evaluations\\baseline__epoch_12__native__val\\metrics.json",
+      "sha256": "88352a4740721f70024d41501979b8dfb16068a17146b96db41480cb25b6be90",
+      "bytes": 13084
+    },
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04\\reports\\evaluation_suite\\evaluations\\baseline__epoch_14__dual__val\\metrics.json",
+      "sha256": "99b9380d69b1d3a0f81a7812f0b2ed9f5cd6edab37d4b283c87e0c81bfb1947a",
+      "bytes": 13080
+    },
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04\\reports\\evaluation_suite\\evaluations\\baseline__epoch_14__native__val\\metrics.json",
+      "sha256": "cfa49c89007ce1cbec600701d4900c325767c9a8242024a69ab0945fc32716ae",
+      "bytes": 13059
+    },
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04\\reports\\evaluation_suite\\evaluations\\baseline__epoch_16__dual__val\\metrics.json",
+      "sha256": "576f85acfae05874f3259a0ae97305b23c10e3dc4ae21045dfecec1d0db233b6",
+      "bytes": 13077
+    },
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04\\reports\\evaluation_suite\\evaluations\\baseline__epoch_16__native__val\\metrics.json",
+      "sha256": "0dd6e795b3b13af4179084d322de8f0615f8d33c3a3d4a5299cd1cee30d5e2d5",
+      "bytes": 13046
+    },
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04\\reports\\evaluation_suite\\evaluations\\baseline__epoch_18__dual__val\\metrics.json",
+      "sha256": "7e324d5709f04b916a7408ca38b904bdb7e7e2e4a8a88980c2e8c68798e5b55d",
+      "bytes": 13070
+    },
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04\\reports\\evaluation_suite\\evaluations\\baseline__epoch_18__native__val\\metrics.json",
+      "sha256": "2ef637f8e43c08ed10b899c96b39b62ca21602905845894234d9709e30b0d900",
+      "bytes": 13071
+    },
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04\\reports\\evaluation_suite\\evaluations\\baseline__epoch_20__dual__val\\metrics.json",
+      "sha256": "13b62813c84de64ddbe755055851b4ad035f094df8be924be532238d88f38865",
+      "bytes": 13051
+    },
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04\\reports\\evaluation_suite\\evaluations\\baseline__epoch_20__native__val\\metrics.json",
+      "sha256": "8e5648da95063bde0374b6c0df592ee8d866372a39d572018d8fe7f0a20d286c",
+      "bytes": 13051
+    },
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04\\reports\\evaluation_suite\\evaluations\\improved__epoch_02__dual__val\\metrics.json",
+      "sha256": "1781ef7b22f52720dd2e7cf6cf5da6c2a794fe0eb9220f6f3da29ce2fbf3edaf",
+      "bytes": 13094
+    },
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04\\reports\\evaluation_suite\\evaluations\\improved__epoch_02__native__val\\metrics.json",
+      "sha256": "3a4f1f3ff987c9d71c22af4a70b674a1b822c202243273374194ea73359573c5",
+      "bytes": 13088
+    },
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04\\reports\\ignore_adapter_tests.json",
+      "sha256": "5964f138d526ff04c01260f12928e041fa59a6a20b08383501ae0fbe94a32845",
+      "bytes": 2311
+    },
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04\\runs\\baseline\\candidates.json",
+      "sha256": "37326c24b33ce48d51b131a633da1111d99636552f2601d2a2fc8d94f9497510",
+      "bytes": 2940
+    },
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04\\runs\\baseline\\candidates\\epoch_02.pt",
+      "sha256": "e540ad9d2d066aa485e96d9876dd34574c878c2209e27d1d4f73710256193e4a",
+      "bytes": 19263822
+    },
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04\\runs\\baseline\\candidates\\epoch_04.pt",
+      "sha256": "168ae2f8edeb0453499227b17425e66f1abd42ec57669b1d3c86c2287c368456",
+      "bytes": 19263822
+    },
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04\\runs\\baseline\\candidates\\epoch_06.pt",
+      "sha256": "cdd61d07983e9871eddcd88ff7247db341c2084d08e1c7b0e3395fbd411d4489",
+      "bytes": 19263822
+    },
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04\\runs\\baseline\\candidates\\epoch_08.pt",
+      "sha256": "73cb2284a3b580b9d9f2f161a3184fec1a3816ba31045c0c96699bb172b1805b",
+      "bytes": 19263822
+    },
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04\\runs\\baseline\\candidates\\epoch_10.pt",
+      "sha256": "25b513e631f8813d0b03e9ccb4a6680719ef8f07c090fb1350b5e34967d5f3c5",
+      "bytes": 19263822
+    },
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04\\runs\\baseline\\candidates\\epoch_12.pt",
+      "sha256": "2a90f892ab00d1c2da06d717cac8625a6d10100d045d08a0a3877c926d51c41a",
+      "bytes": 19263822
+    },
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04\\runs\\baseline\\candidates\\epoch_14.pt",
+      "sha256": "e83dc4c971c4b219f0b630c41dcb8eee71ac1b17e22bf999c27fac1657e579fa",
+      "bytes": 19263822
+    },
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04\\runs\\baseline\\candidates\\epoch_16.pt",
+      "sha256": "1d40c39b432feddb25cba26140cf3b44a6369ae44ef5f78ad659008185fb77b2",
+      "bytes": 19263822
+    },
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04\\runs\\baseline\\candidates\\epoch_18.pt",
+      "sha256": "b06fa6c674392d68e3d8cd27dddace9ee9f0e60455c703423a9e0f436b3c301b",
+      "bytes": 19263822
+    },
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04\\runs\\baseline\\candidates\\epoch_20.pt",
+      "sha256": "ab1250fa46cb1471648ec7c576d53b8c48707cd24f6b8e4abc1adc811181e8a2",
+      "bytes": 19263822
+    },
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04\\runs\\baseline\\epochs.json",
+      "sha256": "39d12c00ad31abebb05591d43dec7f323854eee0b8cd1c8e17fc994876856032",
+      "bytes": 22733
+    },
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04\\runs\\baseline\\sampled_exposures.json",
+      "sha256": "fb214f20f2d7517b6e8fae58b558e1323e3e708c449527eb219682f8873f49b6",
+      "bytes": 18199
+    },
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04\\runs\\baseline\\start.json",
+      "sha256": "6c43d262ed005be628106aaead38c3d4c0669c679f52d04d2fc71b4f1c6f35ca",
+      "bytes": 1076
+    },
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04\\runs\\baseline\\training_summary.json",
+      "sha256": "6c575cabac797f666ea46ec9c4b2b7ccb9c2557b6d11bd8b3eab562c7466b222",
+      "bytes": 1170
+    },
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04\\runs\\improved\\candidates.json",
+      "sha256": "d9d154ea88ad3c9154bdcda7c72466e5e23725168b277869057e4571b51f90d4",
+      "bytes": 2940
+    },
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04\\runs\\improved\\candidates\\epoch_02.pt",
+      "sha256": "9544126040581378b1d31a230b81dfe9e42fb4e34d339dc6f3b596283f6f94bb",
+      "bytes": 19263822
+    },
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04\\runs\\improved\\candidates\\epoch_04.pt",
+      "sha256": "6c3eb358e9494d53886736dccabb0bd43a4031eab8181d37514bf4a3935b1825",
+      "bytes": 19263822
+    },
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04\\runs\\improved\\candidates\\epoch_06.pt",
+      "sha256": "1012f3b96422eb6d15aa639b51fecce2924d3aa198d7e5f74f4c337ce8ee4231",
+      "bytes": 19263822
+    },
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04\\runs\\improved\\candidates\\epoch_08.pt",
+      "sha256": "d3daed367032d34b00ee2ced753928b7b4f7c88b3e25c25f5a7f75ff874f06e2",
+      "bytes": 19263822
+    },
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04\\runs\\improved\\candidates\\epoch_10.pt",
+      "sha256": "e3516ca73f98ea4d062e642c0f7fcd9c6d71d834cd62b31487c76c156558d74f",
+      "bytes": 19263822
+    },
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04\\runs\\improved\\candidates\\epoch_12.pt",
+      "sha256": "994c2580688c4a8c4d45644b6d54fbc27cb50387b1f023cf3a5400a1e1f00e34",
+      "bytes": 19263822
+    },
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04\\runs\\improved\\candidates\\epoch_14.pt",
+      "sha256": "b7d2f1da70427b539152f5a00ab8628c8db3377fd57bebb5b456913c1f7e3d3b",
+      "bytes": 19263822
+    },
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04\\runs\\improved\\candidates\\epoch_16.pt",
+      "sha256": "79f01b40b9cc7412341e7da5561dc55fb3e3d5fbdfc39adc49aac5ba8dc4e34a",
+      "bytes": 19263822
+    },
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04\\runs\\improved\\candidates\\epoch_18.pt",
+      "sha256": "7d2ec74622a4ac8399b89176e634f2bb283b1b31e1cc82ca05e751bdd2d66c73",
+      "bytes": 19263822
+    },
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04\\runs\\improved\\candidates\\epoch_20.pt",
+      "sha256": "406ab7b0630e7c61546cfa8fc0585b03ee66bcf55b51c2a982373e3e06f166c1",
+      "bytes": 19263822
+    },
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04\\runs\\improved\\epochs.json",
+      "sha256": "9b11cdd78a3a0b574106c1b484cd8ebf9481c85fd25af68c3c15dd2b2b4c9493",
+      "bytes": 22725
+    },
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04\\runs\\improved\\sampled_exposures.json",
+      "sha256": "d9b2706218ff76988c7edbeabd88b96e7ea88cbd343575b19bd8f839870e6e9a",
+      "bytes": 42440
+    },
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04\\runs\\improved\\start.json",
+      "sha256": "db7abdf95588c9efd651e5ad6b7f0db9905c4c2fdf5d32b4fe8061fee2538b56",
+      "bytes": 1076
+    },
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04\\runs\\improved\\training_summary.json",
+      "sha256": "e6a293184efb56c71c367deb935010d0ae424159ccc3ba8def70e6500c1d005d",
+      "bytes": 1170
+    },
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04\\scripts\\audit_r04_results.py",
+      "sha256": "90e4155d40e3ce8f420290704e567291c53534c5c6924dd96d894ca19c9b7799",
+      "bytes": 39273
+    },
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04\\scripts\\evaluate_r04.py",
+      "sha256": "b62dce3fa1e3b8a0fe0b4526809bde5bf63f914e0e53ac8398f2f29b1c35b3e5",
+      "bytes": 28105
+    },
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04\\scripts\\evaluate_resolution_stress.py",
+      "sha256": "e92b18c1f3469616855dfa3954d172364c2099e983618e695acfbb0195eee1a5",
+      "bytes": 28755
+    },
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04\\scripts\\ignore_adapter.py",
+      "sha256": "a8d5bd2baa4b43f86ce0ffd9507eeec69be1a29d431a1ba12b1b38534ca95280",
+      "bytes": 13191
+    },
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04\\scripts\\prepare_r04.py",
+      "sha256": "5bbdd79455adee7178e2552512c38c4c9744743987df54e9c00bf19d1152b1dc",
+      "bytes": 15478
+    },
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04\\scripts\\run_r04_evaluation.py",
+      "sha256": "82e5a95fd5c2c14e827761c923786be15e7ac790f5df622678ae96f2dbd57f65",
+      "bytes": 27246
+    },
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04\\scripts\\test_evaluate_r04.py",
+      "sha256": "ba1e96d1cd584adb137e1acc9a12a923a0b9cf5f836f54212eea9477adef3bbe",
+      "bytes": 8440
+    },
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04\\scripts\\test_ignore_adapter.py",
+      "sha256": "3a075a8c9bad48b6187b71945ae1194e6773c180f3b16138692ff59015dbd14c",
+      "bytes": 11536
+    },
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04\\scripts\\train_r04.py",
+      "sha256": "336c958b7a01ed07662c02d7d3767974a952dd2438ec4a196779a9dcb300a60b",
+      "bytes": 15257
+    },
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04\\stress_protocol.json",
+      "sha256": "7afc529c3ddb6131ba5ee2db9281f8ff8a851407f165799cbdd5b6840d9fbb1d",
+      "bytes": 3304
+    },
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04\\training_logs\\baseline\\args.yaml",
+      "sha256": "fa9bb4c1ce0386e4b88ca7b256937a9d3efd5996ffad519def8acab11b868c9d",
+      "bytes": 2047
+    },
+    {
+      "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04\\training_logs\\improved\\args.yaml",
+      "sha256": "a2147e03c31683f17eee46ee3fdf22b0a68bde80f8519c1b1ce3e41bbd889650",
+      "bytes": 2047
+    }
+  ]
+}

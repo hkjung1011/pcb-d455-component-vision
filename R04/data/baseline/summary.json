@@ -1,0 +1,30 @@
+{
+  "arm": "baseline",
+  "training_eligible": true,
+  "names": [
+    "resistor",
+    "capacitor",
+    "ic",
+    "connector"
+  ],
+  "views": 418,
+  "view_types": {
+    "native1024": 418
+  },
+  "original_targets": 3307,
+  "original_targets_with_complete_view": 3215,
+  "supervised_label_exposures": {
+    "connector": 828,
+    "capacitor": 3054,
+    "ic": 507,
+    "resistor": 2186
+  },
+  "ignored_regions_by_reason": {},
+  "new_human_labels": 0,
+  "new_instance_masks": 0,
+  "data_yaml": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04\\data\\baseline\\data.yaml",
+  "source_ontology_unchanged": true,
+  "known_nontarget_objects_retained_as_background": true,
+  "sampling": "448 replacement draws/epoch; equal expected probability per board group; within-group 1.5x IC/connector view priority; not equal per-instance/gradient weights",
+  "source_originals_sha256": "bcfd37fc0b08d67502234b2e8e6eb4102020850a8f857b72a2839e24cfc68d77"
+}

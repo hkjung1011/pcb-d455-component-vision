@@ -1,0 +1,539 @@
+{
+  "schema": "r04-native-bbox-evaluation-v1",
+  "started_utc": "2026-09-28T16:16:08.044015+00:00",
+  "finished_utc": "2026-09-28T16:16:15.056570+00:00",
+  "scope": "Source target4 bbox development evaluation; general/Pi test already inspected in R03; NOT pristine final / NOT D455",
+  "split": "val",
+  "cohort": null,
+  "pipeline": "native",
+  "evaluation_role": "validation_selection",
+  "test_reuse_notice": "R03 general/Pi test diagnostics informed R04; this is not a new untouched final test",
+  "task": "detect",
+  "class_names": [
+    "resistor",
+    "capacitor",
+    "ic",
+    "connector"
+  ],
+  "checkpoint_sha256": "e3516ca73f98ea4d062e642c0f7fcd9c6d71d834cd62b31487c76c156558d74f",
+  "manifest_sha256": "a91d4956da6adc8b3eebcd87da6e8e428362e1c14cef9e8f9d5a4583817d8c19",
+  "evaluator_sha256": "b62dce3fa1e3b8a0fe0b4526809bde5bf63f914e0e53ac8398f2f29b1c35b3e5",
+  "weights_path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04\\runs\\improved\\candidates\\epoch_10.pt",
+  "manifest_path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04\\data\\native_manifest.json",
+  "ultralytics": "8.4.120",
+  "torch": "2.12.1+cu130",
+  "device": "0",
+  "annotation_limitations": {
+    "ground_truth": "WACV source-provided human target4 bounding boxes, not masks or full BOM truth",
+    "pi3b_unknown_source_objects": 67,
+    "unknown_policy": "Unknowns remain unknown; never inferred as resistor/capacitor/IC/connector",
+    "holdout_scope": "All RPI3B faces excluded from this fine-tuning train/validation only",
+    "pretrained_source_contamination": "UNKNOWN: cannot establish that public images were absent from every pretraining source",
+    "physical_specimen_independence": "NOT_VERIFIED; source filename board groups",
+    "d455_verified": false,
+    "redistribution_license": "No explicit license confirmed; local research assets only"
+  },
+  "ground_truth_policy": "Unmodified source target4 bbox GT; no unknown or DNP relabel/removal; no evaluation ignore regions added",
+  "images": 9,
+  "groups": 6,
+  "native_gt_instances": 1052,
+  "imgsz": 1024,
+  "original_crop_sizes": [
+    1024
+  ],
+  "tile_overlap": 0.2,
+  "tile_nms_iou": 0.5,
+  "raw_confidence_floor": 0.001,
+  "prediction_nms_iou": 0.6,
+  "per_crop_max_det": 1000,
+  "global_max_det": 1000,
+  "coordinates": "crop-native xyxy plus crop offset; no manual scale factor",
+  "bbox": {
+    "iou_type": "bbox",
+    "ap50_95_max100": 0.333025114357681,
+    "ap50_max100": 0.5538113254288237,
+    "ap75_max100": 0.3513884721031793,
+    "ap50_95_max300": 0.36368694919983224,
+    "ap50_max300": 0.6396231579478331,
+    "ap75_max300": 0.3647320706941073,
+    "per_class": {
+      "resistor": {
+        "ap50_95_max100": 0.31558415379207716,
+        "ap50_max100": 0.6556269568743257,
+        "ap75_max100": 0.26315527288071633,
+        "ap50_95_max300": 0.39683747517003115,
+        "ap50_max300": 0.9111672796605855,
+        "ap75_max300": 0.2791888773857927
+      },
+      "capacitor": {
+        "ap50_95_max100": 0.40323793748834896,
+        "ap50_max100": 0.665351128207082,
+        "ap75_max100": 0.46053729101926194,
+        "ap50_95_max300": 0.4372727683107574,
+        "ap50_max300": 0.7342960582412483,
+        "ap75_max300": 0.49218324934948904
+      },
+      "ic": {
+        "ap50_95_max100": 0.44439485183972427,
+        "ap50_max100": 0.6271044250841572,
+        "ap75_max100": 0.5152117887031198,
+        "ap50_95_max300": 0.44439485183972427,
+        "ap50_max300": 0.6271044250841572,
+        "ap75_max300": 0.5152117887031198
+      },
+      "connector": {
+        "ap50_95_max100": 0.16888351431057366,
+        "ap50_max100": 0.26716279154973027,
+        "ap75_max100": 0.16664953580961905,
+        "ap50_95_max300": 0.17624270147881613,
+        "ap50_max300": 0.2859248688053411,
+        "ap75_max300": 0.17234436733802763
+      }
+    },
+    "max_detections_scope": "Per image and category, before standard COCO accumulation",
+    "area_ap50_95_max100": {
+      "all": 0.333025114357681,
+      "small": 0.42541486380005017,
+      "medium": 0.4245750676402075,
+      "large": 0.28471657499634867
+    },
+    "area_ap50_95_max300": {
+      "all": 0.36368694919983224,
+      "small": 0.4974727551895428,
+      "medium": 0.4213149697258937,
+      "large": 0.3108335499408623
+    }
+  },
+  "mask": null,
+  "operating": {
+    "confidence": 0.55,
+    "match_box_iou": 0.5,
+    "tp": 777,
+    "fp": 242,
+    "fn": 275,
+    "precision": 0.7625122669283612,
+    "recall": 0.7385931558935361,
+    "f1": 0.7503621438918398,
+    "per_class_counts_tp_fp_fn": [
+      [
+        368,
+        55,
+        42
+      ],
+      [
+        338,
+        114,
+        116
+      ],
+      [
+        40,
+        19,
+        33
+      ],
+      [
+        31,
+        54,
+        84
+      ]
+    ],
+    "size_recall": {
+      "lt8": {
+        "detected": 0,
+        "total": 0,
+        "recall": null
+      },
+      "8to16": {
+        "detected": 62,
+        "total": 98,
+        "recall": 0.6326530612244898
+      },
+      "16to32": {
+        "detected": 368,
+        "total": 430,
+        "recall": 0.8558139534883721
+      },
+      "ge32": {
+        "detected": 347,
+        "total": 524,
+        "recall": 0.6622137404580153
+      }
+    },
+    "class_by_native_shortside_recall": {
+      "resistor": {
+        "lt8": {
+          "detected": 0,
+          "total": 0,
+          "recall": null
+        },
+        "8to16": {
+          "detected": 26,
+          "total": 35,
+          "recall": 0.7428571428571429
+        },
+        "16to32": {
+          "detected": 243,
+          "total": 259,
+          "recall": 0.9382239382239382
+        },
+        "ge32": {
+          "detected": 99,
+          "total": 116,
+          "recall": 0.853448275862069
+        }
+      },
+      "capacitor": {
+        "lt8": {
+          "detected": 0,
+          "total": 0,
+          "recall": null
+        },
+        "8to16": {
+          "detected": 36,
+          "total": 63,
+          "recall": 0.5714285714285714
+        },
+        "16to32": {
+          "detected": 124,
+          "total": 167,
+          "recall": 0.7425149700598802
+        },
+        "ge32": {
+          "detected": 178,
+          "total": 224,
+          "recall": 0.7946428571428571
+        }
+      },
+      "ic": {
+        "lt8": {
+          "detected": 0,
+          "total": 0,
+          "recall": null
+        },
+        "8to16": {
+          "detected": 0,
+          "total": 0,
+          "recall": null
+        },
+        "16to32": {
+          "detected": 1,
+          "total": 1,
+          "recall": 1.0
+        },
+        "ge32": {
+          "detected": 39,
+          "total": 72,
+          "recall": 0.5416666666666666
+        }
+      },
+      "connector": {
+        "lt8": {
+          "detected": 0,
+          "total": 0,
+          "recall": null
+        },
+        "8to16": {
+          "detected": 0,
+          "total": 0,
+          "recall": null
+        },
+        "16to32": {
+          "detected": 0,
+          "total": 3,
+          "recall": 0.0
+        },
+        "ge32": {
+          "detected": 31,
+          "total": 112,
+          "recall": 0.2767857142857143
+        }
+      }
+    },
+    "negative_images": 0,
+    "negative_images_with_false_positive": 0,
+    "negative_false_positive_image_rate": null,
+    "per_image": [
+      {
+        "id": "ACM-109_Bottom",
+        "group_id": "wacv:ACM-109",
+        "source": "wacv2019",
+        "counts_tp_fp_fn": [
+          [
+            5,
+            5,
+            2
+          ],
+          [
+            31,
+            6,
+            14
+          ],
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            4
+          ]
+        ],
+        "ground_truth_count": 56,
+        "prediction_count": 47
+      },
+      {
+        "id": "ACM-109_Top",
+        "group_id": "wacv:ACM-109",
+        "source": "wacv2019",
+        "counts_tp_fp_fn": [
+          [
+            14,
+            0,
+            4
+          ],
+          [
+            15,
+            3,
+            2
+          ],
+          [
+            9,
+            1,
+            1
+          ],
+          [
+            3,
+            0,
+            0
+          ]
+        ],
+        "ground_truth_count": 48,
+        "prediction_count": 45
+      },
+      {
+        "id": "Arty_Bottom",
+        "group_id": "wacv:Arty",
+        "source": "wacv2019",
+        "counts_tp_fp_fn": [
+          [
+            207,
+            9,
+            10
+          ],
+          [
+            80,
+            8,
+            54
+          ],
+          [
+            3,
+            8,
+            4
+          ],
+          [
+            1,
+            1,
+            1
+          ]
+        ],
+        "ground_truth_count": 360,
+        "prediction_count": 317
+      },
+      {
+        "id": "Arty_Top",
+        "group_id": "wacv:Arty",
+        "source": "wacv2019",
+        "counts_tp_fp_fn": [
+          [
+            49,
+            7,
+            4
+          ],
+          [
+            30,
+            2,
+            15
+          ],
+          [
+            3,
+            2,
+            4
+          ],
+          [
+            4,
+            19,
+            10
+          ]
+        ],
+        "ground_truth_count": 119,
+        "prediction_count": 116
+      },
+      {
+        "id": "UTL-016",
+        "group_id": "wacv:UTL-016",
+        "source": "wacv2019",
+        "counts_tp_fp_fn": [
+          [
+            12,
+            1,
+            1
+          ],
+          [
+            21,
+            6,
+            1
+          ],
+          [
+            2,
+            0,
+            1
+          ],
+          [
+            3,
+            0,
+            6
+          ]
+        ],
+        "ground_truth_count": 47,
+        "prediction_count": 45
+      },
+      {
+        "id": "Virtex6",
+        "group_id": "wacv:Virtex6",
+        "source": "wacv2019",
+        "counts_tp_fp_fn": [
+          [
+            24,
+            30,
+            9
+          ],
+          [
+            76,
+            52,
+            19
+          ],
+          [
+            12,
+            7,
+            18
+          ],
+          [
+            16,
+            23,
+            34
+          ]
+        ],
+        "ground_truth_count": 208,
+        "prediction_count": 240
+      },
+      {
+        "id": "XCM-307A_Bottom",
+        "group_id": "wacv:XCM-307A",
+        "source": "wacv2019",
+        "counts_tp_fp_fn": [
+          [
+            9,
+            2,
+            3
+          ],
+          [
+            6,
+            23,
+            0
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            4
+          ]
+        ],
+        "ground_truth_count": 23,
+        "prediction_count": 40
+      },
+      {
+        "id": "XCM-307A_Top",
+        "group_id": "wacv:XCM-307A",
+        "source": "wacv2019",
+        "counts_tp_fp_fn": [
+          [
+            9,
+            1,
+            8
+          ],
+          [
+            6,
+            8,
+            8
+          ],
+          [
+            9,
+            0,
+            2
+          ],
+          [
+            0,
+            2,
+            6
+          ]
+        ],
+        "ground_truth_count": 48,
+        "prediction_count": 35
+      },
+      {
+        "id": "Zybo",
+        "group_id": "wacv:Zybo",
+        "source": "wacv2019",
+        "counts_tp_fp_fn": [
+          [
+            39,
+            0,
+            1
+          ],
+          [
+            73,
+            6,
+            3
+          ],
+          [
+            2,
+            1,
+            2
+          ],
+          [
+            4,
+            9,
+            19
+          ]
+        ],
+        "ground_truth_count": 143,
+        "prediction_count": 134
+      }
+    ]
+  },
+  "threshold_source": "validation_micro_f1_grid",
+  "per_class_thresholds_applied": false,
+  "group_bootstrap_recall95": null,
+  "group_bootstrap_exclusion_reason": "Bootstrap prespecified only for general_test development holdout",
+  "latency": {
+    "offline_predict_and_postprocess_ms_p50": 186.19380000745878,
+    "offline_predict_and_postprocess_ms_p95": 809.1523800045252,
+    "samples": 9,
+    "warmup_excluded": true,
+    "scope": "Offline crop predict plus native coordinate merge/global NMS only; NOT camera-to-result latency",
+    "excludes": [
+      "model initialization",
+      "file read/hash/decode",
+      "camera capture",
+      "visualization",
+      "metrics",
+      "disk write"
+    ]
+  },
+  "d455_verified": false,
+  "physical_specimen_independence_verified": false
+}

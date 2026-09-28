@@ -1,0 +1,338 @@
+{
+  "schema": "r04-native-bbox-evaluation-v1",
+  "started_utc": "2026-09-28T16:24:58.627549+00:00",
+  "finished_utc": "2026-09-28T16:25:02.301146+00:00",
+  "scope": "Synthetic downsampled public Pi photographs with geometrically scaled original source bbox GT; not original-resolution evaluation or D455 capture",
+  "split": "test",
+  "cohort": "pi_test",
+  "pipeline": "dual",
+  "evaluation_role": "development_holdout_not_pristine_final",
+  "test_reuse_notice": "R03 general/Pi test diagnostics informed R04; this is not a new untouched final test",
+  "task": "detect",
+  "class_names": [
+    "resistor",
+    "capacitor",
+    "ic",
+    "connector"
+  ],
+  "checkpoint_sha256": "ab1250fa46cb1471648ec7c576d53b8c48707cd24f6b8e4abc1adc811181e8a2",
+  "manifest_sha256": "69fc7a9725b13f396b805946a743a7c2bcbd0baf40236b0d9573733abbbf5881",
+  "evaluator_sha256": "b62dce3fa1e3b8a0fe0b4526809bde5bf63f914e0e53ac8398f2f29b1c35b3e5",
+  "weights_path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04\\runs\\baseline\\candidates\\epoch_20.pt",
+  "manifest_path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04\\data\\resolution_stress\\nominal_2p1_pxmm_manifest.json",
+  "ultralytics": "8.4.120",
+  "torch": "2.12.1+cu130",
+  "device": "0",
+  "annotation_limitations": [
+    "Only two public Pi photos, one source board group already inspected during development.",
+    "Nominal source px/mm is approximate; lens distortion, perspective, header height and exact board-plane scale are not calibrated.",
+    "Does not reproduce D455 optics, focus, noise, exposure, reflection, depth or camera-to-result delay.",
+    "Neither an upper nor a lower bound for actual D455 accuracy.",
+    "Derived source annotations remain geometric references even when downsampling makes identity visually unresolved; no human readability validation.",
+    "No score is used to select a checkpoint, pipeline, threshold or deployment model.",
+    "Every target and excluded bbox is scaled by actual output-width/height ratio; original IDs/classes/source ontology preserved.",
+    "Evaluator ground_truth_policy is a generic source-ontology template: here coordinates ARE scaled derivatives. No evaluator metric file is rewritten.",
+    "Tiny/subpixel labels are retained even if visually unresolved; not human-validated D455 labels."
+  ],
+  "ground_truth_policy": "Unmodified source target4 bbox GT; no unknown or DNP relabel/removal; no evaluation ignore regions added",
+  "images": 2,
+  "groups": 1,
+  "native_gt_instances": 189,
+  "imgsz": 1024,
+  "original_crop_sizes": [
+    1024,
+    2048
+  ],
+  "tile_overlap": 0.2,
+  "tile_nms_iou": 0.5,
+  "raw_confidence_floor": 0.001,
+  "prediction_nms_iou": 0.6,
+  "per_crop_max_det": 1000,
+  "global_max_det": 1000,
+  "coordinates": "crop-native xyxy plus crop offset; no manual scale factor",
+  "bbox": {
+    "iou_type": "bbox",
+    "ap50_95_max100": 0.09708553355335535,
+    "ap50_max100": 0.16633191890617632,
+    "ap75_max100": 0.08894389438943895,
+    "ap50_95_max300": 0.09708553355335535,
+    "ap50_max300": 0.16633191890617632,
+    "ap75_max300": 0.08894389438943895,
+    "per_class": {
+      "resistor": {
+        "ap50_95_max100": 0.0,
+        "ap50_max100": 0.0,
+        "ap75_max100": 0.0,
+        "ap50_95_max300": 0.0,
+        "ap50_max300": 0.0,
+        "ap75_max300": 0.0
+      },
+      "capacitor": {
+        "ap50_95_max100": 0.03846534653465347,
+        "ap50_max100": 0.08811881188118813,
+        "ap75_max100": 0.021782178217821784,
+        "ap50_95_max300": 0.03846534653465347,
+        "ap50_max300": 0.08811881188118813,
+        "ap75_max300": 0.021782178217821784
+      },
+      "ic": {
+        "ap50_95_max100": 0.27454345434543453,
+        "ap50_max100": 0.3584158415841584,
+        "ap75_max100": 0.29900990099009894,
+        "ap50_95_max300": 0.27454345434543453,
+        "ap50_max300": 0.3584158415841584,
+        "ap75_max300": 0.29900990099009894
+      },
+      "connector": {
+        "ap50_95_max100": 0.07533333333333334,
+        "ap50_max100": 0.21879302215935878,
+        "ap75_max100": 0.03498349834983498,
+        "ap50_95_max300": 0.07533333333333334,
+        "ap50_max300": 0.21879302215935878,
+        "ap75_max300": 0.03498349834983498
+      }
+    },
+    "max_detections_scope": "Per image and category, before standard COCO accumulation",
+    "area_ap50_95_max100": {
+      "all": 0.09708553355335535,
+      "small": 0.1004500930862317,
+      "medium": 0.08996699669966997,
+      "large": null
+    },
+    "area_ap50_95_max300": {
+      "all": 0.09708553355335535,
+      "small": 0.1004500930862317,
+      "medium": 0.08996699669966997,
+      "large": null
+    }
+  },
+  "mask": null,
+  "operating": {
+    "confidence": 0.75,
+    "match_box_iou": 0.5,
+    "tp": 0,
+    "fp": 0,
+    "fn": 189,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "per_class_counts_tp_fp_fn": [
+      [
+        0,
+        0,
+        57
+      ],
+      [
+        0,
+        0,
+        104
+      ],
+      [
+        0,
+        0,
+        16
+      ],
+      [
+        0,
+        0,
+        12
+      ]
+    ],
+    "size_recall": {
+      "lt8": {
+        "detected": 0,
+        "total": 176,
+        "recall": 0.0
+      },
+      "8to16": {
+        "detected": 0,
+        "total": 5,
+        "recall": 0.0
+      },
+      "16to32": {
+        "detected": 0,
+        "total": 7,
+        "recall": 0.0
+      },
+      "ge32": {
+        "detected": 0,
+        "total": 1,
+        "recall": 0.0
+      }
+    },
+    "class_by_native_shortside_recall": {
+      "resistor": {
+        "lt8": {
+          "detected": 0,
+          "total": 57,
+          "recall": 0.0
+        },
+        "8to16": {
+          "detected": 0,
+          "total": 0,
+          "recall": null
+        },
+        "16to32": {
+          "detected": 0,
+          "total": 0,
+          "recall": null
+        },
+        "ge32": {
+          "detected": 0,
+          "total": 0,
+          "recall": null
+        }
+      },
+      "capacitor": {
+        "lt8": {
+          "detected": 0,
+          "total": 104,
+          "recall": 0.0
+        },
+        "8to16": {
+          "detected": 0,
+          "total": 0,
+          "recall": null
+        },
+        "16to32": {
+          "detected": 0,
+          "total": 0,
+          "recall": null
+        },
+        "ge32": {
+          "detected": 0,
+          "total": 0,
+          "recall": null
+        }
+      },
+      "ic": {
+        "lt8": {
+          "detected": 0,
+          "total": 13,
+          "recall": 0.0
+        },
+        "8to16": {
+          "detected": 0,
+          "total": 0,
+          "recall": null
+        },
+        "16to32": {
+          "detected": 0,
+          "total": 3,
+          "recall": 0.0
+        },
+        "ge32": {
+          "detected": 0,
+          "total": 0,
+          "recall": null
+        }
+      },
+      "connector": {
+        "lt8": {
+          "detected": 0,
+          "total": 2,
+          "recall": 0.0
+        },
+        "8to16": {
+          "detected": 0,
+          "total": 5,
+          "recall": 0.0
+        },
+        "16to32": {
+          "detected": 0,
+          "total": 4,
+          "recall": 0.0
+        },
+        "ge32": {
+          "detected": 0,
+          "total": 1,
+          "recall": 0.0
+        }
+      }
+    },
+    "negative_images": 0,
+    "negative_images_with_false_positive": 0,
+    "negative_false_positive_image_rate": null,
+    "per_image": [
+      {
+        "id": "RPI3B_Bottom",
+        "group_id": "wacv:RPI3B",
+        "source": "wacv2019",
+        "counts_tp_fp_fn": [
+          [
+            0,
+            0,
+            17
+          ],
+          [
+            0,
+            0,
+            52
+          ],
+          [
+            0,
+            0,
+            4
+          ],
+          [
+            0,
+            0,
+            2
+          ]
+        ],
+        "ground_truth_count": 75,
+        "prediction_count": 0
+      },
+      {
+        "id": "RPI3B_Top",
+        "group_id": "wacv:RPI3B",
+        "source": "wacv2019",
+        "counts_tp_fp_fn": [
+          [
+            0,
+            0,
+            40
+          ],
+          [
+            0,
+            0,
+            52
+          ],
+          [
+            0,
+            0,
+            12
+          ],
+          [
+            0,
+            0,
+            10
+          ]
+        ],
+        "ground_truth_count": 114,
+        "prediction_count": 0
+      }
+    ]
+  },
+  "threshold_source": "supplied_frozen_confidence",
+  "per_class_thresholds_applied": false,
+  "group_bootstrap_recall95": null,
+  "group_bootstrap_exclusion_reason": "Only one source board group (or none); no meaningful between-board confidence interval",
+  "latency": {
+    "offline_predict_and_postprocess_ms_p50": 65.32424999750219,
+    "offline_predict_and_postprocess_ms_p95": 81.36508500028867,
+    "samples": 2,
+    "warmup_excluded": true,
+    "scope": "Offline crop predict plus native coordinate merge/global NMS only; NOT camera-to-result latency",
+    "excludes": [
+      "model initialization",
+      "file read/hash/decode",
+      "camera capture",
+      "visualization",
+      "metrics",
+      "disk write"
+    ]
+  },
+  "d455_verified": false,
+  "physical_specimen_independence_verified": false
+}

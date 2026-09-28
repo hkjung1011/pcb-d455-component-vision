@@ -1,0 +1,78 @@
+WARNING 'half' is deprecated and will be removed in the future. Use 'quantize' instead.
+WARNING 'half' is deprecated and will be removed in the future. Use 'quantize' instead.
+WARNING 'half' is deprecated and will be removed in the future. Use 'quantize' instead.
+WARNING 'half' is deprecated and will be removed in the future. Use 'quantize' instead.
+WARNING 'half' is deprecated and will be removed in the future. Use 'quantize' instead.
+WARNING 'half' is deprecated and will be removed in the future. Use 'quantize' instead.
+EVALUATED 1/2 RPI3B_Bottom tiles=5
+WARNING 'half' is deprecated and will be removed in the future. Use 'quantize' instead.
+WARNING 'half' is deprecated and will be removed in the future. Use 'quantize' instead.
+WARNING 'half' is deprecated and will be removed in the future. Use 'quantize' instead.
+WARNING 'half' is deprecated and will be removed in the future. Use 'quantize' instead.
+WARNING 'half' is deprecated and will be removed in the future. Use 'quantize' instead.
+WARNING 'half' is deprecated and will be removed in the future. Use 'quantize' instead.
+WARNING 'half' is deprecated and will be removed in the future. Use 'quantize' instead.
+EVALUATED 2/2 RPI3B_Top tiles=7
+{
+  "split": "test",
+  "cohort": "pi_test",
+  "pipeline": "dual",
+  "images": 2,
+  "native_gt_instances": 189,
+  "bbox": {
+    "iou_type": "bbox",
+    "ap50_95_max100": 0.3535058470884121,
+    "ap50_max100": 0.55993946618422,
+    "ap75_max100": 0.426453422563072,
+    "ap50_95_max300": 0.35331240828205795,
+    "ap50_max300": 0.5595257399450719,
+    "ap75_max300": 0.426453422563072,
+    "per_class": {
+      "resistor": {
+        "ap50_95_max100": 0.4111685095322532,
+        "ap50_max100": 0.668961868714344,
+        "ap75_max100": 0.49201171242611674,
+        "ap50_95_max300": 0.4111685095322532,
+        "ap50_max300": 0.668961868714344,
+        "ap75_max300": 0.49201171242611674
+      },
+      "capacitor": {
+        "ap50_95_max100": 0.3445390272016507,
+        "ap50_max100": 0.5305104094930408,
+        "ap75_max100": 0.38449619561549386,
+        "ap50_95_max300": 0.3437652719762341,
+        "ap50_max300": 0.5288555045364486,
+        "ap75_max300": 0.38449619561549386
+      },
+      "ic": {
+        "ap50_95_max100": 0.4549426103143493,
+        "ap50_max100": 0.6929406646836808,
+        "ap75_max100": 0.5687371258134217,
+        "ap50_95_max300": 0.4549426103143493,
+        "ap50_max300": 0.6929406646836808,
+        "ap75_max300": 0.5687371258134217
+      },
+      "connector": {
+        "ap50_95_max100": 0.2033732413053952,
+        "ap50_max100": 0.34734492184581456,
+        "ap75_max100": 0.2605686563972557,
+        "ap50_95_max300": 0.2033732413053952,
+        "ap50_max300": 0.34734492184581456,
+        "ap75_max300": 0.2605686563972557
+      }
+    },
+    "max_detections_scope": "Per image and category, before standard COCO accumulation",
+    "area_ap50_95_max100": {
+      "all": 0.3535058470884121,
+      "small": 0.30916739867913945,
+      "medium": 0.4580784779052873,
+      "large": 0.48613990810845786
+    },
+    "area_ap50_95_max300": {
+      "all": 0.35331240828205795,
+      "small": 0.3087122471847447,
+      "medium": 0.4580784779052873,
+      "large": 0.48613990810845786
+    }
+  }
+}

@@ -1,0 +1,469 @@
+{
+  "generated_at_utc": "2026-09-28T12:31:10.878684+00:00",
+  "status": "PASS_DATA_AUDIT",
+  "scope": "Independent source XML/image and full R04 materialized training/validation data audit; no source modifications or GPU operations",
+  "checks": {
+    "all47_source_records_preserved_except_split": {
+      "pass": true,
+      "detail": []
+    },
+    "raw47_images_xml_hash_dimensions_and_all_source_objects": {
+      "pass": true,
+      "detail": {
+        "xml_objects": 18201,
+        "failures": []
+      }
+    },
+    "split_source_hash_binding": {
+      "pass": true,
+      "detail": null
+    },
+    "source_group_and_exact_image_hash_cross_split_absent": {
+      "pass": true,
+      "detail": {
+        "groups": 29,
+        "unique_images": 47
+      }
+    },
+    "test_pi_groups_and_source_gt_unchanged": {
+      "pass": true,
+      "detail": null
+    },
+    "candidate_groups_only_old_train_val": {
+      "pass": true,
+      "detail": null
+    },
+    "split_counts_train": {
+      "pass": true,
+      "detail": null
+    },
+    "split_counts_val": {
+      "pass": true,
+      "detail": null
+    },
+    "split_counts_test": {
+      "pass": true,
+      "detail": null
+    },
+    "split_counts_pi_test": {
+      "pass": true,
+      "detail": null
+    },
+    "baseline_view_geometry_sha_and_sampling_record": {
+      "pass": true,
+      "detail": {
+        "failures": []
+      }
+    },
+    "baseline_all_train_val_label_coordinate_roundtrip": {
+      "pass": true,
+      "detail": {
+        "max_abs_error_native_px": 4.161997821938712e-07,
+        "failures": []
+      }
+    },
+    "baseline_ignore_coverage_and_coordinates": {
+      "pass": true,
+      "detail": {
+        "regions": 0,
+        "failures": []
+      }
+    },
+    "baseline_all_image_crop_resize_jpeg_bytes_reproduced": {
+      "pass": true,
+      "detail": {
+        "views": 418,
+        "failures": []
+      }
+    },
+    "baseline_all_original_targets_supervised": {
+      "pass": true,
+      "detail": {
+        "supervised": 3307,
+        "missing": []
+      }
+    },
+    "baseline_group_sampling_sums_one": {
+      "pass": true,
+      "detail": {
+        "ArduinoMega": 1.0,
+        "ATTIOT": 1.0000000000000004,
+        "DigitalDiscovery": 1.0,
+        "HackRF": 0.9999999999999999,
+        "MicroZed": 1.0,
+        "ML365": 1.000000000000001,
+        "Spartan3": 1.0000000000000004,
+        "Spartan6Redux": 1.0,
+        "STK644": 0.9999999999999994,
+        "SystemAce": 0.9999999999999991,
+        "ThingMagicM6e": 0.9999999999999999,
+        "UTL-103": 1.0,
+        "Virtex5": 0.9999999999999997,
+        "XLVDSproSupply": 0.9999999999999993,
+        "Zedboard": 1.0000000000000007,
+        "Ztex": 1.0,
+        "ZTurn": 0.9999999999999996
+      }
+    },
+    "baseline_summary_counts_match": {
+      "pass": true,
+      "detail": null
+    },
+    "baseline_yaml_paths_and_source_hash": {
+      "pass": true,
+      "detail": null
+    },
+    "improved_view_geometry_sha_and_sampling_record": {
+      "pass": true,
+      "detail": {
+        "failures": []
+      }
+    },
+    "improved_all_train_val_label_coordinate_roundtrip": {
+      "pass": true,
+      "detail": {
+        "max_abs_error_native_px": 4.161997821938712e-07,
+        "failures": []
+      }
+    },
+    "improved_ignore_coverage_and_coordinates": {
+      "pass": true,
+      "detail": {
+        "regions": 4121,
+        "failures": []
+      }
+    },
+    "improved_all_image_crop_resize_jpeg_bytes_reproduced": {
+      "pass": true,
+      "detail": {
+        "views": 968,
+        "failures": []
+      }
+    },
+    "improved_all_original_targets_supervised": {
+      "pass": true,
+      "detail": {
+        "supervised": 3307,
+        "missing": []
+      }
+    },
+    "improved_group_sampling_sums_one": {
+      "pass": true,
+      "detail": {
+        "ArduinoMega": 1.0000000000000013,
+        "ATTIOT": 1.0000000000000013,
+        "DigitalDiscovery": 0.9999999999999999,
+        "HackRF": 1.000000000000001,
+        "MicroZed": 1.0000000000000004,
+        "ML365": 1.0000000000000024,
+        "Spartan3": 0.9999999999999998,
+        "Spartan6Redux": 1.0,
+        "STK644": 1.0000000000000009,
+        "SystemAce": 1.0000000000000007,
+        "ThingMagicM6e": 1.0000000000000004,
+        "UTL-103": 1.0,
+        "Virtex5": 0.9999999999999997,
+        "XLVDSproSupply": 1.0000000000000018,
+        "Zedboard": 0.9999999999999984,
+        "Ztex": 1.0,
+        "ZTurn": 1.0000000000000007
+      }
+    },
+    "improved_all_original_targets_have_full_view": {
+      "pass": true,
+      "detail": {
+        "full": 3307,
+        "total": 3307
+      }
+    },
+    "improved_summary_counts_match": {
+      "pass": true,
+      "detail": null
+    },
+    "improved_yaml_paths_and_source_hash": {
+      "pass": true,
+      "detail": null
+    },
+    "materialized_view_image_sha_train_val_overlap_absent": {
+      "pass": true,
+      "detail": {
+        "unique_hashes": 977
+      }
+    },
+    "native_manifest_all_original_geometry_exclusions_preserved": {
+      "pass": true,
+      "detail": []
+    },
+    "native_manifest_test_cohorts_objects_unchanged": {
+      "pass": true,
+      "detail": {
+        "failures": [],
+        "intentional_metadata_renames": [
+          {
+            "id": "DuetWIFI_Bottom",
+            "from": "test",
+            "to": "general_test"
+          },
+          {
+            "id": "DuetWIFI_Top",
+            "from": "test",
+            "to": "general_test"
+          },
+          {
+            "id": "EDA-008_Bottom",
+            "from": "test",
+            "to": "general_test"
+          },
+          {
+            "id": "EDA-008_Top",
+            "from": "test",
+            "to": "general_test"
+          },
+          {
+            "id": "ML450_Bottom1",
+            "from": "test",
+            "to": "general_test"
+          },
+          {
+            "id": "ML450_Bottom2",
+            "from": "test",
+            "to": "general_test"
+          },
+          {
+            "id": "ML450_Top1",
+            "from": "test",
+            "to": "general_test"
+          },
+          {
+            "id": "ML450_Top2",
+            "from": "test",
+            "to": "general_test"
+          },
+          {
+            "id": "OlimexRed",
+            "from": "test",
+            "to": "general_test"
+          },
+          {
+            "id": "Spartan6_Bottom",
+            "from": "test",
+            "to": "general_test"
+          },
+          {
+            "id": "Spartan6_Top",
+            "from": "test",
+            "to": "general_test"
+          }
+        ],
+        "gt_geometry_classes_exclusions_unchanged": true
+      }
+    },
+    "native_manifest_top_level_counts_current": {
+      "pass": true,
+      "detail": []
+    },
+    "protocol_hash_bindings": {
+      "pass": true,
+      "detail": null
+    },
+    "protocol_data_arm_and_source_consistency": {
+      "pass": true,
+      "detail": null
+    },
+    "split_optimization_independently_recomputed": {
+      "pass": true,
+      "detail": {
+        "data_scope": "R03 train+val only",
+        "all_combinations": 100947,
+        "eligible": 29385,
+        "validation_groups": [
+          "ACM-109",
+          "Arty",
+          "UTL-016",
+          "Virtex6",
+          "XCM-307A",
+          "Zybo"
+        ],
+        "objective": 0.034397343066640246,
+        "method": "Vectorized exhaustive recomputation without importing prepare_r04.py"
+      }
+    },
+    "baseline_grid_context_centered_view_set_complete": {
+      "pass": true,
+      "detail": []
+    },
+    "improved_grid_context_centered_view_set_complete": {
+      "pass": true,
+      "detail": []
+    }
+  },
+  "failed_checks": [],
+  "warnings": [
+    "Physical serial independence cannot be established from public filenames.",
+    "Exact SHA grouping is verified; this audit does not establish perceptual/physical duplication absence.",
+    "R04 general/Pi results are development holdouts already inspected in R03, not an untouched final test.",
+    "Data ignore sidecars are verified. Runtime loss ignore semantics, sampler draws and augmentation transforms require separate trainer audit.",
+    "Equal group sums imply equal group selection probability after normalization, not equal per-instance or gradient weight.",
+    "No D455 image or mask was acquired in this audit.",
+    "source_to_saved_scale is nominal uniform resize factor; rounded saved width and height can produce slightly different exact x/y factors. Normalized labels remain consistent with actual resize.",
+    "New validation has98/1052 short-side8-16px labels(9.3156percent). This improves train+val-pool coverage but does not establish representativeness for D455."
+  ],
+  "actual_split": {
+    "train": {
+      "images": 25,
+      "groups": 17,
+      "class_counts": {
+        "connector": 318,
+        "ic": 204,
+        "capacitor": 1584,
+        "resistor": 1201
+      },
+      "objects": 3307
+    },
+    "val": {
+      "images": 9,
+      "groups": 6,
+      "class_counts": {
+        "connector": 115,
+        "resistor": 410,
+        "capacitor": 454,
+        "ic": 73
+      },
+      "objects": 1052
+    },
+    "test": {
+      "images": 11,
+      "groups": 5,
+      "class_counts": {
+        "connector": 176,
+        "resistor": 443,
+        "capacitor": 636,
+        "ic": 93
+      },
+      "objects": 1348
+    },
+    "pi_test": {
+      "images": 2,
+      "groups": 1,
+      "class_counts": {
+        "capacitor": 104,
+        "ic": 16,
+        "resistor": 57,
+        "connector": 12
+      },
+      "objects": 189
+    }
+  },
+  "arms": {
+    "baseline": {
+      "views": 418,
+      "view_types": {
+        "native1024": 418
+      },
+      "train_originals": 3307,
+      "complete_originals": 3215,
+      "supervised_exposures": {
+        "connector": 828,
+        "capacitor": 3054,
+        "ic": 507,
+        "resistor": 2186
+      },
+      "ignored": {},
+      "native_pixel_roundtrip_max_abs_error": 4.161997821938712e-07,
+      "val_labels": 1052,
+      "group_weight_sums": {
+        "ArduinoMega": 1.0,
+        "ATTIOT": 1.0000000000000004,
+        "DigitalDiscovery": 1.0,
+        "HackRF": 0.9999999999999999,
+        "MicroZed": 1.0,
+        "ML365": 1.000000000000001,
+        "Spartan3": 1.0000000000000004,
+        "Spartan6Redux": 1.0,
+        "STK644": 0.9999999999999994,
+        "SystemAce": 0.9999999999999991,
+        "ThingMagicM6e": 0.9999999999999999,
+        "UTL-103": 1.0,
+        "Virtex5": 0.9999999999999997,
+        "XLVDSproSupply": 0.9999999999999993,
+        "Zedboard": 1.0000000000000007,
+        "Ztex": 1.0,
+        "ZTurn": 0.9999999999999996
+      },
+      "views_sha256": "fa507ef74db349875cd2f24c9e793dc6276a8d3b63427f0a0b8972ee2375df23",
+      "ignore_sha256": "449046938ca0d375c8b93328838199f79452a8b08d2f84fef871fcf07ebdf1ea",
+      "summary_sha256": "87d5587d7784b2a0aa6bcc4057ed9c9201f11c2062364eafbe74335084d7f0cf",
+      "missing_full_view_by_class": {
+        "connector": 68,
+        "ic": 24
+      },
+      "expected_supervised_label_exposures_per_448_draw_epoch": {
+        "connector": 1269.0142366385637,
+        "capacitor": 6638.682794056679,
+        "ic": 1608.1974120140019,
+        "resistor": 4055.386597884578
+      }
+    },
+    "improved": {
+      "views": 968,
+      "view_types": {
+        "native1024": 418,
+        "context2048": 126,
+        "object_centered": 424
+      },
+      "train_originals": 3307,
+      "complete_originals": 3307,
+      "supervised_exposures": {
+        "connector": 2471,
+        "ic": 1721,
+        "capacitor": 11092,
+        "resistor": 9523
+      },
+      "ignored": {
+        "target_fragment_lt50": 2722,
+        "source_unknown": 1399
+      },
+      "native_pixel_roundtrip_max_abs_error": 4.161997821938712e-07,
+      "val_labels": 1052,
+      "group_weight_sums": {
+        "ArduinoMega": 1.0000000000000013,
+        "ATTIOT": 1.0000000000000013,
+        "DigitalDiscovery": 0.9999999999999999,
+        "HackRF": 1.000000000000001,
+        "MicroZed": 1.0000000000000004,
+        "ML365": 1.0000000000000024,
+        "Spartan3": 0.9999999999999998,
+        "Spartan6Redux": 1.0,
+        "STK644": 1.0000000000000009,
+        "SystemAce": 1.0000000000000007,
+        "ThingMagicM6e": 1.0000000000000004,
+        "UTL-103": 1.0,
+        "Virtex5": 0.9999999999999997,
+        "XLVDSproSupply": 1.0000000000000018,
+        "Zedboard": 0.9999999999999984,
+        "Ztex": 1.0,
+        "ZTurn": 1.0000000000000007
+      },
+      "views_sha256": "df7b5bdb67323af200a5809253120e048027b08851f47be66ba9c863e0237986",
+      "ignore_sha256": "5a2fb1e4799f9c9595a3d6674f0e26e3fd7050e3061ad364351a739d4223878c",
+      "summary_sha256": "31e00b45dfc9e11f1f63e7081eeb7f31a5e554e5fc283d7d4c14768ae1e59014",
+      "missing_full_view_by_class": {},
+      "expected_supervised_label_exposures_per_448_draw_epoch": {
+        "connector": 1334.309270561038,
+        "ic": 1713.9599873385096,
+        "capacitor": 7766.880206720765,
+        "resistor": 5393.467729176085
+      }
+    }
+  },
+  "protocol_sha256": "c712d8f3e24ce8fa8291d4b2e7e2593924ccdb154ba4361f50958e63555a4def",
+  "source_records_sha256": "bcfd37fc0b08d67502234b2e8e6eb4102020850a8f857b72a2839e24cfc68d77",
+  "native_manifest_sha256": "a91d4956da6adc8b3eebcd87da6e8e428362e1c14cef9e8f9d5a4583817d8c19",
+  "training_and_d455_runtime_verified": false,
+  "corrections_during_review": [
+    {
+      "finding": "native_manifest top-level counts/native_split_counts initially retained R03 train27/3484,val7/875",
+      "resolution": "Parent corrected aggregate metadata and protocol native_manifest SHA. Final audit observed current train25/3307,val9/1052 and valid hash bindings. Source GT unchanged."
+    }
+  ]
+}

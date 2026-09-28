@@ -1,0 +1,16 @@
+[
+  {
+    "id": "RPI3B_Bottom",
+    "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\component_assets\\wacv_original\\pcb_wacv_2019\\RPI3B_Bottom\\RPI3B_Bottom.jpg",
+    "sha256": "b9e6c2f55a556a51037a16010a0282e93acd7ba1c9773c6b6c6eac7ef73e112c",
+    "width": 1622,
+    "height": 1080
+  },
+  {
+    "id": "RPI3B_Top",
+    "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\component_assets\\wacv_original\\pcb_wacv_2019\\RPI3B_Top\\RPI3B_Top.jpg",
+    "sha256": "7b51a5ec80c937f7aee3d772a3f29ae118606fcb04b4eeb953a035227c0bdd69",
+    "width": 2000,
+    "height": 1350
+  }
+]

@@ -1,0 +1,10 @@
+{
+  "status": "PASS_PACKAGE_HASH_CRC",
+  "folder": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\outputs\\PCB_D455_R04",
+  "files": 2064,
+  "zip_bytes": 397883101,
+  "zip_sha256": "aa7b28a83fe52515ed7bfdb85a3bdb94e1ab841daf6bd9cf37f1c1466a5f06de",
+  "final_result_audit_sha256": "d1c016866f7b8120d08d032333bf8f7de0a38eecca63bd63b89582cfe6d4d186",
+  "source_photos_included": false,
+  "d455_verified": false
+}
