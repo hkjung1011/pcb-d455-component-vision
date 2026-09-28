@@ -1,0 +1,32 @@
+{
+  "status": "COMPLETE",
+  "started_utc": "2026-09-28T12:34:00.967251+00:00",
+  "finished_utc": "2026-09-28T12:48:34.514262+00:00",
+  "arm": "baseline",
+  "actual_epochs_reached": 20,
+  "last_epoch_partial": true,
+  "actual_direct_optimizer_calls": 1165,
+  "actual_batches": 2218,
+  "parameter_steps": {
+    "min": 1165,
+    "max": 1165,
+    "state_tensors": 255,
+    "meaning": "Per-parameter AdamW counters, separate from directly observed optimizer calls"
+  },
+  "ema_updates": 1165,
+  "initial_parameter_sha256": "9e44a6a12ec1fc7e37a830f904c1a48afb76782a10668f2cc48c729a12ec4d20",
+  "final_parameter_sha256": "95125f52930cc60acd0958c68a6203eff0fdfbe481f4ef10bc83be4ed5872b9a",
+  "peak_cuda_allocated_bytes": 5076453888,
+  "peak_cuda_reserved_bytes": 5872025600,
+  "selection_status": "PENDING_NATIVE_VALIDATION",
+  "candidate_count": 10,
+  "protocol_sha256": "c712d8f3e24ce8fa8291d4b2e7e2593924ccdb154ba4361f50958e63555a4def",
+  "class_weights": [
+    1.0,
+    1.0,
+    1.0,
+    1.0
+  ],
+  "stop_reason": "direct_optimizer_call_cap",
+  "candidates_manifest_sha256": "37326c24b33ce48d51b131a633da1111d99636552f2601d2a2fc8d94f9497510"
+}

@@ -1,0 +1,50 @@
+{
+  "status": "PASS",
+  "utc": "2026-09-28T12:26:11.379295+00:00",
+  "tests_run": 11,
+  "failures": [],
+  "errors": [],
+  "device": "CPU",
+  "training_runs": 0,
+  "production_inference": 0,
+  "scope": "Synthetic loss/gradient equivalence, real dataset letterbox/flips/collate and on-disk cache isolation, standard checkpoint portability. No physical camera or AP verification.",
+  "source_sha256": {
+    "test_ignore_adapter.py": "3a075a8c9bad48b6187b71945ae1194e6773c180f3b16138692ff59015dbd14c",
+    "ignore_adapter.py": "a8d5bd2baa4b43f86ce0ffd9507eeec69be1a29d431a1ba12b1b38534ca95280"
+  },
+  "cuda_smoke": {
+    "status": "PASS",
+    "model": "official yolo11s.pt -> standard DetectionModel nc=4",
+    "device": "NVIDIA GeForce RTX 5060 Laptop GPU",
+    "batch": 4,
+    "imgsz": 1024,
+    "dtype": "float32",
+    "forward_calls": 1,
+    "backward_calls": 1,
+    "optimizer_steps": 0,
+    "source_images": [
+      "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04\\data\\improved\\images\\train\\ATTIOT_Bottom__0000_native1024.jpg",
+      "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04\\data\\improved\\images\\train\\ATTIOT_Bottom__0001_context2048.jpg",
+      "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04\\data\\improved\\images\\train\\ATTIOT_Bottom__0002_object_centered.jpg",
+      "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04\\data\\improved\\images\\train\\ATTIOT_Bottom__0003_native1024.jpg"
+    ],
+    "positive_labels": 202,
+    "ignore_labels": 57,
+    "suppressed_negative_anchors": 5135,
+    "loss_items": {
+      "box_loss": 1.9691455364227295,
+      "cls_loss": 3.8394243717193604,
+      "dfl_loss": 1.5520901679992676
+    },
+    "finite_gradients": true,
+    "parameter_sha256_before": "892f9a7d8366529325f3aa875483f1677dd0fbbe4cccbb63558a7ef65e5546ab",
+    "parameter_sha256_after": "892f9a7d8366529325f3aa875483f1677dd0fbbe4cccbb63558a7ef65e5546ab",
+    "parameters_unchanged": true,
+    "peak_allocated_bytes": 4706460672,
+    "peak_reserved_bytes": 5798625280,
+    "allocated_before_cleanup_bytes": 194835968,
+    "elapsed_seconds": 3.848148399993079,
+    "allocated_after_cleanup_bytes": 67108864,
+    "reserved_after_cleanup_bytes": 67108864
+  }
+}

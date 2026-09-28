@@ -1,0 +1,62 @@
+{
+  "schema": "r04-resolution-stress-protocol-v1",
+  "frozen_at_utc": "2026-09-28T13:01:34.124107+00:00",
+  "purpose": "Post-selection synthetic resolution sensitivity only; excluded from all model/pipeline/confidence selection",
+  "source_manifest": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04\\data\\native_manifest.json",
+  "source_manifest_sha256": "a91d4956da6adc8b3eebcd87da6e8e428362e1c14cef9e8f9d5a4583817d8c19",
+  "main_protocol_sha256": "c712d8f3e24ce8fa8291d4b2e7e2593924ccdb154ba4361f50958e63555a4def",
+  "source_cohort": "pi_test",
+  "source_images": 2,
+  "source_board_groups": 1,
+  "source_target_bbox_count": 189,
+  "source_scale_approx_px_per_mm": {
+    "RPI3B_Top": 22.57,
+    "RPI3B_Bottom": 14.23
+  },
+  "scale_evidence": "work/r04_review/camera_gt_audit.json: approximate header pin pitch image measurement; not D455 intrinsics or calibrated board-plane scale",
+  "conditions": [
+    {
+      "id": "nominal_3p2_pxmm",
+      "target_nominal_px_per_mm": 3.2
+    },
+    {
+      "id": "nominal_2p1_pxmm",
+      "target_nominal_px_per_mm": 2.1
+    }
+  ],
+  "transform": {
+    "library": "Pillow",
+    "resample": "LANCZOS",
+    "formula": "new_width=max(1,round(old_width*target_nominal_px_per_mm/source_approx_px_per_mm)); same for height",
+    "storage": "Downsampled RGB PNG; no explicit upsampling back to original image. Frozen evaluator may letterbox/upsample to1024 as in selected inference pipeline.",
+    "gt_scaling": "Use actual sx=new_width/old_width,sy=new_height/old_height on every target and excluded bbox, preserving IDs/classes/source types. Never clip out tiny labels or drop1px/subpixel objects.",
+    "augmentation": "None beyond deterministic resizing",
+    "annotation_status": "source_bbox_scaled_synthetic"
+  },
+  "models": [
+    "baseline",
+    "improved"
+  ],
+  "jobs": 4,
+  "execution_gate": "Main two-arm evaluation aggregate complete, exactly four general/Pi main jobs, frozen main selection SHA and selected checkpoint/pipeline/confidence reused verbatim. This runner is not invoked by main suite.",
+  "selection_reuse": "No threshold search, checkpoint search, native/dual change or choosing preferred model using stress scores",
+  "output_root": "reports/resolution_stress",
+  "invariants": {
+    "new_training": false,
+    "new_inference_before_main_evaluation_complete": false,
+    "d455_verified": false,
+    "actual_camera_images": 0,
+    "mask_ground_truth": false,
+    "mask_metric": null,
+    "between_board_confidence_interval": null,
+    "test_gt_changed_in_main_manifest": false
+  },
+  "limitations": [
+    "Only two public Pi photos, one source board group already inspected during development.",
+    "Nominal source px/mm is approximate; lens distortion, perspective, header height and exact board-plane scale are not calibrated.",
+    "Does not reproduce D455 optics, focus, noise, exposure, reflection, depth or camera-to-result delay.",
+    "Neither an upper nor a lower bound for actual D455 accuracy.",
+    "Derived source annotations remain geometric references even when downsampling makes identity visually unresolved; no human readability validation.",
+    "No score is used to select a checkpoint, pipeline, threshold or deployment model."
+  ]
+}

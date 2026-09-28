@@ -1,0 +1,23 @@
+﻿candidate,split,ap50_95_max100,ap50_95_max300,notice
+baseline__epoch_02__dual__val,val,0.12062069540179585,0.14903562230724904,Partial validation only; final selection and holdout evaluation not completed
+baseline__epoch_02__native__val,val,0.09096920133474755,0.12040068852593076,Partial validation only; final selection and holdout evaluation not completed
+baseline__epoch_04__dual__val,val,0.2835543953211011,0.31620817044730304,Partial validation only; final selection and holdout evaluation not completed
+baseline__epoch_04__native__val,val,0.24880033431369128,0.2780109463668659,Partial validation only; final selection and holdout evaluation not completed
+baseline__epoch_06__dual__val,val,0.29067409212934897,0.3154619682479876,Partial validation only; final selection and holdout evaluation not completed
+baseline__epoch_06__native__val,val,0.25430243022892185,0.27723851380808573,Partial validation only; final selection and holdout evaluation not completed
+baseline__epoch_08__dual__val,val,0.31734834449668176,0.3461763093437149,Partial validation only; final selection and holdout evaluation not completed
+baseline__epoch_08__native__val,val,0.2599085048014094,0.2885821971166293,Partial validation only; final selection and holdout evaluation not completed
+baseline__epoch_10__dual__val,val,0.3321479706544031,0.36112272034672194,Partial validation only; final selection and holdout evaluation not completed
+baseline__epoch_10__native__val,val,0.2747338137452566,0.30339878804888115,Partial validation only; final selection and holdout evaluation not completed
+baseline__epoch_12__dual__val,val,0.30540373681207006,0.34320135037661953,Partial validation only; final selection and holdout evaluation not completed
+baseline__epoch_12__native__val,val,0.26285109930607825,0.30203715420018706,Partial validation only; final selection and holdout evaluation not completed
+baseline__epoch_14__dual__val,val,0.31158762049541655,0.3441818792450482,Partial validation only; final selection and holdout evaluation not completed
+baseline__epoch_14__native__val,val,0.276739046447503,0.3085058468864295,Partial validation only; final selection and holdout evaluation not completed
+baseline__epoch_16__dual__val,val,0.3442017605967222,0.37920759832894246,Partial validation only; final selection and holdout evaluation not completed
+baseline__epoch_16__native__val,val,0.3027532159278121,0.33602809344228635,Partial validation only; final selection and holdout evaluation not completed
+baseline__epoch_18__dual__val,val,0.34959225042636016,0.38498834797662446,Partial validation only; final selection and holdout evaluation not completed
+baseline__epoch_18__native__val,val,0.3146232424526976,0.34813091549305875,Partial validation only; final selection and holdout evaluation not completed
+baseline__epoch_20__dual__val,val,0.3554185928316102,0.3924585727507874,Partial validation only; final selection and holdout evaluation not completed
+baseline__epoch_20__native__val,val,0.3201997859105784,0.3539304318005965,Partial validation only; final selection and holdout evaluation not completed
+improved__epoch_02__dual__val,val,0.18839108035314622,0.211667769773068,Partial validation only; final selection and holdout evaluation not completed
+improved__epoch_02__native__val,val,0.14984724960907583,0.17293548619505625,Partial validation only; final selection and holdout evaluation not completed

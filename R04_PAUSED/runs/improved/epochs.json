@@ -1,0 +1,722 @@
+[
+  {
+    "utc": "2026-09-28T12:50:22.884353+00:00",
+    "epoch": 1,
+    "optimizer_calls": 112,
+    "parameter_steps": {
+      "min": 112,
+      "max": 112,
+      "state_tensors": 255,
+      "meaning": "Per-parameter AdamW counters, separate from directly observed optimizer calls"
+    },
+    "ema_updates": 112,
+    "processed_batches": 112,
+    "planned_batches": 112,
+    "partial_epoch": false,
+    "train_loss": {
+      "box_loss": 1.325188398361206,
+      "cls_loss": 1.7672039270401,
+      "dfl_loss": 1.1547105312347412
+    },
+    "full_image_loader_validation": {
+      "metrics/precision(B)": 0.11687,
+      "metrics/recall(B)": 0.15175,
+      "metrics/mAP50(B)": 0.06044,
+      "metrics/mAP50-95(B)": 0.03532,
+      "val/box_loss": 1.44632,
+      "val/cls_loss": 2.33534,
+      "val/dfl_loss": 1.23071
+    },
+    "validation_scope": "Diagnostic only; native/dual validation selects deployment checkpoint after training",
+    "lr": {
+      "lr/pg0": 0.0004955357142857143,
+      "lr/pg1": 0.0004955357142857143,
+      "lr/pg2": 0.0004955357142857143
+    },
+    "elapsed_seconds": 50.32476472854614
+  },
+  {
+    "utc": "2026-09-28T12:51:07.286944+00:00",
+    "epoch": 2,
+    "optimizer_calls": 168,
+    "parameter_steps": {
+      "min": 168,
+      "max": 168,
+      "state_tensors": 255,
+      "meaning": "Per-parameter AdamW counters, separate from directly observed optimizer calls"
+    },
+    "ema_updates": 168,
+    "processed_batches": 112,
+    "planned_batches": 112,
+    "partial_epoch": false,
+    "train_loss": {
+      "box_loss": 1.1478114128112793,
+      "cls_loss": 1.096129059791565,
+      "dfl_loss": 1.093003511428833
+    },
+    "full_image_loader_validation": {
+      "metrics/precision(B)": 0.3526,
+      "metrics/recall(B)": 0.19114,
+      "metrics/mAP50(B)": 0.15454,
+      "metrics/mAP50-95(B)": 0.08812,
+      "val/box_loss": 1.50109,
+      "val/cls_loss": 1.93614,
+      "val/dfl_loss": 1.16592
+    },
+    "validation_scope": "Diagnostic only; native/dual validation selects deployment checkpoint after training",
+    "lr": {
+      "lr/pg0": 0.0009462566964285714,
+      "lr/pg1": 0.0009462566964285714,
+      "lr/pg2": 0.0009462566964285714
+    },
+    "elapsed_seconds": 94.72735524177551
+  },
+  {
+    "utc": "2026-09-28T12:51:51.030459+00:00",
+    "epoch": 3,
+    "optimizer_calls": 224,
+    "parameter_steps": {
+      "min": 224,
+      "max": 224,
+      "state_tensors": 255,
+      "meaning": "Per-parameter AdamW counters, separate from directly observed optimizer calls"
+    },
+    "ema_updates": 224,
+    "processed_batches": 112,
+    "planned_batches": 112,
+    "partial_epoch": false,
+    "train_loss": {
+      "box_loss": 1.123457670211792,
+      "cls_loss": 0.9525046348571777,
+      "dfl_loss": 1.0552366971969604
+    },
+    "full_image_loader_validation": {
+      "metrics/precision(B)": 0.41343,
+      "metrics/recall(B)": 0.31393,
+      "metrics/mAP50(B)": 0.26956,
+      "metrics/mAP50-95(B)": 0.13653,
+      "val/box_loss": 1.51937,
+      "val/cls_loss": 1.41713,
+      "val/dfl_loss": 1.11998
+    },
+    "validation_scope": "Diagnostic only; native/dual validation selects deployment checkpoint after training",
+    "lr": {
+      "lr/pg0": 0.000901,
+      "lr/pg1": 0.000901,
+      "lr/pg2": 0.000901
+    },
+    "elapsed_seconds": 138.47086215019226
+  },
+  {
+    "utc": "2026-09-28T12:52:34.024307+00:00",
+    "epoch": 4,
+    "optimizer_calls": 280,
+    "parameter_steps": {
+      "min": 280,
+      "max": 280,
+      "state_tensors": 255,
+      "meaning": "Per-parameter AdamW counters, separate from directly observed optimizer calls"
+    },
+    "ema_updates": 280,
+    "processed_batches": 112,
+    "planned_batches": 112,
+    "partial_epoch": false,
+    "train_loss": {
+      "box_loss": 1.0111596584320068,
+      "cls_loss": 0.7933884859085083,
+      "dfl_loss": 1.014130711555481
+    },
+    "full_image_loader_validation": {
+      "metrics/precision(B)": 0.363,
+      "metrics/recall(B)": 0.26927,
+      "metrics/mAP50(B)": 0.24164,
+      "metrics/mAP50-95(B)": 0.14158,
+      "val/box_loss": 1.39632,
+      "val/cls_loss": 1.37659,
+      "val/dfl_loss": 1.0735
+    },
+    "validation_scope": "Diagnostic only; native/dual validation selects deployment checkpoint after training",
+    "lr": {
+      "lr/pg0": 0.0008515,
+      "lr/pg1": 0.0008515,
+      "lr/pg2": 0.0008515
+    },
+    "elapsed_seconds": 181.46371841430664
+  },
+  {
+    "utc": "2026-09-28T12:53:17.304851+00:00",
+    "epoch": 5,
+    "optimizer_calls": 336,
+    "parameter_steps": {
+      "min": 336,
+      "max": 336,
+      "state_tensors": 255,
+      "meaning": "Per-parameter AdamW counters, separate from directly observed optimizer calls"
+    },
+    "ema_updates": 336,
+    "processed_batches": 112,
+    "planned_batches": 112,
+    "partial_epoch": false,
+    "train_loss": {
+      "box_loss": 0.981672465801239,
+      "cls_loss": 0.742263674736023,
+      "dfl_loss": 1.00332510471344
+    },
+    "full_image_loader_validation": {
+      "metrics/precision(B)": 0.45707,
+      "metrics/recall(B)": 0.27208,
+      "metrics/mAP50(B)": 0.25293,
+      "metrics/mAP50-95(B)": 0.1515,
+      "val/box_loss": 1.44426,
+      "val/cls_loss": 1.52213,
+      "val/dfl_loss": 1.11777
+    },
+    "validation_scope": "Diagnostic only; native/dual validation selects deployment checkpoint after training",
+    "lr": {
+      "lr/pg0": 0.0008020000000000001,
+      "lr/pg1": 0.0008020000000000001,
+      "lr/pg2": 0.0008020000000000001
+    },
+    "elapsed_seconds": 224.744722366333
+  },
+  {
+    "utc": "2026-09-28T12:54:00.642971+00:00",
+    "epoch": 6,
+    "optimizer_calls": 392,
+    "parameter_steps": {
+      "min": 392,
+      "max": 392,
+      "state_tensors": 255,
+      "meaning": "Per-parameter AdamW counters, separate from directly observed optimizer calls"
+    },
+    "ema_updates": 392,
+    "processed_batches": 112,
+    "planned_batches": 112,
+    "partial_epoch": false,
+    "train_loss": {
+      "box_loss": 0.9334874153137207,
+      "cls_loss": 0.693596601486206,
+      "dfl_loss": 0.9956832528114319
+    },
+    "full_image_loader_validation": {
+      "metrics/precision(B)": 0.5289,
+      "metrics/recall(B)": 0.34051,
+      "metrics/mAP50(B)": 0.34025,
+      "metrics/mAP50-95(B)": 0.20448,
+      "val/box_loss": 1.36991,
+      "val/cls_loss": 1.15854,
+      "val/dfl_loss": 1.02809
+    },
+    "validation_scope": "Diagnostic only; native/dual validation selects deployment checkpoint after training",
+    "lr": {
+      "lr/pg0": 0.0007524999999999999,
+      "lr/pg1": 0.0007524999999999999,
+      "lr/pg2": 0.0007524999999999999
+    },
+    "elapsed_seconds": 268.0833830833435
+  },
+  {
+    "utc": "2026-09-28T12:54:44.360554+00:00",
+    "epoch": 7,
+    "optimizer_calls": 448,
+    "parameter_steps": {
+      "min": 448,
+      "max": 448,
+      "state_tensors": 255,
+      "meaning": "Per-parameter AdamW counters, separate from directly observed optimizer calls"
+    },
+    "ema_updates": 448,
+    "processed_batches": 112,
+    "planned_batches": 112,
+    "partial_epoch": false,
+    "train_loss": {
+      "box_loss": 0.8417173027992249,
+      "cls_loss": 0.5858707427978516,
+      "dfl_loss": 0.936737596988678
+    },
+    "full_image_loader_validation": {
+      "metrics/precision(B)": 0.50604,
+      "metrics/recall(B)": 0.27197,
+      "metrics/mAP50(B)": 0.27486,
+      "metrics/mAP50-95(B)": 0.17033,
+      "val/box_loss": 1.52397,
+      "val/cls_loss": 1.44929,
+      "val/dfl_loss": 1.10959
+    },
+    "validation_scope": "Diagnostic only; native/dual validation selects deployment checkpoint after training",
+    "lr": {
+      "lr/pg0": 0.000703,
+      "lr/pg1": 0.000703,
+      "lr/pg2": 0.000703
+    },
+    "elapsed_seconds": 311.80096411705017
+  },
+  {
+    "utc": "2026-09-28T12:55:27.412544+00:00",
+    "epoch": 8,
+    "optimizer_calls": 504,
+    "parameter_steps": {
+      "min": 504,
+      "max": 504,
+      "state_tensors": 255,
+      "meaning": "Per-parameter AdamW counters, separate from directly observed optimizer calls"
+    },
+    "ema_updates": 504,
+    "processed_batches": 112,
+    "planned_batches": 112,
+    "partial_epoch": false,
+    "train_loss": {
+      "box_loss": 0.793601930141449,
+      "cls_loss": 0.5460614562034607,
+      "dfl_loss": 0.9233735799789429
+    },
+    "full_image_loader_validation": {
+      "metrics/precision(B)": 0.44965,
+      "metrics/recall(B)": 0.34698,
+      "metrics/mAP50(B)": 0.306,
+      "metrics/mAP50-95(B)": 0.18751,
+      "val/box_loss": 1.39548,
+      "val/cls_loss": 1.25917,
+      "val/dfl_loss": 1.04931
+    },
+    "validation_scope": "Diagnostic only; native/dual validation selects deployment checkpoint after training",
+    "lr": {
+      "lr/pg0": 0.0006535,
+      "lr/pg1": 0.0006535,
+      "lr/pg2": 0.0006535
+    },
+    "elapsed_seconds": 354.8529567718506
+  },
+  {
+    "utc": "2026-09-28T12:56:10.993840+00:00",
+    "epoch": 9,
+    "optimizer_calls": 560,
+    "parameter_steps": {
+      "min": 560,
+      "max": 560,
+      "state_tensors": 255,
+      "meaning": "Per-parameter AdamW counters, separate from directly observed optimizer calls"
+    },
+    "ema_updates": 560,
+    "processed_batches": 112,
+    "planned_batches": 112,
+    "partial_epoch": false,
+    "train_loss": {
+      "box_loss": 0.7769252061843872,
+      "cls_loss": 0.5405027270317078,
+      "dfl_loss": 0.9218921661376953
+    },
+    "full_image_loader_validation": {
+      "metrics/precision(B)": 0.53163,
+      "metrics/recall(B)": 0.30591,
+      "metrics/mAP50(B)": 0.30594,
+      "metrics/mAP50-95(B)": 0.19137,
+      "val/box_loss": 1.42073,
+      "val/cls_loss": 1.23926,
+      "val/dfl_loss": 1.05282
+    },
+    "validation_scope": "Diagnostic only; native/dual validation selects deployment checkpoint after training",
+    "lr": {
+      "lr/pg0": 0.000604,
+      "lr/pg1": 0.000604,
+      "lr/pg2": 0.000604
+    },
+    "elapsed_seconds": 398.4342505931854
+  },
+  {
+    "utc": "2026-09-28T12:56:54.182511+00:00",
+    "epoch": 10,
+    "optimizer_calls": 616,
+    "parameter_steps": {
+      "min": 616,
+      "max": 616,
+      "state_tensors": 255,
+      "meaning": "Per-parameter AdamW counters, separate from directly observed optimizer calls"
+    },
+    "ema_updates": 616,
+    "processed_batches": 112,
+    "planned_batches": 112,
+    "partial_epoch": false,
+    "train_loss": {
+      "box_loss": 0.7399100065231323,
+      "cls_loss": 0.49929291009902954,
+      "dfl_loss": 0.9003434181213379
+    },
+    "full_image_loader_validation": {
+      "metrics/precision(B)": 0.54705,
+      "metrics/recall(B)": 0.30461,
+      "metrics/mAP50(B)": 0.31012,
+      "metrics/mAP50-95(B)": 0.19482,
+      "val/box_loss": 1.40425,
+      "val/cls_loss": 1.2867,
+      "val/dfl_loss": 1.05553
+    },
+    "validation_scope": "Diagnostic only; native/dual validation selects deployment checkpoint after training",
+    "lr": {
+      "lr/pg0": 0.0005545,
+      "lr/pg1": 0.0005545,
+      "lr/pg2": 0.0005545
+    },
+    "elapsed_seconds": 441.6219222545624
+  },
+  {
+    "utc": "2026-09-28T12:57:41.583095+00:00",
+    "epoch": 11,
+    "optimizer_calls": 672,
+    "parameter_steps": {
+      "min": 672,
+      "max": 672,
+      "state_tensors": 255,
+      "meaning": "Per-parameter AdamW counters, separate from directly observed optimizer calls"
+    },
+    "ema_updates": 672,
+    "processed_batches": 112,
+    "planned_batches": 112,
+    "partial_epoch": false,
+    "train_loss": {
+      "box_loss": 0.7486267685890198,
+      "cls_loss": 0.49901002645492554,
+      "dfl_loss": 0.9203980565071106
+    },
+    "full_image_loader_validation": {
+      "metrics/precision(B)": 0.51216,
+      "metrics/recall(B)": 0.33182,
+      "metrics/mAP50(B)": 0.31948,
+      "metrics/mAP50-95(B)": 0.20015,
+      "val/box_loss": 1.38412,
+      "val/cls_loss": 1.27837,
+      "val/dfl_loss": 1.03648
+    },
+    "validation_scope": "Diagnostic only; native/dual validation selects deployment checkpoint after training",
+    "lr": {
+      "lr/pg0": 0.000505,
+      "lr/pg1": 0.000505,
+      "lr/pg2": 0.000505
+    },
+    "elapsed_seconds": 489.02250599861145
+  },
+  {
+    "utc": "2026-09-28T12:58:27.614928+00:00",
+    "epoch": 12,
+    "optimizer_calls": 728,
+    "parameter_steps": {
+      "min": 728,
+      "max": 728,
+      "state_tensors": 255,
+      "meaning": "Per-parameter AdamW counters, separate from directly observed optimizer calls"
+    },
+    "ema_updates": 728,
+    "processed_batches": 112,
+    "planned_batches": 112,
+    "partial_epoch": false,
+    "train_loss": {
+      "box_loss": 0.7108818888664246,
+      "cls_loss": 0.4656936526298523,
+      "dfl_loss": 0.8965294361114502
+    },
+    "full_image_loader_validation": {
+      "metrics/precision(B)": 0.54752,
+      "metrics/recall(B)": 0.32737,
+      "metrics/mAP50(B)": 0.33565,
+      "metrics/mAP50-95(B)": 0.20515,
+      "val/box_loss": 1.4114,
+      "val/cls_loss": 1.29559,
+      "val/dfl_loss": 1.02995
+    },
+    "validation_scope": "Diagnostic only; native/dual validation selects deployment checkpoint after training",
+    "lr": {
+      "lr/pg0": 0.00045549999999999996,
+      "lr/pg1": 0.00045549999999999996,
+      "lr/pg2": 0.00045549999999999996
+    },
+    "elapsed_seconds": 535.0543384552002
+  },
+  {
+    "utc": "2026-09-28T12:59:13.144505+00:00",
+    "epoch": 13,
+    "optimizer_calls": 784,
+    "parameter_steps": {
+      "min": 784,
+      "max": 784,
+      "state_tensors": 255,
+      "meaning": "Per-parameter AdamW counters, separate from directly observed optimizer calls"
+    },
+    "ema_updates": 784,
+    "processed_batches": 112,
+    "planned_batches": 112,
+    "partial_epoch": false,
+    "train_loss": {
+      "box_loss": 0.6708068251609802,
+      "cls_loss": 0.44022777676582336,
+      "dfl_loss": 0.8847477436065674
+    },
+    "full_image_loader_validation": {
+      "metrics/precision(B)": 0.54708,
+      "metrics/recall(B)": 0.33318,
+      "metrics/mAP50(B)": 0.33216,
+      "metrics/mAP50-95(B)": 0.20132,
+      "val/box_loss": 1.36864,
+      "val/cls_loss": 1.23339,
+      "val/dfl_loss": 1.03309
+    },
+    "validation_scope": "Diagnostic only; native/dual validation selects deployment checkpoint after training",
+    "lr": {
+      "lr/pg0": 0.00040600000000000006,
+      "lr/pg1": 0.00040600000000000006,
+      "lr/pg2": 0.00040600000000000006
+    },
+    "elapsed_seconds": 580.583916425705
+  },
+  {
+    "utc": "2026-09-28T12:59:58.121280+00:00",
+    "epoch": 14,
+    "optimizer_calls": 840,
+    "parameter_steps": {
+      "min": 840,
+      "max": 840,
+      "state_tensors": 255,
+      "meaning": "Per-parameter AdamW counters, separate from directly observed optimizer calls"
+    },
+    "ema_updates": 840,
+    "processed_batches": 112,
+    "planned_batches": 112,
+    "partial_epoch": false,
+    "train_loss": {
+      "box_loss": 0.6833784580230713,
+      "cls_loss": 0.42095252871513367,
+      "dfl_loss": 0.887194812297821
+    },
+    "full_image_loader_validation": {
+      "metrics/precision(B)": 0.53376,
+      "metrics/recall(B)": 0.37319,
+      "metrics/mAP50(B)": 0.34161,
+      "metrics/mAP50-95(B)": 0.20861,
+      "val/box_loss": 1.33794,
+      "val/cls_loss": 1.23634,
+      "val/dfl_loss": 1.03624
+    },
+    "validation_scope": "Diagnostic only; native/dual validation selects deployment checkpoint after training",
+    "lr": {
+      "lr/pg0": 0.0003565,
+      "lr/pg1": 0.0003565,
+      "lr/pg2": 0.0003565
+    },
+    "elapsed_seconds": 625.5611340999603
+  },
+  {
+    "utc": "2026-09-28T13:00:42.870109+00:00",
+    "epoch": 15,
+    "optimizer_calls": 896,
+    "parameter_steps": {
+      "min": 896,
+      "max": 896,
+      "state_tensors": 255,
+      "meaning": "Per-parameter AdamW counters, separate from directly observed optimizer calls"
+    },
+    "ema_updates": 896,
+    "processed_batches": 112,
+    "planned_batches": 112,
+    "partial_epoch": false,
+    "train_loss": {
+      "box_loss": 0.6538686156272888,
+      "cls_loss": 0.4145834743976593,
+      "dfl_loss": 0.8801134824752808
+    },
+    "full_image_loader_validation": {
+      "metrics/precision(B)": 0.54637,
+      "metrics/recall(B)": 0.33531,
+      "metrics/mAP50(B)": 0.32433,
+      "metrics/mAP50-95(B)": 0.20191,
+      "val/box_loss": 1.35023,
+      "val/cls_loss": 1.28944,
+      "val/dfl_loss": 1.01623
+    },
+    "validation_scope": "Diagnostic only; native/dual validation selects deployment checkpoint after training",
+    "lr": {
+      "lr/pg0": 0.00030700000000000004,
+      "lr/pg1": 0.00030700000000000004,
+      "lr/pg2": 0.00030700000000000004
+    },
+    "elapsed_seconds": 670.3105187416077
+  },
+  {
+    "utc": "2026-09-28T13:01:27.532461+00:00",
+    "epoch": 16,
+    "optimizer_calls": 952,
+    "parameter_steps": {
+      "min": 952,
+      "max": 952,
+      "state_tensors": 255,
+      "meaning": "Per-parameter AdamW counters, separate from directly observed optimizer calls"
+    },
+    "ema_updates": 952,
+    "processed_batches": 112,
+    "planned_batches": 112,
+    "partial_epoch": false,
+    "train_loss": {
+      "box_loss": 0.6235894560813904,
+      "cls_loss": 0.39720484614372253,
+      "dfl_loss": 0.8721653819084167
+    },
+    "full_image_loader_validation": {
+      "metrics/precision(B)": 0.53272,
+      "metrics/recall(B)": 0.35673,
+      "metrics/mAP50(B)": 0.3444,
+      "metrics/mAP50-95(B)": 0.21925,
+      "val/box_loss": 1.34964,
+      "val/cls_loss": 1.28089,
+      "val/dfl_loss": 1.02084
+    },
+    "validation_scope": "Diagnostic only; native/dual validation selects deployment checkpoint after training",
+    "lr": {
+      "lr/pg0": 0.0002575,
+      "lr/pg1": 0.0002575,
+      "lr/pg2": 0.0002575
+    },
+    "elapsed_seconds": 714.9728608131409
+  },
+  {
+    "utc": "2026-09-28T13:02:12.339719+00:00",
+    "epoch": 17,
+    "optimizer_calls": 1008,
+    "parameter_steps": {
+      "min": 1008,
+      "max": 1008,
+      "state_tensors": 255,
+      "meaning": "Per-parameter AdamW counters, separate from directly observed optimizer calls"
+    },
+    "ema_updates": 1008,
+    "processed_batches": 112,
+    "planned_batches": 112,
+    "partial_epoch": false,
+    "train_loss": {
+      "box_loss": 0.5921222567558289,
+      "cls_loss": 0.3726324439048767,
+      "dfl_loss": 0.862453043460846
+    },
+    "full_image_loader_validation": {
+      "metrics/precision(B)": 0.52149,
+      "metrics/recall(B)": 0.35006,
+      "metrics/mAP50(B)": 0.34094,
+      "metrics/mAP50-95(B)": 0.21158,
+      "val/box_loss": 1.36409,
+      "val/cls_loss": 1.24715,
+      "val/dfl_loss": 1.02714
+    },
+    "validation_scope": "Diagnostic only; native/dual validation selects deployment checkpoint after training",
+    "lr": {
+      "lr/pg0": 0.00020799999999999996,
+      "lr/pg1": 0.00020799999999999996,
+      "lr/pg2": 0.00020799999999999996
+    },
+    "elapsed_seconds": 759.7791306972504
+  },
+  {
+    "utc": "2026-09-28T13:02:56.807523+00:00",
+    "epoch": 18,
+    "optimizer_calls": 1064,
+    "parameter_steps": {
+      "min": 1064,
+      "max": 1064,
+      "state_tensors": 255,
+      "meaning": "Per-parameter AdamW counters, separate from directly observed optimizer calls"
+    },
+    "ema_updates": 1064,
+    "processed_batches": 112,
+    "planned_batches": 112,
+    "partial_epoch": false,
+    "train_loss": {
+      "box_loss": 0.5658371448516846,
+      "cls_loss": 0.3438347280025482,
+      "dfl_loss": 0.8561164736747742
+    },
+    "full_image_loader_validation": {
+      "metrics/precision(B)": 0.53072,
+      "metrics/recall(B)": 0.33844,
+      "metrics/mAP50(B)": 0.33731,
+      "metrics/mAP50-95(B)": 0.21503,
+      "val/box_loss": 1.3148,
+      "val/cls_loss": 1.32817,
+      "val/dfl_loss": 1.01277
+    },
+    "validation_scope": "Diagnostic only; native/dual validation selects deployment checkpoint after training",
+    "lr": {
+      "lr/pg0": 0.00015850000000000003,
+      "lr/pg1": 0.00015850000000000003,
+      "lr/pg2": 0.00015850000000000003
+    },
+    "elapsed_seconds": 804.2469336986542
+  },
+  {
+    "utc": "2026-09-28T13:03:41.937213+00:00",
+    "epoch": 19,
+    "optimizer_calls": 1120,
+    "parameter_steps": {
+      "min": 1120,
+      "max": 1120,
+      "state_tensors": 255,
+      "meaning": "Per-parameter AdamW counters, separate from directly observed optimizer calls"
+    },
+    "ema_updates": 1120,
+    "processed_batches": 112,
+    "planned_batches": 112,
+    "partial_epoch": false,
+    "train_loss": {
+      "box_loss": 0.5382211804389954,
+      "cls_loss": 0.3349026143550873,
+      "dfl_loss": 0.8519396185874939
+    },
+    "full_image_loader_validation": {
+      "metrics/precision(B)": 0.54724,
+      "metrics/recall(B)": 0.32308,
+      "metrics/mAP50(B)": 0.3437,
+      "metrics/mAP50-95(B)": 0.22053,
+      "val/box_loss": 1.3117,
+      "val/cls_loss": 1.30005,
+      "val/dfl_loss": 1.01074
+    },
+    "validation_scope": "Diagnostic only; native/dual validation selects deployment checkpoint after training",
+    "lr": {
+      "lr/pg0": 0.00010899999999999998,
+      "lr/pg1": 0.00010899999999999998,
+      "lr/pg2": 0.00010899999999999998
+    },
+    "elapsed_seconds": 849.3766241073608
+  },
+  {
+    "utc": "2026-09-28T13:04:18.374225+00:00",
+    "epoch": 20,
+    "optimizer_calls": 1165,
+    "parameter_steps": {
+      "min": 1165,
+      "max": 1165,
+      "state_tensors": 255,
+      "meaning": "Per-parameter AdamW counters, separate from directly observed optimizer calls"
+    },
+    "ema_updates": 1165,
+    "processed_batches": 90,
+    "planned_batches": 112,
+    "partial_epoch": true,
+    "train_loss": {
+      "box_loss": 0.5266130566596985,
+      "cls_loss": 0.33415213227272034,
+      "dfl_loss": 0.8582644462585449
+    },
+    "full_image_loader_validation": {
+      "metrics/precision(B)": 0.58134,
+      "metrics/recall(B)": 0.30345,
+      "metrics/mAP50(B)": 0.32875,
+      "metrics/mAP50-95(B)": 0.21177,
+      "val/box_loss": 1.3148,
+      "val/cls_loss": 1.3389,
+      "val/dfl_loss": 1.01533
+    },
+    "validation_scope": "Diagnostic only; native/dual validation selects deployment checkpoint after training",
+    "lr": {
+      "lr/pg0": 5.950000000000005e-05,
+      "lr/pg1": 5.950000000000005e-05,
+      "lr/pg2": 5.950000000000005e-05
+    },
+    "elapsed_seconds": 885.8143622875214
+  }
+]

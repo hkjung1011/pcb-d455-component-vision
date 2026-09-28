@@ -1,0 +1,224 @@
+{
+  "status": "USER_PAUSED_SAFE_TO_SHUT_DOWN",
+  "saved_utc": "2026-09-28T13:11:15.875947+00:00",
+  "workspace": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat",
+  "r04_root": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04",
+  "python": "C:\\Users\\hkjun\\Documents\\mcu-vision\\.venv-yolo11\\Scripts\\python.exe",
+  "training": {
+    "baseline": {
+      "status": "COMPLETE",
+      "started_utc": "2026-09-28T12:34:00.967251+00:00",
+      "finished_utc": "2026-09-28T12:48:34.514262+00:00",
+      "arm": "baseline",
+      "actual_epochs_reached": 20,
+      "last_epoch_partial": true,
+      "actual_direct_optimizer_calls": 1165,
+      "actual_batches": 2218,
+      "parameter_steps": {
+        "min": 1165,
+        "max": 1165,
+        "state_tensors": 255,
+        "meaning": "Per-parameter AdamW counters, separate from directly observed optimizer calls"
+      },
+      "ema_updates": 1165,
+      "initial_parameter_sha256": "9e44a6a12ec1fc7e37a830f904c1a48afb76782a10668f2cc48c729a12ec4d20",
+      "final_parameter_sha256": "95125f52930cc60acd0958c68a6203eff0fdfbe481f4ef10bc83be4ed5872b9a",
+      "peak_cuda_allocated_bytes": 5076453888,
+      "peak_cuda_reserved_bytes": 5872025600,
+      "selection_status": "PENDING_NATIVE_VALIDATION",
+      "candidate_count": 10,
+      "protocol_sha256": "c712d8f3e24ce8fa8291d4b2e7e2593924ccdb154ba4361f50958e63555a4def",
+      "class_weights": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "stop_reason": "direct_optimizer_call_cap",
+      "candidates_manifest_sha256": "37326c24b33ce48d51b131a633da1111d99636552f2601d2a2fc8d94f9497510"
+    },
+    "improved": {
+      "status": "COMPLETE",
+      "started_utc": "2026-09-28T12:49:28.785452+00:00",
+      "finished_utc": "2026-09-28T13:04:20.459386+00:00",
+      "arm": "improved",
+      "actual_epochs_reached": 20,
+      "last_epoch_partial": true,
+      "actual_direct_optimizer_calls": 1165,
+      "actual_batches": 2218,
+      "parameter_steps": {
+        "min": 1165,
+        "max": 1165,
+        "state_tensors": 255,
+        "meaning": "Per-parameter AdamW counters, separate from directly observed optimizer calls"
+      },
+      "ema_updates": 1165,
+      "initial_parameter_sha256": "9e44a6a12ec1fc7e37a830f904c1a48afb76782a10668f2cc48c729a12ec4d20",
+      "final_parameter_sha256": "81c87037407ba75a980406b0d052da900b5ab894f393a4bc0728e58f4078bf25",
+      "peak_cuda_allocated_bytes": 5742290432,
+      "peak_cuda_reserved_bytes": 6490685440,
+      "selection_status": "PENDING_NATIVE_VALIDATION",
+      "candidate_count": 10,
+      "protocol_sha256": "c712d8f3e24ce8fa8291d4b2e7e2593924ccdb154ba4361f50958e63555a4def",
+      "class_weights": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "stop_reason": "direct_optimizer_call_cap",
+      "candidates_manifest_sha256": "d9d154ea88ad3c9154bdcda7c72466e5e23725168b277869057e4571b51f90d4"
+    }
+  },
+  "saved_candidate_checkpoints": 20,
+  "checkpoint_hashes_verified": true,
+  "completed_validation_jobs": 22,
+  "planned_validation_jobs": 40,
+  "completed_jobs": [
+    {
+      "job": "baseline__epoch_02__dual__val",
+      "job_sha256": "21a413c32d4225e3c38dff052dbc86a95bf6f62e3403eac9f0b0c822d6f176d9",
+      "metrics_sha256": "500c9afedc841f06bdb77e2a7b1ea74b6d6b1a982190f06d80f31b69c744376c"
+    },
+    {
+      "job": "baseline__epoch_02__native__val",
+      "job_sha256": "077b07f220eefba1e66659a2862efd6fe1f191710b26024acbbd174d1063a01a",
+      "metrics_sha256": "aaa6f58fd46d71d179ba6a786cc246ab6ed3dfb3499292faec3c906f0e27ca71"
+    },
+    {
+      "job": "baseline__epoch_04__dual__val",
+      "job_sha256": "b8768bc1ac52c2b3ba41a6bffe8ac982133102657d89820d0d9c55e8541c228c",
+      "metrics_sha256": "8ba9059c725fc9dddd61dbd506153da56ed8eeabb509d0eb0e48d66784bfbc7a"
+    },
+    {
+      "job": "baseline__epoch_04__native__val",
+      "job_sha256": "67e8cdb232737b3019a8684aeca2156252360f3f72722a18c001b1a078fd0f33",
+      "metrics_sha256": "adb63d75adc16537208f02885260c8b4d84016d2901e5f40ad193370ac440623"
+    },
+    {
+      "job": "baseline__epoch_06__dual__val",
+      "job_sha256": "627bce316d044ee092c57a137628fcf0aab0761e32af13e5649a628d2fa993e3",
+      "metrics_sha256": "12784d4cba9cd02b9b2d9469851c59f196c760f6c796b680599e3997f48d99af"
+    },
+    {
+      "job": "baseline__epoch_06__native__val",
+      "job_sha256": "5637cb6f7b1a76e97810e45a5ddbc939b57bfb7b9862e9e564fa6d8a138155da",
+      "metrics_sha256": "8ea9d6ebe345db0c6db8b63778e3cf7c89f405c20f918e4930b766e44c36d6a8"
+    },
+    {
+      "job": "baseline__epoch_08__dual__val",
+      "job_sha256": "f7b54313067dfa78354050eb48d524d13ac5a90c42400c04c89cf63cf598b430",
+      "metrics_sha256": "b676061cd2a91efdd2d6bef16d5acf50e7645082f3ab48e7312ee48f85448cdf"
+    },
+    {
+      "job": "baseline__epoch_08__native__val",
+      "job_sha256": "0ce279aaecb7ff24b618102db790a08a37a2a26cdacbc75669122282ceb20d8b",
+      "metrics_sha256": "39c961ef8d742cfcf79551a1f754493b786c4592fa344d80592205a44c252009"
+    },
+    {
+      "job": "baseline__epoch_10__dual__val",
+      "job_sha256": "42a9682c8c3f9372e899ab5329e9c87ce36fccd65c6a25b2c10ee63c379770ea",
+      "metrics_sha256": "78af6f4b88b75626b693bee05be19383745c585a4e26532ff26581806fd6aef9"
+    },
+    {
+      "job": "baseline__epoch_10__native__val",
+      "job_sha256": "55789d72929ad5e973a975e285b0ddb2c49a2d3e1bbc6131f32a372657114a94",
+      "metrics_sha256": "6b5ecda0df6301047229ec6146d43ccfc58e6acee558cbade7aa9d33e808b5dc"
+    },
+    {
+      "job": "baseline__epoch_12__dual__val",
+      "job_sha256": "21c15c93554eda1a8f74225166fcd25c242bad14a10fe8ed2b2f4f6261060e79",
+      "metrics_sha256": "e92fbb1b1b7d0b6a258710b519cfaf608a0bb7b91a03e6b109875d51bfe54096"
+    },
+    {
+      "job": "baseline__epoch_12__native__val",
+      "job_sha256": "661dd851daf28ce3f72f6e7e902fde7d805f437a3240da4024255647301353d3",
+      "metrics_sha256": "88352a4740721f70024d41501979b8dfb16068a17146b96db41480cb25b6be90"
+    },
+    {
+      "job": "baseline__epoch_14__dual__val",
+      "job_sha256": "7dbad76a497ee43b3940c700fbea50aec04da58f09cd3653ad33f58c99e79854",
+      "metrics_sha256": "99b9380d69b1d3a0f81a7812f0b2ed9f5cd6edab37d4b283c87e0c81bfb1947a"
+    },
+    {
+      "job": "baseline__epoch_14__native__val",
+      "job_sha256": "da7a9252a9d830de3a3f29507209ddf0fef31ed6d9a7c4833a1f6276b684617d",
+      "metrics_sha256": "cfa49c89007ce1cbec600701d4900c325767c9a8242024a69ab0945fc32716ae"
+    },
+    {
+      "job": "baseline__epoch_16__dual__val",
+      "job_sha256": "a178892892581efcaa2bb7fa9b753fa0fd6ad98eb8ae03165d280aed17c40729",
+      "metrics_sha256": "576f85acfae05874f3259a0ae97305b23c10e3dc4ae21045dfecec1d0db233b6"
+    },
+    {
+      "job": "baseline__epoch_16__native__val",
+      "job_sha256": "e30e180dffecd9808e35f4ea57c2f0c33b09e12f8eb10eace6574bffeb712739",
+      "metrics_sha256": "0dd6e795b3b13af4179084d322de8f0615f8d33c3a3d4a5299cd1cee30d5e2d5"
+    },
+    {
+      "job": "baseline__epoch_18__dual__val",
+      "job_sha256": "ecb4753c021f23f1510f05c84c21f84a66ad0059a5468008106d7842af4746c2",
+      "metrics_sha256": "7e324d5709f04b916a7408ca38b904bdb7e7e2e4a8a88980c2e8c68798e5b55d"
+    },
+    {
+      "job": "baseline__epoch_18__native__val",
+      "job_sha256": "c8e648b3fdd56beef4e1f98f0ac820d798556ce9a5eec0c1f76e9d6523a67d66",
+      "metrics_sha256": "2ef637f8e43c08ed10b899c96b39b62ca21602905845894234d9709e30b0d900"
+    },
+    {
+      "job": "baseline__epoch_20__dual__val",
+      "job_sha256": "1987a10df13d340379eabd6b54fd2c3360553ef748407d928e58b2327a196e35",
+      "metrics_sha256": "13b62813c84de64ddbe755055851b4ad035f094df8be924be532238d88f38865"
+    },
+    {
+      "job": "baseline__epoch_20__native__val",
+      "job_sha256": "d97331b4db5c0790d3d14519851017da61c55745b1e8c85a510156ab57591231",
+      "metrics_sha256": "8e5648da95063bde0374b6c0df592ee8d866372a39d572018d8fe7f0a20d286c"
+    },
+    {
+      "job": "improved__epoch_02__dual__val",
+      "job_sha256": "62bf16a7e793ea93b616c4f7c1d784a785ee4a9278e09224660e66da4f08c0d6",
+      "metrics_sha256": "1781ef7b22f52720dd2e7cf6cf5da6c2a794fe0eb9220f6f3da29ce2fbf3edaf"
+    },
+    {
+      "job": "improved__epoch_02__native__val",
+      "job_sha256": "4c974f725248098c9f75358b548d2683e1f30d45452bb4c2a46e6960865e828e",
+      "metrics_sha256": "3a4f1f3ff987c9d71c22af4a70b674a1b822c202243273374194ea73359573c5"
+    }
+  ],
+  "interrupted_jobs_preserved": [
+    {
+      "job": "improved__epoch_04__native__val",
+      "original_status": "running",
+      "archive": [
+        "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04\\paused_evaluations\\20260928T131115Z\\jobs\\improved__epoch_04__native__val.json",
+        "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04\\paused_evaluations\\20260928T131115Z\\logs\\improved__epoch_04__native__val.log",
+        "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r04\\paused_evaluations\\20260928T131115Z\\evaluations\\improved__epoch_04__native__val"
+      ],
+      "reason": "User requested safe save before PC shutdown; repeat only this unfinished validation job on resume"
+    }
+  ],
+  "native_source_images_exist": 47,
+  "completed_general_pi_holdout_jobs": 0,
+  "final_selection_frozen": false,
+  "evaluation_protocol_sha256": "a45e4d372f507af24518000b37e7bd39423eafdf290b46fe8072332855c325e1",
+  "native_manifest_sha256": "a91d4956da6adc8b3eebcd87da6e8e428362e1c14cef9e8f9d5a4583817d8c19",
+  "remaining": [
+    "Resume remaining validation only; completed jobs reused by hashes",
+    "Freeze all selections before general/Pi holdout",
+    "Run four main holdout jobs",
+    "Run resolution stress --run with frozen choices",
+    "Independent saved-result audit",
+    "Prepare inference registry and CLI parity",
+    "Error analysis and final 9 figures",
+    "Package R04 and publish final private GitHub record"
+  ],
+  "do_not": [
+    "Do not retrain either model",
+    "Do not edit evaluator/orchestrator/training protocol/candidate files",
+    "Do not delete work/r03 raw caches or work/r04",
+    "Do not claim unfinished mAP results or D455 success"
+  ],
+  "d455_verified": false,
+  "target4_instance_masks_trained": false
+}
