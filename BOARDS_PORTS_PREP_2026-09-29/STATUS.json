@@ -1,0 +1,44 @@
+{
+  "revision": "BOARDS_PORTS_PREP_2026-09-29",
+  "date": "2026-09-29",
+  "scope": "data preparation snapshot only",
+  "archive_base_commit": "ee4530931784d5be1b67c8ed9fe40e3aedb00c18",
+  "training_executed": false,
+  "test_evaluation_executed": false,
+  "downloaded_roboflow_archives": 3,
+  "downloaded_roboflow_images_including_augmentations": 1509,
+  "boards": {
+    "images": {
+      "train": 1701,
+      "val": 206,
+      "test": 106
+    },
+    "total_images": 2013,
+    "structure_pass": true,
+    "training_ready": false,
+    "nucleo_boxes": {
+      "train": 393,
+      "val": 0,
+      "test": 0
+    }
+  },
+  "ports": {
+    "mapped_candidate_images": 549,
+    "dataset_assembled": false,
+    "training_ready": false
+  },
+  "pending": [
+    "STM32 107-image ZIP download blocked in Chrome",
+    "Independent Nucleo validation/test data",
+    "Port definition and missing annotation review"
+  ],
+  "files_not_included": [
+    "original images",
+    "downloaded dataset ZIPs",
+    "generated dataset images/labels",
+    "weights",
+    "virtual environments",
+    "credentials"
+  ],
+  "clone_alone_rebuilds_data": false
+}

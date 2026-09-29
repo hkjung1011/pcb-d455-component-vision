@@ -1,0 +1,13 @@
+{
+  "python": "3.11.9 (tags/v3.11.9:de54cf5, Apr  2 2024, 10:12:12) [MSC v.1938 64 bit (AMD64)]",
+  "data_dependencies": {
+    "numpy": "2.4.6",
+    "opencv-python": "5.0.0.93",
+    "PyYAML": "6.0.3"
+  },
+  "training_dependencies_record_only": {
+    "torch": "2.12.1+cu130",
+    "ultralytics": "8.4.120"
+  },
+  "training_executed": false
+}

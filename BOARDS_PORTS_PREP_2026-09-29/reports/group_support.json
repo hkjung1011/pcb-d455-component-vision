@@ -1,0 +1,680 @@
+{
+  "schema": "boards_ports_group_support_review_v1",
+  "created_local": "2026-09-29T21:02:14",
+  "scope": "Read-only analysis of final assembly index and actual YOLO label files; no training and no verifier rerun.",
+  "assembly_evidence": {
+    "manifest": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\boards_ports\\datasets\\manifest.json",
+    "manifest_sha256": "60ed43484e37bfa363e4c029eadd40266e8747c4cabfdfa337ac792dc7c76714",
+    "index": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\boards_ports\\datasets\\boards_v1\\dataset_index.json",
+    "index_sha256": "efe24e3b69a6427b588dd7675a0f0efa3c248dc4211a6a2ad208033c4ae9a9f2"
+  },
+  "assembled_board_images": 2013,
+  "split_images": {
+    "test": 106,
+    "train": 1701,
+    "val": 206
+  },
+  "source_split_images": {
+    "iotkits_v1": {
+      "test": 106,
+      "train": 741,
+      "val": 206
+    },
+    "rf_embedded_hardware": {
+      "train": 960
+    }
+  },
+  "class_support": {
+    "raspberry_pi_5": {
+      "total_images": 100,
+      "total_boxes": 100,
+      "conservative_group_count": 43,
+      "source_group_count": 47,
+      "supported_in_all_splits": true,
+      "splits": {
+        "train": {
+          "images": 73,
+          "boxes": 73,
+          "conservative_group_count": 26,
+          "source_group_count": 30,
+          "sources": {
+            "iotkits_v1": 73
+          }
+        },
+        "val": {
+          "images": 16,
+          "boxes": 16,
+          "conservative_group_count": 9,
+          "source_group_count": 9,
+          "sources": {
+            "iotkits_v1": 16
+          }
+        },
+        "test": {
+          "images": 11,
+          "boxes": 11,
+          "conservative_group_count": 8,
+          "source_group_count": 8,
+          "sources": {
+            "iotkits_v1": 11
+          }
+        }
+      }
+    },
+    "raspberry_pi_4": {
+      "total_images": 460,
+      "total_boxes": 460,
+      "conservative_group_count": 44,
+      "source_group_count": 48,
+      "supported_in_all_splits": true,
+      "splits": {
+        "train": {
+          "images": 436,
+          "boxes": 436,
+          "conservative_group_count": 29,
+          "source_group_count": 33,
+          "sources": {
+            "iotkits_v1": 73,
+            "rf_embedded_hardware": 363
+          }
+        },
+        "val": {
+          "images": 14,
+          "boxes": 14,
+          "conservative_group_count": 8,
+          "source_group_count": 8,
+          "sources": {
+            "iotkits_v1": 14
+          }
+        },
+        "test": {
+          "images": 10,
+          "boxes": 10,
+          "conservative_group_count": 7,
+          "source_group_count": 7,
+          "sources": {
+            "iotkits_v1": 10
+          }
+        }
+      }
+    },
+    "raspberry_pi_other": {
+      "total_images": 239,
+      "total_boxes": 241,
+      "conservative_group_count": 117,
+      "source_group_count": 124,
+      "supported_in_all_splits": true,
+      "splits": {
+        "train": {
+          "images": 182,
+          "boxes": 184,
+          "conservative_group_count": 72,
+          "source_group_count": 77,
+          "sources": {
+            "iotkits_v1": 182
+          }
+        },
+        "val": {
+          "images": 34,
+          "boxes": 34,
+          "conservative_group_count": 25,
+          "source_group_count": 26,
+          "sources": {
+            "iotkits_v1": 34
+          }
+        },
+        "test": {
+          "images": 23,
+          "boxes": 23,
+          "conservative_group_count": 20,
+          "source_group_count": 21,
+          "sources": {
+            "iotkits_v1": 23
+          }
+        }
+      }
+    },
+    "stm32_nucleo": {
+      "total_images": 393,
+      "total_boxes": 393,
+      "conservative_group_count": 1,
+      "source_group_count": 4,
+      "supported_in_all_splits": false,
+      "splits": {
+        "train": {
+          "images": 393,
+          "boxes": 393,
+          "conservative_group_count": 1,
+          "source_group_count": 4,
+          "sources": {
+            "rf_embedded_hardware": 393
+          }
+        },
+        "val": {
+          "images": 0,
+          "boxes": 0,
+          "conservative_group_count": 0,
+          "source_group_count": 0,
+          "sources": {}
+        },
+        "test": {
+          "images": 0,
+          "boxes": 0,
+          "conservative_group_count": 0,
+          "source_group_count": 0,
+          "sources": {}
+        }
+      }
+    },
+    "stm32_other": {
+      "total_images": 100,
+      "total_boxes": 101,
+      "conservative_group_count": 26,
+      "source_group_count": 92,
+      "supported_in_all_splits": true,
+      "splits": {
+        "train": {
+          "images": 75,
+          "boxes": 75,
+          "conservative_group_count": 7,
+          "source_group_count": 71,
+          "sources": {
+            "iotkits_v1": 75
+          }
+        },
+        "val": {
+          "images": 15,
+          "boxes": 15,
+          "conservative_group_count": 10,
+          "source_group_count": 12,
+          "sources": {
+            "iotkits_v1": 15
+          }
+        },
+        "test": {
+          "images": 10,
+          "boxes": 11,
+          "conservative_group_count": 9,
+          "source_group_count": 9,
+          "sources": {
+            "iotkits_v1": 10
+          }
+        }
+      }
+    },
+    "arduino": {
+      "total_images": 199,
+      "total_boxes": 200,
+      "conservative_group_count": 121,
+      "source_group_count": 137,
+      "supported_in_all_splits": true,
+      "splits": {
+        "train": {
+          "images": 148,
+          "boxes": 149,
+          "conservative_group_count": 72,
+          "source_group_count": 87,
+          "sources": {
+            "iotkits_v1": 148
+          }
+        },
+        "val": {
+          "images": 31,
+          "boxes": 31,
+          "conservative_group_count": 29,
+          "source_group_count": 30,
+          "sources": {
+            "iotkits_v1": 31
+          }
+        },
+        "test": {
+          "images": 20,
+          "boxes": 20,
+          "conservative_group_count": 20,
+          "source_group_count": 20,
+          "sources": {
+            "iotkits_v1": 20
+          }
+        }
+      }
+    },
+    "esp_board": {
+      "total_images": 243,
+      "total_boxes": 243,
+      "conservative_group_count": 80,
+      "source_group_count": 149,
+      "supported_in_all_splits": true,
+      "splits": {
+        "train": {
+          "images": 186,
+          "boxes": 186,
+          "conservative_group_count": 33,
+          "source_group_count": 99,
+          "sources": {
+            "iotkits_v1": 186
+          }
+        },
+        "val": {
+          "images": 34,
+          "boxes": 34,
+          "conservative_group_count": 25,
+          "source_group_count": 28,
+          "sources": {
+            "iotkits_v1": 34
+          }
+        },
+        "test": {
+          "images": 23,
+          "boxes": 23,
+          "conservative_group_count": 22,
+          "source_group_count": 22,
+          "sources": {
+            "iotkits_v1": 23
+          }
+        }
+      }
+    },
+    "jetson": {
+      "total_images": 102,
+      "total_boxes": 118,
+      "conservative_group_count": 10,
+      "source_group_count": 10,
+      "supported_in_all_splits": true,
+      "splits": {
+        "train": {
+          "images": 77,
+          "boxes": 89,
+          "conservative_group_count": 8,
+          "source_group_count": 8,
+          "sources": {
+            "iotkits_v1": 77
+          }
+        },
+        "val": {
+          "images": 14,
+          "boxes": 14,
+          "conservative_group_count": 1,
+          "source_group_count": 1,
+          "sources": {
+            "iotkits_v1": 14
+          }
+        },
+        "test": {
+          "images": 11,
+          "boxes": 15,
+          "conservative_group_count": 1,
+          "source_group_count": 1,
+          "sources": {
+            "iotkits_v1": 11
+          }
+        }
+      }
+    },
+    "other_board": {
+      "total_images": 270,
+      "total_boxes": 289,
+      "conservative_group_count": 9,
+      "source_group_count": 10,
+      "supported_in_all_splits": true,
+      "splits": {
+        "train": {
+          "images": 204,
+          "boxes": 204,
+          "conservative_group_count": 1,
+          "source_group_count": 2,
+          "sources": {
+            "rf_embedded_hardware": 204
+          }
+        },
+        "val": {
+          "images": 60,
+          "boxes": 73,
+          "conservative_group_count": 7,
+          "source_group_count": 7,
+          "sources": {
+            "iotkits_v1": 60
+          }
+        },
+        "test": {
+          "images": 6,
+          "boxes": 12,
+          "conservative_group_count": 1,
+          "source_group_count": 1,
+          "sources": {
+            "iotkits_v1": 6
+          }
+        }
+      }
+    }
+  },
+  "embedded_hardware": {
+    "images": 960,
+    "source_video_group_count": 10,
+    "conservative_component_count": 1,
+    "component_ids": [
+      "g1101"
+    ],
+    "all_records_in_components": {
+      "g1101": 960
+    },
+    "source_videos": [
+      {
+        "video_group": "rf_embedded_hardware:video:AURIX_1_MOV",
+        "images": 116,
+        "original_frame_families": 48,
+        "splits": {
+          "train": 116
+        }
+      },
+      {
+        "video_group": "rf_embedded_hardware:video:AURIX_2_MOV",
+        "images": 88,
+        "original_frame_families": 40,
+        "splits": {
+          "train": 88
+        }
+      },
+      {
+        "video_group": "rf_embedded_hardware:video:Raspberry_Pi_1_MOV",
+        "images": 140,
+        "original_frame_families": 60,
+        "splits": {
+          "train": 140
+        }
+      },
+      {
+        "video_group": "rf_embedded_hardware:video:Raspberry_Pi_2_MOV",
+        "images": 72,
+        "original_frame_families": 30,
+        "splits": {
+          "train": 72
+        }
+      },
+      {
+        "video_group": "rf_embedded_hardware:video:Raspberry_Pi_3_MOV",
+        "images": 90,
+        "original_frame_families": 34,
+        "splits": {
+          "train": 90
+        }
+      },
+      {
+        "video_group": "rf_embedded_hardware:video:Raspberry_Pi_4_MOV",
+        "images": 61,
+        "original_frame_families": 27,
+        "splits": {
+          "train": 61
+        }
+      },
+      {
+        "video_group": "rf_embedded_hardware:video:STM32_1_MOV",
+        "images": 126,
+        "original_frame_families": 52,
+        "splits": {
+          "train": 126
+        }
+      },
+      {
+        "video_group": "rf_embedded_hardware:video:STM32_2_MOV",
+        "images": 111,
+        "original_frame_families": 46,
+        "splits": {
+          "train": 111
+        }
+      },
+      {
+        "video_group": "rf_embedded_hardware:video:STM32_3_MOV",
+        "images": 78,
+        "original_frame_families": 32,
+        "splits": {
+          "train": 78
+        }
+      },
+      {
+        "video_group": "rf_embedded_hardware:video:STM32_4_MOV",
+        "images": 78,
+        "original_frame_families": 32,
+        "splits": {
+          "train": 78
+        }
+      }
+    ],
+    "meaning": "Filename-derived source-video groups and conservative pHash-connected components are not counts of independently validated capture sessions or devices."
+  },
+  "holdout": {
+    "reference_images": 44,
+    "excluded_images": 15,
+    "excluded_by_source": {
+      "iotkits_v1": 15
+    },
+    "excluded_conservative_groups": 7,
+    "records": [
+      {
+        "id": "iotkits_train_01556",
+        "group": "g125",
+        "reason": "family of near holdout image commons_67384198.png",
+        "source": "iotkits_v1",
+        "source_group": "iotkits_v1:44_jpg|Raspberry-Pi-4-B",
+        "classes": [
+          "raspberry_pi_4"
+        ]
+      },
+      {
+        "id": "iotkits_train_02193",
+        "group": "g125",
+        "reason": "family of near holdout image commons_67384198.png",
+        "source": "iotkits_v1",
+        "source_group": "iotkits_v1:44_jpg|Raspberry-Pi-4-B",
+        "classes": [
+          "raspberry_pi_4"
+        ]
+      },
+      {
+        "id": "iotkits_valid_00071",
+        "group": "g125",
+        "reason": "family of near holdout image commons_67384198.png",
+        "source": "iotkits_v1",
+        "source_group": "iotkits_v1:44_jpg|Raspberry-Pi-4-B",
+        "classes": [
+          "raspberry_pi_4"
+        ]
+      },
+      {
+        "id": "iotkits_train_00595",
+        "group": "g215",
+        "reason": "family of near holdout image commons_86470705.jpg",
+        "source": "iotkits_v1",
+        "source_group": "iotkits_v1:19_png_jpg|Raspberry-Pi-Zero-WH",
+        "classes": [
+          "raspberry_pi_other"
+        ]
+      },
+      {
+        "id": "iotkits_train_01899",
+        "group": "g215",
+        "reason": "family of near holdout image commons_86470705.jpg",
+        "source": "iotkits_v1",
+        "source_group": "iotkits_v1:19_png_jpg|Raspberry-Pi-Zero-WH",
+        "classes": [
+          "raspberry_pi_other"
+        ]
+      },
+      {
+        "id": "iotkits_train_02454",
+        "group": "g215",
+        "reason": "family of near holdout image commons_86470705.jpg",
+        "source": "iotkits_v1",
+        "source_group": "iotkits_v1:19_png_jpg|Raspberry-Pi-Zero-WH",
+        "classes": [
+          "raspberry_pi_other"
+        ]
+      },
+      {
+        "id": "iotkits_valid_00308",
+        "group": "g306",
+        "reason": "family of near holdout image commons_69660497.jpg",
+        "source": "iotkits_v1",
+        "source_group": "iotkits_v1:19_png_jpg|Raspberry-Pi-Zero-W",
+        "classes": [
+          "raspberry_pi_other"
+        ]
+      },
+      {
+        "id": "iotkits_train_00197",
+        "group": "g327",
+        "reason": "family of near holdout image commons_122664660.png",
+        "source": "iotkits_v1",
+        "source_group": "iotkits_v1:1B-5_JPG_jpg|Raspberry Pi 1 B-",
+        "classes": [
+          "raspberry_pi_other"
+        ]
+      },
+      {
+        "id": "iotkits_train_01905",
+        "group": "g327",
+        "reason": "family of near holdout image commons_122664660.png",
+        "source": "iotkits_v1",
+        "source_group": "iotkits_v1:1B-5_JPG_jpg|Raspberry Pi 1 B-",
+        "classes": [
+          "raspberry_pi_other"
+        ]
+      },
+      {
+        "id": "iotkits_train_01101",
+        "group": "g389",
+        "reason": "family of near holdout image commons_69660497.jpg",
+        "source": "iotkits_v1",
+        "source_group": "iotkits_v1:11_png_jpg|Raspberry-Pi-Zero-WH",
+        "classes": [
+          "raspberry_pi_other"
+        ]
+      },
+      {
+        "id": "iotkits_train_01974",
+        "group": "g389",
+        "reason": "family of near holdout image commons_69660497.jpg",
+        "source": "iotkits_v1",
+        "source_group": "iotkits_v1:11_png_jpg|Raspberry-Pi-Zero-WH",
+        "classes": [
+          "raspberry_pi_other"
+        ]
+      },
+      {
+        "id": "iotkits_train_00044",
+        "group": "g441",
+        "reason": "family of near holdout image commons_88249722.jpg",
+        "source": "iotkits_v1",
+        "source_group": "iotkits_v1:2_png_jpg|Raspberry-Pi-Zero",
+        "classes": [
+          "raspberry_pi_other"
+        ]
+      },
+      {
+        "id": "iotkits_train_01095",
+        "group": "g441",
+        "reason": "family of near holdout image commons_88249722.jpg",
+        "source": "iotkits_v1",
+        "source_group": "iotkits_v1:2_png_jpg|Raspberry-Pi-Zero",
+        "classes": [
+          "raspberry_pi_other"
+        ]
+      },
+      {
+        "id": "iotkits_valid_00203",
+        "group": "g441",
+        "reason": "family of near holdout image commons_88249722.jpg",
+        "source": "iotkits_v1",
+        "source_group": "iotkits_v1:2_png_jpg|Raspberry-Pi-Zero",
+        "classes": [
+          "raspberry_pi_other"
+        ]
+      },
+      {
+        "id": "iotkits_train_00561",
+        "group": "g598",
+        "reason": "family of near holdout image commons_111935985.jpg",
+        "source": "iotkits_v1",
+        "source_group": "iotkits_v1:29_jpg|Arduino-Nano",
+        "classes": [
+          "arduino"
+        ]
+      }
+    ]
+  },
+  "source_staged_counts": {
+    "iotkits_v1": 1068,
+    "rf_embedded_hardware": 960,
+    "rf_raspberry_pi_dpiwf": 110,
+    "rf_raspberrypi_vniye": 439
+  },
+  "model_skip_counts": {
+    "boards": {
+      "no_complete_labels_for_model": 549
+    },
+    "ports": {
+      "incomplete_port_annotations": 2562
+    }
+  },
+  "confirmed_background_false_positive_example": {
+    "images": [
+      {
+        "record_id": "rf_embedded_hardware:train/images/AURIX_2_MOV-10_jpg.rf.76abf147915348370e100971645b96b9.jpg",
+        "image": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\boards_ports\\raw\\extracted\\2aeb07e3b18a0cc8bec85242389b98bdea52009c0691d1a959d2c9396c256417\\train\\images\\AURIX_2_MOV-10_jpg.rf.76abf147915348370e100971645b96b9.jpg",
+        "sha256": "36f46ee47049489108397917ff8b085c3340c669115571cf1d00c22ff1ba413a",
+        "board_classes": [
+          "other_board"
+        ]
+      },
+      {
+        "record_id": "rf_embedded_hardware:train/images/Raspberry_Pi_1_MOV-49_jpg.rf.24c2d7cdfb57f758f4d3f570d76bbf02.jpg",
+        "image": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\boards_ports\\raw\\extracted\\2aeb07e3b18a0cc8bec85242389b98bdea52009c0691d1a959d2c9396c256417\\train\\images\\Raspberry_Pi_1_MOV-49_jpg.rf.24c2d7cdfb57f758f4d3f570d76bbf02.jpg",
+        "sha256": "c64b54f72d559bb3f0aea92b5f62b256ca4e2e3d215f887714c6a626baec9d5f",
+        "board_classes": [
+          "raspberry_pi_4"
+        ]
+      }
+    ],
+    "whole_image_phash_distance_under_assembly_rule": 4,
+    "threshold": 6,
+    "visual_review": "Confirmed different physical board types (Infineon AURIX and Raspberry Pi 4) on similar background. This pHash pair is a false duplicate candidate, not proof of identical images.",
+    "adjudication": "No candidate-rejection rule was added; retained conservative grouping pending an independently checked candidate-adjudication method."
+  },
+  "readiness_assessment": {
+    "boards_class_support_ready": false,
+    "blocking_classes": [
+      "stm32_nucleo"
+    ],
+    "ports": "not assembled; all 2562 holdout-screened records lack verified complete target port annotations",
+    "structure_validation": "Completed verification.json confirms boards structure_pass=true and training_ready=false; no label problems, cross-split pHash candidates, or holdout pHash candidates in the retained dataset. These checks do not establish statistically independent capture sessions/devices or adequate evaluation sample diversity.",
+    "statistical_independence": "NOT VERIFIED: source filename/video grouping, pHash connectivity and zero detected candidates do not prove device/session independence or sufficient evaluation diversity."
+  },
+  "completed_verification": {
+    "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\boards_ports\\datasets\\verification.json",
+    "boards": {
+      "schema": "boards_ports_verification_v2",
+      "structure_pass": true,
+      "training_ready": false,
+      "label_problem_count": 0,
+      "cross_split_near_duplicate_count": 0,
+      "holdout_near_duplicate_count": 0,
+      "missing_classes_by_split": {
+        "train": [],
+        "val": [
+          "stm32_nucleo"
+        ],
+        "test": [
+          "stm32_nucleo"
+        ]
+      },
+      "dataset_fingerprint": "14ce02721fb88a13ff0e643eb09e20ec3b40311c19db6e3d9637bd9766f3d5be"
+    },
+    "ports": {
+      "structure_pass": false,
+      "pass": false,
+      "training_ready": false,
+      "readiness_problems": [
+        "dataset not assembled"
+      ]
+    }
+  }
+}

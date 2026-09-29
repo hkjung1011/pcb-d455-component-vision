@@ -1,5 +1,11 @@
 # 현재 실시간 시험과 보존된 학습 평가 · 2026-09-29
 
+## 2026-09-29 · 보드 종류·포트 데이터 준비
+
+[준비 결과·매핑·재실행 안내](BOARDS_PORTS_PREP_2026-09-29/README.md) · [준비 상태](BOARDS_PORTS_PREP_2026-09-29/STATUS.json) · [검증 결과](BOARDS_PORTS_PREP_2026-09-29/reports/evidence/verification.json)
+
+Roboflow ZIP 3개 1,509장을 확보하고, IoTKITs와 합쳐 보드 2,013장(train 1,701/val 206/test 106)을 구성했다. Nucleo 393장은 모두 train이므로 val/test 지원이 없고, 포트 549장은 누락 라벨 검수가 남아 있다. **이번 추가 작업은 학습·test 평가를 실행하지 않았으며 두 모델 모두 `training_ready=false`다.** 코드·매핑·출처·해시·검수 기록을 보존했다.
+
 ## 2026-09-29 · D455 실시간 보드·부품 시험 추가
 
 [현재 카메라 모델·평가·실행 방법](D455_LIVE_2026-09-29/README.md) · [모델 카드](D455_LIVE_2026-09-29/MODEL_CARD.md) · [평가 JSON](D455_LIVE_2026-09-29/evaluation/summary.json)

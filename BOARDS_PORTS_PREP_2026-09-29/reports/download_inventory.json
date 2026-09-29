@@ -1,0 +1,76 @@
+{
+  "date": "2026-09-29",
+  "canonical_workspace": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\boards_ports",
+  "training_executed": false,
+  "test_evaluation_executed": false,
+  "downloaded": [
+    {
+      "source": "rf_embedded_hardware",
+      "file": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\boards_ports\\raw\\embedded-hardware-v1.yolov11.zip",
+      "bytes": 22015005,
+      "sha256": "2aeb07e3b18a0cc8bec85242389b98bdea52009c0691d1a959d2c9396c256417",
+      "zip_crc_pass": true,
+      "images": 960,
+      "source_groups": 10,
+      "augmentation_families": 401,
+      "provenance": {
+        "workspace": "64601039kmitl",
+        "project": "embedded-hardware",
+        "version": 1,
+        "license": "Public Domain",
+        "url": "https://universe.roboflow.com/64601039kmitl/embedded-hardware/dataset/1"
+      }
+    },
+    {
+      "source": "rf_raspberry_pi_dpiwf",
+      "file": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\boards_ports\\raw\\raspberry-pi-dpiwf-v3.yolov11.zip",
+      "bytes": 3715138,
+      "sha256": "acda4597dcda181cda154ca94195d36e625fa78a85940b68c1e9cac81ee50782",
+      "zip_crc_pass": true,
+      "images": 110,
+      "source_groups": 1,
+      "augmentation_families": 55,
+      "provenance": {
+        "workspace": "kerchick-gmail-com",
+        "project": "raspberry-pi-dpiwf",
+        "version": 3,
+        "license": "CC BY 4.0",
+        "url": "https://universe.roboflow.com/kerchick-gmail-com/raspberry-pi-dpiwf/dataset/3"
+      }
+    },
+    {
+      "source": "rf_raspberrypi_vniye",
+      "file": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\boards_ports\\raw\\raspberrypi-vniye-v1.yolov11.zip",
+      "bytes": 30588347,
+      "sha256": "15bf590aa817174d6a7ff6354b20017c5875fdd8ee9f7ec497ed4e8b463bce18",
+      "zip_crc_pass": true,
+      "images": 439,
+      "source_groups": 1,
+      "augmentation_families": 100,
+      "provenance": {
+        "workspace": "raspberrypi-4jqsd",
+        "project": "raspberrypi-vniye",
+        "version": 1,
+        "license": "CC BY 4.0",
+        "url": "https://universe.roboflow.com/raspberrypi-4jqsd/raspberrypi-vniye/dataset/1"
+      }
+    }
+  ],
+  "download_pending": {
+    "source": "rf_stm32_nucleo",
+    "images_on_site": 107,
+    "original": "https://universe.roboflow.com/computervisionaihub-n6cdj/stm32",
+    "generated_version": "https://app.roboflow.com/hk-jung/stm32-3eajy/1",
+    "preprocessing": [],
+    "augmentation": [],
+    "status": "ZIP download blocked by Chrome ERR_BLOCKED_BY_CLIENT; no local export validated"
+  },
+  "mapped_port_candidate_boxes_before_completeness_gate": {
+    "usb_stack": 1618,
+    "ethernet_port": 854,
+    "usb_c_power": 336,
+    "micro_usb": 520,
+    "gpio_header": 820,
+    "hdmi": 439
+  }
+}

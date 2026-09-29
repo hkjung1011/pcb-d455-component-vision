@@ -1,0 +1,218 @@
+{
+  "schema": "archive_file_hashes_v1",
+  "created_at": "2026-09-29T12:34:17.598476+00:00",
+  "archive_base_commit": "ee4530931784d5be1b67c8ed9fe40e3aedb00c18",
+  "scope": "all files in this folder except this manifest itself",
+  "files": [
+    {
+      "path": ".gitignore",
+      "bytes": 95,
+      "sha256": "c529ba77682ad4da12e769179bc411e5a463814de309f0e0f45a1965829f51ef"
+    },
+    {
+      "path": "pipeline/assemble.py",
+      "bytes": 12425,
+      "sha256": "8c4e0469cdf32ee10e455c03fe0031b2db6196f5da67fa3ef84be92428d2eaf3"
+    },
+    {
+      "path": "pipeline/build_iotkits.py",
+      "bytes": 4028,
+      "sha256": "44c5047aca98b2b152724ea582f179433b159353a6c3da9c1b3c8f28913bd8b2"
+    },
+    {
+      "path": "pipeline/class_map.json",
+      "bytes": 14591,
+      "sha256": "211ac6f1bacfc2080e4fd02f91dee77b08c024399207aac62f37cf8dbd1bb26d"
+    },
+    {
+      "path": "pipeline/common.py",
+      "bytes": 1990,
+      "sha256": "5b53ed1babd7a231534c17f0ad6575df4dcbd98f78bf1fc6bafceb95c63e4d36"
+    },
+    {
+      "path": "pipeline/evaluate_test.py",
+      "bytes": 1691,
+      "sha256": "4ad46ff58aca07b191e5e217f8338f5da10953d6eeb4f599f267e5ae5a1f4c32"
+    },
+    {
+      "path": "pipeline/import_roboflow.py",
+      "bytes": 25069,
+      "sha256": "de87ec5ca0928b65710dcffc813584e3e6ab8cd727a19927e4eb0b2d6b61a8bd"
+    },
+    {
+      "path": "pipeline/NEXT_STEPS_PROMPT.md",
+      "bytes": 1802,
+      "sha256": "0bf5c5b7f2ec26849e9d96207589bc7f7030822787325fcfabddf31a3859e20f"
+    },
+    {
+      "path": "pipeline/train.py",
+      "bytes": 3140,
+      "sha256": "7ecd46b46d4102ac757d271be8590a7eebcc40f3a9bd7428c40e162d91bae679"
+    },
+    {
+      "path": "pipeline/verify_datasets.py",
+      "bytes": 11248,
+      "sha256": "210285be3ef7bfc91501cdd39ba3bf228ae03fdc6318d49194cff15002432bc4"
+    },
+    {
+      "path": "provenance/iotkits_input_records.json.gz",
+      "bytes": 2790418,
+      "sha256": "111a1d10e9bdf4722cff65121b6f88992ca8d96195d9447a28ea8a01049c1e96"
+    },
+    {
+      "path": "provenance/iotkits_v1_records.json.gz",
+      "bytes": 104536,
+      "sha256": "ff83f37c5d32f3689d186bb5fec7789213e248f9daade981caa44ffc54699c31"
+    },
+    {
+      "path": "provenance/iotkits_v1_summary.json",
+      "bytes": 519,
+      "sha256": "04664cd5397e4ea20d4acd83778b0cd5be9e1fbf273d7a5df7846bd5e62fb8c1"
+    },
+    {
+      "path": "provenance/rf_embedded_hardware_records.json.gz",
+      "bytes": 197612,
+      "sha256": "950006e1769814807b5ade803e6430227328b7d2db838d5c4f626af0c65ec278"
+    },
+    {
+      "path": "provenance/rf_embedded_hardware_summary.json",
+      "bytes": 1558,
+      "sha256": "9fb6601c7e8cfb9296bf154c76dc37f5121e342cb8c8d1386fd1bb3a9857309a"
+    },
+    {
+      "path": "provenance/rf_raspberry_pi_dpiwf_records.json.gz",
+      "bytes": 333813,
+      "sha256": "5b3c9d1e3a4162741c7678bbf897d2ab8527fa9034a9765eb3d1d739e8065c95"
+    },
+    {
+      "path": "provenance/rf_raspberry_pi_dpiwf_summary.json",
+      "bytes": 1985,
+      "sha256": "dda50b6c1b9f48a72c9e3c1844882ad4d0bdbf1ef7a540320d58827b1e8c81e1"
+    },
+    {
+      "path": "provenance/rf_raspberrypi_vniye_records.json.gz",
+      "bytes": 1465375,
+      "sha256": "f1cbbb29b28538e062f3a9e5db89d3b02405390b86883854390f19aa193c597f"
+    },
+    {
+      "path": "provenance/rf_raspberrypi_vniye_summary.json",
+      "bytes": 1774,
+      "sha256": "b457aabb60ebbb25653b76f8237d24c71f1e78e8ced38290e0ad996e01fc4cf0"
+    },
+    {
+      "path": "provenance/SOURCE_SNAPSHOT.json",
+      "bytes": 3992,
+      "sha256": "dcdcc411c61806fbdaf5b3f4c02b04a2e17a7b8008e7201b3f6c928854241cc9"
+    },
+    {
+      "path": "README.md",
+      "bytes": 3810,
+      "sha256": "afa168cec0a9a5a5d96129b49f0ab3869459084b3d20fa6e828651898fddb337"
+    },
+    {
+      "path": "reports/class_mapping.csv",
+      "bytes": 7138,
+      "sha256": "2f8c2b0de00d5ffbadca25b0a7f5ca2c9589f0426a02181880ebf260567a9a3b"
+    },
+    {
+      "path": "reports/download_inventory.json",
+      "bytes": 2881,
+      "sha256": "6786760c996e6ee2a16a39208d49fa3ca315e7e927826cb7f95e66a250c34e89"
+    },
+    {
+      "path": "reports/evidence/boards_dataset_index.json",
+      "bytes": 1681822,
+      "sha256": "efe24e3b69a6427b588dd7675a0f0efa3c248dc4211a6a2ad208033c4ae9a9f2"
+    },
+    {
+      "path": "reports/evidence/class_map.json",
+      "bytes": 14591,
+      "sha256": "211ac6f1bacfc2080e4fd02f91dee77b08c024399207aac62f37cf8dbd1bb26d"
+    },
+    {
+      "path": "reports/evidence/implementation_hashes.json",
+      "bytes": 531,
+      "sha256": "c73fd9c9608c53c9dce3711d798330320c7ae5dd5217dd3d6308fa25fb1f80a2"
+    },
+    {
+      "path": "reports/evidence/manifest.json",
+      "bytes": 4180,
+      "sha256": "60ed43484e37bfa363e4c029eadd40266e8747c4cabfdfa337ac792dc7c76714"
+    },
+    {
+      "path": "reports/evidence/rf_embedded_hardware_import_summary.json",
+      "bytes": 1558,
+      "sha256": "9fb6601c7e8cfb9296bf154c76dc37f5121e342cb8c8d1386fd1bb3a9857309a"
+    },
+    {
+      "path": "reports/evidence/rf_raspberry_pi_dpiwf_import_summary.json",
+      "bytes": 1985,
+      "sha256": "dda50b6c1b9f48a72c9e3c1844882ad4d0bdbf1ef7a540320d58827b1e8c81e1"
+    },
+    {
+      "path": "reports/evidence/rf_raspberrypi_vniye_import_summary.json",
+      "bytes": 1774,
+      "sha256": "b457aabb60ebbb25653b76f8237d24c71f1e78e8ced38290e0ad996e01fc4cf0"
+    },
+    {
+      "path": "reports/evidence/verification.json",
+      "bytes": 8578,
+      "sha256": "f82c9c37d54da7cdf2854265cef0bcde1b597dc9d3c35c881dfb9b199173c781"
+    },
+    {
+      "path": "reports/evidence/verification_fixture_checks.json",
+      "bytes": 388,
+      "sha256": "25c159d7dfc74750519d4dc842e9cbf27633971250e9d3fb2847370c94cc74ab"
+    },
+    {
+      "path": "reports/group_support.json",
+      "bytes": 20253,
+      "sha256": "1448456373e2ed85141e266dd04855cf5859dbce13dd0860726f447492945e5a"
+    },
+    {
+      "path": "reports/GROUP_SUPPORT_REVIEW.md",
+      "bytes": 3379,
+      "sha256": "428f89e6dd9cff242df49b417515f8043d0bae9b6fcd27aa6c32329c11b97201"
+    },
+    {
+      "path": "reports/PORTS_MAPPING_REVIEW.md",
+      "bytes": 5878,
+      "sha256": "4e82ebb4f26c07b6839e37467c023353d15b7a7f011a2d7b55df016f9abbf690"
+    },
+    {
+      "path": "reports/README.md",
+      "bytes": 6187,
+      "sha256": "bcd14de864fce1af4c3109a0bc37f98c6ca6f79da3bd1b7f31c45d6d3f55c52f"
+    },
+    {
+      "path": "reports/REBUILD_DATA_ONLY.ps1",
+      "bytes": 822,
+      "sha256": "bd220d7aec6cf2c039acc9af5af16b4d996aaadb450c84c4c33cac6aca016774"
+    },
+    {
+      "path": "REPRODUCE.md",
+      "bytes": 3423,
+      "sha256": "c12fefd453d6a591255e6d70ff52f47f661922aec32d4d12c8d316cdd152af40"
+    },
+    {
+      "path": "requirements-data.txt",
+      "bytes": 54,
+      "sha256": "2660cfed8216812b0816ac14b87ec8b7b87db4b1e460b8a10505fec3bac91451"
+    },
+    {
+      "path": "runtime.json",
+      "bytes": 353,
+      "sha256": "5b6b2e47932c34be114f03d881e4443727d202a40c7e7dd4596009554c981cc5"
+    },
+    {
+      "path": "SOURCES.md",
+      "bytes": 1513,
+      "sha256": "b863c09b3006896ebfeaec04cd1666734ffea59c14e1cfb6281d6f25db14cea1"
+    },
+    {
+      "path": "STATUS.json",
+      "bytes": 1169,
+      "sha256": "3dc82094ce615fc8fd660ebb852459333be150a3735a87ad13340d0f9f48e36e"
+    }
+  ]
+}

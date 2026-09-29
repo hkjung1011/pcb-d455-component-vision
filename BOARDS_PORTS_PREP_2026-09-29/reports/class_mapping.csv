@@ -1,0 +1,84 @@
+﻿source,native_name,target,review_status
+iotkits_v1,Raspberry-Pi-5,raspberry_pi_5,confirmed_by_name
+iotkits_v1,Raspberry-Pi-4-B,raspberry_pi_4,confirmed_by_name
+iotkits_v1,Raspberry-Pi-Zero,raspberry_pi_other,confirmed_by_name
+iotkits_v1,Raspberry-Pi-Zero-W,raspberry_pi_other,confirmed_by_name
+iotkits_v1,Raspberry-Pi-Zero-WH,raspberry_pi_other,confirmed_by_name
+iotkits_v1,Raspberry-Pi-Zero-2-W,raspberry_pi_other,confirmed_by_name
+iotkits_v1,Raspberry Pi 1 B-,raspberry_pi_other,confirmed_by_name
+iotkits_v1,Raspberry-Pi-1-A-,raspberry_pi_other,confirmed_by_name
+iotkits_v1,Raspberry-Pi-2-B,raspberry_pi_other,confirmed_by_name
+iotkits_v1,Raspberry-Pi-3-A-,raspberry_pi_other,confirmed_by_name
+iotkits_v1,Raspberry-Pi-3-B,raspberry_pi_other,confirmed_by_name
+iotkits_v1,Raspberry Pi 3 B-,raspberry_pi_other,confirmed_by_name
+iotkits_v1,STM32,stm32_other,"confirmed_by_visual_sample: 소형 블랙필 계열 보드, Nucleo 아님 (12그룹 샘플 확인)"
+iotkits_v1,Arduino-Due,arduino,confirmed_by_name
+iotkits_v1,Arduino-leonardo,arduino,confirmed_by_name
+iotkits_v1,Arduino-Micro,arduino,confirmed_by_name
+iotkits_v1,Arduino-Nano,arduino,confirmed_by_name
+iotkits_v1,Arduino-ProMini,arduino,confirmed_by_name
+iotkits_v1,Arduino-Zero,arduino,confirmed_by_name
+iotkits_v1,Arduino Mega 2560 -Black-,arduino,confirmed_by_name
+iotkits_v1,Arduino Mega 2560 -Blue-,arduino,confirmed_by_name
+iotkits_v1,Arduino Mega 2560 -Yellow-,arduino,confirmed_by_name
+iotkits_v1,Arduino Uno -Black-,arduino,confirmed_by_name
+iotkits_v1,Arduino Uno -Green-,arduino,confirmed_by_name
+iotkits_v1,Arduino Uno Camera Shield,arduino,confirmed_by_name
+iotkits_v1,Arduino Uno WiFi Shield,arduino,confirmed_by_name
+iotkits_v1,ESP32,esp_board,confirmed_by_name
+iotkits_v1,Esp8266,esp_board,confirmed_by_name
+iotkits_v1,Wemos,esp_board,confirmed_by_name
+iotkits_v1,Jetson Nano,jetson,confirmed_by_name
+iotkits_v1,Jetson TX2,jetson,confirmed_by_name
+iotkits_v1,TelosB,other_board,confirmed_by_name
+rf_raspberrypi_vniye,USB,usb_stack,needs_visual_check: 단자 묶음 단위인지 구멍 하나 단위인지 확인
+rf_raspberrypi_vniye,Ethernet,ethernet_port,confirmed_by_name
+rf_raspberrypi_vniye,GPIO Header,gpio_header,confirmed_by_name
+rf_raspberrypi_vniye,HDMI,micro_hdmi,needs_visual_check: Pi4/5 micro HDMI 와 Pi3 표준 HDMI 가 섞였는지 확인. 섞였으면 박스 크기로 나누거나 수동 분류
+rf_raspberrypi_vniye,USB-C,usb_c_power,needs_visual_check: future named export must be reviewed; current numeric export class 7 is micro USB
+rf_raspberrypi_vniye,Processor,drop,우리 포트 모델에서는 SoC 는 방열판과 구분이 애매해 제외
+rf_raspberrypi_vniye,Ethernet controller,drop,
+rf_raspberrypi_vniye,CSE camera port,drop,
+rf_raspberrypi_vniye,Display port,drop,
+rf_raspberrypi_vniye,Bluetooth,drop,
+rf_raspberrypi_vniye,Stereo audio,drop,
+rf_raspberrypi_vniye,Logo,drop,
+rf_raspberrypi_vniye,condition,drop,
+rf_raspberrypi_vniye,0,gpio_header,confirmed_by_visual_sample: 48 representative crops; 40-pin GPIO header
+rf_raspberrypi_vniye,1,drop,confirmed_by_visual_sample: 48 representative crops; 3.5mm audio jack
+rf_raspberrypi_vniye,2,drop,confirmed_by_visual_sample: 48 representative crops; CSI ribbon connector
+rf_raspberrypi_vniye,3,drop,confirmed_by_visual_sample: 48 representative crops; DSI ribbon connector
+rf_raspberrypi_vniye,4,ethernet_port,confirmed_by_visual_sample: 48 representative crops; RJ45 metal housing
+rf_raspberrypi_vniye,5,drop,confirmed_by_visual_sample: 48 representative crops; main Broadcom SoC
+rf_raspberrypi_vniye,6,hdmi,"confirmed_by_visual_sample: 48 representative crops; full-size HDMI socket, not micro HDMI"
+rf_raspberrypi_vniye,7,micro_usb,"confirmed_by_visual_sample: 48 representative crops; micro USB power socket, not USB-C"
+rf_raspberrypi_vniye,8,usb_stack,confirmed_by_visual_sample: 48 representative crops; two-high USB-A housing; two stacks per image
+rf_raspberrypi_vniye,9,drop,confirmed_by_visual_sample: 48 representative crops; LAN controller chip
+rf_raspberrypi_vniye,10,drop,confirmed_by_visual_sample: 48 representative crops; radio shield with etched logo
+rf_raspberrypi_vniye,11,drop,confirmed_by_visual_sample: 48 representative crops; silkscreen Raspberry Pi logo
+rf_raspberry_pi_dpiwf,usb-2,usb_stack,confirmed_by_visual_sample: 48 representative crops; housing/header unit consistent with target definition
+rf_raspberry_pi_dpiwf,usb-3,usb_stack,confirmed_by_visual_sample: 48 representative crops; housing/header unit consistent with target definition
+rf_raspberry_pi_dpiwf,gigabit ethernet,ethernet_port,confirmed_by_visual_sample: 48 representative crops; housing/header unit consistent with target definition
+rf_raspberry_pi_dpiwf,gpio header,gpio_header,confirmed_by_visual_sample: 48 representative crops; housing/header unit consistent with target definition
+rf_raspberry_pi_dpiwf,usb-c 3a-5v,usb_c_power,confirmed_by_visual_sample: 48 representative crops; housing/header unit consistent with target definition
+rf_raspberry_pi_dpiwf,2.5a micro usb,micro_usb,confirmed_by_visual_sample: 48 representative crops; housing/header unit consistent with target definition
+rf_raspberry_pi_dpiwf,micro sd card slot,drop,
+rf_raspberry_pi_dpiwf,raspberry-pi,drop,"confirmed_by_visual_sample: box covers the entire six-Pi cluster, not one board"
+rf_raspberry_pi_dpiwf,folded asset tag,drop,
+rf_raspberry_pi_dpiwf,server,drop,confirmed_by_visual_sample: individual Pi/slot within stacked Pi cluster; not used as generation-specific board boxes
+rf_raspberry_pi_dpiwf,server slot,drop,confirmed_by_visual_sample: slot within Pi cluster
+rf_stm32_nucleo,STM32_board,boards:stm32_nucleo,confirmed_by_visual_sample: original preview 20230510_193845.jpg and 20230510_194613(0).jpg outline the full NUCLEO-H723ZG board; full export review still required
+rf_stm32_nucleo,Nucleo,drop,"confirmed_by_visual_sample: Nucleo logo, not a board instance, in two public annotation previews"
+rf_stm32_nucleo,Ethernet,ports:ethernet_port,confirmed_by_name
+rf_stm32_nucleo,ST-LINK V3,ports:st_link,"needs_visual_check: observed labels cover the debugger MCU chip, not the debugger region; class definition must be resolved before use"
+rf_stm32_nucleo,STM32_CPU,ports:mcu_chip,confirmed_by_name
+rf_stm32_nucleo,Connector_power,ports:micro_usb,needs_visual_check: two USB connectors in previews; was incorrectly described as unlabeled USB in earlier handoff; full export review required
+rf_stm32_nucleo,Network_transformer,drop,
+rf_stm32_nucleo,Button_RESET,drop,
+rf_stm32_nucleo,Button_USER,drop,
+rf_stm32_nucleo,User_LEDs,drop,
+rf_stm32_nucleo,ST,drop,로고
+rf_stm32_nucleo,STM32_model,drop,실크 글자
+rf_embedded_hardware,Raspberry Pi,raspberry_pi_4,"confirmed_by_visual_review: all 363 board crops across 8 pages show Pi4 Model B layout, paired micro HDMI and blue/black USB stacks"
+rf_embedded_hardware,STM32,stm32_nucleo,confirmed_by_visual_review: all 393 board crops across 9 pages show Nucleo-64 geometry; exact MCU suffix not determined
+rf_embedded_hardware,AURIX,other_board,confirmed_by_name

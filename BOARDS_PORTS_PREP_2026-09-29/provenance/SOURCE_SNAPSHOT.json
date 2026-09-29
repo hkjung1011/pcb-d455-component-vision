@@ -1,0 +1,72 @@
+{
+  "pipeline/common.py": {
+    "original_path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\boards_ports\\common.py",
+    "sha256": "5b53ed1babd7a231534c17f0ad6575df4dcbd98f78bf1fc6bafceb95c63e4d36",
+    "byte_identical": true
+  },
+  "pipeline/build_iotkits.py": {
+    "original_path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\boards_ports\\build_iotkits.py",
+    "sha256": "44c5047aca98b2b152724ea582f179433b159353a6c3da9c1b3c8f28913bd8b2",
+    "byte_identical": true
+  },
+  "pipeline/import_roboflow.py": {
+    "original_path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\boards_ports\\import_roboflow.py",
+    "sha256": "de87ec5ca0928b65710dcffc813584e3e6ab8cd727a19927e4eb0b2d6b61a8bd",
+    "byte_identical": true
+  },
+  "pipeline/assemble.py": {
+    "original_path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\boards_ports\\assemble.py",
+    "sha256": "8c4e0469cdf32ee10e455c03fe0031b2db6196f5da67fa3ef84be92428d2eaf3",
+    "byte_identical": true
+  },
+  "pipeline/verify_datasets.py": {
+    "original_path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\boards_ports\\verify_datasets.py",
+    "sha256": "210285be3ef7bfc91501cdd39ba3bf228ae03fdc6318d49194cff15002432bc4",
+    "byte_identical": true
+  },
+  "pipeline/train.py": {
+    "original_path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\boards_ports\\train.py",
+    "sha256": "7ecd46b46d4102ac757d271be8590a7eebcc40f3a9bd7428c40e162d91bae679",
+    "byte_identical": true
+  },
+  "pipeline/evaluate_test.py": {
+    "original_path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\boards_ports\\evaluate_test.py",
+    "sha256": "4ad46ff58aca07b191e5e217f8338f5da10953d6eeb4f599f267e5ae5a1f4c32",
+    "byte_identical": true
+  },
+  "pipeline/class_map.json": {
+    "original_path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\boards_ports\\class_map.json",
+    "sha256": "211ac6f1bacfc2080e4fd02f91dee77b08c024399207aac62f37cf8dbd1bb26d",
+    "byte_identical": true
+  },
+  "pipeline/NEXT_STEPS_PROMPT.md": {
+    "original_path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\boards_ports\\NEXT_STEPS_PROMPT.md",
+    "sha256": "0bf5c5b7f2ec26849e9d96207589bc7f7030822787325fcfabddf31a3859e20f",
+    "byte_identical": true
+  },
+  "provenance/iotkits_v1_records.json.gz": {
+    "original_path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\boards_ports\\staging\\iotkits_v1\\records.json",
+    "uncompressed_sha256": "45ca36b2ee0a1c772b0d9477b4271a0a902511411d89a7a713c0d178a4fe9dc4",
+    "records": 1068
+  },
+  "provenance/rf_embedded_hardware_records.json.gz": {
+    "original_path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\boards_ports\\staging\\rf_embedded_hardware\\records.json",
+    "uncompressed_sha256": "344ec33ce8dcdc569ddbd62cf49dcf114c1862f8bd61c7aae057e441a5c97e3f",
+    "records": 960
+  },
+  "provenance/rf_raspberry_pi_dpiwf_records.json.gz": {
+    "original_path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\boards_ports\\staging\\rf_raspberry_pi_dpiwf\\records.json",
+    "uncompressed_sha256": "57cf078a2d4bde91e9e870b4d74dc2f20e60c6dc9b2b37e3f373da01890f1f50",
+    "records": 110
+  },
+  "provenance/rf_raspberrypi_vniye_records.json.gz": {
+    "original_path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\boards_ports\\staging\\rf_raspberrypi_vniye\\records.json",
+    "uncompressed_sha256": "5b325bd0b60034c90937e1d270e547078a17d303120843a64a178a225231580a",
+    "records": 439
+  },
+  "provenance/iotkits_input_records.json.gz": {
+    "original_path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\assets\\board_records.json",
+    "uncompressed_sha256": "411b9683b49f4a46f00bc0b4021a83646e69c77e25da9bfd5f4392ced9034680",
+    "records": 3108
+  }
+}

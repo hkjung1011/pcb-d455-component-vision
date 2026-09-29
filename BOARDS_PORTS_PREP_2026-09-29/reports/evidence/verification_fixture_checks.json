@@ -1,0 +1,11 @@
+{
+  "fixture": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\boards_ports\\audit_checks_20260929\\7746a008",
+  "checks": [
+    "baseline structure/readiness pass",
+    "missing class structure pass with readiness false",
+    "dataset fingerprint changes",
+    "rotated duplicate across splits rejected",
+    "malformed labels rejected"
+  ],
+  "passed": true
+}

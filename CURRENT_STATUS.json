@@ -29,5 +29,13 @@
     "WAFER_R01": "WAFER_R01/CURRENT_STATUS.json"
   },
   "previous_root_status_revision": "WAFER_SURFACE_R01",
-  "source_images_added": "Two local camera training sources and one observation frame; no external dataset originals"
+  "source_images_added": "Two local camera training sources and one observation frame; no external dataset originals",
+  "data_preparation": {
+    "revision": "BOARDS_PORTS_PREP_2026-09-29",
+    "status": "BOARDS_PORTS_PREP_2026-09-29/STATUS.json",
+    "readme": "BOARDS_PORTS_PREP_2026-09-29/README.md",
+    "training_executed": false,
+    "boards_training_ready": false,
+    "ports_training_ready": false
+  }
 }

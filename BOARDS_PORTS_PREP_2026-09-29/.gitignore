@@ -1,0 +1,6 @@
+pipeline/raw/
+pipeline/staging/
+pipeline/datasets/
+pipeline/runs/
+__pycache__/
+*.py[cod]

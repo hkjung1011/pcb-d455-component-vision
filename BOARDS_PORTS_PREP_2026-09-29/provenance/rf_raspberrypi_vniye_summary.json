@@ -1,0 +1,67 @@
+{
+  "schema": "roboflow_import_v2",
+  "source": "rf_raspberrypi_vniye",
+  "status": "imported",
+  "zip": "raspberrypi-vniye-v1.yolov11.zip",
+  "zip_sha256": "15bf590aa817174d6a7ff6354b20017c5875fdd8ee9f7ec497ed4e8b463bce18",
+  "roboflow": {
+    "workspace": "raspberrypi-4jqsd",
+    "project": "raspberrypi-vniye",
+    "version": 1,
+    "license": "CC BY 4.0",
+    "url": "https://universe.roboflow.com/raspberrypi-4jqsd/raspberrypi-vniye/dataset/1"
+  },
+  "source_version": 1,
+  "native_class_names": [
+    "0",
+    "1",
+    "10",
+    "11",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "9"
+  ],
+  "provider_split_counts": {
+    "test": 26,
+    "train": 362,
+    "valid": 51
+  },
+  "input_images": 439,
+  "files_after_exact_dedup": 439,
+  "groups": 1,
+  "native_box_counts": {
+    "8": 878,
+    "4": 439,
+    "9": 439,
+    "11": 439,
+    "5": 439,
+    "10": 439,
+    "3": 439,
+    "7": 439,
+    "0": 439,
+    "6": 439,
+    "1": 439,
+    "2": 439
+  },
+  "group_basis_counts": {
+    "capture_day_conservative_same_scene": 439
+  },
+  "augmentation_families": 100,
+  "video_groups": 0,
+  "quarantined_images": 0,
+  "exact_duplicate_conflicts": 0,
+  "exact_duplicates_removed": 0,
+  "mapping_override_records_applied": [],
+  "class_map_sha256": "211ac6f1bacfc2080e4fd02f91dee77b08c024399207aac62f37cf8dbd1bb26d",
+  "overrides_sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+  "images_with_pending_boxes": 0,
+  "ports_completeness": {
+    "incomplete_requires_review": 439
+  },
+  "review_index": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\boards_ports\\staging\\rf_raspberrypi_vniye\\review\\15bf590aa817174d\\25a4582fb4d694b6\\index.json"
+}

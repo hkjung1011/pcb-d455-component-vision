@@ -1,0 +1,160 @@
+{
+  "seed": 20260929,
+  "splits": {
+    "train": 0.75,
+    "val": 0.15,
+    "test": 0.1
+  },
+  "holdout_distance": 8,
+  "duplicate_distance": 6,
+  "holdout_images": 44,
+  "excluded_near_holdout": [
+    {
+      "id": "iotkits_train_01556",
+      "group": "g125",
+      "reason": "family of near holdout image commons_67384198.png"
+    },
+    {
+      "id": "iotkits_train_02193",
+      "group": "g125",
+      "reason": "family of near holdout image commons_67384198.png"
+    },
+    {
+      "id": "iotkits_valid_00071",
+      "group": "g125",
+      "reason": "family of near holdout image commons_67384198.png"
+    },
+    {
+      "id": "iotkits_train_00595",
+      "group": "g215",
+      "reason": "family of near holdout image commons_86470705.jpg"
+    },
+    {
+      "id": "iotkits_train_01899",
+      "group": "g215",
+      "reason": "family of near holdout image commons_86470705.jpg"
+    },
+    {
+      "id": "iotkits_train_02454",
+      "group": "g215",
+      "reason": "family of near holdout image commons_86470705.jpg"
+    },
+    {
+      "id": "iotkits_valid_00308",
+      "group": "g306",
+      "reason": "family of near holdout image commons_69660497.jpg"
+    },
+    {
+      "id": "iotkits_train_00197",
+      "group": "g327",
+      "reason": "family of near holdout image commons_122664660.png"
+    },
+    {
+      "id": "iotkits_train_01905",
+      "group": "g327",
+      "reason": "family of near holdout image commons_122664660.png"
+    },
+    {
+      "id": "iotkits_train_01101",
+      "group": "g389",
+      "reason": "family of near holdout image commons_69660497.jpg"
+    },
+    {
+      "id": "iotkits_train_01974",
+      "group": "g389",
+      "reason": "family of near holdout image commons_69660497.jpg"
+    },
+    {
+      "id": "iotkits_train_00044",
+      "group": "g441",
+      "reason": "family of near holdout image commons_88249722.jpg"
+    },
+    {
+      "id": "iotkits_train_01095",
+      "group": "g441",
+      "reason": "family of near holdout image commons_88249722.jpg"
+    },
+    {
+      "id": "iotkits_valid_00203",
+      "group": "g441",
+      "reason": "family of near holdout image commons_88249722.jpg"
+    },
+    {
+      "id": "iotkits_train_00561",
+      "group": "g598",
+      "reason": "family of near holdout image commons_111935985.jpg"
+    }
+  ],
+  "near_duplicate_pairs": 3740,
+  "rotation_flip_screening": true,
+  "near_duplicate_pairs_across_sources": 4,
+  "models": {
+    "boards": {
+      "root": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\boards_ports\\datasets\\boards_v1",
+      "images": {
+        "test": 106,
+        "train": 1701,
+        "val": 206
+      },
+      "boxes": {
+        "train": {
+          "raspberry_pi_5": 73,
+          "raspberry_pi_4": 436,
+          "raspberry_pi_other": 184,
+          "esp_board": 186,
+          "stm32_other": 75,
+          "arduino": 149,
+          "jetson": 89,
+          "other_board": 204,
+          "stm32_nucleo": 393
+        },
+        "val": {
+          "raspberry_pi_5": 16,
+          "raspberry_pi_4": 14,
+          "raspberry_pi_other": 34,
+          "esp_board": 34,
+          "stm32_other": 15,
+          "arduino": 31,
+          "jetson": 14,
+          "other_board": 73
+        },
+        "test": {
+          "raspberry_pi_5": 11,
+          "raspberry_pi_4": 10,
+          "raspberry_pi_other": 23,
+          "esp_board": 23,
+          "stm32_other": 11,
+          "arduino": 20,
+          "jetson": 15,
+          "other_board": 12
+        }
+      },
+      "sources": {
+        "test": {
+          "iotkits_v1": 106
+        },
+        "train": {
+          "iotkits_v1": 741,
+          "rf_embedded_hardware": 960
+        },
+        "val": {
+          "iotkits_v1": 206
+        }
+      },
+      "groups": {
+        "test": 81,
+        "train": 236,
+        "val": 107
+      },
+      "skipped": {
+        "no_complete_labels_for_model": 549
+      }
+    },
+    "ports": {
+      "status": "no eligible images",
+      "skipped": {
+        "incomplete_port_annotations": 2562
+      }
+    }
+  }
+}

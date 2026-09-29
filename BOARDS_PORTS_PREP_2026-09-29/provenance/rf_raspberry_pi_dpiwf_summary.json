@@ -1,0 +1,65 @@
+{
+  "schema": "roboflow_import_v2",
+  "source": "rf_raspberry_pi_dpiwf",
+  "status": "imported",
+  "zip": "raspberry-pi-dpiwf-v3.yolov11.zip",
+  "zip_sha256": "acda4597dcda181cda154ca94195d36e625fa78a85940b68c1e9cac81ee50782",
+  "roboflow": {
+    "workspace": "kerchick-gmail-com",
+    "project": "raspberry-pi-dpiwf",
+    "version": 3,
+    "license": "CC BY 4.0",
+    "url": "https://universe.roboflow.com/kerchick-gmail-com/raspberry-pi-dpiwf/dataset/3"
+  },
+  "source_version": 3,
+  "native_class_names": [
+    "2.5a micro usb",
+    "folded asset tag",
+    "gigabit ethernet",
+    "gpio header",
+    "micro sd card slot",
+    "raspberry-pi",
+    "server",
+    "server slot",
+    "usb-2",
+    "usb-3",
+    "usb-c 3a-5v"
+  ],
+  "provider_split_counts": {
+    "test": 17,
+    "train": 77,
+    "valid": 16
+  },
+  "input_images": 110,
+  "files_after_exact_dedup": 110,
+  "groups": 1,
+  "native_box_counts": {
+    "raspberry-pi": 110,
+    "server": 653,
+    "usb-3": 245,
+    "gigabit ethernet": 415,
+    "usb-2": 495,
+    "server slot": 650,
+    "folded asset tag": 135,
+    "usb-c 3a-5v": 336,
+    "2.5a micro usb": 81,
+    "gpio header": 381,
+    "micro sd card slot": 242
+  },
+  "group_basis_counts": {
+    "visual_audit_single_scene_all_camera_angles": 110
+  },
+  "augmentation_families": 55,
+  "video_groups": 0,
+  "quarantined_images": 0,
+  "exact_duplicate_conflicts": 0,
+  "exact_duplicates_removed": 0,
+  "mapping_override_records_applied": [],
+  "class_map_sha256": "211ac6f1bacfc2080e4fd02f91dee77b08c024399207aac62f37cf8dbd1bb26d",
+  "overrides_sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+  "images_with_pending_boxes": 0,
+  "ports_completeness": {
+    "incomplete_requires_review": 110
+  },
+  "review_index": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\boards_ports\\staging\\rf_raspberry_pi_dpiwf\\review\\acda4597dcda181c\\63314ecf08cd5b05\\index.json"
+}

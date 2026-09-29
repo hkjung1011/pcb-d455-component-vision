@@ -1,0 +1,25 @@
+{
+  "images": 1068,
+  "groups": 533,
+  "images_containing_class": {
+    "raspberry_pi_5": 100,
+    "raspberry_pi_4": 100,
+    "raspberry_pi_other": 250,
+    "esp_board": 243,
+    "stm32_other": 100,
+    "arduino": 200,
+    "jetson": 102,
+    "other_board": 66
+  },
+  "seed": 20260929,
+  "quota": {
+    "raspberry_pi_5": 100,
+    "raspberry_pi_4": 100,
+    "raspberry_pi_other": 250,
+    "stm32_other": 100,
+    "arduino": 200,
+    "esp_board": 150,
+    "jetson": 100,
+    "other_board": 60
+  }
+}

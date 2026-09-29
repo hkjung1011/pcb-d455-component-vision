@@ -1,0 +1,49 @@
+{
+  "schema": "roboflow_import_v2",
+  "source": "rf_embedded_hardware",
+  "status": "imported",
+  "zip": "embedded-hardware-v1.yolov11.zip",
+  "zip_sha256": "2aeb07e3b18a0cc8bec85242389b98bdea52009c0691d1a959d2c9396c256417",
+  "roboflow": {
+    "workspace": "64601039kmitl",
+    "project": "embedded-hardware",
+    "version": 1,
+    "license": "Public Domain",
+    "url": "https://universe.roboflow.com/64601039kmitl/embedded-hardware/dataset/1"
+  },
+  "source_version": 1,
+  "native_class_names": [
+    "AURIX",
+    "Raspberry Pi",
+    "STM32"
+  ],
+  "provider_split_counts": {
+    "test": 41,
+    "train": 839,
+    "valid": 80
+  },
+  "input_images": 960,
+  "files_after_exact_dedup": 960,
+  "groups": 10,
+  "native_box_counts": {
+    "AURIX": 204,
+    "Raspberry Pi": 363,
+    "STM32": 393
+  },
+  "group_basis_counts": {
+    "source_video_filename_prefix": 960
+  },
+  "augmentation_families": 401,
+  "video_groups": 10,
+  "quarantined_images": 0,
+  "exact_duplicate_conflicts": 0,
+  "exact_duplicates_removed": 0,
+  "mapping_override_records_applied": [],
+  "class_map_sha256": "211ac6f1bacfc2080e4fd02f91dee77b08c024399207aac62f37cf8dbd1bb26d",
+  "overrides_sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+  "images_with_pending_boxes": 0,
+  "ports_completeness": {
+    "incomplete": 960
+  },
+  "review_index": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\boards_ports\\staging\\rf_embedded_hardware\\review\\2aeb07e3b18a0cc8\\ff5c4fb9866d90a8\\index.json"
+}

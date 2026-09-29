@@ -1,5 +1,11 @@
 # 진행 이력
 
+## 2026-09-29 · 보드 종류·포트 데이터 준비
+
+[준비 결과·매핑·재실행 안내](BOARDS_PORTS_PREP_2026-09-29/README.md) · [준비 상태](BOARDS_PORTS_PREP_2026-09-29/STATUS.json) · [검증 결과](BOARDS_PORTS_PREP_2026-09-29/reports/evidence/verification.json)
+
+Roboflow ZIP 3개 1,509장을 확보하고, IoTKITs와 합쳐 보드 2,013장(train 1,701/val 206/test 106)을 구성했다. Nucleo 393장은 모두 train이므로 val/test 지원이 없고, 포트 549장은 누락 라벨 검수가 남아 있다. **이번 추가 작업은 학습·test 평가를 실행하지 않았으며 두 모델 모두 `training_ready=false`다.** 코드·매핑·출처·해시·검수 기록을 보존했다.
+
 ## R04 · 2026-09-29
 
 두 번째 Claude 검토의 타일 잘림·GT 정의·실제 optimizer count·validation 분포·카메라 픽셀 가정을 원본과 대조했다. 동일 조건의 기준/개선 YOLO11s 각각20에폭이내/1,165회 직접갱신을 수행하고40개val후보의고정선택 후 개발holdout을 평가했다. 원본시험GT와R03Release는보존했다. D455실물/target4mask는미완료이며30+200장 계획을 기록했다.

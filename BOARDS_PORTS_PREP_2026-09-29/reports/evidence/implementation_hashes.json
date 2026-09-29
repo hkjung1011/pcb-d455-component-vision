@@ -1,0 +1,8 @@
+{
+  "common.py": "5b53ed1babd7a231534c17f0ad6575df4dcbd98f78bf1fc6bafceb95c63e4d36",
+  "import_roboflow.py": "de87ec5ca0928b65710dcffc813584e3e6ab8cd727a19927e4eb0b2d6b61a8bd",
+  "assemble.py": "8c4e0469cdf32ee10e455c03fe0031b2db6196f5da67fa3ef84be92428d2eaf3",
+  "verify_datasets.py": "210285be3ef7bfc91501cdd39ba3bf228ae03fdc6318d49194cff15002432bc4",
+  "train.py": "7ecd46b46d4102ac757d271be8590a7eebcc40f3a9bd7428c40e162d91bae679",
+  "class_map.json": "211ac6f1bacfc2080e4fd02f91dee77b08c024399207aac62f37cf8dbd1bb26d"
+}
