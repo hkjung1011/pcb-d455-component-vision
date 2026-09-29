@@ -1,0 +1,18 @@
+{
+  "status": "PASS_POST_TEST_AMENDMENT_SCOPE_CHECK",
+  "unchanged_scoring_function_sha256": {
+    "iou": "e1369879c97c36889e1e8e5461924456e1b15bfa6ca826835b5596bc6ca7524b",
+    "operating": "97e77cf8db03a2ecf2638f5d209680b4ce84cc37e056bb6757e090f080f23389",
+    "coco_reference": "8094fb7c7d9a41ee85afa6504114952fa5b0f4350ab1d26ad355d2342e24d37b",
+    "expected_calls": "6aa4f0485e078b356d4d4c99098585e6827ba336b513ac673315f7c76823a63d"
+  },
+  "source_prediction_rows_retained": 14477,
+  "zero_area_rows_retained": 658,
+  "zero_area_rows_at_fixed025": 0,
+  "new_synthetic_check": "High-score zero-area prediction retained as one FP; subsequent true detection TP; independent COCO AP0.5 instead of1.0 proves zero-area row was not removed",
+  "original_strict_check": "w<=0 or h<=0 -> invalid",
+  "adapted_check": "w<0 or h<0 -> invalid; zeros retained",
+  "original_files_and_initial_failure_preserved": true,
+  "primary_metrics_and_selections_unchanged": true,
+  "test_reinference": false
+}

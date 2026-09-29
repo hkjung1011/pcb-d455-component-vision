@@ -1,0 +1,44 @@
+{
+  "status": "VERIFIED_PRIVATE_WAFER_ARCHIVE_AND_RELEASE",
+  "utc": "2026-09-28T16:51:57.248208+00:00",
+  "repo": "https://github.com/hkjung1011/pcb-d455-component-vision",
+  "private": true,
+  "main_commit": "801903f48751659bef915fc33f6f02e5f78d65fa",
+  "tag": "wafer-r01-2026-09-29",
+  "tag_commit": "801903f48751659bef915fc33f6f02e5f78d65fa",
+  "remote_blob_count": 2568,
+  "all_remote_blobs_match_local_bytes": true,
+  "wafer_git_files": 52,
+  "historical_tags_unchanged": {
+    "r04-2026-09-29": "0af9cfcc78a9940baaf8f84ae8080bca79aa6b43",
+    "r03-2026-09-28": "fe1c2949a6d1d9f92b3d68ec577acd8d5822524c"
+  },
+  "historical_files_unchanged_except_root_readme_status": true,
+  "prior_blob_count": 2509,
+  "release": "https://github.com/hkjung1011/pcb-d455-component-vision/releases/tag/wafer-r01-2026-09-29",
+  "prerelease": true,
+  "assets": [
+    {
+      "name": "WAFER_Surface_R01.zip",
+      "bytes": 10844557,
+      "sha256": "92650df814ce9410a51119c53db3fd0fc42b1501b7c9d1954e13ced43b3183c1",
+      "url": "https://github.com/hkjung1011/pcb-d455-component-vision/releases/download/wafer-r01-2026-09-29/WAFER_Surface_R01.zip"
+    },
+    {
+      "name": "WAFER_Surface_R01_verification.json",
+      "bytes": 316,
+      "sha256": "ab6610f5898e1d4cf77c10c5a0d24e02fbb0e83a5a8c482356ff7d357c15de8d",
+      "url": "https://github.com/hkjung1011/pcb-d455-component-vision/releases/download/wafer-r01-2026-09-29/WAFER_Surface_R01_verification.json"
+    },
+    {
+      "name": "WAFER_R01_SHA256SUMS.txt",
+      "bytes": 192,
+      "sha256": "81ee12c9e4bd6179511b13127e5b44fbc010141a5ae34ccd1b8c3ff8727d835d",
+      "url": "https://github.com/hkjung1011/pcb-d455-component-vision/releases/download/wafer-r01-2026-09-29/WAFER_R01_SHA256SUMS.txt"
+    }
+  ],
+  "source_data_redistributed": false,
+  "d455_verified": false,
+  "physical_wafer_independence_verified": false,
+  "note": "This verifies storage and uploaded bytes, not field or production performance."
+}

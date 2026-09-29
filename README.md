@@ -2,6 +2,11 @@
 
 [현재 결과부터 보기](CURRENT_SUMMARY.md)
 
+2026-09-29 기록 보완: [PCB 업로드 검증](archive/verification_2026-09-29/pcb_r04_upload_verification.json) · [웨이퍼 업로드 검증](archive/verification_2026-09-29/wafer_r01_upload_verification.json) · [웨이퍼 감사 정정 범위 확인](archive/verification_2026-09-29/wafer_post_test_amendment_scope_check.json).
+
+업로드 검증 JSON은 각 Release를 만든 시점의 커밋과 파일 해시를 담은 기록이다. 후속 문서 커밋으로 main이 이동해도 해당 Release의 근거로 보존한다. 웨이퍼 감사의 0면적 검출 허용 정정은 입력 검사에만 적용했고, IoU·매칭·AP 함수가 그대로임을 추가 대조했다. 모델·분할·시험 지표와 기존 Release ZIP은 변경하지 않았다.
+
+
 ## 2026-09-29 · 웨이퍼 표면 결함 R01 추가
 
 현미경 공개자료의 **YOLO11n 10에폭** bbox 파일럿을 별도로 학습했다. 실제 optimizer 호출 **1,932회**, 학습 미사용 이미지 287장·bbox 496개에서 **mAP50 73.73% / mAP50–95 36.42%**다.

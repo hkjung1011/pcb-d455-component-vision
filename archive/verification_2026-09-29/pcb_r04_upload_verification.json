@@ -1,0 +1,36 @@
+{
+  "status": "VERIFIED_PRIVATE_REMOTE_AND_RELEASE",
+  "utc": "2026-09-28T16:34:07.682607+00:00",
+  "repo": "https://github.com/hkjung1011/pcb-d455-component-vision",
+  "private": true,
+  "main_commit": "0af9cfcc78a9940baaf8f84ae8080bca79aa6b43",
+  "tag": "r04-2026-09-29",
+  "tag_commit": "0af9cfcc78a9940baaf8f84ae8080bca79aa6b43",
+  "remote_blob_count": 2509,
+  "all_remote_blobs_match_local": true,
+  "r03_tag_unchanged": true,
+  "release": "https://github.com/hkjung1011/pcb-d455-component-vision/releases/tag/r04-2026-09-29",
+  "release_prerelease": true,
+  "assets": [
+    {
+      "name": "PCB_D455_R04.zip",
+      "bytes": 397883101,
+      "sha256": "aa7b28a83fe52515ed7bfdb85a3bdb94e1ab841daf6bd9cf37f1c1466a5f06de",
+      "url": "https://github.com/hkjung1011/pcb-d455-component-vision/releases/download/r04-2026-09-29/PCB_D455_R04.zip"
+    },
+    {
+      "name": "PCB_D455_R04_verification.json",
+      "bytes": 432,
+      "sha256": "bf94897e546707bc67a09357b7161ea7b9a58238b4869d772089164135a4708b",
+      "url": "https://github.com/hkjung1011/pcb-d455-component-vision/releases/download/r04-2026-09-29/PCB_D455_R04_verification.json"
+    },
+    {
+      "name": "R04_SHA256SUMS.txt",
+      "bytes": 182,
+      "sha256": "4b1929e1b712538253c68518026622825da39b115da59b269b97ee17ac9b3e92",
+      "url": "https://github.com/hkjung1011/pcb-d455-component-vision/releases/download/r04-2026-09-29/R04_SHA256SUMS.txt"
+    }
+  ],
+  "d455_verified": false,
+  "note": "Upload verification does not establish camera or production performance."
+}
