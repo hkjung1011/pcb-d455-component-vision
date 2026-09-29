@@ -1,0 +1,61 @@
+{
+  "verified_at": "2026-09-29T16:24:59.070945+00:00",
+  "repository": "https://github.com/hkjung1011/pcb-d455-component-vision",
+  "repository_private": true,
+  "artifact_commit": "61511f319e99337f2cba02c380bd20cf07547521",
+  "remote_main_matched_at_verification": true,
+  "remote_tree_blob_count": 2732,
+  "all_remote_git_blobs_match_local_bytes": true,
+  "existing_files_preserved": 2647,
+  "root_indexes_updated": [
+    "README.md",
+    "CURRENT_SUMMARY.md",
+    "CURRENT_STATUS.json",
+    "CHANGELOG.md"
+  ],
+  "existing_releases_unchanged": true,
+  "existing_release_count": 3,
+  "new_release": "https://github.com/hkjung1011/pcb-d455-component-vision/releases/tag/boards1000-2026-09-30",
+  "new_release_tag_commit": "61511f319e99337f2cba02c380bd20cf07547521",
+  "assets": [
+    {
+      "name": "BOARDS1000_FULL_SNAPSHOT.zip",
+      "bytes": 119033512,
+      "sha256": "ad24a3e59e478d16742ad014ddb237a6283bd557acbbb5da76955f5153a79da4",
+      "server_digest": "sha256:ad24a3e59e478d16742ad014ddb237a6283bd557acbbb5da76955f5153a79da4",
+      "download_url": "https://github.com/hkjung1011/pcb-d455-component-vision/releases/download/boards1000-2026-09-30/BOARDS1000_FULL_SNAPSHOT.zip",
+      "redownload_bytes_match": true
+    },
+    {
+      "name": "boards8-1000images-yolo11s-best.pt",
+      "bytes": 19183450,
+      "sha256": "25a6253ce7520d50d362fdb276e61d25b2f77ec78583d8706cd463f74282b766",
+      "server_digest": "sha256:25a6253ce7520d50d362fdb276e61d25b2f77ec78583d8706cd463f74282b766",
+      "download_url": "https://github.com/hkjung1011/pcb-d455-component-vision/releases/download/boards1000-2026-09-30/boards8-1000images-yolo11s-best.pt",
+      "redownload_bytes_match": true
+    },
+    {
+      "name": "SHA256SUMS.txt",
+      "bytes": 196,
+      "sha256": "71b56a776ce540e8082cfed884a905851ab356ccd0a6b73af74bf6d1a91fe444",
+      "server_digest": "sha256:71b56a776ce540e8082cfed884a905851ab356ccd0a6b73af74bf6d1a91fe444",
+      "download_url": "https://github.com/hkjung1011/pcb-d455-component-vision/releases/download/boards1000-2026-09-30/SHA256SUMS.txt",
+      "redownload_bytes_match": true
+    }
+  ],
+  "local_validation": {
+    "existing_files_preserved": 2647,
+    "root_indexes_intentionally_updated": [
+      "CHANGELOG.md",
+      "CURRENT_STATUS.json",
+      "CURRENT_SUMMARY.md",
+      "README.md"
+    ],
+    "all_archive_links_json_python_valid": true,
+    "git_snapshot_present_files_match_release_manifest": true,
+    "crlf_preserved_whitespace_check": "git -c core.whitespace=cr-at-eol diff --cached --check"
+  },
+  "new_training_or_test_executed_during_archiving": false,
+  "pass": true,
+  "scope": "This records the artifact commit and Release. A later audit-only commit may add this record without changing the Release snapshot."
+}

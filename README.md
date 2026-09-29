@@ -2,6 +2,8 @@
 
 ## 2026-09-30 · 보드 1,000장 50에폭 학습 완료
 
+[GitHub 파일·Release 재다운로드 검증](archive/verification_2026-09-30/boards1000_upload_verification.json) — 코드·문서 2,732개 및 Release 3개 파일의 해시 일치, 기존 Release 3개 보존 확인. 이 검증은 Release를 만든 커밋 기준이다.
+
 **YOLO11s 8클래스, train 650 / val 150 / test 200장, 실제 50에폭, 검증 선택 epoch 48.** 개발 test 1회 결과는 **mAP50 84.72% / mAP50–95 72.16%**다.
 
 [설정·결과 전체](BOARDS1000_2026-09-30/README.md) · [복원·사용](BOARDS1000_2026-09-30/REPRODUCE.md) · [학습 설정](BOARDS1000_2026-09-30/CONFIGURATION.md) · [클래스별 결과](BOARDS1000_2026-09-30/RESULTS.md) · [현재 상태](BOARDS1000_2026-09-30/STATUS.json) · [가중치와 정확한 데이터 Release](https://github.com/hkjung1011/pcb-d455-component-vision/releases/tag/boards1000-2026-09-30)
