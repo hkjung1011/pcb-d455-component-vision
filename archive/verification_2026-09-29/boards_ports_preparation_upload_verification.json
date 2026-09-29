@@ -1,0 +1,20 @@
+{
+  "local_checks_pass": true,
+  "issues": [],
+  "archive_files": 43,
+  "preserved_existing_files": 2603,
+  "pipeline_ast_parse": "passed",
+  "json_parse": "passed",
+  "compressed_records_hashes": "passed",
+  "local_links": "passed",
+  "repository": "https://github.com/hkjung1011/pcb-d455-component-vision",
+  "commit": "b2828371c63fcbdbf53b6cb5433dd225257b7a08",
+  "remote_main_matches": true,
+  "remote_tree_blob_count": 2650,
+  "all_remote_git_blobs_match_commit": true,
+  "remote_mismatched_paths": [],
+  "remote_extra_paths": [],
+  "existing_releases_unchanged": true,
+  "pass": true,
+  "scope_note": "Verifies preparation snapshot commit b2828371c63fcbdbf53b6cb5433dd225257b7a08. This receipt is committed afterward; it does not claim to hash itself."
+}
