@@ -1,0 +1,73 @@
+{
+  "checkpoint_sha256": "e04e249bcf9805088dca1de641a1e213d6af6f7403b8559ab748e2c047969a5c",
+  "completed_at": "2026-09-29T14:31:42.970715+00:00",
+  "images": 106,
+  "split": "test",
+  "invocations": 1,
+  "overall": {
+    "metrics/precision(B)": 0.6254767792984639,
+    "metrics/recall(B)": 0.6760399541222665,
+    "metrics/mAP50(B)": 0.6181023083365706,
+    "metrics/mAP50-95(B)": 0.47646834285336465,
+    "fitness": 0.47646834285336465
+  },
+  "per_class": [
+    {
+      "class_id": 0,
+      "class_name": "raspberry_pi_5",
+      "ground_truth_boxes": 11,
+      "map50": 0.7650144855144855,
+      "map50_95": 0.6197553896103897
+    },
+    {
+      "class_id": 1,
+      "class_name": "raspberry_pi_4",
+      "ground_truth_boxes": 10,
+      "map50": 0.3455502830502832,
+      "map50_95": 0.2599585414585416
+    },
+    {
+      "class_id": 2,
+      "class_name": "raspberry_pi_other",
+      "ground_truth_boxes": 23,
+      "map50": 0.8490644680182218,
+      "map50_95": 0.6786072249151777
+    },
+    {
+      "class_id": 3,
+      "class_name": "stm32_other",
+      "ground_truth_boxes": 11,
+      "map50": 0.5512266831827455,
+      "map50_95": 0.3971511774623777
+    },
+    {
+      "class_id": 4,
+      "class_name": "arduino",
+      "ground_truth_boxes": 20,
+      "map50": 0.9392164073249267,
+      "map50_95": 0.7696871928781159
+    },
+    {
+      "class_id": 5,
+      "class_name": "esp_board",
+      "ground_truth_boxes": 23,
+      "map50": 0.8657032320783918,
+      "map50_95": 0.7050513220161503
+    },
+    {
+      "class_id": 6,
+      "class_name": "jetson",
+      "ground_truth_boxes": 15,
+      "map50": 0.6237304075235109,
+      "map50_95": 0.3799421444861647
+    },
+    {
+      "class_id": 7,
+      "class_name": "other_board",
+      "ground_truth_boxes": 12,
+      "map50": 0.0053124999999999995,
+      "map50_95": 0.0015937500000000001
+    }
+  ],
+  "scope": "Held-out groups of public datasets; statistical device/session independence and D455 real-camera accuracy not established. Nucleo absent from this model."
+}

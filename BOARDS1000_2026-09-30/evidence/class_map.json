@@ -1,0 +1,436 @@
+{
+  "schema": "boards_ports_class_map_v1",
+  "note": "status=confirmed_by_name 는 원본 클래스 이름만으로 뜻이 분명한 매핑. needs_visual_check 는 다운로드 후 이미지를 보고 확정해야 하는 매핑. drop 은 학습에서 버리는 클래스(박스만 제거, 이미지는 유지할지 image_rule 로 결정).",
+  "models": {
+    "boards": {
+      "purpose": "8-class board detector; 1000-image development experiment",
+      "classes": [
+        "raspberry_pi_5",
+        "raspberry_pi_4",
+        "raspberry_pi_other",
+        "stm32_other",
+        "arduino",
+        "esp_board",
+        "jetson",
+        "other_board"
+      ]
+    }
+  },
+  "sources": {
+    "iotkits_v1": {
+      "model": "boards",
+      "license": "CC BY 4.0",
+      "url": "https://data.mendeley.com/datasets/x5thzmkxhy/1",
+      "map": {
+        "Raspberry-Pi-5": [
+          "raspberry_pi_5",
+          "confirmed_by_name"
+        ],
+        "Raspberry-Pi-4-B": [
+          "raspberry_pi_4",
+          "confirmed_by_name"
+        ],
+        "Raspberry-Pi-Zero": [
+          "raspberry_pi_other",
+          "confirmed_by_name"
+        ],
+        "Raspberry-Pi-Zero-W": [
+          "raspberry_pi_other",
+          "confirmed_by_name"
+        ],
+        "Raspberry-Pi-Zero-WH": [
+          "raspberry_pi_other",
+          "confirmed_by_name"
+        ],
+        "Raspberry-Pi-Zero-2-W": [
+          "raspberry_pi_other",
+          "confirmed_by_name"
+        ],
+        "Raspberry Pi 1 B-": [
+          "raspberry_pi_other",
+          "confirmed_by_name"
+        ],
+        "Raspberry-Pi-1-A-": [
+          "raspberry_pi_other",
+          "confirmed_by_name"
+        ],
+        "Raspberry-Pi-2-B": [
+          "raspberry_pi_other",
+          "confirmed_by_name"
+        ],
+        "Raspberry-Pi-3-A-": [
+          "raspberry_pi_other",
+          "confirmed_by_name"
+        ],
+        "Raspberry-Pi-3-B": [
+          "raspberry_pi_other",
+          "confirmed_by_name"
+        ],
+        "Raspberry Pi 3 B-": [
+          "raspberry_pi_other",
+          "confirmed_by_name"
+        ],
+        "STM32": [
+          "stm32_other",
+          "confirmed_by_visual_sample: 소형 블랙필 계열 보드, Nucleo 아님 (12그룹 샘플 확인)"
+        ],
+        "Arduino-Due": [
+          "arduino",
+          "confirmed_by_name"
+        ],
+        "Arduino-leonardo": [
+          "arduino",
+          "confirmed_by_name"
+        ],
+        "Arduino-Micro": [
+          "arduino",
+          "confirmed_by_name"
+        ],
+        "Arduino-Nano": [
+          "arduino",
+          "confirmed_by_name"
+        ],
+        "Arduino-ProMini": [
+          "arduino",
+          "confirmed_by_name"
+        ],
+        "Arduino-Zero": [
+          "arduino",
+          "confirmed_by_name"
+        ],
+        "Arduino Mega 2560 -Black-": [
+          "arduino",
+          "confirmed_by_name"
+        ],
+        "Arduino Mega 2560 -Blue-": [
+          "arduino",
+          "confirmed_by_name"
+        ],
+        "Arduino Mega 2560 -Yellow-": [
+          "arduino",
+          "confirmed_by_name"
+        ],
+        "Arduino Uno -Black-": [
+          "arduino",
+          "confirmed_by_name"
+        ],
+        "Arduino Uno -Green-": [
+          "arduino",
+          "confirmed_by_name"
+        ],
+        "Arduino Uno Camera Shield": [
+          "arduino",
+          "confirmed_by_name"
+        ],
+        "Arduino Uno WiFi Shield": [
+          "arduino",
+          "confirmed_by_name"
+        ],
+        "ESP32": [
+          "esp_board",
+          "confirmed_by_name"
+        ],
+        "Esp8266": [
+          "esp_board",
+          "confirmed_by_name"
+        ],
+        "Wemos": [
+          "esp_board",
+          "confirmed_by_name"
+        ],
+        "Jetson Nano": [
+          "jetson",
+          "confirmed_by_name"
+        ],
+        "Jetson TX2": [
+          "jetson",
+          "confirmed_by_name"
+        ],
+        "TelosB": [
+          "other_board",
+          "confirmed_by_name"
+        ]
+      }
+    },
+    "rf_raspberrypi_vniye": {
+      "model": "ports",
+      "license": "CC BY 4.0",
+      "url": "https://universe.roboflow.com/raspberrypi-4jqsd/raspberrypi-vniye",
+      "image_rule": "매핑된 포트 박스가 1개 이상인 이미지만 사용",
+      "map": {
+        "USB": [
+          "usb_stack",
+          "needs_visual_check: 단자 묶음 단위인지 구멍 하나 단위인지 확인"
+        ],
+        "Ethernet": [
+          "ethernet_port",
+          "confirmed_by_name"
+        ],
+        "GPIO Header": [
+          "gpio_header",
+          "confirmed_by_name"
+        ],
+        "HDMI": [
+          "micro_hdmi",
+          "needs_visual_check: Pi4/5 micro HDMI 와 Pi3 표준 HDMI 가 섞였는지 확인. 섞였으면 박스 크기로 나누거나 수동 분류"
+        ],
+        "USB-C": [
+          "usb_c_power",
+          "needs_visual_check: future named export must be reviewed; current numeric export class 7 is micro USB"
+        ],
+        "Processor": [
+          "drop",
+          "우리 포트 모델에서는 SoC 는 방열판과 구분이 애매해 제외"
+        ],
+        "Ethernet controller": [
+          "drop",
+          ""
+        ],
+        "CSE camera port": [
+          "drop",
+          ""
+        ],
+        "Display port": [
+          "drop",
+          ""
+        ],
+        "Bluetooth": [
+          "drop",
+          ""
+        ],
+        "Stereo audio": [
+          "drop",
+          ""
+        ],
+        "Logo": [
+          "drop",
+          ""
+        ],
+        "condition": [
+          "drop",
+          ""
+        ],
+        "0": [
+          "gpio_header",
+          "confirmed_by_visual_sample: 48 representative crops; 40-pin GPIO header"
+        ],
+        "1": [
+          "drop",
+          "confirmed_by_visual_sample: 48 representative crops; 3.5mm audio jack"
+        ],
+        "2": [
+          "drop",
+          "confirmed_by_visual_sample: 48 representative crops; CSI ribbon connector"
+        ],
+        "3": [
+          "drop",
+          "confirmed_by_visual_sample: 48 representative crops; DSI ribbon connector"
+        ],
+        "4": [
+          "ethernet_port",
+          "confirmed_by_visual_sample: 48 representative crops; RJ45 metal housing"
+        ],
+        "5": [
+          "drop",
+          "confirmed_by_visual_sample: 48 representative crops; main Broadcom SoC"
+        ],
+        "6": [
+          "hdmi",
+          "confirmed_by_visual_sample: 48 representative crops; full-size HDMI socket, not micro HDMI"
+        ],
+        "7": [
+          "micro_usb",
+          "confirmed_by_visual_sample: 48 representative crops; micro USB power socket, not USB-C"
+        ],
+        "8": [
+          "usb_stack",
+          "confirmed_by_visual_sample: 48 representative crops; two-high USB-A housing; two stacks per image"
+        ],
+        "9": [
+          "drop",
+          "confirmed_by_visual_sample: 48 representative crops; LAN controller chip"
+        ],
+        "10": [
+          "drop",
+          "confirmed_by_visual_sample: 48 representative crops; radio shield with etched logo"
+        ],
+        "11": [
+          "drop",
+          "confirmed_by_visual_sample: 48 representative crops; silkscreen Raspberry Pi logo"
+        ]
+      },
+      "missing_classes_in_source": [
+        "heatsink"
+      ],
+      "annotation_completeness": {
+        "ports": "incomplete_requires_review"
+      },
+      "reviewed_export": {
+        "version": 1,
+        "zip_sha256": "15bf590aa817174d6a7ff6354b20017c5875fdd8ee9f7ec497ed4e8b463bce18",
+        "native_names_are_numeric_strings": true,
+        "warning": "YOLO class ID is the index of names, not its numeric-string value."
+      },
+      "review_notes": "Reviewed 12 representative sheets (48 crops each). Source imagery shows Pi3B+ layout. Semantic mappings reviewed, complete per-image annotation audit still pending. Do not map generic HDMI to micro_hdmi or this power socket to USB-C.",
+      "grouping_policy": "Same capture date and physical board session stays in one group."
+    },
+    "rf_raspberry_pi_dpiwf": {
+      "model": "ports",
+      "license": "CC BY 4.0",
+      "url": "https://universe.roboflow.com/kerchick-gmail-com/raspberry-pi-dpiwf",
+      "image_rule": "Port labels are candidates only until all visible standard HDMI and micro HDMI sockets are annotated; keep source incomplete.",
+      "map": {
+        "usb-2": [
+          "usb_stack",
+          "confirmed_by_visual_sample: 48 representative crops; housing/header unit consistent with target definition"
+        ],
+        "usb-3": [
+          "usb_stack",
+          "confirmed_by_visual_sample: 48 representative crops; housing/header unit consistent with target definition"
+        ],
+        "gigabit ethernet": [
+          "ethernet_port",
+          "confirmed_by_visual_sample: 48 representative crops; housing/header unit consistent with target definition"
+        ],
+        "gpio header": [
+          "gpio_header",
+          "confirmed_by_visual_sample: 48 representative crops; housing/header unit consistent with target definition"
+        ],
+        "usb-c 3a-5v": [
+          "usb_c_power",
+          "confirmed_by_visual_sample: 48 representative crops; housing/header unit consistent with target definition"
+        ],
+        "2.5a micro usb": [
+          "micro_usb",
+          "confirmed_by_visual_sample: 48 representative crops; housing/header unit consistent with target definition"
+        ],
+        "micro sd card slot": [
+          "drop",
+          ""
+        ],
+        "raspberry-pi": [
+          "drop",
+          "confirmed_by_visual_sample: box covers the entire six-Pi cluster, not one board"
+        ],
+        "folded asset tag": [
+          "drop",
+          ""
+        ],
+        "server": [
+          "drop",
+          "confirmed_by_visual_sample: individual Pi/slot within stacked Pi cluster; not used as generation-specific board boxes"
+        ],
+        "server slot": [
+          "drop",
+          "confirmed_by_visual_sample: slot within Pi cluster"
+        ]
+      },
+      "missing_classes_in_source": [
+        "micro_hdmi",
+        "hdmi",
+        "heatsink"
+      ],
+      "annotation_completeness": {
+        "ports": "incomplete_requires_review"
+      },
+      "review_notes": "Visible unlabeled micro HDMI and full-size HDMI in deg_095/deg_115. Heatsink annotation class absent, actual heatsink presence not established at 512px. All images show the same six-Pi cluster.",
+      "grouping_policy": "One physical cluster scene; never split its different viewing angles across train/val/test."
+    },
+    "rf_stm32_nucleo": {
+      "model": "both",
+      "license": "CC BY 4.0",
+      "url": "https://universe.roboflow.com/computervisionaihub-n6cdj/stm32",
+      "image_rule": "보드 박스는 모델 A, 포트 박스는 모델 B",
+      "map": {
+        "STM32_board": [
+          "drop",
+          "excluded_from_eight_class_pilot"
+        ],
+        "Nucleo": [
+          "drop",
+          "confirmed_by_visual_sample: Nucleo logo, not a board instance, in two public annotation previews"
+        ],
+        "Ethernet": [
+          "ports:ethernet_port",
+          "confirmed_by_name"
+        ],
+        "ST-LINK V3": [
+          "ports:st_link",
+          "needs_visual_check: observed labels cover the debugger MCU chip, not the debugger region; class definition must be resolved before use"
+        ],
+        "STM32_CPU": [
+          "ports:mcu_chip",
+          "confirmed_by_name"
+        ],
+        "Connector_power": [
+          "ports:micro_usb",
+          "needs_visual_check: two USB connectors in previews; was incorrectly described as unlabeled USB in earlier handoff; full export review required"
+        ],
+        "Network_transformer": [
+          "drop",
+          ""
+        ],
+        "Button_RESET": [
+          "drop",
+          ""
+        ],
+        "Button_USER": [
+          "drop",
+          ""
+        ],
+        "User_LEDs": [
+          "drop",
+          ""
+        ],
+        "ST": [
+          "drop",
+          "로고"
+        ],
+        "STM32_model": [
+          "drop",
+          "실크 글자"
+        ]
+      },
+      "missing_classes_in_source": [
+        "gpio_header"
+      ],
+      "annotation_completeness": {
+        "ports": "incomplete_requires_review"
+      },
+      "review_notes": "Source has 107 images but zero generated export versions. Reviewed source images 0lLKD6WELU4DCUGeHMkp and 12XlHleMsFyOyV8b5Jm8 on 2026-09-29. Preview annotations are polygons."
+    },
+    "rf_embedded_hardware": {
+      "model": "boards",
+      "license": "Public Domain",
+      "url": "https://universe.roboflow.com/64601039kmitl/embedded-hardware",
+      "map": {
+        "Raspberry Pi": [
+          "raspberry_pi_4",
+          "confirmed_by_visual_review: all 363 board crops across 8 pages show Pi4 Model B layout, paired micro HDMI and blue/black USB stacks"
+        ],
+        "STM32": [
+          "drop",
+          "excluded_from_eight_class_pilot"
+        ],
+        "AURIX": [
+          "other_board",
+          "confirmed_by_name"
+        ]
+      },
+      "grouping_policy": "Entire original MOV video stays in one split; numbered MOV names are capture sequence numbers, not board generation."
+    }
+  },
+  "experiment_scope": {
+    "selected_source": "iotkits_v1",
+    "requested_total": 1000,
+    "split_targets": {
+      "train": 650,
+      "val": 150,
+      "test": 200
+    },
+    "parent_class_map_sha256": "211ac6f1bacfc2080e4fd02f91dee77b08c024399207aac62f37cf8dbd1bb26d",
+    "nucleo_excluded": true,
+    "selection_uses_model_predictions": false,
+    "test_role": "development evaluation; includes previously evaluated test groups and prior train/val groups; not an untouched final test"
+  }
+}

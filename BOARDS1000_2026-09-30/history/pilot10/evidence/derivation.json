@@ -1,0 +1,2014 @@
+{
+  "source": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\boards_ports\\datasets\\boards_v1",
+  "source_dataset_fingerprint": "14ce02721fb88a13ff0e643eb09e20ec3b40311c19db6e3d9637bd9766f3d5be",
+  "source_verification_sha256": "f82c9c37d54da7cdf2854265cef0bcde1b597dc9d3c35c881dfb9b199173c781",
+  "parent_class_map_sha256": "211ac6f1bacfc2080e4fd02f91dee77b08c024399207aac62f37cf8dbd1bb26d",
+  "excluded_class": "stm32_nucleo",
+  "excluded_images": 393,
+  "exclusions": [
+    {
+      "id": "rf_embedded_hardware:test/images/STM32_1_MOV-14_jpg.rf.d7a6b8c9b96e717f9d82210cb1030b01.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:test/images/STM32_1_MOV-15_jpg.rf.a6856a25e0ccd59fd9615c94d79b3d76.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:test/images/STM32_1_MOV-18_jpg.rf.4369f555a4061b43aca4ff3e0db55650.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:test/images/STM32_1_MOV-19_jpg.rf.8d244d826446c760a8d29391cb97edfa.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:test/images/STM32_1_MOV-21_jpg.rf.5b39bca34c7a7afa40548e904bb1c4bb.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:test/images/STM32_1_MOV-2_jpg.rf.80a642f057dd7f913343964c917c0ab1.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:test/images/STM32_1_MOV-35_jpg.rf.4f2f5a28e5561049ac30ee2cb9bf038f.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:test/images/STM32_2_MOV-0_jpg.rf.4e55919ad72d58f93fc406e4a640ee13.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:test/images/STM32_2_MOV-7_jpg.rf.9198ffcdf89303d0766e7fb59f66b83d.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:test/images/STM32_3_MOV-20_jpg.rf.6f5b50eb581a4a563b06158708a3072c.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:test/images/STM32_3_MOV-4_jpg.rf.dcc596122d95fbc48b2fcbd53ba90030.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:test/images/STM32_3_MOV-9_jpg.rf.2c44e9f5b806f397321b1a991acc4e92.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:test/images/STM32_4_MOV-10_jpg.rf.6e58cbe4eef5110315d54149dba1f13c.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:test/images/STM32_4_MOV-25_jpg.rf.a05635fe24b702685c8f601a88702943.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:test/images/STM32_4_MOV-30_jpg.rf.6640420a8e62d1d82e02c030f60ca1b7.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:train/images/STM32_1_MOV-0_jpg.rf.80f12c125f4f83b156d439c851ba9e9b.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:train/images/STM32_1_MOV-0_jpg.rf.9c464bd39f2be0991e0c85fa93238912.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:train/images/STM32_1_MOV-0_jpg.rf.cd8393ae3ca6543b9520087614351ec2.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:train/images/STM32_1_MOV-10_jpg.rf.197dfacee6155242cc61e3f73132c075.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:train/images/STM32_1_MOV-10_jpg.rf.8d544111eaeceb99fccfc9e10441e426.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:train/images/STM32_1_MOV-10_jpg.rf.d481ccd5d1f4089a2ac97905528efa2a.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:train/images/STM32_1_MOV-12_jpg.rf.3892a0b36b6208c2aa79a4f78e23911e.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:train/images/STM32_1_MOV-12_jpg.rf.6596a36f4e56e3d96196d5362a4f397c.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:train/images/STM32_1_MOV-12_jpg.rf.a9eafe5f3fcc1d3c25f076cb3a967f01.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:train/images/STM32_1_MOV-13_jpg.rf.08a31566378ef06f7e13c7da0468dd99.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:train/images/STM32_1_MOV-13_jpg.rf.452d659931222d08bf9d5404dd3359a6.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:train/images/STM32_1_MOV-13_jpg.rf.87c559fd59798852f95529d393409a3a.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:train/images/STM32_1_MOV-16_jpg.rf.0103e85e5f9f92965fbc17e9001480be.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:train/images/STM32_1_MOV-16_jpg.rf.2a154ad3f20aa8942c260e2d3c73eb0f.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:train/images/STM32_1_MOV-16_jpg.rf.f57eb67f04409fdb92c19511a141ca77.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:train/images/STM32_1_MOV-17_jpg.rf.973d5d9b9d2e0adc1b2f2879614c87b2.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:train/images/STM32_1_MOV-17_jpg.rf.d41dca8e6e4415330a6ad38262dbdd81.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:train/images/STM32_1_MOV-17_jpg.rf.e63ce96ba42d609a79ba8cd85dcbed88.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:train/images/STM32_1_MOV-1_jpg.rf.31f37add9057758529c51bb3cbbfce9e.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:train/images/STM32_1_MOV-1_jpg.rf.d7556e64cc938bc6000bb783e6938534.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:train/images/STM32_1_MOV-1_jpg.rf.f2a8b66b423b471efc826876fff5e0de.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:train/images/STM32_1_MOV-20_jpg.rf.431f94f8da869e31952b935af3ec413b.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:train/images/STM32_1_MOV-20_jpg.rf.818aa999e7c3a081ff8d958ffbbc3dee.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:train/images/STM32_1_MOV-20_jpg.rf.b794699cf2ed40b511cab5690b967c83.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:train/images/STM32_1_MOV-22_jpg.rf.7ba852877152d62a2958d789f6f16d18.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:train/images/STM32_1_MOV-22_jpg.rf.c11ff721d78a57efa5e19b994c72c757.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:train/images/STM32_1_MOV-22_jpg.rf.fd197d1b90a1d95ab9b2907c57c1f68a.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:train/images/STM32_1_MOV-24_jpg.rf.56a3a44df60ff5a41cd63c2a00114a84.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:train/images/STM32_1_MOV-24_jpg.rf.6740ea0d2ceef0ce5bfac148f85b0545.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:train/images/STM32_1_MOV-24_jpg.rf.f13e60b1f732eaffc0c970441b7c203d.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:train/images/STM32_1_MOV-26_jpg.rf.2b987a1fee270d8fef84cbee604c1943.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:train/images/STM32_1_MOV-26_jpg.rf.bfea0c4d572537b2f6b45f57a8ec3397.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:train/images/STM32_1_MOV-26_jpg.rf.d573ef4d6e957cff75e572fa7d98afb6.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:train/images/STM32_1_MOV-27_jpg.rf.ba753d68c658d93e09f09d90a679613e.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:train/images/STM32_1_MOV-27_jpg.rf.cc53ad3338e15baa2f14ef0d7057e1eb.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:train/images/STM32_1_MOV-27_jpg.rf.f2879b4d9846eda685c1bd66d305bec1.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:train/images/STM32_1_MOV-29_jpg.rf.be2a899c549a91f15f78304f45e4638e.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:train/images/STM32_1_MOV-29_jpg.rf.d87b8620ca7ea414b5e5131389dae04c.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:train/images/STM32_1_MOV-29_jpg.rf.fe9b69cf28248f2206402276a7eadcff.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:train/images/STM32_1_MOV-30_jpg.rf.3d007bd4210a1e2b32bb8e34abe98562.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:train/images/STM32_1_MOV-30_jpg.rf.a28f067765900fc1963e6b4946867bb2.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:train/images/STM32_1_MOV-30_jpg.rf.eb89936d89b974f1f34551d2eed978ce.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:train/images/STM32_1_MOV-31_jpg.rf.415f492513bd58d028c61ef46330c5ac.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:train/images/STM32_1_MOV-31_jpg.rf.8d988d03c6c742f1558fae9f666afd78.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:train/images/STM32_1_MOV-31_jpg.rf.faeb520fa0119f6f5f888f1e37b108a0.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:train/images/STM32_1_MOV-32_jpg.rf.9d1c1815d770135958a9dfab28677668.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:train/images/STM32_1_MOV-32_jpg.rf.ada3149de891116c2fcc9df7492fdfa8.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:train/images/STM32_1_MOV-32_jpg.rf.b8b9509e310cc7ac4d9a1d3222022b1a.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:train/images/STM32_1_MOV-34_jpg.rf.0cf417146c94020ac1923062b092a039.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:train/images/STM32_1_MOV-34_jpg.rf.d3eec3af479ad8b085cf20471c8dfbce.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:train/images/STM32_1_MOV-34_jpg.rf.e1c9ccbb40f21b916e0d4b038b6c6d84.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:train/images/STM32_1_MOV-36_jpg.rf.4e0551b19acafba4aa9b5fbe0df5610e.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:train/images/STM32_1_MOV-36_jpg.rf.8e0a26297ef36a584271892be4559b27.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:train/images/STM32_1_MOV-36_jpg.rf.c68565a7e405aae93ea6ffd33d3a8914.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:train/images/STM32_1_MOV-37_jpg.rf.06d7b8693ade1328febd388ec9105a0d.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:train/images/STM32_1_MOV-37_jpg.rf.ec33a572053b6856159c90f4f3a274ab.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:train/images/STM32_1_MOV-37_jpg.rf.ef4d10aac66872d9ac8da56cb99c807c.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:train/images/STM32_1_MOV-38_jpg.rf.47ca20b78599126a5b7218c0af753f48.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:train/images/STM32_1_MOV-38_jpg.rf.5e4c574e5e411ff6b791dad0400b5c23.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:train/images/STM32_1_MOV-38_jpg.rf.da150dcf47cc3709e9113284a6cf0e2d.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:train/images/STM32_1_MOV-3_jpg.rf.04fa8ec37db5c65245675b89b1763e50.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:train/images/STM32_1_MOV-3_jpg.rf.5f96d088804e069ffb73159e058f48d5.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:train/images/STM32_1_MOV-3_jpg.rf.924f1167194dd01f412df388dc8a95e4.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:train/images/STM32_1_MOV-40_jpg.rf.3f913d6480d1da4a528749238eea2c40.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:train/images/STM32_1_MOV-40_jpg.rf.4e154fe8942bac87477f0c46d0e7afc8.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:train/images/STM32_1_MOV-40_jpg.rf.cee9db1750229d5df9e72011ea6b45fb.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:train/images/STM32_1_MOV-41_jpg.rf.9f5b4cef8c0ae735a22f1db77d08cdf4.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:train/images/STM32_1_MOV-41_jpg.rf.ad751418f578a6d0f761ac93bc43a216.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:train/images/STM32_1_MOV-41_jpg.rf.b9982e5fe1c4c16f466ab3ed4b35f510.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:train/images/STM32_1_MOV-42_jpg.rf.095974c30f21fc5ba59c17ec0c4ff891.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:train/images/STM32_1_MOV-42_jpg.rf.38608854d771c07ceecfa7a3f8bf854a.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:train/images/STM32_1_MOV-42_jpg.rf.e419b284733248afdd0d6e166ae1e46b.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:train/images/STM32_1_MOV-43_jpg.rf.6cbdfbe8f51864b2008498bbaad9f260.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:train/images/STM32_1_MOV-43_jpg.rf.ae4054f19552bb3fc3eb3dbd912a4d51.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:train/images/STM32_1_MOV-43_jpg.rf.ee1c48ad275299cb5570388956a769d2.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:train/images/STM32_1_MOV-44_jpg.rf.03f47d118f406ab7dd241da22fc4cf19.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:train/images/STM32_1_MOV-44_jpg.rf.56ac7c1d0e248330dda505041028e7e6.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:train/images/STM32_1_MOV-44_jpg.rf.a6271de34a49aeae52c3ad20b82ef7cc.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:train/images/STM32_1_MOV-45_jpg.rf.1dfac1b03d7fd5850d3bc34ef212d33e.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:train/images/STM32_1_MOV-45_jpg.rf.4a4382e2e8941962dd76d4a27a31723d.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:train/images/STM32_1_MOV-45_jpg.rf.b2fc15b377203e630f75a74c42a57df6.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:train/images/STM32_1_MOV-46_jpg.rf.6d51e1d4e8c9f784591354839d16e3f1.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:train/images/STM32_1_MOV-46_jpg.rf.a9233b333dea898e33979aba0b64c7ae.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:train/images/STM32_1_MOV-46_jpg.rf.b8a7047691a51c63f89ca88875c6fa30.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:train/images/STM32_1_MOV-47_jpg.rf.2f662e1024079e9d3293f829a80c15f2.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:train/images/STM32_1_MOV-47_jpg.rf.3f4df515e60a11101b89e37a99ed041e.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:train/images/STM32_1_MOV-47_jpg.rf.ae2f2f5a5f8683a60e9cf88f3a0a7677.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:train/images/STM32_1_MOV-49_jpg.rf.31a03f74117286cc689403c0135b8ca0.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:train/images/STM32_1_MOV-49_jpg.rf.7ca7ace32382c1aa59d338081860b0f6.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:train/images/STM32_1_MOV-49_jpg.rf.f39b09e4d7cc13e02a10d65e32dc57dc.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:train/images/STM32_1_MOV-4_jpg.rf.1aade1c86a78d0bc15abf3774d5cb415.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:train/images/STM32_1_MOV-4_jpg.rf.30588e7c3fe1f3909fd6ab758f1c2e05.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:train/images/STM32_1_MOV-4_jpg.rf.959096a23cac0c46282714e67ebde062.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:train/images/STM32_1_MOV-51_jpg.rf.05ba7a0b5809061e07c2d17886bd2aef.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:train/images/STM32_1_MOV-51_jpg.rf.23c3d1b1447f4bab2e46c166634e5047.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:train/images/STM32_1_MOV-51_jpg.rf.581e8ae94a814c96c1eed079947cadce.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:train/images/STM32_1_MOV-5_jpg.rf.73b202e1604a0735bd17a28ec68e49fd.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:train/images/STM32_1_MOV-5_jpg.rf.7f349d51acb0a534a0ae2e50c482cc33.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:train/images/STM32_1_MOV-5_jpg.rf.bc6ac6898ea245f45c76a4636262064d.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:train/images/STM32_1_MOV-6_jpg.rf.252361481e6224be9b8552d761ae0573.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:train/images/STM32_1_MOV-6_jpg.rf.a9f12b30507b502676b6d7da66d3a484.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:train/images/STM32_1_MOV-6_jpg.rf.b6d1b8badec90d83842c31250e6ae164.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:train/images/STM32_1_MOV-7_jpg.rf.4ac5896d2abfe6f1380adf375110d1fa.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:train/images/STM32_1_MOV-7_jpg.rf.97294a7eef6b26309db8029eb39a85a2.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:train/images/STM32_1_MOV-7_jpg.rf.fbe4546228543395dcc1cfdddc1a4dce.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:train/images/STM32_1_MOV-8_jpg.rf.1a2128e07bdb91ac860752da06b95e06.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:train/images/STM32_1_MOV-8_jpg.rf.57606c6fc8739fe831ca0f6d91a78970.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:train/images/STM32_1_MOV-8_jpg.rf.b6665fd5d199d243526c80c780b2938d.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:train/images/STM32_1_MOV-9_jpg.rf.0804db51e2dfda6c723f0540fe7def6d.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:train/images/STM32_1_MOV-9_jpg.rf.1c4eb48d3d05dd7001421dedb024ec2a.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:train/images/STM32_1_MOV-9_jpg.rf.1da16862639c534a7bf8e1022d4ab718.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:train/images/STM32_2_MOV-10_jpg.rf.702bbfaa526d0dabd47625c73da14a94.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:train/images/STM32_2_MOV-10_jpg.rf.9024bb9b5141aac64e017fe45ba74722.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:train/images/STM32_2_MOV-10_jpg.rf.b0af88206d059043442b632a6a82adb0.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:train/images/STM32_2_MOV-11_jpg.rf.218013e59f505c3be5e0e64558c7a26f.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:train/images/STM32_2_MOV-11_jpg.rf.a2ea6eb520a36ede11d110910dec2154.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:train/images/STM32_2_MOV-11_jpg.rf.ff3ab145e7712792ae153949e6db18fb.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:train/images/STM32_2_MOV-12_jpg.rf.5649823fd3b08918e23fac30a4a8a2b3.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:train/images/STM32_2_MOV-12_jpg.rf.b0c12ae8c3b020c1d275022c67755ec4.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:train/images/STM32_2_MOV-12_jpg.rf.dee45f23b69bd10f8349ff553d6db9ef.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:train/images/STM32_2_MOV-13_jpg.rf.17618dde02a3b2863dbb1dd29be05f62.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:train/images/STM32_2_MOV-13_jpg.rf.96c7744be899d13ae8aef8e7d687270b.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:train/images/STM32_2_MOV-13_jpg.rf.a3963b5a96dbb8e46f407f5e51c65afd.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:train/images/STM32_2_MOV-14_jpg.rf.19cc71fd3d8863aa7c1639fe85bcf36b.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:train/images/STM32_2_MOV-14_jpg.rf.d4a3dc9ba79ec150ec5a42e54c298bdd.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:train/images/STM32_2_MOV-14_jpg.rf.d96e906d90e8d8d03f8f24881e342da9.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:train/images/STM32_2_MOV-16_jpg.rf.2367ad0c99954e07d7ad78d62ff9b7a7.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:train/images/STM32_2_MOV-16_jpg.rf.bf913bd603f34404bb7f2e5024e0266e.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:train/images/STM32_2_MOV-16_jpg.rf.cb75de5478fcc5476167d3dc4e52d933.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:train/images/STM32_2_MOV-17_jpg.rf.045044b98be0a510cbe1ef7990745e0e.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:train/images/STM32_2_MOV-17_jpg.rf.81f1edd422fe29bee7068d7a416b55e0.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:train/images/STM32_2_MOV-17_jpg.rf.c00d5864a099a2807ab251ad19213be4.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:train/images/STM32_2_MOV-18_jpg.rf.19dca6b1de92726c85a6eeb929129800.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:train/images/STM32_2_MOV-18_jpg.rf.5f8590787b107bd154c9b1a745b8d986.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:train/images/STM32_2_MOV-18_jpg.rf.acfc7306be6f4359cfaaef174a0be75f.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:train/images/STM32_2_MOV-19_jpg.rf.d04b8279378665b108cd7af708e46f77.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:train/images/STM32_2_MOV-19_jpg.rf.df1217419278990ce65ab63ad738d72d.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:train/images/STM32_2_MOV-19_jpg.rf.f994fbe21508c157233efc717a602e01.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:train/images/STM32_2_MOV-1_jpg.rf.93d1bb7c026fb8979916cd6399cef55e.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:train/images/STM32_2_MOV-1_jpg.rf.b1bc0759a8378b196f168c72295c9f4b.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:train/images/STM32_2_MOV-1_jpg.rf.fe11f31a75df74c7cf8bd38f1244e632.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:train/images/STM32_2_MOV-20_jpg.rf.0873b25f105bd4218a645598d49f9c75.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:train/images/STM32_2_MOV-20_jpg.rf.1363d442bfc31c6055ee9bd957dbef6e.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:train/images/STM32_2_MOV-20_jpg.rf.bf190a6b52bf3feebe9423cf0fba2e23.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:train/images/STM32_2_MOV-21_jpg.rf.13bb435082b66250c2fb1f90032b824f.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:train/images/STM32_2_MOV-21_jpg.rf.2dd467e33d51bde46a60e950b669dfc6.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:train/images/STM32_2_MOV-21_jpg.rf.83284b91e026497324080a08f71eb0df.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:train/images/STM32_2_MOV-22_jpg.rf.7907b5a3df908c1a197817f47b4b5ea8.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:train/images/STM32_2_MOV-22_jpg.rf.b1fa390a0b9ee011cd0e4d5091dd44cf.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:train/images/STM32_2_MOV-22_jpg.rf.c6d210e987ef48c6bca3927aca819113.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:train/images/STM32_2_MOV-23_jpg.rf.ba0c5d5183604677b8afe6e1ffc182b8.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:train/images/STM32_2_MOV-23_jpg.rf.c21cf5fd067c6b22405698ac4bf09b93.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:train/images/STM32_2_MOV-23_jpg.rf.f7fbe3ba03a8d4bde3523d0522864994.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:train/images/STM32_2_MOV-25_jpg.rf.4decff13af9094e0e9e0be560cbed4a7.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:train/images/STM32_2_MOV-25_jpg.rf.78bbd80a302e94d69467e4a8e48950d6.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:train/images/STM32_2_MOV-25_jpg.rf.c7e0c989c941c68d11ad63601497620c.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:train/images/STM32_2_MOV-26_jpg.rf.21d6fff6c0fb81490ab4d851900e52cf.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:train/images/STM32_2_MOV-26_jpg.rf.4dcf950674b9f68139bf5666e05d2942.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:train/images/STM32_2_MOV-26_jpg.rf.da9e16b3441607648f26e593c60f7449.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:train/images/STM32_2_MOV-28_jpg.rf.4d3863d53bdc7252a524409a43abc6c2.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:train/images/STM32_2_MOV-28_jpg.rf.ac33f331bc74a528399241bbdc275b99.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:train/images/STM32_2_MOV-28_jpg.rf.af1879c91aaadebd0f5232dd4315af58.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:train/images/STM32_2_MOV-29_jpg.rf.35b83f26f318709f3e21550b758dfa7d.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:train/images/STM32_2_MOV-29_jpg.rf.4f9dc1ac9b451bc3bdd7dd0badca4fef.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:train/images/STM32_2_MOV-29_jpg.rf.cc6ec255a9a937f68553bb37590a56b5.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:train/images/STM32_2_MOV-2_jpg.rf.3fbf6865cd45d45458f14d5290061678.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:train/images/STM32_2_MOV-2_jpg.rf.488ad0111265e7b132e1f7bded4a3db4.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:train/images/STM32_2_MOV-2_jpg.rf.71f7124aac0412c8ce68585bb7826458.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:train/images/STM32_2_MOV-31_jpg.rf.5fea9e0fe46231190cd822b359372779.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:train/images/STM32_2_MOV-31_jpg.rf.81b189d94d40d3bcca9be2a118b5e36d.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:train/images/STM32_2_MOV-31_jpg.rf.c193d8801c6312951059c70fbaa2d6a0.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:train/images/STM32_2_MOV-32_jpg.rf.1897a1f9454d58fd5d4ace0891fcc9c4.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:train/images/STM32_2_MOV-32_jpg.rf.648461a1183db9f8f88850d15c98c6c0.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:train/images/STM32_2_MOV-34_jpg.rf.0422bbc60c9c1445fb7da9119ee275b3.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:train/images/STM32_2_MOV-34_jpg.rf.0b137af7cfc246c77f934b3e0c2f737d.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:train/images/STM32_2_MOV-34_jpg.rf.f5e9eb77e80b2d6ca71603f7b10b1f80.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:train/images/STM32_2_MOV-35_jpg.rf.3e48316c379c04c9d6d8ffa82e6bca12.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:train/images/STM32_2_MOV-35_jpg.rf.62cb90d65899095f019f5323d2d490d8.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:train/images/STM32_2_MOV-35_jpg.rf.db086202c82ef5ca702436afe69d20d8.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:train/images/STM32_2_MOV-37_jpg.rf.a44c76e4078a400ea941f088786090e0.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:train/images/STM32_2_MOV-37_jpg.rf.d8ffa841909eda0700d2e378e2540757.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:train/images/STM32_2_MOV-37_jpg.rf.f6a37541590d08ad862cb21f00acc67d.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:train/images/STM32_2_MOV-38_jpg.rf.1aad8b30cfa4e11223110b0ab7ab8a98.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:train/images/STM32_2_MOV-38_jpg.rf.8bd4fed2e74cd1ae4c3b45d60e9e01e0.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:train/images/STM32_2_MOV-38_jpg.rf.f08b6a12cd938e575445a16341fb4ce8.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:train/images/STM32_2_MOV-39_jpg.rf.05adaf3192fcda34b7103c534e418cee.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:train/images/STM32_2_MOV-39_jpg.rf.0aaef14f8558f296f090a042d3701a61.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:train/images/STM32_2_MOV-39_jpg.rf.fbc5aef13dd4496d812e110723e72593.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:train/images/STM32_2_MOV-40_jpg.rf.57935090395ca30a72c3178c86f37692.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:train/images/STM32_2_MOV-40_jpg.rf.9f4d3d93493c6d4a65afd6496e4e7af5.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:train/images/STM32_2_MOV-40_jpg.rf.f99adef4433fcec78c1846da25b76dc4.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:train/images/STM32_2_MOV-41_jpg.rf.04e32126fcff35ef9ef46a02a14c8120.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:train/images/STM32_2_MOV-41_jpg.rf.11d0aa102b9bd042570cadc36b531710.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:train/images/STM32_2_MOV-41_jpg.rf.66b0a762064164b781fd40337894847f.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:train/images/STM32_2_MOV-42_jpg.rf.616545aea534566d7516e4538b3c64e1.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:train/images/STM32_2_MOV-42_jpg.rf.f4a83820877e1631b0e3711f06c002c8.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:train/images/STM32_2_MOV-42_jpg.rf.f62432c3f104550f8037e2905d89974c.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:train/images/STM32_2_MOV-43_jpg.rf.13b00ff5a8b7a4b34392c174c4f9ac58.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:train/images/STM32_2_MOV-43_jpg.rf.25b0be7539014f55cfe6de1cd969ed03.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:train/images/STM32_2_MOV-43_jpg.rf.b5dbafb5c769dd8acaebf5425b2629cd.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:train/images/STM32_2_MOV-44_jpg.rf.2732e4ac312afc9d985f88079420cc22.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:train/images/STM32_2_MOV-44_jpg.rf.653aba25785d2e9cea2bfb689f20bfd5.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:train/images/STM32_2_MOV-44_jpg.rf.ad7a1e2743690107953e05ce47164e27.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:train/images/STM32_2_MOV-45_jpg.rf.134749427b357a2f83e5dbe091b77af0.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:train/images/STM32_2_MOV-45_jpg.rf.3c50d58882b69a55037457b558f6eb42.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:train/images/STM32_2_MOV-45_jpg.rf.e8dacb62c3e5c4508c469c9843c66db6.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:train/images/STM32_2_MOV-5_jpg.rf.982dd2df09f1b63b6fe80b20d3369245.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:train/images/STM32_2_MOV-5_jpg.rf.f1bad8a66a1185ddb1bc26c951a7ae9f.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:train/images/STM32_2_MOV-5_jpg.rf.f35ee8e1c056bd67ce1c9d8c040606ce.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:train/images/STM32_3_MOV-0_jpg.rf.433f5a41b250123a188d8f78aca85398.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:train/images/STM32_3_MOV-0_jpg.rf.5577f196272448f4eba45273803decfa.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:train/images/STM32_3_MOV-0_jpg.rf.d869332a8fec4befdc3eabfad0dd5a13.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:train/images/STM32_3_MOV-10_jpg.rf.9b3e8755f3f560f252212d077f795a2d.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:train/images/STM32_3_MOV-10_jpg.rf.9fe1b1925d614e27dcf1b8f4e946f537.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:train/images/STM32_3_MOV-10_jpg.rf.aa323544aded0e3fefa2aa36268f833e.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:train/images/STM32_3_MOV-11_jpg.rf.12fb8f3f8aec280c81add4bb99969099.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:train/images/STM32_3_MOV-11_jpg.rf.53cab61d617c2ad5732c87d4af55d965.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:train/images/STM32_3_MOV-11_jpg.rf.5f12b3e2b4d83ee8a62a56ea076c8b04.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:train/images/STM32_3_MOV-12_jpg.rf.23cf0c42a9cd25c34e5fac5ccba10792.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:train/images/STM32_3_MOV-12_jpg.rf.adfb220b16ded8b9c1b75c6f77f98e0c.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:train/images/STM32_3_MOV-12_jpg.rf.c7da1439fd60efe5dbd88fd719e01601.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:train/images/STM32_3_MOV-13_jpg.rf.7977f08f8982367cdeb03b27a240027a.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:train/images/STM32_3_MOV-13_jpg.rf.a013098374f413910beb9ed1847d1abe.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:train/images/STM32_3_MOV-13_jpg.rf.ccd9e67b870bf57589e3050b38837e41.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:train/images/STM32_3_MOV-14_jpg.rf.2ffc66b3f4b1e5fca96bb208c0ae74d5.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:train/images/STM32_3_MOV-14_jpg.rf.7ecc154101fede7c3995dc9633912891.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:train/images/STM32_3_MOV-14_jpg.rf.d5c4efedcf183104aa0ecb7fafb13aff.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:train/images/STM32_3_MOV-15_jpg.rf.25072b79132623d280d0bd3a2401374d.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:train/images/STM32_3_MOV-15_jpg.rf.6fdc60c267b384995dfad71105ce64cc.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:train/images/STM32_3_MOV-15_jpg.rf.e46ea19c08f5365b12ee099c81c2d54f.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:train/images/STM32_3_MOV-16_jpg.rf.3225e0923a86394d96df1980c0fabf36.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:train/images/STM32_3_MOV-16_jpg.rf.4b814a60ce2f1f0fc0328a8b4938828b.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:train/images/STM32_3_MOV-16_jpg.rf.e184ec53da6cfc8efb7698eeb04f47d7.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:train/images/STM32_3_MOV-17_jpg.rf.3f33f30000a89ac1cc0b8af59aba072b.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:train/images/STM32_3_MOV-17_jpg.rf.d8e2792a5c8923160a3bf6d205dc72fe.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:train/images/STM32_3_MOV-17_jpg.rf.e0c34636e81ba188d137f27eca8450df.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:train/images/STM32_3_MOV-18_jpg.rf.5032a84335db0df1672b4640c14a64d8.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:train/images/STM32_3_MOV-18_jpg.rf.6762aed475f5a2fbdd569dc347e70209.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:train/images/STM32_3_MOV-18_jpg.rf.ccc83d7c28c0a343a4abea54de5eef69.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:train/images/STM32_3_MOV-19_jpg.rf.354678b7dcb4900904ad6e6491fc453b.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:train/images/STM32_3_MOV-19_jpg.rf.e0fa3ba65392121a447063735ab85288.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:train/images/STM32_3_MOV-19_jpg.rf.ee6907a2809bdeae00bcd6a979608103.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:train/images/STM32_3_MOV-1_jpg.rf.2a3051353329de85544ab30c2f5aa138.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:train/images/STM32_3_MOV-1_jpg.rf.46021dbfe63ede413717c2c428b053ca.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:train/images/STM32_3_MOV-1_jpg.rf.cf6dee91daf4c80971c14a1115548d0d.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:train/images/STM32_3_MOV-22_jpg.rf.8149bb61009f91533bc3dd2d0c954eb1.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:train/images/STM32_3_MOV-22_jpg.rf.8b3b548d76199fa816b3bd55b950f103.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:train/images/STM32_3_MOV-22_jpg.rf.a52621c50e916a6a41ff708d23c9c16b.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:train/images/STM32_3_MOV-25_jpg.rf.0ae2eab55768ab9c72e3198f6489945b.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:train/images/STM32_3_MOV-25_jpg.rf.6c5b10ca26808d9c47b1b2b4407f7c45.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:train/images/STM32_3_MOV-25_jpg.rf.a714710bdf828c567143e92299ad3315.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:train/images/STM32_3_MOV-26_jpg.rf.0d0ccc3e643d249534df123e0cdd32f3.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:train/images/STM32_3_MOV-26_jpg.rf.3dfe74b2748a52db7cba85b118dd57a1.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:train/images/STM32_3_MOV-26_jpg.rf.dd1272f8e24825637853087cd7f10eb6.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:train/images/STM32_3_MOV-27_jpg.rf.4dc52aa7503bad72be66598a24037e38.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:train/images/STM32_3_MOV-27_jpg.rf.a079eb4ff306730fe6502e5025879c45.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:train/images/STM32_3_MOV-27_jpg.rf.a14323364740b541c5abb546795aebc0.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:train/images/STM32_3_MOV-28_jpg.rf.5da7b0aa293cf70a585e6cfa2738b124.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:train/images/STM32_3_MOV-28_jpg.rf.f2655c2e747b975c507638a206bc87b5.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:train/images/STM32_3_MOV-28_jpg.rf.ffc9f8f8df14d0e1dfdd7758538a35e6.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:train/images/STM32_3_MOV-2_jpg.rf.018200bbe205952878a7eedf50607d4c.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:train/images/STM32_3_MOV-2_jpg.rf.3d7865c86ccd6ce4c0280252894d61e4.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:train/images/STM32_3_MOV-2_jpg.rf.d88eb93b672c4b75180c36d21fbb0b1b.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:train/images/STM32_3_MOV-31_jpg.rf.4f87f58a1442cef994d1dedf1b2439ed.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:train/images/STM32_3_MOV-31_jpg.rf.5f840a46ec87c65846e9eb69f8360042.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:train/images/STM32_3_MOV-31_jpg.rf.d2efaab8e1de1793aaeb99412df8594c.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:train/images/STM32_3_MOV-3_jpg.rf.4453d608211d6a28a84d70bedffaa5d2.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:train/images/STM32_3_MOV-3_jpg.rf.b53b3d8e3c20bab4ef380e3b50100a9a.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:train/images/STM32_3_MOV-3_jpg.rf.cd5fc788eadf4172b56cb65b39593c17.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:train/images/STM32_3_MOV-5_jpg.rf.1f2be71418969fd367160d1c1d908d88.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:train/images/STM32_3_MOV-5_jpg.rf.292743af56c87913a9f1e06c3b2ce4d5.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:train/images/STM32_3_MOV-5_jpg.rf.fa8cae72cd7365e3027e4bd4c29be996.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:train/images/STM32_3_MOV-6_jpg.rf.42690dcc9267d35dcd5181a9c4b06f0e.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:train/images/STM32_3_MOV-6_jpg.rf.5ed6aaf4bdffcf1bbf43376c3f9eb545.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:train/images/STM32_3_MOV-6_jpg.rf.864ef7911a2768207f2df0762c44bdee.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:train/images/STM32_3_MOV-8_jpg.rf.418f8638d8a60dacf841cff909543d78.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:train/images/STM32_3_MOV-8_jpg.rf.5f2bd5c978bdba8286e6ab2ba431372e.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:train/images/STM32_3_MOV-8_jpg.rf.92542054664f9ddec9156dc29c2885d3.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:train/images/STM32_4_MOV-0_jpg.rf.89ad3781a7e14e7bf61cc1a09c546e5f.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:train/images/STM32_4_MOV-0_jpg.rf.d2012e6eb071b734dcd9f781f426262f.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:train/images/STM32_4_MOV-0_jpg.rf.e6790be2f7355847df44852d70c79f74.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:train/images/STM32_4_MOV-11_jpg.rf.1aaea4f04ee18623d3bcb8d9548922b2.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:train/images/STM32_4_MOV-11_jpg.rf.27f37d2da6f1cdf9cee64fd314c62f66.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:train/images/STM32_4_MOV-11_jpg.rf.942797fef87f519a83e4b328aa1bc57f.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:train/images/STM32_4_MOV-12_jpg.rf.4a38c301df4c9040bbe98aee91d887fa.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:train/images/STM32_4_MOV-12_jpg.rf.4f40fed2441b70f40b466858534263fc.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:train/images/STM32_4_MOV-12_jpg.rf.fcb48886d4f7faa0859bcfb72aeda656.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:train/images/STM32_4_MOV-14_jpg.rf.5c293f808920ab8211e9478a36dcbafe.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:train/images/STM32_4_MOV-14_jpg.rf.73fbc1b13f637d0fed39026d98b13a02.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:train/images/STM32_4_MOV-14_jpg.rf.ea8639609bb6ead51b203867b48e8040.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:train/images/STM32_4_MOV-16_jpg.rf.81c83c7cf353860f86636d7cdefa00d9.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:train/images/STM32_4_MOV-16_jpg.rf.c9bf16bacdc9cae8d60580cfd385c25b.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:train/images/STM32_4_MOV-16_jpg.rf.f1182ce54d1e981472a1704fd6085dc8.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:train/images/STM32_4_MOV-17_jpg.rf.244e5a0a91ce7e04bf488e8f36d1a1b0.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:train/images/STM32_4_MOV-17_jpg.rf.55f75d5aa6bbd9032a7da2679ceadd1a.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:train/images/STM32_4_MOV-17_jpg.rf.b2b7a3e54836b1f9c4b3b8c054e913e2.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:train/images/STM32_4_MOV-18_jpg.rf.34c6373515a0f33572e72f68a56a6db6.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:train/images/STM32_4_MOV-18_jpg.rf.b67c10891e57527adc2274c5e143d401.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:train/images/STM32_4_MOV-18_jpg.rf.e8bf686bdc982a39044e2e9a2496797d.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:train/images/STM32_4_MOV-19_jpg.rf.1db73884de33a13a1e7129569d883846.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:train/images/STM32_4_MOV-19_jpg.rf.61aec94475f873bba3da7435d0adb135.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:train/images/STM32_4_MOV-19_jpg.rf.fb20053c180d49d42f24ad7b9cfa5c2d.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:train/images/STM32_4_MOV-1_jpg.rf.2a4b9892cd20ab52b0c49629be90e077.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:train/images/STM32_4_MOV-1_jpg.rf.40d5aa47c461166127ce8cb2b726c4df.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:train/images/STM32_4_MOV-1_jpg.rf.5b4070e64ae2311efa751274298f6fd0.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:train/images/STM32_4_MOV-22_jpg.rf.0b553b546764b01e2486880465844300.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:train/images/STM32_4_MOV-22_jpg.rf.5b184f71b503c5868bca64dcf742ce88.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:train/images/STM32_4_MOV-22_jpg.rf.f3c09283e770750aa6e2079c090a4b00.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:train/images/STM32_4_MOV-23_jpg.rf.50b7269db8ef4a2db0bb5af00f2356f1.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:train/images/STM32_4_MOV-23_jpg.rf.7183d46aea696795326ae1c42d32a3d5.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:train/images/STM32_4_MOV-23_jpg.rf.a84453c0a944ac56c8191034fe31da9c.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:train/images/STM32_4_MOV-24_jpg.rf.0f8d279296900766510a8ad83a3783ae.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:train/images/STM32_4_MOV-24_jpg.rf.a68ce2c907b93b94753809f009837b44.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:train/images/STM32_4_MOV-24_jpg.rf.ae56867bd17a7abf88d904045b282785.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:train/images/STM32_4_MOV-27_jpg.rf.1e8e67065afec3c7430288ce62b5f28b.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:train/images/STM32_4_MOV-27_jpg.rf.54a1b2ecc8f8daa5ecb3e37d288e6ace.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:train/images/STM32_4_MOV-27_jpg.rf.af517c991e758918296e6d3efe006262.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:train/images/STM32_4_MOV-28_jpg.rf.4e6aa04310ee3ac78caf370d0618be2d.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:train/images/STM32_4_MOV-28_jpg.rf.5d18ee15cefe332e8b98ebf520779e04.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:train/images/STM32_4_MOV-28_jpg.rf.f213daddc132db09aa02749ee893437f.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:train/images/STM32_4_MOV-29_jpg.rf.32525a4955bba7166a43f3714987d0e3.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:train/images/STM32_4_MOV-29_jpg.rf.e12a146877a42f8996dfc0a3db1bc538.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:train/images/STM32_4_MOV-29_jpg.rf.f89eefce869d180c24982f8996bd6582.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:train/images/STM32_4_MOV-2_jpg.rf.51e04e1d98d0d2fbf1958bf4485e6164.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:train/images/STM32_4_MOV-2_jpg.rf.56d266a0c4a3cae826f225d785af8c83.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:train/images/STM32_4_MOV-2_jpg.rf.eb823bd5f5762fea4ee2436f68afd1ff.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:train/images/STM32_4_MOV-31_jpg.rf.0f85389310035ad70b39dfc00e2dbeab.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:train/images/STM32_4_MOV-31_jpg.rf.6a3a6ddc8a0658d425577ce8c31cf8d6.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:train/images/STM32_4_MOV-31_jpg.rf.700f38cece44f4a5c4d74dab23b8f67f.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:train/images/STM32_4_MOV-4_jpg.rf.2b16da2a89867b342047d999469a7d00.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:train/images/STM32_4_MOV-4_jpg.rf.3083f33fc78cffa01dc8176d8d950cf4.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:train/images/STM32_4_MOV-4_jpg.rf.859c2fa2ab37cf3a134382119b8fe308.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:train/images/STM32_4_MOV-5_jpg.rf.115918b11a8302864fb89bbd9a5646de.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:train/images/STM32_4_MOV-5_jpg.rf.75383d471c9f99572d928b0e44eb7bce.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:train/images/STM32_4_MOV-5_jpg.rf.b5e57c4e14436469c86878f6cd924bae.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:train/images/STM32_4_MOV-6_jpg.rf.31f2964a5fcad840c9a7e27e00fbbeae.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:train/images/STM32_4_MOV-6_jpg.rf.7a38bb7171f230e071af33afcff5e96e.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:train/images/STM32_4_MOV-6_jpg.rf.94f3bf163ab1cc0e036797a34db944fe.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:train/images/STM32_4_MOV-7_jpg.rf.625b55cf569a8d988d08aa4670779bf9.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:train/images/STM32_4_MOV-7_jpg.rf.a8b066bfac0ce472fda6b869e79c80f6.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:train/images/STM32_4_MOV-7_jpg.rf.eeea3cc5e3ca5d371683d1ce0471419c.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:train/images/STM32_4_MOV-8_jpg.rf.4f8f6d8c406a2b5155a0f96e449de3e6.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:train/images/STM32_4_MOV-8_jpg.rf.98ad2229774b1babb2396c53ef547f86.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:train/images/STM32_4_MOV-8_jpg.rf.d6621cab90dfe252d81d515d408cd3f5.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:train/images/STM32_4_MOV-9_jpg.rf.2abf68e7828634bfb3d234df35281732.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:train/images/STM32_4_MOV-9_jpg.rf.30e6f20a27abaf567ab86913cbc847e9.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:train/images/STM32_4_MOV-9_jpg.rf.4ec048decb208446dfedeacafdf94565.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:valid/images/STM32_1_MOV-11_jpg.rf.9502b024b6294f4de27040fe478f91c5.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:valid/images/STM32_1_MOV-23_jpg.rf.a49b84048eafa4ff203ba5d4c562bbda.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:valid/images/STM32_1_MOV-25_jpg.rf.4bf7be56784b878643f6a433c3a0bbe9.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:valid/images/STM32_1_MOV-28_jpg.rf.be8be494e0032ac739a9d8d94340b0be.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:valid/images/STM32_1_MOV-33_jpg.rf.c3e31c6fa0c6732b50ed116bbe1707b5.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:valid/images/STM32_1_MOV-39_jpg.rf.679c97426c577af76c51d652defc0ff2.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:valid/images/STM32_1_MOV-48_jpg.rf.ba59a28bd99cb625bdf3cfe5e03c1f9e.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:valid/images/STM32_1_MOV-50_jpg.rf.44289dfddb7faa62c1fe2b26d7529b0a.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:valid/images/STM32_2_MOV-15_jpg.rf.893bf8a42d4b767bce805117262ddf76.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:valid/images/STM32_2_MOV-24_jpg.rf.073f32d93545297fda642172f8f18eac.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:valid/images/STM32_2_MOV-27_jpg.rf.b7717d28780b0d1500f046a8287ed6b4.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:valid/images/STM32_2_MOV-30_jpg.rf.35419efcc1b012780c0f1b92d81e542a.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:valid/images/STM32_2_MOV-33_jpg.rf.d70123422f3c98fa65ccd82432d78097.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:valid/images/STM32_2_MOV-36_jpg.rf.a1381aa69217fc7e0e4eae6239e0265a.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:valid/images/STM32_2_MOV-3_jpg.rf.4d1c5e851aa33f9a7bd16bb6ed0e02d2.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:valid/images/STM32_2_MOV-4_jpg.rf.3b57da5956873b4de29f370509ed61b3.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:valid/images/STM32_2_MOV-6_jpg.rf.0ffe43bb2ef5517168b2cb7b1c16e8cf.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:valid/images/STM32_2_MOV-8_jpg.rf.f1e417b496aa377b0354001bd02ac4dc.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:valid/images/STM32_2_MOV-9_jpg.rf.8c9c8b1730b4087207508dbdf23edf32.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:valid/images/STM32_3_MOV-21_jpg.rf.e89ebbfea7786162d4f61c2f12a762ef.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:valid/images/STM32_3_MOV-23_jpg.rf.ac895b94ea38281329ae8d2a756ece28.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:valid/images/STM32_3_MOV-24_jpg.rf.dfe5b595296b5e7514fc8b9417161818.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:valid/images/STM32_3_MOV-29_jpg.rf.6e6bafc98bc9a96fbdb3c2ddc412ea46.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:valid/images/STM32_3_MOV-30_jpg.rf.f0f892d95e4fcc0dea000844a1605ffb.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:valid/images/STM32_3_MOV-7_jpg.rf.120c5fe355e2f2f93c603f3e61df927a.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:valid/images/STM32_4_MOV-13_jpg.rf.a1e2d13abcaf98737ec149ec70922e25.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:valid/images/STM32_4_MOV-15_jpg.rf.31008ca4bc4d4c0338b6e77049697442.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:valid/images/STM32_4_MOV-20_jpg.rf.df58e5a856a6e53454f467e513f50e8c.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:valid/images/STM32_4_MOV-21_jpg.rf.c2853207374664dcfb04de26d21cd239.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:valid/images/STM32_4_MOV-26_jpg.rf.a60bfdf30e9a8de6d2a579fce22abd5a.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    },
+    {
+      "id": "rf_embedded_hardware:valid/images/STM32_4_MOV-3_jpg.rf.78db108161092fb2077c2c54a8dce09b.jpg",
+      "split": "train",
+      "reason": "contains excluded Nucleo class"
+    }
+  ],
+  "images": {
+    "test": 106,
+    "train": 1308,
+    "val": 206
+  },
+  "boxes": {
+    "train": {
+      "raspberry_pi_5": 73,
+      "raspberry_pi_4": 436,
+      "raspberry_pi_other": 184,
+      "esp_board": 186,
+      "stm32_other": 75,
+      "arduino": 149,
+      "jetson": 89,
+      "other_board": 204
+    },
+    "val": {
+      "raspberry_pi_5": 16,
+      "raspberry_pi_4": 14,
+      "raspberry_pi_other": 34,
+      "esp_board": 34,
+      "stm32_other": 15,
+      "arduino": 31,
+      "jetson": 14,
+      "other_board": 73
+    },
+    "test": {
+      "raspberry_pi_5": 11,
+      "raspberry_pi_4": 10,
+      "raspberry_pi_other": 23,
+      "esp_board": 23,
+      "stm32_other": 11,
+      "arduino": 20,
+      "jetson": 15,
+      "other_board": 12
+    }
+  },
+  "split_groups_preserved": true,
+  "train_selection_uses_test_metrics": false
+}

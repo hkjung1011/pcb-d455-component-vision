@@ -1,0 +1,7 @@
+datasets/
+weights/
+*.pt
+__pycache__/
+*.py[cod]
+.runtime/
+new_runs/

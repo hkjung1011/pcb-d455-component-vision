@@ -1,0 +1,73 @@
+{
+  "checkpoint_sha256": "25a6253ce7520d50d362fdb276e61d25b2f77ec78583d8706cd463f74282b766",
+  "completed_at": "2026-09-29T15:09:33.609967+00:00",
+  "images": 200,
+  "split": "test",
+  "invocations": 1,
+  "overall": {
+    "metrics/precision(B)": 0.8659029710367142,
+    "metrics/recall(B)": 0.7524885065622255,
+    "metrics/mAP50(B)": 0.8471901311739007,
+    "metrics/mAP50-95(B)": 0.7215984613622488,
+    "fitness": 0.7215984613622488
+  },
+  "per_class": [
+    {
+      "class_id": 0,
+      "class_name": "raspberry_pi_5",
+      "ground_truth_boxes": 19,
+      "map50": 0.6682771088942399,
+      "map50_95": 0.6018342177944149
+    },
+    {
+      "class_id": 1,
+      "class_name": "raspberry_pi_4",
+      "ground_truth_boxes": 18,
+      "map50": 0.9314849624060152,
+      "map50_95": 0.8456961152882208
+    },
+    {
+      "class_id": 2,
+      "class_name": "raspberry_pi_other",
+      "ground_truth_boxes": 45,
+      "map50": 0.9928433268858802,
+      "map50_95": 0.9041170263191539
+    },
+    {
+      "class_id": 3,
+      "class_name": "stm32_other",
+      "ground_truth_boxes": 20,
+      "map50": 0.7519536541889483,
+      "map50_95": 0.6713685075731516
+    },
+    {
+      "class_id": 4,
+      "class_name": "arduino",
+      "ground_truth_boxes": 37,
+      "map50": 0.9903421052631578,
+      "map50_95": 0.8694925355179475
+    },
+    {
+      "class_id": 5,
+      "class_name": "esp_board",
+      "ground_truth_boxes": 46,
+      "map50": 0.8929456089483314,
+      "map50_95": 0.8207207931524175
+    },
+    {
+      "class_id": 6,
+      "class_name": "jetson",
+      "ground_truth_boxes": 25,
+      "map50": 0.5546742828046336,
+      "map50_95": 0.30439200760499313
+    },
+    {
+      "class_id": 7,
+      "class_name": "other_board",
+      "ground_truth_boxes": 20,
+      "map50": 0.995,
+      "map50_95": 0.7551664876476907
+    }
+  ],
+  "scope": "Development evaluation after a new 650/150/200 split. Previous test groups were retained, and prior train/validation groups were added. This is not an untouched final test. D455 accuracy and physical board/session independence are not verified. Nucleo is excluded."
+}

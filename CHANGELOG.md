@@ -1,5 +1,15 @@
 # 진행 이력
 
+## 2026-09-30 · 보드 1,000장 50에폭 학습 완료
+
+**YOLO11s 8클래스, train 650 / val 150 / test 200장, 실제 50에폭, 검증 선택 epoch 48.** 개발 test 1회 결과는 **mAP50 84.72% / mAP50–95 72.16%**다.
+
+[설정·결과 전체](BOARDS1000_2026-09-30/README.md) · [복원·사용](BOARDS1000_2026-09-30/REPRODUCE.md) · [학습 설정](BOARDS1000_2026-09-30/CONFIGURATION.md) · [클래스별 결과](BOARDS1000_2026-09-30/RESULTS.md) · [현재 상태](BOARDS1000_2026-09-30/STATUS.json) · [가중치와 정확한 데이터 Release](https://github.com/hkjung1011/pcb-d455-component-vision/releases/tag/boards1000-2026-09-30)
+
+전체 설정, 환경 버전, 실제 코드, 1,000장 분할/라벨/그룹/해시, 학습 로그, 곡선과 평가를 보존했다. Release에는 best/last/공식 초기 가중치와 정확한 1,000장·YOLO 라벨, 이전 10에폭 모델이 있다. 이전 파일럿은 [별도 이력](BOARDS1000_2026-09-30/history/pilot10/README.md)으로 남겼다.
+
+test는 이전 실험 사진을 재분할한 개발 평가이며 새 최종시험이 아니다. Jetson AP50–95 30.44%가 주요 약점이다. Nucleo·포트는 이번 모델에 없고, 이 모델의 D455 실측 성능은 미검증이다. 기존 D455 실시간 모델은 변경하지 않았다. 아래 준비 기록의 `training_ready=false`는 원래 9클래스/포트 스냅샷이며 이번 8클래스 완료 상태와 구분한다.
+
 ## 2026-09-29 · 보드 종류·포트 데이터 준비
 
 [준비 결과·매핑·재실행 안내](BOARDS_PORTS_PREP_2026-09-29/README.md) · [준비 상태](BOARDS_PORTS_PREP_2026-09-29/STATUS.json) · [검증 결과](BOARDS_PORTS_PREP_2026-09-29/reports/evidence/verification.json)

@@ -1,0 +1,21 @@
+{
+  "verified_at": "2026-09-29T16:20:37.959676+00:00",
+  "python_syntax": "PASS",
+  "json_parse": "PASS",
+  "local_markdown_links": "PASS",
+  "model_and_original_training_script_hashes": "PASS",
+  "bundle_image_label_counts": {
+    "train": 650,
+    "val": 150,
+    "test": 200
+  },
+  "dataset_fingerprint": "66284009264318497a8ba16e8d532fc7f7bc0c6c96bdf1d4eae1c3d3525f5922",
+  "group_and_exact_image_overlap": 0,
+  "portable_helper_check_in_training_environment": "PASS",
+  "initial_model_load_and_cuda_check": "PASS",
+  "new_training_executed": false,
+  "new_inference_executed": false,
+  "fresh_venv_installation": "NOT_RUN",
+  "commons_rescreening": "NOT_RUN; original result preserved",
+  "credential_pattern_scan": "no matches in selected text and decompressed training log"
+}

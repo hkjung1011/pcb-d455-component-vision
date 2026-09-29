@@ -1,0 +1,12 @@
+{
+  "split": "test",
+  "imgsz": 640,
+  "batch": 1,
+  "device": 0,
+  "conf": 0.001,
+  "iou": 0.7,
+  "max_det": 300,
+  "half": false,
+  "plots": true,
+  "invocations_in_archived_run": 1
+}

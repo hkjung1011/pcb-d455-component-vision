@@ -1,0 +1,16 @@
+{
+  "tag": "boards1000-2026-09-30",
+  "url": "https://github.com/hkjung1011/pcb-d455-component-vision/releases/tag/boards1000-2026-09-30",
+  "assets": [
+    {
+      "name": "BOARDS1000_FULL_SNAPSHOT.zip",
+      "bytes": 119033512,
+      "sha256": "ad24a3e59e478d16742ad014ddb237a6283bd557acbbb5da76955f5153a79da4"
+    },
+    {
+      "name": "boards8-1000images-yolo11s-best.pt",
+      "bytes": 19183450,
+      "sha256": "25a6253ce7520d50d362fdb276e61d25b2f77ec78583d8706cd463f74282b766"
+    }
+  ]
+}

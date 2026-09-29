@@ -1,0 +1,123 @@
+{
+  "scope": "8-class board pilot; Nucleo and all port training excluded",
+  "training_started_at": "2026-09-29T14:25:30.661611+00:00",
+  "training_finished_at": "2026-09-29T14:31:21.212349+00:00",
+  "training_seconds": 350.5470000000023,
+  "epochs_completed": 11,
+  "actual_optimizer_steps": 235,
+  "best": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-29\\iotkits-2-stm32-jpg-iotkits-stm32\\work\\boards8_pilot_20260929\\runs\\boards8_yolo11s_10ep_attempt2\\weights\\best.pt",
+  "best_sha256": "e04e249bcf9805088dca1de641a1e213d6af6f7403b8559ab748e2c047969a5c",
+  "initial_weights_sha256": "85a76fe86dd8afe384648546b56a7a78580c7cb7b404fc595f97969322d502d5",
+  "classes": [
+    "raspberry_pi_5",
+    "raspberry_pi_4",
+    "raspberry_pi_other",
+    "stm32_other",
+    "arduino",
+    "esp_board",
+    "jetson",
+    "other_board"
+  ],
+  "config": {
+    "epochs": 10,
+    "imgsz": 640,
+    "batch": 8,
+    "device": 0,
+    "optimizer": "AdamW",
+    "lr0": 0.001,
+    "lrf": 0.05,
+    "cos_lr": true,
+    "weight_decay": 0.0005,
+    "warmup_epochs": 1.0,
+    "amp": false,
+    "seed": 20260929,
+    "deterministic": true,
+    "workers": 2,
+    "nbs": 64,
+    "patience": 10,
+    "degrees": 10,
+    "fliplr": 0.5,
+    "mosaic": 1.0,
+    "close_mosaic": 3,
+    "scale": 0.5,
+    "translate": 0.1,
+    "hsv_h": 0.015,
+    "hsv_s": 0.4,
+    "hsv_v": 0.3,
+    "mixup": 0.0,
+    "plots": true,
+    "save": true,
+    "save_period": -1,
+    "cache": false,
+    "verbose": false
+  },
+  "dataset_fingerprint": "a20efaed90929af1ad360d045182e546fd69d7c4f4663f83d0c22cf73ccddb6f",
+  "val_metrics": {
+    "metrics/precision(B)": 0.6442700448751884,
+    "metrics/recall(B)": 0.7184996558716571,
+    "metrics/mAP50(B)": 0.721605252015278,
+    "metrics/mAP50-95(B)": 0.5193021368223062,
+    "fitness": 0.5193021368223062
+  },
+  "val_per_class": [
+    {
+      "class_id": 0,
+      "class_name": "raspberry_pi_5",
+      "ground_truth_boxes": 16,
+      "map50": 0.4974712918660287,
+      "map50_95": 0.3733469936224526
+    },
+    {
+      "class_id": 1,
+      "class_name": "raspberry_pi_4",
+      "ground_truth_boxes": 14,
+      "map50": 0.45870196324143686,
+      "map50_95": 0.3712919799498747
+    },
+    {
+      "class_id": 2,
+      "class_name": "raspberry_pi_other",
+      "ground_truth_boxes": 34,
+      "map50": 0.9491707188024263,
+      "map50_95": 0.7196578234951609
+    },
+    {
+      "class_id": 3,
+      "class_name": "stm32_other",
+      "ground_truth_boxes": 15,
+      "map50": 0.7872913752913753,
+      "map50_95": 0.6230173326673326
+    },
+    {
+      "class_id": 4,
+      "class_name": "arduino",
+      "ground_truth_boxes": 31,
+      "map50": 0.9295759795759796,
+      "map50_95": 0.7756996723649588
+    },
+    {
+      "class_id": 5,
+      "class_name": "esp_board",
+      "ground_truth_boxes": 34,
+      "map50": 0.869710716365292,
+      "map50_95": 0.6832403908792368
+    },
+    {
+      "class_id": 6,
+      "class_name": "jetson",
+      "ground_truth_boxes": 14,
+      "map50": 0.9856666666666667,
+      "map50_95": 0.37906570426875297
+    },
+    {
+      "class_id": 7,
+      "class_name": "other_board",
+      "ground_truth_boxes": 73,
+      "map50": 0.2952533043130182,
+      "map50_95": 0.22909719733067985
+    }
+  ],
+  "checkpoint_selection": "Ultralytics best validation fitness only; test untouched until checkpoint hash frozen",
+  "training_curve": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-29\\iotkits-2-stm32-jpg-iotkits-stm32\\work\\boards8_pilot_20260929\\runs\\boards8_yolo11s_10ep_attempt2\\results.csv",
+  "peak_cuda_memory_gib": 3.5082802772521973
+}

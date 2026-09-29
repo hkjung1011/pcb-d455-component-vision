@@ -1,0 +1,41 @@
+{
+  "revision": "D455_LIVE_2026-09-29",
+  "status": "LIVE_CAMERA_INFERENCE_OBSERVED_PROTOTYPE",
+  "observed_at": "2026-09-29T14:49:30.208497+09:00",
+  "model_registry": "D455_LIVE_2026-09-29/selected_models.json",
+  "evaluation": "D455_LIVE_2026-09-29/evaluation/summary.json",
+  "model_card": "D455_LIVE_2026-09-29/MODEL_CARD.md",
+  "live_camera_inference_verified": true,
+  "independent_real_world_accuracy_evaluated": false,
+  "real_camera_map50": null,
+  "real_camera_map50_95": null,
+  "counts_observed": {
+    "gpio_header": 2,
+    "usb_stack": 4,
+    "ic": 2,
+    "heatsink": 5,
+    "ethernet_port": 2,
+    "usb_c_power": 2,
+    "micro_hdmi": 4
+  },
+  "boards_observed": {
+    "raspberry_pi_5": 1,
+    "raspberry_pi_4": 1
+  },
+  "prototype_original_source_scenes": 1,
+  "prototype_physical_boards": 2,
+  "preserved_workstreams": {
+    "PCB_R04": "R04/CURRENT_STATUS.json",
+    "WAFER_R01": "WAFER_R01/CURRENT_STATUS.json"
+  },
+  "previous_root_status_revision": "WAFER_SURFACE_R01",
+  "source_images_added": "Two local camera training sources and one observation frame; no external dataset originals",
+  "data_preparation": {
+    "revision": "BOARDS_PORTS_PREP_2026-09-29",
+    "status": "BOARDS_PORTS_PREP_2026-09-29/STATUS.json",
+    "readme": "BOARDS_PORTS_PREP_2026-09-29/README.md",
+    "training_executed": false,
+    "boards_training_ready": false,
+    "ports_training_ready": false
+  }
+}

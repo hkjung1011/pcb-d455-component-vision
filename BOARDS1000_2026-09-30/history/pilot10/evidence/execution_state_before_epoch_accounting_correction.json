@@ -1,0 +1,307 @@
+{
+  "status": "complete",
+  "started_at": "2026-09-29T14:25:30.661611+00:00",
+  "classes": [
+    "raspberry_pi_5",
+    "raspberry_pi_4",
+    "raspberry_pi_other",
+    "stm32_other",
+    "arduino",
+    "esp_board",
+    "jetson",
+    "other_board"
+  ],
+  "scope": "8-class board pilot; Nucleo and all port training excluded",
+  "config": {
+    "epochs": 10,
+    "imgsz": 640,
+    "batch": 8,
+    "device": 0,
+    "optimizer": "AdamW",
+    "lr0": 0.001,
+    "lrf": 0.05,
+    "cos_lr": true,
+    "weight_decay": 0.0005,
+    "warmup_epochs": 1.0,
+    "amp": false,
+    "seed": 20260929,
+    "deterministic": true,
+    "workers": 2,
+    "nbs": 64,
+    "patience": 10,
+    "degrees": 10,
+    "fliplr": 0.5,
+    "mosaic": 1.0,
+    "close_mosaic": 3,
+    "scale": 0.5,
+    "translate": 0.1,
+    "hsv_h": 0.015,
+    "hsv_s": 0.4,
+    "hsv_v": 0.3,
+    "mixup": 0.0,
+    "plots": true,
+    "save": true,
+    "save_period": -1,
+    "cache": false,
+    "verbose": false
+  },
+  "initial_weights": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\models\\yolo11s.pt",
+  "initial_weights_sha256": "85a76fe86dd8afe384648546b56a7a78580c7cb7b404fc595f97969322d502d5",
+  "dataset_fingerprint": "a20efaed90929af1ad360d045182e546fd69d7c4f4663f83d0c22cf73ccddb6f",
+  "torch": "2.12.1+cu130",
+  "ultralytics": "8.4.120",
+  "gpu": "NVIDIA GeForce RTX 5060 Laptop GPU",
+  "optimizer_steps": 235,
+  "epochs": [
+    {
+      "epoch": 1,
+      "elapsed_seconds": 49.06300000000192,
+      "optimizer_steps": 50,
+      "losses": [
+        1.408565640449524,
+        2.1033935546875,
+        1.784238576889038
+      ],
+      "val_metrics": {
+        "metrics/precision(B)": 0.54644,
+        "metrics/recall(B)": 0.26013,
+        "metrics/mAP50(B)": 0.199,
+        "metrics/mAP50-95(B)": 0.08583,
+        "val/box_loss": 1.94496,
+        "val/cls_loss": 3.54459,
+        "val/dfl_loss": 2.82823
+      },
+      "peak_cuda_memory_gib": 3.5082802772521973,
+      "best_fitness": 0.08583,
+      "fitness": 0.08583
+    },
+    {
+      "epoch": 2,
+      "elapsed_seconds": 81.45300000000134,
+      "optimizer_steps": 71,
+      "losses": [
+        1.3792927265167236,
+        1.6528029441833496,
+        1.765300989151001
+      ],
+      "val_metrics": {
+        "metrics/precision(B)": 0.11171,
+        "metrics/recall(B)": 0.61421,
+        "metrics/mAP50(B)": 0.27212,
+        "metrics/mAP50-95(B)": 0.13661,
+        "val/box_loss": 1.80477,
+        "val/cls_loss": 3.23322,
+        "val/dfl_loss": 2.29962
+      },
+      "peak_cuda_memory_gib": 3.5082802772521973,
+      "best_fitness": 0.13661,
+      "fitness": 0.13661
+    },
+    {
+      "epoch": 3,
+      "elapsed_seconds": 113.71900000000096,
+      "optimizer_steps": 91,
+      "losses": [
+        1.3322432041168213,
+        1.5283745527267456,
+        1.6898397207260132
+      ],
+      "val_metrics": {
+        "metrics/precision(B)": 0.34553,
+        "metrics/recall(B)": 0.55861,
+        "metrics/mAP50(B)": 0.39547,
+        "metrics/mAP50-95(B)": 0.20868,
+        "val/box_loss": 1.68179,
+        "val/cls_loss": 2.55618,
+        "val/dfl_loss": 2.09232
+      },
+      "peak_cuda_memory_gib": 3.5082802772521973,
+      "best_fitness": 0.20868,
+      "fitness": 0.20868
+    },
+    {
+      "epoch": 4,
+      "elapsed_seconds": 145.89099999999962,
+      "optimizer_steps": 112,
+      "losses": [
+        1.2556463479995728,
+        1.3969591856002808,
+        1.6362919807434082
+      ],
+      "val_metrics": {
+        "metrics/precision(B)": 0.6768,
+        "metrics/recall(B)": 0.36949,
+        "metrics/mAP50(B)": 0.44601,
+        "metrics/mAP50-95(B)": 0.22214,
+        "val/box_loss": 1.68993,
+        "val/cls_loss": 2.28378,
+        "val/dfl_loss": 2.11413
+      },
+      "peak_cuda_memory_gib": 3.5082802772521973,
+      "best_fitness": 0.22214,
+      "fitness": 0.22214
+    },
+    {
+      "epoch": 5,
+      "elapsed_seconds": 178.06300000000192,
+      "optimizer_steps": 132,
+      "losses": [
+        1.218410849571228,
+        1.2823234796524048,
+        1.605843424797058
+      ],
+      "val_metrics": {
+        "metrics/precision(B)": 0.30411,
+        "metrics/recall(B)": 0.66407,
+        "metrics/mAP50(B)": 0.5008,
+        "metrics/mAP50-95(B)": 0.24434,
+        "val/box_loss": 1.70719,
+        "val/cls_loss": 2.51135,
+        "val/dfl_loss": 2.06706
+      },
+      "peak_cuda_memory_gib": 3.5082802772521973,
+      "best_fitness": 0.24434,
+      "fitness": 0.24434
+    },
+    {
+      "epoch": 6,
+      "elapsed_seconds": 210.25,
+      "optimizer_steps": 153,
+      "losses": [
+        1.1921840906143188,
+        1.1926778554916382,
+        1.5588618516921997
+      ],
+      "val_metrics": {
+        "metrics/precision(B)": 0.58449,
+        "metrics/recall(B)": 0.60579,
+        "metrics/mAP50(B)": 0.56621,
+        "metrics/mAP50-95(B)": 0.32103,
+        "val/box_loss": 1.41435,
+        "val/cls_loss": 2.03824,
+        "val/dfl_loss": 1.7691
+      },
+      "peak_cuda_memory_gib": 3.5082802772521973,
+      "best_fitness": 0.32103,
+      "fitness": 0.32103
+    },
+    {
+      "epoch": 7,
+      "elapsed_seconds": 242.48500000000058,
+      "optimizer_steps": 173,
+      "losses": [
+        1.1198348999023438,
+        1.0939801931381226,
+        1.5008803606033325
+      ],
+      "val_metrics": {
+        "metrics/precision(B)": 0.40313,
+        "metrics/recall(B)": 0.65224,
+        "metrics/mAP50(B)": 0.56256,
+        "metrics/mAP50-95(B)": 0.36306,
+        "val/box_loss": 1.26819,
+        "val/cls_loss": 1.97316,
+        "val/dfl_loss": 1.58103
+      },
+      "peak_cuda_memory_gib": 3.5082802772521973,
+      "best_fitness": 0.36306,
+      "fitness": 0.36306
+    },
+    {
+      "epoch": 8,
+      "elapsed_seconds": 280.0470000000023,
+      "optimizer_steps": 194,
+      "losses": [
+        0.932005763053894,
+        0.8385132551193237,
+        1.5543091297149658
+      ],
+      "val_metrics": {
+        "metrics/precision(B)": 0.54239,
+        "metrics/recall(B)": 0.58206,
+        "metrics/mAP50(B)": 0.61292,
+        "metrics/mAP50-95(B)": 0.43586,
+        "val/box_loss": 0.98732,
+        "val/cls_loss": 2.0139,
+        "val/dfl_loss": 1.38289
+      },
+      "peak_cuda_memory_gib": 3.5082802772521973,
+      "best_fitness": 0.43586,
+      "fitness": 0.43586
+    },
+    {
+      "epoch": 9,
+      "elapsed_seconds": 312.40599999999904,
+      "optimizer_steps": 214,
+      "losses": [
+        0.8540180325508118,
+        0.688226044178009,
+        1.47041654586792
+      ],
+      "val_metrics": {
+        "metrics/precision(B)": 0.64979,
+        "metrics/recall(B)": 0.67665,
+        "metrics/mAP50(B)": 0.69859,
+        "metrics/mAP50-95(B)": 0.46375,
+        "val/box_loss": 1.10396,
+        "val/cls_loss": 1.85501,
+        "val/dfl_loss": 1.44866
+      },
+      "peak_cuda_memory_gib": 3.5082802772521973,
+      "best_fitness": 0.46375,
+      "fitness": 0.46375
+    },
+    {
+      "epoch": 10,
+      "elapsed_seconds": 344.8130000000019,
+      "optimizer_steps": 235,
+      "losses": [
+        0.8245120644569397,
+        0.6333367228507996,
+        1.4309698343276978
+      ],
+      "val_metrics": {
+        "metrics/precision(B)": 0.644,
+        "metrics/recall(B)": 0.71572,
+        "metrics/mAP50(B)": 0.72161,
+        "metrics/mAP50-95(B)": 0.51905,
+        "val/box_loss": 0.91676,
+        "val/cls_loss": 1.83432,
+        "val/dfl_loss": 1.31284
+      },
+      "peak_cuda_memory_gib": 3.5082802772521973,
+      "best_fitness": 0.51905,
+      "fitness": 0.51905
+    },
+    {
+      "epoch": 11,
+      "elapsed_seconds": 348.53099999999904,
+      "optimizer_steps": 235,
+      "losses": [
+        0.8245120644569397,
+        0.6333367228507996,
+        1.4309698343276978
+      ],
+      "val_metrics": {
+        "metrics/precision(B)": 0.6442700448751884,
+        "metrics/recall(B)": 0.7184996558716571,
+        "metrics/mAP50(B)": 0.721605252015278,
+        "metrics/mAP50-95(B)": 0.5193021368223062
+      },
+      "peak_cuda_memory_gib": 3.5082802772521973,
+      "best_fitness": 0.51905,
+      "fitness": 0.51905
+    }
+  ],
+  "test_evaluation_executed": true,
+  "three_epoch_checkpoint": {
+    "finite_losses": true,
+    "finite_parameters": true,
+    "optimizer_steps": 91,
+    "continue_to_total_epochs": 10
+  },
+  "best_sha256": "e04e249bcf9805088dca1de641a1e213d6af6f7403b8559ab748e2c047969a5c",
+  "training_finished_at": "2026-09-29T14:31:21.212349+00:00",
+  "finished_at": "2026-09-29T14:31:42.970715+00:00",
+  "test_invocations": 1
+}

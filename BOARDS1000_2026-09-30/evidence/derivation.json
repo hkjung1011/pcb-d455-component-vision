@@ -1,0 +1,6426 @@
+{
+  "source": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\boards_ports\\datasets\\boards_v1",
+  "source_verification_sha256": "f82c9c37d54da7cdf2854265cef0bcde1b597dc9d3c35c881dfb9b199173c781",
+  "source_dataset_fingerprint": "14ce02721fb88a13ff0e643eb09e20ec3b40311c19db6e3d9637bd9766f3d5be",
+  "source_used": "iotkits_v1",
+  "candidate_images": 1053,
+  "selected_images": 1000,
+  "images": {
+    "train": 650,
+    "val": 150,
+    "test": 200
+  },
+  "excluded_images": 53,
+  "boxes": {
+    "train": {
+      "raspberry_pi_4": 60,
+      "other_board": 52,
+      "raspberry_pi_5": 62,
+      "raspberry_pi_other": 147,
+      "esp_board": 149,
+      "stm32_other": 62,
+      "arduino": 123,
+      "jetson": 77
+    },
+    "val": {
+      "other_board": 13,
+      "raspberry_pi_4": 14,
+      "raspberry_pi_other": 34,
+      "raspberry_pi_5": 14,
+      "stm32_other": 14,
+      "esp_board": 34,
+      "arduino": 28,
+      "jetson": 16
+    },
+    "test": {
+      "raspberry_pi_5": 19,
+      "other_board": 20,
+      "raspberry_pi_4": 18,
+      "raspberry_pi_other": 45,
+      "esp_board": 46,
+      "stm32_other": 20,
+      "arduino": 37,
+      "jetson": 25
+    }
+  },
+  "groups": {
+    "test": 134,
+    "train": 207,
+    "val": 67,
+    "excluded": 15
+  },
+  "class_group_counts": {
+    "train": {
+      "raspberry_pi_4": 24,
+      "other_board": 4,
+      "raspberry_pi_5": 23,
+      "raspberry_pi_other": 61,
+      "esp_board": 27,
+      "stm32_other": 4,
+      "arduino": 65,
+      "jetson": 3
+    },
+    "val": {
+      "other_board": 2,
+      "raspberry_pi_4": 7,
+      "raspberry_pi_other": 19,
+      "raspberry_pi_5": 8,
+      "stm32_other": 4,
+      "esp_board": 13,
+      "arduino": 18,
+      "jetson": 2
+    },
+    "test": {
+      "raspberry_pi_5": 11,
+      "other_board": 2,
+      "raspberry_pi_4": 10,
+      "raspberry_pi_other": 33,
+      "esp_board": 36,
+      "stm32_other": 13,
+      "arduino": 35,
+      "jetson": 5
+    }
+  },
+  "optimizer": "scipy.optimize.milp; assignment based on counts/group provenance only",
+  "optimization_status": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+  "optimization_gap": 0.000430782949010709,
+  "prior_test_images_preserved": 106,
+  "test_prior_split_counts": {
+    "test": 106,
+    "val": 86,
+    "train": 8
+  },
+  "scope": {
+    "selected_source": "iotkits_v1",
+    "requested_total": 1000,
+    "split_targets": {
+      "train": 650,
+      "val": 150,
+      "test": 200
+    },
+    "parent_class_map_sha256": "211ac6f1bacfc2080e4fd02f91dee77b08c024399207aac62f37cf8dbd1bb26d",
+    "nucleo_excluded": true,
+    "selection_uses_model_predictions": false,
+    "test_role": "development evaluation; includes previously evaluated test groups and prior train/val groups; not an untouched final test"
+  },
+  "group_selection": [
+    {
+      "id": "iotkits_train_01260",
+      "group": "g0",
+      "original_split": "test",
+      "assigned_split": "test"
+    },
+    {
+      "id": "iotkits_train_02439",
+      "group": "g100",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_00246",
+      "group": "g1002",
+      "original_split": "val",
+      "assigned_split": "val"
+    },
+    {
+      "id": "iotkits_train_00261",
+      "group": "g1002",
+      "original_split": "val",
+      "assigned_split": "val"
+    },
+    {
+      "id": "iotkits_train_00919",
+      "group": "g1002",
+      "original_split": "val",
+      "assigned_split": "val"
+    },
+    {
+      "id": "iotkits_train_02038",
+      "group": "g1002",
+      "original_split": "val",
+      "assigned_split": "val"
+    },
+    {
+      "id": "iotkits_valid_00192",
+      "group": "g1002",
+      "original_split": "val",
+      "assigned_split": "val"
+    },
+    {
+      "id": "iotkits_valid_00403",
+      "group": "g1002",
+      "original_split": "val",
+      "assigned_split": "val"
+    },
+    {
+      "id": "iotkits_valid_00592",
+      "group": "g1002",
+      "original_split": "val",
+      "assigned_split": "val"
+    },
+    {
+      "id": "iotkits_train_00979",
+      "group": "g1009",
+      "original_split": "val",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_01518",
+      "group": "g1009",
+      "original_split": "val",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_01901",
+      "group": "g1009",
+      "original_split": "val",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_02189",
+      "group": "g1009",
+      "original_split": "val",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_02255",
+      "group": "g1009",
+      "original_split": "val",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_02420",
+      "group": "g1009",
+      "original_split": "val",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_02427",
+      "group": "g1009",
+      "original_split": "val",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_valid_00124",
+      "group": "g1009",
+      "original_split": "val",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_valid_00380",
+      "group": "g1009",
+      "original_split": "val",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_02446",
+      "group": "g101",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_valid_00356",
+      "group": "g101",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_valid_00415",
+      "group": "g101",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_00128",
+      "group": "g1018",
+      "original_split": "val",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_00325",
+      "group": "g1018",
+      "original_split": "val",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_00648",
+      "group": "g1018",
+      "original_split": "val",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_00693",
+      "group": "g1018",
+      "original_split": "val",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_00710",
+      "group": "g1018",
+      "original_split": "val",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_01636",
+      "group": "g1018",
+      "original_split": "val",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_01750",
+      "group": "g1018",
+      "original_split": "val",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_02035",
+      "group": "g1018",
+      "original_split": "val",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_02322",
+      "group": "g1018",
+      "original_split": "val",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_02416",
+      "group": "g1018",
+      "original_split": "val",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_00692",
+      "group": "g1028",
+      "original_split": "val",
+      "assigned_split": "val"
+    },
+    {
+      "id": "iotkits_train_01672",
+      "group": "g1028",
+      "original_split": "val",
+      "assigned_split": "val"
+    },
+    {
+      "id": "iotkits_valid_00164",
+      "group": "g1028",
+      "original_split": "val",
+      "assigned_split": "val"
+    },
+    {
+      "id": "iotkits_train_00034",
+      "group": "g1031",
+      "original_split": "test",
+      "assigned_split": "test"
+    },
+    {
+      "id": "iotkits_train_00087",
+      "group": "g1031",
+      "original_split": "test",
+      "assigned_split": "test"
+    },
+    {
+      "id": "iotkits_valid_00351",
+      "group": "g1031",
+      "original_split": "test",
+      "assigned_split": "test"
+    },
+    {
+      "id": "iotkits_valid_00525",
+      "group": "g1031",
+      "original_split": "test",
+      "assigned_split": "test"
+    },
+    {
+      "id": "iotkits_valid_00543",
+      "group": "g1031",
+      "original_split": "test",
+      "assigned_split": "test"
+    },
+    {
+      "id": "iotkits_valid_00593",
+      "group": "g1031",
+      "original_split": "test",
+      "assigned_split": "test"
+    },
+    {
+      "id": "iotkits_train_00102",
+      "group": "g1037",
+      "original_split": "val",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_00152",
+      "group": "g1037",
+      "original_split": "val",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_00560",
+      "group": "g1037",
+      "original_split": "val",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_00758",
+      "group": "g1037",
+      "original_split": "val",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_00881",
+      "group": "g1037",
+      "original_split": "val",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_01238",
+      "group": "g1037",
+      "original_split": "val",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_01605",
+      "group": "g1037",
+      "original_split": "val",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_01732",
+      "group": "g1037",
+      "original_split": "val",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_01993",
+      "group": "g1037",
+      "original_split": "val",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_02191",
+      "group": "g1037",
+      "original_split": "val",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_valid_00055",
+      "group": "g1037",
+      "original_split": "val",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_01843",
+      "group": "g104",
+      "original_split": "val",
+      "assigned_split": "test"
+    },
+    {
+      "id": "iotkits_train_02281",
+      "group": "g104",
+      "original_split": "val",
+      "assigned_split": "test"
+    },
+    {
+      "id": "iotkits_train_00431",
+      "group": "g1048",
+      "original_split": "val",
+      "assigned_split": "test"
+    },
+    {
+      "id": "iotkits_train_01476",
+      "group": "g1048",
+      "original_split": "val",
+      "assigned_split": "test"
+    },
+    {
+      "id": "iotkits_train_01675",
+      "group": "g1048",
+      "original_split": "val",
+      "assigned_split": "test"
+    },
+    {
+      "id": "iotkits_train_02194",
+      "group": "g1048",
+      "original_split": "val",
+      "assigned_split": "test"
+    },
+    {
+      "id": "iotkits_train_02272",
+      "group": "g1048",
+      "original_split": "val",
+      "assigned_split": "test"
+    },
+    {
+      "id": "iotkits_valid_00324",
+      "group": "g1048",
+      "original_split": "val",
+      "assigned_split": "test"
+    },
+    {
+      "id": "iotkits_valid_00476",
+      "group": "g1048",
+      "original_split": "val",
+      "assigned_split": "test"
+    },
+    {
+      "id": "iotkits_valid_00613",
+      "group": "g1048",
+      "original_split": "val",
+      "assigned_split": "test"
+    },
+    {
+      "id": "iotkits_train_00163",
+      "group": "g1056",
+      "original_split": "val",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_00212",
+      "group": "g1056",
+      "original_split": "val",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_00336",
+      "group": "g1056",
+      "original_split": "val",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_00563",
+      "group": "g1056",
+      "original_split": "val",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_00641",
+      "group": "g1056",
+      "original_split": "val",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_00669",
+      "group": "g1056",
+      "original_split": "val",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_00749",
+      "group": "g1056",
+      "original_split": "val",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_01193",
+      "group": "g1056",
+      "original_split": "val",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_01344",
+      "group": "g1056",
+      "original_split": "val",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_01430",
+      "group": "g1056",
+      "original_split": "val",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_02304",
+      "group": "g1056",
+      "original_split": "val",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_valid_00185",
+      "group": "g1056",
+      "original_split": "val",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_01822",
+      "group": "g106",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_01996",
+      "group": "g106",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_valid_00470",
+      "group": "g106",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_00719",
+      "group": "g11",
+      "original_split": "test",
+      "assigned_split": "test"
+    },
+    {
+      "id": "iotkits_train_00632",
+      "group": "g110",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_01190",
+      "group": "g110",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_valid_00111",
+      "group": "g110",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_01270",
+      "group": "g113",
+      "original_split": "test",
+      "assigned_split": "test"
+    },
+    {
+      "id": "iotkits_train_00546",
+      "group": "g114",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_valid_00285",
+      "group": "g114",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_valid_00541",
+      "group": "g114",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_02152",
+      "group": "g117",
+      "original_split": "test",
+      "assigned_split": "test"
+    },
+    {
+      "id": "iotkits_train_00052",
+      "group": "g118",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_01123",
+      "group": "g118",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_01286",
+      "group": "g118",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_01358",
+      "group": "g121",
+      "original_split": "val",
+      "assigned_split": "val"
+    },
+    {
+      "id": "iotkits_train_00316",
+      "group": "g122",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_01799",
+      "group": "g122",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_valid_00053",
+      "group": "g122",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_00200",
+      "group": "g128",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_01803",
+      "group": "g128",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_01943",
+      "group": "g128",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_00550",
+      "group": "g131",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_01031",
+      "group": "g131",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_02432",
+      "group": "g131",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_00081",
+      "group": "g134",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_02003",
+      "group": "g134",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_02302",
+      "group": "g134",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_01545",
+      "group": "g137",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_valid_00056",
+      "group": "g137",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_valid_00409",
+      "group": "g137",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_00594",
+      "group": "g140",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_00942",
+      "group": "g140",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_01300",
+      "group": "g140",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_00259",
+      "group": "g143",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_02403",
+      "group": "g143",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_00435",
+      "group": "g145",
+      "original_split": "train",
+      "assigned_split": "val"
+    },
+    {
+      "id": "iotkits_train_00706",
+      "group": "g145",
+      "original_split": "train",
+      "assigned_split": "val"
+    },
+    {
+      "id": "iotkits_train_02164",
+      "group": "g145",
+      "original_split": "train",
+      "assigned_split": "val"
+    },
+    {
+      "id": "iotkits_valid_00363",
+      "group": "g145",
+      "original_split": "train",
+      "assigned_split": "val"
+    },
+    {
+      "id": "iotkits_train_01004",
+      "group": "g148",
+      "original_split": "test",
+      "assigned_split": "test"
+    },
+    {
+      "id": "iotkits_train_02288",
+      "group": "g148",
+      "original_split": "test",
+      "assigned_split": "test"
+    },
+    {
+      "id": "iotkits_valid_00262",
+      "group": "g148",
+      "original_split": "test",
+      "assigned_split": "test"
+    },
+    {
+      "id": "iotkits_valid_00598",
+      "group": "g151",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_01776",
+      "group": "g152",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_01626",
+      "group": "g153",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_00116",
+      "group": "g154",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_00966",
+      "group": "g154",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_02136",
+      "group": "g154",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_01662",
+      "group": "g157",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_00837",
+      "group": "g158",
+      "original_split": "val",
+      "assigned_split": "val"
+    },
+    {
+      "id": "iotkits_train_01177",
+      "group": "g159",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_01368",
+      "group": "g159",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_02290",
+      "group": "g159",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_valid_00198",
+      "group": "g16",
+      "original_split": "test",
+      "assigned_split": "test"
+    },
+    {
+      "id": "iotkits_valid_00404",
+      "group": "g16",
+      "original_split": "test",
+      "assigned_split": "test"
+    },
+    {
+      "id": "iotkits_valid_00491",
+      "group": "g16",
+      "original_split": "test",
+      "assigned_split": "test"
+    },
+    {
+      "id": "iotkits_train_01603",
+      "group": "g162",
+      "original_split": "val",
+      "assigned_split": "test"
+    },
+    {
+      "id": "iotkits_train_01910",
+      "group": "g162",
+      "original_split": "val",
+      "assigned_split": "test"
+    },
+    {
+      "id": "iotkits_train_02368",
+      "group": "g162",
+      "original_split": "val",
+      "assigned_split": "test"
+    },
+    {
+      "id": "iotkits_train_00925",
+      "group": "g165",
+      "original_split": "train",
+      "assigned_split": "excluded"
+    },
+    {
+      "id": "iotkits_train_01832",
+      "group": "g165",
+      "original_split": "train",
+      "assigned_split": "excluded"
+    },
+    {
+      "id": "iotkits_train_01950",
+      "group": "g165",
+      "original_split": "train",
+      "assigned_split": "excluded"
+    },
+    {
+      "id": "iotkits_train_01181",
+      "group": "g168",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_02025",
+      "group": "g168",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_02414",
+      "group": "g168",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_valid_00282",
+      "group": "g171",
+      "original_split": "val",
+      "assigned_split": "val"
+    },
+    {
+      "id": "iotkits_train_00450",
+      "group": "g172",
+      "original_split": "val",
+      "assigned_split": "excluded"
+    },
+    {
+      "id": "iotkits_valid_00224",
+      "group": "g172",
+      "original_split": "val",
+      "assigned_split": "excluded"
+    },
+    {
+      "id": "iotkits_train_01827",
+      "group": "g174",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_02367",
+      "group": "g174",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_valid_00314",
+      "group": "g174",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_00464",
+      "group": "g177",
+      "original_split": "val",
+      "assigned_split": "val"
+    },
+    {
+      "id": "iotkits_train_00513",
+      "group": "g178",
+      "original_split": "val",
+      "assigned_split": "test"
+    },
+    {
+      "id": "iotkits_train_01119",
+      "group": "g178",
+      "original_split": "val",
+      "assigned_split": "test"
+    },
+    {
+      "id": "iotkits_train_01418",
+      "group": "g178",
+      "original_split": "val",
+      "assigned_split": "test"
+    },
+    {
+      "id": "iotkits_train_01664",
+      "group": "g181",
+      "original_split": "train",
+      "assigned_split": "val"
+    },
+    {
+      "id": "iotkits_valid_00293",
+      "group": "g181",
+      "original_split": "train",
+      "assigned_split": "val"
+    },
+    {
+      "id": "iotkits_valid_00530",
+      "group": "g181",
+      "original_split": "train",
+      "assigned_split": "val"
+    },
+    {
+      "id": "iotkits_train_00196",
+      "group": "g184",
+      "original_split": "test",
+      "assigned_split": "test"
+    },
+    {
+      "id": "iotkits_train_02366",
+      "group": "g185",
+      "original_split": "test",
+      "assigned_split": "test"
+    },
+    {
+      "id": "iotkits_valid_00257",
+      "group": "g185",
+      "original_split": "test",
+      "assigned_split": "test"
+    },
+    {
+      "id": "iotkits_train_00290",
+      "group": "g187",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_00752",
+      "group": "g187",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_02357",
+      "group": "g187",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_00240",
+      "group": "g190",
+      "original_split": "train",
+      "assigned_split": "val"
+    },
+    {
+      "id": "iotkits_train_01794",
+      "group": "g190",
+      "original_split": "train",
+      "assigned_split": "val"
+    },
+    {
+      "id": "iotkits_train_02116",
+      "group": "g190",
+      "original_split": "train",
+      "assigned_split": "val"
+    },
+    {
+      "id": "iotkits_train_01045",
+      "group": "g193",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_02066",
+      "group": "g193",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_02369",
+      "group": "g193",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_00765",
+      "group": "g196",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_valid_00453",
+      "group": "g196",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_01342",
+      "group": "g198",
+      "original_split": "test",
+      "assigned_split": "test"
+    },
+    {
+      "id": "iotkits_train_00512",
+      "group": "g199",
+      "original_split": "test",
+      "assigned_split": "test"
+    },
+    {
+      "id": "iotkits_train_01069",
+      "group": "g2",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_01091",
+      "group": "g2",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_valid_00291",
+      "group": "g2",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_00359",
+      "group": "g200",
+      "original_split": "train",
+      "assigned_split": "val"
+    },
+    {
+      "id": "iotkits_train_01019",
+      "group": "g200",
+      "original_split": "train",
+      "assigned_split": "val"
+    },
+    {
+      "id": "iotkits_train_01555",
+      "group": "g200",
+      "original_split": "train",
+      "assigned_split": "val"
+    },
+    {
+      "id": "iotkits_train_01645",
+      "group": "g203",
+      "original_split": "val",
+      "assigned_split": "test"
+    },
+    {
+      "id": "iotkits_train_00049",
+      "group": "g204",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_02063",
+      "group": "g205",
+      "original_split": "test",
+      "assigned_split": "test"
+    },
+    {
+      "id": "iotkits_train_00048",
+      "group": "g206",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_00392",
+      "group": "g207",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_00571",
+      "group": "g207",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_valid_00073",
+      "group": "g207",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_01343",
+      "group": "g210",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_01698",
+      "group": "g210",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_valid_00440",
+      "group": "g210",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_00778",
+      "group": "g213",
+      "original_split": "val",
+      "assigned_split": "val"
+    },
+    {
+      "id": "iotkits_train_01229",
+      "group": "g2138",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_00388",
+      "group": "g2138",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_01367",
+      "group": "g2138",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_01483",
+      "group": "g2138",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_01500",
+      "group": "g214",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_01038",
+      "group": "g218",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_01333",
+      "group": "g219",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_01494",
+      "group": "g219",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_01918",
+      "group": "g219",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_02110",
+      "group": "g222",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_01226",
+      "group": "g223",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_01513",
+      "group": "g223",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_valid_00606",
+      "group": "g223",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_valid_00575",
+      "group": "g226",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_02103",
+      "group": "g227",
+      "original_split": "val",
+      "assigned_split": "test"
+    },
+    {
+      "id": "iotkits_train_01519",
+      "group": "g228",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_02067",
+      "group": "g228",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_00686",
+      "group": "g230",
+      "original_split": "train",
+      "assigned_split": "val"
+    },
+    {
+      "id": "iotkits_train_01134",
+      "group": "g231",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_01958",
+      "group": "g231",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_valid_00259",
+      "group": "g231",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_valid_00106",
+      "group": "g234",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_00872",
+      "group": "g235",
+      "original_split": "val",
+      "assigned_split": "val"
+    },
+    {
+      "id": "iotkits_train_01377",
+      "group": "g237",
+      "original_split": "test",
+      "assigned_split": "test"
+    },
+    {
+      "id": "iotkits_train_00685",
+      "group": "g238",
+      "original_split": "val",
+      "assigned_split": "test"
+    },
+    {
+      "id": "iotkits_train_02047",
+      "group": "g238",
+      "original_split": "val",
+      "assigned_split": "test"
+    },
+    {
+      "id": "iotkits_train_00759",
+      "group": "g240",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_00855",
+      "group": "g240",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_valid_00256",
+      "group": "g240",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_00529",
+      "group": "g244",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_01165",
+      "group": "g244",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_01530",
+      "group": "g244",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_valid_00019",
+      "group": "g247",
+      "original_split": "test",
+      "assigned_split": "test"
+    },
+    {
+      "id": "iotkits_train_00175",
+      "group": "g248",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_00224",
+      "group": "g248",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_00418",
+      "group": "g248",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_02096",
+      "group": "g25",
+      "original_split": "val",
+      "assigned_split": "val"
+    },
+    {
+      "id": "iotkits_train_00193",
+      "group": "g251",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_01170",
+      "group": "g251",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_01735",
+      "group": "g251",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_00821",
+      "group": "g255",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_00637",
+      "group": "g257",
+      "original_split": "train",
+      "assigned_split": "val"
+    },
+    {
+      "id": "iotkits_train_01838",
+      "group": "g257",
+      "original_split": "train",
+      "assigned_split": "val"
+    },
+    {
+      "id": "iotkits_valid_00588",
+      "group": "g257",
+      "original_split": "train",
+      "assigned_split": "val"
+    },
+    {
+      "id": "iotkits_train_01862",
+      "group": "g26",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_02087",
+      "group": "g26",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_valid_00157",
+      "group": "g26",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_01812",
+      "group": "g260",
+      "original_split": "test",
+      "assigned_split": "test"
+    },
+    {
+      "id": "iotkits_train_01122",
+      "group": "g261",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_01341",
+      "group": "g261",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_01480",
+      "group": "g261",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_00964",
+      "group": "g264",
+      "original_split": "val",
+      "assigned_split": "test"
+    },
+    {
+      "id": "iotkits_train_00891",
+      "group": "g265",
+      "original_split": "val",
+      "assigned_split": "val"
+    },
+    {
+      "id": "iotkits_train_00445",
+      "group": "g266",
+      "original_split": "val",
+      "assigned_split": "val"
+    },
+    {
+      "id": "iotkits_train_00213",
+      "group": "g267",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_valid_00233",
+      "group": "g268",
+      "original_split": "test",
+      "assigned_split": "test"
+    },
+    {
+      "id": "iotkits_train_00114",
+      "group": "g269",
+      "original_split": "test",
+      "assigned_split": "test"
+    },
+    {
+      "id": "iotkits_valid_00012",
+      "group": "g270",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_00725",
+      "group": "g271",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_02076",
+      "group": "g271",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_valid_00426",
+      "group": "g271",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_00861",
+      "group": "g277",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_01734",
+      "group": "g277",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_02329",
+      "group": "g277",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_00132",
+      "group": "g280",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_01217",
+      "group": "g280",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_01795",
+      "group": "g280",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_00353",
+      "group": "g283",
+      "original_split": "val",
+      "assigned_split": "test"
+    },
+    {
+      "id": "iotkits_train_01647",
+      "group": "g283",
+      "original_split": "val",
+      "assigned_split": "test"
+    },
+    {
+      "id": "iotkits_train_01823",
+      "group": "g283",
+      "original_split": "val",
+      "assigned_split": "test"
+    },
+    {
+      "id": "iotkits_train_01820",
+      "group": "g286",
+      "original_split": "val",
+      "assigned_split": "val"
+    },
+    {
+      "id": "iotkits_train_00109",
+      "group": "g287",
+      "original_split": "val",
+      "assigned_split": "test"
+    },
+    {
+      "id": "iotkits_train_01128",
+      "group": "g287",
+      "original_split": "val",
+      "assigned_split": "test"
+    },
+    {
+      "id": "iotkits_valid_00406",
+      "group": "g287",
+      "original_split": "val",
+      "assigned_split": "test"
+    },
+    {
+      "id": "iotkits_train_00469",
+      "group": "g29",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_02437",
+      "group": "g29",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_00731",
+      "group": "g291",
+      "original_split": "val",
+      "assigned_split": "test"
+    },
+    {
+      "id": "iotkits_train_01719",
+      "group": "g292",
+      "original_split": "val",
+      "assigned_split": "test"
+    },
+    {
+      "id": "iotkits_valid_00591",
+      "group": "g293",
+      "original_split": "train",
+      "assigned_split": "excluded"
+    },
+    {
+      "id": "iotkits_train_00479",
+      "group": "g293",
+      "original_split": "train",
+      "assigned_split": "excluded"
+    },
+    {
+      "id": "iotkits_train_01056",
+      "group": "g293",
+      "original_split": "train",
+      "assigned_split": "excluded"
+    },
+    {
+      "id": "iotkits_train_02134",
+      "group": "g293",
+      "original_split": "train",
+      "assigned_split": "excluded"
+    },
+    {
+      "id": "iotkits_train_01388",
+      "group": "g293",
+      "original_split": "train",
+      "assigned_split": "excluded"
+    },
+    {
+      "id": "iotkits_train_00606",
+      "group": "g293",
+      "original_split": "train",
+      "assigned_split": "excluded"
+    },
+    {
+      "id": "iotkits_train_02217",
+      "group": "g293",
+      "original_split": "train",
+      "assigned_split": "excluded"
+    },
+    {
+      "id": "iotkits_valid_00554",
+      "group": "g293",
+      "original_split": "train",
+      "assigned_split": "excluded"
+    },
+    {
+      "id": "iotkits_train_00813",
+      "group": "g296",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_00973",
+      "group": "g296",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_02470",
+      "group": "g296",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_00209",
+      "group": "g299",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_02142",
+      "group": "g299",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_valid_00013",
+      "group": "g299",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_01319",
+      "group": "g302",
+      "original_split": "val",
+      "assigned_split": "val"
+    },
+    {
+      "id": "iotkits_train_00605",
+      "group": "g303",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_01312",
+      "group": "g303",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_01460",
+      "group": "g303",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_00285",
+      "group": "g307",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_00747",
+      "group": "g307",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_valid_00495",
+      "group": "g307",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_valid_00596",
+      "group": "g310",
+      "original_split": "val",
+      "assigned_split": "val"
+    },
+    {
+      "id": "iotkits_train_00257",
+      "group": "g312",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_00789",
+      "group": "g313",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_01628",
+      "group": "g313",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_02283",
+      "group": "g313",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_01191",
+      "group": "g316",
+      "original_split": "test",
+      "assigned_split": "test"
+    },
+    {
+      "id": "iotkits_valid_00042",
+      "group": "g316",
+      "original_split": "test",
+      "assigned_split": "test"
+    },
+    {
+      "id": "iotkits_train_00531",
+      "group": "g320",
+      "original_split": "val",
+      "assigned_split": "val"
+    },
+    {
+      "id": "iotkits_train_00248",
+      "group": "g321",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_00990",
+      "group": "g321",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_01014",
+      "group": "g321",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_02249",
+      "group": "g324",
+      "original_split": "val",
+      "assigned_split": "test"
+    },
+    {
+      "id": "iotkits_train_02270",
+      "group": "g324",
+      "original_split": "val",
+      "assigned_split": "test"
+    },
+    {
+      "id": "iotkits_train_00407",
+      "group": "g326",
+      "original_split": "val",
+      "assigned_split": "val"
+    },
+    {
+      "id": "iotkits_train_01492",
+      "group": "g329",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_01147",
+      "group": "g330",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_00006",
+      "group": "g331",
+      "original_split": "train",
+      "assigned_split": "excluded"
+    },
+    {
+      "id": "iotkits_train_00301",
+      "group": "g331",
+      "original_split": "train",
+      "assigned_split": "excluded"
+    },
+    {
+      "id": "iotkits_train_00429",
+      "group": "g331",
+      "original_split": "train",
+      "assigned_split": "excluded"
+    },
+    {
+      "id": "iotkits_train_00895",
+      "group": "g331",
+      "original_split": "train",
+      "assigned_split": "excluded"
+    },
+    {
+      "id": "iotkits_train_00018",
+      "group": "g334",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_00377",
+      "group": "g334",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_01693",
+      "group": "g334",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_01495",
+      "group": "g337",
+      "original_split": "train",
+      "assigned_split": "val"
+    },
+    {
+      "id": "iotkits_train_00551",
+      "group": "g337",
+      "original_split": "train",
+      "assigned_split": "val"
+    },
+    {
+      "id": "iotkits_train_02441",
+      "group": "g337",
+      "original_split": "train",
+      "assigned_split": "val"
+    },
+    {
+      "id": "iotkits_train_01458",
+      "group": "g337",
+      "original_split": "train",
+      "assigned_split": "val"
+    },
+    {
+      "id": "iotkits_train_02078",
+      "group": "g337",
+      "original_split": "train",
+      "assigned_split": "val"
+    },
+    {
+      "id": "iotkits_valid_00513",
+      "group": "g337",
+      "original_split": "train",
+      "assigned_split": "val"
+    },
+    {
+      "id": "iotkits_valid_00264",
+      "group": "g34",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_00000",
+      "group": "g340",
+      "original_split": "train",
+      "assigned_split": "val"
+    },
+    {
+      "id": "iotkits_train_01287",
+      "group": "g340",
+      "original_split": "train",
+      "assigned_split": "val"
+    },
+    {
+      "id": "iotkits_train_02447",
+      "group": "g340",
+      "original_split": "train",
+      "assigned_split": "val"
+    },
+    {
+      "id": "iotkits_train_01479",
+      "group": "g343",
+      "original_split": "test",
+      "assigned_split": "test"
+    },
+    {
+      "id": "iotkits_train_01618",
+      "group": "g344",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_02220",
+      "group": "g344",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_valid_00515",
+      "group": "g344",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_02137",
+      "group": "g347",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_02141",
+      "group": "g347",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_valid_00463",
+      "group": "g347",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_01408",
+      "group": "g35",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_01889",
+      "group": "g35",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_valid_00339",
+      "group": "g35",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_valid_00110",
+      "group": "g350",
+      "original_split": "val",
+      "assigned_split": "val"
+    },
+    {
+      "id": "iotkits_train_01227",
+      "group": "g351",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_02365",
+      "group": "g352",
+      "original_split": "test",
+      "assigned_split": "test"
+    },
+    {
+      "id": "iotkits_train_01230",
+      "group": "g353",
+      "original_split": "val",
+      "assigned_split": "test"
+    },
+    {
+      "id": "iotkits_train_01054",
+      "group": "g354",
+      "original_split": "val",
+      "assigned_split": "test"
+    },
+    {
+      "id": "iotkits_valid_00251",
+      "group": "g354",
+      "original_split": "val",
+      "assigned_split": "test"
+    },
+    {
+      "id": "iotkits_train_00294",
+      "group": "g356",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_02148",
+      "group": "g356",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_02167",
+      "group": "g356",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_01898",
+      "group": "g362",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_02444",
+      "group": "g362",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_valid_00087",
+      "group": "g362",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_01613",
+      "group": "g365",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_01925",
+      "group": "g365",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_valid_00026",
+      "group": "g365",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_01850",
+      "group": "g368",
+      "original_split": "val",
+      "assigned_split": "test"
+    },
+    {
+      "id": "iotkits_train_02057",
+      "group": "g368",
+      "original_split": "val",
+      "assigned_split": "test"
+    },
+    {
+      "id": "iotkits_valid_00184",
+      "group": "g370",
+      "original_split": "val",
+      "assigned_split": "val"
+    },
+    {
+      "id": "iotkits_train_01652",
+      "group": "g371",
+      "original_split": "test",
+      "assigned_split": "test"
+    },
+    {
+      "id": "iotkits_train_00904",
+      "group": "g371",
+      "original_split": "test",
+      "assigned_split": "test"
+    },
+    {
+      "id": "iotkits_train_02300",
+      "group": "g372",
+      "original_split": "val",
+      "assigned_split": "val"
+    },
+    {
+      "id": "iotkits_train_00558",
+      "group": "g373",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_02034",
+      "group": "g373",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_valid_00425",
+      "group": "g373",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_01978",
+      "group": "g376",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_01992",
+      "group": "g376",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_valid_00355",
+      "group": "g376",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_01315",
+      "group": "g379",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_valid_00098",
+      "group": "g379",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_valid_00542",
+      "group": "g379",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_01240",
+      "group": "g38",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_01900",
+      "group": "g38",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_00478",
+      "group": "g382",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_01569",
+      "group": "g382",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_valid_00617",
+      "group": "g382",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_02383",
+      "group": "g385",
+      "original_split": "test",
+      "assigned_split": "test"
+    },
+    {
+      "id": "iotkits_train_00071",
+      "group": "g386",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_00802",
+      "group": "g386",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_02373",
+      "group": "g386",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_valid_00020",
+      "group": "g391",
+      "original_split": "test",
+      "assigned_split": "test"
+    },
+    {
+      "id": "iotkits_train_00982",
+      "group": "g392",
+      "original_split": "val",
+      "assigned_split": "test"
+    },
+    {
+      "id": "iotkits_train_00103",
+      "group": "g392",
+      "original_split": "val",
+      "assigned_split": "test"
+    },
+    {
+      "id": "iotkits_train_00442",
+      "group": "g393",
+      "original_split": "test",
+      "assigned_split": "test"
+    },
+    {
+      "id": "iotkits_train_00838",
+      "group": "g394",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_01433",
+      "group": "g394",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_01929",
+      "group": "g394",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_01857",
+      "group": "g397",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_valid_00229",
+      "group": "g397",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_01120",
+      "group": "g399",
+      "original_split": "train",
+      "assigned_split": "val"
+    },
+    {
+      "id": "iotkits_train_01657",
+      "group": "g399",
+      "original_split": "train",
+      "assigned_split": "val"
+    },
+    {
+      "id": "iotkits_train_02185",
+      "group": "g399",
+      "original_split": "train",
+      "assigned_split": "val"
+    },
+    {
+      "id": "iotkits_train_00253",
+      "group": "g399",
+      "original_split": "train",
+      "assigned_split": "val"
+    },
+    {
+      "id": "iotkits_train_01656",
+      "group": "g399",
+      "original_split": "train",
+      "assigned_split": "val"
+    },
+    {
+      "id": "iotkits_train_01659",
+      "group": "g399",
+      "original_split": "train",
+      "assigned_split": "val"
+    },
+    {
+      "id": "iotkits_train_01454",
+      "group": "g40",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_valid_00115",
+      "group": "g40",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_valid_00427",
+      "group": "g40",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_valid_00464",
+      "group": "g402",
+      "original_split": "test",
+      "assigned_split": "test"
+    },
+    {
+      "id": "iotkits_train_01550",
+      "group": "g403",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_02202",
+      "group": "g403",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_valid_00232",
+      "group": "g403",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_00737",
+      "group": "g406",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_01084",
+      "group": "g406",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_01297",
+      "group": "g406",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_01326",
+      "group": "g409",
+      "original_split": "test",
+      "assigned_split": "test"
+    },
+    {
+      "id": "iotkits_valid_00329",
+      "group": "g410",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_valid_00388",
+      "group": "g410",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_02418",
+      "group": "g411",
+      "original_split": "test",
+      "assigned_split": "test"
+    },
+    {
+      "id": "iotkits_valid_00188",
+      "group": "g412",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_valid_00104",
+      "group": "g412",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_valid_00079",
+      "group": "g413",
+      "original_split": "test",
+      "assigned_split": "test"
+    },
+    {
+      "id": "iotkits_train_00629",
+      "group": "g414",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_00028",
+      "group": "g415",
+      "original_split": "train",
+      "assigned_split": "val"
+    },
+    {
+      "id": "iotkits_train_00400",
+      "group": "g415",
+      "original_split": "train",
+      "assigned_split": "val"
+    },
+    {
+      "id": "iotkits_train_02376",
+      "group": "g415",
+      "original_split": "train",
+      "assigned_split": "val"
+    },
+    {
+      "id": "iotkits_train_02170",
+      "group": "g418",
+      "original_split": "test",
+      "assigned_split": "test"
+    },
+    {
+      "id": "iotkits_valid_00082",
+      "group": "g419",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_valid_00303",
+      "group": "g419",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_valid_00548",
+      "group": "g419",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_00404",
+      "group": "g422",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_00818",
+      "group": "g422",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_01499",
+      "group": "g422",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_01695",
+      "group": "g425",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_01737",
+      "group": "g425",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_01761",
+      "group": "g425",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_00344",
+      "group": "g428",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_01044",
+      "group": "g428",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_01431",
+      "group": "g428",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_00070",
+      "group": "g43",
+      "original_split": "val",
+      "assigned_split": "test"
+    },
+    {
+      "id": "iotkits_train_00449",
+      "group": "g43",
+      "original_split": "val",
+      "assigned_split": "test"
+    },
+    {
+      "id": "iotkits_train_01110",
+      "group": "g43",
+      "original_split": "val",
+      "assigned_split": "test"
+    },
+    {
+      "id": "iotkits_train_01276",
+      "group": "g431",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_01949",
+      "group": "g431",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_02359",
+      "group": "g431",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_00317",
+      "group": "g434",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_00856",
+      "group": "g435",
+      "original_split": "test",
+      "assigned_split": "test"
+    },
+    {
+      "id": "iotkits_train_00117",
+      "group": "g436",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_01935",
+      "group": "g436",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_valid_00443",
+      "group": "g436",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_valid_00031",
+      "group": "g439",
+      "original_split": "test",
+      "assigned_split": "test"
+    },
+    {
+      "id": "iotkits_valid_00499",
+      "group": "g439",
+      "original_split": "test",
+      "assigned_split": "test"
+    },
+    {
+      "id": "iotkits_train_01244",
+      "group": "g444",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_01642",
+      "group": "g444",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_02095",
+      "group": "g444",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_00322",
+      "group": "g447",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_00419",
+      "group": "g447",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_02264",
+      "group": "g447",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_valid_00205",
+      "group": "g451",
+      "original_split": "val",
+      "assigned_split": "test"
+    },
+    {
+      "id": "iotkits_valid_00544",
+      "group": "g451",
+      "original_split": "val",
+      "assigned_split": "test"
+    },
+    {
+      "id": "iotkits_train_01767",
+      "group": "g455",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_02244",
+      "group": "g46",
+      "original_split": "val",
+      "assigned_split": "val"
+    },
+    {
+      "id": "iotkits_train_01568",
+      "group": "g460",
+      "original_split": "val",
+      "assigned_split": "excluded"
+    },
+    {
+      "id": "iotkits_train_01948",
+      "group": "g461",
+      "original_split": "test",
+      "assigned_split": "test"
+    },
+    {
+      "id": "iotkits_train_00896",
+      "group": "g47",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_01678",
+      "group": "g47",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_02293",
+      "group": "g47",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_00583",
+      "group": "g47",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_01554",
+      "group": "g47",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_01980",
+      "group": "g473",
+      "original_split": "test",
+      "assigned_split": "test"
+    },
+    {
+      "id": "iotkits_valid_00306",
+      "group": "g479",
+      "original_split": "val",
+      "assigned_split": "test"
+    },
+    {
+      "id": "iotkits_valid_00423",
+      "group": "g479",
+      "original_split": "val",
+      "assigned_split": "test"
+    },
+    {
+      "id": "iotkits_train_00499",
+      "group": "g481",
+      "original_split": "train",
+      "assigned_split": "excluded"
+    },
+    {
+      "id": "iotkits_train_01354",
+      "group": "g482",
+      "original_split": "val",
+      "assigned_split": "excluded"
+    },
+    {
+      "id": "iotkits_train_01298",
+      "group": "g488",
+      "original_split": "test",
+      "assigned_split": "test"
+    },
+    {
+      "id": "iotkits_train_01447",
+      "group": "g49",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_02153",
+      "group": "g49",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_valid_00585",
+      "group": "g49",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_02069",
+      "group": "g496",
+      "original_split": "val",
+      "assigned_split": "test"
+    },
+    {
+      "id": "iotkits_train_01798",
+      "group": "g496",
+      "original_split": "val",
+      "assigned_split": "test"
+    },
+    {
+      "id": "iotkits_train_00350",
+      "group": "g5",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_02419",
+      "group": "g5",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_valid_00381",
+      "group": "g5",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_01834",
+      "group": "g502",
+      "original_split": "train",
+      "assigned_split": "excluded"
+    },
+    {
+      "id": "iotkits_valid_00431",
+      "group": "g509",
+      "original_split": "test",
+      "assigned_split": "test"
+    },
+    {
+      "id": "iotkits_train_02241",
+      "group": "g511",
+      "original_split": "test",
+      "assigned_split": "test"
+    },
+    {
+      "id": "iotkits_train_01505",
+      "group": "g513",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_valid_00197",
+      "group": "g513",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_valid_00225",
+      "group": "g513",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_01575",
+      "group": "g513",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_00757",
+      "group": "g513",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_00458",
+      "group": "g513",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_00613",
+      "group": "g513",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_01968",
+      "group": "g513",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_00784",
+      "group": "g513",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_valid_00129",
+      "group": "g513",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_00722",
+      "group": "g513",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_01362",
+      "group": "g513",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_00938",
+      "group": "g513",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_01524",
+      "group": "g513",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_valid_00006",
+      "group": "g513",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_valid_00061",
+      "group": "g513",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_02050",
+      "group": "g513",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_00621",
+      "group": "g513",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_00700",
+      "group": "g513",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_01145",
+      "group": "g513",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_01086",
+      "group": "g513",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_01369",
+      "group": "g513",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_01422",
+      "group": "g513",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_00883",
+      "group": "g513",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_valid_00000",
+      "group": "g513",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_valid_00614",
+      "group": "g513",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_02438",
+      "group": "g513",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_00955",
+      "group": "g513",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_00519",
+      "group": "g513",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_02295",
+      "group": "g513",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_01426",
+      "group": "g513",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_02079",
+      "group": "g513",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_00555",
+      "group": "g513",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_02321",
+      "group": "g515",
+      "original_split": "test",
+      "assigned_split": "test"
+    },
+    {
+      "id": "iotkits_train_00201",
+      "group": "g52",
+      "original_split": "val",
+      "assigned_split": "test"
+    },
+    {
+      "id": "iotkits_train_01397",
+      "group": "g52",
+      "original_split": "val",
+      "assigned_split": "test"
+    },
+    {
+      "id": "iotkits_train_01702",
+      "group": "g521",
+      "original_split": "val",
+      "assigned_split": "excluded"
+    },
+    {
+      "id": "iotkits_valid_00367",
+      "group": "g523",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_02042",
+      "group": "g523",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_01087",
+      "group": "g523",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_01858",
+      "group": "g523",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_02097",
+      "group": "g523",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_02267",
+      "group": "g523",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_01427",
+      "group": "g523",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_01661",
+      "group": "g523",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_01861",
+      "group": "g523",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_00131",
+      "group": "g523",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_00630",
+      "group": "g523",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_00158",
+      "group": "g523",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_00690",
+      "group": "g523",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_01396",
+      "group": "g523",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_01849",
+      "group": "g523",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_01048",
+      "group": "g523",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_00470",
+      "group": "g523",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_01164",
+      "group": "g523",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_02251",
+      "group": "g523",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_02150",
+      "group": "g523",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_02208",
+      "group": "g523",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_00330",
+      "group": "g523",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_valid_00069",
+      "group": "g523",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_00535",
+      "group": "g523",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_00008",
+      "group": "g523",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_00247",
+      "group": "g523",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_02481",
+      "group": "g523",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_02077",
+      "group": "g524",
+      "original_split": "val",
+      "assigned_split": "val"
+    },
+    {
+      "id": "iotkits_train_00009",
+      "group": "g528",
+      "original_split": "test",
+      "assigned_split": "test"
+    },
+    {
+      "id": "iotkits_valid_00360",
+      "group": "g529",
+      "original_split": "val",
+      "assigned_split": "test"
+    },
+    {
+      "id": "iotkits_valid_00424",
+      "group": "g529",
+      "original_split": "val",
+      "assigned_split": "test"
+    },
+    {
+      "id": "iotkits_train_00991",
+      "group": "g529",
+      "original_split": "val",
+      "assigned_split": "test"
+    },
+    {
+      "id": "iotkits_valid_00387",
+      "group": "g530",
+      "original_split": "val",
+      "assigned_split": "val"
+    },
+    {
+      "id": "iotkits_train_01253",
+      "group": "g531",
+      "original_split": "val",
+      "assigned_split": "val"
+    },
+    {
+      "id": "iotkits_train_01531",
+      "group": "g532",
+      "original_split": "test",
+      "assigned_split": "test"
+    },
+    {
+      "id": "iotkits_train_00174",
+      "group": "g533",
+      "original_split": "test",
+      "assigned_split": "test"
+    },
+    {
+      "id": "iotkits_train_01243",
+      "group": "g533",
+      "original_split": "test",
+      "assigned_split": "test"
+    },
+    {
+      "id": "iotkits_train_00625",
+      "group": "g54",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_00873",
+      "group": "g54",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_valid_00227",
+      "group": "g54",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_00496",
+      "group": "g545",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_valid_00016",
+      "group": "g547",
+      "original_split": "train",
+      "assigned_split": "val"
+    },
+    {
+      "id": "iotkits_valid_00117",
+      "group": "g547",
+      "original_split": "train",
+      "assigned_split": "val"
+    },
+    {
+      "id": "iotkits_train_00924",
+      "group": "g547",
+      "original_split": "train",
+      "assigned_split": "val"
+    },
+    {
+      "id": "iotkits_train_00187",
+      "group": "g547",
+      "original_split": "train",
+      "assigned_split": "val"
+    },
+    {
+      "id": "iotkits_train_00295",
+      "group": "g547",
+      "original_split": "train",
+      "assigned_split": "val"
+    },
+    {
+      "id": "iotkits_train_02343",
+      "group": "g547",
+      "original_split": "train",
+      "assigned_split": "val"
+    },
+    {
+      "id": "iotkits_valid_00557",
+      "group": "g547",
+      "original_split": "train",
+      "assigned_split": "val"
+    },
+    {
+      "id": "iotkits_train_02207",
+      "group": "g547",
+      "original_split": "train",
+      "assigned_split": "val"
+    },
+    {
+      "id": "iotkits_train_00347",
+      "group": "g547",
+      "original_split": "train",
+      "assigned_split": "val"
+    },
+    {
+      "id": "iotkits_train_01126",
+      "group": "g547",
+      "original_split": "train",
+      "assigned_split": "val"
+    },
+    {
+      "id": "iotkits_train_02389",
+      "group": "g547",
+      "original_split": "train",
+      "assigned_split": "val"
+    },
+    {
+      "id": "iotkits_train_02411",
+      "group": "g550",
+      "original_split": "val",
+      "assigned_split": "val"
+    },
+    {
+      "id": "iotkits_train_01392",
+      "group": "g551",
+      "original_split": "val",
+      "assigned_split": "val"
+    },
+    {
+      "id": "iotkits_train_01452",
+      "group": "g552",
+      "original_split": "test",
+      "assigned_split": "test"
+    },
+    {
+      "id": "iotkits_valid_00389",
+      "group": "g553",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_00145",
+      "group": "g555",
+      "original_split": "test",
+      "assigned_split": "test"
+    },
+    {
+      "id": "iotkits_train_02456",
+      "group": "g556",
+      "original_split": "val",
+      "assigned_split": "test"
+    },
+    {
+      "id": "iotkits_train_01357",
+      "group": "g557",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_01770",
+      "group": "g557",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_00337",
+      "group": "g559",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_01307",
+      "group": "g559",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_01462",
+      "group": "g559",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_00063",
+      "group": "g562",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_valid_00468",
+      "group": "g562",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_00022",
+      "group": "g564",
+      "original_split": "train",
+      "assigned_split": "val"
+    },
+    {
+      "id": "iotkits_train_01954",
+      "group": "g564",
+      "original_split": "train",
+      "assigned_split": "val"
+    },
+    {
+      "id": "iotkits_train_02474",
+      "group": "g564",
+      "original_split": "train",
+      "assigned_split": "val"
+    },
+    {
+      "id": "iotkits_train_00033",
+      "group": "g564",
+      "original_split": "train",
+      "assigned_split": "val"
+    },
+    {
+      "id": "iotkits_train_00036",
+      "group": "g564",
+      "original_split": "train",
+      "assigned_split": "val"
+    },
+    {
+      "id": "iotkits_train_01405",
+      "group": "g566",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_valid_00189",
+      "group": "g566",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_01040",
+      "group": "g568",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_00933",
+      "group": "g569",
+      "original_split": "val",
+      "assigned_split": "test"
+    },
+    {
+      "id": "iotkits_train_00639",
+      "group": "g57",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_01140",
+      "group": "g57",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_valid_00558",
+      "group": "g57",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_valid_00368",
+      "group": "g570",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_01144",
+      "group": "g571",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_01941",
+      "group": "g572",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_02091",
+      "group": "g573",
+      "original_split": "val",
+      "assigned_split": "val"
+    },
+    {
+      "id": "iotkits_valid_00580",
+      "group": "g575",
+      "original_split": "val",
+      "assigned_split": "test"
+    },
+    {
+      "id": "iotkits_train_02146",
+      "group": "g576",
+      "original_split": "test",
+      "assigned_split": "test"
+    },
+    {
+      "id": "iotkits_train_01777",
+      "group": "g577",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_01385",
+      "group": "g578",
+      "original_split": "train",
+      "assigned_split": "excluded"
+    },
+    {
+      "id": "iotkits_train_01390",
+      "group": "g578",
+      "original_split": "train",
+      "assigned_split": "excluded"
+    },
+    {
+      "id": "iotkits_train_02106",
+      "group": "g578",
+      "original_split": "train",
+      "assigned_split": "excluded"
+    },
+    {
+      "id": "iotkits_train_00046",
+      "group": "g578",
+      "original_split": "train",
+      "assigned_split": "excluded"
+    },
+    {
+      "id": "iotkits_train_01876",
+      "group": "g578",
+      "original_split": "train",
+      "assigned_split": "excluded"
+    },
+    {
+      "id": "iotkits_train_02406",
+      "group": "g578",
+      "original_split": "train",
+      "assigned_split": "excluded"
+    },
+    {
+      "id": "iotkits_train_00305",
+      "group": "g581",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_00506",
+      "group": "g581",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_00426",
+      "group": "g583",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_00696",
+      "group": "g583",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_02031",
+      "group": "g583",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_00538",
+      "group": "g586",
+      "original_split": "test",
+      "assigned_split": "test"
+    },
+    {
+      "id": "iotkits_train_02245",
+      "group": "g587",
+      "original_split": "val",
+      "assigned_split": "test"
+    },
+    {
+      "id": "iotkits_train_00138",
+      "group": "g590",
+      "original_split": "test",
+      "assigned_split": "test"
+    },
+    {
+      "id": "iotkits_valid_00302",
+      "group": "g591",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_valid_00085",
+      "group": "g593",
+      "original_split": "val",
+      "assigned_split": "test"
+    },
+    {
+      "id": "iotkits_train_01228",
+      "group": "g594",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_00570",
+      "group": "g599",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_01658",
+      "group": "g599",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_02443",
+      "group": "g599",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_valid_00342",
+      "group": "g599",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_01400",
+      "group": "g60",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_01352",
+      "group": "g603",
+      "original_split": "val",
+      "assigned_split": "val"
+    },
+    {
+      "id": "iotkits_train_02019",
+      "group": "g604",
+      "original_split": "test",
+      "assigned_split": "test"
+    },
+    {
+      "id": "iotkits_train_01994",
+      "group": "g605",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_01008",
+      "group": "g606",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_01567",
+      "group": "g606",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_valid_00395",
+      "group": "g608",
+      "original_split": "val",
+      "assigned_split": "test"
+    },
+    {
+      "id": "iotkits_train_00564",
+      "group": "g609",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_02230",
+      "group": "g61",
+      "original_split": "val",
+      "assigned_split": "val"
+    },
+    {
+      "id": "iotkits_train_01609",
+      "group": "g611",
+      "original_split": "test",
+      "assigned_split": "test"
+    },
+    {
+      "id": "iotkits_train_00975",
+      "group": "g612",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_01646",
+      "group": "g613",
+      "original_split": "val",
+      "assigned_split": "test"
+    },
+    {
+      "id": "iotkits_train_01055",
+      "group": "g614",
+      "original_split": "val",
+      "assigned_split": "test"
+    },
+    {
+      "id": "iotkits_train_00768",
+      "group": "g615",
+      "original_split": "val",
+      "assigned_split": "test"
+    },
+    {
+      "id": "iotkits_train_01872",
+      "group": "g617",
+      "original_split": "val",
+      "assigned_split": "val"
+    },
+    {
+      "id": "iotkits_train_00997",
+      "group": "g62",
+      "original_split": "val",
+      "assigned_split": "val"
+    },
+    {
+      "id": "iotkits_train_01197",
+      "group": "g62",
+      "original_split": "val",
+      "assigned_split": "val"
+    },
+    {
+      "id": "iotkits_train_01210",
+      "group": "g62",
+      "original_split": "val",
+      "assigned_split": "val"
+    },
+    {
+      "id": "iotkits_train_01256",
+      "group": "g620",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_01640",
+      "group": "g621",
+      "original_split": "test",
+      "assigned_split": "test"
+    },
+    {
+      "id": "iotkits_train_00675",
+      "group": "g622",
+      "original_split": "val",
+      "assigned_split": "test"
+    },
+    {
+      "id": "iotkits_train_02248",
+      "group": "g623",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_00002",
+      "group": "g625",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_01673",
+      "group": "g625",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_02232",
+      "group": "g625",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_00251",
+      "group": "g628",
+      "original_split": "train",
+      "assigned_split": "excluded"
+    },
+    {
+      "id": "iotkits_train_01726",
+      "group": "g628",
+      "original_split": "train",
+      "assigned_split": "excluded"
+    },
+    {
+      "id": "iotkits_valid_00240",
+      "group": "g628",
+      "original_split": "train",
+      "assigned_split": "excluded"
+    },
+    {
+      "id": "iotkits_train_00604",
+      "group": "g628",
+      "original_split": "train",
+      "assigned_split": "excluded"
+    },
+    {
+      "id": "iotkits_valid_00080",
+      "group": "g628",
+      "original_split": "train",
+      "assigned_split": "excluded"
+    },
+    {
+      "id": "iotkits_valid_00242",
+      "group": "g628",
+      "original_split": "train",
+      "assigned_split": "excluded"
+    },
+    {
+      "id": "iotkits_train_01860",
+      "group": "g631",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_02018",
+      "group": "g631",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_valid_00434",
+      "group": "g631",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_00113",
+      "group": "g634",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_01289",
+      "group": "g634",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_valid_00307",
+      "group": "g634",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_00588",
+      "group": "g637",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_01077",
+      "group": "g637",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_02461",
+      "group": "g637",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_valid_00156",
+      "group": "g640",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_valid_00482",
+      "group": "g641",
+      "original_split": "val",
+      "assigned_split": "val"
+    },
+    {
+      "id": "iotkits_train_02316",
+      "group": "g642",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_01335",
+      "group": "g642",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_02029",
+      "group": "g643",
+      "original_split": "test",
+      "assigned_split": "test"
+    },
+    {
+      "id": "iotkits_train_01743",
+      "group": "g644",
+      "original_split": "val",
+      "assigned_split": "val"
+    },
+    {
+      "id": "iotkits_train_01423",
+      "group": "g645",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_02396",
+      "group": "g646",
+      "original_split": "val",
+      "assigned_split": "val"
+    },
+    {
+      "id": "iotkits_train_00618",
+      "group": "g648",
+      "original_split": "test",
+      "assigned_split": "test"
+    },
+    {
+      "id": "iotkits_train_00206",
+      "group": "g649",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_02363",
+      "group": "g649",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_01195",
+      "group": "g65",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_01318",
+      "group": "g65",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_01946",
+      "group": "g65",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_00274",
+      "group": "g651",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_00567",
+      "group": "g651",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_01688",
+      "group": "g651",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_02176",
+      "group": "g654",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_valid_00333",
+      "group": "g654",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_01316",
+      "group": "g656",
+      "original_split": "train",
+      "assigned_split": "val"
+    },
+    {
+      "id": "iotkits_train_01359",
+      "group": "g656",
+      "original_split": "train",
+      "assigned_split": "val"
+    },
+    {
+      "id": "iotkits_train_02138",
+      "group": "g656",
+      "original_split": "train",
+      "assigned_split": "val"
+    },
+    {
+      "id": "iotkits_valid_00051",
+      "group": "g656",
+      "original_split": "train",
+      "assigned_split": "val"
+    },
+    {
+      "id": "iotkits_train_00231",
+      "group": "g659",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_01764",
+      "group": "g660",
+      "original_split": "val",
+      "assigned_split": "val"
+    },
+    {
+      "id": "iotkits_train_02387",
+      "group": "g661",
+      "original_split": "test",
+      "assigned_split": "test"
+    },
+    {
+      "id": "iotkits_train_02203",
+      "group": "g662",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_valid_00021",
+      "group": "g664",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_02027",
+      "group": "g664",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_valid_00550",
+      "group": "g665",
+      "original_split": "val",
+      "assigned_split": "val"
+    },
+    {
+      "id": "iotkits_train_01608",
+      "group": "g666",
+      "original_split": "val",
+      "assigned_split": "val"
+    },
+    {
+      "id": "iotkits_train_01894",
+      "group": "g667",
+      "original_split": "test",
+      "assigned_split": "test"
+    },
+    {
+      "id": "iotkits_train_00434",
+      "group": "g668",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_00626",
+      "group": "g668",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_01714",
+      "group": "g668",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_00660",
+      "group": "g671",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_00721",
+      "group": "g671",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_02430",
+      "group": "g671",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_00381",
+      "group": "g674",
+      "original_split": "train",
+      "assigned_split": "val"
+    },
+    {
+      "id": "iotkits_train_00743",
+      "group": "g674",
+      "original_split": "train",
+      "assigned_split": "val"
+    },
+    {
+      "id": "iotkits_train_00978",
+      "group": "g674",
+      "original_split": "train",
+      "assigned_split": "val"
+    },
+    {
+      "id": "iotkits_valid_00299",
+      "group": "g674",
+      "original_split": "train",
+      "assigned_split": "val"
+    },
+    {
+      "id": "iotkits_train_00864",
+      "group": "g678",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_01360",
+      "group": "g678",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_01437",
+      "group": "g678",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_00816",
+      "group": "g68",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_01131",
+      "group": "g68",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_00029",
+      "group": "g681",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_00171",
+      "group": "g682",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_00195",
+      "group": "g683",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_02056",
+      "group": "g683",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_01050",
+      "group": "g684",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_01824",
+      "group": "g685",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_01331",
+      "group": "g685",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_00961",
+      "group": "g686",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_00222",
+      "group": "g687",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_01259",
+      "group": "g687",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_valid_00519",
+      "group": "g688",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_01401",
+      "group": "g688",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_01239",
+      "group": "g689",
+      "original_split": "val",
+      "assigned_split": "test"
+    },
+    {
+      "id": "iotkits_train_01506",
+      "group": "g690",
+      "original_split": "test",
+      "assigned_split": "test"
+    },
+    {
+      "id": "iotkits_valid_00023",
+      "group": "g691",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_valid_00331",
+      "group": "g691",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_00327",
+      "group": "g693",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_valid_00458",
+      "group": "g693",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_00093",
+      "group": "g695",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_02296",
+      "group": "g695",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_00013",
+      "group": "g697",
+      "original_split": "test",
+      "assigned_split": "test"
+    },
+    {
+      "id": "iotkits_train_02026",
+      "group": "g698",
+      "original_split": "val",
+      "assigned_split": "val"
+    },
+    {
+      "id": "iotkits_train_02242",
+      "group": "g699",
+      "original_split": "test",
+      "assigned_split": "test"
+    },
+    {
+      "id": "iotkits_train_00339",
+      "group": "g700",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_00835",
+      "group": "g700",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_00545",
+      "group": "g701",
+      "original_split": "test",
+      "assigned_split": "test"
+    },
+    {
+      "id": "iotkits_valid_00522",
+      "group": "g703",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_01372",
+      "group": "g703",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_01781",
+      "group": "g704",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_00225",
+      "group": "g705",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_00510",
+      "group": "g705",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_01686",
+      "group": "g705",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_01721",
+      "group": "g708",
+      "original_split": "train",
+      "assigned_split": "excluded"
+    },
+    {
+      "id": "iotkits_train_02318",
+      "group": "g708",
+      "original_split": "train",
+      "assigned_split": "excluded"
+    },
+    {
+      "id": "iotkits_valid_00041",
+      "group": "g708",
+      "original_split": "train",
+      "assigned_split": "excluded"
+    },
+    {
+      "id": "iotkits_train_00508",
+      "group": "g708",
+      "original_split": "train",
+      "assigned_split": "excluded"
+    },
+    {
+      "id": "iotkits_train_00532",
+      "group": "g708",
+      "original_split": "train",
+      "assigned_split": "excluded"
+    },
+    {
+      "id": "iotkits_train_01802",
+      "group": "g708",
+      "original_split": "train",
+      "assigned_split": "excluded"
+    },
+    {
+      "id": "iotkits_train_01486",
+      "group": "g711",
+      "original_split": "test",
+      "assigned_split": "test"
+    },
+    {
+      "id": "iotkits_train_00699",
+      "group": "g712",
+      "original_split": "train",
+      "assigned_split": "val"
+    },
+    {
+      "id": "iotkits_train_01616",
+      "group": "g712",
+      "original_split": "train",
+      "assigned_split": "val"
+    },
+    {
+      "id": "iotkits_valid_00086",
+      "group": "g712",
+      "original_split": "train",
+      "assigned_split": "val"
+    },
+    {
+      "id": "iotkits_valid_00419",
+      "group": "g712",
+      "original_split": "train",
+      "assigned_split": "val"
+    },
+    {
+      "id": "iotkits_train_01723",
+      "group": "g716",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_01837",
+      "group": "g716",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_02075",
+      "group": "g716",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_00788",
+      "group": "g719",
+      "original_split": "test",
+      "assigned_split": "test"
+    },
+    {
+      "id": "iotkits_train_00970",
+      "group": "g720",
+      "original_split": "val",
+      "assigned_split": "test"
+    },
+    {
+      "id": "iotkits_train_00485",
+      "group": "g721",
+      "original_split": "test",
+      "assigned_split": "test"
+    },
+    {
+      "id": "iotkits_valid_00460",
+      "group": "g722",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_valid_00595",
+      "group": "g723",
+      "original_split": "val",
+      "assigned_split": "test"
+    },
+    {
+      "id": "iotkits_valid_00245",
+      "group": "g724",
+      "original_split": "val",
+      "assigned_split": "val"
+    },
+    {
+      "id": "iotkits_valid_00574",
+      "group": "g725",
+      "original_split": "test",
+      "assigned_split": "test"
+    },
+    {
+      "id": "iotkits_train_00797",
+      "group": "g726",
+      "original_split": "val",
+      "assigned_split": "test"
+    },
+    {
+      "id": "iotkits_train_01602",
+      "group": "g726",
+      "original_split": "val",
+      "assigned_split": "test"
+    },
+    {
+      "id": "iotkits_train_01638",
+      "group": "g727",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_02386",
+      "group": "g727",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_valid_00062",
+      "group": "g727",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_00041",
+      "group": "g73",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_01959",
+      "group": "g73",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_valid_00313",
+      "group": "g73",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_01327",
+      "group": "g730",
+      "original_split": "val",
+      "assigned_split": "test"
+    },
+    {
+      "id": "iotkits_valid_00216",
+      "group": "g730",
+      "original_split": "val",
+      "assigned_split": "test"
+    },
+    {
+      "id": "iotkits_train_02340",
+      "group": "g732",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_valid_00391",
+      "group": "g732",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_01589",
+      "group": "g734",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_02374",
+      "group": "g734",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_00663",
+      "group": "g736",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_02280",
+      "group": "g736",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_valid_00396",
+      "group": "g736",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_00351",
+      "group": "g739",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_01219",
+      "group": "g739",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_valid_00095",
+      "group": "g739",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_00825",
+      "group": "g743",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_00566",
+      "group": "g743",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_valid_00278",
+      "group": "g744",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_01149",
+      "group": "g744",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_00398",
+      "group": "g745",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_02265",
+      "group": "g746",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_01466",
+      "group": "g746",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_01875",
+      "group": "g747",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_01473",
+      "group": "g747",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_00335",
+      "group": "g748",
+      "original_split": "val",
+      "assigned_split": "val"
+    },
+    {
+      "id": "iotkits_valid_00444",
+      "group": "g749",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_00652",
+      "group": "g750",
+      "original_split": "test",
+      "assigned_split": "test"
+    },
+    {
+      "id": "iotkits_train_00281",
+      "group": "g751",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_00289",
+      "group": "g751",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_00636",
+      "group": "g751",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_00956",
+      "group": "g751",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_01967",
+      "group": "g751",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_02243",
+      "group": "g751",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_02341",
+      "group": "g751",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_valid_00274",
+      "group": "g751",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_00326",
+      "group": "g759",
+      "original_split": "test",
+      "assigned_split": "test"
+    },
+    {
+      "id": "iotkits_valid_00568",
+      "group": "g76",
+      "original_split": "test",
+      "assigned_split": "test"
+    },
+    {
+      "id": "iotkits_train_00748",
+      "group": "g760",
+      "original_split": "val",
+      "assigned_split": "test"
+    },
+    {
+      "id": "iotkits_train_00067",
+      "group": "g761",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_00543",
+      "group": "g761",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_00569",
+      "group": "g761",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_00931",
+      "group": "g761",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_01196",
+      "group": "g761",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_01266",
+      "group": "g761",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_01356",
+      "group": "g761",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_01784",
+      "group": "g761",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_01866",
+      "group": "g761",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_02114",
+      "group": "g761",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_02219",
+      "group": "g761",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_00761",
+      "group": "g77",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_01224",
+      "group": "g77",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_valid_00060",
+      "group": "g77",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_01710",
+      "group": "g772",
+      "original_split": "test",
+      "assigned_split": "test"
+    },
+    {
+      "id": "iotkits_train_01757",
+      "group": "g773",
+      "original_split": "val",
+      "assigned_split": "test"
+    },
+    {
+      "id": "iotkits_train_00124",
+      "group": "g774",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_00219",
+      "group": "g774",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_00283",
+      "group": "g774",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_00965",
+      "group": "g774",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_01604",
+      "group": "g774",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_02260",
+      "group": "g774",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_00286",
+      "group": "g781",
+      "original_split": "test",
+      "assigned_split": "test"
+    },
+    {
+      "id": "iotkits_train_01037",
+      "group": "g782",
+      "original_split": "val",
+      "assigned_split": "test"
+    },
+    {
+      "id": "iotkits_train_02144",
+      "group": "g782",
+      "original_split": "val",
+      "assigned_split": "test"
+    },
+    {
+      "id": "iotkits_valid_00455",
+      "group": "g782",
+      "original_split": "val",
+      "assigned_split": "test"
+    },
+    {
+      "id": "iotkits_train_01691",
+      "group": "g785",
+      "original_split": "train",
+      "assigned_split": "excluded"
+    },
+    {
+      "id": "iotkits_train_02011",
+      "group": "g786",
+      "original_split": "test",
+      "assigned_split": "test"
+    },
+    {
+      "id": "iotkits_train_00050",
+      "group": "g787",
+      "original_split": "train",
+      "assigned_split": "val"
+    },
+    {
+      "id": "iotkits_train_00055",
+      "group": "g787",
+      "original_split": "train",
+      "assigned_split": "val"
+    },
+    {
+      "id": "iotkits_train_00929",
+      "group": "g787",
+      "original_split": "train",
+      "assigned_split": "val"
+    },
+    {
+      "id": "iotkits_train_00981",
+      "group": "g787",
+      "original_split": "train",
+      "assigned_split": "val"
+    },
+    {
+      "id": "iotkits_train_01060",
+      "group": "g787",
+      "original_split": "train",
+      "assigned_split": "val"
+    },
+    {
+      "id": "iotkits_train_01429",
+      "group": "g787",
+      "original_split": "train",
+      "assigned_split": "val"
+    },
+    {
+      "id": "iotkits_train_01712",
+      "group": "g787",
+      "original_split": "train",
+      "assigned_split": "val"
+    },
+    {
+      "id": "iotkits_train_02178",
+      "group": "g787",
+      "original_split": "train",
+      "assigned_split": "val"
+    },
+    {
+      "id": "iotkits_valid_00231",
+      "group": "g787",
+      "original_split": "train",
+      "assigned_split": "val"
+    },
+    {
+      "id": "iotkits_valid_00301",
+      "group": "g787",
+      "original_split": "train",
+      "assigned_split": "val"
+    },
+    {
+      "id": "iotkits_valid_00494",
+      "group": "g787",
+      "original_split": "train",
+      "assigned_split": "val"
+    },
+    {
+      "id": "iotkits_valid_00584",
+      "group": "g787",
+      "original_split": "train",
+      "assigned_split": "val"
+    },
+    {
+      "id": "iotkits_train_00349",
+      "group": "g799",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_00004",
+      "group": "g8",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_00314",
+      "group": "g8",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_valid_00507",
+      "group": "g8",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_00984",
+      "group": "g80",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_02268",
+      "group": "g80",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_valid_00618",
+      "group": "g80",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_00976",
+      "group": "g80",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_valid_00340",
+      "group": "g80",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_00254",
+      "group": "g800",
+      "original_split": "test",
+      "assigned_split": "test"
+    },
+    {
+      "id": "iotkits_train_00279",
+      "group": "g801",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_00341",
+      "group": "g801",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_00518",
+      "group": "g801",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_01340",
+      "group": "g801",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_01539",
+      "group": "g801",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_01596",
+      "group": "g801",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_01779",
+      "group": "g801",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_02156",
+      "group": "g801",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_valid_00182",
+      "group": "g801",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_valid_00187",
+      "group": "g801",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_valid_00398",
+      "group": "g801",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_valid_00017",
+      "group": "g812",
+      "original_split": "test",
+      "assigned_split": "test"
+    },
+    {
+      "id": "iotkits_train_00616",
+      "group": "g813",
+      "original_split": "test",
+      "assigned_split": "test"
+    },
+    {
+      "id": "iotkits_train_00130",
+      "group": "g814",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_00167",
+      "group": "g814",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_00645",
+      "group": "g814",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_01085",
+      "group": "g814",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_01263",
+      "group": "g814",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_01324",
+      "group": "g814",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_01747",
+      "group": "g814",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_01934",
+      "group": "g814",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_02155",
+      "group": "g814",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_02177",
+      "group": "g814",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_02161",
+      "group": "g82",
+      "original_split": "test",
+      "assigned_split": "test"
+    },
+    {
+      "id": "iotkits_train_01885",
+      "group": "g824",
+      "original_split": "val",
+      "assigned_split": "test"
+    },
+    {
+      "id": "iotkits_train_00014",
+      "group": "g825",
+      "original_split": "train",
+      "assigned_split": "excluded"
+    },
+    {
+      "id": "iotkits_train_00095",
+      "group": "g825",
+      "original_split": "train",
+      "assigned_split": "excluded"
+    },
+    {
+      "id": "iotkits_train_00136",
+      "group": "g825",
+      "original_split": "train",
+      "assigned_split": "excluded"
+    },
+    {
+      "id": "iotkits_train_00463",
+      "group": "g825",
+      "original_split": "train",
+      "assigned_split": "excluded"
+    },
+    {
+      "id": "iotkits_train_01150",
+      "group": "g825",
+      "original_split": "train",
+      "assigned_split": "excluded"
+    },
+    {
+      "id": "iotkits_train_01490",
+      "group": "g825",
+      "original_split": "train",
+      "assigned_split": "excluded"
+    },
+    {
+      "id": "iotkits_train_02221",
+      "group": "g825",
+      "original_split": "train",
+      "assigned_split": "excluded"
+    },
+    {
+      "id": "iotkits_train_02433",
+      "group": "g825",
+      "original_split": "train",
+      "assigned_split": "excluded"
+    },
+    {
+      "id": "iotkits_valid_00037",
+      "group": "g825",
+      "original_split": "train",
+      "assigned_split": "excluded"
+    },
+    {
+      "id": "iotkits_valid_00275",
+      "group": "g825",
+      "original_split": "train",
+      "assigned_split": "excluded"
+    },
+    {
+      "id": "iotkits_valid_00555",
+      "group": "g825",
+      "original_split": "train",
+      "assigned_split": "excluded"
+    },
+    {
+      "id": "iotkits_train_01220",
+      "group": "g83",
+      "original_split": "test",
+      "assigned_split": "test"
+    },
+    {
+      "id": "iotkits_train_01222",
+      "group": "g83",
+      "original_split": "test",
+      "assigned_split": "test"
+    },
+    {
+      "id": "iotkits_train_01917",
+      "group": "g836",
+      "original_split": "test",
+      "assigned_split": "test"
+    },
+    {
+      "id": "iotkits_train_01493",
+      "group": "g838",
+      "original_split": "val",
+      "assigned_split": "test"
+    },
+    {
+      "id": "iotkits_valid_00318",
+      "group": "g839",
+      "original_split": "val",
+      "assigned_split": "test"
+    },
+    {
+      "id": "iotkits_valid_00529",
+      "group": "g839",
+      "original_split": "val",
+      "assigned_split": "test"
+    },
+    {
+      "id": "iotkits_train_00031",
+      "group": "g840",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_valid_00572",
+      "group": "g841",
+      "original_split": "val",
+      "assigned_split": "val"
+    },
+    {
+      "id": "iotkits_train_00062",
+      "group": "g842",
+      "original_split": "val",
+      "assigned_split": "val"
+    },
+    {
+      "id": "iotkits_train_00202",
+      "group": "g843",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_01041",
+      "group": "g843",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_01203",
+      "group": "g843",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_01225",
+      "group": "g843",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_01284",
+      "group": "g843",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_01615",
+      "group": "g843",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_02229",
+      "group": "g843",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_valid_00304",
+      "group": "g843",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_valid_00503",
+      "group": "g843",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_00987",
+      "group": "g85",
+      "original_split": "test",
+      "assigned_split": "test"
+    },
+    {
+      "id": "iotkits_train_00516",
+      "group": "g852",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_00122",
+      "group": "g853",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_00250",
+      "group": "g853",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_00486",
+      "group": "g853",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_00523",
+      "group": "g853",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_00767",
+      "group": "g853",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_01438",
+      "group": "g853",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_01700",
+      "group": "g853",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_01909",
+      "group": "g853",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_02237",
+      "group": "g853",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_valid_00332",
+      "group": "g853",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_valid_00565",
+      "group": "g853",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_00053",
+      "group": "g86",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_01660",
+      "group": "g86",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_02014",
+      "group": "g86",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_00188",
+      "group": "g864",
+      "original_split": "train",
+      "assigned_split": "excluded"
+    },
+    {
+      "id": "iotkits_train_00559",
+      "group": "g865",
+      "original_split": "val",
+      "assigned_split": "test"
+    },
+    {
+      "id": "iotkits_train_00826",
+      "group": "g865",
+      "original_split": "val",
+      "assigned_split": "test"
+    },
+    {
+      "id": "iotkits_train_01768",
+      "group": "g867",
+      "original_split": "test",
+      "assigned_split": "test"
+    },
+    {
+      "id": "iotkits_train_00640",
+      "group": "g868",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_01336",
+      "group": "g868",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_valid_00477",
+      "group": "g868",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_valid_00466",
+      "group": "g871",
+      "original_split": "val",
+      "assigned_split": "test"
+    },
+    {
+      "id": "iotkits_train_01742",
+      "group": "g872",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_01635",
+      "group": "g873",
+      "original_split": "val",
+      "assigned_split": "test"
+    },
+    {
+      "id": "iotkits_train_02345",
+      "group": "g874",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_00376",
+      "group": "g875",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_00988",
+      "group": "g876",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_02362",
+      "group": "g877",
+      "original_split": "test",
+      "assigned_split": "test"
+    },
+    {
+      "id": "iotkits_train_00189",
+      "group": "g878",
+      "original_split": "test",
+      "assigned_split": "test"
+    },
+    {
+      "id": "iotkits_train_00092",
+      "group": "g879",
+      "original_split": "val",
+      "assigned_split": "val"
+    },
+    {
+      "id": "iotkits_train_02225",
+      "group": "g880",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_valid_00030",
+      "group": "g881",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_valid_00344",
+      "group": "g881",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_01962",
+      "group": "g883",
+      "original_split": "val",
+      "assigned_split": "val"
+    },
+    {
+      "id": "iotkits_train_01264",
+      "group": "g885",
+      "original_split": "test",
+      "assigned_split": "test"
+    },
+    {
+      "id": "iotkits_valid_00052",
+      "group": "g886",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_02223",
+      "group": "g887",
+      "original_split": "val",
+      "assigned_split": "test"
+    },
+    {
+      "id": "iotkits_valid_00581",
+      "group": "g888",
+      "original_split": "val",
+      "assigned_split": "val"
+    },
+    {
+      "id": "iotkits_valid_00456",
+      "group": "g889",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_00974",
+      "group": "g89",
+      "original_split": "val",
+      "assigned_split": "val"
+    },
+    {
+      "id": "iotkits_valid_00441",
+      "group": "g890",
+      "original_split": "val",
+      "assigned_split": "val"
+    },
+    {
+      "id": "iotkits_train_02135",
+      "group": "g891",
+      "original_split": "val",
+      "assigned_split": "val"
+    },
+    {
+      "id": "iotkits_train_01275",
+      "group": "g892",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_01587",
+      "group": "g893",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_valid_00607",
+      "group": "g895",
+      "original_split": "test",
+      "assigned_split": "test"
+    },
+    {
+      "id": "iotkits_train_02351",
+      "group": "g896",
+      "original_split": "val",
+      "assigned_split": "val"
+    },
+    {
+      "id": "iotkits_train_01383",
+      "group": "g897",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_01108",
+      "group": "g898",
+      "original_split": "test",
+      "assigned_split": "test"
+    },
+    {
+      "id": "iotkits_train_00382",
+      "group": "g90",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_00655",
+      "group": "g90",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_00684",
+      "group": "g90",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_00214",
+      "group": "g900",
+      "original_split": "train",
+      "assigned_split": "test"
+    },
+    {
+      "id": "iotkits_valid_00126",
+      "group": "g900",
+      "original_split": "train",
+      "assigned_split": "test"
+    },
+    {
+      "id": "iotkits_train_00288",
+      "group": "g902",
+      "original_split": "test",
+      "assigned_split": "test"
+    },
+    {
+      "id": "iotkits_train_00456",
+      "group": "g902",
+      "original_split": "test",
+      "assigned_split": "test"
+    },
+    {
+      "id": "iotkits_train_00668",
+      "group": "g902",
+      "original_split": "test",
+      "assigned_split": "test"
+    },
+    {
+      "id": "iotkits_train_00922",
+      "group": "g902",
+      "original_split": "test",
+      "assigned_split": "test"
+    },
+    {
+      "id": "iotkits_train_01301",
+      "group": "g902",
+      "original_split": "test",
+      "assigned_split": "test"
+    },
+    {
+      "id": "iotkits_train_01936",
+      "group": "g902",
+      "original_split": "test",
+      "assigned_split": "test"
+    },
+    {
+      "id": "iotkits_train_02335",
+      "group": "g902",
+      "original_split": "test",
+      "assigned_split": "test"
+    },
+    {
+      "id": "iotkits_train_02484",
+      "group": "g902",
+      "original_split": "test",
+      "assigned_split": "test"
+    },
+    {
+      "id": "iotkits_valid_00294",
+      "group": "g902",
+      "original_split": "test",
+      "assigned_split": "test"
+    },
+    {
+      "id": "iotkits_valid_00357",
+      "group": "g902",
+      "original_split": "test",
+      "assigned_split": "test"
+    },
+    {
+      "id": "iotkits_valid_00590",
+      "group": "g902",
+      "original_split": "test",
+      "assigned_split": "test"
+    },
+    {
+      "id": "iotkits_train_00865",
+      "group": "g913",
+      "original_split": "train",
+      "assigned_split": "test"
+    },
+    {
+      "id": "iotkits_train_01088",
+      "group": "g913",
+      "original_split": "train",
+      "assigned_split": "test"
+    },
+    {
+      "id": "iotkits_train_00098",
+      "group": "g915",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_00459",
+      "group": "g915",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_00471",
+      "group": "g915",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_00495",
+      "group": "g915",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_00557",
+      "group": "g915",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_00705",
+      "group": "g915",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_00754",
+      "group": "g915",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_01020",
+      "group": "g915",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_01232",
+      "group": "g915",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_01491",
+      "group": "g915",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_01504",
+      "group": "g915",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_01630",
+      "group": "g915",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_01637",
+      "group": "g915",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_01746",
+      "group": "g915",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_01844",
+      "group": "g915",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_01877",
+      "group": "g915",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_01924",
+      "group": "g915",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_01983",
+      "group": "g915",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_01991",
+      "group": "g915",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_02046",
+      "group": "g915",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_02086",
+      "group": "g915",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_02198",
+      "group": "g915",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_02211",
+      "group": "g915",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_02263",
+      "group": "g915",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_02448",
+      "group": "g915",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_02482",
+      "group": "g915",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_valid_00011",
+      "group": "g915",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_valid_00165",
+      "group": "g915",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_valid_00352",
+      "group": "g915",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_valid_00369",
+      "group": "g915",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_valid_00373",
+      "group": "g915",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_valid_00402",
+      "group": "g915",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_valid_00615",
+      "group": "g915",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_00455",
+      "group": "g93",
+      "original_split": "val",
+      "assigned_split": "val"
+    },
+    {
+      "id": "iotkits_train_00650",
+      "group": "g94",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_01718",
+      "group": "g948",
+      "original_split": "train",
+      "assigned_split": "test"
+    },
+    {
+      "id": "iotkits_train_02378",
+      "group": "g948",
+      "original_split": "train",
+      "assigned_split": "test"
+    },
+    {
+      "id": "iotkits_train_02286",
+      "group": "g95",
+      "original_split": "test",
+      "assigned_split": "test"
+    },
+    {
+      "id": "iotkits_train_00010",
+      "group": "g950",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_00084",
+      "group": "g950",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_00148",
+      "group": "g950",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_00492",
+      "group": "g950",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_00659",
+      "group": "g950",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_00833",
+      "group": "g950",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_00949",
+      "group": "g950",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_00989",
+      "group": "g950",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_01114",
+      "group": "g950",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_01246",
+      "group": "g950",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_01248",
+      "group": "g950",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_01440",
+      "group": "g950",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_01648",
+      "group": "g950",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_01708",
+      "group": "g950",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_02205",
+      "group": "g950",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_02393",
+      "group": "g950",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_valid_00241",
+      "group": "g950",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_valid_00323",
+      "group": "g950",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_valid_00326",
+      "group": "g950",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_01272",
+      "group": "g96",
+      "original_split": "val",
+      "assigned_split": "test"
+    },
+    {
+      "id": "iotkits_train_01538",
+      "group": "g96",
+      "original_split": "val",
+      "assigned_split": "test"
+    },
+    {
+      "id": "iotkits_train_01601",
+      "group": "g96",
+      "original_split": "val",
+      "assigned_split": "test"
+    },
+    {
+      "id": "iotkits_train_00304",
+      "group": "g969",
+      "original_split": "train",
+      "assigned_split": "test"
+    },
+    {
+      "id": "iotkits_train_01283",
+      "group": "g969",
+      "original_split": "train",
+      "assigned_split": "test"
+    },
+    {
+      "id": "iotkits_train_00023",
+      "group": "g971",
+      "original_split": "val",
+      "assigned_split": "val"
+    },
+    {
+      "id": "iotkits_train_00399",
+      "group": "g971",
+      "original_split": "val",
+      "assigned_split": "val"
+    },
+    {
+      "id": "iotkits_train_00549",
+      "group": "g971",
+      "original_split": "val",
+      "assigned_split": "val"
+    },
+    {
+      "id": "iotkits_train_00552",
+      "group": "g971",
+      "original_split": "val",
+      "assigned_split": "val"
+    },
+    {
+      "id": "iotkits_train_00608",
+      "group": "g971",
+      "original_split": "val",
+      "assigned_split": "val"
+    },
+    {
+      "id": "iotkits_train_00901",
+      "group": "g971",
+      "original_split": "val",
+      "assigned_split": "val"
+    },
+    {
+      "id": "iotkits_train_01012",
+      "group": "g971",
+      "original_split": "val",
+      "assigned_split": "val"
+    },
+    {
+      "id": "iotkits_train_01583",
+      "group": "g971",
+      "original_split": "val",
+      "assigned_split": "val"
+    },
+    {
+      "id": "iotkits_train_02060",
+      "group": "g971",
+      "original_split": "val",
+      "assigned_split": "val"
+    },
+    {
+      "id": "iotkits_train_02308",
+      "group": "g971",
+      "original_split": "val",
+      "assigned_split": "val"
+    },
+    {
+      "id": "iotkits_valid_00287",
+      "group": "g971",
+      "original_split": "val",
+      "assigned_split": "val"
+    },
+    {
+      "id": "iotkits_valid_00325",
+      "group": "g971",
+      "original_split": "val",
+      "assigned_split": "val"
+    },
+    {
+      "id": "iotkits_valid_00364",
+      "group": "g971",
+      "original_split": "val",
+      "assigned_split": "val"
+    },
+    {
+      "id": "iotkits_valid_00502",
+      "group": "g971",
+      "original_split": "val",
+      "assigned_split": "val"
+    },
+    {
+      "id": "iotkits_valid_00005",
+      "group": "g985",
+      "original_split": "train",
+      "assigned_split": "val"
+    },
+    {
+      "id": "iotkits_valid_00250",
+      "group": "g985",
+      "original_split": "train",
+      "assigned_split": "val"
+    },
+    {
+      "id": "iotkits_train_00015",
+      "group": "g987",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_00026",
+      "group": "g987",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_00146",
+      "group": "g987",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_00411",
+      "group": "g987",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_00540",
+      "group": "g987",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_00735",
+      "group": "g987",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_00914",
+      "group": "g987",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_01304",
+      "group": "g987",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_01835",
+      "group": "g987",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_01902",
+      "group": "g987",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_02065",
+      "group": "g987",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_02162",
+      "group": "g987",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_02346",
+      "group": "g987",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_02404",
+      "group": "g987",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_valid_00454",
+      "group": "g987",
+      "original_split": "train",
+      "assigned_split": "train"
+    },
+    {
+      "id": "iotkits_train_01292",
+      "group": "g99",
+      "original_split": "train",
+      "assigned_split": "train"
+    }
+  ]
+}

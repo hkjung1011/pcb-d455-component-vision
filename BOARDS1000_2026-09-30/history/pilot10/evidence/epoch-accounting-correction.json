@@ -1,0 +1,12 @@
+{
+  "scope": "Training epoch accounting only",
+  "actual_training_epochs": 10,
+  "extra_validation_callbacks": 1,
+  "optimizer_steps": 235,
+  "checkpoint_sha256": "e04e249bcf9805088dca1de641a1e213d6af6f7403b8559ab748e2c047969a5c",
+  "checkpoint_unchanged": true,
+  "test_metrics_sha256": "cc340f00fb28f51895eb3c7fb0f372d27b88a3808e1ce776d3196c9ee574eea4",
+  "test_metrics_unchanged": true,
+  "test_repeated": false,
+  "source_fix": "Ignore callbacks beyond configured epochs and derive completed epoch count from results.csv"
+}
