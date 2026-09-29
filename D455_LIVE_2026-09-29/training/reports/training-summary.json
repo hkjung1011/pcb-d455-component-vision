@@ -1,0 +1,11 @@
+{
+  "weights": "${WORKSPACE}/realsense-d455/board-detection/runs/board-parts-prototype/weights/best.pt",
+  "metrics": {
+    "metrics/precision(B)": 0.9977313651685119,
+    "metrics/recall(B)": 1.0,
+    "metrics/mAP50(B)": 0.995,
+    "metrics/mAP50-95(B)": 0.9803506498736194,
+    "fitness": 0.9803506498736194
+  },
+  "evaluation_scope": "Synthetic development set derived from one source scene. Not independent real-world accuracy."
+}

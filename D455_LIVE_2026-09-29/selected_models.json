@@ -1,0 +1,48 @@
+{
+  "revision": "D455_LIVE_2026-09-29",
+  "task": "bbox detection; no segmentation or defect decisions",
+  "r04_parts": {
+    "repository_path": "R04/runs/improved/candidates/epoch_16.pt",
+    "checkpoint": "runs/improved/candidates/epoch_16.pt",
+    "sha256": "79f01b40b9cc7412341e7da5561dc55fb3e3d5fbdfc39adc49aac5ba8dc4e34a",
+    "pipeline": "dual",
+    "confidence": 0.65,
+    "epoch": 16,
+    "optimizer_calls": 952,
+    "imgsz": 1024,
+    "tile_overlap": 0.2,
+    "tile_nms_iou": 0.5
+  },
+  "r03_reference_boards": {
+    "repository_path": "R03/runs/board_yolo11n/fit/weights/best.pt",
+    "model_id": "board_yolo11n",
+    "checkpoint": "runs/board_yolo11n/fit/weights/best.pt",
+    "sha256": "0bc7a0ef6aa5108728a2357e5c4b20189330f58366bf52b4251f3754b14707db",
+    "confidence": 0.4,
+    "imgsz": 640
+  },
+  "local_prototype": {
+    "checkpoint": "models/board-parts-prototype.pt",
+    "sha256": "a1a20ff158b87fc6efb9802c4eda25f27ee1b7b747e071cd4ed6334c0180683e",
+    "bytes": 19205530,
+    "classes": [
+      "raspberry_pi_5",
+      "raspberry_pi_4",
+      "usb_stack",
+      "ethernet_port",
+      "gpio_header",
+      "micro_hdmi",
+      "usb_c_power",
+      "heatsink"
+    ],
+    "imgsz": 1024,
+    "confidence": 0.6,
+    "iou": 0.5,
+    "precision": "FP32",
+    "evaluation_scope": "One source scene, synthetic development validation; not independent real-world accuracy"
+  },
+  "reference_weights_releases": {
+    "R04": "https://github.com/hkjung1011/pcb-d455-component-vision/releases/tag/r04-2026-09-29",
+    "R03": "https://github.com/hkjung1011/pcb-d455-component-vision/releases/tag/r03-2026-09-28"
+  }
+}

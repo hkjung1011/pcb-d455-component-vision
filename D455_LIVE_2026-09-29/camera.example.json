@@ -1,0 +1,17 @@
+{
+  "name": "D455 RGB 1280x800 HQ",
+  "serial": "REPLACE_WITH_D455_SERIAL",
+  "color": {
+    "width": 1280,
+    "height": 800,
+    "fps": 8
+  },
+  "options": {
+    "RGB Camera": {
+      "enable_auto_exposure": 1,
+      "enable_auto_white_balance": 1,
+      "auto_exposure_priority": 0,
+      "power_line_frequency": 2
+    }
+  }
+}

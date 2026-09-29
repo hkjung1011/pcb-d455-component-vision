@@ -1,66 +1,33 @@
 {
-  "revision": "WAFER_SURFACE_R01",
-  "status": "TRAINED_AND_PUBLIC_IMAGE_TESTED",
-  "utc": "2026-09-28T16:50:14.305661+00:00",
-  "epochs": 10,
-  "optimizer_calls": 1932,
-  "selected_epoch_reconstructed_from_val": 9,
-  "source_images_acquired": 2132,
-  "admitted_images": 2034,
-  "source_bbox": 3693,
-  "admitted_bbox": 3394,
-  "split": {
-    "train": {
-      "images": 1472,
-      "groups": 1036,
-      "bbox": 2418,
-      "classes": {
-        "gray_line": 102,
-        "scratch": 628,
-        "open": 172,
-        "edge_bite": 226,
-        "stains_enbedded": 907,
-        "short_circuit": 383
-      }
-    },
-    "val": {
-      "images": 275,
-      "groups": 222,
-      "bbox": 480,
-      "classes": {
-        "edge_bite": 40,
-        "stains_enbedded": 170,
-        "open": 27,
-        "gray_line": 27,
-        "scratch": 132,
-        "short_circuit": 84
-      }
-    },
-    "test": {
-      "images": 287,
-      "groups": 223,
-      "bbox": 496,
-      "classes": {
-        "scratch": 144,
-        "edge_bite": 40,
-        "stains_enbedded": 177,
-        "gray_line": 25,
-        "open": 38,
-        "short_circuit": 72
-      }
-    }
+  "revision": "D455_LIVE_2026-09-29",
+  "status": "LIVE_CAMERA_INFERENCE_OBSERVED_PROTOTYPE",
+  "observed_at": "2026-09-29T14:49:30.208497+09:00",
+  "model_registry": "D455_LIVE_2026-09-29/selected_models.json",
+  "evaluation": "D455_LIVE_2026-09-29/evaluation/summary.json",
+  "model_card": "D455_LIVE_2026-09-29/MODEL_CARD.md",
+  "live_camera_inference_verified": true,
+  "independent_real_world_accuracy_evaluated": false,
+  "real_camera_map50": null,
+  "real_camera_map50_95": null,
+  "counts_observed": {
+    "gpio_header": 2,
+    "usb_stack": 4,
+    "ic": 2,
+    "heatsink": 5,
+    "ethernet_port": 2,
+    "usb_c_power": 2,
+    "micro_hdmi": 4
   },
-  "test_map50": 0.7373469699131436,
-  "test_map50_95": 0.36423598562281945,
-  "new_human_labels": 0,
-  "instance_masks_trained": false,
-  "d455_verified": false,
-  "physical_wafer_independence_verified": false,
-  "source_data_redistributed": false,
-  "license": "Dataset license unspecified; author-published research data",
-  "checkpoint": {
-    "path": "models/best.pt",
-    "sha256": "c92e701e065a35d8777689bb3c025a57940c70749afb18198132b865a5e4ee29"
+  "boards_observed": {
+    "raspberry_pi_5": 1,
+    "raspberry_pi_4": 1
   },
-  "source_annotation_limit": "Remaining labels not exhaustively expert-reviewed"
+  "prototype_original_source_scenes": 1,
+  "prototype_physical_boards": 2,
+  "preserved_workstreams": {
+    "PCB_R04": "R04/CURRENT_STATUS.json",
+    "WAFER_R01": "WAFER_R01/CURRENT_STATUS.json"
+  },
+  "previous_root_status_revision": "WAFER_SURFACE_R01",
+  "source_images_added": "Two local camera training sources and one observation frame; no external dataset originals"
 }

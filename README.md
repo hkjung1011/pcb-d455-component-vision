@@ -1,5 +1,13 @@
 # PCB · 웨이퍼 비전 연구 기록
 
+## 2026-09-29 · D455 실시간 보드·부품 시험 추가
+
+[현재 카메라 모델·평가·실행 방법](D455_LIVE_2026-09-29/README.md) · [모델 카드](D455_LIVE_2026-09-29/MODEL_CARD.md) · [평가 JSON](D455_LIVE_2026-09-29/evaluation/summary.json)
+
+기존 R04 IC 검출에 로컬 보드·포트 시험 모델을 함께 적용했다. 기록한 D455 프레임에서 **보드 2개·부품 후보 21개**, 화면 추론 약 **4.56 fps**를 관찰했다. 추가 모델의 실제 가중치와 촬영 증거·학습 기록·검증 코드를 이 폴더에 보존했다.
+
+**실제 카메라 정확도/AP는 미측정**이다. 추가 모델은 같은 보드 두 장의 단일 원본 장면으로 만든 합성 train/val을 사용했다. 개발셋 mAP50–95 98.04%를 실제 정확도로 해석하지 않는다. 저항·커패시터 누락과 다른 배치에서의 일반화 검증은 남아 있다. 기존 R03/R04·웨이퍼 모델과 평가 기록은 보존한다.
+
 [현재 결과부터 보기](CURRENT_SUMMARY.md)
 
 2026-09-29 기록 보완: [PCB 업로드 검증](archive/verification_2026-09-29/pcb_r04_upload_verification.json) · [웨이퍼 업로드 검증](archive/verification_2026-09-29/wafer_r01_upload_verification.json) · [웨이퍼 감사 정정 범위 확인](archive/verification_2026-09-29/wafer_post_test_amendment_scope_check.json).
@@ -68,3 +76,4 @@ Raspberry Pi는 촬영·인식 대상이다. Claude 검토를 원본·코드와 
 모델20개 후보와 초기 가중치는 [R04 비공개 Release](https://github.com/hkjung1011/pcb-d455-component-vision/releases/tag/r04-2026-09-29)의 `PCB_D455_R04.zip`에 있다. Git은 가중치를 제외한 탐색용 기록이며 clone만으로 추론 가중치가 복원되지 않는다. 원본 데이터 사진·타일이미지·다운로드ZIP·가상환경·인증 설정은 업로드하지 않았다. metadata의 절대경로는 당시 실행 증거이며 새PC에서는 자료와 경로 설정이 필요하다.
 
 다음은 실제D455 30장광학파일럿과 별도200장수집·실물/세션분할·검수된4종bbox/mask다. 이 수량은 계획이며 확보된 실적이 아니다. 출처와 라이선스는원자료/R03기록을따르며 비공개보관이추가재배포권한을부여하지않는다.
+

@@ -1,0 +1,65 @@
+{
+  "evaluated_at": "2026-09-29T14:49:30.208497+09:00",
+  "revision": "D455_LIVE_2026-09-29",
+  "accuracy_evaluated_on_independent_real_camera_data": false,
+  "real_camera_ground_truth_available": false,
+  "real_camera_map50": null,
+  "real_camera_map50_95": null,
+  "real_camera_precision": null,
+  "real_camera_recall": null,
+  "camera_observation": {
+    "frame_number": 905,
+    "image_shape": [
+      800,
+      1280,
+      3
+    ],
+    "counts": {
+      "gpio_header": 2,
+      "usb_stack": 4,
+      "ic": 2,
+      "heatsink": 5,
+      "ethernet_port": 2,
+      "usb_c_power": 2,
+      "micro_hdmi": 4
+    },
+    "board_counts": {
+      "raspberry_pi_5": 1,
+      "raspberry_pi_4": 1
+    },
+    "r04_counts": {
+      "ic": 2
+    },
+    "camera_fps": 14.988146982918867,
+    "inference_fps": 4.556698864610006,
+    "inference_ms_p50": 45.778475000588514,
+    "inference_ms_p95": 47.97308324941696,
+    "display_thresholds": {
+      "R04": 0.65,
+      "local_board_parts_prototype": 0.6
+    }
+  },
+  "synthetic_development_metrics": {
+    "metrics/precision(B)": 0.9977313651685119,
+    "metrics/recall(B)": 1.0,
+    "metrics/mAP50(B)": 0.995,
+    "metrics/mAP50-95(B)": 0.9803506498736194,
+    "fitness": 0.9803506498736194
+  },
+  "synthetic_development_scope": {
+    "original_source_scenes": 1,
+    "physical_boards": 2,
+    "train_images": 160,
+    "val_images": 32,
+    "independent_physical_boards": 0,
+    "same_scene_in_train_and_val": true
+  },
+  "known_limits": [
+    "Small resistors/capacitors missed in the shown frame",
+    "Same-scene prototype generalization is unmeasured",
+    "R03 merges the two boards into one candidate",
+    "Crop/rotation trials did not reliably improve R04",
+    "Confidence is a model score, not measured probability of correctness"
+  ],
+  "paths_in_historical_records": "Workspace prefix normalized to ${WORKSPACE}; numeric results and hashes preserved"
+}

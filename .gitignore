@@ -12,3 +12,13 @@ venv/
 *.zip
 data/raw/
 credentials/
+
+# The small live prototype checkpoint is archived with its SHA-256 model card.
+!D455_LIVE_2026-09-29/models/board-parts-prototype.pt
+D455_LIVE_2026-09-29/sessions/
+D455_LIVE_2026-09-29/camera.local.json
+D455_LIVE_2026-09-29/training/dataset-prototype/
+D455_LIVE_2026-09-29/training/runs/
+D455_LIVE_2026-09-29/training/yolo11s.pt
+D455_LIVE_2026-09-29/*.lock
+D455_LIVE_2026-09-29/current-session.json

@@ -1,0 +1,14 @@
+{
+  "python": "3.12",
+  "hardware": "NVIDIA GeForce RTX 5060 Laptop GPU",
+  "packages": {
+    "torch": "2.11.0+cu130",
+    "torchvision": "0.26.0+cu130",
+    "ultralytics": "8.4.110",
+    "numpy": "1.26.4",
+    "opencv-python": "4.11.0.86",
+    "pyrealsense2": "2.58.4.10922",
+    "Pillow": "12.2.0",
+    "PyYAML": "6.0.3"
+  }
+}

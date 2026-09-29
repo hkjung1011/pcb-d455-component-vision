@@ -1,0 +1,757 @@
+{
+  "updated_at": "2026-09-29T14:49:30.208497+09:00",
+  "elapsed_seconds": 60.95914370100036,
+  "frame_number": 905,
+  "image_shape": [
+    800,
+    1280,
+    3
+  ],
+  "camera_fps": 14.988146982918867,
+  "inference_fps": 4.556698864610006,
+  "inference_ms": 45.95425000115938,
+  "frame_to_result_ms": 58.20520300039789,
+  "inference_ms_p50": 45.778475000588514,
+  "inference_ms_p95": 47.97308324941696,
+  "r04_threshold": 0.65,
+  "r04_counts": {
+    "ic": 2
+  },
+  "r04_parts": [
+    {
+      "class_id": 2,
+      "score": 0.8739815950393677,
+      "bbox_xyxy": [
+        737.7369995117188,
+        244.0235595703125,
+        793.5203247070312,
+        303.88385009765625
+      ]
+    },
+    {
+      "class_id": 2,
+      "score": 0.8015386462211609,
+      "bbox_xyxy": [
+        621.485595703125,
+        228.45745849609375,
+        689.6810302734375,
+        279.9793701171875
+      ]
+    }
+  ],
+  "r04_diagnostic_candidates": [
+    {
+      "class_id": 0,
+      "score": 0.41482266783714294,
+      "bbox_xyxy": [
+        598.510986328125,
+        492.56756591796875,
+        615.580810546875,
+        529.0355834960938
+      ]
+    },
+    {
+      "class_id": 0,
+      "score": 0.34239014983177185,
+      "bbox_xyxy": [
+        641.0184326171875,
+        679.341552734375,
+        704.4417724609375,
+        706.175537109375
+      ]
+    },
+    {
+      "class_id": 2,
+      "score": 0.3397500514984131,
+      "bbox_xyxy": [
+        536.5196533203125,
+        337.21441650390625,
+        589.0767822265625,
+        377.11712646484375
+      ]
+    },
+    {
+      "class_id": 2,
+      "score": 0.3082100450992584,
+      "bbox_xyxy": [
+        840.1800537109375,
+        505.9339294433594,
+        874.1458740234375,
+        553.8648681640625
+      ]
+    },
+    {
+      "class_id": 2,
+      "score": 0.2579101324081421,
+      "bbox_xyxy": [
+        824.1171264648438,
+        249.47021484375,
+        926.6116333007812,
+        324.9908447265625
+      ]
+    }
+  ],
+  "r03_boards": [
+    {
+      "bbox_xyxy": [
+        252.392333984375,
+        78.1146240234375,
+        1211.787841796875,
+        756.16357421875
+      ],
+      "score": 0.469754695892334,
+      "class_name": "raspberry_pi_sbc"
+    }
+  ],
+  "additional_parts": [
+    {
+      "bbox_xyxy": [
+        829.177001953125,
+        247.7186279296875,
+        928.1627807617188,
+        321.57025146484375
+      ],
+      "score": 0.9668066501617432,
+      "model_class_id": 2,
+      "class_name": "usb_stack",
+      "source": "local_board_parts_prototype",
+      "class_id": 4
+    },
+    {
+      "bbox_xyxy": [
+        830.281494140625,
+        461.67425537109375,
+        875.81982421875,
+        504.46258544921875
+      ],
+      "score": 0.9612776637077332,
+      "model_class_id": 6,
+      "class_name": "usb_c_power",
+      "source": "local_board_parts_prototype",
+      "class_id": 8
+    },
+    {
+      "bbox_xyxy": [
+        830.203369140625,
+        163.84597778320312,
+        930.580322265625,
+        242.43408203125
+      ],
+      "score": 0.9542353749275208,
+      "model_class_id": 2,
+      "class_name": "usb_stack",
+      "source": "local_board_parts_prototype",
+      "class_id": 4
+    },
+    {
+      "bbox_xyxy": [
+        485.34765625,
+        555.1124267578125,
+        587.4896850585938,
+        631.39306640625
+      ],
+      "score": 0.9538586735725403,
+      "model_class_id": 2,
+      "class_name": "usb_stack",
+      "source": "local_board_parts_prototype",
+      "class_id": 4
+    },
+    {
+      "bbox_xyxy": [
+        815.5858154296875,
+        335.0185546875,
+        925.3992919921875,
+        416.2508544921875
+      ],
+      "score": 0.9531930685043335,
+      "model_class_id": 3,
+      "class_name": "ethernet_port",
+      "source": "local_board_parts_prototype",
+      "class_id": 5
+    },
+    {
+      "bbox_xyxy": [
+        486.90399169921875,
+        637.5262451171875,
+        598.0868530273438,
+        722.5439453125
+      ],
+      "score": 0.9514397978782654,
+      "model_class_id": 3,
+      "class_name": "ethernet_port",
+      "source": "local_board_parts_prototype",
+      "class_id": 5
+    },
+    {
+      "bbox_xyxy": [
+        496.770751953125,
+        473.6767578125,
+        587.8477172851562,
+        545.4833374023438
+      ],
+      "score": 0.9500328898429871,
+      "model_class_id": 2,
+      "class_name": "usb_stack",
+      "source": "local_board_parts_prototype",
+      "class_id": 4
+    },
+    {
+      "bbox_xyxy": [
+        673.1781005859375,
+        579.601806640625,
+        728.1878662109375,
+        654.404296875
+      ],
+      "score": 0.9351479411125183,
+      "model_class_id": 7,
+      "class_name": "heatsink",
+      "source": "local_board_parts_prototype",
+      "class_id": 9
+    },
+    {
+      "bbox_xyxy": [
+        608.184326171875,
+        389.3238830566406,
+        641.0385131835938,
+        431.55517578125
+      ],
+      "score": 0.9338047504425049,
+      "model_class_id": 5,
+      "class_name": "micro_hdmi",
+      "source": "local_board_parts_prototype",
+      "class_id": 7
+    },
+    {
+      "bbox_xyxy": [
+        613.4598999023438,
+        286.2335205078125,
+        697.71533203125,
+        365.24658203125
+      ],
+      "score": 0.9314818382263184,
+      "model_class_id": 7,
+      "class_name": "heatsink",
+      "source": "local_board_parts_prototype",
+      "class_id": 9
+    },
+    {
+      "bbox_xyxy": [
+        611.8548583984375,
+        608.006591796875,
+        655.9466552734375,
+        660.3030395507812
+      ],
+      "score": 0.9296058416366577,
+      "model_class_id": 7,
+      "class_name": "heatsink",
+      "source": "local_board_parts_prototype",
+      "class_id": 9
+    },
+    {
+      "bbox_xyxy": [
+        770.1278686523438,
+        459.9221496582031,
+        806.9412231445312,
+        501.49615478515625
+      ],
+      "score": 0.9292977452278137,
+      "model_class_id": 5,
+      "class_name": "micro_hdmi",
+      "source": "local_board_parts_prototype",
+      "class_id": 7
+    },
+    {
+      "bbox_xyxy": [
+        709.9468383789062,
+        458.7168884277344,
+        746.9487915039062,
+        500.64544677734375
+      ],
+      "score": 0.9273461103439331,
+      "model_class_id": 5,
+      "class_name": "micro_hdmi",
+      "source": "local_board_parts_prototype",
+      "class_id": 7
+    },
+    {
+      "bbox_xyxy": [
+        614.0624389648438,
+        551.099853515625,
+        655.3670654296875,
+        604.9832153320312
+      ],
+      "score": 0.9231414198875427,
+      "model_class_id": 7,
+      "class_name": "heatsink",
+      "source": "local_board_parts_prototype",
+      "class_id": 9
+    },
+    {
+      "bbox_xyxy": [
+        665.7650756835938,
+        389.8565368652344,
+        697.99560546875,
+        432.3239440917969
+      ],
+      "score": 0.9181718230247498,
+      "model_class_id": 5,
+      "class_name": "micro_hdmi",
+      "source": "local_board_parts_prototype",
+      "class_id": 7
+    },
+    {
+      "bbox_xyxy": [
+        733.24658203125,
+        583.31884765625,
+        807.4229736328125,
+        657.3389282226562
+      ],
+      "score": 0.8945231437683105,
+      "model_class_id": 7,
+      "class_name": "heatsink",
+      "source": "local_board_parts_prototype",
+      "class_id": 9
+    },
+    {
+      "bbox_xyxy": [
+        531.0242919921875,
+        173.40023803710938,
+        790.517578125,
+        214.13475036621094
+      ],
+      "score": 0.8824811577796936,
+      "model_class_id": 4,
+      "class_name": "gpio_header",
+      "source": "local_board_parts_prototype",
+      "class_id": 6
+    },
+    {
+      "bbox_xyxy": [
+        639.8489379882812,
+        676.279296875,
+        877.223388671875,
+        725.5205078125
+      ],
+      "score": 0.8642809391021729,
+      "model_class_id": 4,
+      "class_name": "gpio_header",
+      "source": "local_board_parts_prototype",
+      "class_id": 6
+    },
+    {
+      "bbox_xyxy": [
+        539.4971923828125,
+        391.72393798828125,
+        580.5248413085938,
+        431.8904113769531
+      ],
+      "score": 0.7297145128250122,
+      "model_class_id": 6,
+      "class_name": "usb_c_power",
+      "source": "local_board_parts_prototype",
+      "class_id": 8
+    },
+    {
+      "bbox_xyxy": [
+        538.970947265625,
+        391.05987548828125,
+        579.9581909179688,
+        432.6893615722656
+      ],
+      "score": 0.3140852749347687,
+      "model_class_id": 5,
+      "class_name": "micro_hdmi",
+      "source": "local_board_parts_prototype",
+      "class_id": 7
+    }
+  ],
+  "detail_boards": [
+    {
+      "bbox_xyxy": [
+        503.59954833984375,
+        165.3961944580078,
+        932.1953125,
+        436.3432312011719
+      ],
+      "score": 0.9453116655349731,
+      "model_class_id": 0,
+      "class_name": "raspberry_pi_5",
+      "source": "local_board_parts_prototype"
+    },
+    {
+      "bbox_xyxy": [
+        481.3052673339844,
+        454.80169677734375,
+        928.1307983398438,
+        723.4669189453125
+      ],
+      "score": 0.8575876951217651,
+      "model_class_id": 1,
+      "class_name": "raspberry_pi_4",
+      "source": "local_board_parts_prototype"
+    }
+  ],
+  "tile_count": 3,
+  "models": {
+    "parts_model": "R04 improved epoch16",
+    "parts_sha256": "79f01b40b9cc7412341e7da5561dc55fb3e3d5fbdfc39adc49aac5ba8dc4e34a",
+    "board_model": "R03 board_yolo11n",
+    "board_sha256": "0bc7a0ef6aa5108728a2357e5c4b20189330f58366bf52b4251f3754b14707db",
+    "pipeline": "dual",
+    "parts_threshold": 0.65,
+    "board_threshold": 0.4,
+    "imgsz": 1024,
+    "raw_confidence": 0.001,
+    "tile_nms": 0.6,
+    "merge_nms": 0.5,
+    "precision": "FP32",
+    "device": "0",
+    "runtime": {
+      "torch": "2.11.0+cu130",
+      "torchvision": "0.26.0+cu130",
+      "ultralytics": "8.4.110",
+      "pyrealsense2": "2.58.4.10922"
+    },
+    "scope": "Live predictions; no ground-truth accuracy measurement",
+    "additional_model": {
+      "name": "local board-parts-prototype",
+      "path": "${WORKSPACE}/realsense-d455/board-detection/runs/board-parts-prototype/weights/best.pt",
+      "sha256": "a1a20ff158b87fc6efb9802c4eda25f27ee1b7b747e071cd4ed6334c0180683e",
+      "classes": {
+        "0": "raspberry_pi_5",
+        "1": "raspberry_pi_4",
+        "2": "usb_stack",
+        "3": "ethernet_port",
+        "4": "gpio_header",
+        "5": "micro_hdmi",
+        "6": "usb_c_power",
+        "7": "heatsink"
+      },
+      "imgsz": 1024,
+      "confidence": 0.6,
+      "iou": 0.5,
+      "training_scope": "Synthetic variations of one source scene containing these two boards; not an independent real-world test."
+    },
+    "combined_display": "R04 four-class detections plus local prototype port/heatsink detections; R toggles the original R04/R03 display."
+  },
+  "accuracy_evaluated": false,
+  "display_mode": "combined_prototype",
+  "display_thresholds": {
+    "R04": 0.65,
+    "local_board_parts_prototype": 0.6
+  },
+  "counts": {
+    "gpio_header": 2,
+    "usb_stack": 4,
+    "ic": 2,
+    "heatsink": 5,
+    "ethernet_port": 2,
+    "usb_c_power": 2,
+    "micro_hdmi": 4
+  },
+  "parts": [
+    {
+      "bbox_xyxy": [
+        531.0242919921875,
+        173.40023803710938,
+        790.517578125,
+        214.13475036621094
+      ],
+      "score": 0.8824811577796936,
+      "model_class_id": 4,
+      "class_name": "gpio_header",
+      "source": "local_board_parts_prototype",
+      "class_id": 6
+    },
+    {
+      "bbox_xyxy": [
+        830.203369140625,
+        163.84597778320312,
+        930.580322265625,
+        242.43408203125
+      ],
+      "score": 0.9542353749275208,
+      "model_class_id": 2,
+      "class_name": "usb_stack",
+      "source": "local_board_parts_prototype",
+      "class_id": 4
+    },
+    {
+      "class_id": 2,
+      "score": 0.8015386462211609,
+      "bbox_xyxy": [
+        621.485595703125,
+        228.45745849609375,
+        689.6810302734375,
+        279.9793701171875
+      ],
+      "source": "R04",
+      "class_name": "ic"
+    },
+    {
+      "class_id": 2,
+      "score": 0.8739815950393677,
+      "bbox_xyxy": [
+        737.7369995117188,
+        244.0235595703125,
+        793.5203247070312,
+        303.88385009765625
+      ],
+      "source": "R04",
+      "class_name": "ic"
+    },
+    {
+      "bbox_xyxy": [
+        829.177001953125,
+        247.7186279296875,
+        928.1627807617188,
+        321.57025146484375
+      ],
+      "score": 0.9668066501617432,
+      "model_class_id": 2,
+      "class_name": "usb_stack",
+      "source": "local_board_parts_prototype",
+      "class_id": 4
+    },
+    {
+      "bbox_xyxy": [
+        613.4598999023438,
+        286.2335205078125,
+        697.71533203125,
+        365.24658203125
+      ],
+      "score": 0.9314818382263184,
+      "model_class_id": 7,
+      "class_name": "heatsink",
+      "source": "local_board_parts_prototype",
+      "class_id": 9
+    },
+    {
+      "bbox_xyxy": [
+        815.5858154296875,
+        335.0185546875,
+        925.3992919921875,
+        416.2508544921875
+      ],
+      "score": 0.9531930685043335,
+      "model_class_id": 3,
+      "class_name": "ethernet_port",
+      "source": "local_board_parts_prototype",
+      "class_id": 5
+    },
+    {
+      "bbox_xyxy": [
+        539.4971923828125,
+        391.72393798828125,
+        580.5248413085938,
+        431.8904113769531
+      ],
+      "score": 0.7297145128250122,
+      "model_class_id": 6,
+      "class_name": "usb_c_power",
+      "source": "local_board_parts_prototype",
+      "class_id": 8
+    },
+    {
+      "bbox_xyxy": [
+        608.184326171875,
+        389.3238830566406,
+        641.0385131835938,
+        431.55517578125
+      ],
+      "score": 0.9338047504425049,
+      "model_class_id": 5,
+      "class_name": "micro_hdmi",
+      "source": "local_board_parts_prototype",
+      "class_id": 7
+    },
+    {
+      "bbox_xyxy": [
+        665.7650756835938,
+        389.8565368652344,
+        697.99560546875,
+        432.3239440917969
+      ],
+      "score": 0.9181718230247498,
+      "model_class_id": 5,
+      "class_name": "micro_hdmi",
+      "source": "local_board_parts_prototype",
+      "class_id": 7
+    },
+    {
+      "bbox_xyxy": [
+        496.770751953125,
+        473.6767578125,
+        587.8477172851562,
+        545.4833374023438
+      ],
+      "score": 0.9500328898429871,
+      "model_class_id": 2,
+      "class_name": "usb_stack",
+      "source": "local_board_parts_prototype",
+      "class_id": 4
+    },
+    {
+      "bbox_xyxy": [
+        709.9468383789062,
+        458.7168884277344,
+        746.9487915039062,
+        500.64544677734375
+      ],
+      "score": 0.9273461103439331,
+      "model_class_id": 5,
+      "class_name": "micro_hdmi",
+      "source": "local_board_parts_prototype",
+      "class_id": 7
+    },
+    {
+      "bbox_xyxy": [
+        770.1278686523438,
+        459.9221496582031,
+        806.9412231445312,
+        501.49615478515625
+      ],
+      "score": 0.9292977452278137,
+      "model_class_id": 5,
+      "class_name": "micro_hdmi",
+      "source": "local_board_parts_prototype",
+      "class_id": 7
+    },
+    {
+      "bbox_xyxy": [
+        830.281494140625,
+        461.67425537109375,
+        875.81982421875,
+        504.46258544921875
+      ],
+      "score": 0.9612776637077332,
+      "model_class_id": 6,
+      "class_name": "usb_c_power",
+      "source": "local_board_parts_prototype",
+      "class_id": 8
+    },
+    {
+      "bbox_xyxy": [
+        485.34765625,
+        555.1124267578125,
+        587.4896850585938,
+        631.39306640625
+      ],
+      "score": 0.9538586735725403,
+      "model_class_id": 2,
+      "class_name": "usb_stack",
+      "source": "local_board_parts_prototype",
+      "class_id": 4
+    },
+    {
+      "bbox_xyxy": [
+        614.0624389648438,
+        551.099853515625,
+        655.3670654296875,
+        604.9832153320312
+      ],
+      "score": 0.9231414198875427,
+      "model_class_id": 7,
+      "class_name": "heatsink",
+      "source": "local_board_parts_prototype",
+      "class_id": 9
+    },
+    {
+      "bbox_xyxy": [
+        673.1781005859375,
+        579.601806640625,
+        728.1878662109375,
+        654.404296875
+      ],
+      "score": 0.9351479411125183,
+      "model_class_id": 7,
+      "class_name": "heatsink",
+      "source": "local_board_parts_prototype",
+      "class_id": 9
+    },
+    {
+      "bbox_xyxy": [
+        733.24658203125,
+        583.31884765625,
+        807.4229736328125,
+        657.3389282226562
+      ],
+      "score": 0.8945231437683105,
+      "model_class_id": 7,
+      "class_name": "heatsink",
+      "source": "local_board_parts_prototype",
+      "class_id": 9
+    },
+    {
+      "bbox_xyxy": [
+        486.90399169921875,
+        637.5262451171875,
+        598.0868530273438,
+        722.5439453125
+      ],
+      "score": 0.9514397978782654,
+      "model_class_id": 3,
+      "class_name": "ethernet_port",
+      "source": "local_board_parts_prototype",
+      "class_id": 5
+    },
+    {
+      "bbox_xyxy": [
+        611.8548583984375,
+        608.006591796875,
+        655.9466552734375,
+        660.3030395507812
+      ],
+      "score": 0.9296058416366577,
+      "model_class_id": 7,
+      "class_name": "heatsink",
+      "source": "local_board_parts_prototype",
+      "class_id": 9
+    },
+    {
+      "bbox_xyxy": [
+        639.8489379882812,
+        676.279296875,
+        877.223388671875,
+        725.5205078125
+      ],
+      "score": 0.8642809391021729,
+      "model_class_id": 4,
+      "class_name": "gpio_header",
+      "source": "local_board_parts_prototype",
+      "class_id": 6
+    }
+  ],
+  "boards": [
+    {
+      "bbox_xyxy": [
+        503.59954833984375,
+        165.3961944580078,
+        932.1953125,
+        436.3432312011719
+      ],
+      "score": 0.9453116655349731,
+      "model_class_id": 0,
+      "class_name": "raspberry_pi_5",
+      "source": "local_board_parts_prototype"
+    },
+    {
+      "bbox_xyxy": [
+        481.3052673339844,
+        454.80169677734375,
+        928.1307983398438,
+        723.4669189453125
+      ],
+      "score": 0.8575876951217651,
+      "model_class_id": 1,
+      "class_name": "raspberry_pi_4",
+      "source": "local_board_parts_prototype"
+    }
+  ],
+  "board_counts": {
+    "raspberry_pi_5": 1,
+    "raspberry_pi_4": 1
+  },
+  "paused": false,
+  "low_score_candidates_enabled": false
+}

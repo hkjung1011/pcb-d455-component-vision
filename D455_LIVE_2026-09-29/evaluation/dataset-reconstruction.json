@@ -1,0 +1,7 @@
+{
+  "scope": "Reconstruction of the same synthetic development dataset; not new accuracy evaluation",
+  "images_compared": 192,
+  "labels_compared": 192,
+  "mismatches": [],
+  "all_bytes_identical": true
+}

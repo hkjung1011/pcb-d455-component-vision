@@ -1,0 +1,58 @@
+{
+  "scope": "Functional checks and synthetic translated frame, not independent accuracy evaluation",
+  "r04_matches_original": true,
+  "counts": {
+    "gpio_header": 2,
+    "usb_stack": 4,
+    "ic": 2,
+    "heatsink": 5,
+    "ethernet_port": 2,
+    "usb_c_power": 2,
+    "micro_hdmi": 4
+  },
+  "board_counts": {
+    "raspberry_pi_5": 1,
+    "raspberry_pi_4": 1
+  },
+  "click_zoom_classes_checked": [
+    2,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "reference_toggle": true,
+  "diagnostic_toggle": true,
+  "blank_frame_detections": 0,
+  "translation_x_pixels": -160,
+  "translation_box_max_error_pixels": 1.7274169921875,
+  "live_verification": {
+    "session": {
+      "pid": 17600,
+      "output": "${WORKSPACE}/realsense-d455/r04-live/sessions/20260929-144827-036855",
+      "window": "D455 - R04 PCB Parts - Live"
+    },
+    "updated_at": "2026-09-29T14:49:30.208497+09:00",
+    "frame_number": 905,
+    "camera_fps": 14.988146982918867,
+    "inference_fps": 4.556698864610006,
+    "inference_ms_p50": 45.778475000588514,
+    "counts": {
+      "gpio_header": 2,
+      "usb_stack": 4,
+      "ic": 2,
+      "heatsink": 5,
+      "ethernet_port": 2,
+      "usb_c_power": 2,
+      "micro_hdmi": 4
+    },
+    "board_counts": {
+      "raspberry_pi_5": 1,
+      "raspberry_pi_4": 1
+    },
+    "error_file": false,
+    "window_count": 1
+  }
+}

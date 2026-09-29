@@ -1,0 +1,48 @@
+{
+  "source_scene_count": 1,
+  "physical_boards": 2,
+  "limitations": "Synthetic transformations of one camera scene. Development split is not an independent real-world test.",
+  "source": "capture-session-a/frame-0000.png",
+  "classes": [
+    "raspberry_pi_5",
+    "raspberry_pi_4",
+    "usb_stack",
+    "ethernet_port",
+    "gpio_header",
+    "micro_hdmi",
+    "usb_c_power",
+    "heatsink"
+  ],
+  "splits": {
+    "train": {
+      "images": 160,
+      "negative_images": 15,
+      "instances": {
+        "raspberry_pi_5": 103,
+        "raspberry_pi_4": 91,
+        "usb_stack": 388,
+        "ethernet_port": 194,
+        "gpio_header": 194,
+        "micro_hdmi": 388,
+        "usb_c_power": 194,
+        "heatsink": 467
+      },
+      "random_seed": 20260929
+    },
+    "val": {
+      "images": 32,
+      "negative_images": 4,
+      "instances": {
+        "raspberry_pi_5": 24,
+        "raspberry_pi_4": 17,
+        "usb_stack": 82,
+        "ethernet_port": 41,
+        "gpio_header": 41,
+        "micro_hdmi": 82,
+        "usb_c_power": 41,
+        "heatsink": 92
+      },
+      "random_seed": 20260930
+    }
+  }
+}
