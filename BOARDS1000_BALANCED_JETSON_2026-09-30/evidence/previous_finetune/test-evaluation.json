@@ -1,0 +1,72 @@
+{
+  "overall": {
+    "metrics/precision(B)": 0.8071979467436201,
+    "metrics/recall(B)": 0.8093669062084021,
+    "metrics/mAP50(B)": 0.8405378570407386,
+    "metrics/mAP50-95(B)": 0.724338769436277,
+    "fitness": 0.724338769436277
+  },
+  "per_class": [
+    {
+      "class_id": 0,
+      "class_name": "raspberry_pi_5",
+      "ground_truth_boxes": 19,
+      "map50": 0.6840264005424189,
+      "map50_95": 0.5646012423784669
+    },
+    {
+      "class_id": 1,
+      "class_name": "raspberry_pi_4",
+      "ground_truth_boxes": 18,
+      "map50": 0.9680364372469635,
+      "map50_95": 0.8826602564102565
+    },
+    {
+      "class_id": 2,
+      "class_name": "raspberry_pi_other",
+      "ground_truth_boxes": 45,
+      "map50": 0.9928156028368794,
+      "map50_95": 0.9023892227711169
+    },
+    {
+      "class_id": 3,
+      "class_name": "stm32_other",
+      "ground_truth_boxes": 20,
+      "map50": 0.7509906559877956,
+      "map50_95": 0.6596371754245361
+    },
+    {
+      "class_id": 4,
+      "class_name": "arduino",
+      "ground_truth_boxes": 37,
+      "map50": 0.9934999999999999,
+      "map50_95": 0.8970156636075991
+    },
+    {
+      "class_id": 5,
+      "class_name": "esp_board",
+      "ground_truth_boxes": 46,
+      "map50": 0.8993389061310143,
+      "map50_95": 0.7981898078921346
+    },
+    {
+      "class_id": 6,
+      "class_name": "jetson",
+      "ground_truth_boxes": 25,
+      "map50": 0.44059485358083683,
+      "map50_95": 0.19939325759434084
+    },
+    {
+      "class_id": 7,
+      "class_name": "other_board",
+      "ground_truth_boxes": 20,
+      "map50": 0.995,
+      "map50_95": 0.8908235294117647
+    }
+  ],
+  "checkpoint_sha256": "fa0b8fb5fc11de748e9d8051b93fc57dde5c6cc34db6167045e3fee9e4912752",
+  "images": 200,
+  "invocations": 1,
+  "completed_at": "2026-09-30T04:04:13.024779+00:00",
+  "scope": "development test; reused from previous experiments"
+}

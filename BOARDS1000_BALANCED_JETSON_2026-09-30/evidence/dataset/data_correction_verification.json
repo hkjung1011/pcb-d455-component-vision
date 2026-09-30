@@ -1,0 +1,18 @@
+{
+  "new_dataset_fingerprint": "3120af5994f7494f608b31b59b48833eebee8423408f5a0190f516f6e708ba6f",
+  "original_dataset_fingerprint_unchanged": "66284009264318497a8ba16e8d532fc7f7bc0c6c96bdf1d4eae1c3d3525f5922",
+  "evaluation_records_and_image_label_bytes_unchanged": 350,
+  "non_jetson_train_records_and_image_label_bytes_unchanged": 583,
+  "jetson_train_subtype_image_counts": {
+    "TX2": 27,
+    "Nano": 40
+  },
+  "jetson_train_subtype_box_counts": {
+    "TX2": 31,
+    "Nano": 43
+  },
+  "selected_nano_components": 40,
+  "manual_label_edits": [],
+  "independent_scene_validation": "NOT_VERIFIED",
+  "model_inference_performed_by_data_preparation": false
+}

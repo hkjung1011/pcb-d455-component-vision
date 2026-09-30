@@ -1,0 +1,11 @@
+{
+  "imgsz": 640,
+  "batch": 8,
+  "device": 0,
+  "conf": 0.001,
+  "iou": 0.7,
+  "max_det": 300,
+  "half": false,
+  "plots": true,
+  "verbose": false
+}

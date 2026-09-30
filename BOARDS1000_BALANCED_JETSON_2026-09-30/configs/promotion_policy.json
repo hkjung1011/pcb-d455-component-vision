@@ -1,0 +1,10 @@
+{
+  "minimum_overall_ap50_95_gain": 0.005,
+  "maximum_per_class_ap50_95_drop": 0.05,
+  "minimum_jetson_ap50_95_gain": 0.0,
+  "minimum_overall_gain_vs_current_selected": 0.0,
+  "selection_split": "val",
+  "test_role": "development test; reused from previous experiments",
+  "test_policy": "One candidate test invocation only if the validation promotion gate passes.",
+  "interpretation": "Fixed relative to ORIGINAL 50-epoch best. Pragmatic gate on a reused small validation set, not statistical significance. Training data and schedule changed; not a data-only or epochs-only ablation."
+}

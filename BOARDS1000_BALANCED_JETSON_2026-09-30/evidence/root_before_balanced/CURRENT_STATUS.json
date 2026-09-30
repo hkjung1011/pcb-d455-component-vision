@@ -52,20 +52,19 @@
   "data_release": "https://github.com/hkjung1011/pcb-d455-component-vision/releases/tag/boards1000-2026-09-30",
   "deployed_to_d455": false,
   "latest_tuning_experiment": {
-    "revision": "BOARDS1000_BALANCED_JETSON_2026-09-30",
-    "readme": "BOARDS1000_BALANCED_JETSON_2026-09-30/README.md",
-    "status": "BOARDS1000_BALANCED_JETSON_2026-09-30/STATUS.json",
-    "selection": "BOARDS1000_BALANCED_JETSON_2026-09-30/evidence/selection.json",
-    "release": "https://github.com/hkjung1011/pcb-d455-component-vision/releases/tag/boards1000-balanced-jetson-2026-09-30",
-    "promoted": false,
+    "revision": "BOARDS1000_FINETUNE_2026-09-30",
+    "readme": "BOARDS1000_FINETUNE_2026-09-30/README.md",
+    "status": "BOARDS1000_FINETUNE_2026-09-30/STATUS.json",
+    "selection": "BOARDS1000_FINETUNE_2026-09-30/evidence/selection.json",
+    "release": "https://github.com/hkjung1011/pcb-d455-component-vision/releases/tag/boards1000-finetune-2026-09-30",
+    "promoted": true,
     "selection_split": "val",
     "selected_checkpoint_sha256": "fa0b8fb5fc11de748e9d8051b93fc57dde5c6cc34db6167045e3fee9e4912752",
-    "candidate_checkpoint_sha256": "d226d773f763f2c3e9b04540165fc3b332378784094bb0fb384e8d71f3bba2f2",
-    "epochs_completed": 11,
-    "test_invocations": 0,
-    "candidate_dataset_fingerprint": "3120af5994f7494f608b31b59b48833eebee8423408f5a0190f516f6e708ba6f",
-    "data_change": "train-only40TX2 replaced by40Nano; val/test350 frozen",
-    "deployed_to_d455": false
+    "epochs_completed": 13,
+    "best_finetune_epoch": 5,
+    "validation_gain": 0.010567947129155875,
+    "test_invocations": 1,
+    "experiment_role": "intermediate validation-selected candidate; no D455 deployment"
   },
   "tuning_history": [
     {
@@ -82,22 +81,6 @@
       "validation_gain": 0.010567947129155875,
       "test_invocations": 1,
       "experiment_role": "intermediate validation-selected candidate; no D455 deployment"
-    },
-    {
-      "revision": "BOARDS1000_BALANCED_JETSON_2026-09-30",
-      "readme": "BOARDS1000_BALANCED_JETSON_2026-09-30/README.md",
-      "status": "BOARDS1000_BALANCED_JETSON_2026-09-30/STATUS.json",
-      "selection": "BOARDS1000_BALANCED_JETSON_2026-09-30/evidence/selection.json",
-      "release": "https://github.com/hkjung1011/pcb-d455-component-vision/releases/tag/boards1000-balanced-jetson-2026-09-30",
-      "promoted": false,
-      "selection_split": "val",
-      "selected_checkpoint_sha256": "fa0b8fb5fc11de748e9d8051b93fc57dde5c6cc34db6167045e3fee9e4912752",
-      "candidate_checkpoint_sha256": "d226d773f763f2c3e9b04540165fc3b332378784094bb0fb384e8d71f3bba2f2",
-      "epochs_completed": 11,
-      "test_invocations": 0,
-      "candidate_dataset_fingerprint": "3120af5994f7494f608b31b59b48833eebee8423408f5a0190f516f6e708ba6f",
-      "data_change": "train-only40TX2 replaced by40Nano; val/test350 frozen",
-      "deployed_to_d455": false
     }
   ]
 }

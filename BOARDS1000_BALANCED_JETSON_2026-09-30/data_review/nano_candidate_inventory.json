@@ -1,0 +1,1591 @@
+{
+  "purpose": "Read-only Nano candidate inventory. No dataset/model/config mutations or inference.",
+  "source_records": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\assets\\board_records.json",
+  "current_index": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-29\\iotkits-2-stm32-jpg-iotkits-stm32\\work\\boards1000_s650_v150_t200_e50_20260929\\datasets\\boards_v1\\dataset_index.json",
+  "full_nano_records": 100,
+  "full_nano_export_families": 63,
+  "current_nano": {
+    "images": 10,
+    "native_families": [
+      "iotkits_v1:jetson_nano_104_jpg",
+      "iotkits_v1:jetson_nano_11_jpg",
+      "iotkits_v1:jetson_nano_32_jpg",
+      "iotkits_v1:jetson_nano_81_jpg",
+      "iotkits_v1:jetson_nano_97_jpg"
+    ],
+    "splits": {
+      "test": 8,
+      "val": 2
+    }
+  },
+  "unused_by_native_family": {
+    "images": 90,
+    "families": 58
+  },
+  "screening": {
+    "performed": true,
+    "candidate_vs_current_images": 1000,
+    "candidate_vs_candidate_performed": true,
+    "dup_threshold": 6,
+    "dup_algorithm": "64-bit DCT pHash, symmetric comparison of original orientation to8 rotation/flip variants; filename families and existing current group IDs are unioned transitively",
+    "holdout_images": 44,
+    "holdout_threshold": 8,
+    "holdout_algorithm": "all8x8 rotation/flip pHash variant pairs",
+    "exact_metadata_hashes_match": true,
+    "candidate_current_or_candidate_edges": 34,
+    "limitations": "pHash non-match does not establish physical specimen/capture-scene independence; manual provenance and label review still required."
+  },
+  "eligibility_counts": {
+    "CANDIDATE_REQUIRES_VISUAL_AND_LABEL_REVIEW": 58
+  },
+  "families": [
+    {
+      "source_family": "iotkits_v1:jetson_nano_100_jpg",
+      "records": [
+        {
+          "id": "iotkits_train_01151",
+          "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\assets\\iotkits_v1\\native\\train\\jetson_nano_100_jpg.rf.b9def52d3c1e8d45a0f808b0412a61f6.jpg",
+          "source_metadata_sha256": "f7be8056ad9adf77fd72a00a834dc7c70ea1a452cb58c4fee8c004492d1a3b5a",
+          "actual_sha256": "f7be8056ad9adf77fd72a00a834dc7c70ea1a452cb58c4fee8c004492d1a3b5a",
+          "native_split": "train",
+          "jetson_nano_boxes": 2
+        },
+        {
+          "id": "iotkits_train_01939",
+          "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\assets\\iotkits_v1\\native\\train\\jetson_nano_100_jpg.rf.69017cd161c520c1282951ba521cf699.jpg",
+          "source_metadata_sha256": "706445242650128c0dc33b1929f19e103e3263fea940b7762e2c1a946f40ecf3",
+          "actual_sha256": "706445242650128c0dc33b1929f19e103e3263fea940b7762e2c1a946f40ecf3",
+          "native_split": "train",
+          "jetson_nano_boxes": 2
+        },
+        {
+          "id": "iotkits_train_02021",
+          "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\assets\\iotkits_v1\\native\\train\\jetson_nano_100_jpg.rf.706fc194bfdec9bda5ef78b828215aa5.jpg",
+          "source_metadata_sha256": "c3032f9d72d2dc6138eaa426238c21dbd13fa080015c6fdbfe016fce04c92ec9",
+          "actual_sha256": "c3032f9d72d2dc6138eaa426238c21dbd13fa080015c6fdbfe016fce04c92ec9",
+          "native_split": "train",
+          "jetson_nano_boxes": 2
+        }
+      ],
+      "candidate_components": [
+        36
+      ],
+      "current_connected_groups": [],
+      "current_connected_splits": {},
+      "eval_connected_record_ids": [],
+      "holdout_hits": [],
+      "eligibility": "CANDIDATE_REQUIRES_VISUAL_AND_LABEL_REVIEW",
+      "scene_independence": "NOT_VERIFIED"
+    },
+    {
+      "source_family": "iotkits_v1:jetson_nano_101_jpg",
+      "records": [
+        {
+          "id": "iotkits_train_00541",
+          "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\assets\\iotkits_v1\\native\\train\\jetson_nano_101_jpg.rf.ff84d6599c9daf6665c2109ebda8269f.jpg",
+          "source_metadata_sha256": "82183d417edf8efc31feb3d9abe5b6fb18ab86957b8572abc3db8e71c00cc8c6",
+          "actual_sha256": "82183d417edf8efc31feb3d9abe5b6fb18ab86957b8572abc3db8e71c00cc8c6",
+          "native_split": "train",
+          "jetson_nano_boxes": 1
+        }
+      ],
+      "candidate_components": [
+        17
+      ],
+      "current_connected_groups": [],
+      "current_connected_splits": {},
+      "eval_connected_record_ids": [],
+      "holdout_hits": [],
+      "eligibility": "CANDIDATE_REQUIRES_VISUAL_AND_LABEL_REVIEW",
+      "scene_independence": "NOT_VERIFIED"
+    },
+    {
+      "source_family": "iotkits_v1:jetson_nano_102_jpg",
+      "records": [
+        {
+          "id": "iotkits_train_00256",
+          "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\assets\\iotkits_v1\\native\\train\\jetson_nano_102_jpg.rf.466a9d17d780780f60b986aeec31ab1c.jpg",
+          "source_metadata_sha256": "32782850df471749c8d900a959e1d7524a5cfb4ccfe9984a6e32aab45e7edb7a",
+          "actual_sha256": "32782850df471749c8d900a959e1d7524a5cfb4ccfe9984a6e32aab45e7edb7a",
+          "native_split": "train",
+          "jetson_nano_boxes": 3
+        },
+        {
+          "id": "iotkits_train_02054",
+          "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\assets\\iotkits_v1\\native\\train\\jetson_nano_102_jpg.rf.72f72bc0656f7c8b21a623e69ef7f90d.jpg",
+          "source_metadata_sha256": "ca7606a06526af1a453cb573a645ba4467c39015622a699c2c11dbf7a65394d1",
+          "actual_sha256": "ca7606a06526af1a453cb573a645ba4467c39015622a699c2c11dbf7a65394d1",
+          "native_split": "train",
+          "jetson_nano_boxes": 3
+        }
+      ],
+      "candidate_components": [
+        6
+      ],
+      "current_connected_groups": [],
+      "current_connected_splits": {},
+      "eval_connected_record_ids": [],
+      "holdout_hits": [],
+      "eligibility": "CANDIDATE_REQUIRES_VISUAL_AND_LABEL_REVIEW",
+      "scene_independence": "NOT_VERIFIED"
+    },
+    {
+      "source_family": "iotkits_v1:jetson_nano_106_jpg",
+      "records": [
+        {
+          "id": "iotkits_train_01884",
+          "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\assets\\iotkits_v1\\native\\train\\jetson_nano_106_jpg.rf.64be35ba5c47dbc5de85b149e3620811.jpg",
+          "source_metadata_sha256": "cc790aa7d5ceb8109bb9ba8e0f4569003380faa217469759a1436fe5127fd67c",
+          "actual_sha256": "cc790aa7d5ceb8109bb9ba8e0f4569003380faa217469759a1436fe5127fd67c",
+          "native_split": "train",
+          "jetson_nano_boxes": 1
+        }
+      ],
+      "candidate_components": [
+        52
+      ],
+      "current_connected_groups": [],
+      "current_connected_splits": {},
+      "eval_connected_record_ids": [],
+      "holdout_hits": [],
+      "eligibility": "CANDIDATE_REQUIRES_VISUAL_AND_LABEL_REVIEW",
+      "scene_independence": "NOT_VERIFIED"
+    },
+    {
+      "source_family": "iotkits_v1:jetson_nano_107_jpg",
+      "records": [
+        {
+          "id": "iotkits_train_00451",
+          "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\assets\\iotkits_v1\\native\\train\\jetson_nano_107_jpg.rf.f4355d059721b71dba604f1c7c687e8e.jpg",
+          "source_metadata_sha256": "6a864058191c05e69d968e38b095467f6bedf00246d7bb4ef0a45a358340c19a",
+          "actual_sha256": "6a864058191c05e69d968e38b095467f6bedf00246d7bb4ef0a45a358340c19a",
+          "native_split": "train",
+          "jetson_nano_boxes": 1
+        }
+      ],
+      "candidate_components": [
+        12
+      ],
+      "current_connected_groups": [],
+      "current_connected_splits": {},
+      "eval_connected_record_ids": [],
+      "holdout_hits": [],
+      "eligibility": "CANDIDATE_REQUIRES_VISUAL_AND_LABEL_REVIEW",
+      "scene_independence": "NOT_VERIFIED"
+    },
+    {
+      "source_family": "iotkits_v1:jetson_nano_108_jpg",
+      "records": [
+        {
+          "id": "iotkits_train_00638",
+          "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\assets\\iotkits_v1\\native\\train\\jetson_nano_108_jpg.rf.cf1645ca939f4bb2b1b2df96281004f1.jpg",
+          "source_metadata_sha256": "d2b3a6262555385d8ebb95d3aaa9d41f607f3a96d2eb2f4de64f006e21b5fcb0",
+          "actual_sha256": "d2b3a6262555385d8ebb95d3aaa9d41f607f3a96d2eb2f4de64f006e21b5fcb0",
+          "native_split": "train",
+          "jetson_nano_boxes": 1
+        }
+      ],
+      "candidate_components": [
+        21
+      ],
+      "current_connected_groups": [],
+      "current_connected_splits": {},
+      "eval_connected_record_ids": [],
+      "holdout_hits": [],
+      "eligibility": "CANDIDATE_REQUIRES_VISUAL_AND_LABEL_REVIEW",
+      "scene_independence": "NOT_VERIFIED"
+    },
+    {
+      "source_family": "iotkits_v1:jetson_nano_13_jpg",
+      "records": [
+        {
+          "id": "iotkits_train_02284",
+          "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\assets\\iotkits_v1\\native\\train\\jetson_nano_13_jpg.rf.8c4dfed574659cb5e0c8f3136967f3f8.jpg",
+          "source_metadata_sha256": "e14cc81c5ab40e879b60d322ce5f50f0a66a5072abb2bf26c5463eb0b5682b7b",
+          "actual_sha256": "e14cc81c5ab40e879b60d322ce5f50f0a66a5072abb2bf26c5463eb0b5682b7b",
+          "native_split": "train",
+          "jetson_nano_boxes": 1
+        }
+      ],
+      "candidate_components": [
+        66
+      ],
+      "current_connected_groups": [],
+      "current_connected_splits": {},
+      "eval_connected_record_ids": [],
+      "holdout_hits": [],
+      "eligibility": "CANDIDATE_REQUIRES_VISUAL_AND_LABEL_REVIEW",
+      "scene_independence": "NOT_VERIFIED"
+    },
+    {
+      "source_family": "iotkits_v1:jetson_nano_14_jpg",
+      "records": [
+        {
+          "id": "iotkits_train_02305",
+          "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\assets\\iotkits_v1\\native\\train\\jetson_nano_14_jpg.rf.8d78fa5b93b1377c39958dbcac19711d.jpg",
+          "source_metadata_sha256": "aaff9d847e6f4589fd40632deb8948b1dfe08519db5a8af3e2a3328c2abbbee0",
+          "actual_sha256": "aaff9d847e6f4589fd40632deb8948b1dfe08519db5a8af3e2a3328c2abbbee0",
+          "native_split": "train",
+          "jetson_nano_boxes": 1
+        }
+      ],
+      "candidate_components": [
+        67
+      ],
+      "current_connected_groups": [],
+      "current_connected_splits": {},
+      "eval_connected_record_ids": [],
+      "holdout_hits": [],
+      "eligibility": "CANDIDATE_REQUIRES_VISUAL_AND_LABEL_REVIEW",
+      "scene_independence": "NOT_VERIFIED"
+    },
+    {
+      "source_family": "iotkits_v1:jetson_nano_16_jpg",
+      "records": [
+        {
+          "id": "iotkits_train_00653",
+          "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\assets\\iotkits_v1\\native\\train\\jetson_nano_16_jpg.rf.d3084c30193c8124f8cae54912ccbd21.jpg",
+          "source_metadata_sha256": "3b7d8545aebf4b4d7d2082a3c7c64d72d781af619cabd202c2087ea915e9444c",
+          "actual_sha256": "3b7d8545aebf4b4d7d2082a3c7c64d72d781af619cabd202c2087ea915e9444c",
+          "native_split": "train",
+          "jetson_nano_boxes": 1
+        },
+        {
+          "id": "iotkits_train_02043",
+          "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\assets\\iotkits_v1\\native\\train\\jetson_nano_16_jpg.rf.74076295beeb36f423918c0764d6493a.jpg",
+          "source_metadata_sha256": "149da5469eae93e747195920ede2dc48b67f9113dbd26b06cb3e149b01e30a61",
+          "actual_sha256": "149da5469eae93e747195920ede2dc48b67f9113dbd26b06cb3e149b01e30a61",
+          "native_split": "train",
+          "jetson_nano_boxes": 1
+        }
+      ],
+      "candidate_components": [
+        22
+      ],
+      "current_connected_groups": [],
+      "current_connected_splits": {},
+      "eval_connected_record_ids": [],
+      "holdout_hits": [],
+      "eligibility": "CANDIDATE_REQUIRES_VISUAL_AND_LABEL_REVIEW",
+      "scene_independence": "NOT_VERIFIED"
+    },
+    {
+      "source_family": "iotkits_v1:jetson_nano_18_jpg",
+      "records": [
+        {
+          "id": "iotkits_valid_00459",
+          "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\assets\\iotkits_v1\\native\\valid\\jetson_nano_18_jpg.rf.ba655093f2e789738be3ce83c15feaaf.jpg",
+          "source_metadata_sha256": "35d6a49bda1539ea3d19abc980cf098c37699cb88109081c88a16326cb9ba4d9",
+          "actual_sha256": "35d6a49bda1539ea3d19abc980cf098c37699cb88109081c88a16326cb9ba4d9",
+          "native_split": "valid",
+          "jetson_nano_boxes": 1
+        }
+      ],
+      "candidate_components": [
+        84
+      ],
+      "current_connected_groups": [],
+      "current_connected_splits": {},
+      "eval_connected_record_ids": [],
+      "holdout_hits": [],
+      "eligibility": "CANDIDATE_REQUIRES_VISUAL_AND_LABEL_REVIEW",
+      "scene_independence": "NOT_VERIFIED"
+    },
+    {
+      "source_family": "iotkits_v1:jetson_nano_19_jpg",
+      "records": [
+        {
+          "id": "iotkits_train_01237",
+          "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\assets\\iotkits_v1\\native\\train\\jetson_nano_19_jpg.rf.c1360fa3bc85755098f069714c80c202.jpg",
+          "source_metadata_sha256": "6a0956397d7345015430cfec5ded6574229ec7e8e68cc60806a9f4c3e937d786",
+          "actual_sha256": "6a0956397d7345015430cfec5ded6574229ec7e8e68cc60806a9f4c3e937d786",
+          "native_split": "train",
+          "jetson_nano_boxes": 1
+        },
+        {
+          "id": "iotkits_valid_00485",
+          "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\assets\\iotkits_v1\\native\\valid\\jetson_nano_19_jpg.rf.bbc8943a9798a6664a1dd0d6a039aeea.jpg",
+          "source_metadata_sha256": "583e79106a0f11d7039154c7a0851c56ba89100e5b968bc3bdbf25632cbb1181",
+          "actual_sha256": "583e79106a0f11d7039154c7a0851c56ba89100e5b968bc3bdbf25632cbb1181",
+          "native_split": "valid",
+          "jetson_nano_boxes": 1
+        }
+      ],
+      "candidate_components": [
+        39
+      ],
+      "current_connected_groups": [],
+      "current_connected_splits": {},
+      "eval_connected_record_ids": [],
+      "holdout_hits": [],
+      "eligibility": "CANDIDATE_REQUIRES_VISUAL_AND_LABEL_REVIEW",
+      "scene_independence": "NOT_VERIFIED"
+    },
+    {
+      "source_family": "iotkits_v1:jetson_nano_20_jpg",
+      "records": [
+        {
+          "id": "iotkits_train_02429",
+          "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\assets\\iotkits_v1\\native\\train\\jetson_nano_20_jpg.rf.9b4883d2c638fe5f552a9c9a15cd3b2e.jpg",
+          "source_metadata_sha256": "6c9a6713d461eb6d1e4b09cbf0d5194764fdf223e0dcd31ded726b52bd60123c",
+          "actual_sha256": "6c9a6713d461eb6d1e4b09cbf0d5194764fdf223e0dcd31ded726b52bd60123c",
+          "native_split": "train",
+          "jetson_nano_boxes": 1
+        },
+        {
+          "id": "iotkits_valid_00545",
+          "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\assets\\iotkits_v1\\native\\valid\\jetson_nano_20_jpg.rf.e4d979c475fc5d43b948df7a1085a800.jpg",
+          "source_metadata_sha256": "9f9964c2351f0f1f78632e5b730fbb56f86a4b72800d63f8e26c843fa31e50a2",
+          "actual_sha256": "9f9964c2351f0f1f78632e5b730fbb56f86a4b72800d63f8e26c843fa31e50a2",
+          "native_split": "valid",
+          "jetson_nano_boxes": 1
+        }
+      ],
+      "candidate_components": [
+        71
+      ],
+      "current_connected_groups": [],
+      "current_connected_splits": {},
+      "eval_connected_record_ids": [],
+      "holdout_hits": [],
+      "eligibility": "CANDIDATE_REQUIRES_VISUAL_AND_LABEL_REVIEW",
+      "scene_independence": "NOT_VERIFIED"
+    },
+    {
+      "source_family": "iotkits_v1:jetson_nano_22_jpg",
+      "records": [
+        {
+          "id": "iotkits_train_00764",
+          "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\assets\\iotkits_v1\\native\\train\\jetson_nano_22_jpg.rf.dfd442b8edcd5c2c9fb94fc2b049182d.jpg",
+          "source_metadata_sha256": "8270a6c28966e14bcb5e633fff6723a1389474f2bafc112d821443ae55071699",
+          "actual_sha256": "8270a6c28966e14bcb5e633fff6723a1389474f2bafc112d821443ae55071699",
+          "native_split": "train",
+          "jetson_nano_boxes": 1
+        },
+        {
+          "id": "iotkits_train_01393",
+          "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\assets\\iotkits_v1\\native\\train\\jetson_nano_22_jpg.rf.05077f242d47743741b0e757cca51b88.jpg",
+          "source_metadata_sha256": "fc572a3ec880e4e365acaf7d706b60d87f23d42c65fabc5dfbc7756b508dd80f",
+          "actual_sha256": "fc572a3ec880e4e365acaf7d706b60d87f23d42c65fabc5dfbc7756b508dd80f",
+          "native_split": "train",
+          "jetson_nano_boxes": 1
+        }
+      ],
+      "candidate_components": [
+        24
+      ],
+      "current_connected_groups": [],
+      "current_connected_splits": {},
+      "eval_connected_record_ids": [],
+      "holdout_hits": [],
+      "eligibility": "CANDIDATE_REQUIRES_VISUAL_AND_LABEL_REVIEW",
+      "scene_independence": "NOT_VERIFIED"
+    },
+    {
+      "source_family": "iotkits_v1:jetson_nano_23_jpg",
+      "records": [
+        {
+          "id": "iotkits_train_01094",
+          "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\assets\\iotkits_v1\\native\\train\\jetson_nano_23_jpg.rf.b292476f0a79b0d6d7a24dd54024d740.jpg",
+          "source_metadata_sha256": "91c7ed3e984f3567e5a1a615825cac05591ec8f266b58f224a0e5bf40f20af14",
+          "actual_sha256": "91c7ed3e984f3567e5a1a615825cac05591ec8f266b58f224a0e5bf40f20af14",
+          "native_split": "train",
+          "jetson_nano_boxes": 1
+        },
+        {
+          "id": "iotkits_train_01141",
+          "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\assets\\iotkits_v1\\native\\train\\jetson_nano_23_jpg.rf.b84a53aa34657496b0575971bf1dcda2.jpg",
+          "source_metadata_sha256": "f411964999382e8df373463e955aefde584dafcd28efc315128fcd61f07c84fa",
+          "actual_sha256": "f411964999382e8df373463e955aefde584dafcd28efc315128fcd61f07c84fa",
+          "native_split": "train",
+          "jetson_nano_boxes": 1
+        }
+      ],
+      "candidate_components": [
+        33
+      ],
+      "current_connected_groups": [],
+      "current_connected_splits": {},
+      "eval_connected_record_ids": [],
+      "holdout_hits": [],
+      "eligibility": "CANDIDATE_REQUIRES_VISUAL_AND_LABEL_REVIEW",
+      "scene_independence": "NOT_VERIFIED"
+    },
+    {
+      "source_family": "iotkits_v1:jetson_nano_24_jpg",
+      "records": [
+        {
+          "id": "iotkits_train_01928",
+          "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\assets\\iotkits_v1\\native\\train\\jetson_nano_24_jpg.rf.680cb1de518222541b0e35af4263ab67.jpg",
+          "source_metadata_sha256": "ce531d8a3fc60443ee91a1c5039cae822104cefa984cff7b883dc9c3cb6e2028",
+          "actual_sha256": "ce531d8a3fc60443ee91a1c5039cae822104cefa984cff7b883dc9c3cb6e2028",
+          "native_split": "train",
+          "jetson_nano_boxes": 1
+        }
+      ],
+      "candidate_components": [
+        55
+      ],
+      "current_connected_groups": [],
+      "current_connected_splits": {},
+      "eval_connected_record_ids": [],
+      "holdout_hits": [],
+      "eligibility": "CANDIDATE_REQUIRES_VISUAL_AND_LABEL_REVIEW",
+      "scene_independence": "NOT_VERIFIED"
+    },
+    {
+      "source_family": "iotkits_v1:jetson_nano_25_jpg",
+      "records": [
+        {
+          "id": "iotkits_train_00393",
+          "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\assets\\iotkits_v1\\native\\train\\jetson_nano_25_jpg.rf.ee36af031f968a47cb274cb3f03282b5.jpg",
+          "source_metadata_sha256": "fa3654f41128ad751350d9b1d78acb301a8b49a75e69833c63b7aa47d3ebde1f",
+          "actual_sha256": "fa3654f41128ad751350d9b1d78acb301a8b49a75e69833c63b7aa47d3ebde1f",
+          "native_split": "train",
+          "jetson_nano_boxes": 1
+        },
+        {
+          "id": "iotkits_train_00853",
+          "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\assets\\iotkits_v1\\native\\train\\jetson_nano_25_jpg.rf.e7937e1591233f9da9deb0f4d516ff68.jpg",
+          "source_metadata_sha256": "87f38df63b5b8069de22a1e9503c5be7c394b973ff50ef6df89d7f64a219cfeb",
+          "actual_sha256": "87f38df63b5b8069de22a1e9503c5be7c394b973ff50ef6df89d7f64a219cfeb",
+          "native_split": "train",
+          "jetson_nano_boxes": 1
+        }
+      ],
+      "candidate_components": [
+        10
+      ],
+      "current_connected_groups": [],
+      "current_connected_splits": {},
+      "eval_connected_record_ids": [],
+      "holdout_hits": [],
+      "eligibility": "CANDIDATE_REQUIRES_VISUAL_AND_LABEL_REVIEW",
+      "scene_independence": "NOT_VERIFIED"
+    },
+    {
+      "source_family": "iotkits_v1:jetson_nano_26_jpg",
+      "records": [
+        {
+          "id": "iotkits_valid_00445",
+          "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\assets\\iotkits_v1\\native\\valid\\jetson_nano_26_jpg.rf.af461d556ce29f45ecef81654b877159.jpg",
+          "source_metadata_sha256": "167e6fbbc3b3e88a200d0c115ca450e196137ed713996ad103e82fa6d6dfbd02",
+          "actual_sha256": "167e6fbbc3b3e88a200d0c115ca450e196137ed713996ad103e82fa6d6dfbd02",
+          "native_split": "valid",
+          "jetson_nano_boxes": 1
+        },
+        {
+          "id": "iotkits_valid_00603",
+          "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\assets\\iotkits_v1\\native\\valid\\jetson_nano_26_jpg.rf.f7d63f4e3c2727de9791a78e43c50372.jpg",
+          "source_metadata_sha256": "bf9721a62a639f67d1a99d67cecb6dbdc172b32dfb0990ca8ff6acb1d2f8bc77",
+          "actual_sha256": "bf9721a62a639f67d1a99d67cecb6dbdc172b32dfb0990ca8ff6acb1d2f8bc77",
+          "native_split": "valid",
+          "jetson_nano_boxes": 1
+        }
+      ],
+      "candidate_components": [
+        83
+      ],
+      "current_connected_groups": [],
+      "current_connected_splits": {},
+      "eval_connected_record_ids": [],
+      "holdout_hits": [],
+      "eligibility": "CANDIDATE_REQUIRES_VISUAL_AND_LABEL_REVIEW",
+      "scene_independence": "NOT_VERIFIED"
+    },
+    {
+      "source_family": "iotkits_v1:jetson_nano_28_jpg",
+      "records": [
+        {
+          "id": "iotkits_train_00157",
+          "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\assets\\iotkits_v1\\native\\train\\jetson_nano_28_jpg.rf.3aaa5d0f40d94381744be32d4fe1fb91.jpg",
+          "source_metadata_sha256": "8b2fa879c5ef30df0fad6f5e7738f75ac75dd80010eea8a45ac2d88a6007d161",
+          "actual_sha256": "8b2fa879c5ef30df0fad6f5e7738f75ac75dd80010eea8a45ac2d88a6007d161",
+          "native_split": "train",
+          "jetson_nano_boxes": 1
+        },
+        {
+          "id": "iotkits_train_01166",
+          "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\assets\\iotkits_v1\\native\\train\\jetson_nano_28_jpg.rf.bb35f889ed6633bc9e9aeeccc27f02f4.jpg",
+          "source_metadata_sha256": "a8bfe1e09599e457eddf8c32ce5b27607b44e883b4db9d4c332a70b745e903af",
+          "actual_sha256": "a8bfe1e09599e457eddf8c32ce5b27607b44e883b4db9d4c332a70b745e903af",
+          "native_split": "train",
+          "jetson_nano_boxes": 1
+        }
+      ],
+      "candidate_components": [
+        4
+      ],
+      "current_connected_groups": [],
+      "current_connected_splits": {},
+      "eval_connected_record_ids": [],
+      "holdout_hits": [],
+      "eligibility": "CANDIDATE_REQUIRES_VISUAL_AND_LABEL_REVIEW",
+      "scene_independence": "NOT_VERIFIED"
+    },
+    {
+      "source_family": "iotkits_v1:jetson_nano_29_jpg",
+      "records": [
+        {
+          "id": "iotkits_train_01650",
+          "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\assets\\iotkits_v1\\native\\train\\jetson_nano_29_jpg.rf.229c65887677e5ce32984b4bb4a95ad1.jpg",
+          "source_metadata_sha256": "f6f9625ce77dd3724004b24eafdd254ecd4ef3988f8b3be0b4c36c2a267387ff",
+          "actual_sha256": "f6f9625ce77dd3724004b24eafdd254ecd4ef3988f8b3be0b4c36c2a267387ff",
+          "native_split": "train",
+          "jetson_nano_boxes": 1
+        },
+        {
+          "id": "iotkits_valid_00133",
+          "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\assets\\iotkits_v1\\native\\valid\\jetson_nano_29_jpg.rf.3e863cddcaf2b43cd1736b25ca281800.jpg",
+          "source_metadata_sha256": "39258264007838f3aee211ecf744dac1c8df9c5319b90fdf63d566e8fe42b6fc",
+          "actual_sha256": "39258264007838f3aee211ecf744dac1c8df9c5319b90fdf63d566e8fe42b6fc",
+          "native_split": "valid",
+          "jetson_nano_boxes": 1
+        }
+      ],
+      "candidate_components": [
+        46
+      ],
+      "current_connected_groups": [],
+      "current_connected_splits": {},
+      "eval_connected_record_ids": [],
+      "holdout_hits": [],
+      "eligibility": "CANDIDATE_REQUIRES_VISUAL_AND_LABEL_REVIEW",
+      "scene_independence": "NOT_VERIFIED"
+    },
+    {
+      "source_family": "iotkits_v1:jetson_nano_30_jpg",
+      "records": [
+        {
+          "id": "iotkits_train_01389",
+          "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\assets\\iotkits_v1\\native\\train\\jetson_nano_30_jpg.rf.054ebbb21ec8ad65706f9facca8907b7.jpg",
+          "source_metadata_sha256": "f84c22573a7493ad9c2c2091f78a3119ea187344c998d1255b1119501c09051b",
+          "actual_sha256": "f84c22573a7493ad9c2c2091f78a3119ea187344c998d1255b1119501c09051b",
+          "native_split": "train",
+          "jetson_nano_boxes": 1
+        }
+      ],
+      "candidate_components": [
+        42
+      ],
+      "current_connected_groups": [],
+      "current_connected_splits": {},
+      "eval_connected_record_ids": [],
+      "holdout_hits": [],
+      "eligibility": "CANDIDATE_REQUIRES_VISUAL_AND_LABEL_REVIEW",
+      "scene_independence": "NOT_VERIFIED"
+    },
+    {
+      "source_family": "iotkits_v1:jetson_nano_31_jpg",
+      "records": [
+        {
+          "id": "iotkits_train_01869",
+          "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\assets\\iotkits_v1\\native\\train\\jetson_nano_31_jpg.rf.62e5d4141dabb2fd13295f9e0dde4b63.jpg",
+          "source_metadata_sha256": "d3bbf143b02a586802d337e8c0c3e8318abca25e1c3aa107b713c36ef7b0823c",
+          "actual_sha256": "d3bbf143b02a586802d337e8c0c3e8318abca25e1c3aa107b713c36ef7b0823c",
+          "native_split": "train",
+          "jetson_nano_boxes": 1
+        }
+      ],
+      "candidate_components": [
+        51
+      ],
+      "current_connected_groups": [],
+      "current_connected_splits": {},
+      "eval_connected_record_ids": [],
+      "holdout_hits": [],
+      "eligibility": "CANDIDATE_REQUIRES_VISUAL_AND_LABEL_REVIEW",
+      "scene_independence": "NOT_VERIFIED"
+    },
+    {
+      "source_family": "iotkits_v1:jetson_nano_33_jpg",
+      "records": [
+        {
+          "id": "iotkits_valid_00043",
+          "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\assets\\iotkits_v1\\native\\valid\\jetson_nano_33_jpg.rf.114b8dfdfbdb7ddf481f6e7a7f628a1f.jpg",
+          "source_metadata_sha256": "f3b33a5d266427ad6759a46d5547a128f74a3bfbfb7a95e051c86b3efb0c1f52",
+          "actual_sha256": "f3b33a5d266427ad6759a46d5547a128f74a3bfbfb7a95e051c86b3efb0c1f52",
+          "native_split": "valid",
+          "jetson_nano_boxes": 1
+        }
+      ],
+      "candidate_components": [
+        73
+      ],
+      "current_connected_groups": [],
+      "current_connected_splits": {},
+      "eval_connected_record_ids": [],
+      "holdout_hits": [],
+      "eligibility": "CANDIDATE_REQUIRES_VISUAL_AND_LABEL_REVIEW",
+      "scene_independence": "NOT_VERIFIED"
+    },
+    {
+      "source_family": "iotkits_v1:jetson_nano_34_jpg",
+      "records": [
+        {
+          "id": "iotkits_train_00527",
+          "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\assets\\iotkits_v1\\native\\train\\jetson_nano_34_jpg.rf.fde64595f11f8f0372691a672220b12a.jpg",
+          "source_metadata_sha256": "f1a375e85949a1475727b8d6e1096e10abfabb901a7e020aa5f53865e5f60b68",
+          "actual_sha256": "f1a375e85949a1475727b8d6e1096e10abfabb901a7e020aa5f53865e5f60b68",
+          "native_split": "train",
+          "jetson_nano_boxes": 1
+        }
+      ],
+      "candidate_components": [
+        16
+      ],
+      "current_connected_groups": [],
+      "current_connected_splits": {},
+      "eval_connected_record_ids": [],
+      "holdout_hits": [],
+      "eligibility": "CANDIDATE_REQUIRES_VISUAL_AND_LABEL_REVIEW",
+      "scene_independence": "NOT_VERIFIED"
+    },
+    {
+      "source_family": "iotkits_v1:jetson_nano_35_jpg",
+      "records": [
+        {
+          "id": "iotkits_train_01932",
+          "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\assets\\iotkits_v1\\native\\train\\jetson_nano_35_jpg.rf.68f6444f2f3a7ac547e3fe8c0d70bfe7.jpg",
+          "source_metadata_sha256": "162173c95926303a1e7d0d870431a2fc775239c443918d620516d621a906a2f1",
+          "actual_sha256": "162173c95926303a1e7d0d870431a2fc775239c443918d620516d621a906a2f1",
+          "native_split": "train",
+          "jetson_nano_boxes": 1
+        }
+      ],
+      "candidate_components": [
+        56
+      ],
+      "current_connected_groups": [],
+      "current_connected_splits": {},
+      "eval_connected_record_ids": [],
+      "holdout_hits": [],
+      "eligibility": "CANDIDATE_REQUIRES_VISUAL_AND_LABEL_REVIEW",
+      "scene_independence": "NOT_VERIFIED"
+    },
+    {
+      "source_family": "iotkits_v1:jetson_nano_37_jpg",
+      "records": [
+        {
+          "id": "iotkits_train_01729",
+          "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\assets\\iotkits_v1\\native\\train\\jetson_nano_37_jpg.rf.52332fee0a755077226c35ab8811ba63.jpg",
+          "source_metadata_sha256": "6b304bdba77adecc4c475ac4cd3b817e0e10f990b9d631f93f0a84154c880a62",
+          "actual_sha256": "6b304bdba77adecc4c475ac4cd3b817e0e10f990b9d631f93f0a84154c880a62",
+          "native_split": "train",
+          "jetson_nano_boxes": 1
+        }
+      ],
+      "candidate_components": [
+        47
+      ],
+      "current_connected_groups": [],
+      "current_connected_splits": {},
+      "eval_connected_record_ids": [],
+      "holdout_hits": [],
+      "eligibility": "CANDIDATE_REQUIRES_VISUAL_AND_LABEL_REVIEW",
+      "scene_independence": "NOT_VERIFIED"
+    },
+    {
+      "source_family": "iotkits_v1:jetson_nano_40_jpg",
+      "records": [
+        {
+          "id": "iotkits_train_01024",
+          "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\assets\\iotkits_v1\\native\\train\\jetson_nano_40_jpg.rf.a83696781627aac0fd29854b2c935615.jpg",
+          "source_metadata_sha256": "ebe6835a5c4dc9952e527d717d4334871871e63788df4d3e413f92eab01f3b75",
+          "actual_sha256": "ebe6835a5c4dc9952e527d717d4334871871e63788df4d3e413f92eab01f3b75",
+          "native_split": "train",
+          "jetson_nano_boxes": 1
+        }
+      ],
+      "candidate_components": [
+        30
+      ],
+      "current_connected_groups": [],
+      "current_connected_splits": {},
+      "eval_connected_record_ids": [],
+      "holdout_hits": [],
+      "eligibility": "CANDIDATE_REQUIRES_VISUAL_AND_LABEL_REVIEW",
+      "scene_independence": "NOT_VERIFIED"
+    },
+    {
+      "source_family": "iotkits_v1:jetson_nano_41_jpg",
+      "records": [
+        {
+          "id": "iotkits_train_01624",
+          "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\assets\\iotkits_v1\\native\\train\\jetson_nano_41_jpg.rf.1f08677f4ce7e11d32b300cd081b6e2d.jpg",
+          "source_metadata_sha256": "7b5cf92f0df3c1e1b51584eaa634fe9200dc73684ccfd0375f193fc4bf08a662",
+          "actual_sha256": "7b5cf92f0df3c1e1b51584eaa634fe9200dc73684ccfd0375f193fc4bf08a662",
+          "native_split": "train",
+          "jetson_nano_boxes": 1
+        },
+        {
+          "id": "iotkits_train_02045",
+          "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\assets\\iotkits_v1\\native\\train\\jetson_nano_41_jpg.rf.74678218bad7c57363414e08ce73ccf7.jpg",
+          "source_metadata_sha256": "56106562398cf44a5d290380297c1038dd5ef982ba51457284fe6eb541dd4f0f",
+          "actual_sha256": "56106562398cf44a5d290380297c1038dd5ef982ba51457284fe6eb541dd4f0f",
+          "native_split": "train",
+          "jetson_nano_boxes": 1
+        }
+      ],
+      "candidate_components": [
+        45
+      ],
+      "current_connected_groups": [],
+      "current_connected_splits": {},
+      "eval_connected_record_ids": [],
+      "holdout_hits": [],
+      "eligibility": "CANDIDATE_REQUIRES_VISUAL_AND_LABEL_REVIEW",
+      "scene_independence": "NOT_VERIFIED"
+    },
+    {
+      "source_family": "iotkits_v1:jetson_nano_45_jpg",
+      "records": [
+        {
+          "id": "iotkits_train_00590",
+          "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\assets\\iotkits_v1\\native\\train\\jetson_nano_45_jpg.rf.ca9a17a5aa66fb7a90625b94b82eb0dc.jpg",
+          "source_metadata_sha256": "7375303084d6a769fae2f129e6782bb3e3f45dc690f0c43792ab0ca596adfece",
+          "actual_sha256": "7375303084d6a769fae2f129e6782bb3e3f45dc690f0c43792ab0ca596adfece",
+          "native_split": "train",
+          "jetson_nano_boxes": 1
+        },
+        {
+          "id": "iotkits_train_00602",
+          "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\assets\\iotkits_v1\\native\\train\\jetson_nano_45_jpg.rf.cdb1203df126a785822da8b8785111a8.jpg",
+          "source_metadata_sha256": "52c254ac6a8e00abe86b9f0d30490c43f418d01d08bf4c2abd996523de8365f7",
+          "actual_sha256": "52c254ac6a8e00abe86b9f0d30490c43f418d01d08bf4c2abd996523de8365f7",
+          "native_split": "train",
+          "jetson_nano_boxes": 1
+        }
+      ],
+      "candidate_components": [
+        18
+      ],
+      "current_connected_groups": [],
+      "current_connected_splits": {},
+      "eval_connected_record_ids": [],
+      "holdout_hits": [],
+      "eligibility": "CANDIDATE_REQUIRES_VISUAL_AND_LABEL_REVIEW",
+      "scene_independence": "NOT_VERIFIED"
+    },
+    {
+      "source_family": "iotkits_v1:jetson_nano_47_jpg",
+      "records": [
+        {
+          "id": "iotkits_train_00817",
+          "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\assets\\iotkits_v1\\native\\train\\jetson_nano_47_jpg.rf.e4260d05b4bdd6652a54f5fca5e27d57.jpg",
+          "source_metadata_sha256": "175c3fdbf46f1373db491d547dcaa248538f9184474ae79e5d76667ca52dfc4d",
+          "actual_sha256": "175c3fdbf46f1373db491d547dcaa248538f9184474ae79e5d76667ca52dfc4d",
+          "native_split": "train",
+          "jetson_nano_boxes": 1
+        },
+        {
+          "id": "iotkits_valid_00597",
+          "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\assets\\iotkits_v1\\native\\valid\\jetson_nano_47_jpg.rf.f095dd58b57be8b0a03dcbcf54805d5e.jpg",
+          "source_metadata_sha256": "66a5a6a1477e2d1305036cf833a2c75d4280692c46fa73c275536b283dee3cef",
+          "actual_sha256": "66a5a6a1477e2d1305036cf833a2c75d4280692c46fa73c275536b283dee3cef",
+          "native_split": "valid",
+          "jetson_nano_boxes": 1
+        }
+      ],
+      "candidate_components": [
+        26
+      ],
+      "current_connected_groups": [],
+      "current_connected_splits": {},
+      "eval_connected_record_ids": [],
+      "holdout_hits": [],
+      "eligibility": "CANDIDATE_REQUIRES_VISUAL_AND_LABEL_REVIEW",
+      "scene_independence": "NOT_VERIFIED"
+    },
+    {
+      "source_family": "iotkits_v1:jetson_nano_48_jpg",
+      "records": [
+        {
+          "id": "iotkits_train_00842",
+          "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\assets\\iotkits_v1\\native\\train\\jetson_nano_48_jpg.rf.e686034816511b63c266bfb6356da29c.jpg",
+          "source_metadata_sha256": "5ad27bd6f78dbc32b3833fa8143bb598eace761d7fef88fced9d91c5fbb98788",
+          "actual_sha256": "5ad27bd6f78dbc32b3833fa8143bb598eace761d7fef88fced9d91c5fbb98788",
+          "native_split": "train",
+          "jetson_nano_boxes": 1
+        },
+        {
+          "id": "iotkits_valid_00078",
+          "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\assets\\iotkits_v1\\native\\valid\\jetson_nano_48_jpg.rf.27cbbe9423d350a2069933de680325eb.jpg",
+          "source_metadata_sha256": "0f1e7aa26d439fae9fa139cfa9ef0ebbd17262d56120fde2415ab94b94924d4d",
+          "actual_sha256": "0f1e7aa26d439fae9fa139cfa9ef0ebbd17262d56120fde2415ab94b94924d4d",
+          "native_split": "valid",
+          "jetson_nano_boxes": 1
+        }
+      ],
+      "candidate_components": [
+        27
+      ],
+      "current_connected_groups": [],
+      "current_connected_splits": {},
+      "eval_connected_record_ids": [],
+      "holdout_hits": [],
+      "eligibility": "CANDIDATE_REQUIRES_VISUAL_AND_LABEL_REVIEW",
+      "scene_independence": "NOT_VERIFIED"
+    },
+    {
+      "source_family": "iotkits_v1:jetson_nano_51_jpg",
+      "records": [
+        {
+          "id": "iotkits_train_01080",
+          "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\assets\\iotkits_v1\\native\\train\\jetson_nano_51_jpg.rf.b176f7836fae41cc070b43af6d14b6c0.jpg",
+          "source_metadata_sha256": "601c2f954b100893d4d12f7ef3b731eb39a07d7c36b6673d08d03ffb4df754b8",
+          "actual_sha256": "601c2f954b100893d4d12f7ef3b731eb39a07d7c36b6673d08d03ffb4df754b8",
+          "native_split": "train",
+          "jetson_nano_boxes": 1
+        }
+      ],
+      "candidate_components": [
+        32
+      ],
+      "current_connected_groups": [],
+      "current_connected_splits": {},
+      "eval_connected_record_ids": [],
+      "holdout_hits": [],
+      "eligibility": "CANDIDATE_REQUIRES_VISUAL_AND_LABEL_REVIEW",
+      "scene_independence": "NOT_VERIFIED"
+    },
+    {
+      "source_family": "iotkits_v1:jetson_nano_52_jpg",
+      "records": [
+        {
+          "id": "iotkits_valid_00366",
+          "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\assets\\iotkits_v1\\native\\valid\\jetson_nano_52_jpg.rf.93cb3d6166faf55b328081cdb97e5806.jpg",
+          "source_metadata_sha256": "c1fc9a5300f7f67f5532df1a1238858b9fb348841343dfb2740125aee34eaab2",
+          "actual_sha256": "c1fc9a5300f7f67f5532df1a1238858b9fb348841343dfb2740125aee34eaab2",
+          "native_split": "valid",
+          "jetson_nano_boxes": 2
+        }
+      ],
+      "candidate_components": [
+        81
+      ],
+      "current_connected_groups": [],
+      "current_connected_splits": {},
+      "eval_connected_record_ids": [],
+      "holdout_hits": [],
+      "eligibility": "CANDIDATE_REQUIRES_VISUAL_AND_LABEL_REVIEW",
+      "scene_independence": "NOT_VERIFIED"
+    },
+    {
+      "source_family": "iotkits_v1:jetson_nano_57_jpg",
+      "records": [
+        {
+          "id": "iotkits_train_00482",
+          "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\assets\\iotkits_v1\\native\\train\\jetson_nano_57_jpg.rf.f8af7d0c765975fff7b781bbb3eb8cc2.jpg",
+          "source_metadata_sha256": "ef5ff426e928b79c7de8e50ae8c56cd886dd0afc4f129d76622722546e7d623e",
+          "actual_sha256": "ef5ff426e928b79c7de8e50ae8c56cd886dd0afc4f129d76622722546e7d623e",
+          "native_split": "train",
+          "jetson_nano_boxes": 1
+        },
+        {
+          "id": "iotkits_valid_00414",
+          "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\assets\\iotkits_v1\\native\\valid\\jetson_nano_57_jpg.rf.a72bde94098283dcf568c3b1e536fc3f.jpg",
+          "source_metadata_sha256": "dfa845004515c499bd80a8c5fd6b79b1b71ec7180229771f4352fcee49b8372d",
+          "actual_sha256": "dfa845004515c499bd80a8c5fd6b79b1b71ec7180229771f4352fcee49b8372d",
+          "native_split": "valid",
+          "jetson_nano_boxes": 1
+        }
+      ],
+      "candidate_components": [
+        14
+      ],
+      "current_connected_groups": [],
+      "current_connected_splits": {},
+      "eval_connected_record_ids": [],
+      "holdout_hits": [],
+      "eligibility": "CANDIDATE_REQUIRES_VISUAL_AND_LABEL_REVIEW",
+      "scene_independence": "NOT_VERIFIED"
+    },
+    {
+      "source_family": "iotkits_v1:jetson_nano_58_jpg",
+      "records": [
+        {
+          "id": "iotkits_train_00133",
+          "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\assets\\iotkits_v1\\native\\train\\jetson_nano_58_jpg.rf.36c19981d063ae9ba75ba328b3f6c29f.jpg",
+          "source_metadata_sha256": "1b21de094960b0a0ffc2a085b86552f61f89fc1e1501c836d09956ab62e38d3f",
+          "actual_sha256": "1b21de094960b0a0ffc2a085b86552f61f89fc1e1501c836d09956ab62e38d3f",
+          "native_split": "train",
+          "jetson_nano_boxes": 1
+        }
+      ],
+      "candidate_components": [
+        3
+      ],
+      "current_connected_groups": [],
+      "current_connected_splits": {},
+      "eval_connected_record_ids": [],
+      "holdout_hits": [],
+      "eligibility": "CANDIDATE_REQUIRES_VISUAL_AND_LABEL_REVIEW",
+      "scene_independence": "NOT_VERIFIED"
+    },
+    {
+      "source_family": "iotkits_v1:jetson_nano_59_jpg",
+      "records": [
+        {
+          "id": "iotkits_train_01863",
+          "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\assets\\iotkits_v1\\native\\train\\jetson_nano_59_jpg.rf.6150b75a89e71e0a5cf14062fa79c79c.jpg",
+          "source_metadata_sha256": "a8ae26e0a96f4023834d77c43e5e8d48a562344cc13f82b25d107efb381f8aa2",
+          "actual_sha256": "a8ae26e0a96f4023834d77c43e5e8d48a562344cc13f82b25d107efb381f8aa2",
+          "native_split": "train",
+          "jetson_nano_boxes": 1
+        },
+        {
+          "id": "iotkits_valid_00171",
+          "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\assets\\iotkits_v1\\native\\valid\\jetson_nano_59_jpg.rf.4db8325c2ea12e6705f03b459948a927.jpg",
+          "source_metadata_sha256": "657ff4345a6d04ffcdbee56ec5b80d0c840fa243ac65508c7d855480e80c4065",
+          "actual_sha256": "657ff4345a6d04ffcdbee56ec5b80d0c840fa243ac65508c7d855480e80c4065",
+          "native_split": "valid",
+          "jetson_nano_boxes": 1
+        }
+      ],
+      "candidate_components": [
+        50
+      ],
+      "current_connected_groups": [],
+      "current_connected_splits": {},
+      "eval_connected_record_ids": [],
+      "holdout_hits": [],
+      "eligibility": "CANDIDATE_REQUIRES_VISUAL_AND_LABEL_REVIEW",
+      "scene_independence": "NOT_VERIFIED"
+    },
+    {
+      "source_family": "iotkits_v1:jetson_nano_60_jpg",
+      "records": [
+        {
+          "id": "iotkits_train_00082",
+          "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\assets\\iotkits_v1\\native\\train\\jetson_nano_60_jpg.rf.317f1fdeb350fb50322ae7301af4919b.jpg",
+          "source_metadata_sha256": "7aab614c1db01dafd673637e42f27d62353b64b5c6a212ff134c77cb60fe96a2",
+          "actual_sha256": "7aab614c1db01dafd673637e42f27d62353b64b5c6a212ff134c77cb60fe96a2",
+          "native_split": "train",
+          "jetson_nano_boxes": 1
+        },
+        {
+          "id": "iotkits_train_01305",
+          "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\assets\\iotkits_v1\\native\\train\\jetson_nano_60_jpg.rf.c73c8d9f994f0cbd11169d603a0f8df3.jpg",
+          "source_metadata_sha256": "fdd544826b97901fb5175f73c93eb386f4f0f02bde54eea639164a6132b035e4",
+          "actual_sha256": "fdd544826b97901fb5175f73c93eb386f4f0f02bde54eea639164a6132b035e4",
+          "native_split": "train",
+          "jetson_nano_boxes": 1
+        }
+      ],
+      "candidate_components": [
+        2
+      ],
+      "current_connected_groups": [],
+      "current_connected_splits": {},
+      "eval_connected_record_ids": [],
+      "holdout_hits": [],
+      "eligibility": "CANDIDATE_REQUIRES_VISUAL_AND_LABEL_REVIEW",
+      "scene_independence": "NOT_VERIFIED"
+    },
+    {
+      "source_family": "iotkits_v1:jetson_nano_61_jpg",
+      "records": [
+        {
+          "id": "iotkits_train_00354",
+          "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\assets\\iotkits_v1\\native\\train\\jetson_nano_61_jpg.rf.4ed12351a34a5a6944bb1821cedd921b.jpg",
+          "source_metadata_sha256": "61fa418373f8e263e7526988dfc7d6d0a642e2a21d5eb1e57022b929bfe46508",
+          "actual_sha256": "61fa418373f8e263e7526988dfc7d6d0a642e2a21d5eb1e57022b929bfe46508",
+          "native_split": "train",
+          "jetson_nano_boxes": 1
+        },
+        {
+          "id": "iotkits_train_02099",
+          "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\assets\\iotkits_v1\\native\\train\\jetson_nano_61_jpg.rf.782ff54684c908db31677f1a0cf0515b.jpg",
+          "source_metadata_sha256": "f0ef1f2d3e77005a23beb62b854952f0b1ed6df8c91bb4ffbcff76f628cb21e6",
+          "actual_sha256": "f0ef1f2d3e77005a23beb62b854952f0b1ed6df8c91bb4ffbcff76f628cb21e6",
+          "native_split": "train",
+          "jetson_nano_boxes": 1
+        }
+      ],
+      "candidate_components": [
+        9
+      ],
+      "current_connected_groups": [],
+      "current_connected_splits": {},
+      "eval_connected_record_ids": [],
+      "holdout_hits": [],
+      "eligibility": "CANDIDATE_REQUIRES_VISUAL_AND_LABEL_REVIEW",
+      "scene_independence": "NOT_VERIFIED"
+    },
+    {
+      "source_family": "iotkits_v1:jetson_nano_62_jpg",
+      "records": [
+        {
+          "id": "iotkits_train_01419",
+          "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\assets\\iotkits_v1\\native\\train\\jetson_nano_62_jpg.rf.0849dcb180bee50754320a8e7c886ed3.jpg",
+          "source_metadata_sha256": "2289f61cdcda16a98c34e9f7d1bd029a5883c6f21cc81610bc56d9afacc2d780",
+          "actual_sha256": "2289f61cdcda16a98c34e9f7d1bd029a5883c6f21cc81610bc56d9afacc2d780",
+          "native_split": "train",
+          "jetson_nano_boxes": 1
+        },
+        {
+          "id": "iotkits_train_02375",
+          "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\assets\\iotkits_v1\\native\\train\\jetson_nano_62_jpg.rf.93597d58b0d2f728a40a3b2858f82433.jpg",
+          "source_metadata_sha256": "adcc2b32ff5d05d195fb31a3051ebb820e9c69d37a9abeef5067f8f948d08f24",
+          "actual_sha256": "adcc2b32ff5d05d195fb31a3051ebb820e9c69d37a9abeef5067f8f948d08f24",
+          "native_split": "train",
+          "jetson_nano_boxes": 1
+        }
+      ],
+      "candidate_components": [
+        44
+      ],
+      "current_connected_groups": [],
+      "current_connected_splits": {},
+      "eval_connected_record_ids": [],
+      "holdout_hits": [],
+      "eligibility": "CANDIDATE_REQUIRES_VISUAL_AND_LABEL_REVIEW",
+      "scene_independence": "NOT_VERIFIED"
+    },
+    {
+      "source_family": "iotkits_v1:jetson_nano_65_jpg",
+      "records": [
+        {
+          "id": "iotkits_train_01035",
+          "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\assets\\iotkits_v1\\native\\train\\jetson_nano_65_jpg.rf.ace0956c823474e9c650a5bb7ed7560e.jpg",
+          "source_metadata_sha256": "59841d393976e9d4cb83ab67ece137f9467f03b87b92149f7b129f38d56825e0",
+          "actual_sha256": "59841d393976e9d4cb83ab67ece137f9467f03b87b92149f7b129f38d56825e0",
+          "native_split": "train",
+          "jetson_nano_boxes": 1
+        },
+        {
+          "id": "iotkits_train_02463",
+          "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\assets\\iotkits_v1\\native\\train\\jetson_nano_65_jpg.rf.9caf6e9fe229f4d7ab2a0635cc50ae21.jpg",
+          "source_metadata_sha256": "ac4942cc914a7b6c26381eb29863881741ebbd4c1eb1f65f3d2aafb01208108c",
+          "actual_sha256": "ac4942cc914a7b6c26381eb29863881741ebbd4c1eb1f65f3d2aafb01208108c",
+          "native_split": "train",
+          "jetson_nano_boxes": 1
+        }
+      ],
+      "candidate_components": [
+        31
+      ],
+      "current_connected_groups": [],
+      "current_connected_splits": {},
+      "eval_connected_record_ids": [],
+      "holdout_hits": [],
+      "eligibility": "CANDIDATE_REQUIRES_VISUAL_AND_LABEL_REVIEW",
+      "scene_independence": "NOT_VERIFIED"
+    },
+    {
+      "source_family": "iotkits_v1:jetson_nano_66_jpg",
+      "records": [
+        {
+          "id": "iotkits_train_02213",
+          "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\assets\\iotkits_v1\\native\\train\\jetson_nano_66_jpg.rf.82f24f3ea2ca8c107cbf56b6261c2624.jpg",
+          "source_metadata_sha256": "c078acdcd98d55c1b4c864959a458cccf20a911790bfa2895407df2d42762965",
+          "actual_sha256": "c078acdcd98d55c1b4c864959a458cccf20a911790bfa2895407df2d42762965",
+          "native_split": "train",
+          "jetson_nano_boxes": 1
+        }
+      ],
+      "candidate_components": [
+        65
+      ],
+      "current_connected_groups": [],
+      "current_connected_splits": {},
+      "eval_connected_record_ids": [],
+      "holdout_hits": [],
+      "eligibility": "CANDIDATE_REQUIRES_VISUAL_AND_LABEL_REVIEW",
+      "scene_independence": "NOT_VERIFIED"
+    },
+    {
+      "source_family": "iotkits_v1:jetson_nano_68_jpg",
+      "records": [
+        {
+          "id": "iotkits_train_01295",
+          "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\assets\\iotkits_v1\\native\\train\\jetson_nano_68_jpg.rf.c65d129af4b0c076acb57c933f051b68.jpg",
+          "source_metadata_sha256": "7b0dfc2fa5c019911118ef188161a57676cad57a5b16626b238ff11238e2f3c7",
+          "actual_sha256": "7b0dfc2fa5c019911118ef188161a57676cad57a5b16626b238ff11238e2f3c7",
+          "native_split": "train",
+          "jetson_nano_boxes": 1
+        }
+      ],
+      "candidate_components": [
+        40
+      ],
+      "current_connected_groups": [],
+      "current_connected_splits": {},
+      "eval_connected_record_ids": [],
+      "holdout_hits": [],
+      "eligibility": "CANDIDATE_REQUIRES_VISUAL_AND_LABEL_REVIEW",
+      "scene_independence": "NOT_VERIFIED"
+    },
+    {
+      "source_family": "iotkits_v1:jetson_nano_69_jpg",
+      "records": [
+        {
+          "id": "iotkits_train_00427",
+          "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\assets\\iotkits_v1\\native\\train\\jetson_nano_69_jpg.rf.f1136f127457ec6c0c14af3869d0ae35.jpg",
+          "source_metadata_sha256": "fdf4212a4661c5a8f16ae2eef728ef0d93301aba40ba07cafadf3e545b24bb2d",
+          "actual_sha256": "fdf4212a4661c5a8f16ae2eef728ef0d93301aba40ba07cafadf3e545b24bb2d",
+          "native_split": "train",
+          "jetson_nano_boxes": 1
+        },
+        {
+          "id": "iotkits_train_00738",
+          "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\assets\\iotkits_v1\\native\\train\\jetson_nano_69_jpg.rf.db31f1b0cc81a10f3d29b1d773e7207f.jpg",
+          "source_metadata_sha256": "9467402b90952d55c9dba972056292392dfcaab08be079ce280ce3cf0673581d",
+          "actual_sha256": "9467402b90952d55c9dba972056292392dfcaab08be079ce280ce3cf0673581d",
+          "native_split": "train",
+          "jetson_nano_boxes": 1
+        }
+      ],
+      "candidate_components": [
+        11
+      ],
+      "current_connected_groups": [],
+      "current_connected_splits": {},
+      "eval_connected_record_ids": [],
+      "holdout_hits": [],
+      "eligibility": "CANDIDATE_REQUIRES_VISUAL_AND_LABEL_REVIEW",
+      "scene_independence": "NOT_VERIFIED"
+    },
+    {
+      "source_family": "iotkits_v1:jetson_nano_6_jpg",
+      "records": [
+        {
+          "id": "iotkits_train_00597",
+          "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\assets\\iotkits_v1\\native\\train\\jetson_nano_6_jpg.rf.ce08fbbb8e683a842f121105251ae1c2.jpg",
+          "source_metadata_sha256": "bcd605dd9e1ec1a2d7e958311e9b9c8d67c65efc142982cab829c64f154bd631",
+          "actual_sha256": "bcd605dd9e1ec1a2d7e958311e9b9c8d67c65efc142982cab829c64f154bd631",
+          "native_split": "train",
+          "jetson_nano_boxes": 1
+        }
+      ],
+      "candidate_components": [
+        19
+      ],
+      "current_connected_groups": [],
+      "current_connected_splits": {},
+      "eval_connected_record_ids": [],
+      "holdout_hits": [],
+      "eligibility": "CANDIDATE_REQUIRES_VISUAL_AND_LABEL_REVIEW",
+      "scene_independence": "NOT_VERIFIED"
+    },
+    {
+      "source_family": "iotkits_v1:jetson_nano_70_jpg",
+      "records": [
+        {
+          "id": "iotkits_train_01130",
+          "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\assets\\iotkits_v1\\native\\train\\jetson_nano_70_jpg.rf.b6b6d7b7fad5ac5996749a27623302c8.jpg",
+          "source_metadata_sha256": "2d86011fbbf249ea56a0af6fbe737ffd628e59bc657d521c86b26d174c0e242f",
+          "actual_sha256": "2d86011fbbf249ea56a0af6fbe737ffd628e59bc657d521c86b26d174c0e242f",
+          "native_split": "train",
+          "jetson_nano_boxes": 1
+        }
+      ],
+      "candidate_components": [
+        34
+      ],
+      "current_connected_groups": [],
+      "current_connected_splits": {},
+      "eval_connected_record_ids": [],
+      "holdout_hits": [],
+      "eligibility": "CANDIDATE_REQUIRES_VISUAL_AND_LABEL_REVIEW",
+      "scene_independence": "NOT_VERIFIED"
+    },
+    {
+      "source_family": "iotkits_v1:jetson_nano_71_jpg",
+      "records": [
+        {
+          "id": "iotkits_train_00805",
+          "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\assets\\iotkits_v1\\native\\train\\jetson_nano_71_jpg.rf.e1f9d60a7f1018c8ef0d1579dfbd7641.jpg",
+          "source_metadata_sha256": "c7c1b5e37d7ec894f289c05ceb77ce28c18999fa49b697c83ef46854739ec52b",
+          "actual_sha256": "c7c1b5e37d7ec894f289c05ceb77ce28c18999fa49b697c83ef46854739ec52b",
+          "native_split": "train",
+          "jetson_nano_boxes": 1
+        }
+      ],
+      "candidate_components": [
+        67
+      ],
+      "current_connected_groups": [],
+      "current_connected_splits": {},
+      "eval_connected_record_ids": [],
+      "holdout_hits": [],
+      "eligibility": "CANDIDATE_REQUIRES_VISUAL_AND_LABEL_REVIEW",
+      "scene_independence": "NOT_VERIFIED"
+    },
+    {
+      "source_family": "iotkits_v1:jetson_nano_72_jpg",
+      "records": [
+        {
+          "id": "iotkits_train_01842",
+          "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\assets\\iotkits_v1\\native\\train\\jetson_nano_72_jpg.rf.600784e2b8ee213c6b7bbb4e68511d74.jpg",
+          "source_metadata_sha256": "648744480c6ab54da9be88b6303ee5f71d187b35f2ab0a24d2488f97a6e29a71",
+          "actual_sha256": "648744480c6ab54da9be88b6303ee5f71d187b35f2ab0a24d2488f97a6e29a71",
+          "native_split": "train",
+          "jetson_nano_boxes": 1
+        },
+        {
+          "id": "iotkits_valid_00074",
+          "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\assets\\iotkits_v1\\native\\valid\\jetson_nano_72_jpg.rf.25ee00142ff2ecdaec7654ed2971266c.jpg",
+          "source_metadata_sha256": "3310fcad7487e265597d97c868ced36c3232c160af6e7f8a0702534a446cb52f",
+          "actual_sha256": "3310fcad7487e265597d97c868ced36c3232c160af6e7f8a0702534a446cb52f",
+          "native_split": "valid",
+          "jetson_nano_boxes": 1
+        }
+      ],
+      "candidate_components": [
+        49
+      ],
+      "current_connected_groups": [],
+      "current_connected_splits": {},
+      "eval_connected_record_ids": [],
+      "holdout_hits": [],
+      "eligibility": "CANDIDATE_REQUIRES_VISUAL_AND_LABEL_REVIEW",
+      "scene_independence": "NOT_VERIFIED"
+    },
+    {
+      "source_family": "iotkits_v1:jetson_nano_77_jpg",
+      "records": [
+        {
+          "id": "iotkits_train_02168",
+          "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\assets\\iotkits_v1\\native\\train\\jetson_nano_77_jpg.rf.7f5a46d1e77169d684ee2eb1093100d2.jpg",
+          "source_metadata_sha256": "f889518190aa2037410f984f8a2e615b7a2b3a7a857c4aca50b7d2f274f842c5",
+          "actual_sha256": "f889518190aa2037410f984f8a2e615b7a2b3a7a857c4aca50b7d2f274f842c5",
+          "native_split": "train",
+          "jetson_nano_boxes": 2
+        },
+        {
+          "id": "iotkits_valid_00510",
+          "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\assets\\iotkits_v1\\native\\valid\\jetson_nano_77_jpg.rf.d0aab6f003aca75efdc63ac1e8d1930f.jpg",
+          "source_metadata_sha256": "0d39da42806e4c08cacd9e229364e5c6dc59bfb329e441b53483ea3dc4a69f43",
+          "actual_sha256": "0d39da42806e4c08cacd9e229364e5c6dc59bfb329e441b53483ea3dc4a69f43",
+          "native_split": "valid",
+          "jetson_nano_boxes": 2
+        }
+      ],
+      "candidate_components": [
+        64
+      ],
+      "current_connected_groups": [],
+      "current_connected_splits": {},
+      "eval_connected_record_ids": [],
+      "holdout_hits": [],
+      "eligibility": "CANDIDATE_REQUIRES_VISUAL_AND_LABEL_REVIEW",
+      "scene_independence": "NOT_VERIFIED"
+    },
+    {
+      "source_family": "iotkits_v1:jetson_nano_79_jpg",
+      "records": [
+        {
+          "id": "iotkits_train_01152",
+          "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\assets\\iotkits_v1\\native\\train\\jetson_nano_79_jpg.rf.b8f40142e15b7deaf77de8cd87b0364b.jpg",
+          "source_metadata_sha256": "d5b2a1dc0f1360f4a4ebc222eeae9486bc0d6927004c2a2e31fa3631c100a8d6",
+          "actual_sha256": "d5b2a1dc0f1360f4a4ebc222eeae9486bc0d6927004c2a2e31fa3631c100a8d6",
+          "native_split": "train",
+          "jetson_nano_boxes": 1
+        },
+        {
+          "id": "iotkits_train_01916",
+          "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\assets\\iotkits_v1\\native\\train\\jetson_nano_79_jpg.rf.67a28a3d4b6e78e746764a70c9e2aff3.jpg",
+          "source_metadata_sha256": "a334bcbd96a079383bc20c6e5a485c78dd702e0c82dfdb076365f0d1d423cd63",
+          "actual_sha256": "a334bcbd96a079383bc20c6e5a485c78dd702e0c82dfdb076365f0d1d423cd63",
+          "native_split": "train",
+          "jetson_nano_boxes": 1
+        }
+      ],
+      "candidate_components": [
+        37
+      ],
+      "current_connected_groups": [],
+      "current_connected_splits": {},
+      "eval_connected_record_ids": [],
+      "holdout_hits": [],
+      "eligibility": "CANDIDATE_REQUIRES_VISUAL_AND_LABEL_REVIEW",
+      "scene_independence": "NOT_VERIFIED"
+    },
+    {
+      "source_family": "iotkits_v1:jetson_nano_7_jpg",
+      "records": [
+        {
+          "id": "iotkits_train_00020",
+          "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\assets\\iotkits_v1\\native\\train\\jetson_nano_7_jpg.rf.2ab70e4f9c25f55ea8437c1888b91260.jpg",
+          "source_metadata_sha256": "47e7220f27684923059de0d2499c2d72603eb08e98bdd1333f1e57d14b4c29de",
+          "actual_sha256": "47e7220f27684923059de0d2499c2d72603eb08e98bdd1333f1e57d14b4c29de",
+          "native_split": "train",
+          "jetson_nano_boxes": 1
+        },
+        {
+          "id": "iotkits_train_00329",
+          "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\assets\\iotkits_v1\\native\\train\\jetson_nano_7_jpg.rf.4cc7731968e336a07a95f09516c2375b.jpg",
+          "source_metadata_sha256": "c1f7a6319fc818154d483de2f395ed1e3da1f4ed818cbe88754f1142191f1c96",
+          "actual_sha256": "c1f7a6319fc818154d483de2f395ed1e3da1f4ed818cbe88754f1142191f1c96",
+          "native_split": "train",
+          "jetson_nano_boxes": 1
+        }
+      ],
+      "candidate_components": [
+        1
+      ],
+      "current_connected_groups": [],
+      "current_connected_splits": {},
+      "eval_connected_record_ids": [],
+      "holdout_hits": [],
+      "eligibility": "CANDIDATE_REQUIRES_VISUAL_AND_LABEL_REVIEW",
+      "scene_independence": "NOT_VERIFIED"
+    },
+    {
+      "source_family": "iotkits_v1:jetson_nano_80_jpg",
+      "records": [
+        {
+          "id": "iotkits_valid_00226",
+          "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\assets\\iotkits_v1\\native\\valid\\jetson_nano_80_jpg.rf.5fb27909153e87815102bb9ccace8386.jpg",
+          "source_metadata_sha256": "28343de585a5c8108024c8d0d5d66a710539e924a58b010109c961762ad11eea",
+          "actual_sha256": "28343de585a5c8108024c8d0d5d66a710539e924a58b010109c961762ad11eea",
+          "native_split": "valid",
+          "jetson_nano_boxes": 1
+        }
+      ],
+      "candidate_components": [
+        80
+      ],
+      "current_connected_groups": [],
+      "current_connected_splits": {},
+      "eval_connected_record_ids": [],
+      "holdout_hits": [],
+      "eligibility": "CANDIDATE_REQUIRES_VISUAL_AND_LABEL_REVIEW",
+      "scene_independence": "NOT_VERIFIED"
+    },
+    {
+      "source_family": "iotkits_v1:jetson_nano_82_jpg",
+      "records": [
+        {
+          "id": "iotkits_train_00465",
+          "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\assets\\iotkits_v1\\native\\train\\jetson_nano_82_jpg.rf.f4b54a638546ab3e41a4ad690b4f3c4f.jpg",
+          "source_metadata_sha256": "ead246c4d57c2df4392be8ee071bf40ee973a3d9109310afe79cb4325592b50c",
+          "actual_sha256": "ead246c4d57c2df4392be8ee071bf40ee973a3d9109310afe79cb4325592b50c",
+          "native_split": "train",
+          "jetson_nano_boxes": 1
+        },
+        {
+          "id": "iotkits_train_01787",
+          "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\assets\\iotkits_v1\\native\\train\\jetson_nano_82_jpg.rf.598ca43c5fb9d513ac2d22b25ecdba69.jpg",
+          "source_metadata_sha256": "38101a5596f3de01d298d93cf66e7514c5e6afc2ea7af9d1490897d95cd1727c",
+          "actual_sha256": "38101a5596f3de01d298d93cf66e7514c5e6afc2ea7af9d1490897d95cd1727c",
+          "native_split": "train",
+          "jetson_nano_boxes": 1
+        }
+      ],
+      "candidate_components": [
+        13
+      ],
+      "current_connected_groups": [],
+      "current_connected_splits": {},
+      "eval_connected_record_ids": [],
+      "holdout_hits": [],
+      "eligibility": "CANDIDATE_REQUIRES_VISUAL_AND_LABEL_REVIEW",
+      "scene_independence": "NOT_VERIFIED"
+    },
+    {
+      "source_family": "iotkits_v1:jetson_nano_87_jpg",
+      "records": [
+        {
+          "id": "iotkits_train_00522",
+          "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\assets\\iotkits_v1\\native\\train\\jetson_nano_87_jpg.rf.fdfb9be6228eb0a59d046ecdf25ad334.jpg",
+          "source_metadata_sha256": "3490a877a618ff4b53517adcdf2fb633d63e0a903bc50aaf830f1b361739ed81",
+          "actual_sha256": "3490a877a618ff4b53517adcdf2fb633d63e0a903bc50aaf830f1b361739ed81",
+          "native_split": "train",
+          "jetson_nano_boxes": 1
+        },
+        {
+          "id": "iotkits_valid_00088",
+          "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\assets\\iotkits_v1\\native\\valid\\jetson_nano_87_jpg.rf.29b619eb239c6131f051184411cede91.jpg",
+          "source_metadata_sha256": "2e86be9a141c7c5f6abf878bc6b2e082f97254d6c72750df99f91553f022f660",
+          "actual_sha256": "2e86be9a141c7c5f6abf878bc6b2e082f97254d6c72750df99f91553f022f660",
+          "native_split": "valid",
+          "jetson_nano_boxes": 1
+        }
+      ],
+      "candidate_components": [
+        15
+      ],
+      "current_connected_groups": [],
+      "current_connected_splits": {},
+      "eval_connected_record_ids": [],
+      "holdout_hits": [],
+      "eligibility": "CANDIDATE_REQUIRES_VISUAL_AND_LABEL_REVIEW",
+      "scene_independence": "NOT_VERIFIED"
+    },
+    {
+      "source_family": "iotkits_v1:jetson_nano_88_jpg",
+      "records": [
+        {
+          "id": "iotkits_train_01888",
+          "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\assets\\iotkits_v1\\native\\train\\jetson_nano_88_jpg.rf.63f375a93d82bc37b744627d24a19ec1.jpg",
+          "source_metadata_sha256": "ff8880a29406d2367f7e2f4073bf75b9d7caa0f0ada80775b3e9f8e692458525",
+          "actual_sha256": "ff8880a29406d2367f7e2f4073bf75b9d7caa0f0ada80775b3e9f8e692458525",
+          "native_split": "train",
+          "jetson_nano_boxes": 1
+        }
+      ],
+      "candidate_components": [
+        53
+      ],
+      "current_connected_groups": [],
+      "current_connected_splits": {},
+      "eval_connected_record_ids": [],
+      "holdout_hits": [],
+      "eligibility": "CANDIDATE_REQUIRES_VISUAL_AND_LABEL_REVIEW",
+      "scene_independence": "NOT_VERIFIED"
+    },
+    {
+      "source_family": "iotkits_v1:jetson_nano_89_jpg",
+      "records": [
+        {
+          "id": "iotkits_train_00936",
+          "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\assets\\iotkits_v1\\native\\train\\jetson_nano_89_jpg.rf.a0e5352ce116ae509924ecf661c7fd41.jpg",
+          "source_metadata_sha256": "7ba43069bef444f5276c77a1bc924e8b55dafee19690a7e35363790ba11d8d1f",
+          "actual_sha256": "7ba43069bef444f5276c77a1bc924e8b55dafee19690a7e35363790ba11d8d1f",
+          "native_split": "train",
+          "jetson_nano_boxes": 1
+        },
+        {
+          "id": "iotkits_train_02388",
+          "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\assets\\iotkits_v1\\native\\train\\jetson_nano_89_jpg.rf.94dd7ca05c5b86308d66f6d61d2dada6.jpg",
+          "source_metadata_sha256": "f88415b2ab9d0f190a710dbddf35e9fcabaccebe96bf2ac482b2c25f88ee1a89",
+          "actual_sha256": "f88415b2ab9d0f190a710dbddf35e9fcabaccebe96bf2ac482b2c25f88ee1a89",
+          "native_split": "train",
+          "jetson_nano_boxes": 1
+        }
+      ],
+      "candidate_components": [
+        29
+      ],
+      "current_connected_groups": [],
+      "current_connected_splits": {},
+      "eval_connected_record_ids": [],
+      "holdout_hits": [],
+      "eligibility": "CANDIDATE_REQUIRES_VISUAL_AND_LABEL_REVIEW",
+      "scene_independence": "NOT_VERIFIED"
+    },
+    {
+      "source_family": "iotkits_v1:jetson_nano_91_jpg",
+      "records": [
+        {
+          "id": "iotkits_train_00012",
+          "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\assets\\iotkits_v1\\native\\train\\jetson_nano_91_jpg.rf.2975219738e0ce138617401fdf10aa6f.jpg",
+          "source_metadata_sha256": "41ab162ec659c2aaab6eea1a28618c38822c5f7f3166e1d71f8721a18071539d",
+          "actual_sha256": "41ab162ec659c2aaab6eea1a28618c38822c5f7f3166e1d71f8721a18071539d",
+          "native_split": "train",
+          "jetson_nano_boxes": 1
+        }
+      ],
+      "candidate_components": [
+        0
+      ],
+      "current_connected_groups": [],
+      "current_connected_splits": {},
+      "eval_connected_record_ids": [],
+      "holdout_hits": [],
+      "eligibility": "CANDIDATE_REQUIRES_VISUAL_AND_LABEL_REVIEW",
+      "scene_independence": "NOT_VERIFIED"
+    },
+    {
+      "source_family": "iotkits_v1:jetson_nano_94_jpg",
+      "records": [
+        {
+          "id": "iotkits_train_00227",
+          "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\assets\\iotkits_v1\\native\\train\\jetson_nano_94_jpg.rf.412d3b142e05c9a44008f7f1c7d3df2f.jpg",
+          "source_metadata_sha256": "3f3e6a4999933f4ab5db63003cb3a898149b7057f31bb9cccec24fc1c2f12f9e",
+          "actual_sha256": "3f3e6a4999933f4ab5db63003cb3a898149b7057f31bb9cccec24fc1c2f12f9e",
+          "native_split": "train",
+          "jetson_nano_boxes": 1
+        },
+        {
+          "id": "iotkits_valid_00139",
+          "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\assets\\iotkits_v1\\native\\valid\\jetson_nano_94_jpg.rf.406acca6c10fd35245d54738c3694ef5.jpg",
+          "source_metadata_sha256": "4ae722d34fc21861237454b66ea003c2d4ccb8bae8cba9e3eeedaa34856023b2",
+          "actual_sha256": "4ae722d34fc21861237454b66ea003c2d4ccb8bae8cba9e3eeedaa34856023b2",
+          "native_split": "valid",
+          "jetson_nano_boxes": 1
+        }
+      ],
+      "candidate_components": [
+        5
+      ],
+      "current_connected_groups": [],
+      "current_connected_splits": {},
+      "eval_connected_record_ids": [],
+      "holdout_hits": [],
+      "eligibility": "CANDIDATE_REQUIRES_VISUAL_AND_LABEL_REVIEW",
+      "scene_independence": "NOT_VERIFIED"
+    },
+    {
+      "source_family": "iotkits_v1:jetson_nano_98_jpg",
+      "records": [
+        {
+          "id": "iotkits_train_02128",
+          "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\assets\\iotkits_v1\\native\\train\\jetson_nano_98_jpg.rf.7b72b1c7dc6d3a2621fc6cfc26c5038d.jpg",
+          "source_metadata_sha256": "b12a60b27d7aa59fb147246ea7f231e2dedc2b3106d8706cf484d8d7a958d097",
+          "actual_sha256": "b12a60b27d7aa59fb147246ea7f231e2dedc2b3106d8706cf484d8d7a958d097",
+          "native_split": "train",
+          "jetson_nano_boxes": 1
+        }
+      ],
+      "candidate_components": [
+        63
+      ],
+      "current_connected_groups": [],
+      "current_connected_splits": {},
+      "eval_connected_record_ids": [],
+      "holdout_hits": [],
+      "eligibility": "CANDIDATE_REQUIRES_VISUAL_AND_LABEL_REVIEW",
+      "scene_independence": "NOT_VERIFIED"
+    },
+    {
+      "source_family": "iotkits_v1:jetson_nano_9_jpg",
+      "records": [
+        {
+          "id": "iotkits_train_00313",
+          "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\assets\\iotkits_v1\\native\\train\\jetson_nano_9_jpg.rf.4adb1540cbb19a80edca8db3e199f60c.jpg",
+          "source_metadata_sha256": "55c4cab2780b349546145e6b20ad174e57c146851e97929d11d18b00f811594b",
+          "actual_sha256": "55c4cab2780b349546145e6b20ad174e57c146851e97929d11d18b00f811594b",
+          "native_split": "train",
+          "jetson_nano_boxes": 1
+        },
+        {
+          "id": "iotkits_train_02353",
+          "path": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\assets\\iotkits_v1\\native\\train\\jetson_nano_9_jpg.rf.91f4d8bb860103dc6d0e40360c49efce.jpg",
+          "source_metadata_sha256": "d898b09cb9be9f1ab67791a8e6630b5064b942858b0dbd6d49014df9eca35036",
+          "actual_sha256": "d898b09cb9be9f1ab67791a8e6630b5064b942858b0dbd6d49014df9eca35036",
+          "native_split": "train",
+          "jetson_nano_boxes": 1
+        }
+      ],
+      "candidate_components": [
+        7
+      ],
+      "current_connected_groups": [],
+      "current_connected_splits": {},
+      "eval_connected_record_ids": [],
+      "holdout_hits": [],
+      "eligibility": "CANDIDATE_REQUIRES_VISUAL_AND_LABEL_REVIEW",
+      "scene_independence": "NOT_VERIFIED"
+    }
+  ],
+  "canonical_staging_jetson_support": {
+    "images": 102,
+    "tx2_images": 92,
+    "nano_images": 10,
+    "nano_families": 5,
+    "issue": "The selected Nano families all ended in validation/test. The staging selector alternates native-class export families but stops on an image-count quota; large TX2 augmentation families use most of the Jetson quota."
+  },
+  "recommendation": {
+    "next_data_step": "Visually review unused Nano families and their board-only boxes before importing; allocate independent Nano families to training, preserve all current validation/test families, and rebalance using native-subtype/source-family support.",
+    "physical_capture_scene_independence": "NOT_VERIFIED",
+    "image_and_label_visual_review": "NOT_PERFORMED_FOR_ALL_UNUSED_CANDIDATES",
+    "candidate_unused_components": 57,
+    "inference_performed": false,
+    "download_performed": false,
+    "dataset_assembly_performed": false
+  }
+}

@@ -1,0 +1,52 @@
+[
+  {
+    "id": "iotkits_train_01884",
+    "source_family": "iotkits_v1:jetson_nano_106_jpg",
+    "reason": "Native image clearly contains an additional Raspberry Pi board without a native bounding box; incomplete multi-board annotation."
+  },
+  {
+    "id": "iotkits_train_02168",
+    "source_family": "iotkits_v1:jetson_nano_77_jpg",
+    "reason": "Multi-board collage: publisher labels only two Nano boards while many additional boards are visible; incomplete board annotations."
+  },
+  {
+    "id": "iotkits_train_00451",
+    "source_family": "iotkits_v1:jetson_nano_107_jpg",
+    "reason": "Three-board comparison image: publisher labels only Nano while two other board objects are unannotated."
+  },
+  {
+    "id": "iotkits_train_00590",
+    "source_family": "iotkits_v1:jetson_nano_45_jpg",
+    "reason": "Additional unannotated green board is visible on book in background; incomplete board annotation."
+  },
+  {
+    "id": "iotkits_train_00133",
+    "source_family": "iotkits_v1:jetson_nano_58_jpg",
+    "reason": "Three-board photo has two additional unannotated Raspberry Pi boards."
+  },
+  {
+    "id": "iotkits_train_00541",
+    "source_family": "iotkits_v1:jetson_nano_101_jpg",
+    "reason": "Visually duplicates the product-photo board/fan setup in selected jetson_nano_22; exclude redundant internet-derived image to improve source diversity."
+  },
+  {
+    "id": "iotkits_train_02284",
+    "source_family": "iotkits_v1:jetson_nano_13_jpg",
+    "reason": "Presentation screenshot shows multiple board depictions while only Nano on right is annotated; excluded due annotation ambiguity and other unlabeled board depictions."
+  },
+  {
+    "id": "iotkits_valid_00226",
+    "source_family": "iotkits_v1:jetson_nano_80_jpg",
+    "reason": "Only retail packaging is present; native label points at the printed board picture rather than a physical board."
+  },
+  {
+    "id": "iotkits_valid_00366",
+    "source_family": "iotkits_v1:jetson_nano_52_jpg",
+    "reason": "Native annotation includes a printed board depiction on packaging as an additional board; exclude ambiguous annotation semantics."
+  },
+  {
+    "id": "iotkits_train_01130",
+    "source_family": "iotkits_v1:jetson_nano_70_jpg",
+    "reason": "Native label points only at a printed board picture on packaging; no physical board is visible."
+  }
+]

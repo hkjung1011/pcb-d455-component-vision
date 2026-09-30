@@ -1,0 +1,9 @@
+﻿class_name,train_boxes,val_boxes,test_boxes
+raspberry_pi_5,62,14,19
+raspberry_pi_4,60,14,18
+raspberry_pi_other,147,34,45
+stm32_other,62,14,20
+arduino,123,28,37
+esp_board,149,34,46
+jetson,74,16,25
+other_board,52,13,20

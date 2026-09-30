@@ -1,0 +1,13 @@
+{
+  "original_training_dataset_fingerprint": "3120af5994f7494f608b31b59b48833eebee8423408f5a0190f516f6e708ba6f",
+  "portable_dataset_fingerprint": "d1952952e7dc2016502b01e9dd819726fed8e634b24784f6f6122f2adbda203d",
+  "difference": "Only data.yaml replaced with relative paths; original YAML and original result bytes preserved separately. Image/label/index bytes unchanged.",
+  "images": {
+    "train": 650,
+    "val": 150,
+    "test": 200
+  },
+  "frozen_evaluation_images": 350,
+  "same_source": "IoTKITs v1; existing dataset plus40 reviewed Nano candidates",
+  "physical_scene_independence": "NOT_VERIFIED"
+}

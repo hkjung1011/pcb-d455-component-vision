@@ -1,0 +1,480 @@
+{
+  "created_at": "2026-09-30T04:21:38.712050+00:00",
+  "parent_dataset": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-29\\iotkits-2-stm32-jpg-iotkits-stm32\\work\\boards1000_s650_v150_t200_e50_20260929\\datasets\\boards_v1",
+  "parent_dataset_fingerprint": "66284009264318497a8ba16e8d532fc7f7bc0c6c96bdf1d4eae1c3d3525f5922",
+  "dataset_fingerprint": "3120af5994f7494f608b31b59b48833eebee8423408f5a0190f516f6e708ba6f",
+  "images": {
+    "train": 650,
+    "val": 150,
+    "test": 200
+  },
+  "boxes": {
+    "train": {
+      "raspberry_pi_5": 62,
+      "raspberry_pi_4": 60,
+      "raspberry_pi_other": 147,
+      "stm32_other": 62,
+      "arduino": 123,
+      "esp_board": 149,
+      "jetson": 74,
+      "other_board": 52
+    },
+    "val": {
+      "raspberry_pi_5": 14,
+      "raspberry_pi_4": 14,
+      "raspberry_pi_other": 34,
+      "stm32_other": 14,
+      "arduino": 28,
+      "esp_board": 34,
+      "jetson": 16,
+      "other_board": 13
+    },
+    "test": {
+      "raspberry_pi_5": 19,
+      "raspberry_pi_4": 18,
+      "raspberry_pi_other": 45,
+      "stm32_other": 20,
+      "arduino": 37,
+      "esp_board": 46,
+      "jetson": 25,
+      "other_board": 20
+    }
+  },
+  "class_group_counts": {
+    "train": {
+      "raspberry_pi_5": 23,
+      "raspberry_pi_4": 24,
+      "raspberry_pi_other": 61,
+      "stm32_other": 4,
+      "arduino": 65,
+      "esp_board": 27,
+      "jetson": 43,
+      "other_board": 4
+    },
+    "val": {
+      "raspberry_pi_5": 8,
+      "raspberry_pi_4": 7,
+      "raspberry_pi_other": 19,
+      "stm32_other": 4,
+      "arduino": 18,
+      "esp_board": 13,
+      "jetson": 2,
+      "other_board": 2
+    },
+    "test": {
+      "raspberry_pi_5": 11,
+      "raspberry_pi_4": 10,
+      "raspberry_pi_other": 33,
+      "stm32_other": 13,
+      "arduino": 35,
+      "esp_board": 36,
+      "jetson": 5,
+      "other_board": 2
+    }
+  },
+  "evaluation_bytes_and_records_unchanged": true,
+  "evaluation_images_verified": 350,
+  "retained_tx2_ids": [
+    "iotkits_train_01746",
+    "iotkits_valid_00352",
+    "iotkits_valid_00369",
+    "iotkits_train_00495",
+    "iotkits_train_01630",
+    "iotkits_train_01637",
+    "iotkits_valid_00165",
+    "iotkits_train_01020",
+    "iotkits_valid_00011",
+    "iotkits_train_00557",
+    "iotkits_train_01491",
+    "iotkits_train_00705",
+    "iotkits_train_01844",
+    "iotkits_train_00492",
+    "iotkits_train_01440",
+    "iotkits_train_00084",
+    "iotkits_train_00833",
+    "iotkits_train_00989",
+    "iotkits_train_01648",
+    "iotkits_valid_00326",
+    "iotkits_valid_00241",
+    "iotkits_train_02065",
+    "iotkits_train_00146",
+    "iotkits_train_00735",
+    "iotkits_train_01902",
+    "iotkits_train_01304",
+    "iotkits_train_00540"
+  ],
+  "removed_tx2_ids": [
+    "iotkits_valid_00373",
+    "iotkits_valid_00615",
+    "iotkits_valid_00402",
+    "iotkits_train_02263",
+    "iotkits_train_02046",
+    "iotkits_train_00754",
+    "iotkits_train_01504",
+    "iotkits_train_01924",
+    "iotkits_train_00098",
+    "iotkits_train_02211",
+    "iotkits_train_02448",
+    "iotkits_train_01232",
+    "iotkits_train_01983",
+    "iotkits_train_01991",
+    "iotkits_train_02086",
+    "iotkits_train_02198",
+    "iotkits_train_01877",
+    "iotkits_train_00459",
+    "iotkits_train_02482",
+    "iotkits_train_00471",
+    "iotkits_train_02205",
+    "iotkits_train_01248",
+    "iotkits_train_00949",
+    "iotkits_train_01708",
+    "iotkits_train_02393",
+    "iotkits_train_00659",
+    "iotkits_train_00010",
+    "iotkits_train_00148",
+    "iotkits_train_01114",
+    "iotkits_train_01246",
+    "iotkits_valid_00323",
+    "iotkits_train_02346",
+    "iotkits_train_02404",
+    "iotkits_train_00914",
+    "iotkits_train_00026",
+    "iotkits_valid_00454",
+    "iotkits_train_01835",
+    "iotkits_train_00411",
+    "iotkits_train_02162",
+    "iotkits_train_00015"
+  ],
+  "nano_additions": [
+    {
+      "id": "iotkits_train_01389",
+      "candidate_component": 42,
+      "source_family": "iotkits_v1:jetson_nano_30_jpg",
+      "source_image": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\assets\\iotkits_v1\\native\\train\\jetson_nano_30_jpg.rf.054ebbb21ec8ad65706f9facca8907b7.jpg",
+      "source_sha256": "f84c22573a7493ad9c2c2091f78a3119ea187344c998d1255b1119501c09051b"
+    },
+    {
+      "id": "iotkits_train_01729",
+      "candidate_component": 47,
+      "source_family": "iotkits_v1:jetson_nano_37_jpg",
+      "source_image": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\assets\\iotkits_v1\\native\\train\\jetson_nano_37_jpg.rf.52332fee0a755077226c35ab8811ba63.jpg",
+      "source_sha256": "6b304bdba77adecc4c475ac4cd3b817e0e10f990b9d631f93f0a84154c880a62"
+    },
+    {
+      "id": "iotkits_train_00653",
+      "candidate_component": 22,
+      "source_family": "iotkits_v1:jetson_nano_16_jpg",
+      "source_image": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\assets\\iotkits_v1\\native\\train\\jetson_nano_16_jpg.rf.d3084c30193c8124f8cae54912ccbd21.jpg",
+      "source_sha256": "3b7d8545aebf4b4d7d2082a3c7c64d72d781af619cabd202c2087ea915e9444c"
+    },
+    {
+      "id": "iotkits_train_00482",
+      "candidate_component": 14,
+      "source_family": "iotkits_v1:jetson_nano_57_jpg",
+      "source_image": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\assets\\iotkits_v1\\native\\train\\jetson_nano_57_jpg.rf.f8af7d0c765975fff7b781bbb3eb8cc2.jpg",
+      "source_sha256": "ef5ff426e928b79c7de8e50ae8c56cd886dd0afc4f129d76622722546e7d623e"
+    },
+    {
+      "id": "iotkits_train_01928",
+      "candidate_component": 55,
+      "source_family": "iotkits_v1:jetson_nano_24_jpg",
+      "source_image": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\assets\\iotkits_v1\\native\\train\\jetson_nano_24_jpg.rf.680cb1de518222541b0e35af4263ab67.jpg",
+      "source_sha256": "ce531d8a3fc60443ee91a1c5039cae822104cefa984cff7b883dc9c3cb6e2028"
+    },
+    {
+      "id": "iotkits_train_00256",
+      "candidate_component": 6,
+      "source_family": "iotkits_v1:jetson_nano_102_jpg",
+      "source_image": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\assets\\iotkits_v1\\native\\train\\jetson_nano_102_jpg.rf.466a9d17d780780f60b986aeec31ab1c.jpg",
+      "source_sha256": "32782850df471749c8d900a959e1d7524a5cfb4ccfe9984a6e32aab45e7edb7a"
+    },
+    {
+      "id": "iotkits_train_01295",
+      "candidate_component": 40,
+      "source_family": "iotkits_v1:jetson_nano_68_jpg",
+      "source_image": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\assets\\iotkits_v1\\native\\train\\jetson_nano_68_jpg.rf.c65d129af4b0c076acb57c933f051b68.jpg",
+      "source_sha256": "7b0dfc2fa5c019911118ef188161a57676cad57a5b16626b238ff11238e2f3c7"
+    },
+    {
+      "id": "iotkits_train_00157",
+      "candidate_component": 4,
+      "source_family": "iotkits_v1:jetson_nano_28_jpg",
+      "source_image": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\assets\\iotkits_v1\\native\\train\\jetson_nano_28_jpg.rf.3aaa5d0f40d94381744be32d4fe1fb91.jpg",
+      "source_sha256": "8b2fa879c5ef30df0fad6f5e7738f75ac75dd80010eea8a45ac2d88a6007d161"
+    },
+    {
+      "id": "iotkits_train_00936",
+      "candidate_component": 29,
+      "source_family": "iotkits_v1:jetson_nano_89_jpg",
+      "source_image": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\assets\\iotkits_v1\\native\\train\\jetson_nano_89_jpg.rf.a0e5352ce116ae509924ecf661c7fd41.jpg",
+      "source_sha256": "7ba43069bef444f5276c77a1bc924e8b55dafee19690a7e35363790ba11d8d1f"
+    },
+    {
+      "id": "iotkits_train_00597",
+      "candidate_component": 19,
+      "source_family": "iotkits_v1:jetson_nano_6_jpg",
+      "source_image": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\assets\\iotkits_v1\\native\\train\\jetson_nano_6_jpg.rf.ce08fbbb8e683a842f121105251ae1c2.jpg",
+      "source_sha256": "bcd605dd9e1ec1a2d7e958311e9b9c8d67c65efc142982cab829c64f154bd631"
+    },
+    {
+      "id": "iotkits_train_00393",
+      "candidate_component": 10,
+      "source_family": "iotkits_v1:jetson_nano_25_jpg",
+      "source_image": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\assets\\iotkits_v1\\native\\train\\jetson_nano_25_jpg.rf.ee36af031f968a47cb274cb3f03282b5.jpg",
+      "source_sha256": "fa3654f41128ad751350d9b1d78acb301a8b49a75e69833c63b7aa47d3ebde1f"
+    },
+    {
+      "id": "iotkits_train_00842",
+      "candidate_component": 27,
+      "source_family": "iotkits_v1:jetson_nano_48_jpg",
+      "source_image": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\assets\\iotkits_v1\\native\\train\\jetson_nano_48_jpg.rf.e686034816511b63c266bfb6356da29c.jpg",
+      "source_sha256": "5ad27bd6f78dbc32b3833fa8143bb598eace761d7fef88fced9d91c5fbb98788"
+    },
+    {
+      "id": "iotkits_train_02213",
+      "candidate_component": 65,
+      "source_family": "iotkits_v1:jetson_nano_66_jpg",
+      "source_image": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\assets\\iotkits_v1\\native\\train\\jetson_nano_66_jpg.rf.82f24f3ea2ca8c107cbf56b6261c2624.jpg",
+      "source_sha256": "c078acdcd98d55c1b4c864959a458cccf20a911790bfa2895407df2d42762965"
+    },
+    {
+      "id": "iotkits_train_00527",
+      "candidate_component": 16,
+      "source_family": "iotkits_v1:jetson_nano_34_jpg",
+      "source_image": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\assets\\iotkits_v1\\native\\train\\jetson_nano_34_jpg.rf.fde64595f11f8f0372691a672220b12a.jpg",
+      "source_sha256": "f1a375e85949a1475727b8d6e1096e10abfabb901a7e020aa5f53865e5f60b68"
+    },
+    {
+      "id": "iotkits_train_00805",
+      "candidate_component": 67,
+      "source_family": "iotkits_v1:jetson_nano_71_jpg",
+      "source_image": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\assets\\iotkits_v1\\native\\train\\jetson_nano_71_jpg.rf.e1f9d60a7f1018c8ef0d1579dfbd7641.jpg",
+      "source_sha256": "c7c1b5e37d7ec894f289c05ceb77ce28c18999fa49b697c83ef46854739ec52b"
+    },
+    {
+      "id": "iotkits_valid_00043",
+      "candidate_component": 73,
+      "source_family": "iotkits_v1:jetson_nano_33_jpg",
+      "source_image": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\assets\\iotkits_v1\\native\\valid\\jetson_nano_33_jpg.rf.114b8dfdfbdb7ddf481f6e7a7f628a1f.jpg",
+      "source_sha256": "f3b33a5d266427ad6759a46d5547a128f74a3bfbfb7a95e051c86b3efb0c1f52"
+    },
+    {
+      "id": "iotkits_train_00354",
+      "candidate_component": 9,
+      "source_family": "iotkits_v1:jetson_nano_61_jpg",
+      "source_image": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\assets\\iotkits_v1\\native\\train\\jetson_nano_61_jpg.rf.4ed12351a34a5a6944bb1821cedd921b.jpg",
+      "source_sha256": "61fa418373f8e263e7526988dfc7d6d0a642e2a21d5eb1e57022b929bfe46508"
+    },
+    {
+      "id": "iotkits_train_00012",
+      "candidate_component": 0,
+      "source_family": "iotkits_v1:jetson_nano_91_jpg",
+      "source_image": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\assets\\iotkits_v1\\native\\train\\jetson_nano_91_jpg.rf.2975219738e0ce138617401fdf10aa6f.jpg",
+      "source_sha256": "41ab162ec659c2aaab6eea1a28618c38822c5f7f3166e1d71f8721a18071539d"
+    },
+    {
+      "id": "iotkits_train_00313",
+      "candidate_component": 7,
+      "source_family": "iotkits_v1:jetson_nano_9_jpg",
+      "source_image": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\assets\\iotkits_v1\\native\\train\\jetson_nano_9_jpg.rf.4adb1540cbb19a80edca8db3e199f60c.jpg",
+      "source_sha256": "55c4cab2780b349546145e6b20ad174e57c146851e97929d11d18b00f811594b"
+    },
+    {
+      "id": "iotkits_train_01094",
+      "candidate_component": 33,
+      "source_family": "iotkits_v1:jetson_nano_23_jpg",
+      "source_image": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\assets\\iotkits_v1\\native\\train\\jetson_nano_23_jpg.rf.b292476f0a79b0d6d7a24dd54024d740.jpg",
+      "source_sha256": "91c7ed3e984f3567e5a1a615825cac05591ec8f266b58f224a0e5bf40f20af14"
+    },
+    {
+      "id": "iotkits_train_01151",
+      "candidate_component": 36,
+      "source_family": "iotkits_v1:jetson_nano_100_jpg",
+      "source_image": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\assets\\iotkits_v1\\native\\train\\jetson_nano_100_jpg.rf.b9def52d3c1e8d45a0f808b0412a61f6.jpg",
+      "source_sha256": "f7be8056ad9adf77fd72a00a834dc7c70ea1a452cb58c4fee8c004492d1a3b5a"
+    },
+    {
+      "id": "iotkits_valid_00445",
+      "candidate_component": 83,
+      "source_family": "iotkits_v1:jetson_nano_26_jpg",
+      "source_image": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\assets\\iotkits_v1\\native\\valid\\jetson_nano_26_jpg.rf.af461d556ce29f45ecef81654b877159.jpg",
+      "source_sha256": "167e6fbbc3b3e88a200d0c115ca450e196137ed713996ad103e82fa6d6dfbd02"
+    },
+    {
+      "id": "iotkits_train_00427",
+      "candidate_component": 11,
+      "source_family": "iotkits_v1:jetson_nano_69_jpg",
+      "source_image": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\assets\\iotkits_v1\\native\\train\\jetson_nano_69_jpg.rf.f1136f127457ec6c0c14af3869d0ae35.jpg",
+      "source_sha256": "fdf4212a4661c5a8f16ae2eef728ef0d93301aba40ba07cafadf3e545b24bb2d"
+    },
+    {
+      "id": "iotkits_train_00764",
+      "candidate_component": 24,
+      "source_family": "iotkits_v1:jetson_nano_22_jpg",
+      "source_image": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\assets\\iotkits_v1\\native\\train\\jetson_nano_22_jpg.rf.dfd442b8edcd5c2c9fb94fc2b049182d.jpg",
+      "source_sha256": "8270a6c28966e14bcb5e633fff6723a1389474f2bafc112d821443ae55071699"
+    },
+    {
+      "id": "iotkits_train_00465",
+      "candidate_component": 13,
+      "source_family": "iotkits_v1:jetson_nano_82_jpg",
+      "source_image": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\assets\\iotkits_v1\\native\\train\\jetson_nano_82_jpg.rf.f4b54a638546ab3e41a4ad690b4f3c4f.jpg",
+      "source_sha256": "ead246c4d57c2df4392be8ee071bf40ee973a3d9109310afe79cb4325592b50c"
+    },
+    {
+      "id": "iotkits_train_01842",
+      "candidate_component": 49,
+      "source_family": "iotkits_v1:jetson_nano_72_jpg",
+      "source_image": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\assets\\iotkits_v1\\native\\train\\jetson_nano_72_jpg.rf.600784e2b8ee213c6b7bbb4e68511d74.jpg",
+      "source_sha256": "648744480c6ab54da9be88b6303ee5f71d187b35f2ab0a24d2488f97a6e29a71"
+    },
+    {
+      "id": "iotkits_train_01419",
+      "candidate_component": 44,
+      "source_family": "iotkits_v1:jetson_nano_62_jpg",
+      "source_image": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\assets\\iotkits_v1\\native\\train\\jetson_nano_62_jpg.rf.0849dcb180bee50754320a8e7c886ed3.jpg",
+      "source_sha256": "2289f61cdcda16a98c34e9f7d1bd029a5883c6f21cc81610bc56d9afacc2d780"
+    },
+    {
+      "id": "iotkits_train_00817",
+      "candidate_component": 26,
+      "source_family": "iotkits_v1:jetson_nano_47_jpg",
+      "source_image": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\assets\\iotkits_v1\\native\\train\\jetson_nano_47_jpg.rf.e4260d05b4bdd6652a54f5fca5e27d57.jpg",
+      "source_sha256": "175c3fdbf46f1373db491d547dcaa248538f9184474ae79e5d76667ca52dfc4d"
+    },
+    {
+      "id": "iotkits_train_00227",
+      "candidate_component": 5,
+      "source_family": "iotkits_v1:jetson_nano_94_jpg",
+      "source_image": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\assets\\iotkits_v1\\native\\train\\jetson_nano_94_jpg.rf.412d3b142e05c9a44008f7f1c7d3df2f.jpg",
+      "source_sha256": "3f3e6a4999933f4ab5db63003cb3a898149b7057f31bb9cccec24fc1c2f12f9e"
+    },
+    {
+      "id": "iotkits_train_01152",
+      "candidate_component": 37,
+      "source_family": "iotkits_v1:jetson_nano_79_jpg",
+      "source_image": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\assets\\iotkits_v1\\native\\train\\jetson_nano_79_jpg.rf.b8f40142e15b7deaf77de8cd87b0364b.jpg",
+      "source_sha256": "d5b2a1dc0f1360f4a4ebc222eeae9486bc0d6927004c2a2e31fa3631c100a8d6"
+    },
+    {
+      "id": "iotkits_train_00082",
+      "candidate_component": 2,
+      "source_family": "iotkits_v1:jetson_nano_60_jpg",
+      "source_image": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\assets\\iotkits_v1\\native\\train\\jetson_nano_60_jpg.rf.317f1fdeb350fb50322ae7301af4919b.jpg",
+      "source_sha256": "7aab614c1db01dafd673637e42f27d62353b64b5c6a212ff134c77cb60fe96a2"
+    },
+    {
+      "id": "iotkits_train_02429",
+      "candidate_component": 71,
+      "source_family": "iotkits_v1:jetson_nano_20_jpg",
+      "source_image": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\assets\\iotkits_v1\\native\\train\\jetson_nano_20_jpg.rf.9b4883d2c638fe5f552a9c9a15cd3b2e.jpg",
+      "source_sha256": "6c9a6713d461eb6d1e4b09cbf0d5194764fdf223e0dcd31ded726b52bd60123c"
+    },
+    {
+      "id": "iotkits_train_01080",
+      "candidate_component": 32,
+      "source_family": "iotkits_v1:jetson_nano_51_jpg",
+      "source_image": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\assets\\iotkits_v1\\native\\train\\jetson_nano_51_jpg.rf.b176f7836fae41cc070b43af6d14b6c0.jpg",
+      "source_sha256": "601c2f954b100893d4d12f7ef3b731eb39a07d7c36b6673d08d03ffb4df754b8"
+    },
+    {
+      "id": "iotkits_train_01650",
+      "candidate_component": 46,
+      "source_family": "iotkits_v1:jetson_nano_29_jpg",
+      "source_image": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\assets\\iotkits_v1\\native\\train\\jetson_nano_29_jpg.rf.229c65887677e5ce32984b4bb4a95ad1.jpg",
+      "source_sha256": "f6f9625ce77dd3724004b24eafdd254ecd4ef3988f8b3be0b4c36c2a267387ff"
+    },
+    {
+      "id": "iotkits_valid_00459",
+      "candidate_component": 84,
+      "source_family": "iotkits_v1:jetson_nano_18_jpg",
+      "source_image": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\assets\\iotkits_v1\\native\\valid\\jetson_nano_18_jpg.rf.ba655093f2e789738be3ce83c15feaaf.jpg",
+      "source_sha256": "35d6a49bda1539ea3d19abc980cf098c37699cb88109081c88a16326cb9ba4d9"
+    },
+    {
+      "id": "iotkits_train_01624",
+      "candidate_component": 45,
+      "source_family": "iotkits_v1:jetson_nano_41_jpg",
+      "source_image": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\assets\\iotkits_v1\\native\\train\\jetson_nano_41_jpg.rf.1f08677f4ce7e11d32b300cd081b6e2d.jpg",
+      "source_sha256": "7b5cf92f0df3c1e1b51584eaa634fe9200dc73684ccfd0375f193fc4bf08a662"
+    },
+    {
+      "id": "iotkits_train_00020",
+      "candidate_component": 1,
+      "source_family": "iotkits_v1:jetson_nano_7_jpg",
+      "source_image": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\assets\\iotkits_v1\\native\\train\\jetson_nano_7_jpg.rf.2ab70e4f9c25f55ea8437c1888b91260.jpg",
+      "source_sha256": "47e7220f27684923059de0d2499c2d72603eb08e98bdd1333f1e57d14b4c29de"
+    },
+    {
+      "id": "iotkits_train_01035",
+      "candidate_component": 31,
+      "source_family": "iotkits_v1:jetson_nano_65_jpg",
+      "source_image": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\assets\\iotkits_v1\\native\\train\\jetson_nano_65_jpg.rf.ace0956c823474e9c650a5bb7ed7560e.jpg",
+      "source_sha256": "59841d393976e9d4cb83ab67ece137f9467f03b87b92149f7b129f38d56825e0"
+    },
+    {
+      "id": "iotkits_train_01869",
+      "candidate_component": 51,
+      "source_family": "iotkits_v1:jetson_nano_31_jpg",
+      "source_image": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\assets\\iotkits_v1\\native\\train\\jetson_nano_31_jpg.rf.62e5d4141dabb2fd13295f9e0dde4b63.jpg",
+      "source_sha256": "d3bbf143b02a586802d337e8c0c3e8318abca25e1c3aa107b713c36ef7b0823c"
+    },
+    {
+      "id": "iotkits_train_01932",
+      "candidate_component": 56,
+      "source_family": "iotkits_v1:jetson_nano_35_jpg",
+      "source_image": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-27\\new-chat\\work\\r03\\assets\\iotkits_v1\\native\\train\\jetson_nano_35_jpg.rf.68f6444f2f3a7ac547e3fe8c0d70bfe7.jpg",
+      "source_sha256": "162173c95926303a1e7d0d870431a2fc775239c443918d620516d621a906a2f1"
+    }
+  ],
+  "nano_added_boxes_per_image": {
+    "iotkits_train_01389": 1,
+    "iotkits_train_01729": 1,
+    "iotkits_train_00653": 1,
+    "iotkits_train_00482": 1,
+    "iotkits_train_01928": 1,
+    "iotkits_train_00256": 3,
+    "iotkits_train_01295": 1,
+    "iotkits_train_00157": 1,
+    "iotkits_train_00936": 1,
+    "iotkits_train_00597": 1,
+    "iotkits_train_00393": 1,
+    "iotkits_train_00842": 1,
+    "iotkits_train_02213": 1,
+    "iotkits_train_00527": 1,
+    "iotkits_train_00805": 1,
+    "iotkits_valid_00043": 1,
+    "iotkits_train_00354": 1,
+    "iotkits_train_00012": 1,
+    "iotkits_train_00313": 1,
+    "iotkits_train_01094": 1,
+    "iotkits_train_01151": 2,
+    "iotkits_valid_00445": 1,
+    "iotkits_train_00427": 1,
+    "iotkits_train_00764": 1,
+    "iotkits_train_00465": 1,
+    "iotkits_train_01842": 1,
+    "iotkits_train_01419": 1,
+    "iotkits_train_00817": 1,
+    "iotkits_train_00227": 1,
+    "iotkits_train_01152": 1,
+    "iotkits_train_00082": 1,
+    "iotkits_train_02429": 1,
+    "iotkits_train_01080": 1,
+    "iotkits_train_01650": 1,
+    "iotkits_valid_00459": 1,
+    "iotkits_train_01624": 1,
+    "iotkits_train_00020": 1,
+    "iotkits_train_01035": 1,
+    "iotkits_train_01869": 1,
+    "iotkits_train_01932": 1
+  },
+  "labels_modified": [],
+  "rationale": "Train-only subtype support correction identified before subsequent test evaluation. No evaluation-image selection or label changes.",
+  "selection_uses_model_predictions": false,
+  "physical_scene_independence": "NOT_VERIFIED",
+  "visual_review_sha256": "5a709e99b1274dec731823de350085dd86946153507cea6a597cc4e711060837",
+  "source_annotations_sha256": "004390de0b8d4d0500c446d9c261e67e4e53d424c620d9c513378d7bc07d9c4b",
+  "selection_proposal_sha256": "d6929b4ad6a52e531fe33a252bb10e9eac767f1a53a6545835a2d7e25b3bfce8",
+  "source_metadata_sha256": "411b9683b49f4a46f00bc0b4021a83646e69c77e25da9bfd5f4392ced9034680"
+}

@@ -1,0 +1,10 @@
+[
+  "raspberry_pi_5",
+  "raspberry_pi_4",
+  "raspberry_pi_other",
+  "stm32_other",
+  "arduino",
+  "esp_board",
+  "jetson",
+  "other_board"
+]

@@ -1,0 +1,80 @@
+{
+  "overall": {
+    "metrics/precision(B)": 0.8882101176685591,
+    "metrics/recall(B)": 0.8955133399300812,
+    "metrics/mAP50(B)": 0.9579046898919291,
+    "metrics/mAP50-95(B)": 0.8112067618961104,
+    "fitness": 0.8112067618961104
+  },
+  "per_class": [
+    {
+      "class_id": 0,
+      "class_name": "raspberry_pi_5",
+      "ground_truth_boxes": 14,
+      "map50": 0.9765789473684211,
+      "map50_95": 0.912497975708502
+    },
+    {
+      "class_id": 1,
+      "class_name": "raspberry_pi_4",
+      "ground_truth_boxes": 14,
+      "map50": 0.9426666666666669,
+      "map50_95": 0.8668000000000001
+    },
+    {
+      "class_id": 2,
+      "class_name": "raspberry_pi_other",
+      "ground_truth_boxes": 34,
+      "map50": 0.9944285714285714,
+      "map50_95": 0.8597388266805659
+    },
+    {
+      "class_id": 3,
+      "class_name": "stm32_other",
+      "ground_truth_boxes": 14,
+      "map50": 0.9765789473684211,
+      "map50_95": 0.7973198380566802
+    },
+    {
+      "class_id": 4,
+      "class_name": "arduino",
+      "ground_truth_boxes": 28,
+      "map50": 0.9876959247648904,
+      "map50_95": 0.8546848431967307
+    },
+    {
+      "class_id": 5,
+      "class_name": "esp_board",
+      "ground_truth_boxes": 34,
+      "map50": 0.9700000000000001,
+      "map50_95": 0.8516598143236074
+    },
+    {
+      "class_id": 6,
+      "class_name": "jetson",
+      "ground_truth_boxes": 16,
+      "map50": 0.8202884615384615,
+      "map50_95": 0.6122692307692307
+    },
+    {
+      "class_id": 7,
+      "class_name": "other_board",
+      "ground_truth_boxes": 13,
+      "map50": 0.995,
+      "map50_95": 0.7346835664335665
+    }
+  ],
+  "checkpoint_sha256": "d226d773f763f2c3e9b04540165fc3b332378784094bb0fb384e8d71f3bba2f2",
+  "completed_at": "2026-09-30T04:39:40.348697+00:00",
+  "protocol": {
+    "imgsz": 640,
+    "batch": 8,
+    "device": 0,
+    "conf": 0.001,
+    "iou": 0.7,
+    "max_det": 300,
+    "half": false,
+    "plots": true,
+    "verbose": false
+  }
+}

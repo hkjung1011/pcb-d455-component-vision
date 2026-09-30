@@ -1,0 +1,40 @@
+{
+  "revision": "BOARDS1000_BALANCED_JETSON_2026-09-30",
+  "promoted": false,
+  "status": "CANDIDATE_REJECTED_PRIOR_SELECTION_RETAINED",
+  "selection_split": "val",
+  "selected_checkpoint_sha256": "fa0b8fb5fc11de748e9d8051b93fc57dde5c6cc34db6167045e3fee9e4912752",
+  "candidate_checkpoint_sha256": "d226d773f763f2c3e9b04540165fc3b332378784094bb0fb384e8d71f3bba2f2",
+  "original_baseline_checkpoint_sha256": "25a6253ce7520d50d362fdb276e61d25b2f77ec78583d8706cd463f74282b766",
+  "prior_selected_checkpoint_sha256": "fa0b8fb5fc11de748e9d8051b93fc57dde5c6cc34db6167045e3fee9e4912752",
+  "split_images": {
+    "train": 650,
+    "val": 150,
+    "test": 200
+  },
+  "jetson_train_subtypes": {
+    "TX2": 27,
+    "Nano": 40
+  },
+  "dataset_fingerprint": "3120af5994f7494f608b31b59b48833eebee8423408f5a0190f516f6e708ba6f",
+  "epochs_completed": 11,
+  "maximum_epochs": 30,
+  "best_epoch": 1,
+  "optimizer_steps": 157,
+  "training_seconds": 273.9060000000027,
+  "test_invocations": 0,
+  "candidate_test_map50": null,
+  "candidate_test_map50_95": null,
+  "baseline_val_map50_95": 0.8040732680546284,
+  "prior_selected_val_map50_95": 0.8146412151837843,
+  "candidate_val_map50_95": 0.8112067618961104,
+  "scheduled_mosaic_close_first_epoch": 21,
+  "mosaic_close_phase_reached": false,
+  "release": "https://github.com/hkjung1011/pcb-d455-component-vision/releases/tag/boards1000-balanced-jetson-2026-09-30",
+  "deployed_to_d455": false,
+  "nucleo_included": false,
+  "ports_trained": false,
+  "d455_accuracy_verified": false,
+  "test_role": "development test; reused from previous experiments",
+  "physical_scene_independence": "NOT_VERIFIED"
+}

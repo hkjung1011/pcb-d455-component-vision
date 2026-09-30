@@ -1,0 +1,114 @@
+{
+  "started_at": "2026-09-30T03:57:48.271661+00:00",
+  "finished_at": "2026-09-30T04:03:26.926023+00:00",
+  "epochs_completed": 13,
+  "actual_optimizer_steps": 148,
+  "training_seconds": 308.98399999999674,
+  "best_epoch": 5,
+  "best": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-29\\iotkits-2-stm32-jpg-iotkits-stm32\\work\\boards1000_finetune20_20260930\\runs\\boards1000_finetune20\\weights\\best.pt",
+  "best_sha256": "fa0b8fb5fc11de748e9d8051b93fc57dde5c6cc34db6167045e3fee9e4912752",
+  "config": {
+    "epochs": 20,
+    "imgsz": 640,
+    "batch": 8,
+    "device": 0,
+    "optimizer": "AdamW",
+    "lr0": 0.0001,
+    "lrf": 0.1,
+    "cos_lr": true,
+    "weight_decay": 0.0005,
+    "warmup_epochs": 1.0,
+    "amp": false,
+    "seed": 20260929,
+    "deterministic": true,
+    "workers": 2,
+    "nbs": 64,
+    "patience": 8,
+    "degrees": 10,
+    "fliplr": 0.5,
+    "mosaic": 0.0,
+    "close_mosaic": 0,
+    "scale": 0.5,
+    "translate": 0.1,
+    "hsv_h": 0.015,
+    "hsv_s": 0.4,
+    "hsv_v": 0.3,
+    "mixup": 0.0,
+    "plots": true,
+    "save": true,
+    "save_period": -1,
+    "cache": false,
+    "verbose": false,
+    "warmup_bias_lr": 0.0,
+    "resume": false
+  },
+  "initial_checkpoint_sha256": "25a6253ce7520d50d362fdb276e61d25b2f77ec78583d8706cd463f74282b766",
+  "training_final_val": {
+    "overall": {
+      "metrics/precision(B)": 0.9440511897423032,
+      "metrics/recall(B)": 0.9498083006248186,
+      "metrics/mAP50(B)": 0.9701351752822341,
+      "metrics/mAP50-95(B)": 0.8152886807084556,
+      "fitness": 0.8152886807084556
+    },
+    "per_class": [
+      {
+        "class_id": 0,
+        "class_name": "raspberry_pi_5",
+        "ground_truth_boxes": 14,
+        "map50": 0.9826470588235297,
+        "map50_95": 0.8803594053005821
+      },
+      {
+        "class_id": 1,
+        "class_name": "raspberry_pi_4",
+        "ground_truth_boxes": 14,
+        "map50": 0.9550000000000001,
+        "map50_95": 0.8733863636363637
+      },
+      {
+        "class_id": 2,
+        "class_name": "raspberry_pi_other",
+        "ground_truth_boxes": 34,
+        "map50": 0.995,
+        "map50_95": 0.8744892093200918
+      },
+      {
+        "class_id": 3,
+        "class_name": "stm32_other",
+        "ground_truth_boxes": 14,
+        "map50": 0.9695454545454545,
+        "map50_95": 0.7657016317016316
+      },
+      {
+        "class_id": 4,
+        "class_name": "arduino",
+        "ground_truth_boxes": 28,
+        "map50": 0.995,
+        "map50_95": 0.8498506211180125
+      },
+      {
+        "class_id": 5,
+        "class_name": "esp_board",
+        "ground_truth_boxes": 34,
+        "map50": 0.9938888888888888,
+        "map50_95": 0.8876923611111112
+      },
+      {
+        "class_id": 6,
+        "class_name": "jetson",
+        "ground_truth_boxes": 16,
+        "map50": 0.875,
+        "map50_95": 0.6422507936507936
+      },
+      {
+        "class_id": 7,
+        "class_name": "other_board",
+        "ground_truth_boxes": 13,
+        "map50": 0.995,
+        "map50_95": 0.7485790598290598
+      }
+    ]
+  },
+  "peak_cuda_memory_gib": 3.5445261001586914
+}

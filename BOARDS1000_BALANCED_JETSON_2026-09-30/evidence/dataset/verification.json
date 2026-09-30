@@ -1,0 +1,239 @@
+{
+  "boards_v1": {
+    "schema": "boards_ports_verification_v2",
+    "images": {
+      "train": 650,
+      "val": 150,
+      "test": 200
+    },
+    "boxes": {
+      "train": {
+        "raspberry_pi_5": 62,
+        "raspberry_pi_4": 60,
+        "raspberry_pi_other": 147,
+        "stm32_other": 62,
+        "arduino": 123,
+        "esp_board": 149,
+        "jetson": 74,
+        "other_board": 52
+      },
+      "val": {
+        "raspberry_pi_5": 14,
+        "raspberry_pi_4": 14,
+        "raspberry_pi_other": 34,
+        "stm32_other": 14,
+        "arduino": 28,
+        "esp_board": 34,
+        "jetson": 16,
+        "other_board": 13
+      },
+      "test": {
+        "raspberry_pi_5": 19,
+        "raspberry_pi_4": 18,
+        "raspberry_pi_other": 45,
+        "stm32_other": 20,
+        "arduino": 37,
+        "esp_board": 46,
+        "jetson": 25,
+        "other_board": 20
+      }
+    },
+    "label_problems": [],
+    "label_problem_count": 0,
+    "cross_split_near_duplicates": [],
+    "cross_split_near_duplicate_count": 0,
+    "duplicate_distance": 6,
+    "rotation_flip_screening": true,
+    "holdout_near_duplicates": [],
+    "missing_classes_by_split": {
+      "train": [],
+      "val": [],
+      "test": []
+    },
+    "readiness_problems": [],
+    "structure_pass": true,
+    "pass": true,
+    "pass_meaning": "file and leakage checks only; training requires training_ready",
+    "training_ready": true,
+    "dataset_fingerprint": "3120af5994f7494f608b31b59b48833eebee8423408f5a0190f516f6e708ba6f",
+    "class_map_sha256": "7c6ed00977a900b18ed6efa95dab86c853680fdf716f434d1d3ad1c348a34a6c",
+    "holdout_inventory": [
+      {
+        "name": "commons_111935985.jpg",
+        "sha256": "e36254b86df8450cb1c583a64ceb1b806dadacbf832480e9f2607f229b8f79e1"
+      },
+      {
+        "name": "commons_112083087.jpg",
+        "sha256": "faebcb896301dc2c1a82e804c2ae456e2a7412080356dc3a55972b0722240274"
+      },
+      {
+        "name": "commons_112083094.jpg",
+        "sha256": "bd78ed7d960bbace20cf676af0b78fd2def4425a541f106a251db3b6f863484a"
+      },
+      {
+        "name": "commons_112083117.jpg",
+        "sha256": "8377b1f846515ea239b4a64680c4c7e632a1f0107b556d95ca2b794e95bdae2b"
+      },
+      {
+        "name": "commons_112083119.jpg",
+        "sha256": "c931a5ece8025632921e7530c3264de46de5cf9908299c51b05606fc1fa73846"
+      },
+      {
+        "name": "commons_112083120.jpg",
+        "sha256": "a4cf85f26f79b2539555fbcbde6ba18b44ef7d228003a6ee381bc8d37e9db304"
+      },
+      {
+        "name": "commons_112083121.jpg",
+        "sha256": "9fe8362218c59ad1fd6a2e8e5956470ba21e774e23ce3d687a361c5c7c2f2e54"
+      },
+      {
+        "name": "commons_112305535.jpg",
+        "sha256": "40d0657b4f111e45ec384b7dd12e8b88ad63246c78346d6cdc4fc59cdc2ffd68"
+      },
+      {
+        "name": "commons_114604365.jpg",
+        "sha256": "b24d3e8c7b9273eb476a63295e4bba9dd44497cd3ba820b455506520ecade80c"
+      },
+      {
+        "name": "commons_122664660.png",
+        "sha256": "ba8dcdd7c42df1ec229dc8158fded532197a5df8f70abdafad8015662425ef90"
+      },
+      {
+        "name": "commons_144264831.jpg",
+        "sha256": "da015244726abb71bc5597bb8bafde878f92569c22607624e194afb73163b585"
+      },
+      {
+        "name": "commons_144264832.jpg",
+        "sha256": "e3cf7be5f8d8dede4e6a922b1e20c9500c0a7ce0818be3f8fcdbb28684ad4471"
+      },
+      {
+        "name": "commons_144264833.jpg",
+        "sha256": "42328af22ad5967dc92234611dbaceb9ed61380c9bb7118693305178daa27d47"
+      },
+      {
+        "name": "commons_144264841.jpg",
+        "sha256": "10e04cb0beaebc9824e73fadb6f3040540e8372af977d269e6bdbc2c327205eb"
+      },
+      {
+        "name": "commons_144264842.jpg",
+        "sha256": "586e5c50dc77af48d4bc70c8b6e924235fcf08b50cd7ebe3f91ad7845bfc7e22"
+      },
+      {
+        "name": "commons_144264843.jpg",
+        "sha256": "b9b02bcec3555a8307730aea0c19462d5a712c2956662c08da4a56545f195714"
+      },
+      {
+        "name": "commons_145417507.jpg",
+        "sha256": "ad1106d721d10ec47908b6addfcec61de751cdabc9c1408ecfffd3ca77596a62"
+      },
+      {
+        "name": "commons_145417518.jpg",
+        "sha256": "7d99373396a17665e52fb3e684ce3adbd898e5e5928c88c873aeb25aa03c1b9c"
+      },
+      {
+        "name": "commons_145630798.jpg",
+        "sha256": "4c973ccfd670dec311b7450d4c5265e046090ba1c0a5a9a4c3d666658e77730c"
+      },
+      {
+        "name": "commons_149565043.jpg",
+        "sha256": "3f0ad43692a0e37697def19978428135eb5c94c8c6e712a0a19247604d09d8b3"
+      },
+      {
+        "name": "commons_153836405.jpg",
+        "sha256": "a0f4e53d535c0feb83f2c12cf178d06a5547f48d5a090c95180ed04d56a37f8b"
+      },
+      {
+        "name": "commons_159094209.jpg",
+        "sha256": "da14a7d641ac949e80de1508f1a0317c4ec36040f0e951a575036f24a31af2a3"
+      },
+      {
+        "name": "commons_162901180.jpg",
+        "sha256": "0d374a6093f541e4862cc2c8598ecae9933c7406ee1a476fdb275b5ea8263031"
+      },
+      {
+        "name": "commons_178528459.jpg",
+        "sha256": "6b198ae8d2bf27bd458f6a249c8d9ecbd563e42153204b55e6b6b639134f1d4e"
+      },
+      {
+        "name": "commons_178528806.jpg",
+        "sha256": "c322aac2d9137533210da67edcfa5fc8b4b5c36705d4c4afb651623a54a8eac1"
+      },
+      {
+        "name": "commons_47246408.jpg",
+        "sha256": "5eeab78a494196a38abca75f6e0eca85e044ce37675810bbe683a3b50af44126"
+      },
+      {
+        "name": "commons_48775492.jpg",
+        "sha256": "3e89b090e2005144f387a600aa4ce3c1f83384b5b8f01259a6e975c343c31d3a"
+      },
+      {
+        "name": "commons_67172980.png",
+        "sha256": "83fefdf9ab6cc304b7b1c4ea2bf2e29f025a0cb51dff6542fb96fb6cc10c71c5"
+      },
+      {
+        "name": "commons_67172993.png",
+        "sha256": "a13d7590d6fd216e03bc2dd5e77ebda49cb2be9b294cc31dc8bb742d706893d3"
+      },
+      {
+        "name": "commons_67173800.png",
+        "sha256": "4b7aae01291b0aeaef538a5a9894c4d21e93d44e5e5911a77247330611fc2a5d"
+      },
+      {
+        "name": "commons_67384195.png",
+        "sha256": "5ae2b26c7a2b822b63f7738cdc1f07b8087e2a763ff5e5c9019e849f1479f01d"
+      },
+      {
+        "name": "commons_67384198.png",
+        "sha256": "8806c01737ff78c766a8d586d60a3f0d84e6b1a36597cca01a22f9be0505aacf"
+      },
+      {
+        "name": "commons_69660497.jpg",
+        "sha256": "12741d8efb39b6f6812e76ed00a6b1e81801321c51d5f99c7281150ded0a10cd"
+      },
+      {
+        "name": "commons_69775241.jpg",
+        "sha256": "65653ef5522f1f1390e7a74d3ff20ffabae723b5a24fad5241706bcea03cdcfc"
+      },
+      {
+        "name": "commons_75417829.jpg",
+        "sha256": "22ee652dc099c9d640ea4d77afce201915086181f12f9997abb7ec66378395d2"
+      },
+      {
+        "name": "commons_80140656.jpg",
+        "sha256": "f7fb0309acc12b2d186230079f155eaa8d0cb0f8e64c18d7cc1927cd203463e3"
+      },
+      {
+        "name": "commons_80430835.jpg",
+        "sha256": "a4b2c5f2bac4a0f1a1f3ace20e16488c9b7e05b3fa3d3169573e27c3a5783884"
+      },
+      {
+        "name": "commons_86470705.jpg",
+        "sha256": "d1a0e96bd7d90fa7370753eba12d6753d555dd53044a65b7c0cebb2f18547abb"
+      },
+      {
+        "name": "commons_86471022.jpg",
+        "sha256": "c88dd5bbb62a9e4c5d90ae003287e2e278133c6aec6411a4b5a2f8821a50c8e2"
+      },
+      {
+        "name": "commons_86471024.jpg",
+        "sha256": "ba9c301ce3f5e153cfed6e0b2da3c970729f6355a8fb85d1294bde6ff6b4206c"
+      },
+      {
+        "name": "commons_88249711.jpg",
+        "sha256": "a652767047006b1701771c8695b5a4a9cc134686f08282d15b11639df24c9ae4"
+      },
+      {
+        "name": "commons_88249714.jpg",
+        "sha256": "1afccb9f396f3856102c35de014db6fdc7beb839866301201af2542edced62f4"
+      },
+      {
+        "name": "commons_88249722.jpg",
+        "sha256": "44e6b87d8d11d039696ca5cb720d6ad2678f485bd9327727bb9d076ba9a70f17"
+      },
+      {
+        "name": "commons_97431420.png",
+        "sha256": "c1da01c1da0eb0dae1ced20e86ba52d82693f36eefe3e4907cbc6bd7d7a59453"
+      }
+    ]
+  }
+}
