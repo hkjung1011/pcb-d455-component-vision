@@ -107,3 +107,5 @@ Raspberry Pi는 촬영·인식 대상이다. Claude 검토를 원본·코드와 
 
 다음은 실제D455 30장광학파일럿과 별도200장수집·실물/세션분할·검수된4종bbox/mask다. 이 수량은 계획이며 확보된 실적이 아니다. 출처와 라이선스는원자료/R03기록을따르며 비공개보관이추가재배포권한을부여하지않는다.
 
+
+boards1000-finetune-2026-09-30: 원격 Git 파일과 Release 자산을 다시 확인했습니다. [업로드 검증 기록](archive/verification_2026-09-30/boards1000-finetune-2026-09-30_upload_verification.json)

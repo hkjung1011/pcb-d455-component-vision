@@ -1,0 +1,60 @@
+{
+  "verified_at": "2026-09-30T04:29:17.430295+00:00",
+  "pass": true,
+  "repository": "https://github.com/hkjung1011/pcb-d455-component-vision",
+  "tag": "boards1000-finetune-2026-09-30",
+  "artifact_commit": "49bce3a35cd1ee34047089f3ee163d71acea3a67",
+  "remote_git_blob_count": 2846,
+  "all_remote_git_blobs_match_local": true,
+  "release_assets": [
+    {
+      "name": "baseline-best.pt",
+      "size": 19183450,
+      "sha256": "25a6253ce7520d50d362fdb276e61d25b2f77ec78583d8706cd463f74282b766",
+      "server_digest_match": true,
+      "downloaded_hash_match": true,
+      "url": "https://github.com/hkjung1011/pcb-d455-component-vision/releases/download/boards1000-finetune-2026-09-30/baseline-best.pt"
+    },
+    {
+      "name": "BOARDS1000_FINETUNE_FULL_SNAPSHOT.zip",
+      "size": 83866371,
+      "sha256": "21dfb4233f67049d5bf91970250669ca01af7c7e83fd883cec8694ba428e8a29",
+      "server_digest_match": true,
+      "downloaded_hash_match": true,
+      "url": "https://github.com/hkjung1011/pcb-d455-component-vision/releases/download/boards1000-finetune-2026-09-30/BOARDS1000_FINETUNE_FULL_SNAPSHOT.zip"
+    },
+    {
+      "name": "candidate-best.pt",
+      "size": 19178778,
+      "sha256": "fa0b8fb5fc11de748e9d8051b93fc57dde5c6cc34db6167045e3fee9e4912752",
+      "server_digest_match": true,
+      "downloaded_hash_match": true,
+      "url": "https://github.com/hkjung1011/pcb-d455-component-vision/releases/download/boards1000-finetune-2026-09-30/candidate-best.pt"
+    },
+    {
+      "name": "selected-best.pt",
+      "size": 19178778,
+      "sha256": "fa0b8fb5fc11de748e9d8051b93fc57dde5c6cc34db6167045e3fee9e4912752",
+      "server_digest_match": true,
+      "downloaded_hash_match": true,
+      "url": "https://github.com/hkjung1011/pcb-d455-component-vision/releases/download/boards1000-finetune-2026-09-30/selected-best.pt"
+    },
+    {
+      "name": "SHA256SUMS.txt",
+      "size": 354,
+      "sha256": "8f0b2c85a18e15461d8de810e90a86076d316213954cdb626bfa750c75032ee6",
+      "server_digest_match": true,
+      "downloaded_hash_match": true,
+      "url": "https://github.com/hkjung1011/pcb-d455-component-vision/releases/download/boards1000-finetune-2026-09-30/SHA256SUMS.txt"
+    }
+  ],
+  "previous_releases_preserved": [
+    "boards1000-2026-09-30",
+    "r03-2026-09-28",
+    "r04-2026-09-29",
+    "wafer-r01-2026-09-29"
+  ],
+  "release_url": "https://github.com/hkjung1011/pcb-d455-component-vision/releases/tag/boards1000-finetune-2026-09-30",
+  "prepared_snapshot": "BOARDS1000_FINETUNE_2026-09-30",
+  "d455_deployment_performed": false
+}
