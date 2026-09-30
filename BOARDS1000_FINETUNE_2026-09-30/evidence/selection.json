@@ -1,0 +1,27 @@
+{
+  "selection_split": "val",
+  "promoted": true,
+  "overall_ap_gain": 0.010567947129155875,
+  "per_class_ap_gains": {
+    "raspberry_pi_5": -0.011771871755695051,
+    "raspberry_pi_4": 0.019798538961039336,
+    "raspberry_pi_other": 0.011401214820789152,
+    "stm32_other": -0.00010256410256415105,
+    "arduino": -0.006908600433856216,
+    "esp_board": 0.014702317418993083,
+    "jetson": 0.023436507936507867,
+    "other_board": 0.03398803418803409
+  },
+  "policy": {
+    "minimum_overall_ap50_95_gain": 0.005,
+    "maximum_per_class_ap50_95_drop": 0.05,
+    "selection_split": "val",
+    "test_role": "development test; reused from previous experiments",
+    "test_policy": "One candidate test invocation only if the validation promotion gate passes.",
+    "interpretation": "Pragmatic gate on a small reused validation set, not statistical significance. Fresh optimizer and schedule; not an epochs-only ablation."
+  },
+  "selected_checkpoint": "C:\\Users\\hkjun\\Documents\\Codex\\2026-09-29\\iotkits-2-stm32-jpg-iotkits-stm32\\work\\boards1000_finetune20_20260930\\runs\\boards1000_finetune20\\weights\\best.pt",
+  "selected_checkpoint_sha256": "fa0b8fb5fc11de748e9d8051b93fc57dde5c6cc34db6167045e3fee9e4912752",
+  "candidate_checkpoint_sha256": "fa0b8fb5fc11de748e9d8051b93fc57dde5c6cc34db6167045e3fee9e4912752",
+  "baseline_checkpoint_sha256": "25a6253ce7520d50d362fdb276e61d25b2f77ec78583d8706cd463f74282b766"
+}

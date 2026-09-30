@@ -1,0 +1,45 @@
+{
+  "revision": "BOARDS1000_2026-09-30",
+  "status": "TRAINED_AND_DEVELOPMENT_TESTED",
+  "model": "YOLO11s",
+  "task": "8-class board bounding-box detection",
+  "split_images": {
+    "train": 650,
+    "val": 150,
+    "test": 200
+  },
+  "epochs_completed": 50,
+  "best_epoch": 48,
+  "optimizer_steps": 557,
+  "training_seconds": 1069.5469999999987,
+  "test_invocations": 1,
+  "test_map50": 0.8471901311739007,
+  "test_map50_95": 0.7215984613622488,
+  "best_sha256": "25a6253ce7520d50d362fdb276e61d25b2f77ec78583d8706cd463f74282b766",
+  "initial_sha256": "85a76fe86dd8afe384648546b56a7a78580c7cb7b404fc595f97969322d502d5",
+  "dataset_fingerprint": "66284009264318497a8ba16e8d532fc7f7bc0c6c96bdf1d4eae1c3d3525f5922",
+  "nucleo_included": false,
+  "ports_trained": false,
+  "new_model_d455_accuracy_verified": false,
+  "test_role": "development evaluation; previous test 106 + previous val 86 + previous train 8",
+  "release": "https://github.com/hkjung1011/pcb-d455-component-vision/releases/tag/boards1000-2026-09-30",
+  "readme": "BOARDS1000_2026-09-30/README.md",
+  "model_card": "BOARDS1000_2026-09-30/MODEL_CARD.md",
+  "configuration": "BOARDS1000_2026-09-30/CONFIGURATION.md",
+  "evaluation": "BOARDS1000_2026-09-30/evidence/test-evaluation.json",
+  "previous_root_status": "BOARDS1000_2026-09-30/evidence/root_status_before_board_training.json",
+  "preserved_workstreams": {
+    "PCB_R04": "R04/CURRENT_STATUS.json",
+    "WAFER_R01": "WAFER_R01/CURRENT_STATUS.json",
+    "D455_LIVE": "D455_LIVE_2026-09-29/README.md",
+    "BOARDS_PORTS_PREPARATION": "BOARDS_PORTS_PREP_2026-09-29/STATUS.json"
+  },
+  "original_9class_and_ports_preparation": {
+    "revision": "BOARDS_PORTS_PREP_2026-09-29",
+    "status": "BOARDS_PORTS_PREP_2026-09-29/STATUS.json",
+    "readme": "BOARDS_PORTS_PREP_2026-09-29/README.md",
+    "training_executed": false,
+    "boards_training_ready": false,
+    "ports_training_ready": false
+  }
+}

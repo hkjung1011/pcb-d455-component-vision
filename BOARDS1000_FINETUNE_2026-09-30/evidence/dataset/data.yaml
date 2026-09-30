@@ -1,0 +1,13 @@
+path: C:/Users/hkjun/Documents/Codex/2026-09-29/iotkits-2-stm32-jpg-iotkits-stm32/work/boards1000_s650_v150_t200_e50_20260929/datasets/boards_v1
+train: images/train
+val: images/val
+test: images/test
+names:
+  0: raspberry_pi_5
+  1: raspberry_pi_4
+  2: raspberry_pi_other
+  3: stm32_other
+  4: arduino
+  5: esp_board
+  6: jetson
+  7: other_board

@@ -1,0 +1,32 @@
+{
+  "review_split": "train and validation only",
+  "test_inference_executed": false,
+  "data_modified": false,
+  "jetson": {
+    "train_images": 67,
+    "train_boxes": 77,
+    "train_source_groups": 3,
+    "train_subtypes": [
+      "TX2"
+    ],
+    "nano_train_groups": 0,
+    "validation_images": 16,
+    "validation_groups": 2,
+    "validation_subtypes": {
+      "TX2": 14,
+      "Nano": 2
+    },
+    "validation_map50_95": 0.6188142857142858,
+    "observed_issue": "Some TX2 predictions include the connected power cable above the board, reducing localization precision."
+  },
+  "pi5": {
+    "validation_boxes": 14,
+    "validation_map50_95": 0.8921312770562771,
+    "confusion_matrix_pi4_predictions": 4,
+    "confusion_matrix_conf": 0.25,
+    "confusion_matrix_matching_iou": 0.45,
+    "label_review": "No obvious Pi5 label mismatch in inspected validation photos; board silkscreen was visible."
+  },
+  "priority": "Add independently screened Nano/TX2 source scenes and consistent board-only annotations. More epochs cannot supply missing subtype/scene diversity.",
+  "current_experiment": "Bounded low-LR fine-tuning; keep existing groups and data, use validation-only promotion gate."
+}

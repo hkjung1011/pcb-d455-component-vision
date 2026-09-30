@@ -1,0 +1,8 @@
+{
+  "minimum_overall_ap50_95_gain": 0.005,
+  "maximum_per_class_ap50_95_drop": 0.05,
+  "selection_split": "val",
+  "test_role": "development test; reused from previous experiments",
+  "test_policy": "One candidate test invocation only if the validation promotion gate passes.",
+  "interpretation": "Pragmatic gate on a small reused validation set, not statistical significance. Fresh optimizer and schedule; not an epochs-only ablation."
+}

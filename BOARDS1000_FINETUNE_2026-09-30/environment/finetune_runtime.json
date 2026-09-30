@@ -1,0 +1,7 @@
+{
+  "torch": "2.12.1+cu130",
+  "ultralytics": "8.4.120",
+  "gpu": "NVIDIA GeForce RTX 5060 Laptop GPU",
+  "source": "completed fine-tune execution_state.json",
+  "baseline_inventory_scope": "environment/baseline_run is the preceding 50-epoch run inventory, not a fresh environment installation check"
+}

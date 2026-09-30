@@ -1,17 +1,5 @@
 # PCB · 보드 · 웨이퍼 비전 연구 기록
 
-## 2026-09-30 · 보드 1,000장 미세조정 중간 결과
-
-**검증 승격 조건을 통과해 후보 모델을 선택했습니다.** 동일 검증 mAP50–95 **80.41% → 81.46%**, 실제 추가 학습 **13에폭**(최대 20, 후보 best 5). 후보 개발 test는 mAP50 **84.05%**, mAP50–95 **72.43%**이며 선택 고정 후 1회 평가했습니다.
-
-[설정·결과](BOARDS1000_FINETUNE_2026-09-30/README.md) · [선택 근거](BOARDS1000_FINETUNE_2026-09-30/evidence/selection.json) · [복원 안내](BOARDS1000_FINETUNE_2026-09-30/REPRODUCE.md) · [후보·선택 가중치 Release](https://github.com/hkjung1011/pcb-d455-component-vision/releases/tag/boards1000-finetune-2026-09-30)
-
-재사용 개발 test의 Jetson AP50–95는 **30.44% → 19.94%**로 내려갔습니다. 이 결과는 부족한 하위 종류/장면 다양성을 보완할 다음 데이터 실험의 근거로 기록했습니다. 이미 고정한 모델 승격을 test 점수로 뒤집지는 않았습니다.
-
-이 모델은 검증 기준으로 선택한 중간 후보이며 D455 기본 실행 모델로 배포하지 않았습니다. Nano 40장으로 반복 TX2 40장을 교체하는 데이터 보완은 별도의 다음 실험이고, 결과는 아직 확정되지 않았습니다.
-
-데이터 1,000장과 650 / 150 / 200 분할은 [기존 기록](BOARDS1000_2026-09-30/README.md)과 같습니다. 원래 50에폭 모델과 기존 Release를 보존했습니다. 이 실험은 fresh optimizer/schedule의 미세조정이며 에폭 수만 비교하는 대조 실험이 아닙니다. test는 재사용 개발 평가이고 선택은 val에만 근거합니다. Nucleo·포트와 D455 실측은 미검증입니다.
-
 ## 2026-09-30 · 보드 1,000장 50에폭 학습 완료
 
 [GitHub 파일·Release 재다운로드 검증](archive/verification_2026-09-30/boards1000_upload_verification.json) — 코드·문서 2,732개 및 Release 3개 파일의 해시 일치, 기존 Release 3개 보존 확인. 이 검증은 Release를 만든 커밋 기준이다.

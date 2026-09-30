@@ -1,0 +1,31 @@
+{
+  "user_selected_total_images": 1000,
+  "updated_test_target": 200,
+  "split": {
+    "train": 650,
+    "val": 150,
+    "test": 200
+  },
+  "classes": [
+    "raspberry_pi_5",
+    "raspberry_pi_4",
+    "raspberry_pi_other",
+    "stm32_other",
+    "arduino",
+    "esp_board",
+    "jetson",
+    "other_board"
+  ],
+  "max_epochs": 50,
+  "early_stopping_patience": 12,
+  "starting_weights": "official COCO yolo11s.pt; not previous pilot checkpoint",
+  "test_role": "development evaluation; data were used in previous experiments",
+  "test_prior_split_counts": {
+    "test": 106,
+    "val": 86,
+    "train": 8
+  },
+  "selection_policy": "whole groups; preserve previous test groups; optimize class image-count proportions; no model predictions used for assignment",
+  "dataset_fingerprint": "66284009264318497a8ba16e8d532fc7f7bc0c6c96bdf1d4eae1c3d3525f5922",
+  "training_script_sha256": "3083c71c0f428fee1ba07e7ac11c8037230d378a6789359499f5d0c2353a864d"
+}
