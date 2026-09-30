@@ -1,0 +1,53 @@
+{
+  "verified_at": "2026-09-30T04:55:34.875545+00:00",
+  "pass": true,
+  "repository": "https://github.com/hkjung1011/pcb-d455-component-vision",
+  "tag": "boards1000-balanced-jetson-2026-09-30",
+  "artifact_commit": "ad5b1d2bae2f25e4876f8c3e5daa6d2301cd26c4",
+  "remote_git_blob_count": 2961,
+  "all_remote_git_blobs_match_local": true,
+  "release_assets": [
+    {
+      "name": "BOARDS1000_BALANCED_JETSON_FULL_SNAPSHOT.zip",
+      "size": 305136906,
+      "sha256": "4388c975ecd7ee5ee7a123b9ae6336c436d8171efdd92e7be6729ec4c3c83d6b",
+      "server_digest_match": true,
+      "downloaded_hash_match": true,
+      "url": "https://github.com/hkjung1011/pcb-d455-component-vision/releases/download/boards1000-balanced-jetson-2026-09-30/BOARDS1000_BALANCED_JETSON_FULL_SNAPSHOT.zip"
+    },
+    {
+      "name": "candidate-best.pt",
+      "size": 19178586,
+      "sha256": "d226d773f763f2c3e9b04540165fc3b332378784094bb0fb384e8d71f3bba2f2",
+      "server_digest_match": true,
+      "downloaded_hash_match": true,
+      "url": "https://github.com/hkjung1011/pcb-d455-component-vision/releases/download/boards1000-balanced-jetson-2026-09-30/candidate-best.pt"
+    },
+    {
+      "name": "selected-best.pt",
+      "size": 19178778,
+      "sha256": "fa0b8fb5fc11de748e9d8051b93fc57dde5c6cc34db6167045e3fee9e4912752",
+      "server_digest_match": true,
+      "downloaded_hash_match": true,
+      "url": "https://github.com/hkjung1011/pcb-d455-component-vision/releases/download/boards1000-balanced-jetson-2026-09-30/selected-best.pt"
+    },
+    {
+      "name": "SHA256SUMS.txt",
+      "size": 278,
+      "sha256": "e8a51f799267ba2be8748b2d2205413c20736f69884bca82e18d76f46bc65788",
+      "server_digest_match": true,
+      "downloaded_hash_match": true,
+      "url": "https://github.com/hkjung1011/pcb-d455-component-vision/releases/download/boards1000-balanced-jetson-2026-09-30/SHA256SUMS.txt"
+    }
+  ],
+  "previous_releases_preserved": [
+    "boards1000-2026-09-30",
+    "boards1000-finetune-2026-09-30",
+    "r03-2026-09-28",
+    "r04-2026-09-29",
+    "wafer-r01-2026-09-29"
+  ],
+  "release_url": "https://github.com/hkjung1011/pcb-d455-component-vision/releases/tag/boards1000-balanced-jetson-2026-09-30",
+  "prepared_snapshot": "BOARDS1000_BALANCED_JETSON_2026-09-30",
+  "d455_deployment_performed": false
+}

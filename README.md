@@ -123,3 +123,5 @@ Raspberry Pi는 촬영·인식 대상이다. Claude 검토를 원본·코드와 
 
 
 boards1000-finetune-2026-09-30: 원격 Git 파일과 Release 자산을 다시 확인했습니다. [업로드 검증 기록](archive/verification_2026-09-30/boards1000-finetune-2026-09-30_upload_verification.json)
+
+boards1000-balanced-jetson-2026-09-30: 원격 Git 파일과 Release 자산을 다시 확인했습니다. [업로드 검증 기록](archive/verification_2026-09-30/boards1000-balanced-jetson-2026-09-30_upload_verification.json)
