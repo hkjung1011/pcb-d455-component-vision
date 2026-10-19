@@ -1,3 +1,11 @@
+# IC Teacher–Student 연구 프로토콜 추가 · 2026-10-19
+
+[새 IC 학습 프로젝트 안내](research/IC_Teacher_Student/README.md) — 고정 Teacher, 공유 Student 무잡음·열화 경로, L_anchor/L_cons/L_HN의 설계·데이터·ablation 문서입니다. **새 방법의 학습·평가는 미실행**이며 실제 데이터·가중치·결과는 추가하지 않았습니다. 아래 과거 실험 기록과 구분합니다.
+
+이 저장소는 현재 public입니다. 아래 과거 기록의 비공개 표기는 작성 당시 설명이며 현재 접근제어를 뜻하지 않습니다.
+
+---
+
 # PCB · 보드 · 웨이퍼 비전 연구 기록
 
 ## 2026-09-30 · Jetson 학습 자료 보완 결과

@@ -1,0 +1,129 @@
+{
+  "protocol_id": "pcb-ic-ts-draft-v01",
+  "status": "DRAFT_NOT_TRAINING_READY",
+  "date": "2026-10-19",
+  "task": "single_class_ic_bbox_detection",
+  "model": "YOLO11s",
+  "teacher": {
+    "update": "frozen",
+    "mode": "eval",
+    "checkpoint_sha256": null
+  },
+  "student": {
+    "shared_clean_corrupt_weights": true,
+    "initialize_from_teacher": true,
+    "batch_norm": "frozen_running_stats_and_affine_for_all_student_arms"
+  },
+  "data": {
+    "manifest": null,
+    "license_review": "REQUIRED",
+    "split_unit": "globally_unique_board_session_union_group",
+    "split_seed": "pcb-ic-ts-v01",
+    "split_sha256_thresholds_percent": [
+      70,
+      85
+    ],
+    "test_access": "SEALED_UNTIL_FREEZE",
+    "class_names": [
+      "IC"
+    ]
+  },
+  "geometry": {
+    "canvas": [
+      640,
+      640
+    ],
+    "letterbox_fill_rgb": [
+      114,
+      114,
+      114
+    ],
+    "flip": false,
+    "mosaic": false,
+    "mixup": false,
+    "crop": false
+  },
+  "corruption": {
+    "domain": "float32_rgb_0_1",
+    "resize_interpolation": "bilinear_antialias_true_align_corners_false",
+    "downsample_scale": [
+      1.0,
+      0.5,
+      0.25
+    ],
+    "gaussian_sigma": [
+      0.0,
+      0.02,
+      0.05
+    ],
+    "train_grid": "cartesian_uniform_9_conditions",
+    "clip": [
+      0.0,
+      1.0
+    ],
+    "train_rng": "sha256(seed|epoch|image_id|visit_index|stream)_first8bytes_big_endian",
+    "eval_rng": "sha256(eval_seed|image_id|scale|sigma|noise)_first8bytes_big_endian",
+    "implementation": "TODO_PIN_LIBRARY_VERSION_AND_REFERENCE_OUTPUT",
+    "rng_streams": [
+      "select",
+      "noise"
+    ],
+    "rng_generator": "torch_cpu_generator_float32"
+  },
+  "loss": {
+    "det_clean_weight": 0.5,
+    "det_corrupt_weight": 0.5,
+    "lambda_anchor": 1.0,
+    "lambda_cons": 1.0,
+    "lambda_hn": 1.0,
+    "anchor_teacher_threshold": 0.5,
+    "anchor_temperature": 1.0,
+    "roi_level": "P3",
+    "roi_output_size": [
+      7,
+      7
+    ],
+    "cosine_eps": 1e-06,
+    "hard_negative_score_min": 0.25,
+    "hard_negative_max_gt_iou": 0.1,
+    "hard_negative_top_k_per_image": 100,
+    "all_values": "DRAFT_UNTUNED"
+  },
+  "training": {
+    "seeds_planned": [
+      17,
+      29,
+      43
+    ],
+    "optimizer": null,
+    "learning_rate": null,
+    "batch_size": null,
+    "optimizer_updates": null,
+    "early_stopping": false,
+    "selection": "validation_only",
+    "runtime_lock": null,
+    "readiness": "BLOCKED_ON_DATA_MODEL_ADAPTER_AND_RUNTIME_FREEZE"
+  },
+  "evaluation": {
+    "main_metric": "bbox_AP50_95",
+    "iou_thresholds": [
+      0.5,
+      0.55,
+      0.6,
+      0.65,
+      0.7,
+      0.75,
+      0.8,
+      0.85,
+      0.9,
+      0.95
+    ],
+    "operating_iou": 0.5,
+    "clean_ap_noninferiority_margin_pp": 1.0,
+    "confidence_threshold": null,
+    "nms_iou": null,
+    "max_det": null,
+    "eval_seed": "pcb-ic-ts-eval-v01",
+    "target_fps_hardware": null
+  }
+}

@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1770" viewBox="0 0 1600 1770" role="img" aria-labelledby="title description">
+  <title id="title">PCB IC 검출 Teacher–Student 학습 흐름도</title>
+  <desc id="description">고정 Teacher와 clean 및 noisy 입력에 동일 가중치를 공유하는 Student를 사용한다. 기본 검출 손실, Teacher sigmoid soft-target BCE인 L_anchor, GT 좌표 P3 ROIAlign 특징의 stop-gradient cosine 손실 L_cons, 완전 라벨 train의 hard negative 손실 L_HN을 합쳐 Student만 갱신한다. 추론은 Student 하나를 사용한다. 제안 상태이며 구현과 학습을 수행하지 않았다.</desc>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 Z" fill="#718392"/>
+    </marker>
+    <style>
+      text { font-family: 'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif; fill:#253746; }
+      .title { font-size:38px; font-weight:700; fill:#183b56; }
+      .section { font-size:25px; font-weight:700; fill:#183b56; }
+      .head { font-size:25px; font-weight:700; }
+      .body { font-size:22px; }
+      .small { font-size:19px; }
+      .tiny { font-size:17px; }
+      .white { fill:#ffffff; }
+      .center { text-anchor:middle; }
+      .box { fill:#ffffff; stroke:#a8b4bf; stroke-width:2; }
+      .light { fill:#f3f6f8; stroke:#a8b4bf; stroke-width:2; }
+      .dark { fill:#183b56; stroke:#183b56; stroke-width:2; }
+      .wire { fill:none; stroke:#718392; stroke-width:2.5; marker-end:url(#arrow); }
+      .link { fill:none; stroke:#a8b4bf; stroke-width:2.3; stroke-dasharray:7 6; }
+      .merge { fill:none; stroke:#718392; stroke-width:2.5; }
+    </style>
+  </defs>
+  <rect width="1600" height="1770" fill="#ffffff"/>
+  <text x="60" y="63" class="title">PCB IC 검출 Teacher–Student 학습 흐름도</text>
+  <text x="60" y="106" class="body">제안 명세 · 고정 기준 모델 + clean/noisy 일관성 + 어려운 배경 후보 억제</text>
+  <text x="1540" y="105" text-anchor="end" class="small">2026-10-19 · 초안 v01</text>
+
+  <rect x="40" y="145" width="1520" height="1270" rx="20" class="box"/>
+  <text x="65" y="184" class="section">학습 단계</text>
+  <text x="1530" y="183" text-anchor="end" class="small">PLANNED · NOT_IMPLEMENTED · NOT_RUN</text>
+
+  <rect x="500" y="215" width="600" height="105" rx="14" class="light"/>
+  <text x="800" y="253" class="head center">train PCB 영상 + IC 정답 박스 + ignore 영역</text>
+  <text x="800" y="287" class="body center">같은 기하 변환 · 640×640 canvas · 정답 좌표 공유</text>
+  <path d="M800 320 V345 H565 V370" class="wire"/>
+  <path d="M800 320 V345 H1105 V370" class="wire"/>
+
+  <rect x="390" y="370" width="350" height="95" rx="13" class="light"/>
+  <text x="565" y="407" class="head center">clean 입력 x_c</text>
+  <text x="565" y="440" class="small center">추가 해상도 저하·잡음 없음</text>
+  <rect x="930" y="370" width="350" height="95" rx="13" class="light"/>
+  <text x="1105" y="407" class="head center">noisy 입력 x_n</text>
+  <text x="1105" y="440" class="small center">축소 → 640 복원 → Gaussian 잡음</text>
+
+  <path d="M390 418 H250 V530" class="wire"/>
+  <path d="M565 465 V570" class="wire"/>
+  <path d="M1105 465 V500 H1215 V570" class="wire"/>
+
+  <rect x="80" y="530" width="340" height="125" rx="14" class="dark"/>
+  <text x="250" y="567" class="head white center">고정 Teacher f_θ₀</text>
+  <text x="250" y="603" class="body white center">clean 기준 checkpoint</text>
+  <text x="250" y="634" class="small white center">eval · no_grad · EMA 없음</text>
+
+  <rect x="500" y="500" width="1000" height="205" rx="16" class="light"/>
+  <text x="1000" y="538" class="head center">공유 Student f_θ — 가중치 하나로 두 번 순전파</text>
+  <rect x="540" y="570" width="410" height="95" rx="12" class="dark"/>
+  <text x="745" y="609" class="head white center">Student clean 경로</text>
+  <text x="745" y="642" class="body white center">logits · 박스 · P3 특징</text>
+  <rect x="1010" y="570" width="410" height="95" rx="12" class="dark"/>
+  <text x="1215" y="609" class="head white center">Student noisy 경로</text>
+  <text x="1215" y="642" class="body white center">logits · 박스 · P3 특징</text>
+  <path d="M950 618 H1010" class="link"/>
+  <text x="1000" y="689" class="small center">θ₀에서 초기화 · clean → noisy 순서 · 중간 가중치 갱신 없음</text>
+
+  <path d="M250 655 V835" class="wire"/>
+  <path d="M565 665 V760 H350 V835" class="wire"/>
+  <path d="M620 705 V835" class="wire"/>
+  <path d="M1000 705 V835" class="wire"/>
+  <path d="M1380 705 V835" class="wire"/>
+  <text x="620" y="797" class="small center">clean / noisy 특징</text>
+  <text x="1000" y="797" class="small center">clean / noisy 검출</text>
+  <text x="1380" y="797" class="small center">noisy 예측 + GT/ignore</text>
+
+  <rect x="50" y="835" width="340" height="230" rx="14" class="box"/>
+  <text x="220" y="875" class="head center">L_anchor</text>
+  <text x="220" y="917" class="body center">Teacher → Student clean</text>
+  <text x="220" y="954" class="small center">동일 위치 sigmoid soft-target BCE</text>
+  <text x="220" y="989" class="small center">T=1 · Teacher score ≥ 0.5</text>
+  <text x="220" y="1032" class="small center">고정 clean 기준의 예측 유지</text>
+
+  <rect x="450" y="835" width="340" height="230" rx="14" class="box"/>
+  <text x="620" y="875" class="head center">L_cons</text>
+  <text x="620" y="917" class="body center">GT 좌표 기준 ROIAlign</text>
+  <text x="620" y="954" class="small center">P3 · 7×7 → 공간 평균</text>
+  <text x="620" y="989" class="small center">clean 특징만 stopgrad</text>
+  <text x="620" y="1032" class="small center">cosine distance · eps=1e−6</text>
+
+  <rect x="850" y="835" width="300" height="230" rx="14" class="box"/>
+  <text x="1000" y="875" class="head center">기본 검출 손실</text>
+  <text x="1000" y="927" class="body center">L_det_clean</text>
+  <text x="1000" y="962" class="body center">+ L_det_noisy</text>
+  <text x="1000" y="1003" class="small center">공유 IC 정답 박스 사용</text>
+  <text x="1000" y="1032" class="small center">합손실에서 0.5배 평균</text>
+
+  <rect x="1210" y="835" width="340" height="230" rx="14" class="box"/>
+  <text x="1380" y="875" class="head center">L_HN</text>
+  <text x="1380" y="917" class="small center">완전 라벨 train · ignore 제외</text>
+  <text x="1380" y="954" class="small center">score ≥ 0.25 · GT IoU ≤ 0.1</text>
+  <text x="1380" y="989" class="small center">pre-NMS top-100 · 중복 유지</text>
+  <text x="1380" y="1032" class="small center">어려운 배경 후보의 class BCE</text>
+
+  <path d="M220 1065 V1110 H800 V1155" class="wire"/>
+  <path d="M620 1065 V1110" class="merge"/>
+  <path d="M1000 1065 V1110 H800" class="merge"/>
+  <path d="M1380 1065 V1110 H800" class="merge"/>
+  <rect x="200" y="1155" width="1200" height="125" rx="16" class="light"/>
+  <text x="800" y="1190" class="head center">합손실</text>
+  <text x="800" y="1227" class="body center">L_total = 0.5 × (L_det_clean + L_det_noisy)</text>
+  <text x="800" y="1261" class="body center">+ λ_anchor L_anchor + λ_cons L_cons + λ_HN L_HN</text>
+  <path d="M800 1280 V1320" class="wire"/>
+  <rect x="425" y="1320" width="750" height="65" rx="13" class="dark"/>
+  <text x="800" y="1361" class="head white center">Student θ만 한 번 갱신 · Teacher θ₀는 고정</text>
+
+  <text x="60" y="1450" class="small">λ_anchor = λ_cons = λ_HN = 1.0 — 초안 기본값·미조정 / 구현·학습·성능 검증 미수행</text>
+  <rect x="40" y="1480" width="1520" height="215" rx="20" class="box"/>
+  <text x="65" y="1520" class="section">추론 단계</text>
+  <text x="1530" y="1520" text-anchor="end" class="small">학습 구현·실행 후 사용할 구성</text>
+  <rect x="90" y="1560" width="300" height="90" rx="13" class="light"/>
+  <text x="240" y="1613" class="head center">추론용 PCB 영상</text>
+  <path d="M390 1605 H570" class="wire"/>
+  <rect x="570" y="1560" width="460" height="90" rx="13" class="dark"/>
+  <text x="800" y="1597" class="head white center">학습한 Student 하나</text>
+  <text x="800" y="1630" class="small white center">Teacher·ROIAlign·학습 손실 제외</text>
+  <path d="M1030 1605 H1200" class="wire"/>
+  <rect x="1200" y="1560" width="310" height="90" rx="13" class="light"/>
+  <text x="1355" y="1613" class="head center">IC 박스 + 검출 점수</text>
+  <text x="60" y="1733" class="tiny">공개 도식 · 사진·실제 데이터·가중치·실험 수치·개인정보 없음 · pcb-ic-ts-draft-v01</text>
+</svg>
